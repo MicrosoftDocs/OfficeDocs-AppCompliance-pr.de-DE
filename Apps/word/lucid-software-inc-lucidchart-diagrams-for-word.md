@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart-Diagramme für Word, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2ec9660e94a0efb0f1cd30e3996f3aba27acd5f5
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 9519dbcb549d7860856e6c310f68da8afad86819
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093453"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251564"
 ---
 # <a name="lucidchart-diagrams-for-word"></a>Lucidchart-Diagramme für Word
 

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Viima, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum #A0 sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0dd5335241784734bcc4500d99b71a32877692d0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6eb343050b2555377859251c8777ff974515e6ae
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096273"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252235"
 ---
 # <a name="viima"></a>Viima
 
@@ -34,7 +35,7 @@ Informationen, die von Viima Solutions Oy an Microsoft bereitgestellt werden:
 | App-Name | Viima |
 | ID | WA200001589 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Viima Solutions Oy |
 | URL der Partnerwebsite | [https://www.viima.com/](https://www.viima.com/) |
 | URL Teams Anwendungsinfoseite | [https://www.viima.com/product](https://www.viima.com/product) |
@@ -125,11 +126,11 @@ Diese Informationen wurden von Viima Solutions Oy darüber bereitgestellt, wie d
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,
-<br />
-- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich
-<br />
-- Ablauf der Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers | | Macht Ihre App Web-APIs verfügbar? | Ja | | Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja | | Verwendet Ihre App Vorschau-APIs? | Keine | | Verwendet Ihre App veraltete APIs? | Keine |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/>– Fluss mit Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers |
+| Macht Ihre App Web-APIs verfügbar? | Ja |
+| Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

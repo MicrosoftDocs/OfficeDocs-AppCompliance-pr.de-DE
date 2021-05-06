@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Live Chat, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 94f0df2b58314e1e87d8301780d7ec08aba0dcc1
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 3ca3e62c7f1a2e5a8b6aa1ad80427f7ac6c393bc
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093238"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251114"
 ---
 # <a name="live-chat"></a>Live Chat
 
@@ -34,7 +35,7 @@ Von Social Intents an Microsoft bereitgestellte Informationen:
 | App-Name | Live Chat |
 | ID | WA200000440 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Social Intents |
 | URL der Partnerwebsite | [https://www.socialintents.com](https://www.socialintents.com) |
 | URL der Datenschutzrichtlinie | [https://www.socialintents.com/privacy.html](https://www.socialintents.com/privacy.html) |

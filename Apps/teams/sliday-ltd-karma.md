@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Karma, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d76ae661f25980b12ef5db6dff5a1253e77cc2f7
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f8d4c9fdb00dbf16007ca1840aa210ad795dfa61
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093266"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251134"
 ---
 # <a name="karma"></a>Karma
 
@@ -34,7 +35,7 @@ Von Sliday LTD an Microsoft bereitgestellte Informationen:
 | App-Name | Karma |
 | ID | WA104381640 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Sliday LTD |
 | URL der Partnerwebsite | [https://karmabot.chat/ms](https://karmabot.chat/ms) |
 | URL Teams Anwendungsinfoseite | [https://karmabot.readme.io/](https://karmabot.readme.io/) |

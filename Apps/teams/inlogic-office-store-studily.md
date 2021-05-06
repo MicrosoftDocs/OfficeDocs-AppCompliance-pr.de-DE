@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/24/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Studi.ly, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a98cb1645d52c3a7373671ac1e11c808c7937e70
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e01185ce576f7326ddde227949c1dbbe1dfff583
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095017"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251354"
 ---
 # <a name="studily"></a>Studi.ly
 
@@ -34,7 +35,7 @@ Von inLogic-Office Store an Microsoft bereitgestellte Informationen:
 | App-Name | Studi.ly |
 | ID | WA200001668 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | inLogic-Office Store |
 | URL der Partnerwebsite | [https://www.studi.ly](https://www.studi.ly) |
 | URL der Datenschutzrichtlinie | [https://www.studi.ly/Studily_Privacy_Statement.pdf](https://www.studi.ly/Studily_Privacy_Statement.pdf) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für IndustryIntel, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5df1507dd84efcf8229024c57282f356d7105398
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 667a8680991551e79b9be5ae404c660e4ed72092
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095034"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251364"
 ---
 # <a name="industryintel"></a>IndustryIntel
 
@@ -34,7 +35,7 @@ Informationen, die vom Industry Intelligence Team an Microsoft bereitgestellt we
 | App-Name | IndustryIntel |
 | ID | WA200001907 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Industry Intelligence Team |
 | URL der Partnerwebsite | [https://www.industryintel.com/public:about-us/our-team](https://www.industryintel.com/public:about-us/our-team) |
 | URL der Datenschutzrichtlinie | [https://www.industryintel.com/public:legal/privacy-policy-m...](https://www.industryintel.com/public:legal/privacy-policy-msteams) |

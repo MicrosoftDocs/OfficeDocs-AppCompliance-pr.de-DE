@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sensei Labs-Leiter, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e0e5e336e1aa94e5e0b6dcab7065cc93480b58fb
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: ffd6ee1cb07085f88e191bbf3e7eb14a2ed9b0fa
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093270"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252315"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -34,7 +35,7 @@ Informationen, die von Sensei Labs Inc. an Microsoft bereitgestellt werden:
 | App-Name | Sensei Labs Conductor |
 | ID | WA200001951 |
 | Funktionen | Bot, Registerkarte, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Sensei Labs Inc. |
 | URL der Partnerwebsite | [https://www.senseilabs.com/conductor/?utm_campaign=msftteam...](https://www.senseilabs.com/conductor/?utm_campaign=msftteamslaunch&amp;utm_source=teamsappsource&amp;utm_medium=createdby&amp;utm_content=conductorlink) |
 | URL Teams Anwendungsinfoseite | [N/A](N/A) |
@@ -132,11 +133,11 @@ Diese Informationen wurden von Sensei Labs Inc. darüber bereitgestellt, wie die
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,
-<br />
-- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich
-<br />
-- Ablauf der Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers | | Macht Ihre App Web-APIs verfügbar? | Ja | | Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja | | Verwendet Ihre App Vorschau-APIs? | Keine | | Verwendet Ihre App veraltete APIs? | Keine |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/>– Fluss mit Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers |
+| Macht Ihre App Web-APIs verfügbar? | Ja |
+| Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

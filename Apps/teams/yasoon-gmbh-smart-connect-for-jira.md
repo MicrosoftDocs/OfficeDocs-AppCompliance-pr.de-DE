@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/22/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Smart Verbinden für Jira, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f0e3091eab95575c3a8ecc1c977d71fc29c4cbab
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 523d22f08ed48e7947f9023a284db0c2bde53fc9
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093525"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251644"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -34,7 +35,7 @@ Informationen, die von der yasoon GmbH an Microsoft bereitgestellt werden:
 | App-Name | Smart Connect for Jira |
 | ID | WA200002055 |
 | Funktionen | Bot, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | yasoon GmbH |
 | URL der Partnerwebsite | [https://yasoon.com](https://yasoon.com) |
 | URL Teams Anwendungsinfoseite | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
@@ -137,11 +138,10 @@ Diese Informationen wurden von der yasoon GmbH darüber bereitgestellt, wie dies
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,
-<br />
-- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich
-<br />
-- Ablauf der Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers | | Macht Ihre App Web-APIs verfügbar? | Keine | | Verwendet Ihre App Vorschau-APIs? | Ja | | Verwendet Ihre App veraltete APIs? | Keine |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/>– Fluss mit Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Verwendet Ihre App Vorschau-APIs? | Ja |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

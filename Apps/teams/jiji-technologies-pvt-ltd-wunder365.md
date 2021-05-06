@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/15/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0b981fe705d94b5a87414ce2c12b7cafec4c97f1
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: cc45a6f48bf869c1f3f0e39f060bdbbd48df8717
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094997"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251344"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -34,7 +35,7 @@ Informationen, die von JiJi Technologies Pvt Ltd an Microsoft bereitgestellt wer
 | App-Name | Wunder365 |
 | ID | WA200000742 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | JiJi Technologies Pvt Ltd |
 | URL der Partnerwebsite | [https://www.wunder365.com](https://www.wunder365.com) |
 | URL Teams Anwendungsinfoseite | [https://www.wunder365.com/wunder365-for-office](https://www.wunder365.com/wunder365-for-office) |
@@ -139,11 +140,10 @@ Diese Informationen wurden von JiJi Technologies Pvt Ltd darüber bereitgestellt
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,
-<br />
-- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich
-<br />
-- Ablauf der Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers | | Macht Ihre App Web-APIs verfügbar? | Keine | | Verwendet Ihre App Vorschau-APIs? | Ja | | Verwendet Ihre App veraltete APIs? | Keine |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/>– Fluss mit Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Verwendet Ihre App Vorschau-APIs? | Ja |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

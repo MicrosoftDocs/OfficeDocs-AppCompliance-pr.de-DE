@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Retro, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum #A0 sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 35a2849b5a9db58f3bda375b5fde1f2b39204780
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 0aa4d73311b10112ef62b2caf5219d1346eafeaa
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095517"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250833"
 ---
 # <a name="retro"></a>Retro
 
@@ -34,7 +35,7 @@ Informationen, die von Baltic Amadeus an Microsoft bereitgestellt werden:
 | App-Name | Retro |
 | ID | WA200001892 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Baltic Amadeus |
 | URL der Partnerwebsite | [https://www.ba.lt/en/](https://www.ba.lt/en/) |
 | URL der Datenschutzrichtlinie | [https://retro.ba.lt/privacypolicy](https://retro.ba.lt/privacypolicy) |

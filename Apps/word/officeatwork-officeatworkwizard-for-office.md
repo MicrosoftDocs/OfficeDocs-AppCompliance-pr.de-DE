@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/08/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Assistent für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum #A0 sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dcd6d430aa4c0433ba906a780173e95894a5ce6a
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 8e60c8a059618fd8cd4ab0bebb7b5241b64a25ac
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096185"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251534"
 ---
 # <a name="officeatwork--wizard-for-office"></a>officeatwork | Assistent für Office
 
@@ -142,11 +143,10 @@ Diese Informationen wurden von officeatwork darüber bereitgestellt, wie diese A
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,
-<br />
-- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich
-<br />
-- Ablauf der Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers | | Macht Ihre App Web-APIs verfügbar? | Keine | | Verwendet Ihre App Vorschau-APIs? | Keine | | Verwendet Ihre App veraltete APIs? | Keine |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/>– Fluss mit Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

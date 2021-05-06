@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den virtuellen Agent jetzt, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c6cc9da641b2e1f03aee7b23b0bae5312793cc80
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 71d40e92b298a8bbb35e6c3fd9fb2acb4e3d5f05
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096129"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252295"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -34,7 +35,7 @@ Von ServiceNow an Microsoft bereitgestellte Informationen:
 | App-Name | Now Virtual Agent |
 | ID | WA104381816 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | ServiceNow |
 | URL der Partnerwebsite | [https://www.servicenow.com/](https://www.servicenow.com/) |
 | URL Teams Anwendungsinfoseite | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |

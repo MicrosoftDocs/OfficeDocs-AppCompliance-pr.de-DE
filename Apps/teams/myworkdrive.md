@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/13/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MyWorkDrive, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ff7c7e43f3927a3e6240208abc8568f283036991
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 389ebbea2d3faf1303f282bfb1d4805a749c13b9
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093313"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251214"
 ---
 # <a name="myworkdrive"></a>MyWorkDrive
 
@@ -34,7 +35,7 @@ Von MyWorkDrive an Microsoft bereitgestellte Informationen:
 | App-Name | MyWorkDrive |
 | ID | WA200002325 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | MyWorkDrive |
 | URL der Partnerwebsite | [https://www.myworkdrive.com](https://www.myworkdrive.com) |
 | URL Teams Anwendungsinfoseite | [https://www.myworkdrive.com/support/myworkdrive-teams-integ...](https://www.myworkdrive.com/support/myworkdrive-teams-integration/) |

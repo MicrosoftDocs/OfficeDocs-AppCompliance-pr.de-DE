@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/10/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für elmah.io, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 691606eab82f1560f8363dd0e0741040ba6a9eec
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fbb868a75eaa0d3df33587276bf1a59ce68a071d
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095267"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250723"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -34,7 +35,7 @@ Von microsoft elmah.io bereitgestellte Informationen:
 | App-Name | elmah.io |
 | ID | WA104381965 |
 | Funktionen | Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | elmah.io |
 | URL der Partnerwebsite | [https://elmah.io](https://elmah.io) |
 | URL Teams Anwendungsinfoseite | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |

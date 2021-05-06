@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 10/12/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Fusion Remote, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 61e5b18aeae4dfb2e36b6110d64ab2c3d863487f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 9788339a2d133a07235f59047095835484ce3fc0
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094977"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251334"
 ---
 # <a name="fusion-remote"></a>Fusion Remote
 
@@ -34,7 +35,7 @@ Von Jujo Inc. an Microsoft bereitgestellte Informationen:
 | App-Name | Fusion Remote |
 | ID | WA200001422 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Jujo Inc. |
 | URL der Partnerwebsite | [https://www.jujotech.com](https://www.jujotech.com) |
 | URL der Datenschutzrichtlinie | [https://www.jujotech.com/privacy-policy](https://www.jujotech.com/privacy-policy) |

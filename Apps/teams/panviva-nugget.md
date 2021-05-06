@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 10/12/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Nugget, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 17eace1be8bdb102c76e72170fbfeca86519becc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: d64477546191bbcfff12580f2b5816070d443229
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093302"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251184"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -34,7 +35,7 @@ Von Panviva an Microsoft bereitgestellte Informationen:
 | App-Name | Nugget |
 | ID | WA200001737 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Panviva |
 | URL der Partnerwebsite | [https://www.panviva.com](https://www.panviva.com) |
 | URL der Datenschutzrichtlinie | [https://www.panviva.com/privacy-policy](https://www.panviva.com/privacy-policy) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 06/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für atSpoke, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b3c5c511fb7f74c9e2e7217ae10508b4ce560842
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 14f44eb8a74cde9a7803e079e561f93f0391561b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093579"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248063"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -34,7 +35,7 @@ Informationen, die von Der Stadt,Street Labs, Inc. an Microsoft bereitgestellt w
 | App-Name | atSpoke |
 | ID | WA200001454 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Townsend Street Labs, Inc. |
 | URL der Partnerwebsite | [https://www.atspoke.com](https://www.atspoke.com) |
 | URL der Datenschutzrichtlinie | [https://www.atspoke.com/privacy-policy/](https://www.atspoke.com/privacy-policy/) |

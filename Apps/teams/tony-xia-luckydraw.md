@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 07/21/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für LuckyDraw, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9b37d6e8730580ad04b69061587038957a85a2d4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: c2be17a1122ef5f0badf2cd5025770cd6e988b83
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093584"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251024"
 ---
 # <a name="luckydraw"></a>LuckyDraw
 
@@ -34,7 +35,7 @@ Von Tony Xia an Microsoft bereitgestellte Informationen:
 | App-Name | LuckyDraw |
 | ID | WA200000091 |
 | Funktionen | Bot, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Tony Xia |
 | URL der Partnerwebsite | [https://luckydraw.teetee365.com](https://luckydraw.teetee365.com) |
 | URL Teams Anwendungsinfoseite | [https://luckydraw4web4prd.z7.web.core.windows.net/](https://luckydraw4web4prd.z7.web.core.windows.net/) |

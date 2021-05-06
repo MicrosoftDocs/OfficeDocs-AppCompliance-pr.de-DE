@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/10/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die SkyPoint Cloud, ihre Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 80339fe31cdede2338402642baea596efc5369d8
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 99b5a7cf3c749e7a8d8ca5742eac7f8b81185bc1
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096110"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252275"
 ---
 # <a name="skypoint-cloud"></a>SkyPoint Cloud
 
@@ -34,7 +35,7 @@ Informationen, die von SkyPoint Cloud Inc. an Microsoft bereitgestellt werden:
 | App-Name | SkyPoint Cloud |
 | ID | WA200002580 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | SkyPoint Cloud Inc. |
 | URL der Partnerwebsite | [https://skypointcloud.com/](https://skypointcloud.com/) |
 | URL Teams Anwendungsinfoseite | [https://skypointcloud.com/platform/](https://skypointcloud.com/platform/) |
@@ -123,11 +124,10 @@ Diese Informationen wurden von SkyPoint Cloud Inc. darüber bereitgestellt, wie 
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,
-<br />
-- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich
-<br />
- | | Macht Ihre App Web-APIs verfügbar? | Keine | | Verwendet Ihre App Vorschau-APIs? | Keine | | Verwendet Ihre App veraltete APIs? | Keine |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

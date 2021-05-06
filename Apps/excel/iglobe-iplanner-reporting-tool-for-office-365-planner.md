@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das iPlanner-Berichterstellungstool für Office 365 Planner, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d6416261759acca5b77c6307c2267d11dd8eea4f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: c03fa88d76dc00da911841512bb209742dbc5d2e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093417"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251484"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>iPlanner-Berichtstool für Office 365 Planner
 

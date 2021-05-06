@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/16/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sympli, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 47c73c92972d52b264cd1b7d81ef0ddd9d8d3538
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 06fc9e2b8454c39e5cc93d1cd39932e8bf972e96
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093230"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248343"
 ---
 # <a name="sympli"></a>Sympli
 
@@ -34,7 +35,7 @@ Von Sympli, LLC an Microsoft bereitgestellte Informationen:
 | App-Name | Sympli |
 | ID | WA200001551 |
 | Funktionen | Bot, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Sympli, LLC |
 | URL der Partnerwebsite | [https://sympli.io](https://sympli.io) |
 | URL Teams Anwendungsinfoseite | [https://help.sympli.io/en/articles/3931575-using-microsoft-...](https://help.sympli.io/en/articles/3931575-using-microsoft-teams-with-sympli-handoff) |

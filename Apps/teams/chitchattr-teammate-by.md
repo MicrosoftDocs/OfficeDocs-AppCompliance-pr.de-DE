@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/11/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TeamMate by ChitChattr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e32aa7775d458594486446a7c2e92fbf6d3cb37d
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: a3f790a64d4c99dbd4ee1c5d1d673dd054e9241a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095414"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250793"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -34,7 +35,7 @@ Von ChitChattr an Microsoft bereitgestellte Informationen:
 | App-Name | TeamMate by ChitChattr |
 | ID | WA200002530 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | ChitChattr |
 | URL der Partnerwebsite | [https://www.chitchattr.com?p=teammate](https://www.chitchattr.com?p=teammate) |
 | URL Teams Anwendungsinfoseite | [https://www.chitchattr.com/teammate/](https://www.chitchattr.com/teammate/) |

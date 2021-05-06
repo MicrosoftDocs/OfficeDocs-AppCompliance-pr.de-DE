@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SurveyMonkey, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 49ebbd4aa51a1b67cc8fa99b4107fce04f23e009
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: c9b4f40ab870844e403a1dc3c70a4535a3541190
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093237"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248293"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -34,7 +35,7 @@ Von SurveyMonkey an Microsoft bereitgestellte Informationen:
 | App-Name | SurveyMonkey |
 | ID | WA104381088 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | SurveyMonkey |
 | URL der Partnerwebsite | [https://www.surveymonkey.com](https://www.surveymonkey.com) |
 | URL Teams Anwendungsinfoseite | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |

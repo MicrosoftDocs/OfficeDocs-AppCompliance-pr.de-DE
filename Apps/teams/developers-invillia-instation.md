@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für InStation, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 942790109cfa1493954f50be11e15ee36dbf2af2
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7185027c5fe21b388076d5fd655e3d9240905e25
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095317"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250753"
 ---
 # <a name="instation"></a>InStation
 
@@ -34,7 +35,7 @@ Informationen, die von Developers Invillia an Microsoft bereitgestellt werden:
 | App-Name | InStation |
 | ID | WA200001701 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Developers Invillia |
 | URL der Partnerwebsite | [https://instation.invillia.com/](https://instation.invillia.com/) |
 | URL der Datenschutzrichtlinie | [https://instation.invillia.com/terms#privacy-policy](https://instation.invillia.com/terms#privacy-policy) |

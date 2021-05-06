@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/13/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für EngageWith, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c987e92b71d50c09248e50831899c9cf35cac605
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 42896bd4a2cd23ee5b5bff2f8236ddacabc56a3f
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096070"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248353"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -34,7 +35,7 @@ Von SpringRole an Microsoft bereitgestellte Informationen:
 | App-Name | EngageWith |
 | ID | WA200001915 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | SpringRole |
 | URL der Partnerwebsite | [https://engagewith.springworks.in/](https://engagewith.springworks.in/) |
 | URL Teams Anwendungsinfoseite | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |

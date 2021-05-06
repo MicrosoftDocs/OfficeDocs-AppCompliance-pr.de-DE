@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wrike, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ca428571b8e7c0a3487299f8aab5f3e0d5899c33
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: cd676daf8fa2ec7b8af9cc9fae79adce39ca7680
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096150"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251985"
 ---
 # <a name="wrike"></a>Wrike
 
@@ -33,7 +34,7 @@ Von Wrike Inc. an Microsoft bereitgestellte Informationen:
 | App-Name | Wrike |
 | ID | WA104381390 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Wrike Inc. |
 | URL der Partnerwebsite | [https://www.wrike.com](https://www.wrike.com) |
 | URL Teams Anwendungsinfoseite | [https://help.wrike.com/hc/en-us/articles/115001825869-Micro...](https://help.wrike.com/hc/en-us/articles/115001825869-Microsoft-Teams) |

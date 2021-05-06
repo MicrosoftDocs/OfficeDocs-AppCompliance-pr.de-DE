@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Teams Manager, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0587bc112fafa4b4fb336084a1b71551d78de110
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7af1c1595fcdafb2ed701c504873d4e54675340e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096073"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248393"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -34,7 +35,7 @@ Informationen, die von der Solutions2Share GmbH an Microsoft bereitgestellt werd
 | App-Name | Teams Manager |
 | ID | WA200000764 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Solutions2Share GmbH |
 | URL der Partnerwebsite | [https://www.teams-manager.com](https://www.teams-manager.com) |
 | URL der Datenschutzrichtlinie | [https://www.teams-manager.com/privacy](https://www.teams-manager.com/privacy) |

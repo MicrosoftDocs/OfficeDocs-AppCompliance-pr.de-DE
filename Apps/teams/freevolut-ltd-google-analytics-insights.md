@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Google Analytics Insights, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 54a47ddd9cfda3dd6d8b480eb1501e5cf8191e40
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 0218f9602604b969f9dfa127c126a34930074699
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095187"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250683"
 ---
 # <a name="google-analytics-insights"></a>Google Analytics Insights
 
@@ -34,7 +35,7 @@ Von Freevolut LTD an Microsoft bereitgestellte Informationen:
 | App-Name | Google Analytics Insights |
 | ID | WA200000743 |
 | Funktionen | Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Freevolut LTD |
 | URL der Partnerwebsite | [https://www.ga-insights.com](https://www.ga-insights.com) |
 | URL der Datenschutzrichtlinie | [https://www.ga-insights.com/Privacy](https://www.ga-insights.com/Privacy) |

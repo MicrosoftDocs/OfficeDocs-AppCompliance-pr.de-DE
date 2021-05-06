@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TaskList, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b8e1aa4a7739bc20f8f2198ebb73df989c62c190
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1575b0f0fee9f586e665d8c1b815d53535c15c4c
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093378"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251284"
 ---
 # <a name="tasklist"></a>TaskList
 
@@ -34,7 +35,7 @@ Von LimeStat, Inc. an Microsoft bereitgestellte Informationen:
 | App-Name | TaskList |
 | ID | WA104382085 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | LimeStat, Inc |
 | URL der Partnerwebsite | [https://www.tasklistforteams.com](https://www.tasklistforteams.com) |
 | URL Teams Anwendungsinfoseite | [https://www.tasklistforteams.com/support](https://www.tasklistforteams.com/support) |

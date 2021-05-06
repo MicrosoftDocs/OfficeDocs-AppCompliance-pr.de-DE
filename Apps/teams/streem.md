@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/29/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Streem, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 71dda2bd6cfff7948b022727ffeb901c9317a1af
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 0aa35bfbe583779597af9f3b7223e77227a6eb6b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096062"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251074"
 ---
 # <a name="streem"></a>Streem
 
@@ -34,7 +35,7 @@ Von Streem an Microsoft bereitgestellte Informationen:
 | App-Name | Streem |
 | ID | WA200000197 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Streem |
 | URL der Partnerwebsite | [https://streem.com.au](https://streem.com.au) |
 | URL Teams Anwendungsinfoseite | [N/A](N/A) |

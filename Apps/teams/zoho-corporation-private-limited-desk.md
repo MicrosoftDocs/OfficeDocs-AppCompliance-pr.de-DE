@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoho Desk, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e0d2d0dbf85436dc8a7b8415202ae35569adfa6b
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 446341cc94c3dba5792e16559647a80e0960b932
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093524"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251975"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -34,7 +35,7 @@ Informationen, die von Zoho Corporation Private Limited an Microsoft bereitgeste
 | App-Name | Zoho Desk |
 | ID | WA104382044 |
 | Funktionen | Registerkarte, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.zoho.com/desk](https://www.zoho.com/desk) |
 | URL Teams Anwendungsinfoseite | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |

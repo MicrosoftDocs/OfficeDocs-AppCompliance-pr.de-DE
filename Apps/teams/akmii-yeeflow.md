@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/25/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Yeeflow, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 21fd7c76495a2bc559cb93bd89e3a8977b28ff09
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 853bf8e0467da6cf653998fc95c6cbc8c66dad1b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095624"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250884"
 ---
 # <a name="yeeflow"></a>Yeeflow
 
@@ -34,7 +35,7 @@ Von Akmii an Microsoft bereitgestellte Informationen:
 | App-Name | Yeeflow |
 | ID | WA200000089 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Akmii |
 | URL der Partnerwebsite | [https://www.yeeflow.com](https://www.yeeflow.com) |
 | URL Teams Anwendungsinfoseite | [www.yeeflow.com](www.yeeflow.com) |
@@ -125,11 +126,11 @@ Diese Informationen wurden von Akmii darüber bereitgestellt, wie diese App Auth
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,
-<br />
-
-<br />
- | | Macht Ihre App Web-APIs verfügbar? | Ja | | Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja | | Verwendet Ihre App Vorschau-APIs? | Keine | | Verwendet Ihre App veraltete APIs? | Keine |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/><br/> |
+| Macht Ihre App Web-APIs verfügbar? | Ja |
+| Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

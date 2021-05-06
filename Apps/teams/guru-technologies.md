@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/01/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Guru, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 052d06638dc6cf9d38180dd3c740cada21070dba
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 8799b6d47a618ae67529e0cf9d44459f58768ec9
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095137"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250663"
 ---
 # <a name="guru"></a>Guru
 
@@ -34,7 +35,7 @@ Von Guru Technologies bereitgestellte Informationen für Microsoft:
 | App-Name | Guru |
 | ID | WA200001719 |
 | Funktionen | Bot, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Guru Technologies |
 | URL der Partnerwebsite | [https://www.getguru.com/](https://www.getguru.com/) |
 | URL Teams Anwendungsinfoseite | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |

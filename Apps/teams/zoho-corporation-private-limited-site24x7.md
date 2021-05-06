@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Site24x7, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5326590ec0fdd86e4ba27d47651a198c1cfbca4f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f5c1d626571bf81f5ddaa8cf23d10052f562fec0
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093459"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251614"
 ---
 # <a name="site24x7"></a>Site24x7
 
@@ -34,7 +35,7 @@ Informationen, die von Zoho Corporation Private Limited an Microsoft bereitgeste
 | App-Name | Site24x7 |
 | ID | WA104381289 |
 | Funktionen | Bot, Registerkarte, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.site24x7.com/features.html](https://www.site24x7.com/features.html) |
 | URL Teams Anwendungsinfoseite | [https://www.site24x7.com/help/admin/third-party-integration...](https://www.site24x7.com/help/admin/third-party-integration/microsoft-teams.html) |

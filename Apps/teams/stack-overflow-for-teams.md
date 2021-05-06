@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Stack Overflow für Teams, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 04af58c25d8c3726a386dc9b80b687b289314051
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fbc9cc478287f752b14f47a4c4769e14eb96ff0b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096065"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248313"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow for Teams
 
@@ -34,7 +35,7 @@ Informationen, die von Stack Overflow an Microsoft bereitgestellt werden:
 | App-Name | Stack Overflow for Teams |
 | ID | WA200000739 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Stack Overflow |
 | URL der Partnerwebsite | [https://stackoverflow.com](https://stackoverflow.com) |
 | URL der Datenschutzrichtlinie | [https://stackoverflow.com/legal/privacy-policy](https://stackoverflow.com/legal/privacy-policy) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/24/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für StarLeaf, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 99fa034d595c4f45dbea4d706278d1e71d258683
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b180c5c804831624caedb4404b85ca216549fd2f
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093233"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251094"
 ---
 # <a name="starleaf"></a>StarLeaf
 
@@ -34,7 +35,7 @@ Von StarLeaf an Microsoft bereitgestellte Informationen:
 | App-Name | StarLeaf |
 | ID | WA200000185 |
 | Funktionen | Bot, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | StarLeaf |
 | URL der Partnerwebsite | [https://www.starleaf.com](https://www.starleaf.com) |
 | URL der Datenschutzrichtlinie | [https://support.starleaf.com/legal-information/starleaf-pri...](https://support.starleaf.com/legal-information/starleaf-privacy-notice/) |

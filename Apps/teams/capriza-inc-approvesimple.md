@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ApproveSimple, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 715a3ba379df18e16e94d29b5271f0f2844243b0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1cecdaf32438d81b1db9f63c30830e6ac0907cb5
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095464"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250813"
 ---
 # <a name="approvesimple"></a>ApproveSimple
 
@@ -34,7 +35,7 @@ Informationen, die von "Capriza, Inc" an Microsoft bereitgestellt werden:
 | App-Name | ApproveSimple |
 | ID | WA104381812 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Capriza, Inc |
 | URL der Partnerwebsite | [https://www.capriza.com/msteams-landing-page](https://www.capriza.com/msteams-landing-page) |
 | URL Teams Anwendungsinfoseite | [https://support.capriza.com/](https://support.capriza.com/) |

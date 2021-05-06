@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 10/15/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Klaxoon, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3d0721db8a1432003052241cf3acd384292d7b3e
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 96e987d281302b6f7c835adc6f18a69397c8bbfa
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093662"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251324"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
@@ -34,7 +35,7 @@ Von Klaxoon an Microsoft bereitgestellte Informationen:
 | App-Name | Klaxoon |
 | ID | WA104382058 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Klaxoon |
 | URL der Partnerwebsite | [https://klaxoon.com](https://klaxoon.com) |
 | URL der Datenschutzrichtlinie | [https://klaxoon.com/privacy](https://klaxoon.com/privacy) |

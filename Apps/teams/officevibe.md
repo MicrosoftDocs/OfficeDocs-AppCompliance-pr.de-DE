@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/30/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Officevibe, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d2ff51f24eff98298771fc67d11fbb4ac58b17af
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7aec1eac3dcdd5c42a73ec80316ec923bfd5b958
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093305"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251314"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -34,7 +35,7 @@ Von Officevibe an Microsoft bereitgestellte Informationen:
 | App-Name | Officevibe |
 | ID | WA200002508 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Officevibe |
 | URL der Partnerwebsite | [https://officevibe.com](https://officevibe.com) |
 | URL Teams Anwendungsinfoseite | [https://officevibe-portal.zendesk.com/hc/en-us/articles/360...](https://officevibe-portal.zendesk.com/hc/en-us/articles/360048865311-Officevibe-Communications-via-Microsoft-Teams-Coming-soon-) |

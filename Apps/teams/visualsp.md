@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für VisualSP, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8ea0ea3ab57446feb6d5c8de21038ef6dc9ebdfd
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e42cba3e525da2766fda4485f975d290395e6f2c
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093560"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252225"
 ---
 # <a name="visualsp"></a>VisualSP
 
@@ -34,7 +35,7 @@ Von VisualSP an Microsoft bereitgestellte Informationen:
 | App-Name | VisualSP |
 | ID | WA200001426 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | VisualSP |
 | URL der Partnerwebsite | [https://www.visualsp.com](https://www.visualsp.com) |
 | URL Teams Anwendungsinfoseite | [https://www.visualsp.com/visualsp-for-microsoft-teams/](https://www.visualsp.com/visualsp-for-microsoft-teams/) |

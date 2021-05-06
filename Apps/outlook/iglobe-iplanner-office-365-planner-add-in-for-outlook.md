@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für iPlanner Office 365 Planner-Add-In für Outlook, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a62f773ba3b172035429af8dc612131a1d777ee3
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 511b5f00bba5851f4f5a87ea65c39d3946a0313e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095942"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251754"
 ---
 # <a name="iplanner-office-365-planner-add-in-for-outlook"></a>iPlanner Office 365 Planner-Add-In für Outlook
 
@@ -31,11 +32,11 @@ Informationen, die von iGlobe an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | iPlanner Office 365 Planner-Add-In für Outlook |
 | ID | WA104380147 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher Windows, Outlook im Web |
+| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac, Outlook im Web |
 | Partnerunternehmensname | iGlobe |
 | URL der Partnerwebsite | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
 | URL der Datenschutzrichtlinie | [https://iglobecrm.com/content/legal-information](https://iglobecrm.com/content/legal-information) |
-| URL der Nutzungsbedingungen | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL der Nutzungsbedingungen | [https://iglobecrm.com/content/end-user-license-agreement-ig...](https://iglobecrm.com/content/end-user-license-agreement-iglobe-iplanner-add-ins) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

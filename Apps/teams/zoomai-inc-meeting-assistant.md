@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoom.ai Meeting Assistant, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c5928d1ba26624bbae26fdf0dab09fbb4ddcded6
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: dda27747fdfde0f863611caef27f71547c971b98
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096217"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251935"
 ---
 # <a name="zoomai-meeting-assistant"></a>Zoom.ai Meeting Assistant
 
@@ -34,7 +35,7 @@ Von Zoom.ai Inc. an Microsoft bereitgestellte Informationen:
 | App-Name | Zoom.ai Meeting Assistant |
 | ID | WA200000150 |
 | Funktionen | Bot, Registerkarte, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Zoom.ai Inc |
 | URL der Partnerwebsite | [https://zoom.ai](https://zoom.ai) |
 | URL Teams Anwendungsinfoseite | [https://faq.zoom.ai/](https://faq.zoom.ai/) |

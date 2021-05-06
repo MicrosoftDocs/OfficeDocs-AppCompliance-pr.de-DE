@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/25/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für einfaches Ein-/Aus-,Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e7fdfb23ccf0b896fe8a93233572b566cc2c604a
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: db98e097113823f35b0add054c21151e26ca7fc3
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093261"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252285"
 ---
 # <a name="simple-inout"></a>Simple In/Out
 
@@ -34,7 +35,7 @@ Informationen, die von Simply Made Apps, Inc. an Microsoft bereitgestellt werden
 | App-Name | Simple In/Out |
 | ID | WA104382084 |
 | Funktionen | Registerkarte, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Simply Made Apps, Inc. |
 | URL der Partnerwebsite | [https://www.simpleinout.com](https://www.simpleinout.com) |
 | URL Teams Anwendungsinfoseite | [https://simpleinout.helpscoutdocs.com/article/262-microsoft...](https://simpleinout.helpscoutdocs.com/article/262-microsoft-teams) |

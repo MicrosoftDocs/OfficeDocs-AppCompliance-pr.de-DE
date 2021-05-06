@@ -2,17 +2,17 @@
 title: Microsoft PowerPoint-App-Sicherheit und -Compliance – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/15/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft PowerPoint Apps.
 localization_priority: Normal
-ms.openlocfilehash: daa788d2ef29d136dc1e3015dccc507ed5647285
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6c76385a15c6a03ef581d634050a0effdb405cdd
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071270"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251704"
 ---
 # <a name="microsoft-powerpoint-app-security-and-compliance"></a>Microsoft PowerPoint-App-Sicherheit und -Compliance
 
@@ -24,6 +24,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Excel-zu-Word-Dokumentautomatisierung](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  | Ja | Ja |
 | [harmon.ie für Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  | Ja | Ja |
 | [Luidchartdiagramme für PowerPoint](./lucid-software-inc-lucidchart-diagrams-for-powerpoint.md) | Lucid Software Inc | **✓** |  | Ja | Ja |
+| [NoMore](./nomorehours-nomore.md) | nomorehours | **✓** |  | Ja | Ja |
 | [Office2SharePoint für Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Ja | Ja |
 | [officeatwork | Inhalts auswählen für Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Ja | Ja |
 | [officeatwork | Vorlagen auswählen für Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Ja | Ja |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/11/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ScanBuddy.ai, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e984c192f75050df735fe33644da4a1600167e4b
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 3d73d1399c4ed5669df2673ef861413683f4d49e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093341"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251384"
 ---
 # <a name="scanbuddyai"></a>ScanBuddy.ai
 
@@ -34,7 +35,7 @@ Informationen, die von Moblize.it LLC an Microsoft bereitgestellt werden:
 | App-Name | ScanBuddy.ai |
 | ID | WA200001305 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Moblize.it LLC |
 | URL der Partnerwebsite | [https://scanbuddy.ai](https://scanbuddy.ai) |
 | URL der Datenschutzrichtlinie | [https://scanbuddy.ai/scan-buddy-app-privacy-policy](https://scanbuddy.ai/scan-buddy-app-privacy-policy) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/12/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Talview-Interviews, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5b8d68b8239d86be808cdd78d844b96b64712278
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 242ffe3ceb5dc7c88186b2740d48af42a6997b8e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093229"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52248123"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -34,7 +35,7 @@ Von Talview Inc an Microsoft bereitgestellte Informationen:
 | App-Name | Talview Interviews |
 | ID | WA200002437 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Talview Inc |
 | URL der Partnerwebsite | [https://talview.com](https://talview.com) |
 | URL Teams Anwendungsinfoseite | [https://info.talview.com/talview-partners-microsoft-teams](https://info.talview.com/talview-partners-microsoft-teams) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Perfony, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d7e8768fc0e0f664557c81a91902e80544621ba9
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b2edc779991249e4968500fa5d19e24fdfae5790
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093506"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250443"
 ---
 # <a name="perfony"></a>Perfony
 
@@ -34,7 +35,7 @@ Von Perfony an Microsoft bereitgestellte Informationen:
 | App-Name | Perfony |
 | ID | WA104381418 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Perfony |
 | URL der Partnerwebsite | [https://www.perfony.com](https://www.perfony.com) |
 | URL Teams Anwendungsinfoseite | [https://www.perfony.com/academie/installer-onglet-perfony-t...](https://www.perfony.com/academie/installer-onglet-perfony-teams/) |

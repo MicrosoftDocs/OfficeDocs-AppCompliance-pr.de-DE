@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ServiceDesk Plus Cloud, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3a0123395ff8f6991648c25e6d6e7e10a8d1f3a7
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: a1c561d7ce78573f7000f7a710467c53f662e64c
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096145"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251624"
 ---
 # <a name="servicedesk-plus-cloud"></a>ServiceDesk Plus Cloud
 
@@ -34,7 +35,7 @@ Informationen, die von Zoho Corporation Private Limited an Microsoft bereitgeste
 | App-Name | ServiceDesk Plus Cloud |
 | ID | WA200000037 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.manageengine.com/products/service-desk](https://www.manageengine.com/products/service-desk) |
 | URL Teams Anwendungsinfoseite | [https://help.sdpondemand.com/servicedeskplus_cloud_for_teams](https://help.sdpondemand.com/servicedeskplus_cloud_for_teams) |

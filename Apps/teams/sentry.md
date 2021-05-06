@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/09/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sentry, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 32570802527e297c093d1b0a1f142dafbd40ac3c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 8b5c991e3a0c4e63cb3477f43c38e21fe3204f12
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093269"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250373"
 ---
 # <a name="sentry"></a>Sentry
 
@@ -34,7 +35,7 @@ Von Sentry an Microsoft bereitgestellte Informationen:
 | App-Name | Sentry |
 | ID | WA200002106 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Sentry |
 | URL der Partnerwebsite | [https://sentry.io/](https://sentry.io/) |
 | URL Teams Anwendungsinfoseite | [https://docs.sentry.io/product/integrations/msteams/](https://docs.sentry.io/product/integrations/msteams/) |

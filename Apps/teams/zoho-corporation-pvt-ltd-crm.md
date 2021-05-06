@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoho CRM, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2e04101b9b993f17decec407aa3dbcc603b136f5
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 4387faccb63299392acb23ab91f312d175d1524d
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096222"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251604"
 ---
 # <a name="zoho-crm"></a>Zoho CRM
 
@@ -34,7 +35,7 @@ Informationen, die von Der Zoho Corporation Pvt Ltd an Microsoft bereitgestellt 
 | App-Name | Zoho CRM |
 | ID | WA104382094 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Zoho Corporation Pvt Ltd |
 | URL der Partnerwebsite | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL Teams Anwendungsinfoseite | [https://www.zoho.com/crm/help/microsoft-teams-integration.h...](https://www.zoho.com/crm/help/microsoft-teams-integration.html) |
