@@ -5,41 +5,42 @@ author: elenamalova
 ms.date: 12/09/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Reminderz, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c7d3cecbbfa9613f706e52c8e71b64bd93c6cba0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7cefe4b3adc5b2c79f5123faddc9109ca3540f9b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095424"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251394"
 ---
-# <a name="reminderz"></a><span data-ttu-id="1b664-103">Reminderz</span><span class="sxs-lookup"><span data-stu-id="1b664-103">Reminderz</span></span>
+# <a name="reminderz"></a><span data-ttu-id="4f9b2-103">Reminderz</span><span class="sxs-lookup"><span data-stu-id="4f9b2-103">Reminderz</span></span>
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p><span data-ttu-id="1b664-104">Zuletzt aktualisiert vom Entwickler am: 9. Dezember 2020</span><span class="sxs-lookup"><span data-stu-id="1b664-104">Last updated by the developer on: December 9, 2020</span></span></p>
+<p><span data-ttu-id="4f9b2-104">Zuletzt aktualisiert vom Entwickler am: 9. Dezember 2020</span><span class="sxs-lookup"><span data-stu-id="4f9b2-104">Last updated by the developer on: December 9, 2020</span></span></p>
 
-* <span data-ttu-id="1b664-105"><a href="https://teams.microsoft.com/l/app/672c12b8-883e-4138-8318-224420bdafe8" target="_blank">Ansicht im Teams Store</a></span><span class="sxs-lookup"><span data-stu-id="1b664-105"><a href="https://teams.microsoft.com/l/app/672c12b8-883e-4138-8318-224420bdafe8" target="_blank">View in Teams store</a></span></span>
-* <span data-ttu-id="1b664-106"><a href="https://appsource.microsoft.com/product/office/WA200001976" target="_blank">Ansicht in AppSource</a></span><span class="sxs-lookup"><span data-stu-id="1b664-106"><a href="https://appsource.microsoft.com/product/office/WA200001976" target="_blank">View in AppSource</a></span></span>
+* <span data-ttu-id="4f9b2-105"><a href="https://teams.microsoft.com/l/app/672c12b8-883e-4138-8318-224420bdafe8" target="_blank">Ansicht im Teams Store</a></span><span class="sxs-lookup"><span data-stu-id="4f9b2-105"><a href="https://teams.microsoft.com/l/app/672c12b8-883e-4138-8318-224420bdafe8" target="_blank">View in Teams store</a></span></span>
+* <span data-ttu-id="4f9b2-106"><a href="https://appsource.microsoft.com/product/office/WA200001976" target="_blank">Ansicht in AppSource</a></span><span class="sxs-lookup"><span data-stu-id="4f9b2-106"><a href="https://appsource.microsoft.com/product/office/WA200001976" target="_blank">View in AppSource</a></span></span>
 
 ::: zone pivot="general"
 
-### <a name="general-information"></a><span data-ttu-id="1b664-107">Allgemeine Informationen</span><span class="sxs-lookup"><span data-stu-id="1b664-107">General information</span></span>
+### <a name="general-information"></a><span data-ttu-id="4f9b2-107">Allgemeine Informationen</span><span class="sxs-lookup"><span data-stu-id="4f9b2-107">General information</span></span>
 
-<span data-ttu-id="1b664-108">Von ChitChattr an Microsoft bereitgestellte Informationen:</span><span class="sxs-lookup"><span data-stu-id="1b664-108">Information provided by ChitChattr to Microsoft:</span></span>
+<span data-ttu-id="4f9b2-108">Von ChitChattr an Microsoft bereitgestellte Informationen:</span><span class="sxs-lookup"><span data-stu-id="4f9b2-108">Information provided by ChitChattr to Microsoft:</span></span>
 
-| <span data-ttu-id="1b664-109">**Information**</span><span class="sxs-lookup"><span data-stu-id="1b664-109">**Information**</span></span> | <span data-ttu-id="1b664-110">**Antwort**</span><span class="sxs-lookup"><span data-stu-id="1b664-110">**Response**</span></span> |
+| <span data-ttu-id="4f9b2-109">**Information**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-109">**Information**</span></span> | <span data-ttu-id="4f9b2-110">**Antwort**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-110">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="1b664-111">App-Name</span><span class="sxs-lookup"><span data-stu-id="1b664-111">App name</span></span> | <span data-ttu-id="1b664-112">Reminderz</span><span class="sxs-lookup"><span data-stu-id="1b664-112">Reminderz</span></span> |
-| <span data-ttu-id="1b664-113">ID</span><span class="sxs-lookup"><span data-stu-id="1b664-113">ID</span></span> | <span data-ttu-id="1b664-114">WA200001976</span><span class="sxs-lookup"><span data-stu-id="1b664-114">WA200001976</span></span> |
-| <span data-ttu-id="1b664-115">Funktionen</span><span class="sxs-lookup"><span data-stu-id="1b664-115">Capabilities</span></span> | <span data-ttu-id="1b664-116">Bot, Registerkarte, Messaging-Erweiterung</span><span class="sxs-lookup"><span data-stu-id="1b664-116">Bot, Tab, Messaging Extension</span></span> |
-| <span data-ttu-id="1b664-117">Office 365 unterstützten Clients</span><span class="sxs-lookup"><span data-stu-id="1b664-117">Office 365 clients supported</span></span> | <span data-ttu-id="1b664-118">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="1b664-118">Microsoft Teams</span></span> |
-| <span data-ttu-id="1b664-119">Partnerunternehmensname</span><span class="sxs-lookup"><span data-stu-id="1b664-119">Partner company name</span></span> | <span data-ttu-id="1b664-120">ChitChattr</span><span class="sxs-lookup"><span data-stu-id="1b664-120">ChitChattr</span></span> |
-| <span data-ttu-id="1b664-121">URL der Partnerwebsite</span><span class="sxs-lookup"><span data-stu-id="1b664-121">URL of partner website</span></span> | [https://www.chitchattr.com?p=reminderz](https://www.chitchattr.com?p=reminderz) |
-| <span data-ttu-id="1b664-122">URL Teams Anwendungsinfoseite</span><span class="sxs-lookup"><span data-stu-id="1b664-122">URL of Teams application info page</span></span> | [https://www.chitchattr.com/reminderz/](https://www.chitchattr.com/reminderz/) |
-| <span data-ttu-id="1b664-123">URL der Datenschutzrichtlinie</span><span class="sxs-lookup"><span data-stu-id="1b664-123">URL of Privacy Policy</span></span> | [https://www.chitchattr.com/privacy?p=reminderz](https://www.chitchattr.com/privacy?p=reminderz) |
-| <span data-ttu-id="1b664-124">URL der Nutzungsbedingungen</span><span class="sxs-lookup"><span data-stu-id="1b664-124">URL of Terms of Use</span></span> | [https://www.chitchattr.com/termsofuse?p=reminderz](https://www.chitchattr.com/termsofuse?p=reminderz) |
+| <span data-ttu-id="4f9b2-111">App-Name</span><span class="sxs-lookup"><span data-stu-id="4f9b2-111">App name</span></span> | <span data-ttu-id="4f9b2-112">Reminderz</span><span class="sxs-lookup"><span data-stu-id="4f9b2-112">Reminderz</span></span> |
+| <span data-ttu-id="4f9b2-113">ID</span><span class="sxs-lookup"><span data-stu-id="4f9b2-113">ID</span></span> | <span data-ttu-id="4f9b2-114">WA200001976</span><span class="sxs-lookup"><span data-stu-id="4f9b2-114">WA200001976</span></span> |
+| <span data-ttu-id="4f9b2-115">Funktionen</span><span class="sxs-lookup"><span data-stu-id="4f9b2-115">Capabilities</span></span> | <span data-ttu-id="4f9b2-116">Bot, Registerkarte, Messaging-Erweiterung</span><span class="sxs-lookup"><span data-stu-id="4f9b2-116">Bot, Tab, Messaging Extension</span></span> |
+| <span data-ttu-id="4f9b2-117">Office 365 unterstützten Clients</span><span class="sxs-lookup"><span data-stu-id="4f9b2-117">Office 365 clients supported</span></span> | <span data-ttu-id="4f9b2-118">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="4f9b2-118">Microsoft Teams</span></span> |
+| <span data-ttu-id="4f9b2-119">Partnerunternehmensname</span><span class="sxs-lookup"><span data-stu-id="4f9b2-119">Partner company name</span></span> | <span data-ttu-id="4f9b2-120">ChitChattr</span><span class="sxs-lookup"><span data-stu-id="4f9b2-120">ChitChattr</span></span> |
+| <span data-ttu-id="4f9b2-121">URL der Partnerwebsite</span><span class="sxs-lookup"><span data-stu-id="4f9b2-121">URL of partner website</span></span> | [https://www.chitchattr.com?p=reminderz](https://www.chitchattr.com?p=reminderz) |
+| <span data-ttu-id="4f9b2-122">URL Teams Anwendungsinfoseite</span><span class="sxs-lookup"><span data-stu-id="4f9b2-122">URL of Teams application info page</span></span> | [https://www.chitchattr.com/reminderz/](https://www.chitchattr.com/reminderz/) |
+| <span data-ttu-id="4f9b2-123">URL der Datenschutzrichtlinie</span><span class="sxs-lookup"><span data-stu-id="4f9b2-123">URL of Privacy Policy</span></span> | [https://www.chitchattr.com/privacy?p=reminderz](https://www.chitchattr.com/privacy?p=reminderz) |
+| <span data-ttu-id="4f9b2-124">URL der Nutzungsbedingungen</span><span class="sxs-lookup"><span data-stu-id="4f9b2-124">URL of Terms of Use</span></span> | [https://www.chitchattr.com/termsofuse?p=reminderz](https://www.chitchattr.com/termsofuse?p=reminderz) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,57 +48,57 @@ ms.locfileid: "52095424"
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a><span data-ttu-id="1b664-125">So verarbeitet die App Daten</span><span class="sxs-lookup"><span data-stu-id="1b664-125">How the app handles data</span></span>
+### <a name="how-the-app-handles-data"></a><span data-ttu-id="4f9b2-125">So verarbeitet die App Daten</span><span class="sxs-lookup"><span data-stu-id="4f9b2-125">How the app handles data</span></span>
 
-<span data-ttu-id="1b664-126">Diese Informationen wurden von ChitChattr darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.</span><span class="sxs-lookup"><span data-stu-id="1b664-126">This information has been provided by ChitChattr about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
+<span data-ttu-id="4f9b2-126">Diese Informationen wurden von ChitChattr darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-126">This information has been provided by ChitChattr about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
 
-#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="1b664-127">Datenzugriff mithilfe von Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="1b664-127">Data access using Microsoft Graph</span></span>
+#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="4f9b2-127">Datenzugriff mithilfe von Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="4f9b2-127">Data access using Microsoft Graph</span></span>
 
-<span data-ttu-id="1b664-128">Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.</span><span class="sxs-lookup"><span data-stu-id="1b664-128">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
+<span data-ttu-id="4f9b2-128">Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-128">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
 
-><span data-ttu-id="1b664-129">Diese Anwendung verwendet keine Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="1b664-129">This application does not use Microsoft Graph.</span></span>
+><span data-ttu-id="4f9b2-129">Diese Anwendung verwendet keine Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-129">This application does not use Microsoft Graph.</span></span>
 
-#### <a name="data-access-using-other-microsoft-apis"></a><span data-ttu-id="1b664-130">Datenzugriff mithilfe anderer Microsoft-APIs</span><span class="sxs-lookup"><span data-stu-id="1b664-130">Data access using other Microsoft APIs</span></span>
+#### <a name="data-access-using-other-microsoft-apis"></a><span data-ttu-id="4f9b2-130">Datenzugriff mithilfe anderer Microsoft-APIs</span><span class="sxs-lookup"><span data-stu-id="4f9b2-130">Data access using other Microsoft APIs</span></span>
 
-<span data-ttu-id="1b664-131">Apps und Add-Ins, die auf Microsoft 365 können zusätzliche Microsoft-APIs als Microsoft Graph verwenden, um identifizierbare Informationen (OII) der Organisation zu sammeln oder zu verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="1b664-131">Apps and add-ins built on Microsoft 365 may use additional Microsoft APIs other than Microsoft Graph to collect or process organizational identifiable information (OII).</span></span> <span data-ttu-id="1b664-132">Listen Sie alle anderen Microsoft-APIs als Microsoft Graph diese App verwendet.</span><span class="sxs-lookup"><span data-stu-id="1b664-132">List any Microsoft APIs other than Microsoft Graph this app uses.</span></span>
+<span data-ttu-id="4f9b2-131">Apps und Add-Ins, die auf Microsoft 365 können zusätzliche Microsoft-APIs als Microsoft Graph verwenden, um identifizierbare Informationen (OII) der Organisation zu sammeln oder zu verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-131">Apps and add-ins built on Microsoft 365 may use additional Microsoft APIs other than Microsoft Graph to collect or process organizational identifiable information (OII).</span></span> <span data-ttu-id="4f9b2-132">Listen Sie alle anderen Microsoft-APIs als Microsoft Graph diese App verwendet.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-132">List any Microsoft APIs other than Microsoft Graph this app uses.</span></span>
 
->| <span data-ttu-id="1b664-133">**API**</span><span class="sxs-lookup"><span data-stu-id="1b664-133">**API**</span></span> |  <span data-ttu-id="1b664-134">**Wird OII gesammelt?**</span><span class="sxs-lookup"><span data-stu-id="1b664-134">**Is OII collected?**</span></span> |  <span data-ttu-id="1b664-135">**Welche OII wird gesammelt?**</span><span class="sxs-lookup"><span data-stu-id="1b664-135">**What OII is Collected?**</span></span> | <span data-ttu-id="1b664-136">**Begründung für die Erfassung von OII?**</span><span class="sxs-lookup"><span data-stu-id="1b664-136">**Justification for collecting OII?**</span></span> | <span data-ttu-id="1b664-137">**Wird OII gespeichert?**</span><span class="sxs-lookup"><span data-stu-id="1b664-137">**Is OII stored?**</span></span> | <span data-ttu-id="1b664-138">**Begründung für das Speichern von OII?**</span><span class="sxs-lookup"><span data-stu-id="1b664-138">**Justification for storing OII?**</span></span> |
+>| <span data-ttu-id="4f9b2-133">**API**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-133">**API**</span></span> |  <span data-ttu-id="4f9b2-134">**Wird OII gesammelt?**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-134">**Is OII collected?**</span></span> |  <span data-ttu-id="4f9b2-135">**Welche OII wird gesammelt?**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-135">**What OII is Collected?**</span></span> | <span data-ttu-id="4f9b2-136">**Begründung für die Erfassung von OII?**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-136">**Justification for collecting OII?**</span></span> | <span data-ttu-id="4f9b2-137">**Wird OII gespeichert?**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-137">**Is OII stored?**</span></span> | <span data-ttu-id="4f9b2-138">**Begründung für das Speichern von OII?**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-138">**Justification for storing OII?**</span></span> |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| <span data-ttu-id="1b664-139">Bot Framework Services</span><span class="sxs-lookup"><span data-stu-id="1b664-139">Bot Framework Services</span></span> | <span data-ttu-id="1b664-140">Nein</span><span class="sxs-lookup"><span data-stu-id="1b664-140">No</span></span> |  |  |  |  |
+>| <span data-ttu-id="4f9b2-139">Bot Framework Services</span><span class="sxs-lookup"><span data-stu-id="4f9b2-139">Bot Framework Services</span></span> | <span data-ttu-id="4f9b2-140">Nein</span><span class="sxs-lookup"><span data-stu-id="4f9b2-140">No</span></span> |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a><span data-ttu-id="1b664-141">Nicht Microsoft-Dienste verwendet</span><span class="sxs-lookup"><span data-stu-id="1b664-141">Non-Microsoft services used</span></span>
+#### <a name="non-microsoft-services-used"></a><span data-ttu-id="4f9b2-141">Nicht Microsoft-Dienste verwendet</span><span class="sxs-lookup"><span data-stu-id="4f9b2-141">Non-Microsoft services used</span></span>
 
-<span data-ttu-id="1b664-142">Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.</span><span class="sxs-lookup"><span data-stu-id="1b664-142">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
+<span data-ttu-id="4f9b2-142">Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-142">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
 
-><span data-ttu-id="1b664-143">Nicht-Microsoft-Dienste werden nicht verwendet.</span><span class="sxs-lookup"><span data-stu-id="1b664-143">Non-Microsoft services are not used.</span></span>
+><span data-ttu-id="4f9b2-143">Nicht-Microsoft-Dienste werden nicht verwendet.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-143">Non-Microsoft services are not used.</span></span>
 
-#### <a name="data-access-via-bots"></a><span data-ttu-id="1b664-144">Datenzugriff über Bots</span><span class="sxs-lookup"><span data-stu-id="1b664-144">Data access via bots</span></span>
+#### <a name="data-access-via-bots"></a><span data-ttu-id="4f9b2-144">Datenzugriff über Bots</span><span class="sxs-lookup"><span data-stu-id="4f9b2-144">Data access via bots</span></span>
 
-<span data-ttu-id="1b664-145">Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="1b664-145">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="1b664-146">Nutzt diese App diese Funktion?</span><span class="sxs-lookup"><span data-stu-id="1b664-146">Does this app make use of this capability?</span></span>
+<span data-ttu-id="4f9b2-145">Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-145">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="4f9b2-146">Nutzt diese App diese Funktion?</span><span class="sxs-lookup"><span data-stu-id="4f9b2-146">Does this app make use of this capability?</span></span>
 
->| <span data-ttu-id="1b664-147">**Begründung für den Zugriff auf EUII?**</span><span class="sxs-lookup"><span data-stu-id="1b664-147">**Justification for accessing EUII?**</span></span>  | <span data-ttu-id="1b664-148">**Wird EUII in Datenbanken gespeichert?**</span><span class="sxs-lookup"><span data-stu-id="1b664-148">**Is EUII stored in database(s)?**</span></span> | <span data-ttu-id="1b664-149">**Begründung für die Speicherung von EUII?**</span><span class="sxs-lookup"><span data-stu-id="1b664-149">**Justification for storing EUII?**</span></span> |
+>| <span data-ttu-id="4f9b2-147">**Begründung für den Zugriff auf EUII?**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-147">**Justification for accessing EUII?**</span></span>  | <span data-ttu-id="4f9b2-148">**Wird EUII in Datenbanken gespeichert?**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-148">**Is EUII stored in database(s)?**</span></span> | <span data-ttu-id="4f9b2-149">**Begründung für die Speicherung von EUII?**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-149">**Justification for storing EUII?**</span></span> |
 >|:--------------------------------|:---------------------|:--------------------------|
->| <span data-ttu-id="1b664-150">Namen von Benutzern werden zum Anzeigen des Namens des Benutzers, der die Nachricht gesendet hat, in der Erinnerung abgerufen.</span><span class="sxs-lookup"><span data-stu-id="1b664-150">Names of users are retrieved, for showing the name of the user who sent the message, in the reminder.</span></span>  | <span data-ttu-id="1b664-151">Anzeigename des Benutzers  </span><span class="sxs-lookup"><span data-stu-id="1b664-151">User display name</span></span> | <span data-ttu-id="1b664-152">Namen werden zur Identifizierung für Lizenzierungsabfragen gespeichert (wenn ein Benutzer eine Lizenz erfragt, müssen wir die aktuell lizenzierten Benutzer ermitteln)</span><span class="sxs-lookup"><span data-stu-id="1b664-152">Names are stored for identification for licensing queries (when a user enquires for a license, we need to determine the users currently licensed)</span></span>  |
+>| <span data-ttu-id="4f9b2-150">Namen von Benutzern werden zum Anzeigen des Namens des Benutzers, der die Nachricht gesendet hat, in der Erinnerung abgerufen.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-150">Names of users are retrieved, for showing the name of the user who sent the message, in the reminder.</span></span>  | <span data-ttu-id="4f9b2-151">Anzeigename des Benutzers  </span><span class="sxs-lookup"><span data-stu-id="4f9b2-151">User display name</span></span> | <span data-ttu-id="4f9b2-152">Namen werden zur Identifizierung für Lizenzierungsabfragen gespeichert (wenn ein Benutzer eine Lizenz erfragt, müssen wir die aktuell lizenzierten Benutzer ermitteln)</span><span class="sxs-lookup"><span data-stu-id="4f9b2-152">Names are stored for identification for licensing queries (when a user enquires for a license, we need to determine the users currently licensed)</span></span>  |
 
 
 
-#### <a name="telemetry-data"></a><span data-ttu-id="1b664-153">Telemetriedaten</span><span class="sxs-lookup"><span data-stu-id="1b664-153">Telemetry data</span></span>
+#### <a name="telemetry-data"></a><span data-ttu-id="4f9b2-153">Telemetriedaten</span><span class="sxs-lookup"><span data-stu-id="4f9b2-153">Telemetry data</span></span>
 
-<span data-ttu-id="1b664-154">Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt?</span><span class="sxs-lookup"><span data-stu-id="1b664-154">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="1b664-155">Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?</span><span class="sxs-lookup"><span data-stu-id="1b664-155">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+<span data-ttu-id="4f9b2-154">Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt?</span><span class="sxs-lookup"><span data-stu-id="4f9b2-154">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="4f9b2-155">Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?</span><span class="sxs-lookup"><span data-stu-id="4f9b2-155">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
 
-><span data-ttu-id="1b664-156">Mandanten-ID und Benutzer AadObjectId</span><span class="sxs-lookup"><span data-stu-id="1b664-156">tenant id and user AadObjectId</span></span>
+><span data-ttu-id="4f9b2-156">Mandanten-ID und Benutzer AadObjectId</span><span class="sxs-lookup"><span data-stu-id="4f9b2-156">tenant id and user AadObjectId</span></span>
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="1b664-157">Organisationssteuerelemente für vom Partner gespeicherte Daten</span><span class="sxs-lookup"><span data-stu-id="1b664-157">Organizational controls for data stored by partner</span></span>
+#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="4f9b2-157">Organisationssteuerelemente für vom Partner gespeicherte Daten</span><span class="sxs-lookup"><span data-stu-id="4f9b2-157">Organizational controls for data stored by partner</span></span>
 
-<span data-ttu-id="1b664-158">Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.</span><span class="sxs-lookup"><span data-stu-id="1b664-158">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+<span data-ttu-id="4f9b2-158">Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-158">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
 
-><span data-ttu-id="1b664-159">Wir verwenden nur von Azure gehostete Dienste (einschließlich Mongo Atlas) und haben die volle Kontrolle über die Daten in diesen Diensten.</span><span class="sxs-lookup"><span data-stu-id="1b664-159">We only use Azure-hosted services (including Mongo Atlas), and have full control over the data in these services.</span></span>
+><span data-ttu-id="4f9b2-159">Wir verwenden nur von Azure gehostete Dienste (einschließlich Mongo Atlas) und haben die volle Kontrolle über die Daten in diesen Diensten.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-159">We only use Azure-hosted services (including Mongo Atlas), and have full control over the data in these services.</span></span>
 
-#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="1b664-160">Human review of organizational information</span><span class="sxs-lookup"><span data-stu-id="1b664-160">Human review of organizational information</span></span>
+#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="4f9b2-160">Human review of organizational information</span><span class="sxs-lookup"><span data-stu-id="4f9b2-160">Human review of organizational information</span></span>
 
-<span data-ttu-id="1b664-161">Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?</span><span class="sxs-lookup"><span data-stu-id="1b664-161">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+<span data-ttu-id="4f9b2-161">Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?</span><span class="sxs-lookup"><span data-stu-id="4f9b2-161">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
 
-><span data-ttu-id="1b664-162">Nein</span><span class="sxs-lookup"><span data-stu-id="1b664-162">No</span></span>
+><span data-ttu-id="4f9b2-162">Nein</span><span class="sxs-lookup"><span data-stu-id="4f9b2-162">No</span></span>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,11 +106,11 @@ ms.locfileid: "52095424"
 
 ::: zone pivot="mcas"
 
-<span data-ttu-id="1b664-163">Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.</span><span class="sxs-lookup"><span data-stu-id="1b664-163">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
+<span data-ttu-id="4f9b2-163">Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-163">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
 
-<iframe height='1020' title='<span data-ttu-id="1b664-164">Microsoft Cloud App Security Informationen</span><span class="sxs-lookup"><span data-stu-id="1b664-164">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="1b664-165">
+<iframe height='1020' title='<span data-ttu-id="4f9b2-164">Microsoft Cloud App Security Informationen</span><span class="sxs-lookup"><span data-stu-id="4f9b2-164">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="4f9b2-165">
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">Anzeigen auf einer neuen Registerkarte</a></span><span class="sxs-lookup"><span data-stu-id="1b664-165">
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">Anzeigen auf einer neuen Registerkarte</a></span><span class="sxs-lookup"><span data-stu-id="4f9b2-165">
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">View in a new tab</a></span></span>
 
@@ -119,13 +120,13 @@ ms.locfileid: "52095424"
 
 ::: zone pivot="identity"
 
-### <a name="identity-information"></a><span data-ttu-id="1b664-166">Identitätsinformationen</span><span class="sxs-lookup"><span data-stu-id="1b664-166">Identity information</span></span>
+### <a name="identity-information"></a><span data-ttu-id="4f9b2-166">Identitätsinformationen</span><span class="sxs-lookup"><span data-stu-id="4f9b2-166">Identity information</span></span>
 
-<span data-ttu-id="1b664-167">Diese Informationen wurden von ChitChattr darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.</span><span class="sxs-lookup"><span data-stu-id="1b664-167">This information has been provided by ChitChattr about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
+<span data-ttu-id="4f9b2-167">Diese Informationen wurden von ChitChattr darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.</span><span class="sxs-lookup"><span data-stu-id="4f9b2-167">This information has been provided by ChitChattr about how this app handles authentication, authorization, application registration best practices, and other Identity criteria.</span></span>
 
-| <span data-ttu-id="1b664-168">**Information**</span><span class="sxs-lookup"><span data-stu-id="1b664-168">**Information**</span></span> | <span data-ttu-id="1b664-169">**Antwort**</span><span class="sxs-lookup"><span data-stu-id="1b664-169">**Response**</span></span> |
+| <span data-ttu-id="4f9b2-168">**Information**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-168">**Information**</span></span> | <span data-ttu-id="4f9b2-169">**Antwort**</span><span class="sxs-lookup"><span data-stu-id="4f9b2-169">**Response**</span></span> |
 |:----------------|:-------------|
-| <span data-ttu-id="1b664-170">Integrieren Sie Microsoft Identify Platform (Azure AD)?</span><span class="sxs-lookup"><span data-stu-id="1b664-170">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="1b664-171">Nein</span><span class="sxs-lookup"><span data-stu-id="1b664-171">No</span></span> |
+| <span data-ttu-id="4f9b2-170">Integrieren Sie Microsoft Identify Platform (Azure AD)?</span><span class="sxs-lookup"><span data-stu-id="4f9b2-170">Do you integrate with Microsoft Identify Platform (Azure AD)?</span></span>  | <span data-ttu-id="4f9b2-171">Nein</span><span class="sxs-lookup"><span data-stu-id="4f9b2-171">No</span></span> |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
