@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für AtBot, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4280f34bdcd960664e77e95541d7ede3102608cf
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b25ded304a7ed4b1b9eaeb5b81d331c89ba713bc
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095124"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252575"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -34,7 +35,7 @@ Informationen, die von H3 Solutions, Inc. an Microsoft bereitgestellt werden:
 | App-Name | AtBot |
 | ID | WA104381219 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | H3 Solutions, Inc. |
 | URL der Partnerwebsite | [https://atbot.io](https://atbot.io) |
 | URL Teams Anwendungsinfoseite | [https://admin.atbot.io/Docs/GettingStarted](https://admin.atbot.io/Docs/GettingStarted) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Evernote, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 55cfcf7566f1e2509aa990f8e41b92872411c93b
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6bba08d2545b8618286fefbfdfea49b14030892a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095217"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252625"
 ---
 # <a name="evernote"></a>Evernote
 
@@ -34,7 +35,7 @@ Von Evernote an Microsoft bereitgestellte Informationen:
 | App-Name | Evernote |
 | ID | WA104381639 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Evernote |
 | URL der Partnerwebsite | [https://evernote.com/](https://evernote.com/) |
 | URL Teams Anwendungsinfoseite | [https://help.evernote.com/hc/en-us/articles/360001244667](https://help.evernote.com/hc/en-us/articles/360001244667) |

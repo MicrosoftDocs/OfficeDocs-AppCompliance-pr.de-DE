@@ -2,17 +2,17 @@
 title: 'Microsoft Teams: App-Sicherheit und -Compliance – Alle Apps'
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/19/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Compliance-Informationen für alle Microsoft Teams-Apps.
 localization_priority: Priority
-ms.openlocfilehash: 31d085e5a2f8d01e8899f7c3fe911184c2cff879
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6bc983288ea2acb783fd99a80c6c4dbcfbf83fae
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071041"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251044"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Microsoft Teams: App-Sicherheit und -Compliance 
 
@@ -21,6 +21,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** | **Datenverarbeitungsinformationen** | **Cloud App Security-Informationen**  | **App-Funktionen** |
 |:--------|:------------|:----------------------:|:-------------:|:-----------------------------:|:----------------------------------:|:---------------------|
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  | Ja | Ja | Registerkarte, Connector |
+| [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  | Ja | Ja | Bot |
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Ja | Ja | Bot, Registerkarte |
 | [Agile Task Board](./agile-is-task-board.md) | Agile-IS | **✓** |  | Ja | Ja | Registerkarte |
 | [ALVAO Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
@@ -31,10 +32,14 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [atSpoke](./townsend-street-labs-inc-atspoke.md) | Townsend Street Labs, Inc. | **✓** |  | Ja | Ja | Bot |
 | [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  | Ja | Ja | Bot |
 | [AVA](./avepoint-inc-ava.md) | AvePoint, Inc. | **✓** |  | Ja | Ja | Bot, Registerkarte |
+| [Beekast](./beekast.md) | Beekast | **✓** |  | Ja | Ja | Registerkarte |
 | [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Board Connect](./engage-squared-board-connect.md) | Engage Squared | **✓** |  | Ja | Ja | Registerkarte |
 | [Bonusly](./bonusly.md) | Bonusly | **✓** |  | Ja | Ja | Bot |
+| [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  | Ja | Ja | Bot |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
+| [Brightidea](./brightidea.md) | Brightidea | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
+| [C.AI Adoption Bot](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Calendar Bot](./approved-contact-calendar-bot.md) | Approved Contact | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [CatchEm](./chimu-software-catchem.md) | Chimu Software | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
@@ -48,15 +53,18 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  | Ja | Ja | Registerkarte |
 | [Droplr](./droplr.md) | Droplr | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [Dynamic Signal](./dynamic-signal.md) | Dynamic Signal | **✓** |  | Ja | Ja | Bot, Registerkarte |
+| [Easy Projects](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR (Asia) Co.Ltd. | **✓** |  | Ja | Ja | Registerkarte |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  | Ja | Ja | Registerkarte |
 | [elmah.io](./elmahio.md) | elmah.io | **✓** |  | Ja | Ja | Connector |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
+| [Empuls](./empuls.md) | Empuls | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  | Ja | Ja | Bot |
 | [Evernote](./evernote.md) | Evernote | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  | Ja | Ja | Registerkarte |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Enterprise Digital Machines | **✓** |  | Ja | Ja | Registerkarte, Connector |
+| [Freehand by InVision](./invision-app-freehand-by.md) | InVision-App | **✓** |  | Ja | Ja | Registerkarte |
 | [Freshdesk](./freshworks-inc-freshdesk.md) | Freshworks INC | **✓** |  | Ja | Ja | Bot |
 | [Fusion Remote](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  | Ja | Ja | Bot |
 | [Go1](./go1.md) | Go1 | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
@@ -66,8 +74,10 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Hi5](./hi5technologies-hi5.md) | Hi5 Technologies | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [Hibob](./hibob-inc.md) | Hibob Inc. | **✓** |  | Ja | Ja | Bot |
+| [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  | Ja | Ja | Registerkarte |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  | Ja | Ja | Registerkarte, Connector |
+| [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  | Ja | Ja | Bot |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Industry Intelligence Team | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [InStation](./developers-invillia-instation.md) | Developers Invillia | **✓** |  | Ja | Ja | Registerkarte |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  | Ja | Ja | Bot, Registerkarte |
@@ -103,10 +113,13 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  | Ja | Ja | Registerkarte, Connector |
 | [OfficeSpace](./officespace-software.md) | OfficeSpace Software | **✓** |  | Ja | Ja | Bot |
 | [Officevibe](./officevibe.md) | Officevibe | **✓** |  | Ja | Ja | Bot |
+| [Onsight Connect](./librestream-onsight-connect.md) | Librestream | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [OpenAgora](./open-agora-openagora.md) | Open Agora | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  | Ja | Ja | Bot, Registerkarte |
+| [Package Notifier](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  | Ja | Ja | Connector |
 | [Perfony](./perfony.md) | Perfony | **✓** |  | Ja | Ja | Registerkarte |
 | [Piazza](./piazza.md) | Piazza | **✓** |  | Ja | Ja | Registerkarte |
+| [Planyway Team Calendar](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  | Ja | Ja | Registerkarte |
 | [Polly](./polly.md) | Polly | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [Prezi Video](./prezi-video.md) | Prezi | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung, Connector |
@@ -139,22 +152,27 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  | Ja | Ja | Bot |
 | [Slido](./slido.md) | Slido | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Smart Connect for Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
+| [SMART Learning Suite](./smart-technologies-ulc-learning-suite.md) | SMART Technologies ULC | **✓** |  | Ja | Ja | Registerkarte |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  | Ja | Ja | Registerkarte, Connector |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  | Ja | Ja | Bot, Registerkarte |
-| [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  | Ja | Ja | Bot |
+| [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  | Ja | Ja | Bot, Registerkarte |
+| [SmileBack](./smileback.md) | SmileBack | **✓** |  | Ja | Ja | Connector |
 | [Soapbox](./soapbox.md) | Soapbox | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Spinify](./spinify.md) | Spinify | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Stack Overflow for Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  | Ja | Ja | Bot |
 | [StarLeaf](./starleaf.md) | StarLeaf | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
+| [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  | Ja | Ja | Registerkarte |
 | [Streem](./streem.md) | Streem | **✓** |  | Ja | Ja | Bot |
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  | Ja | Ja | Registerkarte |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  | Ja | Ja | Bot, Registerkarte, Messaging-Erweiterung, Connector |
+| [SurveySparrow](./admin@surveysparrowcom-surveysparrow.md) | admin@surveysparrow.com | **✓** |  | Ja | Ja | Bot |
 | [Sympli](./sympli-llc.md) | Sympli, LLC | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
 | [TackleBox](./insiten-tacklebox.md) | Insiten | **✓** |  | Ja | Ja | Registerkarte, Connector |
 | [Talla](./talla-inc.md) | Talla Inc. | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Talview Interviews](./talview-inc-interviews.md) | Talview Inc | **✓** |  | Ja | Ja | Registerkarte |
 | [TaskList](./limestat-inc-tasklist.md) | LimeStat, Inc | **✓** |  | Ja | Ja | Bot |
+| [Teamhood](./eylean-uab-teamhood.md) | Eylean, UAB | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
 | [TeamMate by ChitChattr](./chitchattr-teammate-by.md) | ChitChattr | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [TeamMood](./power-up-conseil-teammood.md) | Power Up Conseil | **✓** |  | Ja | Ja | Bot |
 | [Teams Manager](./solutions2share-gmbh-teams-manager.md) | Solutions2Share GmbH | **✓** |  | Ja | Ja | Bot, Registerkarte |
@@ -165,7 +183,9 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  | Ja | Ja | Bot, Messaging-Erweiterung |
 | [timeghost](./kollisch-gmbh-timeghost.md) | Köllisch GmbH | **✓** |  | Ja | Ja | Registerkarte |
 | [TINYpulse](./tinypulse.md) | TINYpulse | **✓** |  | Ja | Ja | Bot, Connector |
+| [Tribute](./tribute-co.md) | Tribute Co. | **✓** |  | Ja | Ja | Registerkarte |
 | [Trivia](./springworks-hr-tech-trivia.md) | Springworks HR Tech | **✓** |  | Ja | Ja | Bot, Registerkarte |
+| [Trivie](./trivie-inc.md) | Trivie, Inc. | **✓** |  | Ja | Ja | Registerkarte |
 | [Tryane Analytics](./tryane-analytics.md) | Tryane | **✓** |  | Ja | Ja | Registerkarte |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  | Ja | Ja | Bot, Registerkarte |
 | [Viima](./viima-solutions-oy.md) | Viima Solutions Oy | **✓** |  | Ja | Ja | Registerkarte |

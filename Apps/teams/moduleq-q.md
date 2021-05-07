@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für F, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum #A0 sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cf5a29e08636c40635dd7e40c768f56cac35c096
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 2821009fea219a32a935dba7043d5ba0a48b826c
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093338"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252405"
 ---
 # <a name="q"></a>Q
 
@@ -34,7 +35,7 @@ Von ModuleQ an Microsoft bereitgestellte Informationen:
 | App-Name | Q |
 | ID | WA104381433 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | ModuleQ |
 | URL der Partnerwebsite | [https://moduleq.com](https://moduleq.com) |
 | URL der Datenschutzrichtlinie | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |

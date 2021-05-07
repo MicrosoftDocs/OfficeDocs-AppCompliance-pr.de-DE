@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/23/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Prodoscore ProdBot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 373544c31b3baca313c71cb1620b9c57c627fa69
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b5075edb0ff6f23f01ef0975ee5429560720af9e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093483"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252365"
 ---
 # <a name="prodoscore-prodbot"></a>Prodoscore ProdBot
 
@@ -34,7 +35,7 @@ Von Prodoscore an Microsoft bereitgestellte Informationen:
 | App-Name | Prodoscore ProdBot |
 | ID | WA200002620 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Prodoscore |
 | URL der Partnerwebsite | [https://www.prodoscore.com](https://www.prodoscore.com) |
 | URL Teams Anwendungsinfoseite | [https://www.prodoscore.com/how-it-works/](https://www.prodoscore.com/how-it-works/) |
@@ -125,11 +126,10 @@ Diese Informationen wurden von Prodoscore darüber bereitgestellt, wie diese App
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,
-<br />
-
-<br />
- | | Macht Ihre App Web-APIs verfügbar? | Keine | | Verwendet Ihre App Vorschau-APIs? | Ja | | Verwendet Ihre App veraltete APIs? | Keine |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/><br/> |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Verwendet Ihre App Vorschau-APIs? | Ja |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

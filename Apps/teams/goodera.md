@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/09/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Goodera, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 92b91dbc5b43707307670f6186f9b0e49013c0e2
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: ee377f810df40253b3582dd3e127453a2a1520c3
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095147"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252585"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -34,7 +35,7 @@ Von Goodera an Microsoft bereitgestellte Informationen:
 | App-Name | Goodera |
 | ID | WA200002136 |
 | Funktionen | Bot, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Goodera |
 | URL der Partnerwebsite | [https://about.goodera.com](https://about.goodera.com) |
 | URL Teams Anwendungsinfoseite | [N/A](N/A) |

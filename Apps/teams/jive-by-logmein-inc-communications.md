@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/19/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jive Communications, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b88ed9c68a204d197005d0d1aadd8a5695e2f1e
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 337147716579739dc3d0f71e1eb46a330ce11423
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52094987"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252495"
 ---
 # <a name="jive-communications"></a>Jive Communications
 
@@ -34,7 +35,7 @@ Von Jive von LogMeIn Inc. an Microsoft bereitgestellte Informationen:
 | App-Name | Jive Communications |
 | ID | WA200000962 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Jive by LogMeIn Inc. |
 | URL der Partnerwebsite | [https://www.logmeininc.com](https://www.logmeininc.com) |
 | URL Teams Anwendungsinfoseite | [https://www.goto.com/integrations/microsoft-teams/gotoconne...](https://www.goto.com/integrations/microsoft-teams/gotoconnect) |

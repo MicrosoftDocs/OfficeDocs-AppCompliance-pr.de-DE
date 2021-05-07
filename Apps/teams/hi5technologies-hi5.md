@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hi5, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b0d55e54a8c144d9b44061b97d02d5728ec3023e
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: bff00e431dfb24bbb2812ed84c431a33c46becd6
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095097"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252555"
 ---
 # <a name="hi5"></a>Hi5
 
@@ -34,7 +35,7 @@ Von Hi5Technologies an Microsoft bereitgestellte Informationen:
 | App-Name | Hi5 |
 | ID | WA200001610 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Hi5 Technologies |
 | URL der Partnerwebsite | [https://www.get5.io/](https://www.get5.io/) |
 | URL der Datenschutzrichtlinie | [https://www.get5.io/privacy](https://www.get5.io/privacy) |

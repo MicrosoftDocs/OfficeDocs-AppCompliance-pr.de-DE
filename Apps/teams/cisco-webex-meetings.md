@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Cisco Webex-Besprechungen, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9984c4e025fe406adbd5fa28c8f9ea6702f75e37
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b31e736c76a48d9c4498a16f5f981a299780a4ef
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095387"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252705"
 ---
 # <a name="cisco-webex-meetings"></a>Cisco Webex-Meetings
 
@@ -34,7 +35,7 @@ Von Cisco Webex Meetings an Microsoft bereitgestellte Informationen:
 | App-Name | Cisco Webex-Meetings |
 | ID | WA104381435 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Cisco Webex-Meetings |
 | URL der Partnerwebsite | [https://www.webex.com](https://www.webex.com) |
 | URL Teams Anwendungsinfoseite | [https://collaborationhelp.cisco.com/](https://collaborationhelp.cisco.com/) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/22/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Org@Work, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4323892b93a59f7b5597a904206619eb9510afd4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 4818b0c99dfe0418fa553f6f7c71b79ab2ab0aa5
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093353"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252435"
 ---
 # <a name="orgwork"></a>Org@Work
 
@@ -34,7 +35,7 @@ Von Lundano an Microsoft bereitgestellte Informationen:
 | App-Name | Org@Work |
 | ID | WA200002461 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Lundano |
 | URL der Partnerwebsite | [https://www.lundano.com/orgatwork/](https://www.lundano.com/orgatwork/) |
 | URL Teams Anwendungsinfoseite | [https://www.lundano.com/orgatwork/index.html#](https://www.lundano.com/orgatwork/index.html#) |

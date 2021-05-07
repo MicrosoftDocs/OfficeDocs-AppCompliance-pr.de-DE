@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für RSpace, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5b09f2d289a4f118be3173a594635790f826c7b4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 9f20414309e971abd02d703aeee78ebade9c26d7
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093274"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252345"
 ---
 # <a name="rspace"></a>RSpace
 
@@ -34,7 +35,7 @@ Informationen, die von ResearchSpace an Microsoft bereitgestellt werden:
 | App-Name | RSpace |
 | ID | WA104381671 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | ResearchSpace |
 | URL der Partnerwebsite | [https://www.researchspace.com](https://www.researchspace.com) |
 | URL Teams Anwendungsinfoseite | [https://www.researchspace.com/enterprise/help-and-support-r...](https://www.researchspace.com/enterprise/help-and-support-resources-enterprise/) |

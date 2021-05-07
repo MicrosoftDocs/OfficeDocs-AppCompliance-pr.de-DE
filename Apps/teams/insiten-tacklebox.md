@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/12/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TackleBox, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 19ff04953cb67cdcfcd6ea0b430ed3c1eb56f081
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f141d645dddf16f57f5ba8097cd1924f7e561462
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095014"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252515"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -34,7 +35,7 @@ Von Insiten an Microsoft bereitgestellte Informationen:
 | App-Name | TackleBox |
 | ID | WA200002310 |
 | Funktionen | Registerkarte, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Insiten |
 | URL der Partnerwebsite | [https://tacklebox.app/](https://tacklebox.app/) |
 | URL Teams Anwendungsinfoseite | [https://tacklebox.app](https://tacklebox.app) |
@@ -59,7 +60,7 @@ Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/gra
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Files.ReadWrite.All | delegierte | Ermöglicht Benutzern das Durchsuchen OneDrive Laufwerken, Ordnern und Dateien; Linkdateien zu TackleBox; Lesen Excel Dateien zum automatischen Extrahieren von Diagrammen, Diagrammen, Tabellen, Druckbereichen und benannten Bereichen; Erstellen und Aktualisieren PowerPoint Dateien mit diesen Excel Visuelles | Laufwerks-ID, Ordner-ID, Datei-ID, Ansichtslink, Erstellt von, Erstelltes Datum, Geändert von, Änderungsdatum, Versions-ID, Dateiname | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
 >| Sites.Read.All | delegierte | Benutzern das Durchsuchen und Verknüpfen Excel dateien in privaten Teams ermöglichen | Keine | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
->| User.Read | delegierte | Ermöglicht der App, das Profil der angemeldeten Benutzer zu lesen und ihre E-Mail-Adresse für Benachrichtigungen zu retreive. | E-Mail senden | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
+>| User.Read | delegierte | Ermöglicht der App, das Profil der angemeldeten Benutzer zu lesen und ihre E-Mail-Adresse für Benachrichtigungen zu retreive. | E-Mails | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
 >| openid | delegierte | Ermöglicht Benutzern die Anmeldung bei unserer Anwendung mithilfe Microsoft 365 Kontos | Mandanten-ID und Objekt-ID für Benutzer | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
 >| Profil | delegierte | Ermöglicht der App das Anzeigen des grundlegenden Profils (Name, Benutzername) der Benutzer, um die Zusammenarbeit zu verbessern | UPN, Vorname, Nachname | 485936ec-d15d-4a17-9f7d-2eeb5ea43b94 |
 

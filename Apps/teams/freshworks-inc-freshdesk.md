@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Freshdesk, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 94a03102fc53669db0af71d81480cf6dc92f31c4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 943ca79c2d39858c0ce2750a102c105c61faa699
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095177"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252595"
 ---
 # <a name="freshdesk"></a>Freshdesk
 
@@ -34,7 +35,7 @@ Von Freshworks INC an Microsoft bereitgestellte Informationen:
 | App-Name | Freshdesk |
 | ID | WA104381505 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Freshworks INC |
 | URL der Partnerwebsite | [https://www.freshdesk.com](https://www.freshdesk.com) |
 | URL Teams Anwendungsinfoseite | [https://support.freshdesk.com/](https://support.freshdesk.com/) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jetdocs, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 378abf284c54f1931f63dc1f05dccaff01bf8bd4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7401cacdcbecd28fdf0a19bb7349b21c1168f547
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095004"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252505"
 ---
 # <a name="jetdocs"></a>Jetdocs
 
@@ -34,7 +35,7 @@ Von Jetdocs an Microsoft bereitgestellte Informationen:
 | App-Name | Jetdocs |
 | ID | WA200002236 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Jetdocs |
 | URL der Partnerwebsite | [https://jetdocs.io/](https://jetdocs.io/) |
 | URL der Datenschutzrichtlinie | [https://jetdocs.io/privacy/](https://jetdocs.io/privacy/) |

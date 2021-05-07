@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Droplr, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 09ab881c4c51f9e39dcb970a1f5104d1084eec81
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 8203c357c815b4f746d9b5356deb51e138282a09
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095294"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252655"
 ---
 # <a name="droplr"></a>Droplr
 
@@ -34,7 +35,7 @@ Von Droplr an Microsoft bereitgestellte Informationen:
 | App-Name | Droplr |
 | ID | WA104381718 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Droplr |
 | URL der Partnerwebsite | [https://droplr.com](https://droplr.com) |
 | URL Teams Anwendungsinfoseite | [https://droplr.com/contact](https://droplr.com/contact) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Leave Request by LTAPPs, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cabfdc7cfc73ad75cedd7846adb82f8aba1e6a6d
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: d53010c013fdab2dd7a0791005a916d98340d96e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093358"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252445"
 ---
 # <a name="leave-request-by-ltapps"></a>Leave Request by LTAPPs
 
@@ -34,7 +35,7 @@ Informationen, die von LTAPPs SOFTWARE CO.,LTD an Microsoft bereitgestellt werde
 | App-Name | Leave Request by LTAPPs |
 | ID | WA200001928 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | LTAPPs SOFTWARE CO.,LTD |
 | URL der Partnerwebsite | [https://ltaddins.com](https://ltaddins.com) |
 | URL der Datenschutzrichtlinie | [https://ltaddins.com/TermsCondition/privacypolicy.html](https://ltaddins.com/TermsCondition/privacypolicy.html) |

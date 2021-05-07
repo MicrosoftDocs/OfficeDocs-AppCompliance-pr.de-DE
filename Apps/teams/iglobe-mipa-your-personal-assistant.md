@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/06/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MIPA – Ihr persönlicher Assistent, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7acb929082cdebca9780c741fbb584f3848b8108
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 243a39894b36ea470d25d4145169ecd6f2a27c75
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095047"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252535"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA – Your Personal Assistant
 
@@ -33,7 +34,7 @@ Informationen, die von iGlobe an Microsoft bereitgestellt werden:
 | App-Name | MIPA – Your Personal Assistant |
 | ID | WA200000148 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | iGlobe |
 | URL der Partnerwebsite | [https://mipa.iglobe.dk/](https://mipa.iglobe.dk/) |
 | URL Teams Anwendungsinfoseite | [https://mipa.iglobe.dk/Support](https://mipa.iglobe.dk/Support) |

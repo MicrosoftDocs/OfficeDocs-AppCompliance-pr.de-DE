@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 07/20/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Contact Center, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 666cb2947c05a8b40e568b8c602bf5988bf6d3c0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f4f13a5dcd05622b297488fcfe8663028cc427fa
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093644"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252465"
 ---
 # <a name="contact-center"></a>Contact Center
 
@@ -34,7 +35,7 @@ Informationen, die von Landis Technologies LLC an Microsoft bereitgestellt werde
 | App-Name | Contact Center |
 | ID | WA200001428 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Landis Technologies LLC |
 | URL der Partnerwebsite | [https://landistechnologies.com/office365contactcenter/](https://landistechnologies.com/office365contactcenter/) |
 | URL der Datenschutzrichtlinie | [https://landistechnologies.com/legal/](https://landistechnologies.com/legal/) |

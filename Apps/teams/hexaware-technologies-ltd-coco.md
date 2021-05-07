@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für COCO, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bd1965766fabddf8350010b3aefca2ebf9ceedbf
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 141dfa30c023e694674d48a7107abce2ab826d44
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095114"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252565"
 ---
 # <a name="coco"></a>COCO
 
@@ -33,7 +34,7 @@ Von Hexaware Technologies Ltd. an Microsoft bereitgestellte Informationen:
 | App-Name | COCO |
 | ID | WA200001468 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Hexaware Technologies Ltd. |
 | URL der Partnerwebsite | [https://hexaware.com/](https://hexaware.com/) |
 | URL der Datenschutzrichtlinie | [https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-...](https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-Privacy-Policy-and-Additional-Terms_V2.1.pdf) |
