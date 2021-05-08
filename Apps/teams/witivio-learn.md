@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/31/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Learn, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e7ebfb89a25634fb1691df9eaa9182334278726a
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 724ecb5bd0eb5365ea06af4fda0b51b4fd23b157
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52093543"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253246"
 ---
 # <a name="learn"></a>Informationen
 
@@ -34,7 +35,7 @@ Von Witivio an Microsoft bereitgestellte Informationen:
 | App-Name | Informationen |
 | ID | WA200001308 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Unterstützte Office 365-Clients | Microsoft Teams |
 | Partnerunternehmensname | Witivio |
 | URL der Partnerwebsite | [https://www.witivio.com/learn](https://www.witivio.com/learn) |
 | URL der Datenschutzrichtlinie | [https://www.witivio.com/en/privacy](https://www.witivio.com/en/privacy) |
@@ -52,7 +53,7 @@ Diese Informationen wurden von Witivio darüber bereitgestellt, wie diese App Or
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph-Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
@@ -62,7 +63,7 @@ Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/gra
 >| Profil | delegierte | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | 8c5c0060-2892-4355-b0db-661f206028a9 |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Verwendete Nicht-Microsoft-Dienste
 
 Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -89,7 +90,7 @@ Nur PROD/Run-Administratoren haben Zugriff auf die Produktionstelemetrie. Die Pr
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Witivio verwendet nur Azure-Komponenten, die in der Region "Nordeuropa" bereitgestellt werden. Wir verwenden Anwendungsinblicke und Cosmos DB für Datenanalyse und -speicherung.
+>Witivio verwendet nur Azure-Komponenten, die in der Region "Nordeuropa" bereitgestellt werden. Wir verwenden Anwendungsinblick und Cosmos DB für Datenanalyse und -speicherung.
 Witivio verwenden MFA für alle Benutzer, einschließlich Administratoren. Administratoren verfügen über ein Benutzerkonto (für Die Arbeitsstation) und ein privilegiertes Konto für den Zugriff auf Azure-Ressourcen.
 
 #### <a name="human-review-of-organizational-information"></a>Human review of organizational information
@@ -104,9 +105,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35854' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Sicherheitsinformationen für Microsoft Cloud App' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35854' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35854" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
 

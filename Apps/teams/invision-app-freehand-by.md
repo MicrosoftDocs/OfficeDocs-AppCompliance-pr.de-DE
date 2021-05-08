@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für Freehand by InVision by InVision app
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/16/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Freehand by InVision, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Freehand by InVision, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8ff5737df8fbc08c1030365bebba67d3ce32b38a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: fa9a02b63eff4001789f5a7c854fd9ee554d6e84
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252118"
+ms.locfileid: "52258772"
 ---
 # <a name="freehand-by-invision"></a>Freihand von InVision
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 16. März 2021</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 6. Mai 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Ansicht im Teams Store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381362" target="_blank">Ansicht in AppSource</a>
@@ -35,10 +35,10 @@ Informationen, die von der InVision-App für Microsoft bereitgestellt werden:
 | App-Name | Freihand von InVision |
 | ID | WA104381362 |
 | Funktionen | Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Unterstützte Office 365-Clients | Microsoft Teams |
 | Partnerunternehmensname | InVision-App |
 | URL der Partnerwebsite | [https://www.invisionapp.com/](https://www.invisionapp.com/) |
-| URL Teams Anwendungsinfoseite | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
+| URL der Teams-Anwendungsinfoseite | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
 | URL der Datenschutzrichtlinie | [https://www.invisionapp.com/privacy](https://www.invisionapp.com/privacy) |
 | URL der Nutzungsbedingungen | [https://www.invisionapp.com/terms](https://www.invisionapp.com/terms) |
 
@@ -54,16 +54,16 @@ Diese Informationen wurden von der InVision-App bereitgestellt, um zu erfahren, 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph-Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet Microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Verwendete Nicht-Microsoft-Dienste
 
 Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle OII-Dienste, die nicht von Microsoft sind, werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
 >| https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors |
 
@@ -99,9 +99,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Sicherheitsinformationen für Microsoft Cloud App' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20788" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
 
@@ -118,7 +118,7 @@ Diese Informationen wurden von der InVision-App bereitgestellt, um zu erfahren, 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden geprüft und befolgt, die in der Prüfliste Microsoft Identity Platform aufgeführt sind?  | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden geprüft und befolgt, die in der Prüfliste für die Integration der Microsoft Identity Platform beschrieben sind?  | Nein |
 | Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Bittet Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario? | Nein |

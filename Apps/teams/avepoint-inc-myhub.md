@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/21/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MyHub, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 506849ae022916d92fc552d2e532ed7a6144df50
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 391c44f4f1d06742d1002b713f5f24f69db7d01e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095524"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253186"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -33,7 +34,7 @@ Informationen, die von AvePoint, inc. an Microsoft bereitgestellt werden:
 | App-Name | MyHub |
 | ID | WA200000726 |
 | Funktionen | Bot, Registerkarte |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | AvePoint, inc. |
 | URL der Partnerwebsite | [https://www.avepoint.com](https://www.avepoint.com) |
 | URL der Datenschutzrichtlinie | [https://www.avepoint.com/company/privacy-policy](https://www.avepoint.com/company/privacy-policy) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Jira Cloud, ihre Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 07c97596d016e910229a85b7873b6b19fcf9ed5a
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: cb691de3862d1e1b067bc58ed6c457f6ca8dcd16
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095547"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253196"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -34,7 +35,7 @@ Von Atlassian an Microsoft bereitgestellte Informationen:
 | App-Name | Jira Cloud |
 | ID | WA200002140 |
 | Funktionen | Bot, Registerkarte, Messaging-Erweiterung, Connector |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Atlassian |
 | URL der Partnerwebsite | [https://marketplace.atlassian.com/apps/1217836/microsoft-te...](https://marketplace.atlassian.com/apps/1217836/microsoft-teams-for-jira) |
 | URL der Datenschutzrichtlinie | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |

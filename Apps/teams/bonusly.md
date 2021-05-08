@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Bonusly, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7a1104043750cf209d7e851f9a46d3f5db263bb6
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 07aa9a7cfc2b6a49559ae4ccdd931894d33319c0
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095487"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253156"
 ---
 # <a name="bonusly"></a>Bonusly
 
@@ -34,7 +35,7 @@ Von Bonusly an Microsoft bereitgestellte Informationen:
 | App-Name | Bonusly |
 | ID | WA104381622 |
 | Funktionen | Bot |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Bonusly |
 | URL der Partnerwebsite | [https://bonus.ly/](https://bonus.ly/) |
 | URL Teams Anwendungsinfoseite | [https://help.bonus.ly/](https://help.bonus.ly/) |

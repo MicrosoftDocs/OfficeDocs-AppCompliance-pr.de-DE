@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/24/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das StarLeaf-Add-In für Outlook, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ac1b9b979d9b6f8706e77baf22a73a784950eeaa
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1ae18b1e6d9f89f0680c4b50e0e144851f052b0b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52095878"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252926"
 ---
 # <a name="starleaf-add-in-for-outlook"></a>StarLeaf-Add-In für Outlook
 

@@ -1,46 +1,46 @@
 ---
-title: Anwendungsinformationen für "Tribute" von "Tribute Co."
+title: Anwendungsinformationen für SurveySparrow by admin@surveysparrow.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für "Tribute", seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für SurveySparrow, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3fead70ef460ec81d89144420850ce47e3aee3e4
+ms.openlocfilehash: 85c350a57c265085c44db85d163b265089b8a89c
 ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52258782"
+ms.locfileid: "52258762"
 ---
-# <a name="tribute"></a>Würdigung
+# <a name="surveysparrow"></a>SurveySparrow
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 16. April 2021</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 19. April 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Ansicht im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002589" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1b923c85-b04c-43d4-b2c2-0fdc0f598658" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002257" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von "Tribute Co." an Microsoft bereitgestellt werden:
+Von microsoft admin@surveysparrow.com bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Würdigung |
-| ID | WA200002589 |
-| Funktionen | Registerkarte |
+| App-Name | SurveySparrow |
+| ID | WA200002257 |
+| Funktionen | Bot |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Tribute Co. |
-| URL der Partnerwebsite | [https://www.tributementorship.com](https://www.tributementorship.com) |
-| URL Teams Anwendungsinfoseite | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
-| URL der Datenschutzrichtlinie | [https://www.tributementorship.com/privacy](https://www.tributementorship.com/privacy) |
-| URL der Nutzungsbedingungen | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
+| Partnerunternehmensname | admin@surveysparrow.com |
+| URL der Partnerwebsite | [https://surveysparrow.com](https://surveysparrow.com) |
+| URL Teams Anwendungsinfoseite | [https://surveysparrow.com/apps/microsoft-teams-survey-integ...](https://surveysparrow.com/apps/microsoft-teams-survey-integration/) |
+| URL der Datenschutzrichtlinie | [https://surveysparrow.com/legal/privacy-policy/](https://surveysparrow.com/legal/privacy-policy/) |
+| URL der Nutzungsbedingungen | [https://surveysparrow.com/legal/terms-of-service/](https://surveysparrow.com/legal/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,7 +50,7 @@ Informationen, die von "Tribute Co." an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
 
-Diese Informationen wurden von "Tribute Co." darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von admin@surveysparrow.com darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
@@ -69,7 +69,9 @@ Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teil
 
 Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->Auf EUII wird nicht zugegriffen.
+>| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
+>|:--------------------------------|:---------------------|:--------------------------|
+>| Wir greifen auf PII zu, um die E-Mail-ID zu erhalten, um zu überprüfen, ob der Benutzer über ein Konto in SurveySparrow verfügt. | Nein |  |
 
 
 
@@ -77,19 +79,19 @@ Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf i
 
 Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->In den Telemetrie- oder Protokollen der Anwendungen werden keine OII oder EUII angezeigt.
+>Kundenkontobezogene Informationen. Protokolle werden für eine Woche beibehalten
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wir sind ein Datenverarbeiter und kein Controller. 
+>Wir verfügen über rollenbasierte Rechte. Nur autorisierte Benutzer können darauf zugreifen, und wir verfügen über Aufbewahrungsrichtlinien
 
 #### <a name="human-review-of-organizational-information"></a>Human review of organizational information
 
 Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
->Nein
+>Ja
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,9 +101,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37580' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37580" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,20 +113,21 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von "Tribute Co." darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von admin@surveysparrow.com darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden geprüft und befolgt, die in der Prüfliste Microsoft Identity Platform aufgeführt sind?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Ja |
+| Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Bittet Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario? | Ja |
-| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordern wird? | Nein |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordern wird? | Ja |
 | Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Macht Ihre App Web-APIs verfügbar? | Ja |
+| Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
 
