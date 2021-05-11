@@ -2,26 +2,26 @@
 title: Benutzerhandbuch
 author: LGerrard
 ms.author: legerrar
-description: ISV-Benutzerhandbuch für Microsoft 365 App Compliance Program
-keywords: ISV-Benutzerhandbuch für Microsoft 365 App Compliance Program
+description: ISV-Benutzerhandbuch für Microsoft 365 App-Compliance-Programm
+keywords: ISV-Benutzerhandbuch für Microsoft 365 App-Compliance-Programm
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 0a9c60bda8e9710957ba238f1fe7a96ca0039ea3
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1338edfc5ad4447d9167eea66388cd8d7a65a883
+ms.sourcegitcommit: 47fdc4f6dcfbc1b4c74f7e1e49343b9b1ce6ef9c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071081"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52313274"
 ---
-# <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Benutzerhandbuch des Partners für Microsoft 365 App Compliance Program
+# <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Benutzerhandbuch des Partners für Microsoft 365 App-Compliance-Programm
 
 |||
 |---|---|
-|Ebene 1| Publisher Attestation|
+|Ebene 1| Herausgebernachweis|
 |Ebene 2| Microsoft 365-Zertifizierung|
 
 ## <a name="1-overview"></a>1. Übersicht
-Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die für das Microsoft 365-App-Compliance-Programm registriert sind, um publisher attestation and certification though Partner Center portal zu durchlaufen.
+Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die für das Microsoft 365-App-Compliance-Programm registriert sind, das die Publisher-Zertifizierung über das Partner Center-Portal durchlaufen soll.
 
 ## <a name="2-acronyms--definitions"></a>2. Akronyme & Definitionen
 | | |
@@ -32,21 +32,21 @@ Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die für d
 |App-Quelle| Katalog von Apps (https://appsource.microsoft.com/)
 ||Beispiel: Jetzt virtueller Agent (https://appsource.microsoft.com/en-us/product/office/WA104381816)|
 
-## <a name="3---publisher-attestation-workflow"></a>3. Publisher Attestation Workflow
+## <a name="3---publisher-attestation-workflow"></a>3. Publisher-Workflow
 
 Startseite: Dies ist die Zielseite, sobald sich ein Partner beim Partner Center anmeldet.
 
 ![Startbildschirm des Partner Center](../media/Picture1.png)
 
 **Schritt 1**   : Auf der linken Seite der Seite in der Navigationsleiste:
-1. Auswählen des Office-Speichers
+1. Auswählen Office Speichers
 1. Auswählen der Übersicht
 
 ![Office Store finden Sie auf der linken Navigation](../media/Picture2.png)
 
-Wenn Sie "Übersicht" auswählen, kann der Partner eine Liste der apps sehen, die über das Partner Center übermittelt wurden und für das Microsoft 365 Compliance-Programm verfügbar sind.
+Wenn Sie "Übersicht" auswählen, kann der Partner eine Liste der Apps sehen, die über das Partner Center übermittelt wurden und für das Microsoft 365 zur Verfügung stehen.
 
-**Schritt 2** : Wählen Sie eine App aus der Liste aus, um den Publisher-Attestation-Prozess zu starten.
+**Schritt 2** : Wählen Sie eine App aus der Liste aus, um den Publisher zu starten.
 
 ![Auswählen der Anwendung, die Sie bestätigen möchten](../media/Picture3.png)
 
@@ -56,7 +56,7 @@ Beim Auswählen einer App wird eine andere Navigationsleiste mit der Option "App
 
 ![Auswählen der App-Compliance](../media/App%20compliance%20step%203.png)
 
-**Schritt 4**: Ausfüllen des Self-Assessment Für Publisher Attestation
+**Schritt 4**: Ausfüllen des Self-Assessment Fragebogens für Publisher Attestation
 
 ![Import/Export](../media/step4-new%20add.PNG)
 
@@ -67,7 +67,7 @@ Beim Auswählen einer App wird eine andere Navigationsleiste mit der Option "App
 ![CLone ](../media/clone.PNG)
  ![ Clone2](../media/clone2.PNG)
 
-Sie können auch das Import/Export-Feature nutzen, um das Formular offline zu vervollständigen und nach Abschluss des Vorgangs zu importieren. 
+Sie können auch das Import/Export verwenden, um das Formular offline zu vervollständigen und nach Abschluss zu importieren. 
 
 **Schritt 5**: Nachdem Sie abgeschlossen sind, klicken Sie auf "Übermitteln", die Bewertung wird nun überprüft.
 
@@ -87,7 +87,7 @@ Bei Ablehnung in dieser Phase kann ein Partner:
 
 ![Aktualisieren und erneutes Übermitteln der Bewertung](../media/Picture10.png)
 
-**B.Publisher Attestation Re-submission**
+**B.Publisher Erneute Übermittlung von Attesten**
 
 ![Erneutes Übermitteln in der Prüfung](../media/PA%20resubmission.png)
 
@@ -104,35 +104,35 @@ Bei Ablehnung in dieser Phase kann ein Partner:
 
 ![Beginnen der M365-App-Zertifizierung](../media/PA%20approval%203.png)
 
-**Post Publisher Verification Approval: Beispiel für Link in AppSource für vom Herausgeber bestätigte Apps**
+**Post Publisher Verification Approval: Beispiel für einen Link in AppSource für vom Herausgeber bestätigte Apps**
 
 ![Beispiel für abgeschlossenes Attest](../media/Example%20to%20attested%20apps.png)
 
-## <a name="4-microsoft-365-certification-workflow"></a>4. Microsoft 365-Zertifizierungsworkflow
+## <a name="4-microsoft-365-certification-workflow"></a>4. Microsoft 365 Zertifizierungsworkflow
 
 Sobald der Partner auf "Übermitteln" klickt und alle Dokumente und Nachweise zur Überprüfung übermittelt: 
 
-### <a name="microsoft-365-certification---submitted"></a>Microsoft 365 Certification – Submitted
+### <a name="microsoft-365-certification---submitted"></a>Microsoft 365 Zertifizierung – Übermittelt
 
 ![Zertifizierung gestartet](../media/certification%201.png)
 
-**Microsoft 365-Zertifizierung – Abgelehnt**
+**Microsoft 365 Zertifizierung – Abgelehnt**
 
 ![Abgelehnte Zertifizierung](../media/certification%20rejected.png)
 
-**Microsoft 365-Zertifizierung – Genehmigt**
+**Microsoft 365 Zertifizierung – Genehmigt**
 
 ![Zertifizierung genehmigt](../media/certification%20approved.png)
 
-**Post Certification Approval: Beispiel für Microsoft 365-Zertifizierungsabzeichen in AppSource**
+**Post Certification Approval: Beispiel für Microsoft 365 Zertifizierungsabzeichen in AppSource**
 
 ![Beispiel für Zertifizierungsabzeichen](../media/post%20certification%20badge.png)
 
 ## <a name="5-workflow-for-existing-isvs"></a>5. Workflow für vorhandene ISVs
 
-Wenn Sie ein vorhandener ISV sind und Publisher Attestation aktualisieren möchten.
+Wenn Sie ein vorhandener ISV sind und den Publisher aktualisieren möchten.
 
-**Schritt 1**: Klicken Sie auf den Link 'Publisher Attestation aktualisieren und erneut übermitteln'.
+**Schritt 1**: Klicken Sie auf "Aktualisieren und erneut senden" Publisher Attestation.
 
 ![Update Publisher Attestation ](../media/existing%20isv%201.png)
 
@@ -152,29 +152,77 @@ Sobald sie übermittelt wurde, wird sie überprüft.
 
 ## <a name="6---microsoft-365-re-certification-workflow"></a>6. Microsoft 365 Re-Certification Workflow:
 
-Wenn eine App ihr einjähriges Zertifizierungsjubiläum erreicht, werden regelmäßig Erinnerungen an die Erneuerung der Zertifizierung angezeigt.
+**Microsoft 365Publisher-Workflow zur Bestätigungs- und Zertifizierungserneuerung:** 
 
-![UG Recreation1](../media/UG%20Recreation%201.png)
+Microsoft 365 Das App-Compliance-Programm bietet jetzt einen jährlichen Verlängerungsprozess. Während dieses Prozesses können App-Entwickler ihre vorhandenen Publisher und Dokumente aktualisieren, die für die Zertifizierung Microsoft 365 sind. 
 
-![UG Recreation2](../media/UG%20Recreation%202.png)
+**Vorteile:**
 
-**Publisher Attestation Completed. Zertifizierung inProgress.**
+- Verwalten Sie Ihr Zertifizierungsabzeichen in AppSource, um Ihre App von anderen zu unterscheiden. 
+- Erhöhen Sie das Vertrauen der Kunden in die Verwendung Ihrer zertifizierten App. 
+- Unterstützen Sie IT-Administratoren dabei, fundierte Entscheidungen mit aktualisierten Zertifizierungsinformationen zu treffen. 
 
-![UG Recreation3](../media/UG%20Recreation%203.PNG)
+**Ebene 1: Publisher Verlängerung des Attests:** 
 
-Genehmigung/Ablehnung Secnario: A. Zertifizierung abgelehnt
+Die Publisher der App müssen jährlich erneut übermittelt werden. Wenn sich die Bescheinigung dem 1-Jahres-Zeichen nähert, wird eine E-Mail-Erinnerung gesendet, in der eine erneute Übertragung des Attests ermutigt wird. 
 
-![UG Recreation4](../media/UG%20Recreation%204.PNG)
+**Schritt 1**: Wählen Sie **Verlängern aus,** um den Publisher zu verlängern. 
 
-B. Zertifizierung genehmigt
+![Microsoft 365Publisher Und Zertifizierungserneuerungsworkflow ](../media/1.PNG)
 
-![UG Recreation5](../media/UG%20Recreation%205.PNG)
+**Schritt 2**: Überprüfen Sie die vorherigen Publisher, und aktualisieren Sie sie bei Bedarf mit den neuesten Informationen. Senden Publisher zur Verlängerung, wenn sie bereit ist. Es wird von einem M365 App Compliance Analyst überprüft.
 
-Ablaufszenario: A. Publisher Attestation Expired
+![Microsoft 365Publisher Und Zertifizierungserneuerungsworkflow ](../media/2.PNG)
 
-![UG Recreation6](../media/UG%20Recreation%206.PNG)
+**Publisher Attestation Expired:** Die Informationen der App müssen vor dem Ablaufdatum erneuert werden, um die Publisher der App in den Microsoft-Dokumenten zu verwalten. Eine rechtzeitige Verlängerung stellt außerdem sicher, dass die App in AppSource und team Store.
 
-B. Zertifizierung abgelaufen
+![Microsoft 365Publisher Und Zertifizierungserneuerungsworkflow ](../media/3.PNG)
 
-![UG Recreation7](../media/UG%20Recreation%207.PNG)
+Hinweis: Nach ablaufendem Publisher verlängerungsprozess jederzeit gestartet werden, indem Sie auf "Erneuern" klicken. 
+
+**Ebene 2: Microsoft 365 Zertifizierungserneuerung** 
+
+Die Zertifizierungsinformationen der App müssen jährlich erneut übermittelt werden. Dies erfordert eine erneuteValidierung der Bereichssteuerelemente Ihrer aktuellen Umgebung. Wenn die Zertifizierung auf ein Jahr näher rückt, wird eine E-Mail-Benachrichtigung gesendet, in der eine erneute Zustellung der Dokumente und Nachweise ermutigt wird. 
+
+**Genehmigungs-/Ablehnungsszenarien für die Zertifizierungserneuerung:**
+
+**Szenario 1:** 
+
+Publisher Der Nachweis ist abgeschlossen. Die Verlängerung der Zertifizierung wurde gestartet und wird überprüft. 
+
+![Microsoft 365Publisher Und Zertifizierungserneuerungsworkflow ](../media/4.PNG)
+
+**Szenario 1A:**
+
+Ablehnung der Zertifizierungserneuerung: Die Zertifizierung kann abgelehnt werden, wenn: 
+
+ - Die App verfügt nicht über die erforderlichen Tools, Prozesse oder Konfigurationen und kann die erforderlichen Änderungen im Zertifizierungsfenster nicht implementieren. 
+ - Die App verfügt über ausstehende Sicherheitsrisiken und kann nicht innerhalb des Zertifizierungsfensters behoben werden. 
+
+![Microsoft 365Publisher Und Zertifizierungserneuerungsworkflow ](../media/5.PNG)
+    
+**Szenario 1B:** 
+
+Zertifizierungserneuerung wird genehmigt  
+
+![Microsoft 365Publisher Und Zertifizierungserneuerungsworkflow ](../media/6.PNG)
+
+**Ablauf der Zertifizierung:**
+
+Die Informationen der App müssen vor dem Ablaufdatum erneuert werden, um die Zertifizierungsseite der App in den Microsoft-Dokumenten zu erhalten. Eine rechtzeitige Verlängerung stellt außerdem sicher, dass die App in AppSource und team Store. 
+
+![Microsoft 365Publisher Und Zertifizierungserneuerungsworkflow ](../media/7.PNG)
+    
+**Hinweis**: Nach ablaufendem Publisher der Nachweis- und Zertifizierungsprozess jederzeit gestartet werden, indem Sie auf "Erneuern" klicken. 
+
+
+
+
+
+
+
+
+
+
+
 
