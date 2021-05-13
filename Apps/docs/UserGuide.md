@@ -6,12 +6,12 @@ description: ISV-Benutzerhandbuch für Microsoft 365 App-Compliance-Programm
 keywords: ISV-Benutzerhandbuch für Microsoft 365 App-Compliance-Programm
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1338edfc5ad4447d9167eea66388cd8d7a65a883
-ms.sourcegitcommit: 47fdc4f6dcfbc1b4c74f7e1e49343b9b1ce6ef9c
+ms.openlocfilehash: a6b0abb55359a16d4651722d776dfb16282edc87
+ms.sourcegitcommit: bb6c1353781d7b6f8b171bf6853b85e42fda656e
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/11/2021
-ms.locfileid: "52313274"
+ms.locfileid: "52324084"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Benutzerhandbuch des Partners für Microsoft 365 App-Compliance-Programm
 
@@ -150,17 +150,17 @@ Sobald sie übermittelt wurde, wird sie überprüft.
 
 ![Zu überprüfende Bescheinigung](../media/existing%20isv%203.png)
 
-## <a name="6---microsoft-365-re-certification-workflow"></a>6. Microsoft 365 Re-Certification Workflow:
-
-**Microsoft 365Publisher-Workflow zur Bestätigungs- und Zertifizierungserneuerung:** 
+## <a name="6---microsoft-365-publisher-attestation-and-certification-renewal-workflow"></a>6. Microsoft 365 Publisher Und Zertifizierungserneuerungsworkflow:
 
 Microsoft 365 Das App-Compliance-Programm bietet jetzt einen jährlichen Verlängerungsprozess. Während dieses Prozesses können App-Entwickler ihre vorhandenen Publisher und Dokumente aktualisieren, die für die Zertifizierung Microsoft 365 sind. 
 
 **Vorteile:**
 
-- Verwalten Sie Ihr Zertifizierungsabzeichen in AppSource, um Ihre App von anderen zu unterscheiden. 
+- Verwalten Sie Ihr Zertifizierungsabzeichen in AppSource und Store, um Ihre App von anderen zu unterscheiden. 
 - Erhöhen Sie das Vertrauen der Kunden in die Verwendung Ihrer zertifizierten App. 
 - Unterstützen Sie IT-Administratoren dabei, fundierte Entscheidungen mit aktualisierten Zertifizierungsinformationen zu treffen. 
+
+Der neue Erneuerungsprozess ist im [Partner Center verfügbar,](https://partner.microsoft.com/en-us/dashboard/home) um eine nahtlose Erfahrung zu bieten. Eine Verlängerungserinnerung wird im Partner Center ab 90 Tagen vor dem Ablaufdatum angezeigt. Regelmäßige Erinnerungen werden auch per E-Mail an 90, 60 und 30 Tage vor Ablauf gesendet.
 
 **Ebene 1: Publisher Verlängerung des Attests:** 
 
