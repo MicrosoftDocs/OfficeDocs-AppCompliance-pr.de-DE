@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für Polly von Polly
+title: Bewerbungsinformationen für Polly von Polly
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Polly, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Polly, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4c7c512b226f39c765eb64886d5cb52e5fd4b441
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 09b6979e569195eff0f2e841c8bd95d7c3b51b62
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251164"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552846"
 ---
 # <a name="polly"></a>Polly
 
@@ -21,23 +21,22 @@ ms.locfileid: "52251164"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 16. Dezember 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/1542629c-01b3-4a6d-8f76-1938b779e48d" target="_blank">Ansicht im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381060" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1542629c-01b3-4a6d-8f76-1938b779e48d" target="_blank">Ansicht in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381060" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Polly an Microsoft bereitgestellte Informationen:
+Informationen, die Polly Microsoft zur Verfügung gestellt hat:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Polly |
 | ID | WA104381060 |
-| Funktionen | Bot, Registerkarte, Messaging-Erweiterung |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Polly |
-| URL der Partnerwebsite | [https://www.polly.ai](https://www.polly.ai) |
+| Name des Partnerunternehmens | Polly |
+| URL der Partner-Website | [https://www.polly.ai](https://www.polly.ai) |
 | URL Teams Anwendungsinfoseite | [https://www.polly.ai/help/msteams](https://www.polly.ai/help/msteams) |
 | URL der Datenschutzrichtlinie | [https://www.polly.ai/privacy](https://www.polly.ai/privacy) |
 | URL der Nutzungsbedingungen | [https://www.polly.ai/tos](https://www.polly.ai/tos) |
@@ -48,44 +47,43 @@ Von Polly an Microsoft bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
 
-Diese Informationen wurden von Polly darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Polly darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet keine Microsoft-Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf identitätsnahe Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
+>| **Rechtfertigung für den Zugang zu EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Rechtfertigung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| Bereitstellen einer Liste der Benutzer und Kanäle | Alle |  |
 
 
-
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
 
 >Keine
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
 
->Kunden können die Datenaufbewahrung steuern und die Überwachung im Rahmen des Dienstplans "Polly Enterprise" durchführen.
+>Kunden sind in der Lage, die Datenaufbewahrung zu kontrollieren und die Überwachung im Rahmen des Enterprise-Serviceplans von Polly durchzuführen.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -94,11 +92,11 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35669' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35669" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35669" target="_blank">Anzeigen in einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

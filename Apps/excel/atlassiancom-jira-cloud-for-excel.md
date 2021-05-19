@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für Jira Cloud for Excel by Atlassian.com
+title: Anwendungsinformationen für Jira Cloud für Excel nach Atlassian.com
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Jira Cloud für Excel, ihre Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Jira Cloud für Excel, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a05866a1d77be09e30f960cd258aad1d0d851bd7
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: cbed2eb7aada40d5631391a9549600a4af3edebf
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251854"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52549825"
 ---
 # <a name="jira-cloud-for-excel"></a>Jira Cloud für Excel
 
@@ -21,21 +21,21 @@ ms.locfileid: "52251854"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 16. Dezember 2019</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200000556" target="_blank">Ansicht in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200000556" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von microsoft Atlassian.com bereitgestellte Informationen:
+Informationen, die von Atlassian.com Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Jira Cloud für Excel |
 | ID | WA200000556 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf mac, Excel 2016 oder höher auf Windows, Excel im Web |
-| Partnerunternehmensname | Atlassian.com |
-| URL der Partnerwebsite | [https://www.atlassian.com/](https://www.atlassian.com/) |
+| Office 365 unterstützten Clients | Excel 2016 oder später auf Mac, Excel 2016 oder später Windows, Excel im Web |
+| Name des Partnerunternehmens | Atlassian.com |
+| URL der Partner-Website | [https://www.atlassian.com/](https://www.atlassian.com/) |
 | URL der Datenschutzrichtlinie | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
 | URL der Nutzungsbedingungen | [https://www.microsoft.com/en-us/store/standard-application-...](https://www.microsoft.com/en-us/store/standard-application-license-terms) |
 
@@ -45,67 +45,58 @@ Von microsoft Atlassian.com bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
 
-Diese Informationen wurden von Atlassian.com darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Atlassian.com darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet keine Microsoft-Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
-#### <a name="add-in-data-access"></a>Add-In-Datenzugriff
-
-Listet die Berechtigungen auf, die diese App für den Zugriff auf die Daten Ihrer Organisation benötigt, die Begründung und den Zweck dieser Berechtigung (wofür verwendet die App diese Informationen?), und ob die App diese Informationen in ihren Datenbanken speichert.
-
->| **Berechtigung**  | **Beschreibung** |
->|:----------------|:----------------|
->| ReadWrite Document | Kann Ihr Dokument lesen und änderungen vornehmen |
->| Senden von Daten | Kann Daten über das Internet senden |
-
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
 
 >Wir speichern keine EUII oder OII. 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
 
->Sie haben bestimmte Auswahlmöglichkeiten, wenn es um Ihre Informationen geht. Nachfolgend finden Sie eine Zusammenfassung dieser Auswahlmöglichkeiten, ihrer Ausübung und etwaiger Einschränkungen.
+>Sie haben bestimmte Möglichkeiten, wenn es um Ihre Informationen geht. Im Folgenden finden Sie eine Zusammenfassung dieser Optionen, wie Sie sie ausüben können und alle Einschränkungen.
 
-Ihre Auswahlmöglichkeiten: Sie haben das Recht, eine Kopie Ihrer Informationen anantragen, der Verwendung Ihrer Informationen (auch zu Marketingzwecken) zu widersahen, die Löschung oder Einschränkung Ihrer Informationen an verlangen oder Ihre Informationen in einem strukturierten, elektronischen Format an fordern. Nachfolgend werden die Tools und Prozesse für diese Anforderungen beschrieben. Sie können einige der Optionen ausüben, indem Sie sich bei den Diensten anmelden und einstellungen verwenden, die in den Diensten oder Ihrem Konto verfügbar sind. Wenn die Dienste von einem Administrator für Sie verwaltet werden (siehe Benachrichtigung für Endbenutzer unten), müssen Sie sich möglicherweise zuerst an Ihren Administrator wenden, um Ihre Anforderungen &quot; &quot; &quot; &quot; zu unterstützen. Für alle anderen Anfragen können Sie uns kontaktieren, wie unten im Abschnitt "Kontakt" angegeben, um Unterstützung zu erhalten.
+Ihre Wahlmöglichkeiten: Sie haben das Recht, eine Kopie Ihrer Daten anzufordern, unserer Verwendung Ihrer Daten zu widersprechen (einschließlich für Marketingzwecke), die Löschung oder Einschränkung Ihrer Daten zu verlangen oder Ihre Informationen in einem strukturierten, elektronischen Format anzufordern. Im Folgenden beschreiben wir die Tools und Prozesse für diese Anforderungen. Sie können einige der Optionen ausüben, indem Sie sich bei den Diensten anmelden und die in den Diensten oder in Ihrem Konto verfügbaren Einstellungen verwenden. Wenn die Dienste von einem Administrator für Sie verwaltet werden (siehe &quot; &quot; Hinweis auf Endbenutzer &quot; &quot; unten), müssen Sie sich möglicherweise zuerst an Ihren Administrator wenden, um Ihnen bei Ihren Anfragen behilflich zu sein. Für alle anderen Anfragen können Sie uns wie im Abschnitt Kontakt unten angegeben kontaktieren, um Hilfe zu anfordern.
 
-Ihre Anforderungen und Auswahlmöglichkeiten können in bestimmten Fällen eingeschränkt sein: wenn die Erfüllung Ihrer Anforderung beispielsweise Informationen über eine andere Person offen legt oder Wenn Sie bitten, Informationen zu löschen, die wir oder Ihr Administrator gesetzlich zulässig sind oder zwingende berechtigte Interessen haben. Wenn Sie uns aufgefordert haben, Daten an Dritte zu teilen, z. B. durch die Installation von Drittanbieter-Apps, müssen Sie sich direkt an diese Drittanbieter wenden, um Ihre Informationen löschen oder anderweitig beschränken zu lassen. Wenn Sie ungelöste Bedenken haben, haben Sie möglicherweise das Recht, sich bei einer Datenschutzbehörde in dem Land zu beschweren, in dem Sie leben, in dem Sie arbeiten oder wo Sie das Gefühl haben, Dass Ihre Rechte verletzt wurden.
+Ihre Anfrage und Ihre Auswahl können in bestimmten Fällen eingeschränkt sein: zum Beispiel, wenn die Erfüllung Ihrer Anfrage Informationen über eine andere Person offenbaren würde, oder wenn Sie darum bitten, Informationen zu löschen, die wir oder Ihr Administrator gesetzlich erlaubt sind oder die zwingende berechtigte Interessen zu behalten haben. Wenn Sie uns aufgefordert haben, Daten an Dritte weiterzugeben, z. B. durch die Installation von Drittanbieter-Apps, müssen Sie sich direkt an diese Drittanbieter wenden, um Ihre Daten löschen oder anderweitig einschränken zu lassen. Wenn Sie ungelöste Bedenken haben, haben Sie möglicherweise das Recht, sich bei einer Datenschutzbehörde in dem Land zu beschweren, in dem Sie leben, in dem Sie arbeiten oder wo Sie das Gefühl haben, dass Ihre Rechte verletzt wurden.
 
-Greifen Sie auf Ihre Informationen zu und aktualisieren Sie sie: Unsere Dienste und die zugehörige Dokumentation bieten Ihnen die Möglichkeit, auf bestimmte Informationen über Sie innerhalb des Diensts zu zugreifen und diese zu aktualisieren. Sie können beispielsweise über Ihr Konto auf Ihre Profilinformationen zugreifen und mithilfe von Stichwortsuchen im Dienst nach Inhalten suchen, die Informationen zu Ihnen enthalten. Sie können Ihre Profilinformationen in Ihren Profileinstellungen aktualisieren und Inhalte ändern, die Informationen zu Ihnen enthalten, indem Sie die bearbeitungstools verwenden, die diesem Inhalt zugeordnet sind.
+Zugriff auf und Aktualisierung Ihrer Informationen: Unsere Dienste und die zugehörige Dokumentation geben Ihnen die Möglichkeit, von innerhalb des Dienstes auf bestimmte Informationen über Sie zuzugreifen und diese zu aktualisieren. Sie können beispielsweise über Ihr Konto auf Ihre Profilinformationen zugreifen und mithilfe von Schlüsselwortsuchen im Dienst nach Inhalten suchen, die Informationen über Sie enthalten. Sie können Ihre Profilinformationen in Ihren Profileinstellungen aktualisieren und Inhalte ändern, die Informationen über Sie enthalten, indem Sie die Bearbeitungstools verwenden, die diesem Inhalt zugeordnet sind.
 
-Deaktivieren Ihres Kontos: Wenn Sie unsere Dienste nicht mehr verwenden möchten, können Sie oder Ihr Administrator Möglicherweise Ihr Dienstkonto deaktivieren. Wenn Sie Ihr eigenes Konto deaktivieren können, steht Ihnen diese Einstellung in Ihren Kontoeinstellungen zur Verfügung. Wenden Sie sich andernfalls an Ihren Administrator. Wenn Sie ein Administrator sind und ein Konto nicht über Ihre Administratoreinstellungen deaktivieren können, wenden Sie sich an den Atlassian-Support. Beachten Sie, dass durch das Deaktivieren Ihres Kontos Ihre Informationen nicht gelöscht werden. Ihre Informationen bleiben für andere Dienstbenutzer basierend auf Ihrer früheren Teilnahme an den Diensten sichtbar. Weitere Informationen zum Löschen Ihrer Informationen finden Sie unten.   
+Deaktivieren Sie Ihr Konto: Wenn Sie unsere Dienste nicht mehr nutzen möchten, können Sie oder Ihr Administrator Möglicherweise Ihr Dienstkonto deaktivieren. Wenn Sie Ihr eigenes Konto deaktivieren können, steht Ihnen diese Einstellung in den Kontoeinstellungen zur Verfügung. Andernfalls wenden Sie sich bitte an Ihren Administrator. Wenn Sie Administrator sind und ein Konto nicht über Ihre Administratoreinstellungen deaktivieren können, wenden Sie sich bitte an den Atlassian-Support. Bitte beachten Sie, dass die Deaktivierung Ihres Kontos Ihre Daten nicht löscht; Ihre Informationen bleiben für andere Dienstbenutzer auf der Grundlage Ihrer bisherigen Teilnahme an den Diensten sichtbar. Weitere Informationen zum Löschen Ihrer Informationen finden Sie weiter unten.   
 
-Löschen Sie Ihre Informationen: Unsere Dienste und die zugehörige Dokumentation bieten Ihnen die Möglichkeit, bestimmte Informationen über Sie innerhalb des Diensts zu löschen. Beispielsweise können Sie Inhalte entfernen, die Informationen zu Ihnen enthalten, indem Sie die schlüsselwortsuch- und bearbeitungstools verwenden, die diesem Inhalt zugeordnet sind, und Sie können bestimmte Profilinformationen in Ihren Profileinstellungen entfernen. Bitte beachten Sie jedoch, dass wir bestimmte Informationen möglicherweise zur Aufbewahrung von Aufzeichnungszwecken, zum Abschließen von Transaktionen oder zur Einhaltung unserer gesetzlichen Verpflichtungen beibehalten müssen.   
+Löschen Sie Ihre Daten: Unsere Dienste und die zugehörige Dokumentation geben Ihnen die Möglichkeit, bestimmte Informationen über Sie aus dem Dienst zu löschen. Sie können z. B. Inhalte entfernen, die Informationen über Sie enthalten, indem Sie die mit diesem Inhalt verknüpften Schlüsselwortsuch- und Bearbeitungstools verwenden, und Sie können bestimmte Profilinformationen in Ihren Profileinstellungen entfernen. Bitte beachten Sie jedoch, dass wir möglicherweise bestimmte Informationen für Aufzeichnungszwecke, zum Abschließen von Transaktionen oder zur Erfüllung unserer gesetzlichen Verpflichtungen aufbewahren müssen.   
 
-Bitten Sie, ihre Informationen nicht mehr zu verwenden: In einigen Fällen können Sie uns bitten, den Zugriff auf, das Speichern, die Verwendung und anderweitige Verarbeitung Ihrer Informationen zu beenden, wenn Sie der Meinung sind, dass wir nicht über die entsprechenden Rechte dazu verfügen. Wenn Sie z. B. glauben, dass für Sie ohne Ihre Berechtigung ein Dienstkonto erstellt wurde oder Sie kein aktiver Benutzer mehr sind, können Sie anfordern, dass wir Ihr Konto wie in dieser Richtlinie angegeben löschen. Wenn Sie uns zugestimmt haben, Ihre Informationen für einen begrenzten Zweck zu verwenden, können Sie uns kontaktieren, um diese Zustimmung zurückzuziehen. Dies wirkt sich jedoch nicht auf eine Verarbeitung aus, die zu diesem Zeitpunkt bereits stattgefunden hat. Sie können die Verwendung Ihrer Informationen für Marketingzwecke auch abmelden, indem Sie uns kontaktieren, wie unten angegeben. Wenn Sie solche Anforderungen stellen, benötigen wir möglicherweise Zeit, um Ihre Anforderung zu untersuchen und zu erleichtern. Wenn es Verzögerungen oder Streitigkeiten darüber gibt, ob wir das Recht haben, Ihre Informationen weiter zu verwenden, beschränken wir jede weitere Verwendung Ihrer Informationen, bis die Anforderung berücksichtigt oder die Streitigkeiten beizulegen sind, sofern Ihr Administrator kein Widerspruch eingeht (sofern zutreffend). Wenn Sie Informationen darüber, dass Sie für eine Drittanbieter-App freigegeben wurden, nicht verwenden, deaktivieren Sie die App, oder wenden Sie sich an Ihren Administrator.
+Fordern Sie an, dass wir Ihre Daten nicht mehr verwenden: In einigen Fällen können Sie uns auffordern, den Zugriff, die Speicherung, die Verwendung und die anderweitige Verarbeitung Ihrer Daten einzustellen, wenn Sie der Meinung sind, dass wir nicht über die entsprechenden Rechte dazu verfügen. Wenn Sie beispielsweise der Meinung sind, dass ein Dienstkonto ohne Ihre Erlaubnis für Sie erstellt wurde oder Sie kein aktiver Benutzer mehr sind, können Sie verlangen, dass wir Ihr Konto wie in dieser Richtlinie angegeben löschen. Wenn Sie uns zugestimmt haben, Ihre Daten für einen begrenzten Zweck zu verwenden, können Sie uns kontaktieren, um diese Einwilligung zu widerrufen, aber dies hat keinen Einfluss auf die Verarbeitung, die bereits zu diesem Zeitpunkt stattgefunden hat. Sie können der Nutzung Ihrer Daten für Marketingzwecke auch widersprechen, indem Sie uns kontaktieren, wie unten angegeben. Wenn Sie solche Anfragen stellen, benötigen wir möglicherweise Zeit, um Ihre Anfrage zu untersuchen und zu erleichtern. Sollten Verzögerungen oder Streitigkeiten darüber bestehen, ob wir das Recht haben, Ihre Daten weiterhin zu verwenden, beschränken wir jede weitere Nutzung Ihrer Daten, bis die Anfrage berücksichtigt oder die Streitigkeit beigelegt wird, sofern Ihr Administrator keine Einwände hat (sofern zutreffend). Wenn Sie Informationen darüber, dass Sie für eine Drittanbieter-App freigegeben werden, nicht mehr verwenden, deaktivieren Sie die App, oder wenden Sie sich hierzu an Ihren Administrator.
 
-Abmelden der Kommunikation: Sie können den Erhalt von Werbekommunikation von uns abmelden, indem Sie den Link zum Abmelden in jeder E-Mail verwenden, Ihre E-Mail-Einstellungen im Menü Einstellungen ihres Dienstkontos aktualisieren oder uns wie unten angegeben kontaktieren, um Ihre Kontaktinformationen aus unserer E-Mail-Liste oder Registrierungsdatenbank für Werbezwecke entfernen zu lassen.  Auch wenn Sie den Empfang von Werbenachrichten von uns abmelden, erhalten Sie weiterhin Transaktionsnachrichten von uns in Bezug auf unsere Dienste. Sie können einige Benachrichtigungen in Ihren Kontoeinstellungen abmelden. 
+Kommunikation deaktivieren: Sie können den Erhalt von Werbemitteilungen von uns abbestellen, indem Sie den Abmeldelink in jeder E-Mail verwenden, Ihre E-Mail-Einstellungen in Ihrem Menü "Servicekontoeinstellungen" aktualisieren oder uns wie unten angegeben kontaktieren, um Ihre Kontaktinformationen aus unserer Werbe-E-Mail-Liste oder Registrierungsdatenbank entfernen zu lassen.  Auch wenn Sie sich vom Erhalt von Werbebotschaften von uns abmelden, erhalten Sie weiterhin Transaktionsnachrichten von uns in Bezug auf unsere Dienste. Sie können einige Benachrichtigungen in Ihren Kontoeinstellungen deaktivieren. 
 
-Möglicherweise können Sie den Empfang personalisierter Werbung von anderen Unternehmen, die Mitglied der Network Advertising Initiative sind oder die die Self-Regulatory Principles for Online Behavioral Advertising der Digital Advertising Alliance abonnieren, abmelden. Weitere Informationen zu dieser Vorgehensweise und informationen zu Ihren Optionen finden Sie unter : https://www.aboutads.info , https://optout.networkadvertising.org/ und https://www.youronlinechoices.eu . 
+Möglicherweise können Sie den Erhalt personalisierter Werbung von anderen Unternehmen, die Mitglieder der Network Advertising Initiative sind oder die Self-Regulatory Principles for Online Behavioral Advertising der Digital Advertising Alliance abonnieren, abbestellen. Weitere Informationen zu dieser Praktischen Praxis und zum Verständnis Ihrer Optionen finden Sie unter: https://www.aboutads.info https://optout.networkadvertising.org/ und https://www.youronlinechoices.eu . 
 
-Deaktivieren von Cookie-Steuerelementen: Relevante browserbasierte Cookiesteuerelemente werden in unserem &amp; Cookie-Tracking-Hinweis beschrieben.
+Deaktivieren von Cookie-Steuerelementen: Relevante browserbasierte Cookie-Steuerelemente werden in unserem &amp; Cookie-Tracking-Hinweis beschrieben.
 
-Send Do Not Track Signals: Einige Browser haben &quot; &quot; &quot; &quot; Do Not &quot; &quot; Track &quot; &quot; (DNT)-Features integriert, die ein Signal an die besuchten Websites senden können, dass Sie nicht verfolgt werden möchten. Da es noch kein allgemeines Verständnis der Interpretation des DNT-Signals gibt, reagieren unsere Dienste derzeit nicht auf Browser-DNT-Signale. Sie können die Palette anderer Tools, die wir zur Verfügung stellen, verwenden, um die Datenerfassung und -verwendung zu steuern, einschließlich der Möglichkeit, den Empfang von Marketing von uns wie oben beschrieben abmelden zu können.
+Senden &quot; &quot; Sie Signale nicht &quot; &quot; verfolgen: Einige Browser haben &quot; &quot; Do Not Track &quot; &quot; (DNT)-Funktionen integriert, die ein Signal an die von Ihnen besuchten Websites senden können, die darauf hinweisen, dass Sie nicht verfolgt werden möchten. Da es noch kein gemeinsames Verständnis für die Interpretation des DNT-Signals gibt, reagieren unsere Dienste derzeit nicht auf Browser-DNT-Signale. Sie können die Palette anderer Tools, die wir zur Verfügung stellen, verwenden, um die Datenerhebung und -nutzung zu kontrollieren, einschließlich der Möglichkeit, den Erhalt von Marketing von uns wie oben beschrieben abzumelden.
 
-Datenportabilität: Datenportabilität ist die Möglichkeit, einige Ihrer Informationen in einem Format zu erhalten, das Sie von einem Dienstanbieter zu einem anderen verschieben können (z. B. wenn Sie Ihre Mobiltelefonnummer an einen anderen Netzbetreiber übertragen).  Je nach Kontext gilt dies für einige Ihrer Informationen, aber nicht für alle Ihre Informationen.  Wenn Sie dies anfordern, stellen wir Ihnen eine elektronische Datei mit Ihren grundlegenden Kontoinformationen und den Informationen zur Verfügung, die Sie für die Bereiche erstellen, die Sie allein kontrollieren, z. B. Ihr persönliches Bitbucket-Repository.  
+Datenübertragbarkeit: Datenübertragbarkeit ist die Möglichkeit, einige Ihrer Informationen in einem Format zu erhalten, das Sie von einem Dienstanbieter zu einem anderen wechseln können (z. B. wenn Sie Ihre Mobiltelefonnummer an einen anderen Netzbetreiber übertragen).  Je nach Kontext gilt dies für einige Ihrer Informationen, jedoch nicht für alle Ihre Informationen.  Sollten Sie dies anfordern, stellen wir Ihnen eine elektronische Datei Mit ihren grundlegenden Kontoinformationen und den Informationen zur Verfügung, die Sie auf den Räumen erstellen, die Sie unter Ihrer alleinigen Kontrolle haben, wie Ihrem persönlichen Bitbucket-Repository.  
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -114,11 +105,11 @@ Datenportabilität: Datenportabilität ist die Möglichkeit, einige Ihrer Inform
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596" target="_blank">Anzeigen in einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

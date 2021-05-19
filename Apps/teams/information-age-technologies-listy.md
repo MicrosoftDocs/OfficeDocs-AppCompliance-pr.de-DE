@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für Listy nach Information Age Technologies
+title: Anwendungsinformationen für Listy nach Informationszeitaltertechnologien
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Listy, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Listy, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a10bff1678905fbb70c0985a6c0c6f6b0d1b1a9a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 5ab2349789fdb138bc9f18fd6f50d9877ec972d9
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252525"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552076"
 ---
 # <a name="listy"></a>Listy
 
@@ -21,23 +21,22 @@ ms.locfileid: "52252525"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 22. Januar 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/db8361d3-ad4e-4005-8805-ad59ff4805f3" target="_blank">Ansicht im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000798" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/db8361d3-ad4e-4005-8805-ad59ff4805f3" target="_blank">Ansicht in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200000798" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von Information Age Technologies für Microsoft bereitgestellt werden:
+Informationen, die Microsoft von Information Age Technologies zur Verfügung gestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Listy |
 | ID | WA200000798 |
-| Funktionen | Registerkarte |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Information Age Technologies |
-| URL der Partnerwebsite | [https://www.iat21.com/listy](https://www.iat21.com/listy) |
+| Name des Partnerunternehmens | Information Age Technologies |
+| URL der Partner-Website | [https://www.iat21.com/listy](https://www.iat21.com/listy) |
 | URL Teams Anwendungsinfoseite | [https://www.iat21.com/listy](https://www.iat21.com/listy) |
 | URL der Datenschutzrichtlinie | [https://www.iat21.com/listy-privacy-policy](https://www.iat21.com/listy-privacy-policy) |
 | URL der Nutzungsbedingungen | [https://www.iat21.com/listy-terms-of-service](https://www.iat21.com/listy-terms-of-service) |
@@ -48,48 +47,47 @@ Informationen, die von Information Age Technologies für Microsoft bereitgestell
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
 
-Diese Informationen wurden von Information Age Technologies bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Information Age Technologies darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamSettings.Read.Group | both | Zum Erstellen eines lokalen App-Kontos, damit benutzer keine Daten manuell auffüllen muss | Zum Erstellen eines lokalen App-Kontos, damit benutzer keine Daten manuell auffüllen muss | 8aa22b64-9a2c-403b-83c1-feaf774c764c |
+>| TeamSettings.Read.Group | Beide | Zum Erstellen eines lokalen App-Kontos, damit der Benutzer keine Daten manuell auffüllen muss | Zum Erstellen eines lokalen App-Kontos, damit der Benutzer keine Daten manuell auffüllen muss | 8aa22b64-9a2c-403b-83c1-feaf774c764c |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf identitätsnahe Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->Auf EUII wird nicht zugegriffen.
-
+>Es wird kein EUII abgerufen.
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
 
->In den Telemetrie- oder Protokollen der Anwendungen werden keine OII oder EUII angezeigt.
+>In den Anwendungstelemetrie- oder Protokollprotokollen sind keine OII oder EUII angezeigt.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
 
->Azure Dashboard
+>Azure-Dashboard
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational identifiabling Information) beteiligt, die von dieser App erfasst oder gespeichert werden?
 
 >Nein
 
@@ -99,11 +97,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36421' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36421" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36421" target="_blank">Anzeigen in einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,22 +111,22 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Information Age Technologies bereitgestellt, um zu erfahren, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von Information Age Technologies darüber bereitgestellt, wie diese App authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden geprüft und befolgt, die in der Prüfliste Microsoft Identity Platform aufgeführt sind?  | Ja |
+| Können Sie sich in Microsoft Identifizplattform (Azure AD) integrieren?  | Ja |
+| Haben Sie alle in der Checkliste für die Microsoft Identity Platform-Integration beschriebenen bewährten Methoden überprüft und eingehalten?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Nein |
-| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Bittet Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario? | Ja |
-| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordern wird? | Ja |
-| Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Nein |
+| Unterstützt Ihre App Conditional Access-Richtlinien? | Nein |
+| Fordert Ihre App die geringsten Berechtigungsberechtigungen für Ihr Szenario an? | Ja |
+| Gibt die statisch registrierten Berechtigungen Ihrer App die Berechtigungen wieder, die Ihre App dynamisch und inkrementell anfordert? | Ja |
+| Unterstützt Ihre App Multi-Tenancy? | Nein |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
-| Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/>– Fluss mit Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers |
+| Besitzen Sie alle für Ihre App registrierten Unified Resource Identifier (URI) umleiten? | Ja |
+| Was vermeiden Sie für Ihre App? | - Wildcard-Umleitungs-URIs,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für ein SPA erforderlich<br/>- Ressourcenbesitzer-Kennwortanmeldeinformationen (ROPC)-Flow |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
-| Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
+| Lässt Ihr Berechtigungsmodell nur dann zu, dass Aufrufe erfolgreich sind, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
 

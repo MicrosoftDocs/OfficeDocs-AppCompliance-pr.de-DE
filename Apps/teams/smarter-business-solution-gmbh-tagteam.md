@@ -1,45 +1,45 @@
 ---
-title: Anwendungsinformationen für TeamsChamp von TeamsChamp
+title: Anwendungsinformationen für TagTeam von Smarter Business Solution GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Compliance-Informationen für TeamsChamp, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für TagTeam, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d7e48aa2c60e33f22de04c103b7a8727d323b10a
+ms.openlocfilehash: 5c4976272cd5ee2f280544bf1bb6fb674ca5297d
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551395"
+ms.locfileid: "52553322"
 ---
-# <a name="teamschamp"></a>TeamsChamp
+# <a name="tagteam"></a>TagTeam
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 10. März 2021</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 21. April 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/4fea4594-3f83-4e33-9929-9af6b78a7340" target="_blank">Ansicht in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001487" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/6d7f01cb-cfa5-48d9-beed-363d381ae32b" target="_blank">Ansicht in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002829" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die TeamsChamp Microsoft zur Verfügung gestellt hat:
+Informationen, die die Smarter Business Solution GmbH Microsoft zur Verfügung gestellt hat:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | TeamsChamp |
-| ID | WA200001487 |
+| App-Name | TagTeam |
+| ID | WA200002829 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | TeamsChamp |
-| URL der Partner-Website | [https://www.teamschamp.com/](https://www.teamschamp.com/) |
-| URL Teams Anwendungsinfoseite | [https://www.teamschamp.com](https://www.teamschamp.com) |
-| URL der Datenschutzrichtlinie | [https://www.teamschamp.com/privacy-policy/](https://www.teamschamp.com/privacy-policy/) |
-| URL der Nutzungsbedingungen | [https://www.teamschamp.com/terms/](https://www.teamschamp.com/terms/) |
+| Name des Partnerunternehmens | Smarter Business Solution GmbH |
+| URL der Partner-Website | [https://www.smarterbusiness.at/en](https://www.smarterbusiness.at/en) |
+| URL Teams Anwendungsinfoseite | [https://www.smarterbusiness.at/en/tagteam-help](https://www.smarterbusiness.at/en/tagteam-help) |
+| URL der Datenschutzrichtlinie | [https://www.smarterbusiness.at/en/add-in-privacy-policy](https://www.smarterbusiness.at/en/add-in-privacy-policy) |
+| URL der Nutzungsbedingungen | [https://www.smarterbusiness.at/en/terms-of-use-for-tagteam](https://www.smarterbusiness.at/en/terms-of-use-for-tagteam) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informationen, die TeamsChamp Microsoft zur Verfügung gestellt hat:
 
 ### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
 
-Diese Informationen wurden von TeamsChamp darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
+Diese Informationen wurden von der Smarter Business Solution GmbH darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
@@ -57,18 +57,17 @@ Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/grap
 
 >| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | Keine Daten in unserem bbdd gespeichert | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| User.ReadBasic.All | Delegiert | Lesen des Basisprofils aller Benutzer | Keine Daten in unserem bbdd gespeichert | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| Profil | Delegiert | Grundlegendes Profil von Benutzern anzeigen | Keine Daten in unserem bbdd gespeichert | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
+>| ChannelMessage.Read.All | Delegiert | Wir sammeln diese Daten nicht - nur zum Anzeigen von markierten Unterhaltungen. Wir würden es gerne in Search API ändern, aber Graph API unterstützt dies derzeit nicht.  | Keine | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>| User.Read | Delegiert | Anzeige User-Information (z.B. Name) in unserem Tab | Keine | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>| User.ReadBasic.All | Delegiert | Anzeigen User-Avatars in unserem Tab | Keine | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>| openid | Delegiert | Nur für SignIn - es werden keine Daten gespeichert | Keine | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden auf** |  **Welche OII wird übertragen?** | **Rechtfertigung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Stripe-Zahlungen | Name des Comnpanys, CIF/MwSt.-ID, Steueranschrift | Zahlungen |
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -81,19 +80,19 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
 
->Persönliche Informarion als voller Name, E-Mail
+>In den Anwendungstelemetrie- oder Protokollprotokollen sind keine OII oder EUII angezeigt.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
 Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
 
->Löschen, Aufbewahrung, Auditing, Archivierung, alle Verwaltungen im Stripe Admin Center
+>Beschriebene Daten werden nur in Azure Cosmos DB gespeichert. Wir teilen es nicht mit anderen Parnter es Systemen!
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
 Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational identifiabling Information) beteiligt, die von dieser App erfasst oder gespeichert werden?
 
->Nein
+>Ja
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,9 +102,9 @@ Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational id
 
 Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36549' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38164' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36549" target="_blank">Anzeigen in einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38164" target="_blank">Anzeigen in einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -115,7 +114,7 @@ Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.mic
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von TeamsChamp darüber bereitgestellt, wie diese App authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von der Smarter Business Solution GmbH darüber bereitgestellt, wie diese App mit Authentifizierung, Autorisierung, Best Practices für die Anwendungsregistrierung und anderen Identitätskriterien umgeht.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -128,9 +127,10 @@ Diese Informationen wurden von TeamsChamp darüber bereitgestellt, wie diese App
 | Unterstützt Ihre App Multi-Tenancy? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle für Ihre App registrierten Unified Resource Identifier (URI) umleiten? | Ja |
-| Was vermeiden Sie für Ihre App? | - Wildcard-Umleitungs-URIs,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für ein SPA erforderlich<br/>- Ressourcenbesitzer-Kennwortanmeldeinformationen (ROPC)-Flow |
-| Macht Ihre App Web-APIs verfügbar? | Nein |
-| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Was vermeiden Sie für Ihre App? | - Wildcard-Umleitungs-URIs,<br/><br/>- Ressourcenbesitzer-Kennwortanmeldeinformationen (ROPC)-Flow |
+| Macht Ihre App Web-APIs verfügbar? | Ja |
+| Lässt Ihr Berechtigungsmodell nur dann zu, dass Aufrufe erfolgreich sind, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
+| Verwendet Ihre App Vorschau-APIs? | Ja |
 | Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

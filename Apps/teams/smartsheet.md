@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für Smartsheet by Smartsheet
+title: Anwendungsinformationen für Smartsheet von Smartsheet
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Smartsheet, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Smartsheet, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 063dd29aea9265d89eb3ba735a376c7b1f0b64e3
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: ddf77e7e73cc0bef1a21e72d1db328a4845a12f5
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251124"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551525"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -21,23 +21,22 @@ ms.locfileid: "52251124"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 16. Dezember 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/f4d81e8e-4500-44c2-8328-9e06cbe037c5" target="_blank">Ansicht im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104380975" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/f4d81e8e-4500-44c2-8328-9e06cbe037c5" target="_blank">Ansicht in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104380975" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Smartsheet für Microsoft bereitgestellte Informationen:
+Informationen, die Smartsheet Microsoft zur Verfügung gestellt hat:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Smartsheet |
 | ID | WA104380975 |
-| Funktionen | Bot, Registerkarte |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Smartsheet |
-| URL der Partnerwebsite | [https://help.smartsheet.com/articles/2476201](https://help.smartsheet.com/articles/2476201) |
+| Name des Partnerunternehmens | Smartsheet |
+| URL der Partner-Website | [https://help.smartsheet.com/articles/2476201](https://help.smartsheet.com/articles/2476201) |
 | URL Teams Anwendungsinfoseite | [https://help.smartsheet.com/articles/2476201-interact-with-...](https://help.smartsheet.com/articles/2476201-interact-with-smartsheet-items-in-microsoft-teams) |
 | URL der Datenschutzrichtlinie | [https://www.smartsheet.com/privacy](https://www.smartsheet.com/privacy) |
 | URL der Nutzungsbedingungen | [https://www.smartsheet.com/user-agreement](https://www.smartsheet.com/user-agreement) |
@@ -48,64 +47,63 @@ Von Smartsheet für Microsoft bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
 
-Diese Informationen wurden von Smartsheet bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Smartsheet darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | delegierte | Keine. | Ermöglicht unserer App, Apps im Auftrag des Benutzers zu installieren. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Directory.Read.All | delegierte | tenantId zum Abrufen von Informationen, die auf der Benutzeroberfläche angezeigt werden. | Ermöglicht es uns, zu lesen, welche Apps dieser Mandant verwendet, damit wir überprüfen können, ob wir die App für sie installieren müssen. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Group.Read.All | delegierte | teamId/groupId für die Nachrichtenzustellung. | Ermöglicht unserer App, grundlegende Informationen zu einer Gruppe (oder einem Teams) sowie Unterhaltungen zu lesen. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Group.ReadWrite.All | delegierte | teamId/groupId für die Nachrichtenzustellung. | Ermöglicht unserer App, neue Unterhaltungen in Teams zu starten. Diese Berechtigung umfasst auch den obigen Read.All-Bereich, aber wir benötigen diese auch aus technischen Gründen. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| User.Read.All | delegierte | userId. | Ermöglicht es uns, während des Authentifizierungsprozesses grundlegende Informationen zu einem Benutzer zu lesen. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| offline_access | delegierte | refreshToken. | Ermöglicht unserer App, Aktualisierungstoken zu empfangen und das Authentifizierungstoken im Namen des Benutzers zu aktualisieren, wenn sie die App verwenden. | c68947ae-a07f-44ce-9a13-7b559251731d |
+>| AppCatalog.ReadWrite.All | Delegiert | Keine. | Ermöglicht unserer App, Apps im Auftrag des Benutzers zu installieren. | c68947ae-a07f-44ce-9a13-7b559251731d |
+>| Directory.Read.All | Delegiert | tenantId zum Abrufen von Informationen, die in der Benutzeroberfläche angezeigt werden sollen. | Ermöglicht es uns, zu lesen, welche Apps dieser Mandant verwendet, damit wir überprüfen können, ob wir die App für sie installieren müssen. | c68947ae-a07f-44ce-9a13-7b559251731d |
+>| Group.Read.All | Delegiert | teamId/groupId für die Nachrichtenübermittlung. | Ermöglicht unserer App das Lesen grundlegender Informationen über eine Gruppe (oder Teams Team) sowie Unterhaltungen. | c68947ae-a07f-44ce-9a13-7b559251731d |
+>| Group.ReadWrite.All | Delegiert | teamId/groupId für die Nachrichtenübermittlung. | Ermöglicht unserer App, neue Unterhaltungen in Teams zu starten. Diese Berechtigung beinhaltet auch den oben genannten Read.All-Bereich, aber wir brauchen diese auch aus technischen Gründen. | c68947ae-a07f-44ce-9a13-7b559251731d |
+>| User.Read.All | Delegiert | Userid. | Ermöglicht es uns, grundlegende Informationen über einen Benutzer während des Auth-Prozesses zu lesen. | c68947ae-a07f-44ce-9a13-7b559251731d |
+>| offline_access | Delegiert | refreshToken. | Ermöglicht unserer App, Aktualisierungstoken zu empfangen und das Auth-Token im Namen des Benutzers zu aktualisieren, wenn er die App verwendet. | c68947ae-a07f-44ce-9a13-7b559251731d |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mithilfe anderer Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 können zusätzliche Microsoft-APIs als Microsoft Graph verwenden, um identifizierbare Informationen (OII) der Organisation zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche Microsoft-APIs verwenden, die nicht microsoft Graph sind, um unternehmensbezogene identifizierbare Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle Microsoft-APIs auf, die nicht von Microsoft Graph diese App verwendet.
 
->| **API** |  **Wird OII gesammelt?** |  **Welche OII wird gesammelt?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
+>| **API** |  **Wird OII gesammelt?** |  **Welche OII wird gesammelt?** | **Rechtfertigung für das Sammeln von OII?** | **Wird OII gespeichert?** | **Rechtfertigung für die Speicherung von OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| Bot-Framework-APIs | Ja | Wir verwenden die Bot Framework-API, um Nachrichten als App für die Teams-App zu senden. Smartsheet speichert userId-Informationen, um zu verfolgen, mit wem der Smartsheet-Bot spricht. |  | Keine |  |
+>| Bot Framework-APIs | Ja | Wir verwenden die Bot Framework-API, um Nachrichten als App für die Teams-App zu übermitteln. Smartsheet speichert userId-Informationen, um nachzuverfolgen, mit wem der Smartsheet-Bot spricht. |  | Keine |  |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden auf** |  **Welche OII wird übertragen?** | **Rechtfertigung für die Übertragung von OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Smartsheet speichert Informationen in einem verschlüsselten Ruhezustand in unserer produktionsdatencenterumgebung, die mit Equinix gehostet wird, und in AWS S3, in der wir Kundenanlagen in privaten verschlüsselten Buckets speichern. |  | Wir verwenden die Bot-Framework-API, um Nachrichten als App für die Teams-App zu senden. Smartsheet speichert userId-Informationen, um zu verfolgen, mit wem der Smartsheet-Bot spricht. |
+>| Smartsheet speichert Informationen in einem verschlüsselten Ruhezustand in unserer Produktionsrechenzentrumsumgebung, die mit Equinix gehostet wird, und in AWS S3, wo wir Kundenanlagen in privaten verschlüsselten Buckets speichern. |  | Wir verwenden die Bot-Framework-API, um Nachrichten als App für die Teams-App zu übermitteln. Smartsheet speichert userId-Informationen, um nachzuverfolgen, mit wem der Smartsheet-Bot spricht. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf identitätsnahe Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
+>| **Rechtfertigung für den Zugang zu EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Rechtfertigung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Smartsheet verwendet es, um zu verfolgen, wen der Bot auch redet. Während des anfänglichen Authentifizierungsflusses erstellen wir einen Botdatensatz für den Benutzer im Smartsheet-Benachrichtigungssystem. | Für Smartsheet für Teams-Bot speichern wir E-Mails und userId von Teams, um zu verfolgen, mit wem der Bot spricht.  In Smartsheet werden tenantIds gespeichert, um Gruppen auflisten zu können, in die der Benutzer teil des Verzeichnisses ist, und groupIds für die Nachrichtenzustellung. |  |
-
+>| Smartsheet verwendet es, um zu verfolgen, wer der Bot spricht. Während des ersten Auth-Flows erstellen wir einen Bot-Datensatz für den Benutzer im Smartsheet-Benachrichtigungssystem. | Für Smartsheet für Teams-Bot speichern wir Benutzer-E-Mails und UserId von Teams, um zu helfen, nachzuverfolgen, mit wem der Bot spricht.  Smartsheet speichert tenantIds, um Listengruppen aufzulisten, zu denen der Benutzer im Verzeichnis gehört, und groupIds für die Nachrichtenübermittlung. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
 
 >Nein
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
 
->Smartsheet verschlüsselt alle gespeicherten Benutzerinformationen, und unsere Administratoren müssen 2FA verwenden. Smartsheet agiert als Kein-Ansicht-SaaS-Anbieter, und standardmäßig überprüfen wir nicht die Inhalte, die Kunden zum Hochladen oder Eingeben in die Plattform wählen.
+>Smartsheet verschlüsselt alle gespeicherten Benutzerinformationen und unsere Administratoren müssen 2FA verwenden. Smartsheet fungiert als SaaS-Anbieter ohne Sicht und überprüfen standardmäßig nicht die Inhalte, die Kunden hochladen oder in die Plattform eingeben.
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational identifiabling Information) beteiligt, die von dieser App erfasst oder gespeichert werden?
 
 >Nein
 
@@ -115,11 +113,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11934' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/11934" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/11934" target="_blank">Anzeigen in einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

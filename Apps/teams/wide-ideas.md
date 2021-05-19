@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für breit gefächerte Ideen
+title: Anwendungsinformationen für breite Ideen durch breite Ideen
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wide Ideas, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Wide Ideas, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7d1186c5a9c17d2bf835569dad87e0f36aaf1d3c
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: f1fc5d97736ba587595ef6c742b14ce75c0b1863
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252215"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52550895"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -21,23 +21,22 @@ ms.locfileid: "52252215"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 3. Juni 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/2a64f929-bed9-44d9-aa65-d7b921889959" target="_blank">Ansicht im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000819" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/2a64f929-bed9-44d9-aa65-d7b921889959" target="_blank">Ansicht in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200000819" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von Wide Ideas für Microsoft bereitgestellt werden:
+Informationen, die von Wide Ideas an Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Wide Ideas |
 | ID | WA200000819 |
-| Funktionen | Bot, Registerkarte |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Wide Ideas |
-| URL der Partnerwebsite | [https://getwideideas.com](https://getwideideas.com) |
+| Name des Partnerunternehmens | Wide Ideas |
+| URL der Partner-Website | [https://getwideideas.com](https://getwideideas.com) |
 | URL der Datenschutzrichtlinie | [https://getwideideas.com/privacy-policy](https://getwideideas.com/privacy-policy) |
 | URL der Nutzungsbedingungen | [https://getwideideas.com/terms](https://getwideideas.com/terms) |
 
@@ -47,59 +46,58 @@ Informationen, die von Wide Ideas für Microsoft bereitgestellt werden:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
 
-Diese Informationen wurden von Wide Ideas bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Wide Ideas bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | Anwendung | Wir speichern die Gruppen-ID und welche Benutzer zu welchen Gruppen gehören. | Ermöglicht der App das Lesen von Daten im Verzeichnis unserer Kundenorganisation, z. B. Benutzer und Gruppen.  | 77baef51-6387-4aff-9b3f-23e4654c30cd |
->| Group.ReadWrite.All | Anwendung | Wir speichern die Kanal-ID, die der Gruppe zugeordnet ist. | Ermöglicht benutzern das Erstellen von Teams, Kanälen und Registerkarten innerhalb Microsoft Teams über das Kundenportal. Auf diese Weise können Benutzer auch vorhandene Teams in Microsoft Teams mit dem Kundenportal synchronisieren. | 77baef51-6387-4aff-9b3f-23e4654c30cd |
->| User.Read | delegierte | &amp;Namens-E-Mail speichern | Ermöglicht Benutzern die Anmeldung und den Zugriff auf Microsoft Graph in ihrem Namen | 77baef51-6387-4aff-9b3f-23e4654c30cd |
+>| Directory.Read.All | Anwendung | Wir speichern Gruppen-ID und welche Benutzer zu welchen Gruppen gehören | Ermöglicht der App das Lesen von Daten im Verzeichnis unserer Kundenorganisation, z. B. Benutzer und Gruppen.  | 77baef51-6387-4aff-9b3f-23e4654c30cd |
+>| Group.ReadWrite.All | Anwendung | Wir speichern die Kanal-ID, die der Gruppe zugeordnet ist. | Ermöglicht es Dem Benutzer, Teams, Kanäle und Registerkarten innerhalb Microsoft Teams über das Kundenportal zu erstellen. Dadurch können Benutzer auch vorhandene Teams in Microsoft Teams mit dem Kundenportal synchronisieren. | 77baef51-6387-4aff-9b3f-23e4654c30cd |
+>| User.Read | Delegiert | Wir speichern &amp; Namens-E-Mail | Ermöglicht Benutzern die Anmeldung und den Zugriff auf Microsoft-Graph in ihrem Namen | 77baef51-6387-4aff-9b3f-23e4654c30cd |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden auf** |  **Welche OII wird übertragen?** | **Rechtfertigung für die Übertragung von OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Mailjet E-Mail, die für E-Mail-Benachrichtigungen verwendet wird. |  | Nicht zutreffend |
+>| Mailjet Email, das für E-Mail-Benachrichtigungen verwendet wird. |  | Nicht zutreffend |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf identitätsnahe Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
+>| **Rechtfertigung für den Zugang zu EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Rechtfertigung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Um Benutzer in unserem Back-End zu erstellen und Berechtigungen für den Zugriff auf mit dem Team verknüpfte Inhalte zu erteilen. | Wir speichern: Name – So zeigen Sie den Namen des Benutzers an, E-Mail-Adresse – So identifizieren Sie den Benutzer |  |
-
+>| Um Benutzer in unserem Backend zu erstellen und Berechtigungen für den Zugriff auf Inhalte zu erteilen, die mit dem Team verknüpft sind. | Wir speichern: Name - So wird der Name des Benutzers angezeigt, E-Mail-Adresse - So identifizieren Sie den Benutzer |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
 
 >Wir speichern nur die IP-Nummer in unseren Protokollen. 
 
-Die Organisation kann eine Anforderung an uns als Anbieter senden, wenn daten gelöscht werden sollen.
+Die Organisation kann uns als Lieferanten eine Anfrage senden, wenn sie datenlöschung enden möchte.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
 
->Datenspeicherung: Alle Kundendaten werden in Microsoft Azure gespeichert. Benutzer müssen über Azure AD 2-Faktor authentifiziert werden. Rollenbasierter Zugriff (Role Based Access, RBAC) ist bereits erfolgt. Der Zugriff auf Microsoft Azure erfolgt ausschließlich über verschlüsselte Verbindungen. Alle Daten werden im Ruhetag verschlüsselt. Alle Dienste sind vom Azure Security Center am besten geschützt. 
+>Datenspeicherung: Alle Kundendaten werden in Microsoft Azure-Diensten gespeichert. Benutzer müssen über Azure AD authentifiziert werden. Rollenbasierter Zugriff (RBAC) ist vorhanden. Der gesamte Zugriff auf Microsoft Azure erfolgt ausschließlich über verschlüsselte Verbindungen. Alle Daten werden im Ruhezustand verschlüsselt. Alle Dienste sind durch die bewährte Methode des Azure Security Center geschützt. 
 
-Wir haben auch eine Zugriffsrichtlinie gemäß dem Prinzip der geringsten Rechte. 
+Wir haben auch eine Zugangsrichtlinie nach dem Prinzip der geringsten Privilegien. 
 
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational identifiabling Information) beteiligt, die von dieser App erfasst oder gespeichert werden?
 
 >Nein
 
@@ -109,11 +107,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35870' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35870" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35870" target="_blank">Anzeigen in einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

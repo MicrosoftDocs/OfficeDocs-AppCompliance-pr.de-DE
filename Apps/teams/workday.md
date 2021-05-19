@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für Workday by Workday
+title: Anwendungsinformationen für Workday nach Arbeitstag
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workday, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Workday, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e193bbcee79ab77e878554c07af452a6a37e1061
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 181356178c5af1fc2f728ad84b2bbd33a7fc92a1
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252305"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52550815"
 ---
 # <a name="workday"></a>Workday
 
@@ -21,23 +21,22 @@ ms.locfileid: "52252305"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 26. Januar 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/aa4981ef-635f-4066-b260-97445a4b2819" target="_blank">Ansicht im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001555" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/aa4981ef-635f-4066-b260-97445a4b2819" target="_blank">Ansicht in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001555" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Workday an Microsoft bereitgestellte Informationen:
+Informationen, die Workday Microsoft zur Verfügung gestellt hat:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Workday |
 | ID | WA200001555 |
-| Funktionen | Bot |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Workday |
-| URL der Partnerwebsite | [https://nw.myworkday.com/microsoftteams](https://nw.myworkday.com/microsoftteams) |
+| Name des Partnerunternehmens | Workday |
+| URL der Partner-Website | [https://nw.myworkday.com/microsoftteams](https://nw.myworkday.com/microsoftteams) |
 | URL Teams Anwendungsinfoseite | [https://nw.myworkday.com/microsoftteams/](https://nw.myworkday.com/microsoftteams/) |
 | URL der Datenschutzrichtlinie | [https://www.workday.com/en-us/privacy.html](https://www.workday.com/en-us/privacy.html) |
 | URL der Nutzungsbedingungen | [https://nw.myworkday.com/microsoftteams/post-license](https://nw.myworkday.com/microsoftteams/post-license) |
@@ -48,53 +47,52 @@ Von Workday an Microsoft bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
 
-Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Retreive the App ID, install App for User, Get Teams license details from AAD | Wir speichern keine Daten im Zusammenhang mit diesem Feature.  Es ermöglicht uns, die App für den Benutzer zu installieren. | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
->| User.Read.All | Anwendung | Abrufen von Benutzer-AAID zum Senden von Benutzernachrichten. | Nur AAID und Teams AAID  | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
+>| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Retreive die App-ID, installieren App für Benutzer, Abrufen Teams Lizenzdetails von AAD | Wir speichern keine Daten im Zusammenhang mit dieser Funktion.  Es ermöglicht uns, die App für den Benutzer zu installieren. | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
+>| User.Read.All | Anwendung | Abrufen von Benutzern AAID, um Benutzer nachricht zu senden. | Nur die AAID und Teams AAID  | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden auf** |  **Welche OII wird übertragen?** | **Rechtfertigung für die Übertragung von OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Organisationsdaten werden zwischen Workday Services und Microsoft freigegeben. Weitere Informationen finden Sie in den Bedingungen Ihrer Vereinbarung mit Workday. | Organisationsdaten werden zwischen Workday Services und Microsoft freigegeben. Weitere Informationen finden Sie in den Bedingungen Ihrer Vereinbarung mit Workday. | Nicht zutreffend |
+>| Organisationsdaten werden von Workday Services und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Bedingungen Ihrer Vereinbarung mit Workday. | Organisationsdaten werden von Workday Services und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Bedingungen Ihrer Vereinbarung mit Workday. | Nicht zutreffend |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf identitätsnahe Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
+>| **Rechtfertigung für den Zugang zu EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Rechtfertigung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
 >| Die Dienstplandaten werden verwendet, um die Interaktion eines Benutzers mit der Workday-App zu personalisieren. | Nein |  |
 
 
-
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
 
->In den Telemetrie- oder Protokollen der Anwendungen werden keine OII oder EUII angezeigt.
+>In den Anwendungstelemetrie- oder Protokollprotokollen sind keine OII oder EUII angezeigt.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
 
->Lesen Sie die Bedingungen Ihrer Vereinbarung mit Workday.
+>Beziehen Sie sich auf die Bedingungen Ihrer Vereinbarung mit Workday.
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational identifiabling Information) beteiligt, die von dieser App erfasst oder gespeichert werden?
 
 >Nein
 
@@ -104,11 +102,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384" target="_blank">Anzeigen in einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -118,11 +116,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Nein |
+| Können Sie sich in Microsoft Identifizplattform (Azure AD) integrieren?  | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
