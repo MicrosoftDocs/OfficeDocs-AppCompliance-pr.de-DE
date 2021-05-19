@@ -1,45 +1,45 @@
 ---
-title: Anwendungsinformationen für Yeeflow von Akmii
+title: Anwendungsinformationen für TeamGether von EFFENCY
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/25/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Informationen zu Sicherheits- und Complianceinformationen für Yeeflow, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für TeamGether, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c8dc3fb5a23d480299aae331a9ccccae9641c66c
+ms.openlocfilehash: 4856abc549692b7963c9a21c2c073133626a78ea
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553436"
+ms.locfileid: "52553328"
 ---
-# <a name="yeeflow"></a>Yeeflow
+# <a name="teamgether"></a>TeamGether
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 25. November 2020</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 16. April 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/7c10d6ae-b4ad-4221-b086-8518f5d4a1c4" target="_blank">Ansicht in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000089" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/5a0547cc-ea63-4425-acc8-08b89a8fc1a1" target="_blank">Ansicht in Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002660" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die Akmii Microsoft zur Verfügung gestellt hat:
+Informationen, die EFFENCY Microsoft zur Verfügung gestellt hat:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Yeeflow |
-| ID | WA200000089 |
+| App-Name | TeamGether |
+| ID | WA200002660 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Akmii |
-| URL der Partner-Website | [https://www.yeeflow.com](https://www.yeeflow.com) |
-| URL Teams Anwendungsinfoseite | [www.yeeflow.com](www.yeeflow.com) |
-| URL der Datenschutzrichtlinie | [https://www.yeeflow.com/privacy](https://www.yeeflow.com/privacy) |
-| URL der Nutzungsbedingungen | [https://www.yeeflow.com/terms](https://www.yeeflow.com/terms) |
+| Name des Partnerunternehmens | EFFENCY |
+| URL der Partner-Website | [https://www.effency.fr](https://www.effency.fr) |
+| URL Teams Anwendungsinfoseite | [https://www.effency.fr/teams/](https://www.effency.fr/teams/) |
+| URL der Datenschutzrichtlinie | [https://www.effency.fr/protection-des-donnees](https://www.effency.fr/protection-des-donnees) |
+| URL der Nutzungsbedingungen | [https://www.effency.fr/conditions-generales](https://www.effency.fr/conditions-generales) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Informationen, die Akmii Microsoft zur Verfügung gestellt hat:
 
 ### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
 
-Diese Informationen wurden von Akmii darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
+Diese Informationen wurden von EFFENCY darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
@@ -70,20 +70,20 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Rechtfertigung für den Zugang zu EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Rechtfertigung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Senden Sie eine benutzerfreundliche Nachricht und identifizieren Sie den Benutzer. | Benutzer-E-Mail und Name | Zum Senden von Benutzerbenachrichtigungen und Anzeigen des Benutzernamens |
+>| Wir verwenden den Namen des Benutzers, um unsere Nachrichten zu personalisieren, und die E-Mail-Adresse des Benutzers wird in der Datenbank gespeichert, damit wir ihm bei Bedarf E-Mails senden können. | Vorname, Nachname und E-Mail-Adresse | Wir verwenden den Namen des Benutzers, um unsere Nachrichten zu personalisieren, und die E-Mail-Adresse des Benutzers wird in der Datenbank gespeichert, damit wir ihm bei Bedarf E-Mails senden können. |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
 Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
 
->In den Anwendungstelemetrie- oder Protokollprotokollen sind keine OII oder EUII angezeigt.
+>Die E-Mail-Adresse des Benutzers wird möglicherweise in den Protokollen angezeigt und in der Datenbank gespeichert. Die Protokolle werden nach 7 Tagen gelöscht und die Daten in der Datenbank werden auf unbestimmte Zeit gespeichert, es sei denn, der Benutzer fordert dies auf.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
 Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Anwendungsdaten werden in der Datenbank gespeichert. Nur autorisierte Betriebsadministratoren können auf die Daten im Büro zugreifen (durch IP-Bereiche eingeschränkt).
+>Wir verwenden keine Partnerdaten
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -99,9 +99,9 @@ Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational id
 
 Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35741' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38160' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35741" target="_blank">Anzeigen in einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38160" target="_blank">Anzeigen in einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,24 +111,11 @@ Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.mic
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Akmii darüber bereitgestellt, wie diese App authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von EFFENCY darüber bereitgestellt, wie diese App authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Können Sie sich in Microsoft Identifizplattform (Azure AD) integrieren?  | Ja |
-| Haben Sie alle in der Checkliste für die Microsoft Identity Platform-Integration beschriebenen bewährten Methoden überprüft und eingehalten?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Ja |
-| Unterstützt Ihre App Conditional Access-Richtlinien? | Nein |
-| Fordert Ihre App die geringsten Berechtigungsberechtigungen für Ihr Szenario an? | Ja |
-| Gibt die statisch registrierten Berechtigungen Ihrer App die Berechtigungen wieder, die Ihre App dynamisch und inkrementell anfordert? | Ja |
-| Unterstützt Ihre App Multi-Tenancy? | Ja |
-| Verfügt Ihre App über einen vertraulichen Client? | Ja |
-| Besitzen Sie alle für Ihre App registrierten Unified Resource Identifier (URI) umleiten? | Ja |
-| Was vermeiden Sie für Ihre App? | - Wildcard-Umleitungs-URIs,<br/><br/> |
-| Macht Ihre App Web-APIs verfügbar? | Ja |
-| Lässt Ihr Berechtigungsmodell nur dann zu, dass Aufrufe erfolgreich sind, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
-| Verwendet Ihre App Vorschau-APIs? | Nein |
-| Verwendet Ihre App veraltete APIs? | Nein |
+| Können Sie sich in Microsoft Identifizplattform (Azure AD) integrieren?  | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
