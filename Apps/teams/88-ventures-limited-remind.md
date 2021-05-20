@@ -1,12 +1,12 @@
 ---
-title: Anwendungsinformationen für Remind by 88 Ventures Limited
+title: Anwendungsinformationen für Remind by 88Venture Limited
 ms.author: elmalova
 author: elenamalova
 ms.date: 09/28/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Remind, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Remind, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 8e2124ed68b2e9d750c8bc6a229eca0ccad200b5
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -21,22 +21,22 @@ ms.locfileid: "52552446"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 28. September 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Ansicht in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001444" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001444" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen von 88 Ventures Limited an Microsoft:
+Von 88Venture Limited für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Remind |
 | ID | WA200001444 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | 88 Ventures Limited |
-| URL der Partner-Website | [https://www.teamsreminder.app](https://www.teamsreminder.app) |
+| Partnerunternehmensname | 88 Ventures Limited |
+| URL der Partnerwebsite | [https://www.teamsreminder.app](https://www.teamsreminder.app) |
 | URL der Datenschutzrichtlinie | [https://www.teamsreminder.app/#privacy](https://www.teamsreminder.app/#privacy) |
 | URL der Nutzungsbedingungen | [https://www.teamsreminder.app/#terms](https://www.teamsreminder.app/#terms) |
 
@@ -46,49 +46,49 @@ Informationen von 88 Ventures Limited an Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
+### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
 
-Diese Informationen wurden von 88 Ventures Limited darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
+Diese Informationen wurden von 88Venture Limited bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | Delegiert | Keine in der Datenbank gespeicherten Informationen | Ermöglicht Administratoren das Durchsuchen des Benutzerverzeichnisses der Organisation für Benutzer, die öffentliche Erinnerungen festgelegt haben | 88546d4f-9973-4716-98e4-cd181c04bc2d |
+>| Directory.Read.All | delegierte | keine in der Datenbank gespeicherten Informationen | Ermöglicht Administratoren das Durchsuchen des Benutzerverzeichnisses der Organisation für Benutzer, die öffentliche Erinnerungen festgelegt haben | 88546d4f-9973-4716-98e4-cd181c04bc2d |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf identitätsnahe Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Rechtfertigung für den Zugang zu EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Rechtfertigung für die Speicherung von EUII?** |
+>| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| (1) Wenn ein Benutzer eine Erinnerung für eine Nachricht festlegt, versucht der Bot, den Namen der Person zu erhalten, die die Nachricht ursprünglich gesendet hat, um diese Informationen in der Erinnerungsliste des Benutzers anzuzeigen (2) Wenn ein Benutzer eine Erinnerung für einen anderen Kanal oder Chat-Mitglied festlegt, versucht der Bot, die Identität (Benutzer oder Bot) und den Namen des genannten Benutzers zu erhalten, um sie in der Erinnerungsliste des Benutzers anzuzeigen. | (1) Wenn ein Benutzer eine Erinnerung für eine Nachricht festlegt, versucht der Bot, den Namen der Person zu erhalten, die die Nachricht ursprünglich gesendet hat, um diese Informationen in der Erinnerungsliste des Benutzers anzuzeigen (2) Wenn ein Benutzer eine Erinnerung für einen anderen Kanal oder Chat-Mitglied festlegt, versucht der Bot, die Identität (Benutzer oder Bot) und den Namen des genannten Benutzers zu erhalten, um sie in der Erinnerungsliste des Benutzers anzuzeigen. |  |
+>| (1) Wenn ein Benutzer eine Erinnerung für eine Nachricht fest legt, versucht der Bot, den Namen der Person zu erhalten, die die Nachricht ursprünglich gesendet hat, um diese Informationen in der Liste der Erinnerungen des Benutzers anzeigen zu lassen (2) Wenn ein Benutzer eine Erinnerung für einen anderen Kanal oder ein anderes Chatmitglied legt, versucht der Bot, die Identität (Benutzer oder Bot) und den Namen des erwähnten Benutzers zur Anzeige in der Erinnerungsliste des Benutzers zu erhalten. | (1) Wenn ein Benutzer eine Erinnerung für eine Nachricht fest legt, versucht der Bot, den Namen der Person zu erhalten, die die Nachricht ursprünglich gesendet hat, um diese Informationen in der Liste der Erinnerungen des Benutzers anzeigen zu lassen (2) Wenn ein Benutzer eine Erinnerung für einen anderen Kanal oder ein anderes Chatmitglied legt, versucht der Bot, die Identität (Benutzer oder Bot) und den Namen des erwähnten Benutzers zur Anzeige in der Erinnerungsliste des Benutzers zu erhalten. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Kein EEUI und OII wird mit Telemetrie- oder Protokollierungsfunktionen geteilt
+>Keine EEUI und OII werden für Telemetrie- oder Protokollierungsfunktionen freigegeben
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Verschlüsselung im Ruhezustand, Zwei-Faktor-Authentifizierung (2FA) zur Einschränkung des Zugriffs auf unsere IT-Infrastruktur und auf Kundendaten, geschützte IP-Bereiche zwischen Systemen
+>Verschlüsselung im Ruhebereich, Zwei-Faktor-Authentifizierung (Two Factor Authentication, 2FA), um den Zugriff auf unsere IT-Infrastruktur und auf Kundendaten zu beschränken, geschützte IP-Bereiche zwischen Systemen
 
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
+#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
 
-Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational identifiabling Information) beteiligt, die von dieser App erfasst oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Nein
 
@@ -98,11 +98,11 @@ Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational id
 
 ::: zone pivot="mcas"
 
-Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36058' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36058" target="_blank">Anzeigen in einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36058" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -1,12 +1,12 @@
 ---
-title: Anwendungsinformationen für Qubie von Qubie
+title: Anwendungsinformationen für Qubie by Qubie
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Qubie, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Qubie, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security#A0 und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 0bbba08dde8cfe2fe19d9aee9de1720a8ef64a77
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -21,22 +21,22 @@ ms.locfileid: "52552806"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 16. Dezember 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/a4b9907d-cff2-4771-91d5-30cb794f00c5" target="_blank">Ansicht in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381933" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/a4b9907d-cff2-4771-91d5-30cb794f00c5" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381933" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die Qubie Microsoft zur Verfügung gestellt hat:
+Von Qubie an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Qubie |
 | ID | WA104381933 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Qubie |
-| URL der Partner-Website | [https://www.questback.com/our-products/performance-suite/te...](https://www.questback.com/our-products/performance-suite/teams-triumph-with-qubie/) |
+| Partnerunternehmensname | Qubie |
+| URL der Partnerwebsite | [https://www.questback.com/our-products/performance-suite/te...](https://www.questback.com/our-products/performance-suite/teams-triumph-with-qubie/) |
 | URL Teams Anwendungsinfoseite | [https://www.questback.com/qubie-ms-teams](https://www.questback.com/qubie-ms-teams) |
 | URL der Datenschutzrichtlinie | [https://www.questback.com/qubie-privacy-policy/](https://www.questback.com/qubie-privacy-policy/) |
 | URL der Nutzungsbedingungen | [https://www.questback.com/qubie-terms-and-conditions/](https://www.questback.com/qubie-terms-and-conditions/) |
@@ -47,43 +47,43 @@ Informationen, die Qubie Microsoft zur Verfügung gestellt hat:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
+### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
 
-Diese Informationen wurden von Qubie darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
+Diese Informationen wurden von Qubie darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft-Graph.
+>Diese Anwendung verwendet keine Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf identitätsnahe Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Rechtfertigung für den Zugang zu EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Rechtfertigung für die Speicherung von EUII?** |
+>| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Geben Sie den Namen an, wenn Sie Kommentare im Teamchat löschen, und um auf Benutzer zu antworten, die einen Fehler einreicht oder Fragen sendet. Reagieren Sie auf Benutzer, die einen Fehler dateien oder eine Frage haben. Wird angezeigt, wenn Teamleistungsfragen angezeigt werden, damit der Benutzer den Kontext der Frage kennt. Teamname anzeigen, wenn Berichte und Grafiken angezeigt werden. | Anzeigename, E-Mail-Adresse, Teamname  |  |
+>| Zeigen Sie den Namen beim Löschen von Kommentaren im Teamchat an, und antworten Sie auf Benutzer, die einen Fehler dateien oder Fragen senden. Antworten Sie auf Benutzer, die einen Fehler oder eine Frage haben. Wird angezeigt, wenn Teamleistungsfragen angezeigt werden, damit der Benutzer den Kontext der Frage kennt. Anzeigen des Teamnamens beim Anzeigen von Berichten und Graphen. | Anzeigename, E-Mail-Adresse, Teamname  |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Name und Benutzer-E-Mail anzeigen - Wird verwendet, um mit Benutzern zu kommunizieren, die Fehler/Fragen senden
+>Anzeigename und Benutzer-E-Mail – Wird verwendet, um mit Benutzern zu kommunizieren, die Fehler/Fragen senden
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Sie können Questback kontaktieren, um Daten zu ändern/löschen.
+>Sie können sich an Questback wenden, um Daten zu ändern/zu löschen.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -92,11 +92,11 @@ Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Pa
 
 ::: zone pivot="mcas"
 
-Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12498' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12498" target="_blank">Anzeigen in einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12498" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
