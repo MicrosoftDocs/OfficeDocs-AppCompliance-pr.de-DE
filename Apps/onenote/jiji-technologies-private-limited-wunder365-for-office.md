@@ -6,7 +6,7 @@ ms.date: 12/15/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Wunder365 für Office, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365 für Office, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 84138d8471b342ad67e2bad34b70166ddb77a539
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -21,21 +21,21 @@ ms.locfileid: "52553786"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 15. Dezember 2020</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200001529" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001529" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die JiJi Technologies Private Limited Microsoft zur Verfügung gestellt hat:
+Von JiJi Technologies Private Limited für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Wunder365 für Office |
 | ID | WA200001529 |
-| Office 365 unterstützten Clients | Excel 2016 oder später auf Mac, Excel 2013 oder später Windows, Excel im Web, Word 2016 oder später auf Mac, Word im Web, Word 2013 oder später Windows, OneNote im Web |
-| Name des Partnerunternehmens | JiJi Technologies Private Limited |
-| URL der Partner-Website | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows, OneNote im Web |
+| Partnerunternehmensname | JiJi Technologies Private Limited |
+| URL der Partnerwebsite | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
 | URL der Datenschutzrichtlinie | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
 | URL der Nutzungsbedingungen | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
 
@@ -45,26 +45,26 @@ Informationen, die JiJi Technologies Private Limited Microsoft zur Verfügung ge
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
+### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
 
-Diese Informationen wurden von JiJi Technologies Private Limited darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
+Diese Informationen wurden von JiJi Technologies Private Limited darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | Delegiert | Keine Daten gespeichert. | Um Planer-Aufgaben abzuerhalten/aktualisieren, posten Sie Aufgabenaktualisierungen im Teamkanal | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| Mail.Send | Delegiert | Keine Daten gespeichert. | App zum Senden von E-Mail-Benachrichtigungen an Benutzer zulassen | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| offline_access | Delegiert | Keine Daten gespeichert. | So halten Sie den Benutzer angemeldet. | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| openid | Delegiert | Keine Daten gespeichert. | Ermöglicht Benutzern die Anmeldung mit Einem Organisationskonto | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| Profil | Delegiert | UPN, Benutzer-ID, E-Mail-ID, Mieter-ID für die Lizenzüberprüfung, kostenlose Lizenz. | Ermöglicht Benutzern die Anmeldung mit Einem Organisationskonto | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| Group.ReadWrite.All | delegierte | Keine Gespeicherten Daten. | Um Planner-Aufgaben zu erhalten/zu aktualisieren, veröffentlichen Sie Vorgangsupdates im Teamkanal | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| Mail.Send | delegierte | Keine Gespeicherten Daten. | Zulassen, dass App E-Mail-Benachrichtigungen an Benutzer sendet | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| offline_access | delegierte | Keine Gespeicherten Daten. | So halten Sie den Benutzer angemeldet. | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| openid | delegierte | Keine Gespeicherten Daten. | Ermöglicht Benutzern die Anmeldung mit einem Organisationskonto | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| Profil | delegierte | UPN, Benutzer-ID, E-Mail-ID, Mandanten-ID für die Lizenzierungsüberprüfung, kostenlose Lizenz. | Ermöglicht Benutzern die Anmeldung mit einem Organisationskonto | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >Nicht-Microsoft-Dienste werden nicht verwendet.
 
@@ -72,21 +72,21 @@ Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Wir melden uns bei Azure Application Insights an. Wir protokollieren die Mandanten-ID und die E-Mail-ID des Benutzers, um Probleme zu identifizieren und Kunden bei der Lösung von Problemen zu helfen.
+>Wir protokollieren uns bei Azure Application Insights. Wir protokollieren die Mandanten-ID und die E-Mail-ID des Benutzers, um Probleme zu identifizieren und Kunden bei der Lösung von Problemen zu unterstützen.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Alle Webanwendungen und Storage Ressourcen befinden sich in einem Abonnement, das nicht mit unserem Unternehmen AAD verbunden ist, mit nur Administratoren, die Zugriff auf die Ressourcen haben. 2FA ist für diese Administratoren erforderlich. 
+>Alle Webanwendungen und Storage befinden sich in einem Abonnement, das nicht mit unserem Unternehmens-AAD verbunden ist, mit nur Administratoren, die Zugriff auf die Ressourcen haben. 2FA ist für diese Administratoren erforderlich. 
 
 
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
+#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
 
-Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational identifiabling Information) beteiligt, die von dieser App erfasst oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Nein
 
@@ -96,11 +96,11 @@ Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational id
 
 ::: zone pivot="mcas"
 
-Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250" target="_blank">Anzeigen in einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -110,21 +110,21 @@ Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.mic
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von JiJi Technologies Private Limited darüber bereitgestellt, wie diese App authentifizierung, Autorisierung, Bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von JiJi Technologies Private Limited darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Können Sie sich in Microsoft Identifizplattform (Azure AD) integrieren?  | Ja |
-| Haben Sie alle in der Checkliste für die Microsoft Identity Platform-Integration beschriebenen bewährten Methoden überprüft und eingehalten?  | Ja |
+| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden geprüft und befolgt, die in der Prüfliste Microsoft Identity Platform aufgeführt sind?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Ja |
-| Unterstützt Ihre App Conditional Access-Richtlinien? | Ja |
-| Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung für Benutzer mit Administratorrollen, Erfordern der mehrstufigen Authentifizierung für Azure-Verwaltungsaufgaben, Blockieren von Anmeldungen für Benutzer, die versuchen, ältere Authentifizierungsprotokolle zu verwenden, Anforderung vertrauenswürdiger Standorte für die Azure AD-Mehr-Faktor-Authentifizierungsregistrierung, Blockieren oder Gewähren des Zugriffs von bestimmten Standorten aus, Blockieren riskantes Anmeldeverhalten |
-| Fordert Ihre App die geringsten Berechtigungsberechtigungen für Ihr Szenario an? | Ja |
-| Gibt die statisch registrierten Berechtigungen Ihrer App die Berechtigungen wieder, die Ihre App dynamisch und inkrementell anfordert? | Ja |
-| Unterstützt Ihre App Multi-Tenancy? | Ja |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
+| Auflisten der unterstützten Richtlinientypen | Erfordern einer mehrstufigen Authentifizierung für Benutzer mit Administratorrollen, Erfordern der mehrstufigen Authentifizierung für Azure-Verwaltungsaufgaben, Blockieren von Anmeldungen für Benutzer, die ältere Authentifizierungsprotokolle verwenden möchten, Erfordern vertrauenswürdiger Speicherorte für die Azure AD Multi-Factor Authentication-Registrierung, Blockieren oder Gewähren des Zugriffs von bestimmten Speicherorten, Blockieren des risikobelastenden Anmeldeverhaltens |
+| Bittet Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario? | Ja |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordern wird? | Ja |
+| Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
-| Besitzen Sie alle für Ihre App registrierten Unified Resource Identifier (URI) umleiten? | Ja |
-| Was vermeiden Sie für Ihre App? | - Wildcard-Umleitungs-URIs,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für ein SPA erforderlich<br/>- Ressourcenbesitzer-Kennwortanmeldeinformationen (ROPC)-Flow |
+| Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
+| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/>– Fluss mit Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Ja |
 | Verwendet Ihre App veraltete APIs? | Nein |

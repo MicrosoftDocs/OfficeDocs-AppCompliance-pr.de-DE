@@ -1,12 +1,12 @@
 ---
-title: Anwendungsinformationen für Q nach ModuleQ
+title: Anwendungsinformationen für F nach ModulQ
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/17/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Q, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für F, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum #A0 sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3424ac372f46be0fc9834611fb1a0d57c69831a4
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -21,22 +21,22 @@ ms.locfileid: "52551905"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 17. März 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">Ansicht in Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381433" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381433" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die ModuleQ Microsoft zur Verfügung gestellt hat:
+Von ModuleQ an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Q |
 | ID | WA104381433 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | ModuleQ |
-| URL der Partner-Website | [https://moduleq.com](https://moduleq.com) |
+| Partnerunternehmensname | ModuleQ |
+| URL der Partnerwebsite | [https://moduleq.com](https://moduleq.com) |
 | URL der Datenschutzrichtlinie | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
 | URL der Nutzungsbedingungen | [https://moduleq.com/terms-of-service/](https://moduleq.com/terms-of-service/) |
 
@@ -46,51 +46,51 @@ Informationen, die ModuleQ Microsoft zur Verfügung gestellt hat:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
+### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
 
-Diese Informationen wurden von ModuleQ darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
+Diese Informationen wurden von ModuleQ bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | Anwendung | speichert Besprechungsdaten, mit Ausnahme des Nachrichtentexts und aller Anlagen | Ermöglicht der Anwendung, die Kalenderereignisse eines Benutzers zu lesen, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Group.Read.All | Delegiert | Keine | Ermöglicht der App die Interaktion in einem Team zum Freigeben von Inhalten. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Mail.Read | Anwendung | speichert E-Mail-Daten, mit Ausnahme des Nachrichtentexts und aller Anhänge | Ermöglicht der Anwendung, die E-Mails eines Benutzers zu lesen, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read | Delegiert | Benutzer-E-Mail- und Authentifizierungstoken | Ermöglicht es dem Benutzer, sich anzumelden und sein Office 365 Konto mit seinem ModuleQ-Konto zu verknüpfen | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read.All | Delegiert | Keine | Erlauben Sie der App, die Liste der Teams abzuerhalten, an der der Benutzer teilnimmt. Nur für die Freigabe verwendet  | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| Calendars.Read | Anwendung | Speichert Besprechungsdaten, mit Ausnahme des Nachrichtentexts und der Anlagen | Ermöglicht der Anwendung das Lesen der Kalenderereignisse eines Benutzers, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| Group.Read.All | delegierte | Keine | Ermöglicht der App die Interaktion in einem Team für die Freigabe von Inhalten. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| Mail.Read | Anwendung | Speichert E-Mail-Daten, mit Ausnahme des Nachrichtentexts und der Anlagen | Ermöglicht der Anwendung das Lesen der E-Mails eines Benutzers, um die Geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| User.Read | delegierte | Benutzer-E-Mail- und Authentifizierungstoken | Ermöglicht es dem Benutzer, sich zu anmelden und sein Office 365 mit seinem ModuleQ-Konto zu verknüpfen. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| User.Read.All | delegierte | Keine | Erlauben Sie der App, die Liste der Teams, zu denen der Benutzer gehört, zu erhalten. Nur für die Freigabe verwendet  | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf identitätsnahe Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
 
->Es wird kein EUII abgerufen.
+>Auf EUII wird nicht zugegriffen.
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Wir protokollieren eine interne Benutzer-GUID und Organisationsnamen und -domänen. Derzeit gibt es keine Archivierungs- oder Löschsteuerelemente.
+>Wir protokollieren eine interne Benutzer-GUID sowie Organisationsnamen und Domänen. Derzeit gibt es keine Archiv- oder Löschsteuerelemente.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Daten werden je nach Funktion in der Microsoft Azure Cloud über mehrere Microservices gespeichert. Alle benutzeridentifizierbaren Daten werden vor der Übertragung zur Speicherung auf der Clientseite mit der AES-256-Verschlüsselung verschlüsselt. Die Daten können von Ingenieuren zu Debugging-Zwecken mit Zustimmung unserer Geschäftsleitung eingesehen werden. Der Zugriff auf Daten wird über internes VPN gesteuert.
+>Daten werden in der Microsoft Azure in mehreren Mikrodiensten gemäß ihrer Funktion gespeichert. Alle benutzeridentifizierbaren Daten werden clientseitig mit der AES-256-Verschlüsselung verschlüsselt, bevor sie für den Speicher übertragen werden. Daten können von Technikern zu Debuggingzwecken mit Genehmigung durch unsere Geschäftsleitung angezeigt werden. Der Zugriff auf Daten wird über ein internes VPN gesteuert.
 
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
+#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
 
-Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational identifiabling Information) beteiligt, die von dieser App erfasst oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Ja
 
@@ -100,11 +100,11 @@ Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational id
 
 ::: zone pivot="mcas"
 
-Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35844' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35844" target="_blank">Anzeigen in einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35844" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

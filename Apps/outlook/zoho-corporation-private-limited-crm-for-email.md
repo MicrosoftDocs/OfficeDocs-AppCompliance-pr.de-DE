@@ -1,12 +1,12 @@
 ---
-title: Anwendungsinformationen für Zoho CRM für E-Mail von Zoho Corporation Private Limited
+title: Anwendungsinformationen für Zoho CRM für E-Mails von Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Zoho CRM für E-Mails, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Compliance-Informationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoho CRM für E-Mails, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 4f06fd2f6a14bbad4d1265df9754884d515f6cb6
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -15,13 +15,13 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52553676"
 ---
-# <a name="zoho-crm-for-email"></a>Zoho CRM für E-Mail
+# <a name="zoho-crm-for-email"></a>Zoho CRM für E-Mails
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 16. Dezember 2019</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104379468" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104379468" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -31,13 +31,13 @@ Informationen, die von Zoho Corporation Private Limited an Microsoft bereitgeste
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Zoho CRM für E-Mail |
+| App-Name | Zoho CRM für E-Mails |
 | ID | WA104379468 |
-| Office 365 unterstützten Clients | Outlook 2013 oder später Windows, Outlook 2016 oder später auf Mac, Outlook im Web |
-| Name des Partnerunternehmens | Zoho Corporation Private Limited |
-| URL der Partner-Website | [https://www.zoho.com/](https://www.zoho.com/) |
+| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac, Outlook im Web |
+| Partnerunternehmensname | Zoho Corporation Private Limited |
+| URL der Partnerwebsite | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL der Datenschutzrichtlinie | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
-| URL der Nutzungsbedingungen | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=de-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL der Nutzungsbedingungen | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,30 +45,30 @@ Informationen, die von Zoho Corporation Private Limited an Microsoft bereitgeste
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Wie die App mit Daten umgeht
+### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
 
-Diese Informationen wurden von Zoho Corporation Private Limited darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App erfassten Daten hat.
+Diese Informationen wurden von Zoho Corporation Private Limited bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listen Sie alle [Microsoft-Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierter/Antrag)** | **Werden Daten gesammelt? Rechtfertigung für die Sammlung?** | **Werden Daten gespeichert? Rechtfertigung für die Lagerung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | Delegiert | Die Kalenderordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kalenderinformationen wie event_name, event_location, participant_details werden gespeichert. | Ermöglicht dem Benutzer, Office365-Ereignisse mit Zoho CRM zu synchronisieren. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.ReadWrite | Delegiert | Die Ordner-ID für Kontakte wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kontaktinformationen wie first_name, last_name, E-Mail-Adresse werden gespeichert. | Ermöglicht dem Benutzer die Synchronisierung von Office365-Kontakten mit Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read | Delegiert |  | Ermöglicht dem Benutzer das Importieren der Office365-Datei in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.All | Delegiert |  | Ermöglicht dem Benutzer das Importieren der Office365-Datei in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.Selected | Delegiert | UserPrincipalName wird zur Benutzeridentifikation gespeichert | Ermöglicht dem Benutzer das Importieren der Office365-Datei in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | Delegiert | Benutzereigenschaften wie first_name, last_name, E-Mail-Adresse. | Grundlegende Profile aller Benutzer lesen | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | Delegiert | UserPrincipaName wird für die Benutzerindentifizierung gespeichert | E-Mail-Adresse des Benutzers anzeigen | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | Delegiert |  | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Profil | Delegiert |  | Grundlegendes Profil des Benutzers anzeigen | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Calendars.ReadWrite | delegierte | Die Kalenderordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; umgekehrt zu synchronisieren. Kalenderinformationen wie event_name, event_location, participant_details werden gespeichert. | Ermöglicht dem Benutzer das Synchronisieren von Office365-Ereignissen mit Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Contacts.ReadWrite | delegierte | Die Kontaktordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren, umgekehrt. Kontaktinformationen wie first_name, last_name, E-Mail-Adresse werden gespeichert. | Ermöglicht dem Benutzer das Synchronisieren von Office365-Kontakten mit Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read | delegierte |  | Ermöglicht dem Benutzer das Importieren der Office365-Datei in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.All | delegierte |  | Ermöglicht dem Benutzer das Importieren der Office365-Datei in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.Selected | delegierte | UserPrincipalName wird zur Benutzeridentifikation gespeichert | Ermöglicht dem Benutzer das Importieren der Office365-Datei in Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | delegierte | Benutzereigenschaften wie first_name, last_name, E-Mail-Adresse. | Grundlegende Profile aller Benutzer lesen | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| email | delegierte | UserPrincipaName wird für den Benutzereinzug gespeichert | Anzeigen der E-Mail-Adresse des Benutzers | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| offline_access | delegierte |  | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Profil | delegierte |  | Grundlegendes Profil des Benutzers anzeigen | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese teilt, listen Sie den Nicht-Microsoft-Dienst auf, den die App verwendet, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >Nicht-Microsoft-Dienste werden nicht verwendet.
 
@@ -76,15 +76,15 @@ Wenn die App Organisationsdaten an Nicht-Microsoft-Dienst überträgt oder diese
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden in der Telemetrie oder in den Protokollen dieser Anwendung unternehmensbezogene identifizierbare Informationen (OII) oder Benutzer-identifizierbare Informationen (EUII) angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Richtlinien für aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Wir sammeln keine EUII / PII in Telemetrie und Protokollen. Wir haben Skripte zur Suche und Warnung, um solche Daten zu beheben, die sichtbar sind.
+>Wir sammeln EUII/PII nicht in Telemetrie und Protokollen. Wir verfügen über Skripts, um nach sichtbaren Daten zu suchen und sie zu warnen.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Partnersystemen steuern können? z.B. Löschen, Aufbewahrung, Auditing, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Der Kunde kann die Daten, die verschlüsselt werden müssen, über EAR (Encryption At Rest) mit Certaat-Einschränkungen auswählen. Kennwörter werden standardmäßig gehasht. Der logische Zugriff auf die Server erfolgt über ein isoliertes &amp; dediziertes Netzwerk und ist
+>Der Kunde kann die Daten auswählen, die über EAR (Encryption At Rest) mit Certaat-Einschränkungen verschlüsselt werden müssen. Kennwörter werden standardmäßig als Hash verwendet. Der logische Zugriff auf die Server erfolgt über ein isoliertes &amp; dediziertes Netzwerk und ist hochgradig gesichert und
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -93,11 +93,11 @@ Beschreiben Sie, wie Administratoren von Organisationen ihre Informationen in Pa
 
 ::: zone pivot="mcas"
 
-Die Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/22307' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/22307" target="_blank">Anzeigen in einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/22307" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
