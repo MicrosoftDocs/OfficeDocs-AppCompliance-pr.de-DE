@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für Text von genehmigten Kontakten
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 05/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Text, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum #A0 sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2cc4abf4924ca9af1ddd5b49b6a38c4427f3404a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 8d9e5cfd3b082692656c7bb9a67417564cf7ab57
+ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552386"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629660"
 ---
 # <a name="text"></a>Text
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 16. Dezember 2019</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 10. Mai 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/a622ceb4-b6e2-4557-8218-e22e80975ba4" target="_blank">Ansicht im Teams Store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000383" target="_blank">Ansicht in AppSource</a>
@@ -34,11 +34,11 @@ Vom genehmigten Kontakt an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Text |
 | ID | WA200000383 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Partnerunternehmensname | Approved Contact |
-| URL der Partnerwebsite | [https://sales.approvedcontact.com/syniverse-microsoft-teams...](https://sales.approvedcontact.com/syniverse-microsoft-teams-text/) |
+| URL der Partnerwebsite | [www.approvedcontact.com](www.approvedcontact.com) |
 | URL der Datenschutzrichtlinie | [https://sales.approvedcontact.com/wp-content/uploads/text-p...](https://sales.approvedcontact.com/wp-content/uploads/text-privacy-policy.pdf) |
-| URL der Nutzungsbedingungen | [https://sales.approvedcontact.com/wp-content/uploads/text-t...](https://sales.approvedcontact.com/wp-content/uploads/text-terms-of-use.pdf) |
+| URL der Nutzungsbedingungen | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,10 +57,10 @@ Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/gra
 >| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Group.ReadWrite.All | delegierte | Für den Text BOT erfassen wir die Team-ID zum Erstellen zukünftiger Kanäle für eingehende Textnachrichten. | Ermöglicht es uns, Teams für Benutzer zu erstellen. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| email | delegierte |  | Abrufen von Benutzerkontaktinformationen. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| offline_access | delegierte | Aktualisierungstoken werden in unserer Datenbank gespeichert. | Wird verwendet, um Aktualisierungstoken in unserer Datenbank für die Synchronisierung von Benutzerkalendern zu speichern, wenn sie nicht vorhanden sind. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| openid | delegierte |  | Ermöglicht dem Benutzer die Anmeldung. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| Profil | delegierte |  |  | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| E-Mail | delegierte | E-Mail-Adressen | Abrufen von Benutzerkontaktinformationen. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| offline_access | delegierte | Aktualisierungstoken werden in unserer Datenbank gespeichert. | Wird verwendet, um Aktualisierungstoken in unserer Datenbank zu speichern | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| openid | delegierte | Anmeldeinformationen | Ermöglicht dem Benutzer die Anmeldung. so, dass Texte in Teams werden können | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| Profil | delegierte | E-Mail-Adressen | Abrufen von Benutzerkontaktinformationen. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -75,7 +75,7 @@ Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf i
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Wir verwenden die Liste, um Frei/Gebucht-Zeiten für alle Im Team zu vergleichen, um Besprechungen zu einem offenen Zeitpunkt zu planen. | Wir speichern nur die E-Mail-Adresse, damit wir Frei/Gebucht-Zeiten vergleichen können. |  |
+>| Wird verwendet, um Aktualisierungstoken in unserer Datenbank zu speichern | Wir speichern E-Mail-Adressen. | Wird verwendet, um Aktualisierungstoken in unserer Datenbank zu speichern |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -112,3 +112,27 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Identitätsinformationen
+
+Diese Informationen wurden von Approved Contact darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden geprüft und befolgt, die in der Prüfliste Microsoft Identity Platform aufgeführt sind?  | Ja |
+| Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Ja |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Bittet Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario? | Ja |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordern wird? | Ja |
+| Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
+| Verfügt Ihre App über einen vertraulichen Client? | Nein |
+| Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
