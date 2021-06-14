@@ -43,6 +43,7 @@
         "dstrome2"
       ],
       "hideEdit": true,
+      "ocv-translation-feedback": true,
       "breadcrumb_path": "/teams-app-certification/breadcrumb/toc.json",
       "searchScope": ["Microsoft Teams"],
       "extendBreadcrumb": true
