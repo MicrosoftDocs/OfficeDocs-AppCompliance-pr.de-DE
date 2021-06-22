@@ -7,18 +7,19 @@ keywords: Microsoft 365 m365-App Herausgebernachweis-Zertifizierung
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 199c8f82a894566a918c30e529cefdfb8c259a48
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
+ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071762"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053439"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 Compliance-Programm
 
-Das Microsoft 365 App-Compliance-Programm ist ein dreistufiger Ansatz für App-Sicherheit und -Compliance. Jede Stufe baut auf der nächsten auf – und bieten ein mehrschichtiges Programm, um den Benutzern die Sicherheit zu geben, die sie bei der Verwendung von Apps im Microsoft 365-Ökosystem benötigen. Derzeit sind alle Stufen des Programms freiwillig und werden nach Ermessen des App-Entwicklers abgeschlossen. 
+Das Microsoft 365 App-Compliance-Programm ist ein dreistufiger Ansatz für App-Sicherheit und -Compliance. Jede Stufe baut auf der nächsten auf – und bieten ein mehrschichtiges Programm, um den Benutzern die Sicherheit zu geben, die sie bei der Verwendung von Apps im Microsoft 365-Ökosystem benötigen. Derzeit sind alle Stufen des Programms freiwillig und werden nach Ermessen der App-Entwickler abgeschlossen. 
 
 Unser Leitbild: Microsoft-Kunden haben volles Vertrauen in die Anwendungen, mit denen ihre Organisationen arbeiten.
+
   ![3-stufiger Ansatz zur App-Compliance](media/Microsoft-App-Compliance-Overview.png) 
 
 ## <a name="publisher-verification"></a>Herausgeberüberprüfung
@@ -44,18 +45,12 @@ Der Herausgebernachweis gilt für Apps, welche sich mit diesen Microsoft-Plattfo
 - SharePoint
 - Project
 - OneNote
+- Web-Apps
 
 > [!IMPORTANT]
-> Microsoft überprüft die zur Verfügung gestellten Informationen nicht. Der Entwickler bestätigt alleine die Richtigkeit, Genauigkeit und Integrität der Nachweisdokumentation und der entsprechenden App-Leistungsdaten. 
+> Microsoft überprüft die angegebenen Informationen nicht. Der Entwickler bestätigt alleine die Richtigkeit, Genauigkeit und Integrität der Nachweisdokumentation und der entsprechenden App-Leistungsdaten. 
 
 ## <a name="microsoft-365-certification"></a>Microsoft 365-Zertifizierung
-Die [Microsoft 365-Zertifizierung](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide) bietet Unternehmen die Gewissheit und das Vertrauen, dass Daten und Privatsphäre bei der Verwendung von Microsoft Teams-Apps angemessen gesichert und geschützt sind. Die Zertifizierung bestätigt, dass eine App-Lösung mit Microsoft-Technologien kompatibel ist, den bewährten Methoden für Cloud App Security entspricht und von Microsoft unterstützt wird. Während diesem Prozess arbeiten die App-Entwickler mit einem externen Prüfer zusammen, um die Sicherheits- und Compliance-Standards des Unternehmens zu validieren. Die Microsoft 365-Zertifizierung gilt für Apps, welche sich mit diesen Microsoft-Plattformen integrieren:
+Die [Microsoft 365-Zertifizierung](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide) bietet Unternehmen die Gewissheit und das Vertrauen, dass Daten und Privatsphäre bei der Verwendung von Microsoft Teams-Apps angemessen gesichert und geschützt sind. Die Zertifizierung bestätigt, dass eine App-Lösung mit Microsoft-Technologien kompatibel ist, den bewährten Methoden für Cloud App Security entspricht und von Microsoft unterstützt wird. Während diesem Prozess arbeiten die App-Entwickler mit einem externen Prüfer zusammen, um die Sicherheits- und Compliance-Standards des Unternehmens zu validieren. Microsoft 365-Zertifizierung gilt für dieselben Apps, die für den Herausgebernachweis qualifiziert sind. 
 
--   Microsoft Teams
--   Word
--   Excel
--   PowerPoint 
--   Outlook
-- SharePoint
-- Project
-- OneNote
+
