@@ -47,11 +47,14 @@
         "dstrome2"
       ],
       "hideEdit": true,
-      "searchScope": ["Microsoft Teams"],
+      "searchScope": [
+        "Microsoft Teams"
+      ],
       "titleSuffix": "Microsoft 365 App Certification",
       "feedback_system": "None",
       "hide_comments": true,
-      "bilingual_type": "hover over"
+      "bilingual_type": "hover over",
+      "recommendations": true
     },
     "fileMetadata": {},
     "template": [],
