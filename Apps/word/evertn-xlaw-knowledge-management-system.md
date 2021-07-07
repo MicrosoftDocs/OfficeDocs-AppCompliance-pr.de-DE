@@ -1,21 +1,21 @@
 ---
-title: Anwendungsinformationen für xLaw – Wissensverwaltungssystem von evertn
+title: Anwendungsinformationen für xMail – Wissensverwaltungssystem von evertn
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für xLaw – Wissensverwaltungssystem, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für xLocker – Wissensverwaltungssystem, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e10b2149f8d103ae9c9ab042402168be6ac73e9b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 57f63c4bc93739fa2a251d797ea4475ef786a09d
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552656"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283489"
 ---
-# <a name="xlaw---knowledge-management-system"></a>xLaw – Wissensverwaltungssystem
+# <a name="xlaw---knowledge-management-system"></a>xMail – Wissensverwaltungssystem
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -27,15 +27,15 @@ ms.locfileid: "52552656"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von evertn an Microsoft bereitgestellte Informationen:
+Von Evertn an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | xLaw – Wissensverwaltungssystem |
+| App-Name | xMail – Wissensverwaltungssystem |
 | ID | WA104381077 |
-| Office 365 unterstützten Clients | Word 2016 oder höher unter Mac, Word im Web, Word 2013 oder höher auf Windows |
-| Partnerunternehmensname | evertn |
-| URL der Partnerwebsite | [https://xlaw.eu/](https://xlaw.eu/) |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Name des Partnerunternehmens | evertn |
+| URL der Partnerwebsite | [https://extendlaw.com](https://extendlaw.com) |
 | URL der Datenschutzrichtlinie | [https://xlaw.eu/en/privacypolicy.html](https://xlaw.eu/en/privacypolicy.html) |
 | URL der Nutzungsbedingungen | [https://xlaw.eu/en/tos.html](https://xlaw.eu/en/tos.html) |
 
@@ -45,40 +45,40 @@ Von evertn an Microsoft bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von evertn darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Evertn bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet microsoft Graph nicht.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
 >In den Telemetrie- oder Protokollen der Anwendungen werden keine OII oder EUII angezeigt.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
 >Zugriffssteuerung
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Nein
 
@@ -88,11 +88,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36910" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,11 +102,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von evertn darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von Evertn bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Nein |
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

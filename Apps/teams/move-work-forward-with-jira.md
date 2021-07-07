@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für die Vorwärtsarbeit mit Jira durch Verschieben der Arbeit nach vorn
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/05/2021
+ms.date: 06/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für move Work Forward with Jira, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für move Work Forward with Jira, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a5ca2ec25650abba3f68a2ec543434c56d3c3d27
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 2f0f51e841a3b22c1fe1670defe99948cc99f5a3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852054"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282959"
 ---
-# <a name="move-work-forward-with-jira"></a>Vorwärtsarbeit mit Jira
+# <a name="move-work-forward-with-jira"></a>Move Work Forward with Jira
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 5. Mai 2021</p>
+<p>Last updated by the developer on: June 10, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/79ca2e8f-dd2c-40d5-897e-1b22d41038fe" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002855" target="_blank">Ansicht in AppSource</a>
@@ -32,10 +32,10 @@ Informationen, die von Move Work Forward an Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Vorwärtsarbeit mit Jira |
+| App-Name | Move Work Forward with Jira |
 | ID | WA200002855 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Verschieben der Arbeit nach vorn |
+| Name des Partnerunternehmens | Move Work Forward |
 | URL der Partnerwebsite | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.moveworkforward.com/product/microsoft-teams-jir...](https://www.moveworkforward.com/product/microsoft-teams-jira-connector) |
 | URL der Datenschutzrichtlinie | [https://www.moveworkforward.com/privacy-policy](https://www.moveworkforward.com/privacy-policy) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von Move Work Forward darüber bereitgestellt, wie di
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
 >| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
@@ -77,7 +77,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Begrüßung der Benutzer anhand des Namens, wenn die App installiert wird. Passen Sie Microsoft Teams und Atlassian-Benutzer an. | Nein |  |
+>| Begrüßung der Benutzer anhand des Namens, wenn die App installiert wird. Übereinstimmung mit Microsoft Teams- und Atlassian-Benutzern. | Nein |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten

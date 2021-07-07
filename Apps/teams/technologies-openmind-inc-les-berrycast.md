@@ -6,39 +6,39 @@ ms.date: 04/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Berrycast, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Berrycast, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 726a087d07e64f82ee44932a450a038e5bfaa858
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c3236368fbab418754e758f6009607335e593515
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551936"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283419"
 ---
 # <a name="berrycast"></a>Berrycast
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 20. April 2021</p>
+<p>Last updated by the developer on: April 20, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c7cde650-1e32-11eb-af14-639b3a7d6491" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/c7cde650-1e32-11eb-af14-639b3a7d6491" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002798" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen von Technologies Openmind Inc, Les to Microsoft:
+Von Technologies Openmind Inc, Les für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Berrycast |
 | ID | WA200002798 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Technologies Openmind Inc, Les |
-| URL der Partnerwebsite | [https://berrycast.com](https://berrycast.com) |
-| URL der Datenschutzrichtlinie | [https://berrycast.com/privacy-policy](https://berrycast.com/privacy-policy) |
-| URL der Nutzungsbedingungen | [https://berrycast.com/terms-of-use](https://berrycast.com/terms-of-use) |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Technologies Openmind Inc, Les |
+| URL der Partnerwebsite | [https://www.berrycast.com](https://www.berrycast.com) |
+| URL der Datenschutzrichtlinie | [https://www.berrycast.com/privacy-policy](https://www.berrycast.com/privacy-policy) |
+| URL der Nutzungsbedingungen | [https://www.berrycast.com/terms-of-use](https://www.berrycast.com/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,53 +46,53 @@ Informationen von Technologies Openmind Inc, Les to Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Technologies Openmind Inc bereitgestellt, Les darüber, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Technologies Openmind Inc, Les, bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| People.Read | delegierte | So erhalten Sie alle Benutzerkontakte | Die Kontakte E-Mail, Faustname, Nachname und Bild werden gespeichert, um schnellen Freigabezugriff auf Datensätze zu erhalten. | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| User.Read | delegierte | So identifizieren Sie den Benutzer mit grundlegenden Informationen (Vorname, Nachname und Bild) | So zeigen Sie den Vornamen an. Nachname und Bild in der Anwendung | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| email | delegierte | So identifizieren Sie den Benutzer | So identifizieren Sie den Benutzer für die Protokollierung und Benachrichtigung zum Senden | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| offline_access | delegierte | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | Nicht zutreffend | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| openid | delegierte | So identifizieren Sie den Benutzer | So identifizieren Sie den Benutzer für die Protokollierung | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| People.Read | Delegiert | So rufen Sie alle Benutzerkontakte ab | Die Kontakte-E-Mail, der Fistname, der Nachname und das Bild werden gespeichert, um den schnellen Freigabezugriff auf Datensätze zu ermöglichen. | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| User.Read | Delegiert | So identifizieren Sie den Benutzer mit grundlegenden Informationen (Vorname und Nachname und Bild) | So zeigen Sie den Vornamen an. Nachname und Bild in der Anwendung | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| email | Delegiert | So identifizieren Sie den Benutzer | So identifizieren Sie den Benutzer für die Protokollierung und das Senden von Benachrichtigungen | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| offline_access | Delegiert | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | Nicht zutreffend | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| openid | Delegiert | So identifizieren Sie den Benutzer | So identifizieren Sie den Benutzer für die Protokollierung | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Stripe, Interkom, MixPanel, Amplitude | E-Mail, eindeutige Benutzeridentifikation, Vorname, Nachname  | So verarbeiten Sie sichere Zahlungen, um Marketingkampagnen durchzuführen, einen effizienten Kundendienst zu haben und die Analyse der Benutzer zur Verbesserung des Produkts nachverfolgt zu haben |
+>| Stripe, Intercom, MixPanel, Amplitude | E-Mail, eindeutige Benutzeridentifikation, Vorname, Nachname  | Um sichere Zahlungen zu verarbeiten, eine Marketingkampagne durchzuführen, einen effizienten Kundendienst zu haben und die Benutzeranalyse nachzuverfolgen, um das Produkt zu verbessern |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
->Auf EUII wird nicht zugegriffen.
+>Es wird nicht auf EUII zugegriffen.
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
 >E-Mail, Vorname, Nachname und wir entfernen alle Daten, wenn der Benutzer sein Konto löscht 
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wir löschen alle Daten im Zusammenhang mit einem Benutzer, wenn er sein Konto löscht.
+>Wir löschen alle Daten, die sich auf einen Benutzer beziehen, wenn er sein Konto löscht.
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Ja
 
@@ -102,11 +102,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38163' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38163" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38163" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,21 +116,21 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Technologies Openmind Inc. bereitgestellt, les darüber, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von Technologies Openmind Inc, Les, bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden geprüft und befolgt, die in der Prüfliste Microsoft Identity Platform aufgeführt sind?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Nein |
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Bittet Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario? | Ja |
-| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordern wird? | Ja |
-| Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Nein |
+| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
+| Unterstützt Ihre App Mehrmandantenfähigkeit? | Nein |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
-| Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
+| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
-| Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Nein |
+| Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
 

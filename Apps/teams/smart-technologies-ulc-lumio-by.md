@@ -1,45 +1,45 @@
 ---
-title: Application Information for Planyway Team Calendar by Modalus
+title: Anwendungsinformationen für Lumio von SMART von SMART Technologies ULC
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/19/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Planyway-Teamkalender, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lumio von SMART, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d712799259406f65b30a7d186763bb0addba9d1e
+ms.openlocfilehash: 50cde4ecae9abf39b199b381bcf8e5da33b345e6
 ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283099"
+ms.locfileid: "53283302"
 ---
-# <a name="planyway-team-calendar"></a>Planyway Team Calendar
+# <a name="lumio-by-smart"></a>Lumio von SMART
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 19, 2021</p>
+<p>Last updated by the developer on: April 19, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/861228c3-eefd-462f-9b13-24dae6530ac3" target="_blank">Anzeigen im Teams Speicher</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002712" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/e0ffcbc7-f3f2-46b7-a189-afd01c545782" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001874" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von Demons an Microsoft bereitgestellt werden:
+Informationen, die von SMART Technologies ULC an Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Planyway Team Calendar |
-| ID | WA200002712 |
+| App-Name | Lumio von SMART |
+| ID | WA200001874 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Rubius |
-| URL der Partnerwebsite | [https://rubius.com](https://rubius.com) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://planyway.com](https://planyway.com) |
-| URL der Datenschutzrichtlinie | [https://planyway.com/legal/privacy-policy](https://planyway.com/legal/privacy-policy) |
-| URL der Nutzungsbedingungen | [https://planyway.com/legal/terms-of-use](https://planyway.com/legal/terms-of-use) |
+| Name des Partnerunternehmens | SMART Technologies ULC |
+| URL der Partnerwebsite | [https://smarttech.com](https://smarttech.com) |
+| URL der Seite mit Teams Anwendungsinformationen | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
+| URL der Datenschutzrichtlinie | [https://www.smarttech.com/en/legal/privacy-policies](https://www.smarttech.com/en/legal/privacy-policies) |
+| URL der Nutzungsbedingungen | [https://www.smarttech.com/legal/sls-terms](https://www.smarttech.com/legal/sls-terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,13 +49,16 @@ Informationen, die von Demons an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Ihnen bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von SMART Technologies ULC zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->Diese Anwendung verwendet microsoft Graph nicht.
+>| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
+>| Directory.Read.All | Delegiert | Daten werden verwendet, um zu überprüfen, ob Gruppenberechtigungen keine Daten gesammelt werden.  | Es werden keine Verzeichnisdaten in einer Datenbank gespeichert. | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
+>| Group.Read.All | Delegiert | Welche Gruppe sie sind, wird verwendet, um zu überprüfen, ob sie Teil der Schüler- oder Lehrergruppe sind, um die Funktionalität zu bestimmen. Es werden keine Daten gesammelt.  | Nur gespeicherte Daten sind die eindeutige ID des Clients. | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -81,7 +84,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->https://planyway.com/legal/planyway-and-gdpr
+>Wir unterstützen das Recht, in allen unseren Partnersystemen vergessen zu werden. Dazu gehören Protokolle, Überwachung und Archivierung. Dies ist ein manueller Prozess, bei dem in einem Systemadministrator für diesen Partner Daten entfernt, bearbeitet oder archiviert werden. 
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -97,9 +100,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37864' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37864" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -109,7 +112,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Ihnen bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von SMART Technologies ULC bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
