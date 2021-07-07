@@ -1,25 +1,25 @@
 ---
-title: Anwendungsinformationen für Altru Videos von Altru
+title: Anwendungsinformationen für Altru-Videos von Altru
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Altru Videos, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Altru Videos, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 85f884846493c52203d9479277bbdb889a79679e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 50f3b5adfb587502d852637e3465ff1cc5c06db8
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552576"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281667"
 ---
 # <a name="altru-videos"></a>Altru Videos
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 27. Februar 2021</p>
+<p>Last updated by the developer on: February 27, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200000026" target="_blank">Ansicht in AppSource</a>
 
@@ -33,11 +33,11 @@ Von Altru an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Altru Videos |
 | ID | WA200000026 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac, Outlook im Web |
-| Partnerunternehmensname | Altru |
-| URL der Partnerwebsite | [https://www.altrulabs.com/](https://www.altrulabs.com/) |
+| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| Name des Partnerunternehmens | Altru |
+| URL der Partnerwebsite | [https://www.icims.com](https://www.icims.com) |
 | URL der Datenschutzrichtlinie | [https://www.altrulabs.com/privacy](https://www.altrulabs.com/privacy) |
-| URL der Nutzungsbedingungen | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| URL der Nutzungsbedingungen | [https://www.icims.com/gc/video-studio-service-addendum/](https://www.icims.com/gc/video-studio-service-addendum/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,40 +45,40 @@ Von Altru an Microsoft bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Altru dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Altru darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet microsoft Graph nicht.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
 >In den Telemetrie- oder Protokollen der Anwendungen werden keine OII oder EUII angezeigt.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
 >https://www.icims.com/legal/privacy-notice-website/
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Nein
 
@@ -88,11 +88,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,11 +102,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Altru dazu bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von Altru bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Nein |
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -2,17 +2,17 @@
 title: Microsoft Excel App-Sicherheit und -Compliance – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/04/2021
+ms.date: 07/02/2021
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Excel-Apps.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Excel Apps.
 localization_priority: Normal
-ms.openlocfilehash: 02f4c052f8c2960430d83f09fd5b4dd4c886a2e4
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: 0cb66e3c27ebd69c286e4250760207f93a0c56a4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789987"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281167"
 ---
 # <a name="microsoft-excel-app-security-and-compliance"></a>Microsoft Excel App-Sicherheit und -Compliance
 
@@ -33,5 +33,5 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [QuickCells-Diagramme](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [QuickCells Solvers](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
-| [Wrike für Office Dokumente](./wrike-inc-for-office-documents.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Wrike for Office Documents](./wrike-inc-for-office-documents.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Wunder365 für Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |

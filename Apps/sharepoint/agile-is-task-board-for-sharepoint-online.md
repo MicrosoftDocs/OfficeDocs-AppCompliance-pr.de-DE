@@ -6,14 +6,14 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für agile Task Board für SharePoint Online, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für agile Task Board für SharePoint Online, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bebf3ab2580037bba226df853c340de1e6f71cf9
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 649c3ee34514214e91eaa1fe5ed43b43f6d9a43b
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553526"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282246"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>Agile Task Board für SharePoint Online
 
@@ -34,10 +34,10 @@ Von Agile-IS für Microsoft bereitgestellte Informationen:
 | App-Name | Agile Task Board für SharePoint Online |
 | ID | WA200002087 |
 | Office 365 unterstützten Clients | SharePoint 2016 oder höher |
-| Partnerunternehmensname | Agile-IS |
-| URL der Partnerwebsite | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| Name des Partnerunternehmens | Agile-IS |
+| URL der Partnerwebsite | [https://www.agile-is.de](https://www.agile-is.de) |
 | URL der Datenschutzrichtlinie | [https://www.agile-is.de/en/telemetry](https://www.agile-is.de/en/telemetry) |
-| URL der Nutzungsbedingungen | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
+| URL der Nutzungsbedingungen | [https://www.agile-is.de/en/termsofuse](https://www.agile-is.de/en/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,43 +45,43 @@ Von Agile-IS für Microsoft bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Agile-IS bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Agile-IS darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet microsoft Graph nicht.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Wir erfassen den Domänennamen und eine #A0 in unseren Telemetriedaten für Anwendungsinformationen. In jeder App-Instanz kann die Übertragung von Telemetriedaten gesteuert und deaktiviert werden. Eine nachfolgende Löschung der Daten muss von uns angefordert werden.
+>Wir erfassen den Domänennamen und eine Hash-Benutzer-ID in unseren Telemetriedaten für Application Insights. Innerhalb jeder App-Instanz kann die Übertragung von Telemetriedaten gesteuert und deaktiviert werden. Eine nachfolgende Löschung der Daten muss von uns angefordert werden.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
 >Die Anwendung speichert alle Daten in SharePoint Onlinelisten und Dokumentbibliotheken auf derselben Website, auf der die jeweilige Instanz der App ausgeführt wird. Die Zugriffssteuerung auf diese Daten hängt von der Mandantenkonfiguration des Kunden ab. 
 
 Für die Lizenzsteuerung werden die Domäne und der UPN an einen in Azure gehosteten Dienst übertragen. Diese Informationen werden durch die Azure AD-Authentifizierung gesichert.
 
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Nein
 
@@ -91,11 +91,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36140' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36140" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36140" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

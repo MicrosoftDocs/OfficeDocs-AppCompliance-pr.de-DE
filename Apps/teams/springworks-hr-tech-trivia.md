@@ -6,38 +6,38 @@ ms.date: 01/13/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Trivia, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Trivia, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fbd1b9f5f308f3690a9d55a40993ba6122e8f81b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 6facd1d8622d78a616329030cef6ffa83bf3bec3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553846"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53280897"
 ---
 # <a name="trivia"></a>Trivia
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 13. Januar 2021</p>
+<p>Last updated by the developer on: January 13, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/391082c3-968b-47b1-9c92-b5daf008000b" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/391082c3-968b-47b1-9c92-b5daf008000b" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001956" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Springworks HR Tech an Microsoft bereitgestellte Informationen:
+Informationen von Springworks HR Tech an Microsoft:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Trivia |
 | ID | WA200001956 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Springworks HR Tech |
-| URL der Partnerwebsite | [https://springworks.in/](https://springworks.in/) |
-| URL Teams Anwendungsinfoseite | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Springworks HR Tech |
+| URL der Partnerwebsite | [https://www.springworks.in](https://www.springworks.in) |
+| URL der Seite mit Teams Anwendungsinformationen | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
 | URL der Datenschutzrichtlinie | [https://trivia.springworks.in/policy](https://trivia.springworks.in/policy) |
 | URL der Nutzungsbedingungen | [https://trivia.springworks.in/tnc](https://trivia.springworks.in/tnc) |
 
@@ -47,56 +47,56 @@ Von Springworks HR Tech an Microsoft bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Springworks HR Tech bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Springworks HR Tech darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.Read.All | delegierte | Nein | So erhalten Sie die Teams, zu der der Benutzer gehört | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| Team.ReadBasic.All | delegierte | Ja, Speichern der Liste der Teams, in denen der Bot hinzugefügt wurde | So sammeln Sie grundlegende Informationen zu allen teams, die in einem Arbeitsbereich vorhanden sind | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| User.Read.All | delegierte | Ja, zum Speichern der eindeutigen aadObjectId eines Benutzers. Auch verschiedene Details des Benutzers wie Benutzername, E-Mail usw. und Anzeigen im Trivia-Dashboard | So erhalten Sie die Details aller Benutzer, die in einem Arbeitsbereich vorhanden sind | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| openid | delegierte | Ja, um die Benutzer zu speichern, die sich bei der App anmelden. |  So ermöglichen Sie es dem Benutzer, die App mit seinem Konto zu verwenden, und die App, um die Daten des Benutzers zu verwenden | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| Profil | delegierte | Ja, um die Benutzer-IDs und Namen von Hosts von Quizzes und anderen Features zu speichern und sie eindeutig zu identifizieren | So lesen Sie die grundlegenden Profilinformationen des Benutzers wie Benutzername, E-Mail | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
+>| Group.Read.All | Delegiert | Nein | So rufen Sie die Liste der Teams ab, zu denen der Benutzer gehört | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
+>| Team.ReadBasic.All | Delegiert | Ja, speichern der Liste der Teams, in denen der Bot hinzugefügt wurde | So sammeln Sie grundlegende Informationen zu allen Teams, die in einem Arbeitsbereich vorhanden sind | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
+>| User.Read.All | Delegiert | Ja, zum Speichern eindeutiger aadObjectId eines Benutzers. Außerdem werden verschiedene Details des Benutzers wie Benutzername, E-Mail usw. angezeigt und im Trivia-Dashboard angezeigt. | So rufen Sie die Details aller Benutzer ab, die in einem Arbeitsbereich vorhanden sind | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
+>| openid | Delegiert | Ja, um die Benutzer zu speichern, die sich bei der App anmelden. |  So ermöglichen Sie sowohl dem Benutzer, die App mit ihrem Konto zu verwenden, als auch der App, die Daten des Benutzers zu verwenden | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
+>| Profil | Delegiert | Ja, um die Benutzer-IDs und Namen von Hosts von Quizfragen und anderen Features zu speichern und eindeutig zu identifizieren | So lesen Sie die grundlegenden Profilinformationen des Benutzers wie Benutzername, E-Mail | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| AWS, Mailchimp, Stripe.  | Kundenname, E-Mail, IP, Zahlungsinformationen | Wir verwenden diese Drittanbieter, um unseren Kunden die beste Kundenerfahrung zu bieten. |
+>| AWS, Mailchimp, Stripe.  | Kundenname, E-Mail, IP, Zahlungsinformationen | Wir verwenden diese Drittanbieter, um unseren Kunden die beste Benutzererfahrung zu bieten. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Diese Daten werden zum Anzeigen und Speichern der Liste der Teilnehmer an einem Quiz und anderen features verwendet. | Name, E-Mail | Ja, das Speichern der Daten des Hosts und der Teilnehmer von Quiz und anderen Funktionen für die Analyse und Kommunikation mit dem Host bei Fehlern |
+>| Diese Daten werden verwendet, um die Liste der Teilnehmer in einem Quiz und andere features anzuzeigen und zu speichern. | Name, E-Mail | Ja, das Speichern der Daten des Hosts und der Teilnehmer von Quizfragen und anderer Features für Analysen und die Kommunikation mit dem Host bei Fehlern |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->OII: Organisationsname, Mandanten-ID in Protokollen angezeigt; EUII: aad-Objekt-ID, vollständiger Name, E-Mail werden in Protokollen angezeigt. Wir haben einen Aufbewahrungszeitraum von 30 Tagen, der automatisch gelöscht wird. 
+>OII: Organisationsname, Mandanten-ID in Protokollen; EUII: aad-Objekt-ID, vollständiger Name, E-Mail-Adresse werden in Protokollen angezeigt. Wir haben einen Aufbewahrungszeitraum von 30 Tagen, nach dem die Protokolle automatisch gelöscht werden. 
 
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Daten, die in RDS, AWS, gespeichert sind. es ist verschlüsselt. Zugriff ist nur für einen DevOps, Engineering Lead und Gründer
+>Daten, die in RDS, AWS gespeichert sind. es ist verschlüsselt. Zugriff ist nur für einen DevOps Techniker, Engineering Lead und Gründer
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Ja
 
@@ -106,11 +106,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36138' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36138" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36138" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -120,11 +120,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Springworks HR Tech dazu bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von Springworks HR Tech darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Nein |
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -6,39 +6,39 @@ ms.date: 07/20/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hoylu, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hoylu, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4b63b3bd9cfec20a665d7fd112d2db09c280b594
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b48adaf3c3816bea363b0fd8e6581f061a5eaed1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553086"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281858"
 ---
 # <a name="hoylu"></a>Hoylu
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 20. Juli 2020</p>
+<p>Last updated by the developer on: July 20, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/732e01bc-570a-43ac-9671-8c7fc4152662" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/732e01bc-570a-43ac-9671-8c7fc4152662" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001573" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Hoylu an Microsoft bereitgestellte Informationen:
+Von Hoylu für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Hoylu |
 | ID | WA200001573 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Hoylu |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Hoylu |
 | URL der Partnerwebsite | [https://hoylu.com](https://hoylu.com) |
-| URL der Datenschutzrichtlinie | [https://hoylu.com/privacy-policy](https://hoylu.com/privacy-policy) |
-| URL der Nutzungsbedingungen | [https://hoylu.com/terms-of-use](https://hoylu.com/terms-of-use) |
+| URL der Datenschutzrichtlinie | [https://www.hoylu.com/privacy-policy/](https://www.hoylu.com/privacy-policy/) |
+| URL der Nutzungsbedingungen | [https://www.hoylu.com/terms-of-use/](https://www.hoylu.com/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,45 +46,45 @@ Von Hoylu an Microsoft bereitgestellte Informationen:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Hoylu darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Hoylu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet microsoft Graph nicht.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
->Auf EUII wird nicht zugegriffen.
+>Es wird nicht auf EUII zugegriffen.
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Ja. Die Protokollierung erfolgt zur Anwendungssicherheit, und EUII und OII werden in Form von Vor- und Nachname, E-Mail, IP-Adresse, Organisations-ID gesammelt. Der Protokollierungsanbieter von Hoylu ist Datadog. Datadog hat seine Einhaltung mit dem EU-U.S. Privacy Shield Framework zertifiziert und ist ein STAR-Registrant für die Cloud Security Alliance (CSA). Datadog verfolgt außerdem wichtige unabhängige Überprüfungen seiner Sicherheit, Prozesse und Dienste durch Dritte, einschließlich abschluss der SOC 2 Type II-Überwachung. Ein Benutzer kann jederzeit die Löschung dieser Informationen über einen DSGVO-kompatiblen Prozess anfordern.
+>Ja. Die Protokollierung erfolgt aus Gründen der Anwendungssicherheit, und EUII und OII werden in Form von Vor- und Nachname, E-Mail, IP-Adresse, Organisations-ID erfasst. Hoylus Protokollierungsanbieter ist Data dog. Data dog hat seine Compliance mit dem EU-U.S. Privacy Shield Framework zertifiziert und ist ein STAR-Verbund für die Cloud Security Alliance (CSA). Data dog verfolgt auch wichtige unabhängige Überprüfungen von Drittanbietern für seine Sicherheit, Prozesse und Dienste, einschließlich des Abschlusses der SOC 2 Typ II-Überwachung. Ein Benutzer kann jederzeit die Löschung dieser Informationen über einen DSGVO-konformen Prozess anfordern.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
 >Die Anwendungsdaten werden in Microsoft Azure Cloud Services gespeichert, und alle verwendeten Verschlüsselungsprotokolle sind FIPS 140-2-kompatibel. Auf diese Produktionsdaten kann nur von Infrastrukturadministratoren (PMA) zugegriffen werden. Die Kontoverwaltung für die Organisation erfolgt über Azure AD mit 2FA.
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Nein
 
@@ -94,11 +94,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35933' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35933" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35933" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
