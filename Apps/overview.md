@@ -7,12 +7,12 @@ keywords: Microsoft 365 m365-App Herausgebernachweis-Zertifizierung
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: c644414281f46696ff49f3b9eb1341f02e96f0ba
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053439"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315115"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 Compliance-Programm
 
@@ -36,7 +36,7 @@ Die Herausgeberüberprüfung gilt für Apps, die folgende Bedingungen erfüllen:
 
 Der [Herausgebernachweis](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-attestation-guide) ist der Ort, an dem Entwickler allgemeine Informationen, Informationen zur Datenverarbeitung sowie Sicherheits- und Compliance-Informationen zu ihrem App-Dienst freigeben. Dies reduziert die Notwendigkeit für IT-Administratoren, direkt mit App-Herausgebern zusammenzuarbeiten. Alle Informationen, die für eine informierte Entscheidung erforderlich sind, können für alle Apps, welche den Herausgebernachweis abgeschlossen haben, an einem Ort und in einem einheitlichen Format gefunden werden. Das Ziel ist es, den Prozess der App-Einführung zu vereinfachen und zu beschleunigen und gleichzeitig sicherzustellen, dass die Apps, welche die Kunden in ihren Mandanten verwenden, ihren Unternehmensstandards entsprechen.
 
-Der Herausgebernachweis gilt für Apps, welche sich mit diesen Microsoft-Plattformen integrieren:
+Der Herausgebernachweis gilt für WebApps und alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
 -   Microsoft Teams
 -   Word
 -   Excel
@@ -45,7 +45,6 @@ Der Herausgebernachweis gilt für Apps, welche sich mit diesen Microsoft-Plattfo
 - SharePoint
 - Project
 - OneNote
-- Web-Apps
 
 > [!IMPORTANT]
 > Microsoft überprüft die angegebenen Informationen nicht. Der Entwickler bestätigt alleine die Richtigkeit, Genauigkeit und Integrität der Nachweisdokumentation und der entsprechenden App-Leistungsdaten. 
