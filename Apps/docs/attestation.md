@@ -6,12 +6,12 @@ description: Weitere Informationen zum Publisher Attestation-Programm
 keywords: App-Nachweiszertifizierung 365 Fragebogen appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 4d5284beb199cc1c5a77bd6091bbc04428b545bd
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: abedb09bc280c0b643f037324178aa854f2f117f
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053429"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315105"
 ---
 # <a name="complete-publisher-attestation"></a>Vollständige Publisher Nachweis
 
@@ -19,6 +19,16 @@ Publisher Der Nachweis ist ein freiwilligen Programm, bei dem Sie eine Selbstbew
 
 > [!IMPORTANT]
 > Microsoft überprüft die zur Verfügung gestellten Informationen nicht. Der Entwickler ist allein für die Informationen verantwortlich, die er in der Selbstbewertung bereitstellt. 
+
+**Publisher Der Nachweis gilt für WebApps und alle Apps, die in die folgenden Microsoft-Produkte integriert sind:**
+- Microsoft Teams
+- Word
+- Excel
+- PowerPoint 
+- Outlook
+- SharePoint
+- Project
+- OneNote
 
 
 ## <a name="program-benefits"></a>Programmvorteile
@@ -28,17 +38,7 @@ Publisher Der Nachweis ist ein freiwilligen Programm, bei dem Sie eine Selbstbew
 - Differenzierung gegenüber anderen Apps im Store. 
 - Link zu Ihrer Dokumentseite aus Ihrem Eintrag in AppSource, dem Teams Admin Center und Microsoft Admin Center. 
 - Qualifikation zum Starten der Microsoft 365-Zertifizierung.
-
-## <a name="publisher-attestation-applies-to-apps-that-integrate-with"></a>Publisher Der Nachweis gilt für Apps, die in:
-- Microsoft Teams
-- Word
-- Excel
-- PowerPoint 
-- Outlook
-- SharePoint
-- Project
-- OneNote
-- Web-Apps
+ 
 
 ## <a name="publisher-attestation-process"></a>Publisher Nachweisprozess
 
@@ -59,10 +59,10 @@ Publisher Der Nachweis ist ein freiwilligen Programm, bei dem Sie eine Selbstbew
 
 4. **Überprüfung und erneute Übermittlung** – Ihr Publisher Nachweis muss jährlich erneut übermittelt werden. Wenn sich Ihr Nachweis der Ein-Jahres-Marke nähert, erhalten Sie eine Benachrichtigung über Partner Center, die zu einer erneuten Übermittlung Ihres Attests auffordert. 
 
-   Wenn Ihr Publisher Attestation nicht vor dem Ablaufdatum verlängert wird, wird der App-Nachweisstatus widerrufen, und Ihr Publisher Attestation wird aus den Microsoft-Dokumentenseiten entfernt. 
+   Wenn Ihr Publisher Nachweis nicht vor dem Ablaufdatum verlängert wird, wird der Status des App-Nachweiss widerrufen, und Ihr Publisher Nachweis wird aus den Microsoft-Dokumentenseiten entfernt. 
 
 >[!IMPORTANT]
->Durch die Teilnahme am Publisher Attestation-Programm stimmen Sie diesen ergänzenden Bestimmungen zu und befolgen alle begleiten Dokumentationen, die für Ihre Teilnahme am Publisher Attestation-Programm bei microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bestimmungen Publisher Nachweis im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder kündigen. Ihre fortgesetzte Teilnahme am Publisher Attestation-Programm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bestimmungen nicht zustimmen oder wenn wir diese Bedingungen kündigen, müssen Sie die Teilnahme am Publisher Attestation-Programm beenden.
+>Durch die Teilnahme am Publisher Attestation-Programm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle Begleitdokumentationen ein, die für Ihre Teilnahme am Publisher Attestation-Programm bei Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für den Publisher Nachweis im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder kündigen. Ihre fortgesetzte Teilnahme am Publisher Attestation-Programm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bestimmungen nicht zustimmen oder wenn wir diese Bedingungen kündigen, müssen Sie die Teilnahme am Publisher Attestation-Programm beenden.
 
 ## <a name="learn-more"></a>Weitere Informationen
 
