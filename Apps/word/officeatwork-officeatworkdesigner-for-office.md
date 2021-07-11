@@ -2,23 +2,23 @@
 title: Anwendungsinformationen für Officeatwork-| Designer für Office von officeatwork
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork-| Designer für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Designer für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 75a181280e13843471a66597f992c536c61534f8
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b24991f39842a3d12f7bb46276fa3aeeb5fe9f00
+ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283459"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53366121"
 ---
 # <a name="officeatwork--designer-for-office"></a>officeatwork | Designer für Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: December 8, 2020</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 23. Juni 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380518" target="_blank">Ansicht in AppSource</a>
 
@@ -32,7 +32,7 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – Designer für Office |
 | ID | WA104380518 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2016 oder höher auf Windows, Word auf iPad |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf dem Mac, Word im Web, Word 2016 oder höher auf Windows, Word auf iPad |
 | Name des Partnerunternehmens | officeatwork |
 | URL der Partnerwebsite | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL der Datenschutzrichtlinie | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -60,7 +60,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| Group.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Auf Gruppe beschränken: Zum Aktivieren des Lesens aller Gruppen des angemeldeten Benutzers. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
 >| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Zum Aktivieren des Lesens von Daten aus SharePoint Online. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
 >| User.Read | Delegiert | Es werden keine Daten gespeichert. | Sing-In: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Alle Eigenschaften: Zum Aktivieren des Lesens aller Eigenschaften aller Benutzer. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
+>| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Alle Eigenschaften: zum Aktivieren des Lesens aller Eigenschaften aller Benutzer. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
 >| User.ReadBasic.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Grundlegende Eigenschaften: Zum Aktivieren des Lesens der grundlegenden Eigenschaften aller Benutzer | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
 >| offline_access | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um die automatische Anmeldung über Aktualisierungstoken wie ohne zu aktivieren, müssten sich Benutzer jedes Mal manuell anmelden, wenn sie die Officeatwork-App starten. Dieser Bereich ist nur für Nicht-SSO-aktivierte Hostanwendungen erforderlich. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
 >| openid | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Damit sich Benutzer mit ihrem Organisations- und/oder Microsoft-Konto bei der OfficeAtwork-App anmelden können | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
@@ -68,7 +68,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Microsoft-APIs außer Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
@@ -78,7 +78,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Mi
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -92,7 +92,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Anwendungseinstellungsdaten (Featurekennzeichen, Anzeigename der Organisation, Mandanten-ID, Liste der Administratoroide) werden in einer Azure Cosmos DB-Instanz (eine Datei pro Mandant) gespeichert. Die DB-Dateien sind verschlüsselt, und der Zugriff ist auf ausgewählte Bürotechniker und Supportmitarbeiter beschränkt. Der Kunde kann mithilfe der Admin Center Web App auf die Einstellungsdaten der Officeatwork-App zugreifen und diese bearbeiten.
+>Die Anwendungseinstellungsdaten (Featurekennzeichen, Anzeigename der Organisation, Mandanten-ID, Liste der Administrator-Oids) werden in einer Azure Cosmos DB-Instanz (eine Datei pro Mandant) gespeichert. Die DB-Dateien sind verschlüsselt, und der Zugriff ist auf ausgewählte Bürotechniker und Supportmitarbeiter beschränkt. Der Kunde kann mithilfe der Admin Center Web App auf die Einstellungsdaten der Officeatwork-App zugreifen und diese bearbeiten.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

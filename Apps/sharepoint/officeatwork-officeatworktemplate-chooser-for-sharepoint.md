@@ -1,24 +1,24 @@
 ---
-title: Anwendungsinformationen für Officeatwork-| Vorlagenauswahl für SharePoint von officeatwork
+title: Anwendungsinformationen für Officeatwork-| Vorlagenauswahl für SharePoint nach Officeatwork
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork-| Vorlagenauswahl für SharePoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Vorlagenauswahl für SharePoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4ca57d9a566a058e8af0ae2929333361eea70f90
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 2e3e8e58ebdcaae522dbcd840bd2c3794e2117a1
+ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281497"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53366150"
 ---
 # <a name="officeatwork--template-chooser-for-sharepoint"></a>officeatwork | Vorlagenauswahl für SharePoint
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: December 8, 2020</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 23. Juni 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200001923" target="_blank">Ansicht in AppSource</a>
 
@@ -54,7 +54,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 >| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Favoriten: zum Lesen und Schreiben von Daten für die Benutzer OneDrive; OneDrive: Um Daten für die Benutzer OneDrive lesen und schreiben zu können. | dae2eacf-3eb5-4440-baff-984fbd5cae68 |
+>| Files.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Favoriten: um Daten für die Benutzer OneDrive lesen und schreiben zu können; OneDrive: Um Daten für die Benutzer OneDrive lesen und schreiben zu können. | dae2eacf-3eb5-4440-baff-984fbd5cae68 |
 >| Group.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Um Daten in einer Gruppe lesen und schreiben zu können. | dae2eacf-3eb5-4440-baff-984fbd5cae68 |
 >| GroupMember.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Benutzerberechtigung zum Aktivieren des Lesens von Daten aus SharePoint Online. | dae2eacf-3eb5-4440-baff-984fbd5cae68 |
 >| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Zum Aktivieren des Lesens von Daten aus SharePoint Online. | dae2eacf-3eb5-4440-baff-984fbd5cae68 |
@@ -66,7 +66,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um organisationsbezogene Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
@@ -76,7 +76,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Mi
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -90,7 +90,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Anwendungseinstellungsdaten (Featurekennzeichen, Anzeigename der Organisation, Mandanten-ID, Liste der Administratoroide) werden in einer Azure Cosmos DB-Instanz (eine Datei pro Mandant) gespeichert. Die DB-Dateien sind verschlüsselt, und der Zugriff ist auf ausgewählte Bürotechniker und Supportmitarbeiter beschränkt. Der Kunde kann mithilfe der Admin Center Web App auf die Einstellungsdaten der Officeatwork-App zugreifen und diese bearbeiten.
+>Die Anwendungseinstellungsdaten (Featurekennzeichen, Anzeigename der Organisation, Mandanten-ID, Liste der Administrator-Oids) werden in einer Azure Cosmos DB-Instanz (eine Datei pro Mandant) gespeichert. Die DB-Dateien sind verschlüsselt, und der Zugriff ist auf ausgewählte Bürotechniker und Supportmitarbeiter beschränkt. Der Kunde kann mithilfe der Admin Center Web App auf die Einstellungsdaten der Officeatwork-App zugreifen und diese bearbeiten.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
