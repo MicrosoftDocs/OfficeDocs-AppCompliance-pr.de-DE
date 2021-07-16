@@ -16,7 +16,7 @@
       items:
         - name: Abschließen Publisher Überprüfung
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
-        - name: Vollständiges Publisher Attestation
+        - name: Vollständige Publisher Nachweis
           href: docs/attestation.md
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
@@ -64,7 +64,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook Apps
+    - name: Microsoft Outlook-Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -73,7 +73,7 @@
           href: outlook/altru-videos.md
         - name: Genehmigte Kontaktkalender
           href: outlook/approved-contact-calendars.md
-        - name: Outlook
+        - name: Für Outlook
           href: outlook/asana-for-outlook.md
         - name: CI-Signature
           href: outlook/ci-solution-gmbh-signature.md
@@ -111,7 +111,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM für E-Mails
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint Apps
+    - name: Microsoft PowerPoint-Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -128,7 +128,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -139,14 +139,14 @@
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint-Apps
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Agile Task Board für SharePoint Online
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
         - name: FormMachines Connector für SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
-        - name: Gaggle for SharePoint
+        - name: Umschaltfläche für SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
         - name: iGlobe CRM-Add-Ons
           href: sharepoint/iglobe-crm-add-ons.md
@@ -175,6 +175,8 @@
           href: teams/alvao-sro-service-desk.md
         - name: ApproveSimple
           href: teams/capriza-inc-approvesimple.md
+        - name: Appspace
+          href: teams/appspace-inc.md
         - name: Asana
           href: teams/asana.md
         - name: askR.ai
@@ -237,6 +239,8 @@
           href: teams/cloverpop.md
         - name: COCO
           href: teams/hexaware-technologies-ltd-coco.md
+        - name: CodeStream
+          href: teams/codestream.md
         - name: Complish
           href: teams/cauzey-pty-ltd-complish.md
         - name: Conferences i/o
@@ -289,6 +293,8 @@
           href: teams/freshworks-inc-freshdesk.md
         - name: Fusion Remote
           href: teams/jujo-inc-fusion-remote.md
+        - name: GitHub
+          href: teams/microsoft-corporation-github.md
         - name: Go1
           href: teams/go1.md
         - name: Goodera

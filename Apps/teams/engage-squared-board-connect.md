@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für Board-Verbinden von Engage Squared
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/16/2021
+ms.date: 07/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Board Verbinden, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3b7e2eb64055713e06f927882aa7bbf56cf62991
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7c67ece1e55b265152c8a7664b8f714926d9caff
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281894"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456603"
 ---
 # <a name="board-connect"></a>Board Connect
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 16, 2021</p>
+<p>Last updated by the developer on: July 5, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/e8f06a4e-cefe-4b1e-a24b-c97bea471130" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001955" target="_blank">Ansicht in AppSource</a>
@@ -53,7 +53,7 @@ Diese Informationen wurden von Engage Squared bereitgestellt, wie diese App Orga
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
@@ -62,14 +62,14 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 >| Sites.Manage.All | Delegiert | Damit die App Listen und Bibliotheken erstellen kann, verwalten Sie Listenelemente und Dokumente in einer Teamwebsitesammlung. | Keine | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
 >| User.Read | Delegiert | So ermöglichen Sie Benutzern, sich bei der App anzumelden und der App das Lesen des Profils des aktuell angemeldeten Benutzers zu ermöglichen. | In unserem Azure-Tabellenspeicher werden keine Daten von diesem Endpunkt gespeichert. | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
 >| User.ReadBasic.All | Delegiert | Damit die App einen grundlegenden Satz von Profileigenschaften anderer Benutzer im Namen des angemeldeten Benutzers lesen kann, um dies in der App anzuzeigen. Dazu gehören Anzeigename, Vor- und Nachname, E-Mail-Adresse und Foto. | Keine, Daten werden nicht in unserem Azure-Tabellenspeicher gespeichert. | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| offline_access | Delegiert | Um der App das Abrufen eines Aktualisierungstokens zu ermöglichen, das sie verwenden kann, um ein neues Zugriffstoken abzurufen, wenn das aktuelle abläuft. | Keine, Daten werden nicht in unserem Azure-Tabellenspeicher gespeichert | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
+>| offline_access | Delegiert | Um der App das Abrufen eines Aktualisierungstokens zu ermöglichen, das sie zum Abrufen eines neuen Zugriffstokens verwenden kann, wenn das aktuelle abläuft. | Keine, Daten werden nicht in unserem Azure-Tabellenspeicher gespeichert | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -129,7 +129,7 @@ Diese Informationen wurden von Engage Squared bereitgestellt, wie diese App Auth
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
