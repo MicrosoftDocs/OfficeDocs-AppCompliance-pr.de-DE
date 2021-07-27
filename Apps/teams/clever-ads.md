@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Clever Ads, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d0ef9f59476133e673a0bf9edf99e63cfc424559
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7880682782fe62fad68426bb59b74e3997bb7f64
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281948"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521878"
 ---
 # <a name="clever-ads"></a>Clever Ads
 
@@ -21,7 +21,7 @@ ms.locfileid: "53281948"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 24. April 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/ac2b56c0-f2a5-4e90-b618-882f8d3596f0" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/ac2b56c0-f2a5-4e90-b618-882f8d3596f0" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001182" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Clever Ads für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Clever Ads |
 | ID | WA200001182 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Clever Ads |
 | URL der Partnerwebsite | [https://cleverads.com](https://cleverads.com) |
 | URL der Datenschutzrichtlinie | [https://cleverads.com/privacy-policy](https://cleverads.com/privacy-policy) |
@@ -54,9 +54,9 @@ Diese Informationen wurden von Clever Ads darüber bereitgestellt, wie diese App
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | User.Read: Wir speichern UPN, AzureObjectId, um den Benutzer zu identifizieren. | User.Read ermöglicht es Benutzern, sich bei unserem App-Dashboard anzumelden. Wir verwenden UPN, AzureObjectId, um den Benutzer anzumelden. | ac2b56c0-f2a5-4e90-b618-882f8d3596f0 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | User.Read: Wir speichern UPN, AzureObjectId, um den Benutzer zu identifizieren. | User.Read ermöglicht es Benutzern, sich bei unserem App-Dashboard anzumelden. Wir verwenden UPN, AzureObjectId, um den Benutzer anzumelden. | [ac2b56c0-f2a5-4e90-b618-882f8d3596f0](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac2b56c0-f2a5-4e90-b618-882f8d3596f0) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -70,7 +70,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Die App greift auf die Liste zu, um zu ermitteln, ob ein Benutzer zum Team gehört oder nicht, und sendet vom Benutzer geplante Nachrichten an seine Teams. | Wir speichern die Benutzer-ID, azureObjectId, UPN, TenantId, conversationId und serviceUrl, damit wir Nachrichten an den Benutzer oder das Team senden und ihn beim Zugriff auf die Dashboard-Registerkarte identifizieren können. |  |
 
 

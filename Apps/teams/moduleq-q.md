@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Q, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3444110a1d98a1a9a1157c21e76774373782b8c2
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: a1a9995b6b723d7ed712f9a0fdbe9315ee53c7f0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53456585"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521299"
 ---
 # <a name="q"></a>Q
 
@@ -34,7 +34,7 @@ Von ModuleQ an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Q |
 | ID | WA104381433 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ModuleQ |
 | URL der Partnerwebsite | [https://moduleq.com](https://moduleq.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://moduleq.com/product](https://moduleq.com/product) |
@@ -55,24 +55,24 @@ Diese Informationen wurden von ModuleQ bereitgestellt, wie diese App Organisatio
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | Anwendung | speichert Besprechungsdaten, mit Ausnahme des Nachrichtentexts und aller Anlagen. | Ermöglicht der Anwendung, die Kalenderereignisse eines Benutzers zu lesen, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Group.Read.All | Delegiert | Keine | Ermöglicht der App, in einem Team zum Freigeben von Inhalten zu interagieren. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Mail.Read | Anwendung | speichert E-Mail-Daten, mit Ausnahme des Nachrichtentexts und aller Anlagen | Ermöglicht der Anwendung, die E-Mails eines Benutzers zu lesen, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read | Delegiert | Benutzer-E-Mail- und Authentifizierungstoken | Ermöglicht dem Benutzer, sich anzumelden und sein Office 365-Konto mit dem ModuleQ-Konto zu verknüpfen. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read.All | Delegiert | Keine | Zulassen, dass die App die Liste der Teams abruft, zu der der Benutzer gehört. Wird nur für die Freigabe verwendet  | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | Anwendung | speichert Besprechungsdaten, mit Ausnahme des Nachrichtentexts und aller Anlagen. | Ermöglicht der Anwendung, die Kalenderereignisse eines Benutzers zu lesen, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Group.Read.All | Delegiert | Keine | Ermöglicht der App, in einem Team zum Freigeben von Inhalten zu interagieren. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Mail.Read | Anwendung | speichert E-Mail-Daten, mit Ausnahme des Nachrichtentexts und aller Anlagen | Ermöglicht der Anwendung, die E-Mails eines Benutzers zu lesen, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read | Delegiert | Benutzer-E-Mail- und Authentifizierungstoken | Ermöglicht dem Benutzer, sich anzumelden und sein Office 365-Konto mit dem ModuleQ-Konto zu verknüpfen. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read.All | Delegiert | Keine | Zulassen, dass die App die Liste der Teams abruft, zu der der Benutzer gehört. Wird nur für die Freigabe verwendet  | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 

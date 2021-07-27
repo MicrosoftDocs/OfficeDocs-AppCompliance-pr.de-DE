@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ScrumGenius, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fb8b30ddc27b512a5731ef3ec42cb76ed097c56c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: be8873fecd5dc50ab4db6def68c7c25f73e677fd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283049"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521038"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -34,7 +34,7 @@ Von ScrumGenius für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | ScrumGenius |
 | ID | WA104381097 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ScrumGenius |
 | URL der Partnerwebsite | [https://scrumgenius.com](https://scrumgenius.com) |
 | URL der Datenschutzrichtlinie | [https://scrumgenius.com/privacy/](https://scrumgenius.com/privacy/) |
@@ -50,14 +50,14 @@ Von ScrumGenius für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von ScrumGenius bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | Delegiert | Im Kalender des Benutzers festgelegte Datumsangaben für den Urlaub. | Damit Benutzer ihre Urlaubstage mit ScrumGenius synchronisieren können. |  |
->| User.Read | Delegiert | Name und E-Mail-Adresse des Benutzers. | So ermöglichen Sie benutzern, sich mit Microsoft Login anzumelden. |  |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | Delegiert | Im Kalender des Benutzers festgelegte Datumsangaben für den Urlaub. | Damit Benutzer ihre Urlaubstage mit ScrumGenius synchronisieren können. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | Delegiert | Name und E-Mail-Adresse des Benutzers. | So ermöglichen Sie benutzern, sich mit Microsoft Login anzumelden. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -71,7 +71,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Wir greifen auf die Teamliste zu. Wenn also ein Teamadministrator "scrumgenius" installiert, können wir den Rest der Teamliste mit "scrumgenius" synchronisieren, damit wir sie mit unserer Plattform integrieren können, damit sie einen Standupbericht konfigurieren und die Mitglieder des Teams zuweisen können, die den Bericht erhalten sollen. | Vorname, Nachname, Anzeigename, E-Mail-Adresse |  |
 
 

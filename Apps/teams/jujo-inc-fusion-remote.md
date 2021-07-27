@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Fusion Remote, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 67518ab9859fa9643eea4f6cc40d97dbd40a9109
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b920e0fa93512c7cc9429b02dcecd9c0e3fe27b6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281808"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521499"
 ---
 # <a name="fusion-remote"></a>Fusion Remote
 
@@ -34,7 +34,7 @@ Von Jujo Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Fusion Remote |
 | ID | WA200001422 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Jujo Inc. |
 | URL der Partnerwebsite | [https://www.jujotech.com](https://www.jujotech.com) |
 | URL der Datenschutzrichtlinie | [https://www.jujothech.com/privacy-policy](https://www.jujothech.com/privacy-policy) |
@@ -50,26 +50,26 @@ Von Jujo Inc. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Jujo Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.Read | Delegiert | Lesezugriff auf Benutzerdateien | Lesezugriff auf Benutzerdateien | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.Read.All | Delegiert | Alle Dateien lesen, auf die der Benutzer zugreifen kann | Alle Dateien lesen, auf die der Benutzer zugreifen kann | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.Read.Selected | Delegiert | Lesezugriff auf Dateien, die der Benutzer auswählt | Lesezugriff auf Dateien, die der Benutzer auswählt | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.ReadWrite | Delegiert | Vollzugriff auf Benutzerdateien | Vollzugriff auf Benutzerdateien | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.ReadWrite.All | Delegiert | Vollzugriff auf alle Dateien, auf die Benutzer zugreifen können | Vollzugriff auf alle Dateien, auf die Benutzer zugreifen können | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.ReadWrite.AppFolder | Delegiert | Vollzugriff auf den Anwendungsordner (Vorschau) | Vollzugriff auf den Anwendungsordner (Vorschau) | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| Files.ReadWrite.Selected | Delegiert | Lese- und Schreibzugriff auf Dateien, die der Benutzer auswählt | Lese- und Schreibzugriff auf Dateien, die der Benutzer auswählt | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | Anmelden und Benutzerprofil lesen | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.Read.All | Delegiert | Lesezugriff auf vollständige Profile aller Benutzer | Lesezugriff auf vollständige Profile aller Benutzer | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.ReadBasic.All | Delegiert | Grundlegende Profile aller Benutzer lesen | Grundlegende Profile aller Benutzer lesen | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.ReadWrite | Delegiert | Lese- und Schreibzugriff auf Benutzerprofile | Lese- und Schreibzugriff auf Benutzerprofile | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| User.ReadWrite.All | Delegiert | Lese- und Schreibzugriff auf vollständige Profile aller Benutzer | Lese- und Schreibzugriff auf vollständige Profile aller Benutzer | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| offline_access | Delegiert | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
->| openid | Delegiert | Benutzer anmelden | Benutzer anmelden | 238d0bd1-fa0a-4bb6-be82-97f7f9ee590e |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.Read | Delegiert | Lesezugriff auf Benutzerdateien | Lesezugriff auf Benutzerdateien | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.Read.All | Delegiert | Alle Dateien lesen, auf die der Benutzer zugreifen kann | Alle Dateien lesen, auf die der Benutzer zugreifen kann | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.Read.Selected | Delegiert | Lesezugriff auf Dateien, die der Benutzer auswählt | Lesezugriff auf Dateien, die der Benutzer auswählt | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.ReadWrite | Delegiert | Vollzugriff auf Benutzerdateien | Vollzugriff auf Benutzerdateien | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.ReadWrite.All | Delegiert | Vollzugriff auf alle Dateien, auf die Benutzer zugreifen können | Vollzugriff auf alle Dateien, auf die Benutzer zugreifen können | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.ReadWrite.AppFolder | Delegiert | Vollzugriff auf den Anwendungsordner (Vorschau) | Vollzugriff auf den Anwendungsordner (Vorschau) | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| Files.ReadWrite.Selected | Delegiert | Lese- und Schreibzugriff auf Dateien, die der Benutzer auswählt | Lese- und Schreibzugriff auf Dateien, die der Benutzer auswählt | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | Anmelden und Benutzerprofil lesen | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.Read.All | Delegiert | Lesezugriff auf vollständige Profile aller Benutzer | Lesezugriff auf vollständige Profile aller Benutzer | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.ReadBasic.All | Delegiert | Grundlegende Profile aller Benutzer lesen | Grundlegende Profile aller Benutzer lesen | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.ReadWrite | Delegiert | Lese- und Schreibzugriff auf Benutzerprofile | Lese- und Schreibzugriff auf Benutzerprofile | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| User.ReadWrite.All | Delegiert | Lese- und Schreibzugriff auf vollständige Profile aller Benutzer | Lese- und Schreibzugriff auf vollständige Profile aller Benutzer | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| offline_access | Delegiert | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
+>| openid | Delegiert | Benutzer anmelden | Benutzer anmelden | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -83,7 +83,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Besprechungsliste | KEINE IN DER DATENBANK GESPEICHERTEN DATEN |  |
 
 

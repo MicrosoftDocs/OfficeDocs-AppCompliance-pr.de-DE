@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für ecBooking von Expert Systems IVR(Asia) Co.Ltd.
+title: Anwendungsinformationen für ecBooking von Expert Systems IVR (Asia) Co.Ltd.
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/28/2020
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ecBooking, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b1806ca26bb20d1f4f24d87d7b617ad9ff108397
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f36edd400f35d7e4ccbfef5edd0225855f73ab69
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281878"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521728"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -28,13 +28,13 @@ ms.locfileid: "53281878"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen von Expert Systems IVR(Asia) Co.Ltd. an Microsoft:
+Informationen von Expert Systems IVR (Asia) Co.Ltd. an Microsoft:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | ecBooking |
 | ID | WA200002096 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Expert Systems IVR (Asia) Co.Ltd. |
 | URL der Partnerwebsite | [https://www.esi-asia.com](https://www.esi-asia.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
@@ -51,18 +51,18 @@ Informationen von Expert Systems IVR(Asia) Co.Ltd. an Microsoft:
 
 Diese Informationen wurden von Expert Systems IVR(Asia) Co.Ltd bereitgestellt. Darüber, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | Anwendung | Daten wie Benutzer-E-Mail, Benutzerereignisse werden gespeichert. Benutzerereignisse werden gesammelt, um die Verfügbarkeit von Räumen zu überprüfen und Ereignisse zu erstellen. | Die ID des Users-Ereignisses, der Standortname und die Details des anderen Ereignisses würden gespeichert. Daten werden gesammelt, um die Verfügbarkeit von Chatrooms zu überprüfen und Ereignisse zu erstellen. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| Mail.Send | Anwendung | Daten wie Benutzer-E-Mail. Benutzer-E-Mails werden zum Senden von Erinnerungs-E-Mails für Raumbuchungen gesammelt. | Daten wie Benutzer-E-Mail. Benutzer-E-Mails werden zum Senden von Erinnerungs-E-Mails für Raumbuchungen gesammelt. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| User.Read | Delegiert | Daten wie Benutzer-ID, Name und E-Mail. Benutzerdaten werden für die Anmeldung des Benutzers in der Anwendung gesammelt. | Daten wie Benutzer-ID, Name und E-Mail. Benutzerdaten werden für die Anmeldung des Benutzers in der Anwendung gesammelt. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| User.Read.All | Anwendung | Daten wie Benutzer-ID, Name und E-Mail. Benutzerdaten werden für die Anmeldung des Benutzers in der Anwendung gesammelt. | Daten wie Benutzer-ID, Name und E-Mail. Benutzerdaten werden für die Anmeldung des Benutzers in der Anwendung gesammelt. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| email | Delegiert | Daten wie Benutzer-E-Mail. Benutzer-E-Mails werden gesammelt, um die Verfügbarkeit des Benutzers zu überprüfen und Ereignisse zu erstellen. | Daten wie Benutzer-E-Mail. Benutzer-E-Mails werden gesammelt, um die Verfügbarkeit des Benutzers zu überprüfen und Ereignisse zu erstellen. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| openid | Delegiert | Die OpenID des Benutzers, damit sich der Benutzer bei der Anwendung anmelden kann. | Die OpenID des Benutzers, damit sich der Benutzer bei der Anwendung anmelden kann. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | Anwendung | Daten wie Benutzer-E-Mail, Benutzerereignisse werden gespeichert. Benutzerereignisse werden gesammelt, um die Verfügbarkeit von Räumen zu überprüfen und Ereignisse zu erstellen. | Die ID des Users-Ereignisses, der Standortname und die Details des anderen Ereignisses würden gespeichert. Daten werden gesammelt, um die Verfügbarkeit von Chatrooms zu überprüfen und Ereignisse zu erstellen. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| Mail.Send | Anwendung | Daten wie Benutzer-E-Mail. Benutzer-E-Mails werden zum Senden von Erinnerungs-E-Mails für Raumbuchungen gesammelt. | Daten wie Benutzer-E-Mail. Benutzer-E-Mails werden zum Senden von Erinnerungs-E-Mails für Raumbuchungen gesammelt. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| User.Read | Delegiert | Daten wie Benutzer-ID, Name und E-Mail. Benutzerdaten werden für die Anmeldung des Benutzers in der Anwendung gesammelt. | Daten wie Benutzer-ID, Name und E-Mail. Benutzerdaten werden für die Anmeldung des Benutzers in der Anwendung gesammelt. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| User.Read.All | Anwendung | Daten wie Benutzer-ID, Name und E-Mail. Benutzerdaten werden für die Anmeldung des Benutzers in der Anwendung gesammelt. | Daten wie Benutzer-ID, Name und E-Mail. Benutzerdaten werden für die Anmeldung des Benutzers in der Anwendung gesammelt. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| email | Delegiert | Daten wie Benutzer-E-Mail. Benutzer-E-Mails werden gesammelt, um die Verfügbarkeit des Benutzers zu überprüfen und Ereignisse zu erstellen. | Daten wie Benutzer-E-Mail. Benutzer-E-Mails werden gesammelt, um die Verfügbarkeit des Benutzers zu überprüfen und Ereignisse zu erstellen. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| openid | Delegiert | Die OpenID des Benutzers, damit sich der Benutzer bei der Anwendung anmelden kann. | Die OpenID des Benutzers, damit sich der Benutzer bei der Anwendung anmelden kann. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

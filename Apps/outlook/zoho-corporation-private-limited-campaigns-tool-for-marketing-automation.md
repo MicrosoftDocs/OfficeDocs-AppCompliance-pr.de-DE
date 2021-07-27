@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Zoho Campaigns-Tool für die Marketingautomatisierung, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Zoho Campaigns-Tool für die Marketingautomatisierung, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e54e3313dcfa51542439775a0c3ca0cae38aca93
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b6b0137447f5de7d7ef2394c32eb6996772852ad
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281587"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527891"
 ---
 # <a name="zoho-campaigns-tool-for-marketing-automation"></a>Zoho Campaigns-Tool für die Marketingautomatisierung
 
@@ -33,7 +33,7 @@ Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informatione
 |:----------------|:-------------|
 | App-Name | Zoho Campaigns-Tool für die Marketingautomatisierung |
 | ID | WA104380835 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
 | Name des Partnerunternehmens | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL der Datenschutzrichtlinie | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
@@ -51,22 +51,22 @@ Diese Informationen wurden von Zoho Corporation Private Limited zur Verfügung g
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | Delegiert | Die Kalender-ID wird gespeichert, um Ereignisse in diesem Kalender aus Zoho-Kampagnen zu erstellen. | Ermöglicht es dem Benutzer, das Office365-Kalenderereignis in Zoho Campaigns zu importieren. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| Calendars.ReadWrite | Delegiert |  | Ermöglicht dem Benutzer, Zoho Campaigns-Ereignisse zum Office365-Kalender hinzuzufügen. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| Contacts.Read | Delegiert |  So speichern Sie die Kontaktinformationen. | Ermöglicht dem Benutzer, Office365-Kontakte in Zoho-Kampagnen zu importieren. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| Contacts.ReadWrite | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| User.Read | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| User.ReadBasic.All | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| email | Delegiert | E-Mails werden zur Benutzeridentifikation gespeichert. |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| offline_access | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| Profil | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | Delegiert | Die Kalender-ID wird gespeichert, um Ereignisse in diesem Kalender aus Zoho-Kampagnen zu erstellen. | Ermöglicht es dem Benutzer, das Office365-Kalenderereignis in Zoho Campaigns zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Calendars.ReadWrite | Delegiert |  | Ermöglicht dem Benutzer, Zoho Campaigns-Ereignisse zum Office365-Kalender hinzuzufügen. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.Read | Delegiert |  So speichern Sie die Kontaktinformationen. | Ermöglicht dem Benutzer, Office365-Kontakte in Zoho-Kampagnen zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | Delegiert | E-Mails werden zur Benutzeridentifikation gespeichert. |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Profil | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

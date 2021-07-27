@@ -6,14 +6,14 @@ ms.date: 01/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Webex-Aufruf, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Webex Call, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c6552bd7b266f4c35d35dabefe3abbf7e407ea1
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e4addbd6b3ad932c9c987f57cca03c1e6e77cfcd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281958"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521928"
 ---
 # <a name="webex-call"></a>Webex Call
 
@@ -21,7 +21,7 @@ ms.locfileid: "53281958"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 4. Januar 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/0924e969-85d8-4acb-8687-faacd6abd228" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/0924e969-85d8-4acb-8687-faacd6abd228" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001495" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Cisco für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Webex Call |
 | ID | WA200001495 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cisco |
 | URL der Partnerwebsite | [https://www.cisco.com](https://www.cisco.com) |
 | URL der Datenschutzrichtlinie | [https://www.cisco.com/c/en/us/about/legal/privacy.html](https://www.cisco.com/c/en/us/about/legal/privacy.html) |
@@ -52,15 +52,15 @@ Diese Informationen wurden von Cisco bereitgestellt, wie diese App Organisations
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Chat.Read | Delegiert | Chatmitglieder abrufen, um das andere Mitglied in einem privaten Chat mit Cisco WebEx anzurufen | Die App speichert keine Daten in ihren Datenbanken. | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
->| Contacts.Read | Delegiert | Abrufen von Benutzerkontakten, damit Benutzer Kontakte mit Cisco WebEx anrufen können | Die App speichert keine Daten in ihren Datenbanken. | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
->| User.Read | Delegiert | Benutzer-E-Mails abrufen, Telefone, damit sie Cisco WebEx starten können, um E-Mails oder Telefone anzurufen | Die App speichert keine Daten in ihren Datenbanken. | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
->| User.ReadBasic.All | Delegiert | Benutzer-E-Mails abrufen, Telefone, damit sie Cisco WebEx starten können, um E-Mails oder Telefone anzurufen | Die App speichert keine Daten in ihren Datenbanken. | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
->| User.ReadWrite | Delegiert | Diese Berechtigung besteht darin, Schnellwahlinformationen in der Benutzererweiterung zu speichern. | Die App speichert keine Daten in ihren Datenbanken.  | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Chat.Read | Delegiert | Chatmitglieder abrufen, um das andere Mitglied in einem privaten Chat mit Cisco WebEx anzurufen | Die App speichert keine Daten in ihren Datenbanken. | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| Contacts.Read | Delegiert | Abrufen von Benutzerkontakten, damit Benutzer Kontakte mit Cisco WebEx anrufen können | Die App speichert keine Daten in ihren Datenbanken. | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.Read | Delegiert | Benutzer-E-Mails abrufen, Telefone, damit sie Cisco WebEx starten können, um E-Mails oder Telefone anzurufen | Die App speichert keine Daten in ihren Datenbanken. | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.ReadBasic.All | Delegiert | Benutzer-E-Mails abrufen, Telefone, damit sie Cisco WebEx starten können, um E-Mails oder Telefone anzurufen | Die App speichert keine Daten in ihren Datenbanken. | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.ReadWrite | Delegiert | Diese Berechtigung besteht darin, Schnellwahlinformationen in der Benutzererweiterung zu speichern. | Die App speichert keine Daten in ihren Datenbanken.  | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -74,7 +74,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Diese Nachrichtenerweiterung würde die E-Mails/Telefone von Chatmitgliedern lesen, damit der Benutzer sie mit Cisco WebEx anrufen kann. | Nein |  |
 
 

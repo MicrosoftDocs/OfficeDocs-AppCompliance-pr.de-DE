@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für InStation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 46b7c4131e1f3897036cf0b2180b2f99c2e6ff2c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282028"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521808"
 ---
 # <a name="instation"></a>InStation
 
@@ -34,7 +34,7 @@ Informationen, die von Developers Invillia an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | InStation |
 | ID | WA200001701 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Developers Invillia |
 | URL der Partnerwebsite | [https://invillia.com/](https://invillia.com/) |
 | URL der Datenschutzrichtlinie | [https://instation.invillia.com/terms#privacy-policy](https://instation.invillia.com/terms#privacy-policy) |
@@ -50,22 +50,22 @@ Informationen, die von Developers Invillia an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Developers Invillia darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| OnlineMeetings.Read.All | Delegiert | Speicher: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | Speicher: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| OnlineMeetings.ReadWrite.All | Delegiert | Speicher: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | Speicher: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Presence.Read | Delegiert | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | Aktivität und Haftung. Ermöglicht der App, den Benutzerstatus zu erfassen. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Presence.Read.All | Delegiert | Ermöglicht der App, sich bei ihrem ersten Schritt bei der Organisation anzumelden. | Aktivität und Haftung. Ermöglicht der App, den Benutzerstatus zu erfassen. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| User.Read | Delegiert | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| User.Read.All | Delegiert | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| email | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| offline_access | Delegiert | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| openid | Delegiert | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Profil | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | 0c841985-9919-4c0a-b87d-b06b301148b3 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| OnlineMeetings.Read.All | Delegiert | Stores: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | Stores: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OnlineMeetings.ReadWrite.All | Delegiert | Stores: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | Stores: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Presence.Read | Delegiert | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | Aktivität und Haftung. Ermöglicht der App, den Benutzerstatus zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Presence.Read.All | Delegiert | Ermöglicht der App, sich bei ihrem ersten Schritt bei der Organisation anzumelden. | Aktivität und Haftung. Ermöglicht der App, den Benutzerstatus zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| User.Read | Delegiert | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| User.Read.All | Delegiert | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| email | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| offline_access | Delegiert | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| openid | Delegiert | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Profil | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;beim ersten Anmelden zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;beim ersten Anmelden zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

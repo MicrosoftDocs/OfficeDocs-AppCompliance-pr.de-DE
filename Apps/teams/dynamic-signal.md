@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Dynamic Signal, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 19f633362ac605ef5891b3d7e11f34a8ec04d74f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 5b5906e8eee51821481de11c3cbd720600d4c36e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281307"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521798"
 ---
 # <a name="dynamic-signal"></a>Dynamic Signal
 
@@ -34,7 +34,7 @@ Informationen, die von Dynamic Signal an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Dynamic Signal |
 | ID | WA200000102 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Dynamic Signal |
 | URL der Partnerwebsite | [https://www.dynamicsignal.com](https://www.dynamicsignal.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://support.dynamicsignal.com/hc/en-us/requests/new?tic...](https://support.dynamicsignal.com/hc/en-us/requests/new?ticket_form_id=360000290032) |
@@ -51,16 +51,16 @@ Informationen, die von Dynamic Signal an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Dynamic Signal bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Dynamic Signal synchronisiert Benutzer von Azure AD mit seiner Plattform, um eine optimierte Aktivierung und Deaktivierung von Benutzern in Echtzeit zu ermöglichen. Daten werden im dynamischen Signal gespeichert, damit Benutzer diese Anwendung während der Synchronisierung verwenden können. | Leseberechtigungen eines bestimmten Benutzers zum Synchronisieren von Benutzern der Dynamischen Signalplattform mit Azure AD. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
->| User.Read.All | Delegiert | Dynamic Signal synchronisiert Benutzer von Azure AD mit seiner Plattform, um eine optimierte Aktivierung und Deaktivierung von Benutzern in Echtzeit zu ermöglichen. Daten werden im dynamischen Signal gespeichert, damit Benutzer diese Anwendung während der Synchronisierung verwenden können. | Leseberechtigungen eines bestimmten Benutzers zum Synchronisieren von Benutzern der Dynamischen Signalplattform mit Azure AD. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
->| offline_access | Delegiert | Dynamic Signal synchronisiert Benutzer von Azure AD mit seiner Plattform, um eine optimierte Aktivierung und Deaktivierung von Benutzern in Echtzeit zu ermöglichen. Daten werden im dynamischen Signal gespeichert, damit Benutzer diese Anwendung während der Synchronisierung verwenden können. | Behalten Sie den Zugriff auf die Gruppen und Teams des Mandanten bei. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
->| openid | Delegiert | Dynamic Signal synchronisiert Benutzer von Azure AD mit seiner Plattform, um eine optimierte Aktivierung und Deaktivierung von Benutzern in Echtzeit zu ermöglichen. Daten werden im dynamischen Signal gespeichert, damit Benutzer diese Anwendung während der Synchronisierung verwenden können. | Authentifizieren von Benutzern mit der Dynamic Signal-Anwendung. | 79ff4a2a-e22b-47d5-94dc-ef76fe46af75 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | Dynamic Signal synchronisiert Benutzer von Azure AD mit seiner Plattform, um eine optimierte Aktivierung und Deaktivierung von Benutzern in Echtzeit zu ermöglichen. Daten werden im dynamischen Signal gespeichert, damit Benutzer diese Anwendung während der Synchronisierung verwenden können. | Leseberechtigungen eines bestimmten Benutzers zum Synchronisieren von Benutzern der Dynamischen Signalplattform mit Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| User.Read.All | Delegiert | Dynamic Signal synchronisiert Benutzer von Azure AD mit seiner Plattform, um eine optimierte Aktivierung und Deaktivierung von Benutzern in Echtzeit zu ermöglichen. Daten werden im dynamischen Signal gespeichert, damit Benutzer diese Anwendung während der Synchronisierung verwenden können. | Leseberechtigungen eines bestimmten Benutzers zum Synchronisieren von Benutzern der Dynamischen Signalplattform mit Azure AD. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| offline_access | Delegiert | Dynamic Signal synchronisiert Benutzer von Azure AD mit seiner Plattform, um eine optimierte Aktivierung und Deaktivierung von Benutzern in Echtzeit zu ermöglichen. Daten werden im dynamischen Signal gespeichert, damit Benutzer diese Anwendung während der Synchronisierung verwenden können. | Behalten Sie den Zugriff auf die Gruppen und Teams des Mandanten bei. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
+>| openid | Delegiert | Dynamic Signal synchronisiert Benutzer von Azure AD mit seiner Plattform, um eine optimierte Aktivierung und Deaktivierung von Benutzern in Echtzeit zu ermöglichen. Daten werden im dynamischen Signal gespeichert, damit Benutzer diese Anwendung während der Synchronisierung verwenden können. | Authentifizieren von Benutzern mit der Dynamic Signal-Anwendung. | [79ff4a2a-e22b-47d5-94dc-ef76fe46af75](https://docs.microsoft.com/microsoft-365-app-certification/azure/79ff4a2a-e22b-47d5-94dc-ef76fe46af75) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -74,7 +74,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| openid sign in using openid directory.readwrite.all access to the tenant's domain and groups, add an app to a team offline_access retain access to the tenant's groups and teams | openid Allow for independent authentication. directory.readwrite.all access to the tenant's domain and groups, add an app to a team offline_access retain access to the tenant's groups and teams Note: Dynamic Signal's application uses the teams bot to apply groups and permissions created within Dynamic Signal to Teams so that a user that is active in Dynamic Signal will have access to the same groups and users that within Teams. |  |
 
 
@@ -82,7 +82,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Die Dynamische Signal-App und -Plattform nutzen Benutzerinformationen, um die Integration mit Microsoft Teams zu erleichtern. Diese Informationen stehen Benutzern mit entsprechenden Berechtigungen innerhalb der Dynamic Signal-Plattform zur Verfügung. Relevante Informationen sind Name, Anzeigename und E-Mail. Diese Informationen werden in den Dynamic Signal Platform-Protokollen gemäß der Richtlinie der jeweiligen Organisation mit der Dynamic Signal-Lizenz gespeichert.
+>Die Dynamische Signal-App und -Plattform nutzen Benutzerinformationen, um die Integration mit Microsoft Teams zu vereinfachen. Diese Informationen stehen Benutzern mit entsprechenden Berechtigungen innerhalb der Dynamic Signal-Plattform zur Verfügung. Relevante Informationen sind Name, Anzeigename und E-Mail. Diese Informationen werden in den Dynamic Signal Platform-Protokollen gemäß der Richtlinie der jeweiligen Organisation mit der Dynamic Signal-Lizenz gespeichert.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 

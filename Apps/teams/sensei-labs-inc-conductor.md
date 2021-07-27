@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sensei Labs, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3b0d84d3da0d5fdf32854cd4b3b31b86662cb4b8
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0c7fa93ad3521decc194fcddf94d86d161a864ea
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281067"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521018"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -34,7 +34,7 @@ Von Sensei Labs Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Sensei Labs Conductor |
 | ID | WA200001951 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Sensei Labs Inc. |
 | URL der Partnerwebsite | [https://www.senseilabs.com](https://www.senseilabs.com) |
 | URL der Datenschutzrichtlinie | [https://www.senseilabs.com/conductor/conductor-privacy-poli...](https://www.senseilabs.com/conductor/conductor-privacy-policy/) |
@@ -50,18 +50,18 @@ Von Sensei Labs Inc. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Sensei Labs Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Bot-Framework | Ja | Teams Instanz-ID | um Teams Instanz einer Instanz unserer Anwendung zuzuordnen, die der Organisation zugeordnet ist  | Teams Instanz-ID | um Teams Instanz einer Instanz unserer Anwendung zuzuordnen, die der Organisation zugeordnet ist  |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -75,7 +75,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| um die Person während Bot-Unterhaltungen ordnungsgemäß zu adressiert. Um den Benutzer in Teams dem Benutzer in unserer Anwendung zuzuordnen | Teams Bezeichner, Name, E-Mail-Adresse | um Teams Benutzer dem Benutzer auf unserer Plattform zuzuordnen |
 
 
@@ -83,7 +83,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Teams Teammitgliedschaft. Zuordnung zwischen der Teams Instanz des Kunden und deren Instanz "Leiter". Daten, die aufbewahrt werden, solange sie ein Kunde des Kunden sind. Entfernen, wenn die Instanz "Leiter" des Kunden außer Betrieb genommen wird, oder auf Anforderung
+>Teams Teammitgliedschaft. Zuordnung zwischen der Teams instanz des Kunden und deren Instanz Leiter. Daten, die aufbewahrt werden, solange sie ein Kunde des Kunden sind. Entfernen, wenn die Instanz "Leiter" des Kunden außer Betrieb genommen wird, oder auf Anforderung
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 

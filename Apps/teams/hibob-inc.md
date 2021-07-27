@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hibob, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6b35068bec11d40cf7cf1c21a77f12f526bc35ce
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 9168d876cfdf6abc2839311d3820ec8a024f29d1
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283039"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521618"
 ---
 # <a name="hibob"></a>Hibob
 
@@ -21,7 +21,7 @@ ms.locfileid: "53283039"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/fdbe3361-c7dd-4ba5-b0b7-76a2002eb421" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/fdbe3361-c7dd-4ba5-b0b7-76a2002eb421" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000765" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die von Hibob Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Hibob |
 | ID | WA200000765 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Hibob Inc. |
 | URL der Partnerwebsite | [https://www.hibob.com](https://www.hibob.com) |
 | URL der Datenschutzrichtlinie | [https://www.hibob.com/privacy-policy/](https://www.hibob.com/privacy-policy/) |
@@ -68,8 +68,8 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
->| Der Spieler wird verwendet, um einen Teams Benutzer gemäß E-Mail mit bob-Benutzer zuzuordnen. Der Abgleich wird für - Identifikation, Benachrichtigungen, Link zu Teams Profil verwendet. | Es wird nur die UPN-Eigenschaft verwendet und gespeichert. |  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Der Spieler wird verwendet, um einen Teams Benutzer gemäß E-Mail mit bob-Benutzer zuzuordnen. Abgleich wird verwendet für – Identifikation, Benachrichtigungen, Link zu Teams Profil. | Es wird nur die UPN-Eigenschaft verwendet und gespeichert. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -84,7 +84,7 @@ Es gibt keine Option zum Löschen der Uppon-Anforderung für Protokolle.
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Unsere Plattform wird in den Rechenzentren von Amazon&#8217;in Dublin gehostet, und Der Zugriff auf die Plattform erfolgt rollenbasiert und wird entsprechend der Position der Mitarbeiter&#8217;auf der Grundlage von "Need-to-Know/Need-to-Do" festgelegt.
+>Unsere Plattform wird in den Rechenzentren von Amazon&#8217;in Dublin gehostet, und Der Zugriff auf die Plattform ist rollenbasiert und wird basierend auf der Position der Mitarbeiter&#8217;auf der Grundlage von "Need-to-Know/Need-to-Do" festgelegt.
 Jeder Benutzer verfügt über seine eindeutigen Anmeldeinformationen, und wir erzwingen die 2FA-Authentifizierung für wichtige Dienste.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen

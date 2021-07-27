@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für harmon.ie für Office durch harmon.ie Corporation
+title: Anwendungsinformationen für harmon.ie für Office von harmon.ie Corporation
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/07/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für harmon.ie für Office, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9c04ab6e1a50167fbf489191e5845f86cb09ee00
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: c5a4cc10fdb936e6e0a9c04cc492cd301a374cd8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282369"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527841"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie für Office
 
@@ -33,7 +33,7 @@ Informationen, die von harmon.ie Corporation an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | harmon.ie für Office |
 | ID | WA104381050 |
-| Office 365 unterstützten Clients | PowerPoint 2016 oder höher auf Windows, Word 2016 oder höher auf Windows, Excel im Web, Word im Web, PowerPoint im Web, Word 2016 oder höher auf dem Mac, PowerPoint 2016 oder höher auf Mac |
+| unterstützte Office 365-Clients | PowerPoint 2016 oder höher auf Windows, Word 2016 oder höher auf Windows, Excel im Web, Word im Web, PowerPoint im Web, Word 2016 oder höher auf Mac, PowerPoint 2016 oder höher auf Mac |
 | Name des Partnerunternehmens | harmon.ie Corporation |
 | URL der Partnerwebsite | [https://harmon.ie](https://harmon.ie) |
 | URL der Datenschutzrichtlinie | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
@@ -51,17 +51,17 @@ Diese Informationen wurden von harmon.ie Corporation darüber bereitgestellt, wi
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | Delegiert | Erforderlich von harmon.ie für Outlook, damit sich Benutzer anmelden und die Rolle des Benutzers abrufen können. | keine | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| Files.ReadWrite.All | Delegiert | Von harmon.ie erforderlich, damit Outlook E-Mail-Anlagen von Outlook übertragen &amp; und in SharePoint speichern kann | keine | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| Mail.ReadWrite | Delegiert | Von harmon.ie erforderlich, damit Outlook E-Mail-Anlagen von Outlook übertragen &amp; und in SharePoint speichern kann | keine | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
->| User.Read | Delegiert | Erforderlich von harmon.ie für Outlook zum Auflösen des Benutzerprofilbilds | keine | 170cef4c-862a-443c-b02a-c5ba04ecc7f3 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | Delegiert | Erforderlich von harmon.ie für Outlook, damit sich Benutzer anmelden und die Rolle des Benutzers abrufen können. | keine | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Files.ReadWrite.All | Delegiert | Von harmon.ie erforderlich, damit Outlook E-Mail-Anlagen von Outlook übertragen und in SharePoint speichern kann &amp; | keine | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| Mail.ReadWrite | Delegiert | Von harmon.ie erforderlich, damit Outlook E-Mail-Anlagen von Outlook übertragen und in SharePoint speichern kann &amp; | keine | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
+>| User.Read | Delegiert | Erforderlich von harmon.ie für Outlook zum Auflösen des Benutzerprofilbilds | keine | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](https://docs.microsoft.com/microsoft-365-app-certification/azure/170cef4c-862a-443c-b02a-c5ba04ecc7f3) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -120,7 +120,7 @@ Diese Informationen wurden von harmon.ie Corporation darüber bereitgestellt, wi
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |

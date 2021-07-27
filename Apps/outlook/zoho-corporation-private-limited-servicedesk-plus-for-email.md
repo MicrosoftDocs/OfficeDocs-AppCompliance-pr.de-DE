@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ServiceDesk Plus for Email, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 759c59f93daa664dcc6b5b0b230a4b0fedfbf140
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 39ee4450c2545d1cc891464d7946cde4c4c3b53a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282389"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527861"
 ---
 # <a name="servicedesk-plus-for-email"></a>ServiceDesk Plus für E-Mail
 
@@ -33,7 +33,7 @@ Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informatione
 |:----------------|:-------------|
 | App-Name | ServiceDesk Plus für E-Mail |
 | ID | WA104381518 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
 | Name des Partnerunternehmens | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.manageengine.com/products/service-desk](https://www.manageengine.com/products/service-desk) |
 | URL der Datenschutzrichtlinie | [https://www.manageengine.com/privacy.html](https://www.manageengine.com/privacy.html) |
@@ -51,19 +51,19 @@ Diese Informationen wurden von Zoho Corporation Private Limited zur Verfügung g
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | Anwendung |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| Files.Read | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| Files.Read.Selected | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| User.Read | Delegiert | E-Mail-ID des Benutzers. | Ermöglicht dem Benutzer die Anmeldung und gewährt der App Zugriff auf den UPN, um die automatische Anmeldung zu aktivieren. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| User.Read.All | Anwendung |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| User.ReadBasic.All | Delegiert | E-Mail-ID, Name, Mitarbeiter-ID, Position, Telefon, Mobil, Website, Abteilung, Gebietsschema, Profilfoto des Benutzers. | Ermöglicht das Importieren der grundlegenden Informationen von Benutzern aus Azure Active Directory. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| email | Delegiert | E-Mail-ID des Benutzers. | Zeigen Sie die E-Mail-Adresse des Benutzers an. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| offline_access | Delegiert |  | Behalten Sie den Zugriff auf Daten bei, auf die Sie ihr Zugriff gewährt haben. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
->| Profil | Delegiert |  | Zeigen Sie das grundlegende Profil des Benutzers an. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | Anwendung |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.Selected | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read | Delegiert | E-Mail-ID des Benutzers. | Ermöglicht dem Benutzer die Anmeldung und gewährt der App Zugriff auf den UPN, um die automatische Anmeldung zu aktivieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read.All | Anwendung |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | Delegiert | E-Mail-ID, Name, Mitarbeiter-ID, Position, Telefon, Mobil, Website, Abteilung, Gebietsschema, Profilfoto des Benutzers. | Ermöglicht das Importieren der grundlegenden Informationen von Benutzern aus Azure Active Directory. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | Delegiert | E-Mail-ID des Benutzers. | Zeigen Sie die E-Mail-Adresse des Benutzers an. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | Delegiert |  | Behalten Sie den Zugriff auf Daten bei, auf die Sie ihr Zugriff gewährt haben. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Profil | Delegiert |  | Zeigen Sie das grundlegende Profil des Benutzers an. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

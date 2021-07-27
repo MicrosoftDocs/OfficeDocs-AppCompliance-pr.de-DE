@@ -6,14 +6,14 @@ ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für TeamSticker von Communitio, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für TeamSticker von Communitio, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 944fa2eaf8df347cf3ce1b96bad9cd8521dceed3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 871c410b520fc7b8697942a4921104329a239338
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281938"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521858"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker by Communitio
 
@@ -34,7 +34,7 @@ Informationen, die von der Communitio Corporation an Microsoft bereitgestellt we
 |:----------------|:-------------|
 | App-Name | TeamSticker by Communitio |
 | ID | WA200000894 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Communitio Corporation |
 | URL der Partnerwebsite | [https://www.teamsuite.biz](https://www.teamsuite.biz) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.teamsuite.biz/feature/](https://www.teamsuite.biz/feature/) |
@@ -51,26 +51,26 @@ Informationen, die von der Communitio Corporation an Microsoft bereitgestellt we
 
 Diese Informationen wurden von der Communitio Corporation darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Chat.ReadWrite | Anwendung |  Da Anwendungsbeiträge zum Chatten. | Die Anwendung speichert keine Daten. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| Group.ReadWrite.All | Beide | Anwendung sammelt Gruppen-ID und Gruppenname. | Die Anwendung speichert das Gruppen-ID- und Namenspaar. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| User.Read | Delegiert | Die Anwendung erfasst das Profilbild des Benutzers. | Die Anwendung speichert das Profilbild des Benutzers, um das Benutzersymbol anzuzeigen. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| User.Read.All | Beide | Die Anwendung sammelt die Objekt-ID/E-Mail/den Namen des Benutzers, um den Benutzer zum Senden der Karte zu finden. | Die Anwendung speichert in diesem Fall keine Daten. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| offline_access | Delegiert | Application collect user's api token to use User.Read / User.Read.All in background. | Die Anwendung speichert das API-Token des Benutzers, um User.Read /User.Read.All im Hintergrund zu verwenden. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| openid | Delegiert | Es werden keine Daten gesammelt. | Die Anwendung verwendet diese Berechtigung, um sich über openid anzumelden. | bceca1f0-723f-44d0-b732-b3506c0a641d |
->| Profil | Delegiert | Die Anwendung sammelt die ObjectId/E-Mail/den Namen des Benutzers. | Die Anwendung speichert die ObjectId/E-Mail/den Namen des Benutzers. | bceca1f0-723f-44d0-b732-b3506c0a641d |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Chat.ReadWrite | Anwendung |  Da Anwendungsbeiträge zum Chatten. | Die Anwendung speichert keine Daten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| Group.ReadWrite.All | Beide | Anwendung sammelt Gruppen-ID und Gruppenname. | Die Anwendung speichert das Gruppen-ID- und Namenspaar. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| User.Read | Delegiert | Die Anwendung erfasst das Profilbild des Benutzers. | Die Anwendung speichert das Profilbild des Benutzers, um das Benutzersymbol anzuzeigen. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| User.Read.All | Beide | Die Anwendung sammelt die Objekt-ID/E-Mail/den Namen des Benutzers, um den Benutzer zum Senden der Karte zu finden. | Die Anwendung speichert in diesem Fall keine Daten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| offline_access | Delegiert | Application collect user's api token to use User.Read / User.Read.All in background. | Die Anwendung speichert das API-Token des Benutzers, um User.Read /User.Read.All im Hintergrund zu verwenden. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| openid | Delegiert | Es werden keine Daten gesammelt. | Die Anwendung verwendet diese Berechtigung, um sich über openid anzumelden. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| Profil | Delegiert | Die Anwendung sammelt die ObjectId/E-Mail/den Namen des Benutzers. | Die Anwendung speichert die ObjectId/E-Mail/den Namen des Benutzers. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >|  Bot Framework-REST-API | Nein |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -84,7 +84,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Da Sie über die Berechtigung "User.Read.All" verfügen. | Nein |  |
 
 

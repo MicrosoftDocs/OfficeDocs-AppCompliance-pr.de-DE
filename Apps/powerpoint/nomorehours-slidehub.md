@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SlideHub, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39e3c631cdcd79de9eab484749f45354b87ca0cf
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7eca7f35cb46db8450f6805c9e8a4c2503934dd6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282658"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527811"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -33,7 +33,7 @@ Von nomorehours für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SlideHub |
 | ID | WA200001625 |
-| Office 365 unterstützten Clients | PowerPoint 2016 oder höher auf mac, PowerPoint im Web, PowerPoint 2013 oder höher auf Windows |
+| unterstützte Office 365-Clients | PowerPoint 2016 oder höher auf mac, PowerPoint im Web, PowerPoint 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | nomorehours |
 | URL der Partnerwebsite | [https://nomorehours.com](https://nomorehours.com) |
 | URL der Datenschutzrichtlinie | [https://nomorehours.com/privacy](https://nomorehours.com/privacy) |
@@ -53,9 +53,9 @@ Diese Informationen wurden von Nomorehours darüber bereitgestellt, wie diese Ap
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Anwendung | E-Mail und Name. Die E-Mail wird als Benutzername in der Anwendung verwendet. Das Sammeln der E-Mail kann dazu beitragen, sich schneller bei der Anwendung anzumelden. Der Name wird bei einem Registrierungsereignis verwendet. | Die E-Mail wird verwendet, um die Anmeldung über Office 365 zu aktivieren und in einigen Fällen Benutzer zu registrieren, die Teil der Organisation sind, die die Bedingungen bereits in ihrem Namen akzeptiert haben. | 33ccef75-8248-44e8-88d3-24526ca9c2d3 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Anwendung | E-Mail und Name. Die E-Mail wird als Benutzername in der Anwendung verwendet. Das Sammeln der E-Mail kann dazu beitragen, sich schneller bei der Anwendung anzumelden. Der Name wird bei einem Registrierungsereignis verwendet. | Die E-Mail wird verwendet, um die Anmeldung über Office 365 zu aktivieren und in einigen Fällen Benutzer zu registrieren, die Teil der Organisation sind, die die Bedingungen bereits in ihrem Namen akzeptiert haben. | [33ccef75-8248-44e8-88d3-24526ca9c2d3](https://docs.microsoft.com/microsoft-365-app-certification/azure/33ccef75-8248-44e8-88d3-24526ca9c2d3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

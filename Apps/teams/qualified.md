@@ -8,20 +8,20 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Qualified, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b4f5f034fbdca44cd71c74b0530cfd15664a1c8
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: d47e6f2919fb97eb1c9a162f2ade8c1a1bf485a8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852058"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521138"
 ---
-# <a name="qualified"></a>Qualifizierte
+# <a name="qualified"></a>Qualified
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 5. Mai 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d9850897-f8bf-407c-878b-b0cdcbba93ff" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/d9850897-f8bf-407c-878b-b0cdcbba93ff" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002720" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -32,10 +32,10 @@ Von Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Qualifizierte |
+| App-Name | Qualified |
 | ID | WA200002720 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Qualifizierte |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Qualified |
 | URL der Partnerwebsite | [https://www.qualified.com](https://www.qualified.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.qualified.com/university-guide/microsoft-teams-...](https://www.qualified.com/university-guide/microsoft-teams-integration) |
 | URL der Datenschutzrichtlinie | [https://www.qualified.com/legal/privacy](https://www.qualified.com/legal/privacy) |
@@ -55,17 +55,17 @@ Diese Informationen wurden von Qualified bereitgestellt, wie diese App Organisat
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.ReadBasic.All | Anwendung | Ermöglicht uns die Auswahl eines Kanals, der benachrichtigt werden soll. | E-Mail-Adresse, Mandanten-ID, oauth-Aktualisierungstoken | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
->| Team.ReadBasic.All | Anwendung | Ermöglicht es uns, alle Kanäle aus allen Teams zu finden, damit wir Kanäle auswählen können, die benachrichtigt werden sollen. | E-Mail-Adresse, Mandanten-ID, oauth-Aktualisierungstoken | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | Anwendung | Ermöglicht uns die Auswahl eines Kanals, der benachrichtigt werden soll. | E-Mail-Adresse, Mandanten-ID, oauth-Aktualisierungstoken | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
+>| Team.ReadBasic.All | Anwendung | Ermöglicht es uns, alle Kanäle aus allen Teams zu finden, damit wir Kanäle auswählen können, die benachrichtigt werden sollen. | E-Mail-Adresse, Mandanten-ID, oauth-Aktualisierungstoken | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche Microsoft-APIs außer Microsoft Graph verwenden, um organisationsbezogene Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Bot Framework-API | Ja | Mandanten-ID, Team-IDs, Kanal-IDs | Mandanten-ID: Um service_url für Bot-Framework-API-Aufrufe zu ermitteln; Team-IDs + Kanal-IDs: um zu bestimmen, zu welchen Teams/Kanälen unser Bot hinzugefügt wurde | Mandanten-ID, Team-IDs, Kanal-IDs | Mandanten-ID: Um service_url für Bot-Framework-API-Aufrufe zu ermitteln; Team-IDs + Kanal-IDs: um zu bestimmen, zu welchen Teams/Kanälen unser Bot hinzugefügt wurde |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -73,7 +73,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche Microsoft
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Heroku, Sentry, Papertrail | Name, E-Mail-Adresse, IP | Diese Systeme hosten und überwachen unseren Produktionsdienst |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
@@ -134,7 +134,7 @@ Diese Informationen wurden von Qualified bereitgestellt, wie diese App die Authe
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |

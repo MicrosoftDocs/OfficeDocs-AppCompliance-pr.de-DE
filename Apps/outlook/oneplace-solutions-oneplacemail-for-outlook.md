@@ -6,14 +6,14 @@ ms.date: 01/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für OnePlaceMail für Outlook, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für OnePlaceMail für Outlook, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 97c9b74768b11e3c63a302566a20a2cb762275a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 18dc1ab4ba71102564c1c85f7ed3846d9f4f1700
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281707"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527931"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail für Outlook
 
@@ -33,7 +33,7 @@ Informationen, die von OnePlace-Lösungen für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | OnePlaceMail für Outlook |
 | ID | WA104380723 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf Mac, Outlook unter iOS, Outlook unter Android, Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf Mac, Outlook unter iOS, Outlook unter Android, Outlook im Web |
 | Name des Partnerunternehmens | OnePlace-Lösungen |
 | URL der Partnerwebsite | [https://www.oneplacesolutions.com](https://www.oneplacesolutions.com) |
 | URL der Datenschutzrichtlinie | [https://www.oneplacesolutions.com/oneplacemailapp-privacy](https://www.oneplacesolutions.com/oneplacemailapp-privacy) |
@@ -51,33 +51,33 @@ Diese Informationen wurden von OnePlace Solutions bereitgestellt, wie diese App 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | Delegiert | Erforderlich, um zu bestimmen, Teams der aktuelle Benutzer Mitglied ist. | Keine | 44a72516-136f-4a55-ae26-ef09977230be |
->| Mail.ReadWrite.Shared | Delegiert | Erforderlich, um auf E-Mail-Eigenschaften zuzugreifen, um SharePoint Spalten festzulegen und die Kategorie "Übertragen zu SharePoint" des E-Mail-Elements hinzuzufügen. | Keine | 44a72516-136f-4a55-ae26-ef09977230be |
->| MailboxSettings.ReadWrite | Delegiert | Es werden keine Daten gesammelt oder verwendet, die zum Hinzufügen einer Kategorie zur Hauptkategorienliste in einem Benutzerpostfach verwendet werden. | Keine | 44a72516-136f-4a55-ae26-ef09977230be |
->| Sites.ReadWrite.All | Delegiert | Erforderlich, um Eigenschaften für Elemente festzulegen, die die App in SharePoint hochgeladen hat. | Keine | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.Read | Delegiert | Erforderlich für die Authentifizierung beim Microsoft Graph. | Die folgenden Daten werden von der App in einer Datenbank gespeichert und für die Abonnement- und Benutzerlizenzverfolgung verwendet: Benutzer-ID, E-Mail, Vorname, Nachname. | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadBasic.All | Delegiert | Erforderlich, um das Benutzerprofilbild im Personenauswahlfeld anzuzeigen. | Keine | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadBasic.All | Delegiert | Erforderlich, um das Benutzerprofilbild im Personenauswahlfeld anzuzeigen. | Keine | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadWrite.All | Delegiert | Erforderlich, um festzustellen, ob der Teams Dienst innerhalb der Benutzer Office 365 Mandanten aktiviert ist. | Keine | 44a72516-136f-4a55-ae26-ef09977230be |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | Delegiert | Erforderlich, um zu bestimmen, Teams der aktuelle Benutzer Mitglied ist. | Keine | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Mail.ReadWrite.Shared | Delegiert | Erforderlich, um auf E-Mail-Eigenschaften zuzugreifen, um SharePoint Spalten festzulegen und die Kategorie "Übertragen zu SharePoint" des E-Mail-Elements hinzuzufügen. | Keine | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| MailboxSettings.ReadWrite | Delegiert | Es werden keine Daten gesammelt oder verwendet, die zum Hinzufügen einer Kategorie zur Hauptkategorienliste in einem Benutzerpostfach verwendet werden. | Keine | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Sites.ReadWrite.All | Delegiert | Erforderlich, um Eigenschaften für Elemente festzulegen, die die App in SharePoint hochgeladen hat. | Keine | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.Read | Delegiert | Erforderlich für die Authentifizierung beim Microsoft Graph. | Die folgenden Daten werden von der App in einer Datenbank gespeichert und für die Abonnement- und Benutzerlizenzverfolgung verwendet: Benutzer-ID, E-Mail, Vorname, Nachname. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | Delegiert | Erforderlich, um das Benutzerprofilbild im Personenauswahlfeld anzuzeigen. | Keine | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | Delegiert | Erforderlich, um das Benutzerprofilbild im Personenauswahlfeld anzuzeigen. | Keine | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadWrite.All | Delegiert | Erforderlich, um festzustellen, ob der Teams Dienst innerhalb der Benutzer Office 365 Mandanten aktiviert ist. | Keine | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint | Ja | SharePoint URLs, Bibliotheks-/Listen-/Ordnernamen | Die organisatorischen Informationen, auf die zugegriffen wird, werden verwendet, um das Speichern von E-Mails und Anlagen von Exchange in SharePoint zu vereinfachen. Diese zusätzlichen Daten werden nicht im Ruhezustand gespeichert und während der Übertragung verschlüsselt. Beispiele für diese Daten sind SharePoint Spaltenwerte wie Choice-Spaltenwerte, Taxonomiewerte, Inhaltstypnamen, Ordnernamen, Websitenamen.  | Obwohl diese Daten nicht von der App gespeichert oder gesammelt werden, werden sie möglicherweise in Telemetrie/Protokollen angezeigt, in denen sie 90 Tage lang aufbewahrt werden. | Daten werden nicht gespeichert |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Der Chargify-Dienst wird für die Abonnementverwaltung und -abrechnung verwendet. Für die (kostenlose) In-App-Abonnementerstellung werden Vorname, Nachname und E-Mail-Adresse des Benutzers für Chargify freigegeben. Für erworbene Abonnements (die mehrere lizenzierte Benutzer unterstützen) werden die details der einzelnen Benutzer nicht mit dem Chargify-Dienst geteilt. | E-Mail-Adresse | So kommunizieren Sie Abonnementlebenszyklusereignisse an den Benutzer |
 
 
@@ -86,7 +86,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->EUII und OII werden in der Telemetrie angezeigt. Diese Informationen werden in anwendung Insights gespeichert, im Ruhezustand verschlüsselt, der Zugriff kontrolliert und nach 90 Tagen gelöscht.
+>EUII und OII werden in der Telemetrie angezeigt. Diese Informationen werden in Application Insights gespeichert, im Ruhezustand verschlüsselt, der Zugriff kontrolliert und nach 90 Tagen gelöscht.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -133,7 +133,7 @@ Diese Informationen wurden von OnePlace Solutions darüber bereitgestellt, wie d
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |

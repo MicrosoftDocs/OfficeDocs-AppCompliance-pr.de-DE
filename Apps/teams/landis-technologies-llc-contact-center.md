@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Contact Center, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 121d59640731b43137d1b2e9d7df987a2a78fe01
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 57fd0d98d6c7139c6356b4c23a6ac8a21c48e6b6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282999"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521492"
 ---
 # <a name="contact-center"></a>Contact Center
 
@@ -21,7 +21,7 @@ ms.locfileid: "53282999"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: July 20, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/9f33e26f-419e-4dc8-b626-198fd74b3cc9" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/9f33e26f-419e-4dc8-b626-198fd74b3cc9" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001428" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Landis Technologies LLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Contact Center |
 | ID | WA200001428 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Landis Technologies LLC |
 | URL der Partnerwebsite | [https://landistechnologies.com/](https://landistechnologies.com/) |
 | URL der Datenschutzrichtlinie | [https://www.landistechnologies.com/legal/](https://www.landistechnologies.com/legal/) |
@@ -54,26 +54,26 @@ Diese Informationen wurden von Landis Technologies LLC darüber bereitgestellt, 
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calls.AccessMedia.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.Initiate.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.InitiateGroupCall.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.JoinGroupCall.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.JoinGroupCallAsGuest.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| OnlineMeetings.Read.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| OnlineMeetings.ReadWrite.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| User.Read | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| User.Read.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.AccessMedia.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.Initiate.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.InitiateGroupCall.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.JoinGroupCall.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.JoinGroupCallAsGuest.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| OnlineMeetings.Read.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| OnlineMeetings.ReadWrite.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| User.Read | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| User.Read | Delegiert | Benutzerprofil | Ermöglicht dem Benutzer die Anmeldung | c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calls.AccessMedia.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.Initiate.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.InitiateGroupCall.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.JoinGroupCall.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.JoinGroupCallAsGuest.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| OnlineMeetings.Read.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| OnlineMeetings.ReadWrite.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| User.Read | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| User.Read.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.AccessMedia.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.Initiate.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.InitiateGroupCall.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.JoinGroupCall.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.JoinGroupCallAsGuest.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| OnlineMeetings.Read.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| OnlineMeetings.ReadWrite.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| User.Read | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht die Aufzeichnung von &amp; Anrufstimmungen | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| User.Read | Delegiert | Benutzerprofil | Ermöglicht dem Benutzer die Anmeldung | [c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8](https://docs.microsoft.com/microsoft-365-app-certification/azure/c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -87,7 +87,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Bereitstellen von Anrufberichten und Benutzeranalysen. | Vorname, Nachname und UPN oder Telefonnummer. Diese Informationen werden in Anrufdetails und Inaktivitätsanalysen verwendet. |  |
 
 
@@ -95,7 +95,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Ja. MS Graph API-Anforderungen werden protokolliert, um unterstützungsbedingte Unterstützung zu bieten. Sie wird pro Microsoft Azure Anwendungsstandard Insights gelöscht.
+>Ja. MS Graph API-Anforderungen werden protokolliert, um unterstützungsbedingte Unterstützung zu bieten. Es wird nach Microsoft Azure Anwendungsstandard Insights gelöscht.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
