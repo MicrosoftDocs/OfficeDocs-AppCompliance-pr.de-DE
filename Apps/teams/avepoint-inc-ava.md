@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für AVA, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c55d372c0249302da425ea5b2483aba88f1a2e42
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 462181d4ba98d11e5aeae15a4827c6138bc80924
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281407"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522070"
 ---
 # <a name="ava"></a>AVA
 
@@ -21,7 +21,7 @@ ms.locfileid: "53281407"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 23. März 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/93106045-6f96-41e3-8a9d-694b6bbcac60" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/93106045-6f96-41e3-8a9d-694b6bbcac60" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381883" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die Von AvePoint, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | AVA |
 | ID | WA104381883 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | AvePoint, Inc. |
 | URL der Partnerwebsite | [https://www.avepoint.com/](https://www.avepoint.com/) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.avepoint.com/support/](https://www.avepoint.com/support/) |
@@ -53,23 +53,23 @@ Diese Informationen wurden von AvePoint, Inc. bereitgestellt, wie diese App Orga
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite.Shared | Delegiert | Keine | Durchsuchen der E-Mails des Benutzers und Verschieben der E-Mail in den angegebenen Ordner | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
->| User.Read | Delegiert |  Zugriffstoken des Benutzers – wird zum Suchen und Wiederherstellen von Benutzerdaten verwendet | Ermöglicht dem Benutzer, sich anzumelden und das Zugriffstoken an die App zu übergeben. | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
->| User.ReadWrite | Delegiert | DisplayName, UserPrincipalName, JobTitle, Organization, Country, MySiteUrl – Aufzeichnen der grundlegenden Informationen des Benutzers, der die App verwendet hat | Abrufen der grundlegenden Profilinformationen des Benutzers | 6f30434d-3cfa-4cf8-9810-6fcf79ae750a |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite.Shared | Delegiert | Keine | Durchsuchen der E-Mails des Benutzers und Verschieben der E-Mail in den angegebenen Ordner | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
+>| User.Read | Delegiert |  Zugriffstoken des Benutzers – wird zum Suchen und Wiederherstellen von Benutzerdaten verwendet | Ermöglicht dem Benutzer, sich anzumelden und das Zugriffstoken an die App zu übergeben. | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
+>| User.ReadWrite | Delegiert | DisplayName, UserPrincipalName, JobTitle, Organization, Country, MySiteUrl – Aufzeichnen der grundlegenden Informationen des Benutzers, der die App verwendet hat | Abrufen der grundlegenden Profilinformationen des Benutzers | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint-REST-APIs | Ja | Durchsuchen Sie die Datei in der Wiederverwendung der persönlichen Website des Benutzers, und stellen Sie diese Dateien wieder her. Erfordert die Berechtigung "AllSites.Manage". |  | Keine |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

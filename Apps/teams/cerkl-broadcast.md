@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Broadcast, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8037cdbb77a41979e369ec79decbaac8e6c6cae5
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: ab386fe99e96bbe2dae26d2045c8d46447d35fd5
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852109"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522038"
 ---
 # <a name="broadcast"></a>Übertragung
 
@@ -21,7 +21,7 @@ ms.locfileid: "52852109"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 11, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/cfdaef91-3bae-4545-a571-b86b1685857f" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/cfdaef91-3bae-4545-a571-b86b1685857f" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002697" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Cerkl für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Übertragung |
 | ID | WA200002697 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cerkl |
 | URL der Partnerwebsite | [https://cerkl.com](https://cerkl.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://cerkl.com/broadcast/microsoft-teams/](https://cerkl.com/broadcast/microsoft-teams/) |
@@ -55,9 +55,9 @@ Diese Informationen wurden von Cerkl darüber bereitgestellt, wie diese App Orga
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Die E-Mail-Adresse des Benutzers wird gesammelt und verwendet, um festzustellen, ob sich der Benutzer derzeit in unserem System befindet und von einer Organisation hinzugefügt wurde. | Die App speichert keine Daten, die von der Microsoft Graph-API abgerufen wurden. | 74ef25ab-3685-446c-aa43-4e9cc251ed62 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | Die E-Mail-Adresse des Benutzers wird gesammelt und verwendet, um festzustellen, ob sich der Benutzer derzeit in unserem System befindet und von einer Organisation hinzugefügt wurde. | Die App speichert keine Daten, die aus der Microsoft Graph-API abgerufen wurden. | [74ef25ab-3685-446c-aa43-4e9cc251ed62](https://docs.microsoft.com/microsoft-365-app-certification/azure/74ef25ab-3685-446c-aa43-4e9cc251ed62) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

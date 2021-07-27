@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TeamMate von ChitChattr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4a01e90cbd14eefd9621e1ef93b8a992fc469efa
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 4278150de6faf97f3ce4ceb7361cc2d7bca651ee
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281968"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521988"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -34,7 +34,7 @@ Von ChitChattr für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | TeamMate by ChitChattr |
 | ID | WA200002530 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ChitChattr |
 | URL der Partnerwebsite | [https://www.chitchattr.com](https://www.chitchattr.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.chitchattr.com/teammate/](https://www.chitchattr.com/teammate/) |
@@ -51,13 +51,13 @@ Von ChitChattr für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von ChitChattr darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| People.Read | Delegiert | Die App ermöglicht Es Administratoren, Benutzer auszuwählen, auf die bestimmte Benutzeroberflächen ausgerichtet werden sollen. Daher muss sie den Namen, die E-Mail-Adresse und die Azure AD-Objekt-ID des Benutzers speichern. | Die App ermöglicht Es Administratoren, Benutzer auszuwählen, auf die bestimmte Benutzeroberflächen ausgerichtet werden sollen. Daher muss sie den Namen, die E-Mail-Adresse und die Azure AD-Objekt-ID des Benutzers speichern. | a8e903c7-3b7f-4ec5-a474-b5d32e595f50 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| People.Read | Delegiert | Die App ermöglicht Es Administratoren, Benutzer auszuwählen, auf die bestimmte Benutzeroberflächen ausgerichtet werden sollen. Daher muss sie den Namen, die E-Mail-Adresse und die Azure AD-Objekt-ID des Benutzers speichern. | Die App ermöglicht Es Administratoren, Benutzer auszuwählen, auf die bestimmte Benutzeroberflächen ausgerichtet werden sollen. Daher muss sie den Namen, die E-Mail-Adresse und die Azure AD-Objekt-ID des Benutzers speichern. | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -71,7 +71,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Bei Problemen wird der Bot nachschlagen und dem Benutzer die Namen und Kontaktdetails der Benutzer anzeigen, die als Administratoren in der App registriert sind (wenden Sie sich im Wesentlichen &quot; an Ihren Administrator , d. gt. &quot; | Name, E-Mail | Wie in den vorherigen Abschnitten beschrieben, um Benutzer für gezielte Erfahrungen identifizieren zu können (basierend auf der Konfiguration durch den Administrator) und Benutzern zu ermöglichen, zu sehen, wer ihre internen Unternehmensadministratoren für die App sind. |
 
 
@@ -127,7 +127,7 @@ Diese Informationen wurden von ChitChattr darüber bereitgestellt, wie diese App
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |

@@ -6,14 +6,14 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für FormMachines Connector für SharePoint, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für FormMachines Connector für SharePoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f550b89335a7ce75d23d01728478e121f10c6fd3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 56c08c242cb3822ebaea854026fb3f758768b7bf
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282560"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522226"
 ---
 # <a name="formmachines-connector-for-sharepoint"></a>FormMachines Connector für SharePoint
 
@@ -33,7 +33,7 @@ Von ENTERPRISE DIGITAL MACHINES PTY LTD an Microsoft bereitgestellte Information
 |:----------------|:-------------|
 | App-Name | FormMachines Connector für SharePoint |
 | ID | WA200000357 |
-| Office 365 unterstützten Clients | SharePoint 2016 oder höher |
+| unterstützte Office 365-Clients | SharePoint 2016 oder höher |
 | Name des Partnerunternehmens | ENTERPRISE DIGITAL MACHINES PTY LTD |
 | URL der Partnerwebsite | [https://www.formmachines.com](https://www.formmachines.com) |
 | URL der Datenschutzrichtlinie | [https://www.formmachines.com?dirKey=fm-privacy](https://www.formmachines.com?dirKey=fm-privacy) |
@@ -49,13 +49,13 @@ Von ENTERPRISE DIGITAL MACHINES PTY LTD an Microsoft bereitgestellte Information
 
 Diese Informationen wurden von ENTERPRISE DIGITAL MACHINES PTY LTD darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | (Login, E-Mail, Azure Guid, displayName, first_login_date_time) | ermöglicht es Benutzern, sich anzumelden, und ermöglicht app-Zugriff auf ihren UPN, um die automatische Anmeldung zu ermöglichen, ermöglicht es uns, jeden Benutzer eindeutig zu identifizieren. | 8c87660f-d36f-41f6-b0ae-025253f380aa |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | (Login, E-Mail, Azure Guid, displayName, first_login_date_time) | ermöglicht es Benutzern, sich anzumelden, und ermöglicht app-Zugriff auf ihren UPN, um die automatische Anmeldung zu ermöglichen, ermöglicht es uns, jeden Benutzer eindeutig zu identifizieren. | [8c87660f-d36f-41f6-b0ae-025253f380aa](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c87660f-d36f-41f6-b0ae-025253f380aa) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
