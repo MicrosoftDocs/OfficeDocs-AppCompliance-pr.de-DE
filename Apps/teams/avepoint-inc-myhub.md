@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MyHub, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a45478d976bc03d682c1236d8f266bc7443973a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: ffca0a4df366662e86001bb3d685986d877e8cca
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282018"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527631"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -33,7 +33,7 @@ Informationen von AvePoint, inc. für Microsoft:
 |:----------------|:-------------|
 | App-Name | MyHub |
 | ID | WA200000726 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | AvePoint, inc. |
 | URL der Partnerwebsite | [https://www.avepoint.com](https://www.avepoint.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
@@ -50,20 +50,20 @@ Informationen von AvePoint, inc. für Microsoft:
 
 Diese Informationen wurden von AvePoint, Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | Beide | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Verzeichnisdaten lesen | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Group.ReadWrite.All | Beide | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Schreib-/Lesezugriff auf alle Gruppen | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Mail.Send | Delegiert | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | E-Mails als Benutzer senden | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Reports.Read.All | Anwendung | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Alle Verwendungsberichte lesen | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.FullControl.All | Anwendung | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Sie benötigen Vollzugriff auf alle Websitesammlungen. | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.Read.All | Anwendung | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Elemente in allen Websitesammlungen lesen  | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.ReadWrite.All | Delegiert | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Bearbeiten oder Löschen von Elementen in allen Websitesammlungen | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| User.Read.All | Beide | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Alle Benutzer&#8217; vollständige Profile lesen | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | Beide | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Verzeichnisdaten lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | Beide | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Schreib-/Lesezugriff auf alle Gruppen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Mail.Send | Delegiert | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | E-Mails als Benutzer senden | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Reports.Read.All | Anwendung | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Alle Verwendungsberichte lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.FullControl.All | Anwendung | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Sie benötigen Vollzugriff auf alle Websitesammlungen. | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.Read.All | Anwendung | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Elemente in allen Websitesammlungen lesen  | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.ReadWrite.All | Delegiert | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Bearbeiten oder Löschen von Elementen in allen Websitesammlungen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read.All | Beide | Anwendungskonfigurationsdaten werden aus einer Sicht der Datenverarbeitung gespeichert. | Alle Benutzer&#8217; vollständige Profile lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

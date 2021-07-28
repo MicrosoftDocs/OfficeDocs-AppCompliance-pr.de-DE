@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tikit, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c292fa0c8e0ae526c7258f7adc508fcccaeb9d8
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: c17273ad8e2cdc9bd2f60ce5a3157f1f8473bb88
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789967"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525789"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -21,7 +21,7 @@ ms.locfileid: "52789967"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 4, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/b13c40ee-e073-459e-96b5-3f3cca046a37" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/b13c40ee-e073-459e-96b5-3f3cca046a37" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002602" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die Von Grapheson an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Tikit |
 | ID | WA200002602 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cireson |
 | URL der Partnerwebsite | [https://tikit.ai](https://tikit.ai) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://tikit.ai](https://tikit.ai) |
@@ -51,32 +51,32 @@ Informationen, die Von Grapheson an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Ihnen zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listen Sie alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Device.Read | Anwendung | Benutzerdiagramminformationen, die für einmaliges Anmelden über teams-Bot-Kommunikation verwendet werden  | Wir speichern Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID. Diese Informationen werden für Anwendungsauthentifizierung, Sicherheit, RBAC, Teams-Integration, Teams-Benachrichtigungen und Benutzerbeziehungszuordnung verwendet.   | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Directory.AccessAsUser.All | Delegiert | Gruppennamen und Rollen für RBAC | Rollenname des Gruppennamens, &amp; muss eine sichere zugeordnete Zugriffssteuerung bereitstellen. | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Directory.Read.All | Delegiert | Gruppennamen und Rollen für RBAC | Rollenname des Gruppennamens, &amp; muss eine sichere zugeordnete Zugriffssteuerung bereitstellen. | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Group.Read.All | Beide | Gruppennamen und Rollen für RBAC | Gruppennamen und Rollen für RBAC | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.Read | Delegiert | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.Read.All | Anwendung | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| User.ReadBasic.All | Delegiert | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| E-Mail | Delegiert | Benutzer-E-Mail, die für die Anmeldung und die zugehörige Identifikation verwandter Entitäten verwendet wird. &quot;Zugewiesener Benutzer&quot; | Benutzer-E-Mail, die für die Anmeldung und die zugehörige Identifikation verwandter Entitäten verwendet wird. &quot;Zugewiesener Benutzer&quot; | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| openid | Delegiert | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| Profil | Delegiert | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Device.Read | Anwendung | Benutzerdiagramminformationen, die für einmaliges Anmelden über teams-Bot-Kommunikation verwendet werden  | Wir speichern Benutzerrollen, Vornamen, Vornamen, E-Mail, AAD-ID Teams Benutzer-ID. Diese Informationen werden für Anwendungsauthentifizierung, Sicherheit, RBAC, Teams-Integration, Teams-Benachrichtigungen und Benutzerbeziehungszuordnung verwendet.   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Directory.AccessAsUser.All | Delegiert | Gruppennamen und Rollen für RBAC | Rollenname des Gruppennamens, &amp; muss eine sichere zugeordnete Zugriffssteuerung bereitstellen. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Directory.Read.All | Delegiert | Gruppennamen und Rollen für RBAC | Rollenname des Gruppennamens, &amp; muss eine sichere zugeordnete Zugriffssteuerung bereitstellen. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Group.Read.All | Beide | Gruppennamen und Rollen für RBAC | Gruppennamen und Rollen für RBAC | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | Delegiert | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | Anwendung | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | Delegiert | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, für die Authentifizierung verwendet  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| email | Delegiert | Benutzer-E-Mail, die für die Anmeldung und die zugehörige Identifikation verwandter Entitäten verwendet wird. &quot;Zugewiesener Benutzer&quot; | Benutzer-E-Mail, die für die Anmeldung und die zugehörige Identifikation verwandter Entitäten verwendet wird. &quot;Zugewiesener Benutzer&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| openid | Delegiert | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Profil | Delegiert | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| QnA Maker | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -87,7 +87,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Name und E-Mail für Benutzerentitätsbeziehungen &quot; Ticket Requestor&quot;  | Name und E-Mail  | für Benutzerentitätsbeziehungen &quot; Ticket Requestor&quot;  |
 
 
@@ -143,7 +143,7 @@ Diese Informationen wurden von DerEnson bereitgestellt, wie diese App die Authen
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Ja |

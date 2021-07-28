@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für "Retro" von "Baltic"-A0
+title: Anwendungsinformationen für Diete von Baltisch (Baltisch)
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Retro, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum #A0 sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Denz, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 49b17e202fb358284b9a36ed33646926d649afe3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2ccca5bd5160eb1772245841df037d2033f58881
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553456"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527621"
 ---
 # <a name="retro"></a>Retro
 
@@ -21,21 +21,21 @@ ms.locfileid: "52553456"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 3. November 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/434e1a1a-2ed7-4e45-9588-04f5099fd876" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/434e1a1a-2ed7-4e45-9588-04f5099fd876" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001892" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von Baltic Amadeus an Microsoft bereitgestellt werden:
+Informationen, die von Der Baltisch für Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Retro |
 | ID | WA200001892 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Baltic Amadeus |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Baltic Amadeus |
 | URL der Partnerwebsite | [https://www.ba.lt/en/](https://www.ba.lt/en/) |
 | URL der Datenschutzrichtlinie | [https://retro.ba.lt/privacypolicy](https://retro.ba.lt/privacypolicy) |
 | URL der Nutzungsbedingungen | [https://retro.ba.lt/termsandconditions](https://retro.ba.lt/termsandconditions) |
@@ -46,51 +46,51 @@ Informationen, die von Baltic Amadeus an Microsoft bereitgestellt werden:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Baltic Amadeus bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Der baltisch-baltisch-benutzerdefinierten Abteilung bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet microsoft Graph nicht.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Die App "Retro" verfügt über eine eigene Web-API, die nicht als Microsoft-Dienst betrachtet wird. Wie bereits erwähnt, werden E-Mail und Fullname zur Identifizierung und zur entsprechenden Inhaltsanzeige gespeichert. Diese Daten werden an keine andere Stelle gesendet. Darüber hinaus verfügt "Retro" über eine optionale Funktion zum Exportieren von Sprintdaten in den Atlassian-Zusammenflussbereich. Dazu muss der Benutzer seinen Benutzernamen und das Kennwort für den Zusammenfluss eingeben. Diese Daten werden nur verwendet, um authentifizierte Anforderungen an die Confluence-API im Namen des Benutzers zu stellen und werden weder gespeichert noch an einem beliebigen Ort protokolliert. |  | Retro verfügt über eine eigene Web-API, die auch in azure registriert ist. Um sie verwenden zu können, muss der Benutzer über die Microsoft Identity Platform authentifiziert werden. Der Benutzer muss authentifiziert werden, damit die App "Retro" benutzerspezifische Inhalte servern kann |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| Die Webanwendung verfügt über eine eigene Web-API, die nicht als Microsoft-Dienst betrachtet wird. Wie bereits erwähnt, werden E-Mail und Fullname zur Identifizierung und zu geeigneten Inhaltsanzeigezwecken gespeichert. Diese Daten werden an keiner anderen Stelle gesendet. Darüber hinaus verfügt Einer über eine optionale Funktionalität zum Exportieren von Sprintdaten in den Atlassian-Zusammenflussbereich. Dazu muss der Benutzer den Zugehörigen Benutzernamen und das Kennwort eingeben. Diese Daten werden nur verwendet, um authentifizierte Anforderungen an die Confluence-API im Namen des Benutzers zu senden, und sie werden nicht gespeichert oder an einer beliebigen Stelle protokolliert. |  | Der Besitzer verfügt über eine eigene Web-API, die auch in Azure registriert ist. Um sie verwenden zu können, muss der Benutzer über die Microsoft Identity Platform authentifiziert werden. Der Benutzer muss authentifiziert werden, damit die App benutzerspezifische Inhalte servern kann. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
->| Bot zugrifft auf den Dienstplan, um zu überprüfen, welches Mitglied dem Team beigetreten ist oder das Team verlassen hat. Auf dieser Grundlage wird dieser Benutzer entweder aus dem Projekt hinzugefügt oder deaktiviert, sodass der Benutzer nicht mehr in der Liste der Sprintteilnehmer angezeigt wird. | E-Mail und FullName sind miteinander verknüpft und werden in der Datenbank gespeichert. E-Mails werden zur Benutzeridentifizierung verwendet, um den entsprechenden Inhalt für den angemeldeten Benutzer anzuzeigen. FullName wird zum Anzeigen von Puproses verwendet, damit andere Benutzer wissen können, für wen sie Feedback auswerten oder schreiben.  |  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Bot greift auf die Liste zu, um zu überprüfen, welches Mitglied dem Team beigetreten ist oder dieses verlassen hat. Basierend darauf wird dieser Benutzer entweder aus dem Projekt hinzugefügt oder deaktiviert, sodass der Benutzer nicht mehr in der Liste der Sprintteilnehmer angezeigt wird. | E-Mails und FullName sind miteinander verknüpft und werden in der Datenbank gespeichert. E-Mails werden für die Benutzeridentifikation verwendet, um geeignete Inhalte für den angemeldeten Benutzer anzuzeigen. FullName wird zum Anzeigen von Veröffentlichungen verwendet, damit andere Benutzer wissen können, für wen sie Feedback auswerten oder schreiben.  |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Nein. Der einzige Prozess, der Telemetrie/Protokolle in der App "Retro" generiert, ist die Fehlerprotokollierung. Fehlerprotokolle enthalten keine EUII oder OII
+>Nein. Der einzige Prozess, der Telemetrie/Protokolle in Der App generiert, ist die Fehlerprotokollierung. Fehlerprotokolle enthalten keine EUII oder OII
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Daten werden in der azure sql server-Datenbank gespeichert. Sie wird über die App "Retro" und den "Retro-Bot" gespeichert.
-Standardmäßig ist die transparente Datenverschlüsselung für azure sql database aktiviert.
+>Daten werden in der Azure SQL Server-Datenbank gespeichert. Sie wird über die App Und Denk bot gespeichert.
+Standardmäßig ist in der Azure SQL-Datenbank die transparente Datenverschlüsselung aktiviert.
 Die Datenbank ist hinter der Standardauthentifizierung gesperrt.
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Ja
 
@@ -100,11 +100,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36148' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36148" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36148" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Uploader, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c42d6784cea1a1ce867c2935b91f30fc3ac2a1f8
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: db984b1c2a02537d29db11b2a5e2d3761c01e774
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282569"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525959"
 ---
 # <a name="uploader"></a>Uploader
 
@@ -50,29 +50,29 @@ Diese Informationen wurden von Office-Mitarbeitern darüber bereitgestellt, wie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | OneDrive: Um Daten im OneDrive des Benutzers lesen und schreiben zu können. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| Group.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Zum Lesen und Schreiben von Daten in eine Gruppe. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| GroupMember.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online – Unterstützung für Sicherheitsgruppen: zulassen, dass die App Gruppen auflistet, grundlegende Gruppeneigenschaften liest und die Mitgliedschaften aller Gruppen liest, auf die der angemeldete Benutzer Zugriff hat. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Um das Lesen von Daten in SharePoint Online zu aktivieren, hat der angemeldete Benutzer Zugriff darauf. So aktivieren Sie das Hochladen von Daten in SharePoint Online | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| User.Read | Delegiert | Es werden keine Daten gespeichert. | Sing-In: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Um herauszufinden, zu welchen Gruppen ein Benutzer gehört. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| offline_access | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um die automatische Anmeldung über Aktualisierungstoken wie ohne zu aktivieren, müssten sich Benutzer jedes Mal manuell anmelden, wenn sie die Officeatwork-App starten. Dieser Bereich ist nur für Nicht-SSO-aktivierte Hostanwendungen erforderlich. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| openid | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Damit sich Benutzer mit ihrem Organisations- und/oder Microsoft-Konto bei der Officeatwork-App anmelden können. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| Profil | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um den angemeldeten Benutzer in der Officeatwork-App anzuzeigen. Dadurch kann sichergestellt/bestätigt werden, welches Konto für die Anmeldung bei der Officeatwork-App verwendet wurde. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | OneDrive: Um Daten im OneDrive des Benutzers lesen und schreiben zu können. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Group.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Zum Lesen und Schreiben von Daten in eine Gruppe. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| GroupMember.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online – Unterstützung für Sicherheitsgruppen: zulassen, dass die App Gruppen auflistet, grundlegende Gruppeneigenschaften liest und die Mitgliedschaften aller Gruppen liest, auf die der angemeldete Benutzer Zugriff hat. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Um das Lesen von Daten in SharePoint Online zu aktivieren, hat der angemeldete Benutzer Zugriff darauf. So aktivieren Sie das Hochladen von Daten in SharePoint Online | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| User.Read | Delegiert | Es werden keine Daten gespeichert. | Sing-In: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Um herauszufinden, zu welchen Gruppen ein Benutzer gehört. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| offline_access | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um die automatische Anmeldung über Aktualisierungstoken wie ohne zu aktivieren, müssten sich Benutzer jedes Mal manuell anmelden, wenn sie die Officeatwork-App starten. Dieser Bereich ist nur für Nicht-SSO-aktivierte Hostanwendungen erforderlich. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| openid | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Damit sich Benutzer mit ihrem Organisations- und/oder Microsoft-Konto bei der Officeatwork-App anmelden können. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Profil | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um den angemeldeten Benutzer in der Officeatwork-App anzuzeigen. Dadurch kann sichergestellt/bestätigt werden, welches Konto für die Anmeldung bei der Officeatwork-App verwendet wurde. | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint-REST-APIs | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -132,7 +132,7 @@ Diese Informationen wurden von Officeatwork darüber bereitgestellt, wie diese A
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |

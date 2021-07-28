@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Cisco Webex-Besprechungen, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 34db97485d4c25655075a838adb5ec998ca324a5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: b46674ef9171747267a6f2142fa2d83c8cb7687b
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281357"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525779"
 ---
 # <a name="cisco-webex-meetings"></a>Cisco Webex-Meetings
 
@@ -34,7 +34,7 @@ Informationen, die Von Cisco Webex-Besprechungen an Microsoft bereitgestellt wer
 |:----------------|:-------------|
 | App-Name | Cisco Webex-Meetings |
 | ID | WA104381435 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cisco Webex-Meetings |
 | URL der Partnerwebsite | [https://www.cisco.com](https://www.cisco.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://collaborationhelp.cisco.com/](https://collaborationhelp.cisco.com/) |
@@ -51,9 +51,9 @@ Informationen, die Von Cisco Webex-Besprechungen an Microsoft bereitgestellt wer
 
 Diese Informationen wurden von Cisco Webex-Besprechungen darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -69,7 +69,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Die E-Mail-Adresse des Benutzers wird verwendet, um auf benutzerspezifische Besprechungen auf Cisco Webex-Websites zuzugreifen/diese zu planen. | In der Datenbank des Bot-Diensts werden keine Daten gespeichert. |  |
 
 

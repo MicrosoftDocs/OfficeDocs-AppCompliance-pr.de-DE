@@ -8,20 +8,20 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Bright Poll, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4dc8177da248fffd18ab6a4667cb6f94ea8db07c
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: af6e29845108dee6504e87864c80b5ef5a11aa16
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852053"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525829"
 ---
-# <a name="bright-poll"></a>Helle Umfrage
+# <a name="bright-poll"></a>Bright Poll
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 6, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/3a3156c1-b214-4d42-bc25-6d36f6aabb5e" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/3a3156c1-b214-4d42-bc25-6d36f6aabb5e" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002562" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -32,10 +32,10 @@ Informationen, die von Chat Apps, LLC für Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Helle Umfrage |
+| App-Name | Bright Poll |
 | ID | WA200002562 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Chat-Apps, LLC |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Chat Apps, LLC |
 | URL der Partnerwebsite | [https://brightpoll.app](https://brightpoll.app) |
 | URL der Datenschutzrichtlinie | [https://www.brightpoll.app/privacy](https://www.brightpoll.app/privacy) |
 | URL der Nutzungsbedingungen | [https://brightpoll.app/terms/](https://brightpoll.app/terms/) |
@@ -57,18 +57,18 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Das Speichern von Benutzernamen, eindeutigen IDs und E-Mail-Adressen ist erforderlich, um Abfragefunktionen bereitzustellen und zu unterstützen. | Eindeutige IDs, Namen und E-Mail-Adressen von Teams und Benutzern. | Eindeutige IDs, Namen und E-Mail-Adressen sind für die Funktionalität der App und zur Unterstützung der Anwendung erforderlich. |
 
 

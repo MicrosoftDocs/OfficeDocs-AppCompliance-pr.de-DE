@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workboard, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 94ad01886baec72c516f5e32953d8a7cbea17204
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.openlocfilehash: 7b795de57f2acf2b75cc63699d7ae4c14510dadd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53265761"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527521"
 ---
 # <a name="workboard"></a>Workboard
 
@@ -33,7 +33,7 @@ Von Workboard für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Workboard |
 | ID | WA104381599 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Workboard |
 | URL der Partnerwebsite | [https://www.workboard.com](https://www.workboard.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.workboard.com/microsoft/](https://www.workboard.com/microsoft/) |
@@ -50,13 +50,13 @@ Von Workboard für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Workboard bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | E-Mail-Adresse und die Benutzer-IDs.  Es wird verwendet, um den Benutzer der WorkBoard-Benutzer-ID zuzuordnen. | WorkBoard speichert nur die Identität des Benutzers in den Datenbanken | User.Read |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | E-Mail-Adresse und die Benutzer-IDs.  Es wird verwendet, um den Benutzer der WorkBoard-Benutzer-ID zuzuordnen. | WorkBoard speichert nur die Identität des Benutzers in den Datenbanken | [User.Read](https://docs.microsoft.com/microsoft-365-app-certification/azure/User.Read) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -70,7 +70,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Die Benutzer-ID wird für proaktive Benachrichtigungen verwendet, die von WorkBord an Teams gesendet werden. | E-Mail-Adresse und ID des Benutzers | Wird verwendet, um den Benutzer der Benutzer-ID von WorkBoard zuzuordnen. |
 
 

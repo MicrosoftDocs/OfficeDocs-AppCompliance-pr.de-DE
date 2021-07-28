@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für Officeatwork-| Überprüfung auf Office nach Officeatwork
+title: Anwendungsinformationen für officeatwork-| Überprüfung auf Office nach Officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Überprüfen Sie in der CSA STAR-Registrierung nach Office, den Datenverarbeitungsrichtlinien, den Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork-| Überprüfen Sie in der CSA STAR-Registrierung nach Office, den Richtlinien für die Datenverarbeitung, den Microsoft Cloud App Security App-Kataloginformationen und den Sicherheits-/Complianceinformationen.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1b6a88ced5c394cc5ccbb801463edd418fae24e0
-ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
+ms.openlocfilehash: c8ac51b56ccec7e502d0fef3e680b335799ff83a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53366190"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527451"
 ---
 # <a name="officeatwork--verifier-for-office"></a>officeatwork | Prüfer für Office
 
@@ -32,7 +32,7 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – Prüfer für Office |
 | ID | WA200000133 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf dem Mac, Word 2016 oder höher auf Windows, Word im Web, Word auf iPad |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf dem Mac, Word 2016 oder höher auf Windows, Word im Web, Word auf iPad |
 | Name des Partnerunternehmens | officeatwork |
 | URL der Partnerwebsite | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL der Datenschutzrichtlinie | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -50,31 +50,31 @@ Diese Informationen wurden von Office-Mitarbeitern darüber bereitgestellt, wie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.Read | Delegiert | Es werden keine Daten gespeichert. | OneDrive: Um die Dateien des angemeldeten Benutzers lesen zu können | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| Files.Read.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Um alle Dateien zu lesen, auf die der angemeldete Benutzer Zugriff hat. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Um das Lesen von Daten aus SharePoint Online zu ermöglichen, hat der angemeldete Benutzer Zugriff darauf. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| User.Read | Delegiert | Es werden keine Daten gespeichert. | Anmelden: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| offline_access | Delegiert | Es werden keine Daten gespeichert. | Anmeldung: Um die automatische Anmeldung über Aktualisierungstoken wie ohne zu aktivieren, müssten sich Benutzer jedes Mal manuell anmelden, wenn sie die Officeatwork-App starten. Dieser Bereich ist nur für Nicht-SSO-aktivierte Hostanwendungen erforderlich. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| openid | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Damit sich Benutzer mit ihrem Organisations- und/oder Microsoft-Konto bei der Officeatwork-App anmelden können. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| Profil | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um den angemeldeten Benutzer in der Officeatwork-App anzuzeigen. Dadurch kann sichergestellt/bestätigt werden, welches Konto für die Anmeldung bei der Officeatwork-App verwendet wurde. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.Read | Delegiert | Es werden keine Daten gespeichert. | OneDrive: Um die Dateien des angemeldeten Benutzers lesen zu können | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Files.Read.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Um alle Dateien zu lesen, auf die der angemeldete Benutzer Zugriff hat. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Um das Lesen von Daten aus SharePoint Online zu ermöglichen, hat der angemeldete Benutzer Zugriff darauf. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| User.Read | Delegiert | Es werden keine Daten gespeichert. | Anmelden: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| offline_access | Delegiert | Es werden keine Daten gespeichert. | Anmeldung: Um die automatische Anmeldung über Aktualisierungstoken wie ohne zu aktivieren, müssten sich Benutzer jedes Mal manuell anmelden, wenn sie die Officeatwork-App starten. Dieser Bereich ist nur für Nicht-SSO-aktivierte Hostanwendungen erforderlich. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| openid | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Damit sich Benutzer mit ihrem Organisations- und/oder Microsoft-Konto bei der Officeatwork-App anmelden können. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Profil | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um den angemeldeten Benutzer in der Officeatwork-App anzuzeigen. Dadurch kann sichergestellt/bestätigt werden, welches Konto für die Anmeldung bei der Officeatwork-App verwendet wurde. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Microsoft-APIs außer Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint-REST-APIs | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -130,7 +130,7 @@ Diese Informationen wurden von Officeatwork darüber bereitgestellt, wie diese A
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich.<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |

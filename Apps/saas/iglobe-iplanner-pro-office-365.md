@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für iPlanner Pro Office 365, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 41852c52286f1bbc9b3e8f7a2c8ea348b1e86bc6
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 614bdfc648f2f16d8c96c3ad699c5a022690c0d0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282643"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527721"
 ---
 # <a name="iplanner-pro-office-365"></a>iPlanner Pro Office 365
 
@@ -50,26 +50,26 @@ Diese Informationen wurden von iGlobe darüber bereitgestellt, wie diese App Org
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den jeweiligen Benutzer | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Contacts.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | zum Erstellen eines Termins im Kalender der Benutzer zum Fälligkeitsdatum der Aufgaben | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Directory.AccessAsUser.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Files.Read | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | So greifen Sie auf Datei als Anlage zu und laden Dateien in eine Aufgabe hoch | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Files.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ruft den Betreff der E-Mail aus der ausgewählten E-Mail ab. Ermöglicht der App, Informationen aus der ausgewählten E-Mail abzurufen, sodass das Beschreibungsfeld in die Aufgabenbeschreibung kopiert und Anlagen aus der E-Mail oder der E-Mail selbst in die Aufgabe gespeichert werden können. | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Group.Read.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den bestimmten Benutzer | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| User.Read | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den jeweiligen Benutzer | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| User.ReadBasic.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Suchen Sie nach Berechtigungen, und um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den jeweiligen Benutzer. | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Profil | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den jeweiligen Benutzer | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den jeweiligen Benutzer | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Contacts.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | zum Erstellen eines Termins im Kalender der Benutzer zum Fälligkeitsdatum der Aufgaben | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Directory.AccessAsUser.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Files.Read | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | So greifen Sie auf Datei als Anlage zu und laden Dateien in eine Aufgabe hoch | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Files.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ruft den Betreff der E-Mail aus der ausgewählten E-Mail ab. Ermöglicht der App, Informationen aus der ausgewählten E-Mail abzurufen, sodass das Beschreibungsfeld in die Aufgabenbeschreibung kopiert und Anlagen aus der E-Mail oder der E-Mail selbst in die Aufgabe gespeichert werden können. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Group.Read.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den bestimmten Benutzer | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| User.Read | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den jeweiligen Benutzer | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| User.ReadBasic.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Suchen Sie nach Berechtigungen, und um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den jeweiligen Benutzer. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Profil | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen, aktualisieren Sie den Bucket und die Strichlinie für den jeweiligen Benutzer | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange – EWS. AccessAsUser.All | Nein |  |  |  |  |
 >| Exchange – Mail.Read.All | Nein |  |  |  |  |
 >| SharePoint – AllSites.Manage | Nein |  |  |  |  |
@@ -78,7 +78,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Mi
 >| SharePoint – MyFiles.Read | Nein |  |  |  |  |
 >| SharePoint – MyFiles.Write | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

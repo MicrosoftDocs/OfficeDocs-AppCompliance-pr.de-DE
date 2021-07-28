@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart-Diagramme für Excel, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart Diagrams for Excel, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4b2fd25b60c7156a60dffbbdca4d45421c7c4659
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: eedc4340815926a96f52e2abebc2d553f07583e3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281117"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526031"
 ---
 # <a name="lucidchart-diagrams-for-excel"></a>Lucidchart-Diagramme für Excel
 
@@ -33,7 +33,7 @@ Von Lucid Software Inc für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Lucidchart-Diagramme für Excel |
 | ID | WA104380194 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher auf Windows, Excel im Web |
+| unterstützte Office 365-Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher auf Windows, Excel im Web |
 | Name des Partnerunternehmens | Lucid Software Inc |
 | URL der Partnerwebsite | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL der Datenschutzrichtlinie | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
@@ -51,28 +51,28 @@ Diese Informationen wurden von Lucid Software Inc. bereitgestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidchart, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidchart-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. |  |
->| openid | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidchart, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidchart-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. |  |
->| Profil | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidchart, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidchart-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. |  |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidchart, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidchart-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| openid | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidchart, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidchart-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Profil | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidchart, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidchart-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| JavaScript-API für Office | Ja | Wir verwenden das Office OneDrive Javascript SDK von, um die OneDrive Dateiauswahl mit OneDrive.open() zu öffnen. Wir generieren keine Zugriffstoken und stellen keine Anforderungen an die APIs von OneDrive; das OneDrive Dateiauswahl-SDK erledigt dies für uns. Es werden nur die Dateinamen angezeigt, die der Benutzer auswählt. |  | Wenn der Benutzer eine Datei mithilfe der OneDrive Dateiauswahl auswählt, wird der Dateiname gespeichert. |  |
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
+>| JavaScript-API für Office | Ja | Wir verwenden das Office OneDrive Javascript SDK aus, um die OneDrive Dateiauswahl mit OneDrive.open() zu öffnen. Wir generieren keine Zugriffstoken und stellen keine Anforderungen an die APIs OneDrive; das OneDrive Dateiauswahl-SDK erledigt dies für uns. Es werden nur die Dateinamen angezeigt, die der Benutzer auswählt. |  | Wenn der Benutzer eine Datei mithilfe der OneDrive Dateiauswahl auswählt, wird der Dateiname gespeichert. |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Lucidchart-Daten werden in AWS gespeichert. |  | Wir verwenden keine Microsoft-APIs. Wir verwenden openID, um grundlegende Benutzerdaten zum Ausführen von SSO abzurufen. Wir verwenden die Dateiauswahl-API, aber dadurch erhalten wir keinen Zugriff auf die Dateien des Benutzers, die sie über die Auswahl an uns übermitteln. |
 
 

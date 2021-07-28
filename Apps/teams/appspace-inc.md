@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Appspace, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7171a8574efe7757d024f4d9dd93056e7c206519
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: 592194c022b276a07d7fb91d9c0253724d8f28e7
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53459547"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527641"
 ---
 # <a name="appspace"></a>Appspace
 
@@ -34,7 +34,7 @@ Informationen, die Von Appspace, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Appspace |
 | ID | WA200001738 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Appspace, Inc. |
 | URL der Partnerwebsite | [https://www.appspace.com](https://www.appspace.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.appspace.com](https://www.appspace.com) |
@@ -53,23 +53,23 @@ Diese Informationen wurden von Appspace, Inc. bereitgestellt, wie diese App Orga
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Team.ReadBasic.All | Delegiert | Rufen Sie die Teams ab, zu denen der Benutzer gehört. | Der Anwendungscache kann die Teams und IDs enthalten, auf die das Benutzer-/Dienstkonto Zugriff hat. Diese Daten bleiben während des gesamten Lebenszyklus verschlüsselt. | a9a866c4-e5cf-47f2-932c-db14cb89008f |
->| User.ReadBasic.All | Delegiert | Lesen Sie grundlegende Profileigenschaften anderer Benutzer in Ihrer Organisation im Namen des angemeldeten Benutzers. Dazu gehören der Anzeigename, der Vor-und Nachname, die E-Mail-Adresse, Durchwahlen und Foto. Ermöglicht der App auch, das vollständige Profil des angemeldeten Benutzers zu lesen. | Der Benutzername des angemeldeten Benutzers wird beibehalten, damit Benutzer erkennen können, welches Benutzer- oder Dienstkonto sie mit der Appspace-Plattform verknüpft haben. | a9a866c4-e5cf-47f2-932c-db14cb89008f |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Team.ReadBasic.All | Delegiert | Rufen Sie die Teams ab, zu denen der Benutzer gehört. | Der Anwendungscache kann die Teams und IDs enthalten, auf die das Benutzer-/Dienstkonto Zugriff hat. Diese Daten bleiben während des gesamten Lebenszyklus verschlüsselt. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
+>| User.ReadBasic.All | Delegiert | Lesen Sie grundlegende Profileigenschaften anderer Benutzer in Ihrer Organisation im Namen des angemeldeten Benutzers. Dazu gehören der Anzeigename, der Vor-und Nachname, die E-Mail-Adresse, Durchwahlen und Foto. Ermöglicht der App auch, das vollständige Profil des angemeldeten Benutzers zu lesen. | Der Benutzername des angemeldeten Benutzers wird beibehalten, damit Benutzer erkennen können, welches Benutzer- oder Dienstkonto sie mit der Appspace-Plattform verknüpft haben. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 

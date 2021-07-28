@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SmartWork, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f6ed1a9278713153be2ef14d61ad56453ee03fa3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 5a2b3bebbba3c089c32490c1bacac86b258be96c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283199"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528291"
 ---
 # <a name="smartwork"></a>SmartWork
 
@@ -34,7 +34,7 @@ Von SmartWork von Intumit für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SmartWork |
 | ID | WA200001149 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SmartWork of Intumit |
 | URL der Partnerwebsite | [https://www.intumit.com/english/](https://www.intumit.com/english/) |
 | URL der Datenschutzrichtlinie | [https://www.intumit.com/privacy.html](https://www.intumit.com/privacy.html) |
@@ -50,13 +50,13 @@ Von SmartWork von Intumit für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von SmartWork of Intumit darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Verwenden von userPrincipalName zum Identifizieren, ob die E-Mails des Benutzers von gültigem AAD stammen oder nicht | Anmelden und Benutzerprofil lesen | a938ae1e-a791-4751-9e6a-178c991fa0fa |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | Verwenden von userPrincipalName zum Identifizieren, ob die E-Mails des Benutzers von gültigem AAD stammen oder nicht | Anmelden und Benutzerprofil lesen | [a938ae1e-a791-4751-9e6a-178c991fa0fa](https://docs.microsoft.com/microsoft-365-app-certification/azure/a938ae1e-a791-4751-9e6a-178c991fa0fa) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -70,7 +70,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Verwenden, um die E-Mails des Benutzers zu identifizieren, ob sie von gültigem AAD stammen oder nicht | Die E-Mail-Liste des gespeicherten Benutzers, um zu identifizieren, ob der Benutzer von gültigem AAD stammt oder nicht |  |
 
 

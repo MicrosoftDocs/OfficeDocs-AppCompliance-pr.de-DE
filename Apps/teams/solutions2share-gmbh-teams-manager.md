@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Teams Manager, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fbca7409c87bed006a18b31d7de2fa43afd9b95f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0f135c14a96849a21ebf424b152a257df8e5e9e9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283189"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528261"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -34,7 +34,7 @@ Von Solutions2Share GmbH für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Teams Manager |
 | ID | WA200000764 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Solutions2Share GmbH |
 | URL der Partnerwebsite | [https://teams-manager.com/](https://teams-manager.com/) |
 | URL der Datenschutzrichtlinie | [https://www.teams-manager.com/privacy](https://www.teams-manager.com/privacy) |
@@ -50,17 +50,17 @@ Von Solutions2Share GmbH für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Solutions2Share GmbH bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | Beide | Wir speichern die TenantID und TeamId, um die Vorlagen zuzuordnen.  | Alle Teams auflisten und auch Teams erstellen. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| Notes.ReadWrite.All | Anwendung | Keine | Ermöglicht der App das Hinzufügen von Notizbüchern zu einem genehmigten Team. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read | Delegiert | Keine | Ermöglicht dem Benutzer die Anmeldung und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung zu aktivieren. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read.All | Beide | Wir speichern die ID des Benutzers, der im Abschnitt "Genehmigende Person/Administrator" eingegeben wird. | Listet alle Benutzer auf, um sie in der Personenauswahl innerhalb der App anzuzeigen. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.ReadBasic.All | Delegiert | Keine | Listet alle Benutzer auf, um sie in der Personenauswahl innerhalb der App anzuzeigen. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | Beide | Wir speichern die TenantID und TeamId, um die Vorlagen zuzuordnen.  | Alle Teams auflisten und auch Teams erstellen. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| Notes.ReadWrite.All | Anwendung | Keine | Ermöglicht der App das Hinzufügen von Notizbüchern zu einem genehmigten Team. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.Read | Delegiert | Keine | Ermöglicht dem Benutzer die Anmeldung und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung zu aktivieren. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.Read.All | Beide | Wir speichern die ID des Benutzers, der im Abschnitt "Genehmigende Person/Administrator" eingegeben wird. | Listet alle Benutzer auf, um sie in der Personenauswahl innerhalb der App anzuzeigen. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.ReadBasic.All | Delegiert | Keine | Listet alle Benutzer auf, um sie in der Personenauswahl innerhalb der App anzuzeigen. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

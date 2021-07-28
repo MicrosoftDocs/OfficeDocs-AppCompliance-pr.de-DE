@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ChurnZero, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0e92bdd9440e20ebf30cece47ee17e675b35656
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 18ebf804bfc99fe0d31043aee77fa856f42dda7a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852064"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525799"
 ---
 # <a name="churnzero"></a>ChurnZero
 
@@ -21,7 +21,7 @@ ms.locfileid: "52852064"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 10, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c2e66b59-725d-4c56-8a0e-ee2587031d9f" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/c2e66b59-725d-4c56-8a0e-ee2587031d9f" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002581" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von ChurnZero für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | ChurnZero |
 | ID | WA200002581 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ChurnZero |
 | URL der Partnerwebsite | [https://churnzero.net](https://churnzero.net) |
 | URL der Datenschutzrichtlinie | [https://churnzero.net/churnzero-privacy-policy-202101/](https://churnzero.net/churnzero-privacy-policy-202101/) |
@@ -52,25 +52,25 @@ Diese Informationen wurden von ChurnZero darüber bereitgestellt, wie diese App 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Die Azure-Objekt-ID des delegierenden Benutzers, der mit einem ChurnZero-Benutzer korreliert, um diesen Benutzer während einer zukünftigen Botsitzung zu identifizieren und zu autorisieren. | Die Azure-Objekt-ID des delegierenden Benutzers, der mit einem ChurnZero-Benutzer korreliert, um diesen Benutzer während einer zukünftigen Botsitzung zu identifizieren und zu autorisieren. | c2e66b59-725d-4c56-8a0e-ee2587031d9f |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | Die Azure-Objekt-ID des delegierenden Benutzers, der mit einem ChurnZero-Benutzer korreliert, um diesen Benutzer während einer zukünftigen Botsitzung zu identifizieren und zu autorisieren. | Die Azure-Objekt-ID des delegierenden Benutzers, der mit einem ChurnZero-Benutzer korreliert, um diesen Benutzer während einer zukünftigen Botsitzung zu identifizieren und zu autorisieren. | [c2e66b59-725d-4c56-8a0e-ee2587031d9f](https://docs.microsoft.com/microsoft-365-app-certification/azure/c2e66b59-725d-4c56-8a0e-ee2587031d9f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Ermöglicht unserem Client, seine Kontakte anhand des Namens zu identifizieren und ihnen E-Mails als Teil des normalen Geschäftsbetriebs zu senden. ChurnZero ist ein Verarbeiter dieser Daten, kein Collector. | Vorname, Nachname, E-Mail-Adresse der Kontakte, die unser Client angegeben hat. | Ermöglicht unserem Client, seine Kontakte anhand des Namens zu identifizieren und ihnen E-Mails als Teil des normalen Geschäftsbetriebs zu senden. ChurnZero ist ein Verarbeiter dieser Daten, kein Collector. |
 
 
@@ -84,7 +84,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->–
+>Nicht zutreffend
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

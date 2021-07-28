@@ -1,43 +1,43 @@
 ---
-title: Anwendungsinformationen für Vacation Tracker by Vacation Tracker
+title: Anwendungsinformationen für den Urlaubs-Tracker von "Vacation Tracker"
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Vacation Tracker, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security-App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Urlaubs-Tracker, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 89ed0cc27e26acdeae13cc787fc180cc9f93b8ae
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 55d54fbb94141dec562a829fdc647279a3cc006e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550995"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527541"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 5. Februar 2021</p>
+<p>Last updated by the developer on: February 5, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/eab5463e-8168-40ee-887a-7ac78de1d266" target="_blank">Ansicht im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/eab5463e-8168-40ee-887a-7ac78de1d266" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002167" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von Vacation Tracker an Microsoft bereitgestellt werden:
+Informationen, die von Vacation Tracker für Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Vacation Tracker |
 | ID | WA200002167 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Partnerunternehmensname | Vacation Tracker |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Vacation Tracker |
 | URL der Partnerwebsite | [https://vacationtracker.io](https://vacationtracker.io) |
-| URL Teams Anwendungsinfoseite | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
+| URL der Seite mit Teams Anwendungsinformationen | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
 | URL der Datenschutzrichtlinie | [https://vacationtracker.io/privacy-policy/](https://vacationtracker.io/privacy-policy/) |
 | URL der Nutzungsbedingungen | [https://vacationtracker.io/terms-of-service/](https://vacationtracker.io/terms-of-service/) |
 
@@ -47,59 +47,59 @@ Informationen, die von Vacation Tracker an Microsoft bereitgestellt werden:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>So verarbeitet die App Daten
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Vacation Tracker bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Vacation Tracker darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegierte/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.Read.All | delegierte | Wir lesen IDs und Namen des öffentlichen Kanals, wenn Benutzer ihre wöchentlichen oder täglichen Benachrichtigungen festlegen. | Benutzer können einen Kanal auswählen, in dem sie tägliche oder wöchentliche Benachrichtigungen von Vacation Tracker erhalten möchten. Wenn ein Benutzer seinen bevorzugten Kanal wählt, speichern wir die Kanal-ID. | eab5463e-8168-40ee-887a-7ac78de1d266 |
->| Team.ReadBasic.All | delegierte | Wir listen die Microsoft Teams Teams auf, die während der Anmeldung beigetreten sind, um Benutzern die Auswahl eines Teams zu ermöglichen, das sie sich für Vacation Tracker registrieren möchten. Sie können sich alternativ bei ihrer gesamten Organisation registrieren. | Wir speichern die Microsoft Teams Team-ID für ein ausgewähltes Team nur, wenn sich der Benutzer für Vacation Tracker als einzelnes Team (nicht als ganze Organisation) einschreibt. Wir verwenden Team-IDs, um einen angemeldeten Benutzer mit einem vorhandenen Konto in Vacation Tracker zu verbinden. | eab5463e-8168-40ee-887a-7ac78de1d266 |
->| User.Read | delegierte | Wir erfassen die grundlegenden Benutzerinformationen, einschließlich name, ID und Mandanten-ID. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation in Vacation Tracker zu verbinden. | Wir speichern den Namen, die ID und die Mandanten-ID des Benutzers. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation in Vacation Tracker zu verbinden. | eab5463e-8168-40ee-887a-7ac78de1d266 |
->| User.Read.All | delegierte | Unsere Benutzer können alle Benutzer aus ihrer Microsoft 365 oder Microsoft Teams importieren. Wir verwenden diese Berechtigung, um nur lizenzierte Benutzer für ein ausgewähltes Microsoft Teams oder Organisation zu importieren. | Wir speichern grundlegende Informationen zu importierten Benutzern, einschließlich Name, E-Mail-Adresse und Benutzer-ID. | eab5463e-8168-40ee-887a-7ac78de1d266 |
->| User.ReadBasic.All | delegierte | Wir ermöglichen Benutzern das Importieren der anderen Benutzer aus ihrer Organisation oder ihrem Microsoft Teams Team. Wir verwenden diese Berechtigung, um die verfügbaren Benutzer und ihre E-Mail-Adressen im Importpopup auflisten. | Wenn Benutzer ihre Kollegen auswählen, die in die Urlaubsverfolgung importiert werden sollen, speichern wir grundlegende Informationen zu diesen importierten Benutzern, einschließlich Name, E-Mail-Adresse und Benutzer-ID. | eab5463e-8168-40ee-887a-7ac78de1d266 |
->| email | delegierte | Wenn sich der Benutzer mit Microsoft AAD anmeldet, speichern wir seine E-Mail-Adresse als eindeutigen Bezeichner. | Wir speichern die E-Mails des Benutzers als eindeutigen Bezeichner. Wir verwenden diese E-Mail nicht für die Kommunikation, Benutzer geben ihre geschäftliche E-Mail-Adresse ein, die wir während der Anmeldung für die Kommunikation verwenden. | eab5463e-8168-40ee-887a-7ac78de1d266 |
->| offline_access | delegierte | Wir sammeln keine Daten mit dieser Berechtigung. Es wird verwendet, um den Zugriff auf Daten zu verwalten, auf die wir zugreifen dürfen. | Wir speichern keine Daten mit dieser Berechtigung. | eab5463e-8168-40ee-887a-7ac78de1d266 |
->| openid | delegierte | Wir verwenden diese Berechtigung zum Anmelden oder Registrieren von Benutzern bei Vacation Tracker. Wir sammeln keine bestimmten Daten mit dieser Berechtigung. | Wir verwenden diese Berechtigung zum Anmelden oder Registrieren von Benutzern bei Vacation Tracker. Wir speichern keine bestimmten Daten mit dieser Berechtigung. | eab5463e-8168-40ee-887a-7ac78de1d266 |
->| Profil | delegierte | Wir erfassen die grundlegenden Benutzerinformationen, einschließlich name, ID und Mandanten-ID. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation in Vacation Tracker zu verbinden. | Wir speichern den Namen, die ID und die Mandanten-ID des Benutzers. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation in Vacation Tracker zu verbinden. | eab5463e-8168-40ee-887a-7ac78de1d266 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.Read.All | Delegiert | Wir lesen die IDs und Namen öffentlicher Kanäle, wenn Benutzer ihre wöchentlichen oder täglichen Benachrichtigungen festlegen. | Benutzer können einen Kanal auswählen, in dem sie tägliche oder wöchentliche Benachrichtigungen vom Vacation Tracker erhalten möchten. Wenn ein Benutzer den bevorzugten Kanal auswählt, wird die Kanal-ID gespeichert. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Team.ReadBasic.All | Delegiert | Wir listen die Microsoft Teams Teams-Benutzer auf, die während der Registrierung beigetreten sind, damit Benutzer ein Team auswählen können, das sie für die Urlaubsverfolgung registrieren möchten. Sie können sich alternativ bei ihrer gesamten Organisation registrieren. | Wir speichern die Microsoft Teams Team-ID für ein ausgewähltes Team nur, wenn sich der Benutzer als einzelnes Team (nicht als ganze Organisation) für die Urlaubsverfolgung registriert. Wir verwenden Team-IDs, um einen angemeldeten Benutzer mit einem vorhandenen Konto im Urlaubs-Tracker zu verbinden. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| User.Read | Delegiert | Wir erfassen die grundlegenden Benutzerinformationen, einschließlich Name, ID und Mandanten-ID. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation im Urlaubs-Tracker zu verbinden. | Wir speichern den Namen, die ID und die Mandanten-ID des Benutzers. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation im Urlaubs-Tracker zu verbinden. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| User.Read.All | Delegiert | Unsere Benutzer können alle Benutzer aus ihrer Microsoft 365 Organisation oder Microsoft Teams Team importieren. Wir verwenden diese Berechtigung, um nur lizenzierte Benutzer für ein ausgewähltes Microsoft Teams Team oder eine ausgewählte Organisation zu importieren. | Wir speichern grundlegende Informationen zu importierten Benutzern, einschließlich name, E-Mail-Adresse und Benutzer-ID. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| User.ReadBasic.All | Delegiert | Wir ermöglichen Benutzern, die anderen Benutzer aus ihrer Organisation oder ihrem Microsoft Teams-Team zu importieren. Wir verwenden diese Berechtigung, um die verfügbaren Benutzer und ihre E-Mail-Adressen im Importpopup aufzulisten. | Wenn Benutzer ihre Kollegen auswählen, die in den Urlaubs-Tracker importiert werden sollen, speichern wir grundlegende Informationen zu diesen importierten Benutzern, einschließlich name, E-Mail-Adresse und Benutzer-ID. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| email | Delegiert | Wenn sich der Benutzer mit Microsoft AAD anmeldet, speichern wir seine E-Mail-Adresse als eindeutigen Bezeichner. | Wir speichern die E-Mails des Benutzers als eindeutigen Bezeichner. Wir verwenden diese E-Mail nicht für die Kommunikation, Benutzer geben ihre geschäftliche E-Mail-Adresse ein, die wir für die Kommunikation während der Registrierung verwenden. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| offline_access | Delegiert | Wir sammeln keine Daten mit dieser Berechtigung. Es wird verwendet, um den Zugriff auf Daten beizubehalten, auf die wir zugreifen dürfen. | Wir speichern keine Daten mit dieser Berechtigung. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| openid | Delegiert | Wir verwenden diese Berechtigung zum Anmelden oder Registrieren von Benutzern beim Urlaubs-Tracker. Wir sammeln keine bestimmten Daten mit dieser Berechtigung. | Wir verwenden diese Berechtigung zum Anmelden oder Registrieren von Benutzern beim Urlaubs-Tracker. Wir speichern keine bestimmten Daten mit dieser Berechtigung. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Profil | Delegiert | Wir erfassen die grundlegenden Benutzerinformationen, einschließlich Name, ID und Mandanten-ID. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation im Urlaubs-Tracker zu verbinden. | Wir speichern den Namen, die ID und die Mandanten-ID des Benutzers. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation im Urlaubs-Tracker zu verbinden. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Stripe, AWS, Crisp, Customer.io, Segment, Amplitude, Google Tag Manager | Firmenname (wie vom Benutzer eingegeben) | Wenn sich ein Benutzer meldet, gibt er seinen Firmennamen ein, und wir verwenden diesen Namen als Organisationsname innerhalb des Produkts. |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| Stripe, AWS, Crisp, Customer.io, Segment, Amplitude, Google Tag Manager | Firmenname (wie vom Benutzer eingegeben) | Wenn sich ein Benutzer anmeldet, gibt er den Firmennamen ein, und dieser Name wird als Organisationsname im Produkt verwendet. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messagingerweiterung enthält, kann sie auf identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) jedes Teammitglieds in einem Team oder Chat, dem es hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
->| Der Bot kann die grundlegenden Informationen über den Benutzer sehen, der mit dem Bot kommuniziert. Diese Informationen werden jedoch nicht gespeichert oder verwendet. Wir verwenden nur die Benutzer-ID, die Unterhaltungs-ID und eine Nachricht, die an unseren Bot gesendet wird. | Wir speichern die E-Mail-Adresse des Benutzers, den Benutzernamen (wie im Microsoft AAD definiert) und das Profilfoto des Benutzers (von Microsoft AAD) | Wir verwenden eine E-Mail-Adresse als eindeutige ID für unsere Benutzer sowie den Namen und das Profilfoto des Benutzers, um Administratoren und genehmigende Benutzer aus demselben Unternehmen zu ermöglichen, ihre Mitarbeiter in unserem Dashboard zu erkennen.  |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Der Bot kann die grundlegenden Informationen über den Benutzer sehen, der mit dem Bot kommuniziert. Diese Informationen werden jedoch nicht gespeichert oder verwendet. Wir verwenden nur die ID des Benutzers, die Unterhaltungs-ID und eine an unseren Bot gesendete Nachricht. | Wir speichern die E-Mail-Adresse des Benutzers, den Benutzernamen (gemäß Definition in Microsoft AAD) und das Profilfoto des Benutzers (von Microsoft AAD). | Wir verwenden eine E-Mail-Adresse als eindeutigen Bezeichner für unsere Benutzer sowie den Namen und das Profilfoto des Benutzers, damit Administratoren und genehmiger Personen aus demselben Unternehmen ihre Mitarbeiter in unserem Dashboard erkennen können.  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsidentifizierbare Informationen (OII) oder endbenutzeridentifizierbare Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Firmenname und wird gemäß unserer standardmäßigen Ein-Jahres-Aufbewahrungsrichtlinie für diese Art von Daten beibehalten und entfernt
+>Name des Unternehmens und wird gemäß unserer standardmäßigen Ein-Jahres-Aufbewahrungsrichtlinie für diese Art von Daten beibehalten und entfernt.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Zu Beginn erfassen wir die Mindestmenge an Daten, die von Benutzern benötigt werden. Dann teilen wir das Möglichste mit unseren Partnern und schließlich haben wir Richtlinien für die Datenaufbewahrung, sodass alle Daten ggf. innerhalb eines Jahres entfernt werden.
+>Zunächst erfassen wir die Mindestmenge an Daten, die von Benutzern benötigt werden. Dann teilen wir das möglichst minimale Maß mit unseren Partnern, und schließlich haben wir Richtlinien für die Datenaufbewahrung, sodass alle Daten innerhalb eines Jahres entfernt werden, falls zutreffend.
 
-#### <a name="human-review-of-organizational-information"></a>Human review of organizational information
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organizational Identifiable Information, OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Ja
 
@@ -109,11 +109,11 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (Organiza
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417" target="_blank">Anzeigen auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -123,22 +123,22 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Vacation Tracker bereitgestellt, um zu erfahren, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien verarbeitet.
+Diese Informationen wurden von Vacation Tracker darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden geprüft und befolgt, die in der Prüfliste Microsoft Identity Platform aufgeführt sind?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Nein |
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Bittet Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario? | Ja |
-| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordern wird? | Ja |
-| Unterstützt Ihre App mehrere Mandanzfähigkeiten? | Ja |
+| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
+| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
-| Besitzen Sie alle umgeleiteten Unified Resource Identifier (URI), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | - UrIs für die Platzhalterumleitung,<br/>- OAuth2 Implizite Flow, es sei denn, dies ist für eine SPA erforderlich<br/>– Fluss mit Kennwortanmeldeinformationen (Password Credential, ROPC) des Ressourcenbesitzers |
+| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
-| Lässt Ihr Berechtigungsmodell nur dann den Erfolg von Aufrufen zu, wenn die Client-App die entsprechende Zustimmung erhält? | Ja |
+| Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Yeeflow, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9b1292e935d526947d689c9c5de9638589270957
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: be7c69f2f08c4e8710499a0cf831fe020e69d86f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281457"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527671"
 ---
 # <a name="yeeflow"></a>Yeeflow
 
@@ -21,7 +21,7 @@ ms.locfileid: "53281457"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 25, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/7c10d6ae-b4ad-4221-b086-8518f5d4a1c4" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/7c10d6ae-b4ad-4221-b086-8518f5d4a1c4" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000089" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Akmii für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Yeeflow |
 | ID | WA200000089 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Akmii |
 | URL der Partnerwebsite | [https://www.akmii.com](https://www.akmii.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.yeeflow.com](https://www.yeeflow.com) |
@@ -69,7 +69,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Senden Sie eine benutzerfreundliche Nachricht, und identifizieren Sie den Benutzer. | E-Mail und Name des Benutzers | zum Senden von Benutzerbenachrichtigungen und Anzeigen des Benutzernamens |
 
 

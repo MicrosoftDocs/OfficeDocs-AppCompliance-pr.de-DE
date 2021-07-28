@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SurveyMonkey, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: daf5de5437a08ca8b748157a5e136bbe7b114122
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f4898e476e0848ba728d07d0d851fc09f239aecf
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280817"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528201"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -34,7 +34,7 @@ Von SurveyMonkey für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SurveyMonkey |
 | ID | WA104381088 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SurveyMonkey |
 | URL der Partnerwebsite | [https://www.surveymonkey.com](https://www.surveymonkey.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |
@@ -51,13 +51,13 @@ Von SurveyMonkey für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von SurveyMonkey darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | Delegiert | Nein | So stellen Sie eine Liste von Gruppen/Kanälen bereit, mit denen eine Umfrage geteilt werden kann |  |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | Delegiert | Nein | So stellen Sie eine Liste von Gruppen/Kanälen bereit, mit denen eine Umfrage geteilt werden kann | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -65,15 +65,15 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| In SurveyMonkey wird nur die MS-Benutzer-ID gespeichert, um Antworten und Umfragen dem Teambenutzer zuzuordnen. |  | Für Teams verwenden wir das Microsoft Teams javascript SDK im Aufgabenmodul "Erstellen", "Umfrage" und "Umfrageergebnisse" modal. |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| In SurveyMonkey wird nur die MS-Benutzer-ID gespeichert, um Antworten und Umfragen dem Teambenutzer zuzuordnen. |  | Für Teams verwenden wir das Microsoft Teams Javascript SDK im Aufgabenmodul "Erstellen", "Umfrageergebnisse" und "Umfrageergebnisse" modal. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Wir rufen v3/conversations/{id}/pagedmembers auf, um zu überprüfen, ob die App einem Team hinzugefügt wird, und die Mitgliederanzahl abzurufen. Es ist für die interne Nachverfolgung der Nutzung, wir betrachten nur die Größe der Chatliste, andere Informationen werden ignoriert. | Ja, die Größe des Chats wird gespeichert (eine einzelne ganze Zahl) |  |
 
 
@@ -81,7 +81,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->EUII : Jedes Mal, wenn eine Umfrage eine Antwort erhält, wird ein Erfolgs-/Fehlerprotokoll erstellt, und wir versuchen, diese Antwort über den Connector an Teams zu senden. Dieses Protokoll enthält user_id, survey_id integration_id (die in der Datenbank verwendet werden können, um nach ms Team-ID, MS-Benutzer-ID zu suchen).
+>EUII – Ein Erfolg-/Fehlerprotokoll wird erstellt, sobald eine Umfrage eine Antwort erhält, und wir versuchen, diese Antwort über den Connector an Teams zu senden. Dieses Protokoll enthält user_id, survey_id integration_id (die in der Datenbank verwendet werden können, um die MS-Team-ID, MS-Benutzer-ID nachzuschlagen).
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Brightidea, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8648dbe30e43ca31964493d797cb3629234fa671
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: cdeb4cfb6fdcdc8008f9280c59d3ae358c8ce725
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281387"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525849"
 ---
 # <a name="brightidea"></a>Brightidea
 
@@ -34,7 +34,7 @@ Von Brightidea für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Brightidea |
 | ID | WA200002795 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Brightidea |
 | URL der Partnerwebsite | [https://brightidea.com](https://brightidea.com) |
 | URL der Datenschutzrichtlinie | [https://www.brightidea.com/privacy/](https://www.brightidea.com/privacy/) |
@@ -50,9 +50,9 @@ Von Brightidea für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Brightidea darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -62,15 +62,15 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Amazon Web Services | E-Mail-Adresse/Domäne | So ordnen Sie Ideengeber in Teams ihrem Brightidea-Konto zu; Unsere Benutzerdatenbank befindet sich in AWS |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| Amazon Web Services | E-Mail-Adresse/Domäne | Um Ideengeber in Teams ihrem Brightidea-Konto zuzuordnen; Unsere Benutzerdatenbank befindet sich in AWS |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| So ordnen Sie Ideengeber in Teams ihrem Brightidea-Konto zu | Nein |  |
 
 

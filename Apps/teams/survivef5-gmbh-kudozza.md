@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Kudozza, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 85221e2c57cbe5954e3343d8a44cec704c71eda9
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3e457fef49ce1ad352080d5a7f1a74ac7907038e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280777"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528191"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -34,7 +34,7 @@ Informationen, die von surviveF5 GmbH an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Kudozza |
 | ID | WA200002599 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | surviveF5 GmbH |
 | URL der Partnerwebsite | [https://surviveF5.com](https://surviveF5.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://kudozza.com](https://kudozza.com) |
@@ -51,7 +51,7 @@ Informationen, die von surviveF5 GmbH an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von surviveF5 GmbH bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
@@ -63,7 +63,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS | userId, teamId, tenantId, username | Der Dienst und die Datenbank werden in AWS gehostet.  |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
@@ -71,7 +71,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Kudos werden an andere Personen gesendet, und die Nachricht muss häufig erneut gesendet werden. Außerdem wird eine Rangfolge bereitgestellt, die es erforderlich macht, die Namen und IDs der Benutzer mithilfe der Kudozza-Anwendung zu speichern. | userid, username | Kudos werden an andere Personen gesendet, und die Nachricht muss häufig erneut gesendet werden. Außerdem wird eine Rangfolge bereitgestellt, die es erforderlich macht, die Namen und IDs der Benutzer mithilfe der Kudozza-Anwendung zu speichern. |
 
 
@@ -126,7 +126,7 @@ Diese Informationen wurden von surviveF5 GmbH bereitgestellt, wie diese App die 
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |

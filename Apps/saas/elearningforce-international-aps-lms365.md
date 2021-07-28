@@ -6,14 +6,14 @@ ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für LMS365, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für LMS365, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2fa9fb2637b40b439bc6450514e194e222415ec0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: dbae54f25aa4b1a22917bc79c53724fd398b6ed2
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282646"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525999"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -49,25 +49,25 @@ Diese Informationen wurden von ELEARNINGFORCE International Aps zur Verfügung g
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| GroupMember.Read.All | Anwendung | Keine | Ermöglicht der App, AD-Gruppenmitglieder zu erweitern, was erforderlich ist, um eine Gruppe von Benutzern für die Kurse zu registrieren. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| Mail.Send | Delegiert | Keine | Die Berechtigung wird während der Konfiguration des E-Mail-Kontos für Benachrichtigungen dynamisch angefordert. Ermöglicht der App das Senden von Benachrichtigungs-E-Mails | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| RoleManagement.Read.Directory | Anwendung | Keine | Ermöglicht der App, während der Mandantenbereitstellung SharePoint Domäne abzurufen. Die Domäne wird für die URL-Erstellung verwendet. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Invite.All | Delegiert | Keine | Ermöglicht der App, externe Benutzer im Namen des aktuell angemeldeten Benutzers einzuladen. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read | Delegiert | Keine | Melden Sie sich an, und lesen Sie das Benutzerprofil. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read.All | Delegiert | Keine | Ermöglicht der App, das vollständige Profil des aktuell angemeldeten Benutzers zu lesen. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| User.Read.All | Anwendung | Ermöglicht der App das Lesen des vollständigen Benutzerprofils. Es&#8217;benötigt, um Benutzer&#8217; Manager zu lesen, um Hierarchieberichte zu erstellen. | Die folgenden personenbezogenen Daten werden in einer dedizierten Datenbank für den jeweiligen Kunden gespeichert, der für die Dashboard-Funktionen des Verwaltungsmanagers für Lernende innerhalb der Anwendung verwendet &amp; wird. Kontoname, Anzeigename des Benutzers, E-Mail-Adresse, Abteilung, Position, Office, Land, Stadt, Manager-ID/E-Mail | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
->| Profil | Delegiert | Keine | Zeigen Sie das grundlegende Profil des Benutzers an. | a1a0b277-0efb-4f00-9661-6d1a3df3cddc |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| GroupMember.Read.All | Anwendung | Keine | Ermöglicht der App, AD-Gruppenmitglieder zu erweitern, was erforderlich ist, um eine Gruppe von Benutzern für die Kurse zu registrieren. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| Mail.Send | Delegiert | Keine | Die Berechtigung wird während der Konfiguration des E-Mail-Kontos für Benachrichtigungen dynamisch angefordert. Ermöglicht der App das Senden von Benachrichtigungs-E-Mails | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| RoleManagement.Read.Directory | Anwendung | Keine | Ermöglicht der App, während der Mandantenbereitstellung SharePoint Domäne abzurufen. Die Domäne wird für die URL-Erstellung verwendet. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Invite.All | Delegiert | Keine | Ermöglicht der App, externe Benutzer im Namen des aktuell angemeldeten Benutzers einzuladen. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read | Delegiert | Keine | Melden Sie sich an, und lesen Sie das Benutzerprofil. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | Delegiert | Keine | Ermöglicht der App, das vollständige Profil des aktuell angemeldeten Benutzers zu lesen. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | Anwendung | Ermöglicht der App das Lesen des vollständigen Benutzerprofils. Es&#8217;benötigt, um Benutzer&#8217; Manager zu lesen, um Hierarchieberichte zu erstellen. | Die folgenden personenbezogenen Daten werden in einer dedizierten Datenbank für den jeweiligen Kunden gespeichert, der für die Dashboard-Funktionen des Verwaltungsmanagers für Lernende innerhalb der Anwendung verwendet &amp; wird. Kontoname, Anzeigename des Benutzers, E-Mail-Adresse, Abteilung, Position, Office, Land, Stadt, Manager-ID/E-Mail | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| Profil | Delegiert | Keine | Zeigen Sie das grundlegende Profil des Benutzers an. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint | Nein |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -82,7 +82,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Ja, wir verwenden Insights Log Analytics-Telemetriedaten/-protokolle, die nur für Problembeschießen verwendet werden und eine Aufbewahrungsrichtlinie von 90 Tagen haben, nach der alle Daten gelöscht werden.
+>Ja, wir verwenden Insights Log Analytics-Telemetriedaten/-protokolle, die nur für Das Aufnehmen von Problemen verwendet werden und eine Aufbewahrungsrichtlinie von 90 Tagen haben, nach der alle Daten gelöscht werden.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 

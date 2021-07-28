@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Adobe Sign für Word und PowerPoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0c5ed86f2de8925a87b726db9c2a9946721e06c7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 81a0012ebbc0e77af0fee9fa73a22f187972d13c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283329"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527501"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign für Word und PowerPoint
 
@@ -32,7 +32,7 @@ Von Adobe Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Adobe Sign für Word und PowerPoint |
 | ID | WA104381155 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf dem Mac, PowerPoint 2013 Service Pack 1 oder höher auf Windows, Word 2013 Service Pack 1 oder höher auf Windows, Word im Web, PowerPoint im Web, PowerPoint 2016 oder höher auf Mac |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf dem Mac, PowerPoint 2013 Service Pack 1 oder höher auf Windows, Word 2013 Service Pack 1 oder höher auf Windows, Word im Web, PowerPoint im Web, PowerPoint 2016 oder höher auf Mac |
 | Name des Partnerunternehmens | Adobe Inc. |
 | URL der Partnerwebsite | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | URL der Datenschutzrichtlinie | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -52,13 +52,13 @@ Diese Informationen wurden von Adobe Inc. darüber bereitgestellt, wie diese App
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite | Delegiert | Zum Auffüllen des angefügten Dokuments, der Absender- und Empfänger-E-Mails und des Nachrichteninhalts von E-Mails an Adobe Sign, das zur Signatur gesendet werden soll. Dadurch wird dem Benutzer Zeit zum erneuten Eingeben dieser Felder in Adobe Sign gespart. Nachdem eine Vereinbarung signiert wurde, erstellen wir automatisch eine neue E-Mail, damit der Benutzer eine E-Mail sendet, um seine Empfänger darüber zu informieren, dass die Transaktion abgeschlossen ist. | Adobe Sign speichert die Anlagen als temporäre Dateien, die einen Ablauf von 24 Stunden haben. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| People.Read | Delegiert | Zum automatischen Ausfüllen der E-Mail-Adresse in der &quot; Benutzeroberfläche "Zur Signatur senden" &quot; müssen Benutzer durch Die Eingabe einiger Anfangsbuchstaben nicht die gesamten E-Mails eingeben. | Adobe Sign speichert empfänger-E-Mails und displayName nur in den Vereinbarungen. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| User.Read | Delegiert | Um das Profil des Benutzers zu lesen und sein Profil (im Wesentlichen seine E-Mail- und Benutzer-ID) mit unserer Datenbank abzugleichen, damit er Adobe Sign verwenden kann. | Um das Profil des Benutzers zu lesen und sein Profil (im Wesentlichen seine E-Mail- und Benutzer-ID) mit unserer Datenbank abzugleichen, damit er Adobe Sign verwenden kann. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| offline_access | Delegiert | So aktualisieren Sie das Zugriffstoken, wenn das aktuelle abgelaufen ist. Wenn sich der Benutzer beispielsweise in einem &quot; Sendefenster für ein Signaturfenster befindet &quot; und es zu lange inaktiv lässt, müssen wir ein neues Token aktualisieren, wenn der Benutzer aktiv ist. | So aktualisieren Sie das Zugriffstoken, wenn das aktuelle abgelaufen ist. Wenn sich der Benutzer beispielsweise in einem &quot; Sendefenster für ein Signaturfenster befindet &quot; und es zu lange inaktiv lässt, müssen wir ein neues Token aktualisieren, wenn der Benutzer aktiv ist. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| openid | Delegiert | E-Mail und UserId. So melden Sie sich an, um sicherzustellen, dass sie der Berechtigung zur Verwendung der Adobe Sign-App zustimmen.  | E-Mail ist der eindeutige Bezeichner für Benutzer in Adobe Sign. Wir speichern die E-Mail-ID, damit wir alle Aktivitäten dieses Benutzers seinem Adobe Sign-Eintrag zuordnen können.  | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite | Delegiert | Zum Auffüllen des angefügten Dokuments, der Absender- und Empfänger-E-Mails und des Nachrichteninhalts von E-Mails an Adobe Sign, das zur Signatur gesendet werden soll. Dadurch wird dem Benutzer Zeit zum erneuten Eingeben dieser Felder in Adobe Sign gespart. Nachdem eine Vereinbarung signiert wurde, erstellen wir automatisch eine neue E-Mail, damit der Benutzer eine E-Mail sendet, um seine Empfänger darüber zu informieren, dass die Transaktion abgeschlossen ist. | Adobe Sign speichert die Anlagen als temporäre Dateien, die einen Ablauf von 24 Stunden haben. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| People.Read | Delegiert | Zum automatischen Ausfüllen der E-Mail-Adresse in der &quot; Benutzeroberfläche "Zur Signatur senden" &quot; müssen Benutzer durch Die Eingabe einiger Anfangsbuchstaben nicht die gesamten E-Mails eingeben. | Adobe Sign speichert empfänger-E-Mails und displayName nur in den Vereinbarungen. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| User.Read | Delegiert | Um das Profil des Benutzers zu lesen und sein Profil (im Wesentlichen seine E-Mail- und Benutzer-ID) mit unserer Datenbank abzugleichen, damit er Adobe Sign verwenden kann. | Um das Profil des Benutzers zu lesen und sein Profil (im Wesentlichen seine E-Mail- und Benutzer-ID) mit unserer Datenbank abzugleichen, damit er Adobe Sign verwenden kann. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| offline_access | Delegiert | So aktualisieren Sie das Zugriffstoken, wenn das aktuelle abgelaufen ist. Wenn sich der Benutzer beispielsweise in einem &quot; Sendefenster für ein Signaturfenster befindet &quot; und es zu lange inaktiv lässt, müssen wir ein neues Token aktualisieren, wenn der Benutzer aktiv ist. | So aktualisieren Sie das Zugriffstoken, wenn das aktuelle abgelaufen ist. Wenn sich der Benutzer beispielsweise in einem &quot; Sendefenster für ein Signaturfenster befindet &quot; und es zu lange inaktiv lässt, müssen wir ein neues Token aktualisieren, wenn der Benutzer aktiv ist. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| openid | Delegiert | E-Mail und UserId. So melden Sie sich an, um sicherzustellen, dass sie der Berechtigung zur Verwendung der Adobe Sign-App zustimmen.  | E-Mail ist der eindeutige Bezeichner für Benutzer in Adobe Sign. Wir speichern die E-Mail-ID, damit wir alle Aktivitäten dieses Benutzers seinem Adobe Sign-Eintrag zuordnen können.  | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -120,7 +120,7 @@ Diese Informationen wurden von Adobe Inc. darüber bereitgestellt, wie diese App
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Remind, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 56999a3dc9723eab8b56fcdbc434283a7c864534
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f39e0c35b88e3212743e30c7ab5ac40c74c708c3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282098"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525929"
 ---
 # <a name="remind"></a>Remind
 
@@ -21,7 +21,7 @@ ms.locfileid: "53282098"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 28, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001444" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von 88 Limited limited für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Remind |
 | ID | WA200001444 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | 88 Ventures Limited |
 | URL der Partnerwebsite | [https://moonbearapp.com](https://moonbearapp.com) |
 | URL der Datenschutzrichtlinie | [https://teamsreminder.app/#privacy](https://teamsreminder.app/#privacy) |
@@ -52,14 +52,14 @@ Diese Informationen wurden von 88 Limited Limited bereitgestellt, wie diese App 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | Delegiert | Keine in datenbank gespeicherten Informationen | ermöglicht administratoren, das Benutzerverzeichnis der Organisation nach Benutzern zu durchsuchen, die öffentliche Erinnerungen festgelegt haben. | 88546d4f-9973-4716-98e4-cd181c04bc2d |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | Delegiert | Keine in datenbank gespeicherten Informationen | ermöglicht administratoren, das Benutzerverzeichnis der Organisation nach Benutzern zu durchsuchen, die öffentliche Erinnerungen festgelegt haben. | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -70,7 +70,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| (1) Wenn ein Benutzer eine Erinnerung für eine Nachricht festlegt, versucht der Bot, den Namen der Person abzurufen, die die Nachricht ursprünglich gesendet hat, um diese Informationen in der Liste der Erinnerungen des Benutzers anzuzeigen (2) Wenn ein Benutzer eine Erinnerung für einen anderen Kanal oder ein anderes Chatmitglied festlegt, versucht der Bot, die Identität (Benutzer oder Bot) und den Namen des erwähnten Benutzers abzurufen, um sie in der Erinnerungsliste des Benutzers anzuzeigen. | (1) Wenn ein Benutzer eine Erinnerung für eine Nachricht festlegt, versucht der Bot, den Namen der Person abzurufen, die die Nachricht ursprünglich gesendet hat, um diese Informationen in der Liste der Erinnerungen des Benutzers anzuzeigen (2) Wenn ein Benutzer eine Erinnerung für einen anderen Kanal oder ein anderes Chatmitglied festlegt, versucht der Bot, die Identität (Benutzer oder Bot) und den Namen des erwähnten Benutzers abzurufen, um sie in der Erinnerungsliste des Benutzers anzuzeigen. |  |
 
 

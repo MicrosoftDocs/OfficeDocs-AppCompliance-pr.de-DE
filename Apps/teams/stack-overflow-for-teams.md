@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Stack Overflow für Teams, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: da3e4b0f9a5219bcf0d652938f24397c12b7bdb4
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7ea59acc5a3a85fd8ad827947c117266e95901fd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280857"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528241"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow for Teams
 
@@ -34,7 +34,7 @@ Von Stack Overflow für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Stack Overflow for Teams |
 | ID | WA200000739 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Stack Overflow |
 | URL der Partnerwebsite | [https://www.stackoverflow.com](https://www.stackoverflow.com) |
 | URL der Datenschutzrichtlinie | [https://stackoverflow.com/legal/privacy-policy](https://stackoverflow.com/legal/privacy-policy) |
@@ -50,9 +50,9 @@ Von Stack Overflow für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Stack Overflow bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -68,7 +68,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Der Bot verwendet die Unterhaltungs-API, um Nachrichten direkt im Teams-Chat zu posten. Der Bot verwendet auch die Dienstliste, um den Benutzern eine direkte Nachricht zu senden. | Wir speichern keine Daten aus dem Listenfeld |  |
 
 
@@ -78,13 +78,13 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 >Nein. Die Zuordnung des MS-Teams-Benutzers und des SO-Teams-Benutzers erfolgt im SO-Teams Produkt.
 MS Teams sendet uns seine identifizierbaren IDs, und wir speichern diese intern, um den Benutzer zuzuordnen.
-Darüber hinaus sendet ms Teams uns ein JWT für Bot-Anforderungen (verhindert die Anforderungszfälschung) und Tab-Anforderungen überprüfen mithilfe des SO-Cookies.
+Darüber hinaus sendet ms Teams uns ein JWT für Bot-Anforderungen (verhindert Dies verhindert die Anforderungsgundanz) und Tab-Anforderungen überprüfen die Verwendung des SO-Cookies.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wir erstellen unser Sicherheitsprogramm basierend auf iso27001. Daten werden logisch in ein eigenes SQL schema unterteilt und in einer separaten Datenbankgruppe gespeichert. Ihre Daten werden in einem logisch separaten Datenspeicher gespeichert, auf den nur durch Anfragen für Ihr Team zugegriffen werden kann.
+>Wir erstellen unser Sicherheitsprogramm basierend auf iso27001. Daten werden logisch in ein eigenes SQL schema aufgeteilt und in einer separaten Datenbankgruppe gespeichert. Ihre Daten werden in einem logisch separaten Datenspeicher gespeichert, auf den nur durch Anfragen für Ihr Team zugegriffen werden kann.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

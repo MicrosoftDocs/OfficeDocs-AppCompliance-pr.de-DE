@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Priority Matrix, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 83e82e68a5159a645e39c520f2620d9593b2b7d3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 145ad1b57c9ad1ee705014c1e098f2f6ffdd9800
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282599"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527731"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
@@ -49,19 +49,19 @@ Diese Informationen wurden von Appfluence Inc. darüber bereitgestellt, wie dies
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | Delegiert | Nur wenn ein neuer Benutzer zum Konto hinzugefügt wird, speichern wir seine E-Mails. | Bei der Erstellung eines neuen Kontos wird dies verwendet, um andere Teammitglieder vorzuschlagen. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| User.ReadBasic.All | Delegiert | Nur wenn ein neuer Benutzer zum Konto hinzugefügt wird, speichern wir seine E-Mails. | Bei der Erstellung eines neuen Kontos wird dies verwendet, um andere Teammitglieder vorzuschlagen. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| offline_access | Delegiert | Wir speichern das Anmeldetoken, um Anforderungen im Auftrag des Benutzers auszuführen. | Aktualisieren Sie das Token, ohne den Benutzer zu stören. (Prioritätsmatrix für Teams) | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| Files.Read.All | Delegiert | Wir speichern keine Dateiinformationen, es sei denn, der Benutzer erstellt explizit und wissentlich ein Priority Matrix-Element, das mit der Originaldatei verknüpft ist. | In unserem 1:1-Feature (verfügbar über unsere Web-App und auch unsere Outlook/Teams-Add-Ins) verwenden wir dieses Feature, um SharePoint/OneDrive Dateien hervorzuheben, die von zwei Benutzern in unserem System gemeinsam genutzt werden, um Besprechungen und die allgemeine Zusammenarbeit zu vereinfachen. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
->| User.Read | Delegiert | Grundlegende Benutzerprofilinformationen (Anzeigename, Vorname, Nachname, E-Mail, Avatar) werden von uns gespeichert. | Rufen Sie den Namen, die E-Mail-Adresse, den Avatar des Benutzers ab, um sein Konto bei uns zu personalisieren. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
->| openid | Delegiert | Wir speichern die SSO-Verbindung, um den Anmeldemodus für den Benutzer anzugeben. | Um Benutzer über einmaliges Anmelden anzumelden. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
->| Calendars.Read | Delegiert | Eine kleine Anzahl von Kalenderereignissen wird in Aufgaben umgewandelt, die in unserem System gespeichert sind. | Lesen Sie Kalenderereignisse, damit sie in unserer 1:1-Ansicht angezeigt werden können. Auch zum Initialisieren neuer Konten. | d76f016f-52c7-41b5-835b-900361d7040c |
->| Mail.Read | Delegiert | In unserem System erstellte Aufgaben werden mit einem Link zur ursprünglichen Nachricht gespeichert. | Wird in unserem Outlook-Add-In verwendet, um E-Mails in Aufgaben umzuwandeln und freigegebene Arbeit in der 1:1-Ansicht anzuzeigen. | d76f016f-52c7-41b5-835b-900361d7040c |
->| Tasks.Read | Delegiert | Einige Outlook/Planner-Aufgaben werden in unserem System repliziert, um neuen Benutzern zu helfen. | Wir bootstrapieren neue Benutzerkonten mit ihren Graph Aufgaben. | d76f016f-52c7-41b5-835b-900361d7040c |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | Delegiert | Nur wenn ein neuer Benutzer zum Konto hinzugefügt wird, speichern wir seine E-Mails. | Bei der Erstellung eines neuen Kontos wird dies verwendet, um andere Teammitglieder vorzuschlagen. | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
+>| User.ReadBasic.All | Delegiert | Nur wenn ein neuer Benutzer zum Konto hinzugefügt wird, speichern wir seine E-Mails. | Bei der Erstellung eines neuen Kontos wird dies verwendet, um andere Teammitglieder vorzuschlagen. | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
+>| offline_access | Delegiert | Wir speichern das Anmeldetoken, um Anforderungen im Auftrag des Benutzers auszuführen. | Aktualisieren Sie das Token, ohne den Benutzer zu stören. (Prioritätsmatrix für Teams) | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
+>| Files.Read.All | Delegiert | Wir speichern keine Dateiinformationen, es sei denn, der Benutzer erstellt explizit und wissentlich ein Priority Matrix-Element, das mit der Originaldatei verknüpft ist. | In unserer One-on-One-Funktion (verfügbar über unsere Web-App und auch unsere Outlook/Teams-Add-Ins) verwenden wir dieses Feature, um SharePoint/OneDrive Dateien hervorzuheben, die von zwei Benutzern in unserem System gemeinsam genutzt werden, um Besprechungen und die allgemeine Zusammenarbeit zu vereinfachen. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
+>| User.Read | Delegiert | Grundlegende Benutzerprofilinformationen (Anzeigename, Vorname, Nachname, E-Mail, Avatar) werden von uns gespeichert. | Rufen Sie den Namen, die E-Mail-Adresse, den Avatar des Benutzers ab, um sein Konto bei uns zu personalisieren. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
+>| openid | Delegiert | Wir speichern die SSO-Verbindung, um den Anmeldemodus für den Benutzer anzugeben. | Um Benutzer über einmaliges Anmelden anzumelden. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
+>| Calendars.Read | Delegiert | Eine kleine Anzahl von Kalenderereignissen wird in Aufgaben umgewandelt, die in unserem System gespeichert sind. | Lesen Sie Kalenderereignisse, damit sie in unserer 1:1-Ansicht angezeigt werden können. Auch zum Initialisieren neuer Konten. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
+>| Mail.Read | Delegiert | In unserem System erstellte Aufgaben werden mit einem Link zur ursprünglichen Nachricht gespeichert. | Wird in unserem Outlook-Add-In verwendet, um E-Mails in Aufgaben umzuwandeln und freigegebene Arbeit in der 1:1-Ansicht anzuzeigen. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
+>| Tasks.Read | Delegiert | Einige Outlook/Planner-Aufgaben werden in unserem System repliziert, um neuen Benutzern zu helfen. | Wir bootstrapieren neue Benutzerkonten mit ihren Graph Aufgaben. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

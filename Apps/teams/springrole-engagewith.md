@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für EngageWith, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bc9d21c1c39cb3a5919024bccd077a1e31469bf2
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 9cd618fb9ee580936f33beed27dfc2a39934d1f0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279117"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528251"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -21,7 +21,7 @@ ms.locfileid: "53279117"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 13, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/6fb7f99a-d746-4a4b-8964-7c17d48935bb" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/6fb7f99a-d746-4a4b-8964-7c17d48935bb" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001915" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von SpringRole für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | EngageWith |
 | ID | WA200001915 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SpringRole |
 | URL der Partnerwebsite | [https://www.springworks.in](https://www.springworks.in) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von SpringRole darüber bereitgestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -63,7 +63,7 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe. Kundenname, E-Mail, IP, Zahlungsinformationen. Wir verwenden diese Drittanbieter, um unseren Kunden die beste Benutzererfahrung zu bieten. | Name, E-Mail | Dieses Add-In verwendet keine zusätzlichen APIs |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
@@ -71,7 +71,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Diese Daten werden verwendet, um den Einlösungsverlauf der Bonuspunkte anzuzeigen und zu &amp; speichern. Wird auch in der Hauptfunktionalität der App verwendet, um Peers Kudos und Schimpout zu geben. | Name, E-Mail, Geburtstag und Arbeitsjubiläum. | Diese Daten werden verwendet, um den Einlösungsverlauf der Bonuspunkte anzuzeigen und zu speichern. &amp; |
 
 

@@ -2,17 +2,17 @@
 title: Informationen zur Azure-App-ID für dae2eacf-3eb5-4440-baff-984fbd5cae68
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/23/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für dae2eacf-3eb5-4440-baff-984fbd5cae68.
-ms.openlocfilehash: 7399e446e573b1a1e398fd61c2bc3e94f4e7715a
-ms.sourcegitcommit: c545fba57f8ca821caf6ef55f5b4b068b5f35984
+ms.openlocfilehash: 5d19f5c46b07da67f723a9318b87098bbd370547
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "53578221"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526191"
 ---
 # <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>Azure-App-ID: dae2eacf-3eb5-4440-baff-984fbd5cae68
 

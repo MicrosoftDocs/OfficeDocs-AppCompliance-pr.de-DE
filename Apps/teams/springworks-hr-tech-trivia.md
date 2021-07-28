@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Trivia, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6facd1d8622d78a616329030cef6ffa83bf3bec3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e22205d2584abd257a6fdff585f129fb915ff6b2
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280897"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528361"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -34,7 +34,7 @@ Informationen von Springworks HR Tech an Microsoft:
 |:----------------|:-------------|
 | App-Name | Trivia |
 | ID | WA200001956 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Springworks HR Tech |
 | URL der Partnerwebsite | [https://www.springworks.in](https://www.springworks.in) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
@@ -51,17 +51,17 @@ Informationen von Springworks HR Tech an Microsoft:
 
 Diese Informationen wurden von Springworks HR Tech darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.Read.All | Delegiert | Nein | So rufen Sie die Liste der Teams ab, zu denen der Benutzer gehört | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| Team.ReadBasic.All | Delegiert | Ja, speichern der Liste der Teams, in denen der Bot hinzugefügt wurde | So sammeln Sie grundlegende Informationen zu allen Teams, die in einem Arbeitsbereich vorhanden sind | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| User.Read.All | Delegiert | Ja, zum Speichern eindeutiger aadObjectId eines Benutzers. Außerdem werden verschiedene Details des Benutzers wie Benutzername, E-Mail usw. angezeigt und im Trivia-Dashboard angezeigt. | So rufen Sie die Details aller Benutzer ab, die in einem Arbeitsbereich vorhanden sind | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| openid | Delegiert | Ja, um die Benutzer zu speichern, die sich bei der App anmelden. |  So ermöglichen Sie sowohl dem Benutzer, die App mit ihrem Konto zu verwenden, als auch der App, die Daten des Benutzers zu verwenden | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| Profil | Delegiert | Ja, um die Benutzer-IDs und Namen von Hosts von Quizfragen und anderen Features zu speichern und eindeutig zu identifizieren | So lesen Sie die grundlegenden Profilinformationen des Benutzers wie Benutzername, E-Mail | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.Read.All | Delegiert | Nein | So rufen Sie die Liste der Teams ab, zu denen der Benutzer gehört | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| Team.ReadBasic.All | Delegiert | Ja, speichern der Liste der Teams, in denen der Bot hinzugefügt wurde | So sammeln Sie grundlegende Informationen zu allen Teams, die in einem Arbeitsbereich vorhanden sind | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| User.Read.All | Delegiert | Ja, zum Speichern eindeutiger aadObjectId eines Benutzers. Außerdem werden verschiedene Details des Benutzers wie Benutzername, E-Mail usw. angezeigt und im Trivia-Dashboard angezeigt. | So rufen Sie die Details aller Benutzer ab, die in einem Arbeitsbereich vorhanden sind | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| openid | Delegiert | Ja, um die Benutzer zu speichern, die sich bei der App anmelden. |  So ermöglichen Sie sowohl dem Benutzer, die App mit ihrem Konto zu verwenden, als auch der App, die Daten des Benutzers zu verwenden | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| Profil | Delegiert | Ja, um die Benutzer-IDs und Namen von Hosts von Quizfragen und anderen Features zu speichern und eindeutig zu identifizieren | So lesen Sie die grundlegenden Profilinformationen des Benutzers wie Benutzername, E-Mail | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -69,7 +69,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe.  | Kundenname, E-Mail, IP, Zahlungsinformationen | Wir verwenden diese Drittanbieter, um unseren Kunden die beste Benutzererfahrung zu bieten. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
@@ -77,7 +77,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Diese Daten werden verwendet, um die Liste der Teilnehmer in einem Quiz und andere features anzuzeigen und zu speichern. | Name, E-Mail | Ja, das Speichern der Daten des Hosts und der Teilnehmer von Quizfragen und anderer Features für Analysen und die Kommunikation mit dem Host bei Fehlern |
 
 
@@ -92,7 +92,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Daten, die in RDS, AWS gespeichert sind. es ist verschlüsselt. Zugriff ist nur für einen DevOps Techniker, Engineering Lead und Gründer
+>Daten, die in RDS, AWS gespeichert sind. es ist verschlüsselt. Zugriff ist nur für einen DevOps Engineer, Engineering Lead und Gründer
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

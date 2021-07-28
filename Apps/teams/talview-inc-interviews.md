@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Talview Interviews, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a641b49729a43c8b12339f162eeee395183f5859
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 38ab0472b84fc2b53c357bed1ad32ed4e3a6ad11
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282939"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528161"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -21,7 +21,7 @@ ms.locfileid: "53282939"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: February 12, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a4f18f5c-2c9f-4a39-affe-68791a02f418" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/a4f18f5c-2c9f-4a39-affe-68791a02f418" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002437" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Talview Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Talview Interviews |
 | ID | WA200002437 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Talview Inc |
 | URL der Partnerwebsite | [https://talview.com](https://talview.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://info.talview.com/talview-partners-microsoft-teams](https://info.talview.com/talview-partners-microsoft-teams) |
@@ -53,17 +53,17 @@ Diese Informationen wurden von Talview Inc. darüber bereitgestellt, wie diese A
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| email | Delegiert | Anzeigen der E-Mail-Adresse von Benutzern für die Zuordnung von Benutzerkonten | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| openid | Delegiert | Anmelden von Benutzern: So melden Sie sich bei der Plattform an | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| Profil | Delegiert | Grundlegendes Profil von Benutzern anzeigen | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| email | Delegiert | Anzeigen der E-Mail-Adresse von Benutzern für die Zuordnung von Benutzerkonten | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| openid | Delegiert | Anmelden von Benutzern: So melden Sie sich bei der Plattform an | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| Profil | Delegiert | Grundlegendes Profil von Benutzern anzeigen | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für TeamsProxy von TeamsProxy
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TeamsLocker, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 44d3d36d48e6af741cb25154e5a954b8366af9a3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 8ba17c02a5478213d3666651efdbb5e4ed342147
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283439"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527571"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 10. März 2021</p>
+<p>Last updated by the developer on: July 1, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/4fea4594-3f83-4e33-9929-9af6b78a7340" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001487" target="_blank">Ansicht in AppSource</a>
@@ -34,7 +34,7 @@ Von Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | TeamsChamp |
 | ID | WA200001487 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | TeamsChamp |
 | URL der Partnerwebsite | [https://www.encamina.com](https://www.encamina.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.teamschamp.com](https://www.teamschamp.com) |
@@ -51,15 +51,15 @@ Von Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von TeamsSerie dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Anmelden und Lesen des Benutzerprofils | Keine In unserem bbdd gespeicherten Daten | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| User.ReadBasic.All | Delegiert | Grundlegendes Profil aller Benutzer lesen | Keine In unserem bbdd gespeicherten Daten | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| Profil | Delegiert | Grundlegendes Profil von Benutzern anzeigen | Keine In unserem bbdd gespeicherten Daten | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | Anmelden und Lesen des Benutzerprofils | Keine In unserem bbdd gespeicherten Daten | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
+>| User.ReadBasic.All | Delegiert | Grundlegendes Profil aller Benutzer lesen | Keine In unserem bbdd gespeicherten Daten | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
+>| Profil | Delegiert | Grundlegendes Profil von Benutzern anzeigen | Keine In unserem bbdd gespeicherten Daten | [79d7af39-4f57-4e95-adaf-ec8ff756d0df](https://docs.microsoft.com/microsoft-365-app-certification/azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -67,7 +67,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Streifenzahlungen | Name des Comnpany, CIF/Umsatzsteuer-ID, Steueradresse | Zahlungen |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
@@ -128,7 +128,7 @@ Diese Informationen wurden von TeamsProxy bereitgestellt, wie diese App die Auth
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CloudExtend Analytics für NetSuite, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2393250c620e3e543eae1d25e1cf0bcf0dd2f7cc
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: 489f4f04afc52476b34a98ecd808c035ff47a676
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987680"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526081"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics für NetSuite
 
@@ -33,7 +33,7 @@ Informationen, die von Celigo CloudExtend an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | CloudExtend Analytics für NetSuite |
 | ID | WA200002784 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows Excel im Web |
+| unterstützte Office 365-Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows Excel im Web |
 | Name des Partnerunternehmens | Celigo CloudExtend |
 | URL der Partnerwebsite | [https://www.cloudextend.io](https://www.cloudextend.io) |
 | URL der Datenschutzrichtlinie | [https://www.celigo.com/privacy/](https://www.celigo.com/privacy/) |
@@ -51,20 +51,20 @@ Diese Informationen wurden von Celigo CloudExtend darüber bereitgestellt, wie d
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | Beide | Lesen der Sammlung von Websites, für die der Benutzer Zugriff hat, um Informationen zu Arbeitsmappen abzurufen, die über Websites freigegeben wurden | Speichern Sie die Website-ID, um offline auf die Arbeitsmappe zuzugreifen. | 7040f194-bf08-400e-acb1-69df7939416a |
->| Files.ReadWrite.All | Beide | Lesen des Arbeitsmappeninhalts wie Tabellen und Blatt und Schreiben von Inhalten in diese Tabellen | Arbeitsmappendetails wie Web-URL, Arbeitsmappen-ID und der Speicherort der Arbeitsmappe, um offline darauf zuzugreifen | 7040f194-bf08-400e-acb1-69df7939416a |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | Beide | Lesen der Sammlung von Websites, für die der Benutzer Zugriff hat, um Informationen zu Arbeitsmappen abzurufen, die über Websites freigegeben wurden | Speichern Sie die Website-ID, um offline auf die Arbeitsmappe zuzugreifen. | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
+>| Files.ReadWrite.All | Beide | Lesen des Arbeitsmappeninhalts wie Tabellen und Blatt und Schreiben von Inhalten in diese Tabellen | Arbeitsmappendetails wie Web-URL, Arbeitsmappen-ID und der Speicherort der Arbeitsmappe, um offline darauf zuzugreifen | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Chargebee, NetSuite, Salesforce, Intercom, LogLadenet, Amazon AWS | Organisationsname, NetSuite-Kontonummer, Domäne der E-Mail-Adressen der Organisation, Abrechnungskontaktinformationen | Lizenzbereitstellung, Validierung und Abrechnung Kundensupport, Problembehandlung und Kontoverwaltung |
 
 
@@ -79,7 +79,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->–
+>Nicht zutreffend
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -93,7 +93,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39480' frameborder='no' style='width: 100%;'></iframe>
 

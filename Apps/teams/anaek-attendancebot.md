@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für AttendanceBot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 900bbe4856204c7b1de0c988388aedc0f79366c5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f313d823c7123b419b1ac5be33ba5b418171d45e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281447"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525909"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -34,7 +34,7 @@ Von Anaek für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | AttendanceBot |
 | ID | WA104381652 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Anaek |
 | URL der Partnerwebsite | [https://www.harmonizehq.com](https://www.harmonizehq.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.attendancebot.com](https://www.attendancebot.com) |
@@ -51,9 +51,9 @@ Von Anaek für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Anaek bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -69,7 +69,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| AttendanceBot greift von MS Teams auf personenbezogene Informationen zu | Vorname, Nachname und E-Mail-Adresse | Die E-Mail-Adresse ist der eindeutige Bezeichner für jedes Team, das AttendanceBot installiert. |
 
 

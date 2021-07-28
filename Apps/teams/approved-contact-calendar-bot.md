@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Kalender-BOT, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 597a368e36fab6036eb8aed34a1afe197d15d26c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 9314d7712249dbbd8ad507e8c81eb47ddaa49ca9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282058"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527651"
 ---
 # <a name="calendar-bot"></a>Calendar Bot
 
@@ -21,7 +21,7 @@ ms.locfileid: "53282058"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 10, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/f02fddc9-159a-4d58-9800-d94c4f64bfe8" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/f02fddc9-159a-4d58-9800-d94c4f64bfe8" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381271" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die von einem genehmigten Kontakt an Microsoft bereitgestellt wer
 |:----------------|:-------------|
 | App-Name | Calendar Bot |
 | ID | WA104381271 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Approved Contact |
 | URL der Partnerwebsite | [https://www.approvedcontact.com](https://www.approvedcontact.com) |
 | URL der Datenschutzrichtlinie | [https://approvedcontact.com/Privacy%20Policy%20Bot.pdf](https://approvedcontact.com/Privacy%20Policy%20Bot.pdf) |
@@ -52,16 +52,16 @@ Diese Informationen wurden vom genehmigten Kontakt darüber bereitgestellt, wie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | Delegiert | Für den Kalender-BOT speichern wir Frei/Gebucht-Zeit für Benutzer, um freie Zeiten für mehrere Personen zu finden.  | Wir lesen und vergleichen Frei/Gebucht-Zeit und planen Besprechungen. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| Contacts.Read | Delegiert | Ja, wir speichern Kontaktinformationen. | Importieren und Synchronisieren von Kontakten. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| User.Read | Delegiert | Ja | Grundlegende Profilinformationen. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| User.ReadBasic.All | Delegiert | Nein | Wird zum Anzeigen von Profilen von Kollegen, zum Vergleichen von freien Zeiten und zum Planen von Konferenzräumen verwendet. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| offline_access | Delegiert | Ja, Frei/Gebucht-Zeiten für Offlinebenutzer. | Rufen Sie Graph auf, wenn der Benutzer unsere Website nicht aktiv verwendet. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| openid | Delegiert | Nein | Office 365 Sso. | adef9811-448f-4dd5-88d9-68734050fe58 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | Delegiert | Für den Kalender-BOT speichern wir Frei/Gebucht-Zeit für Benutzer, um freie Zeiten für mehrere Personen zu finden.  | Wir lesen und vergleichen Frei/Gebucht-Zeit und planen Besprechungen. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| Contacts.Read | Delegiert | Ja, wir speichern Kontaktinformationen. | Importieren und Synchronisieren von Kontakten. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| User.Read | Delegiert | Ja | Grundlegende Profilinformationen. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| User.ReadBasic.All | Delegiert | Nein | Wird zum Anzeigen von Profilen von Kollegen, zum Vergleichen von freien Zeiten und zum Planen von Konferenzräumen verwendet. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| offline_access | Delegiert | Ja, Frei/Gebucht-Zeiten für Offlinebenutzer. | Rufen Sie Graph auf, wenn der Benutzer unsere Website nicht aktiv verwendet. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| openid | Delegiert | Nein | Office 365 Sso. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -75,7 +75,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Wir verwenden die Dienstliste, um Frei/Gebucht-Zeiten für alle Personen im Team zu vergleichen, um Besprechungen zu einer Öffnungszeit zu planen. | Wir speichern nur die E-Mail-Adresse. | Wir speichern nur die E-Mail-Adresse, damit wir Frei/Gebucht-Zeiten vergleichen können. |
 
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ClipTraining, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9eb5383b9bd372e1f46af30b838160bca88e308b
-ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
+ms.openlocfilehash: 5d59d4cbd2d28f1c906e541e7ffc78311c12ffb6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339817"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525769"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -21,7 +21,7 @@ ms.locfileid: "53339817"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 14, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/6cb4b701-2a4f-4080-8a8a-d99f93905e15" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/6cb4b701-2a4f-4080-8a8a-d99f93905e15" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001687" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von ClipTraining für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | ClipTraining |
 | ID | WA200001687 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ClipTraining |
 | URL der Partnerwebsite | [https://www.cliptraining.com](https://www.cliptraining.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.cliptraining.com](https://www.cliptraining.com) |
@@ -55,25 +55,25 @@ Diese Informationen wurden von ClipTraining bereitgestellt, wie diese App Organi
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | Delegiert | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| offline_access | Delegiert | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| openid | Delegiert | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| Profil | Delegiert | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | af089bb5-48be-413d-ad34-53c32799da7d |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | Delegiert | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| offline_access | Delegiert | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| openid | Delegiert | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| Profil | Delegiert | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | E-Mail-Adresse, Vorname, Nachname für Benutzeranmeldung und Entsprechung.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Nicht-Microsoft-Hostingdienst, nicht Microsoft CRM | Vorname, Nachname, E-Mail-Adresse | Erforderlich für die Geschäftsverwendung |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 

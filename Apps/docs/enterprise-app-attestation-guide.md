@@ -6,12 +6,12 @@ description: Weitere Informationen zum Publisher Attestation-Programm
 keywords: App-Nachweiszertifizierung 365 Fragebogen appSource-Herausgeber
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: d91c11b53f1f807fbb4335918586a7748f14bf91
-ms.sourcegitcommit: a475d48e9538faa7ed682c11829c2e45ba675af6
+ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53383728"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526101"
 ---
 # <a name="what-is-publisher-attestation"></a>Was ist Publisher Nachweis?
 
@@ -20,7 +20,8 @@ Publisher Der Nachweis ist die nächste Ebene im Microsoft 365 App Compliance-Pr
 > [!IMPORTANT]
 > Microsoft überprüft nicht alle bereitgestellten Informationen. Der App-Entwickler ist allein für die Informationen verantwortlich, die er im Herausgebernachweis bereitstellt. 
 
-Publisher Der Nachweis gilt für WebApps und alle Apps, die in die folgenden Microsoft-Plattformen integriert sind:
+Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden). SaaS-Apps befinden sich derzeit in einer privaten Vorschau, wenn Sie daran teilnehmen möchten, füllen Sie dieses [Formular](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)aus. Der Nachweis umfasst auch alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
+
 - Microsoft Teams
 - Word
 - Excel
@@ -31,7 +32,7 @@ Publisher Der Nachweis gilt für WebApps und alle Apps, die in die folgenden Mic
 - OneNote
 
 ### <a name="benefits-for-it-admins"></a>Vorteile für IT-Administratoren
-Die Vorteile der Publisher Attestation für IT-Administratoren umfassen:
+Zu den Vorteilen des Abschlusses des Publisher Attestation für IT-Administratoren gehören:
 -   Zusätzliches Vertrauen in die Sicherheits- und Compliance-Maßnahmen von Anwendungen, die in der Organisation aktiviert sind
 -   Verkürzte Zeit zum Überprüfen des Sicherheits- und Compliancestatus einer App
 
@@ -65,7 +66,7 @@ Der Nachweis ist ab dem Zeitpunkt der Übermittlung ein Jahr lang gültig. Wenn 
 
 ## <a name="reviewing-an-apps-publisher-attestation"></a>Überprüfen des Publisher Attestation einer App
 
-Der Entwickler kann detaillierte Informationen zu den Ergebnissen des Publisher Attestation einer App auf der Microsoft-Dokumentseite überprüfen, die für seine App erstellt wurde. Alle Apps, die entweder Publisher Nachweis oder Microsoft 365 Zertifizierung abgeschlossen haben, werden aufgeführt, und jeder Eintrag zeigt deutlich, welche Stufe im Compliance-Programm erreicht wurde.
+Der Entwickler kann detaillierte Informationen zu den Ergebnissen des Publisher Attestation einer App auf der Microsoft-Dokumentseite überprüfen, die für seine App erstellt wurde. Alle Apps, die entweder Publisher Nachweis oder Microsoft 365 Zertifizierung abgeschlossen haben, werden aufgeführt, und jeder Eintrag zeigt deutlich an, welche Stufe im Complianceprogramm erreicht wurde.
 
 **Ein Beispiel für eine App, die den Publisher Attestation abgeschlossen hat, finden Sie im [MIPA-Eintrag.](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas)** 
 
@@ -73,5 +74,5 @@ Der Entwickler kann detaillierte Informationen zu den Ergebnissen des Publisher 
 
 * [Microsoft 365 Übersicht über das App-Complianceprogramm](~/overview.md)
 * [Was ist Publisher Überprüfung?](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
-* [Vollständiges Publisher Attestation](~/docs/attestation.md)  
+* [Vollständige Publisher Nachweis](~/docs/attestation.md)  
 * [Was ist Microsoft 365 Zertifizierung?](~/docs/enterprise-app-certification-guide.md)

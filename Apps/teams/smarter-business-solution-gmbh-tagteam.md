@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TagTeam, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b4e3fcf89e816c115887fa5bd0df38cc95d4ae2f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: cd1411cff3f80788bc9a5677f595caad620484e1
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280947"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528311"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -34,7 +34,7 @@ Von Smarter Business Solution GmbH für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | TagTeam |
 | ID | WA200002829 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Smarter Business Solution GmbH |
 | URL der Partnerwebsite | [https://www.smarterbusiness.at](https://www.smarterbusiness.at) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.smarterbusiness.at/en/tagteam-help](https://www.smarterbusiness.at/en/tagteam-help) |
@@ -51,16 +51,16 @@ Von Smarter Business Solution GmbH für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Smarter Business Solution GmbH bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMessage.Read.All | Delegiert | Wir sammeln diese Daten nicht – nur für die Anzeige markierter Unterhaltungen. Wir würden es gerne in die Such-API ändern, aber Graph API unterstützt dies derzeit nicht.  | Keine | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| User.Read | Delegiert | Anzeigen User-Information (z. B. Name) auf unserer Registerkarte | Keine | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| User.ReadBasic.All | Delegiert | Anzeigen User-Avatars auf unserer Registerkarte | Keine | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| openid | Delegiert | Nur für SignIn – es werden keine Daten gespeichert. | Keine | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMessage.Read.All | Delegiert | Wir sammeln diese Daten nicht – nur für die Anzeige markierter Unterhaltungen. Wir würden es gerne in die Such-API ändern, aber Graph API unterstützt dies derzeit nicht.  | Keine | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.Read | Delegiert | Anzeigen User-Information (z. B. Name) auf unserer Registerkarte | Keine | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.ReadBasic.All | Delegiert | Anzeigen User-Avatars auf unserer Registerkarte | Keine | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| openid | Delegiert | Nur für SignIn – es werden keine Daten gespeichert. | Keine | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

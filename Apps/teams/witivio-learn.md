@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Learn, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 798bd76f786119863f9ff2046e72daa15bcb0696
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f931e75f0a5736ffa49c7366d9928db774c4bdbf
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283349"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527531"
 ---
 # <a name="learn"></a>Informationen
 
@@ -34,7 +34,7 @@ Von Witivio für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Informationen |
 | ID | WA200001308 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Witivio |
 | URL der Partnerwebsite | [https://www.witivio.com](https://www.witivio.com) |
 | URL der Datenschutzrichtlinie | [https://www.witivio.com/en/privacy](https://www.witivio.com/en/privacy) |
@@ -50,16 +50,16 @@ Von Witivio für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Witivio darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| User.ReadBasic.All | Delegiert | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| openid | Delegiert | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | 8c5c0060-2892-4355-b0db-661f206028a9 |
->| Profil | Delegiert | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | 8c5c0060-2892-4355-b0db-661f206028a9 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| User.ReadBasic.All | Delegiert | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| openid | Delegiert | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| Profil | Delegiert | Nicht zutreffend | Wir erfassen den UPN und die AAD-ID für die Autorisierung. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -73,7 +73,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Wir verwenden die Liste für: 1) Autorisierung (Zugriff auf den Bot gewähren), 2) den Vornamen erkennen, um eine benutzerfreundliche UX bereitzustellen, 3) Um die Chatlogs für den Geschäftsadministrator des Bots zu verwalten | Nicht verfügbar. Oder Bots sind nur persönlich |  |
 
 
@@ -88,7 +88,7 @@ Nur PROD/Run-Administratoren haben Zugriff auf die Produktionstelemetrie. Die Pr
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Witivio verwendet nur Azure-Komponenten, die in der Region Nordeuropa bereitgestellt werden. Wir verwenden Anwendungsinblicke und Cosmos DB für Die Datenanalyse und -speicherung.
+>Witivio verwendet nur Azure-Komponenten, die in der Region Nordeuropa bereitgestellt werden. Wir verwenden Anwendungsinblicke und Cosmos DB für Datenanalyse und -speicherung.
 Witivio verwendet MFA für alle Benutzer, einschließlich Administratoren. Administratoren verfügen über ein Benutzerkonto (für Arbeitsstation) und ein privilegiertes Konto für den Zugriff auf Azure-Ressourcen.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für PlayQuiz – Aprende &amp; Juega, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 76593cbcaa9d4284fab7b90e887090254d4ca414
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 2d538edf2b96311ea7f2611a33d2362786453ee3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852059"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528141"
 ---
 # <a name="playquiz---aprende-amp-juega"></a>PlayQuiz – Aprende &amp; Juega
 
@@ -21,7 +21,7 @@ ms.locfileid: "52852059"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 11, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d36eac22-ff28-4392-9ba7-6e32151b9894" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/d36eac22-ff28-4392-9ba7-6e32151b9894" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002820" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | PlayQuiz – Aprende &amp; Juega |
 | ID | WA200002820 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | TeamsChamp |
 | URL der Partnerwebsite | [https://www.encamina.com](https://www.encamina.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.teamsquiz.com](https://www.teamsquiz.com) |
@@ -55,12 +55,12 @@ Diese Informationen wurden von TeamsSerie dazu bereitgestellt, wie diese App Org
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | Name, E-Mail und Profilbild des Benutzers | E-Mail, um in die App zu singen und den Namen, um sie in der App anzuzeigen | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| User.ReadBasic.All | Delegiert | Name, E-Mail und Profilbild | diese Daten nicht speichern, nur lesen, um sie in der Leaderboad (Anwendung) anzuzeigen | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| openid | Delegiert | Anzeigen des grundlegenden Profils des Benutzers | E-Mail, um in der App zu singen und den Namen, um sie in der App anzuzeigen | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| Profil | Delegiert | Lesen des grundlegenden Benutzerprofils | E-Mail, um in der App zu singen und den Namen, um sie in der App anzuzeigen | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | Name, E-Mail und Profilbild des Benutzers | E-Mail, um in die App zu singen und den Namen, um sie in der App anzuzeigen | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| User.ReadBasic.All | Delegiert | Name, E-Mail und Profilbild | diese Daten nicht speichern, nur lesen, um sie in der Leaderboad (Anwendung) anzuzeigen | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| openid | Delegiert | Anzeigen des grundlegenden Profils des Benutzers | E-Mail, um in der App zu singen und den Namen, um sie in der App anzuzeigen | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| Profil | Delegiert | Lesen des grundlegenden Benutzerprofils | E-Mail, um in der App zu singen und den Namen, um sie in der App anzuzeigen | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

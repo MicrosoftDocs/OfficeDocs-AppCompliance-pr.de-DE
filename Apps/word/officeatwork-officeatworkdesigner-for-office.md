@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für Officeatwork-| Designer für Office von officeatwork
+title: Anwendungsinformationen für officeatwork-| Designer für Office von officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Designer für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b24991f39842a3d12f7bb46276fa3aeeb5fe9f00
-ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
+ms.openlocfilehash: 4c78a3564c99f749c9bd22c1bd82f44f34749d87
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53366121"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527471"
 ---
 # <a name="officeatwork--designer-for-office"></a>officeatwork | Designer für Office
 
@@ -32,7 +32,7 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – Designer für Office |
 | ID | WA104380518 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf dem Mac, Word im Web, Word 2016 oder höher auf Windows, Word auf iPad |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2016 oder höher auf Windows, Word auf iPad |
 | Name des Partnerunternehmens | officeatwork |
 | URL der Partnerwebsite | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL der Datenschutzrichtlinie | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -52,33 +52,33 @@ Diese Informationen wurden von Office-Mitarbeitern darüber bereitgestellt, wie 
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Contacts.Read | Delegiert | Es werden keine Daten gespeichert. | Kontakte: Zum Aktivieren des Lesens aller Kontakte des angemeldeten Benutzers. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Files.Read | Delegiert | Es werden keine Daten gespeichert. | OneDrive – Dateien (Inhalte): um das Lesen der Dateien des angemeldeten Benutzers zu ermöglichen. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Files.Read.All | Delegiert | Es werden keine Daten gespeichert. | Teams – Dateien (Inhalte): um das Lesen aller Dateien des angemeldeten Benutzers zu ermöglichen. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Group.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Auf Gruppe beschränken: Zum Aktivieren des Lesens aller Gruppen des angemeldeten Benutzers. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Zum Aktivieren des Lesens von Daten aus SharePoint Online. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| User.Read | Delegiert | Es werden keine Daten gespeichert. | Sing-In: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Alle Eigenschaften: zum Aktivieren des Lesens aller Eigenschaften aller Benutzer. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| User.ReadBasic.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Grundlegende Eigenschaften: Zum Aktivieren des Lesens der grundlegenden Eigenschaften aller Benutzer | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| offline_access | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um die automatische Anmeldung über Aktualisierungstoken wie ohne zu aktivieren, müssten sich Benutzer jedes Mal manuell anmelden, wenn sie die Officeatwork-App starten. Dieser Bereich ist nur für Nicht-SSO-aktivierte Hostanwendungen erforderlich. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| openid | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Damit sich Benutzer mit ihrem Organisations- und/oder Microsoft-Konto bei der OfficeAtwork-App anmelden können | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
->| Profil | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um den angemeldeten Benutzer in der Officeatwork-App anzuzeigen. Dadurch kann sichergestellt/bestätigt werden, welches Konto für die Anmeldung bei der Officeatwork-App verwendet wurde. | 0c67871c-ffbc-4b37-bd61-afce12b299f9 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Contacts.Read | Delegiert | Es werden keine Daten gespeichert. | Kontakte: Zum Aktivieren des Lesens aller Kontakte des angemeldeten Benutzers. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Files.Read | Delegiert | Es werden keine Daten gespeichert. | OneDrive – Dateien (Inhalte): um das Lesen der Dateien des angemeldeten Benutzers zu ermöglichen. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Files.Read.All | Delegiert | Es werden keine Daten gespeichert. | Teams – Dateien (Inhalte): um das Lesen aller Dateien des angemeldeten Benutzers zu ermöglichen. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Group.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Auf Gruppe beschränken: Zum Aktivieren des Lesens aller Gruppen des angemeldeten Benutzers. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Zum Aktivieren des Lesens von Daten aus SharePoint Online. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read | Delegiert | Es werden keine Daten gespeichert. | Sing-In: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Alle Eigenschaften: Zum Aktivieren des Lesens aller Eigenschaften aller Benutzer. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.ReadBasic.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Grundlegende Eigenschaften: Zum Aktivieren des Lesens der grundlegenden Eigenschaften aller Benutzer | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| offline_access | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um die automatische Anmeldung über Aktualisierungstoken wie ohne zu aktivieren, müssten sich Benutzer jedes Mal manuell anmelden, wenn sie die Officeatwork-App starten. Dieser Bereich ist nur für Nicht-SSO-aktivierte Hostanwendungen erforderlich. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| openid | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Damit sich Benutzer mit ihrem Organisations- und/oder Microsoft-Konto bei der OfficeAtwork-App anmelden können | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Profil | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um den angemeldeten Benutzer in der Officeatwork-App anzuzeigen. Dadurch kann sichergestellt/bestätigt werden, welches Konto für die Anmeldung bei der Officeatwork-App verwendet wurde. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Microsoft-APIs außer Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint-REST-APIs | Nein |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -92,7 +92,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Anwendungseinstellungsdaten (Featurekennzeichen, Anzeigename der Organisation, Mandanten-ID, Liste der Administrator-Oids) werden in einer Azure Cosmos DB-Instanz (eine Datei pro Mandant) gespeichert. Die DB-Dateien sind verschlüsselt, und der Zugriff ist auf ausgewählte Bürotechniker und Supportmitarbeiter beschränkt. Der Kunde kann mithilfe der Admin Center Web App auf die Einstellungsdaten der Officeatwork-App zugreifen und diese bearbeiten.
+>Die Anwendungseinstellungsdaten (Featurekennzeichen, Anzeigename der Organisation, Mandanten-ID, Liste der Administratoroide) werden in einer Azure Cosmos DB-Instanz (eine Datei pro Mandant) gespeichert. Die DB-Dateien sind verschlüsselt, und der Zugriff ist auf ausgewählte Bürotechniker und Supportmitarbeiter beschränkt. Der Kunde kann mithilfe der Admin Center Web App auf die Einstellungsdaten der Officeatwork-App zugreifen und diese bearbeiten.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
