@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Karma, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ffdd34522178c481b84d0a5b102fab20f41ea3ed
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281037"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53524692"
 ---
 # <a name="karma"></a>Karma
 
@@ -34,7 +34,7 @@ Von Sliday LTD für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Karma |
 | ID | WA104381640 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Sliday LTD |
 | URL der Partnerwebsite | [https://sliday.com](https://sliday.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
@@ -51,13 +51,13 @@ Von Sliday LTD für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Sliday LTD darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Anwendung | Vorname, Nachname und E-Mail-Adresse des Unternehmens. Vorname, Nachname für Berichterstellung mit Administratorzugriff. E-Mail-Adresse für kommunikation in Bezug auf Karma, Abrechnungszwecke und Herarchie. | Anzeigename der Administratorzustimmung. Melden Sie sich an, und lesen Sie das Benutzerprofil. Beschreibung der Administratorzustimmung. Ermöglicht Benutzern die Anmeldung bei der App und ermöglicht es der App, das Profil der angemeldeten Benutzer zu lesen. Außerdem kann die App grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. Anzeigename der Zustimmung des BenutzersSignieren und Lesen Ihres Profils. Beschreibung der Zustimmung des Benutzers. Ermöglicht es Ihnen, sich mit Ihrem Organisationskonto bei der App anzumelden und die App ihr Profil lesen zu lassen. Außerdem kann die App grundlegende Unternehmensinformationen lesen. | 9ff28b02-fg5-4cac-9d17-4cf6987c371f |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Anwendung | Vorname, Nachname und E-Mail-Adresse des Unternehmens. Vorname, Nachname für Berichterstellung mit Administratorzugriff. E-Mail-Adresse für kommunikation in Bezug auf Karma, Abrechnungszwecke und Herarchie. | Anzeigename der Administratorzustimmung. Melden Sie sich an, und lesen Sie das Benutzerprofil. Beschreibung der Administratorzustimmung. Ermöglicht Benutzern die Anmeldung bei der App und ermöglicht es der App, das Profil der angemeldeten Benutzer zu lesen. Außerdem kann die App grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. Anzeigename der Zustimmung des BenutzersSignieren und Lesen Ihres Profils. Beschreibung der Zustimmung des Benutzers. Ermöglicht es Ihnen, sich mit Ihrem Organisationskonto bei der App anzumelden und die App ihr Profil lesen zu lassen. Außerdem kann die App grundlegende Unternehmensinformationen lesen. | [9ff28b02-fg5-4cac-9d17-4cf6987c371f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9ff28b02-ccc5-4cac-9d17-4cf6987c371f) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -71,7 +71,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Vorname, Nachname und Firmen-E-Mail-Adresse Vorname, Nachname für administratorseitige Berichts-E-Mail-Adresse für die Kommunikation in Bezug auf Karma. Die Teilnehmerliste ist für Abrechnungszwecke und für die massive Aufteilung der Benutzer in separate Abgänge erforderlich. | Vorname, Nachname und Firmen-E-Mail-Adresse Vorname, Nachname für Berichterstellung mit Administratorzugriff. E-Mail-Adresse für die Kommunikation in Bezug auf Karma, Abrechnungszwecke und Die Hierarchie der Benutzer von Karma. |  |
 
 
@@ -116,7 +116,7 @@ Wir verwenden die zweistufige Authentifizierung, um auf die Systemsteuerung zuzu
 
 7. **Stellen Sie das am Ende implementierte Verfahren bereit, um Ihre freigegebenen IDs (z. B. Stamm,Sys, System usw.), Gruppen-IDs (generische Konten, die z. B. von mehreren Personen verwendet werden, die demselben Team angehören) und lokale Konten zu verwalten. Beschreiben, wie Sie die Nutzung privilegierter Konten und den Zugriff auf Sicherheitsgeräte einschränken, protokollieren und überwachen (z. B. Hypervisoren, Firewalls, Sicherheitsrisikoscanner, Netzwerk-Sniffer, APIs usw.), wie Sie sicherstellen, dass Benutzer, die das Team ändern oder verlassen, nicht mehr auf die Gruppen-ID zugreifen können und wie die Nachverfolgbarkeit dieser IDs ist**
 
-Wir verwenden "1Password", um trennbare ID-&#8217;zu teilen. Jedes Mal, wenn von einem freigegebenen Kennwortdepot auf die freigegebene Ressource zugegriffen wurde, verfügen wir über einen separaten Aktivitätsfeed. Es sei denn, es ist absolut erforderlich, dass wir keine freigegebenen Konten verwenden und stattdessen einzelne Konten verwenden. Über eine freigegebene Anmeldung konnten keine Informationen in der Karma-Datenbank aufgerufen werden. 2FA wird verwendet, um auf 1Password zuzugreifen, um eine einzelne Anmeldung abzurufen.
+Wir verwenden "1Password", um trennbare ID-&#8217;gemeinsam zu verwenden. Wir haben bei jedem Zugriff auf die freigegebene Ressource über ein freigegebenes Kennwortdepot einen separaten Aktivitätsfeed. Es sei denn, es ist absolut erforderlich, dass wir keine freigegebenen Konten verwenden und stattdessen einzelne Konten verwenden. Über eine freigegebene Anmeldung konnten keine Informationen in der Karma-Datenbank aufgerufen werden. 2FA wird verwendet, um auf 1Password zuzugreifen, um eine einzelne Anmeldung abzurufen.
 
 8. **Beschreiben sie den Prozess, um sicherzustellen und zu überwachen, dass die Aufgabentrennung berücksichtigt wird und wie häufig sie gesteuert wird.**
 

@@ -6,14 +6,14 @@ ms.date: 12/15/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365 für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365 für Office, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 85e7b014e9bbc5754016bd83a7734ff2481aa8dc
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: ab9ea33824f66afecc8af8df74754fc7f2dd6d43
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281677"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526521"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 für Office
 
@@ -33,7 +33,7 @@ Informationen, die von JiJi Technologies Private Limited to Microsoft bereitgest
 |:----------------|:-------------|
 | App-Name | Wunder365 für Office |
 | ID | WA200001529 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows, OneNote im Web |
+| unterstützte Office 365-Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows, OneNote im Web |
 | Name des Partnerunternehmens | JiJi Technologies Private Limited |
 | URL der Partnerwebsite | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL der Datenschutzrichtlinie | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
@@ -51,18 +51,18 @@ Diese Informationen wurden von JiJi Technologies Private Limited darüber bereit
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Um Planner-Aufgaben abzurufen/zu aktualisieren, stellen Sie Aufgabenupdates im Teamkanal bereit | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| Mail.Send | Delegiert | Es werden keine Daten gespeichert. | Zulassen, dass die App E-Mail-Benachrichtigungen an Benutzer sendet | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| offline_access | Delegiert | Es werden keine Daten gespeichert. | So halten Sie den Benutzer angemeldet. | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| openid | Delegiert | Es werden keine Daten gespeichert. | Ermöglicht Benutzern die Anmeldung mit einem Organisationskonto | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| Profil | Delegiert | UPN, Benutzer-ID, E-Mail-ID, Mandanten-ID für lizenzierungsüberprüfung, kostenlose Lizenz. | Ermöglicht Benutzern die Anmeldung mit einem Organisationskonto | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Um Planner-Aufgaben abzurufen/zu aktualisieren, stellen Sie Aufgabenupdates im Teamkanal bereit | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| Mail.Send | Delegiert | Es werden keine Daten gespeichert. | Zulassen, dass die App E-Mail-Benachrichtigungen an Benutzer sendet | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| offline_access | Delegiert | Es werden keine Daten gespeichert. | So halten Sie den Benutzer angemeldet. | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| openid | Delegiert | Es werden keine Daten gespeichert. | Ermöglicht Benutzern die Anmeldung mit einem Organisationskonto | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| Profil | Delegiert | UPN, Benutzer-ID, E-Mail-ID, Mandanten-ID für lizenzierungsüberprüfung, kostenlose Lizenz. | Ermöglicht Benutzern die Anmeldung mit einem Organisationskonto | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -81,7 +81,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Alle Webanwendungen und Storage Ressourcen befinden sich in einem Abonnement, das nicht mit unserem Unternehmens-AAD verbunden ist, mit nur Administratoren, die Zugriff auf die Ressourcen haben. 2FA ist für diese Administratoren erforderlich. 
+>Alle Webanwendungen und Storage-Ressourcen befinden sich in einem Abonnement, das nicht mit unserem Unternehmens-AAD verbunden ist, mit nur Administratoren, die Zugriff auf die Ressourcen haben. 2FA ist für diese Administratoren erforderlich. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen

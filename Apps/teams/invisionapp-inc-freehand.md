@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Freehand, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 286a9fd4ed49e6b4929b68ab663fff6683013f8f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: a3c92ee618693b4fed77026a47009b490845db60
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282622"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525559"
 ---
 # <a name="freehand"></a>Freihand
 
@@ -21,7 +21,7 @@ ms.locfileid: "53282622"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 6, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381362" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die von InVisionApp Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Freihand |
 | ID | WA104381362 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | InVisionApp Inc. |
 | URL der Partnerwebsite | [https://www.invisionapp.com](https://www.invisionapp.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
@@ -53,17 +53,17 @@ Diese Informationen wurden von InVisionApp Inc. zur Verfügung gestellt, wie die
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
@@ -83,7 +83,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Drittanbieter-Risikobewertungen werden von Anbietern durchgeführt, die personenbezogene Informationen verarbeiten. Klauseln wurden vertraglich hinzugefügt, um das &#8220;Recht auf Prüfung&#8221; und die Due-Diligence-Prüfung basierend auf Denk-/Risikofaktoren jährlich erneut durchzuführen. Legal has implemented Data Protection Addendums to be added contractually when applicable, as well acceptable standards that meet InVision requirements. (Beachten Sie, dass Unterauftragsverarbeiter keinen Zugriff auf Kundendaten im unverschlüsselten Format haben würden.)
+>Drittanbieter-Risikobewertungen werden von Anbietern durchgeführt, die personenbezogene Informationen verarbeiten. Klauseln wurden vertraglich hinzugefügt, um das &#8220;Recht auf Prüfung&#8221; einzuschließen, und die Due-Diligence-Prüfung findet basierend auf Denk-/Risikofaktoren jährlich erneut statt. Legal has implemented Data Protection Addendums to be added contractually when applicable, as well acceptable standards that meet InVision requirements. (Beachten Sie, dass Unterauftragsverarbeiter keinen Zugriff auf Kundendaten im unverschlüsselten Format haben würden.)
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

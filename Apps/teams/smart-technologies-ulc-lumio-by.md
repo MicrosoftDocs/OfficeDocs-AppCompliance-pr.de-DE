@@ -6,16 +6,16 @@ ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lumio von SMART, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lumio von SMART, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 50cde4ecae9abf39b199b381bcf8e5da33b345e6
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7f97e53eb5b4c27aa8bf2be4c97760f8a536cd06
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283302"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53520988"
 ---
-# <a name="lumio-by-smart"></a>Lumio von SMART
+# <a name="lumio-by-smart"></a>Lumio by SMART
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,9 +32,9 @@ Informationen, die von SMART Technologies ULC an Microsoft bereitgestellt werden
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Lumio von SMART |
+| App-Name | Lumio by SMART |
 | ID | WA200001874 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SMART Technologies ULC |
 | URL der Partnerwebsite | [https://smarttech.com](https://smarttech.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
@@ -51,14 +51,14 @@ Informationen, die von SMART Technologies ULC an Microsoft bereitgestellt werden
 
 Diese Informationen wurden von SMART Technologies ULC zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | Delegiert | Daten werden verwendet, um zu überprüfen, ob Gruppenberechtigungen keine Daten gesammelt werden.  | Es werden keine Verzeichnisdaten in einer Datenbank gespeichert. | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
->| Group.Read.All | Delegiert | Welche Gruppe sie sind, wird verwendet, um zu überprüfen, ob sie Teil der Schüler- oder Lehrergruppe sind, um die Funktionalität zu bestimmen. Es werden keine Daten gesammelt.  | Nur gespeicherte Daten sind die eindeutige ID des Clients. | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | Delegiert | Daten werden verwendet, um zu überprüfen, ob Gruppenberechtigungen keine Daten gesammelt werden.  | Es werden keine Verzeichnisdaten in einer Datenbank gespeichert. | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
+>| Group.Read.All | Delegiert | Welche Gruppe sie sind, wird verwendet, um zu überprüfen, ob sie Teil der Schüler- oder Lehrergruppe sind, um die Funktionalität zu bestimmen. Es werden keine Daten gesammelt.  | Nur gespeicherte Daten sind die eindeutige ID des Clients. | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet

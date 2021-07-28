@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MindManager, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69efbc45560d3271f03f8af8e9cfeb1aa7c89e5d
-ms.sourcegitcommit: 41be194e2be4de3cdb686daee7a8f6e4d1fc765a
+ms.openlocfilehash: 7a431ae7736e2efa22a2d75ff3a1cfc2e1e2234f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904541"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525739"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -34,7 +34,7 @@ Von Corel für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | MindManager |
 | ID | WA200002261 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Corel |
 | URL der Partnerwebsite | [https://www.mindmanager.com](https://www.mindmanager.com) |
 | URL der Datenschutzrichtlinie | [https://www.corel.com/en/corel-privacy-policy/](https://www.corel.com/en/corel-privacy-policy/) |
@@ -50,26 +50,26 @@ Von Corel für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Corel darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMessage.Send | Delegiert | Informationen zu Änderungen in einer MindManager-Datei, die dann als Nachricht gepostet werden können | Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Chat.Send | Delegiert | Informationen zu Änderungen in einer MindManager-Datei, die dann als Nachricht gepostet werden können | Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Files.ReadWrite | Delegiert | Websiteauflistung, Ordnerauflistung, Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | - Profildaten: um den Benutzer zu identifizieren und sein Profil anzuzeigen – Dateiinhalt: während der Gemeinsamen Bearbeitungssitzung (gemeinsame Bearbeitung in Echtzeit auf MindManager.mmap-Dateien) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Sites.ReadWrite.All | Delegiert | Websiteauflistung, Ordnerauflistung, Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | Dateiinhalt: während der gemeinsamen Bearbeitungssitzung (gemeinsame Bearbeitung in Echtzeit auf MindManager.mmap-Dateien) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| User.Read | Delegiert | Profildaten: Um den Benutzer zu identifizieren und sein Profil anzuzeigen | Profildaten: Um den Benutzer zu identifizieren und sein Profil anzuzeigen | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| offline_access | Delegiert | Auf diese Weise können wir eine Datei später im Namen des Benutzers an dem ursprünglichen Speicherort speichern, falls erforderlich. | Dateiinhalt: während der gemeinsamen Bearbeitungssitzung (gemeinsame Bearbeitung in Echtzeit auf MindManager.mmap-Dateien) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMessage.Send | Delegiert | Informationen zu Änderungen in einer MindManager-Datei, die dann als Nachricht gepostet werden können | Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Chat.Send | Delegiert | Informationen zu Änderungen in einer MindManager-Datei, die dann als Nachricht gepostet werden können | Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Files.ReadWrite | Delegiert | Websiteauflistung, Ordnerauflistung, Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | - Profildaten: um den Benutzer zu identifizieren und sein Profil anzuzeigen – Dateiinhalt: während der Gemeinsamen Bearbeitungssitzung (gemeinsame Bearbeitung in Echtzeit auf MindManager.mmap-Dateien) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Sites.ReadWrite.All | Delegiert | Websiteauflistung, Ordnerauflistung, Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | Dateiinhalt: während der gemeinsamen Bearbeitungssitzung (gemeinsame Bearbeitung in Echtzeit auf MindManager.mmap-Dateien) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| User.Read | Delegiert | Profildaten: Um den Benutzer zu identifizieren und sein Profil anzuzeigen | Profildaten: Um den Benutzer zu identifizieren und sein Profil anzuzeigen | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| offline_access | Delegiert | Auf diese Weise können wir eine Datei später im Namen des Benutzers an dem ursprünglichen Speicherort speichern, falls erforderlich. | Dateiinhalt: während der gemeinsamen Bearbeitungssitzung (gemeinsame Bearbeitung in Echtzeit auf MindManager.mmap-Dateien) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Amazon Web Services | Organisationsname, Organisationsdomäne | Die Organisation benötigt eine Kontoeinrichtung innerhalb unserer Anwendungsinfrastruktur, um die Anwendung in Teams |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots

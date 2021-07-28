@@ -64,7 +64,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook-Apps
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -73,7 +73,7 @@
           href: outlook/altru-videos.md
         - name: Genehmigte Kontaktkalender
           href: outlook/approved-contact-calendars.md
-        - name: Für Outlook
+        - name: Outlook
           href: outlook/asana-for-outlook.md
         - name: CI-Signature
           href: outlook/ci-solution-gmbh-signature.md
@@ -111,7 +111,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM für E-Mails
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint-Apps
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -128,7 +128,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Schieberegler für Office
+        - name: officeatwork | Folienauswahl für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -391,6 +391,8 @@
           href: teams/regroove-solutions-navo.md
         - name: netDocShare
           href: teams/kl-software-technologies-netdocshare.md
+        - name: ngDesk
+          href: teams/all-blue-solutions-ngdesk.md
         - name: Now Virtual Agent
           href: teams/servicenow-now-virtual-agent.md
         - name: Nugget
@@ -626,7 +628,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Überprüfen auf Office
+        - name: officeatwork | Prüfer für Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -820,6 +822,8 @@
           href: azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md
         - name: a938ae1e-a791-4751-9e6a-178c991fa0fa
           href: azure/a938ae1e-a791-4751-9e6a-178c991fa0fa.md
+        - name: a9a866c4-e5cf-47f2-932c-db14cb89008f
+          href: azure/a9a866c4-e5cf-47f2-932c-db14cb89008f.md
         - name: aa1c54a1-f482-424d-9389-dbd131233483
           href: azure/aa1c54a1-f482-424d-9389-dbd131233483.md
         - name: abe28a0d-6acc-47d8-9169-cfcc2553bc13

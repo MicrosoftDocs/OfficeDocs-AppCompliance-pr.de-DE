@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MindKategorie, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bc3c15dabdcf5b01503d835f8cc45dccf8909539
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 75177ef60be80889a14c75fbb76bc1d4aaa9aa49
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282969"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525479"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -34,7 +34,7 @@ Informationen, die von Der FesteLabs GmbH an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | MindMeister |
 | ID | WA104381116 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | MeisterLabs GmbH |
 | URL der Partnerwebsite | [https://www.mindmeister.com](https://www.mindmeister.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://support.mindmeister.com/](https://support.mindmeister.com/) |
@@ -51,13 +51,13 @@ Informationen, die von Der FesteLabs GmbH an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von DerEntenLabs GmbH bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegiert | AAD-ID, Mandanten-ID, E-Mail, DisplayName – für die Möglichkeit, jeden Benutzer innerhalb unserer Anwendung zu identifizieren und die MindFolgen-spezifischen Daten mit einem Microsoft-Benutzer zu verknüpfen (d. h. welche Karten zu welchem Benutzer gehören). | Ermöglicht dem Benutzer die Anmeldung und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung zu aktivieren. | d312ff80-0c2b-42ad-887b-c6392bcf6353 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | Delegiert | AAD-ID, Mandanten-ID, E-Mail, DisplayName – für die Möglichkeit, jeden Benutzer innerhalb unserer Anwendung zu identifizieren und die MindFolgen-spezifischen Daten mit einem Microsoft-Benutzer zu verknüpfen (d. h. welche Karten zu welchem Benutzer gehören). | Ermöglicht dem Benutzer die Anmeldung und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung zu aktivieren. | [d312ff80-0c2b-42ad-887b-c6392bcf6353](https://docs.microsoft.com/microsoft-365-app-certification/azure/d312ff80-0c2b-42ad-887b-c6392bcf6353) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -71,7 +71,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Identifiziert Teams Benutzer, die bereits über einen Link in MindNehmer verfügen, und benachrichtigt sie, dass der Bot installiert wurde. | Wir speichern keine Daten der Teamliste |  |
 
 

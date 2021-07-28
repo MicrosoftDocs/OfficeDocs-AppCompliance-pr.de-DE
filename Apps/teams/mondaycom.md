@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für monday.com, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1252ff537b354a1a8bc068e9c6ac6779c7af3fc4
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7d929b4d9c66aea657d2beb64fa77f31921f59ac
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281217"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525459"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -34,7 +34,7 @@ Informationen, die von monday.com an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | monday.com |
 | ID | WA200001798 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | monday.com |
 | URL der Partnerwebsite | [https://monday.com/](https://monday.com/) |
 | URL der Datenschutzrichtlinie | [https://monday.com/terms/privacy](https://monday.com/terms/privacy) |
@@ -50,9 +50,9 @@ Informationen, die von monday.com an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von monday.com darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| monday.com verwendet die folgenden Unterprozessoren für die Leistung des Diensts: &#160;https://monday.com/terms/subprocessors |  | monday.com verwendet keine APIs. Wir verwenden die folgenden Microsoft-Frameworks für die Leistung unseres Diensts (wie in unserer Antwort oben beschrieben): &#8216;Botbuilder&#8217; &#8216;Botframework-Connector&#8217; &#8216;@micorosft/teams-js&#8217; |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
@@ -76,13 +76,13 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->monday.com speichert Anwendungsprotokolle, die benutzerseitig generierte Inhalte für einen begrenzten Zeitraum enthalten, damit unsere R &amp; D-Mitarbeiter Fehler und vom Benutzer gemeldete Probleme beheben können. Sicherheitsprotokolle, die IP-Adressen enthalten, werden gemäß unserer Datenaufbewahrungsrichtlinie für einen längeren Zeitraum aufbewahrt.
+>monday.com speichert Anwendungsprotokolle, die benutzerseitig generierte Inhalte für einen begrenzten Zeitraum enthalten, um es unserem R &amp; D-Personal zu ermöglichen, Fehler und vom Benutzer gemeldete Probleme zu beheben. Sicherheitsprotokolle, die IP-Adressen enthalten, werden gemäß unserer Datenaufbewahrungsrichtlinie für einen längeren Zeitraum aufbewahrt.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->monday.com Dienst wird in der AWS-Infrastruktur in Norderz über mehrere Verfügbarkeitszonen hinweg gehostet, wobei ein DR-Standort in einer anderen Region eingerichtet ist. Bestimmte Sicherungsdaten werden auf GCP (USA, mehrere Regionen) gespeichert. Der Zugriff auf den monday.com Dienst wird von den Administratoren der Benutzerorganisation gesteuert und mithilfe der folgenden Features erreicht:
+>monday.com Dienst wird in der AWS-Infrastruktur in Nordskann über mehrere Verfügbarkeitszonen hinweg gehostet, wobei ein DR-Standort in einer anderen Region eingerichtet ist. Bestimmte Sicherungsdaten werden auf GCP (USA, mehrere Regionen) gespeichert. Der Zugriff auf den monday.com Dienst wird von den Administratoren der Benutzerorganisation gesteuert und mithilfe der folgenden Features erreicht:
 - Benutzertypen
 - Berechtigungen auf Kontoebene
 - Arbeitsbereiche

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Board Verbinden, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7c67ece1e55b265152c8a7664b8f714926d9caff
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: c04b8be94b4d9a6367c8baa2b3370d82c2bdff5c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53456603"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525669"
 ---
 # <a name="board-connect"></a>Board Connect
 
@@ -21,7 +21,7 @@ ms.locfileid: "53456603"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: July 5, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/e8f06a4e-cefe-4b1e-a24b-c97bea471130" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/e8f06a4e-cefe-4b1e-a24b-c97bea471130" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001955" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die von Engage Squared für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Board Connect |
 | ID | WA200001955 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Engage Squared |
 | URL der Partnerwebsite | [https://engagesq.com](https://engagesq.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://boardconnect.app](https://boardconnect.app) |
@@ -53,23 +53,23 @@ Diese Informationen wurden von Engage Squared bereitgestellt, wie diese App Orga
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | Delegiert | Damit die App Benutzerkalender so aktualisieren kann, dass sie die Teilnahmeantworten ihrer Board-Besprechung widerspiegelt, die über die App übermittelt wurden. | In unserem Azure-Tabellenspeicher werden keine Daten gespeichert. | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| Group.ReadWrite.All | Delegiert | Damit die App Gruppenkalenderereignisse erstellen, aktualisieren und löschen kann. | Wir speichern die ID der Gruppe zusammen mit der Mandanten-ID – diese wird aus Lizenzierungsperspektive gespeichert und verwendet, sodass wir überprüfen können, ob die Organisation für Board Verbinden lizenziert ist. Wir verwenden dies auch, um nachzuverfolgen, wie viele Installationen der Anwendungen innerhalb des Mandanten vorhanden sind, da dies mit unserem Lizenzierungsmodell inLine ist. | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| Sites.Manage.All | Delegiert | Damit die App Listen und Bibliotheken erstellen kann, verwalten Sie Listenelemente und Dokumente in einer Teamwebsitesammlung. | Keine | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| User.Read | Delegiert | So ermöglichen Sie Benutzern, sich bei der App anzumelden und der App das Lesen des Profils des aktuell angemeldeten Benutzers zu ermöglichen. | In unserem Azure-Tabellenspeicher werden keine Daten von diesem Endpunkt gespeichert. | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| User.ReadBasic.All | Delegiert | Damit die App einen grundlegenden Satz von Profileigenschaften anderer Benutzer im Namen des angemeldeten Benutzers lesen kann, um dies in der App anzuzeigen. Dazu gehören Anzeigename, Vor- und Nachname, E-Mail-Adresse und Foto. | Keine, Daten werden nicht in unserem Azure-Tabellenspeicher gespeichert. | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| offline_access | Delegiert | Um der App das Abrufen eines Aktualisierungstokens zu ermöglichen, das sie zum Abrufen eines neuen Zugriffstokens verwenden kann, wenn das aktuelle abläuft. | Keine, Daten werden nicht in unserem Azure-Tabellenspeicher gespeichert | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | Delegiert | Damit die App Benutzerkalender so aktualisieren kann, dass sie die Teilnahmeantworten ihrer Board-Besprechung widerspiegelt, die über die App übermittelt wurden. | In unserem Azure-Tabellenspeicher werden keine Daten gespeichert. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Group.ReadWrite.All | Delegiert | Damit die App Gruppenkalenderereignisse erstellen, aktualisieren und löschen kann. | Wir speichern die ID der Gruppe zusammen mit der Mandanten-ID – diese wird aus Lizenzierungsperspektive gespeichert und verwendet, damit wir überprüfen können, ob die Organisation für Board Verbinden lizenziert ist. Wir verwenden dies auch, um nachzuverfolgen, wie viele Installationen der Anwendungen innerhalb des Mandanten vorhanden sind, da dies mit unserem Lizenzierungsmodell inLine ist. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Sites.Manage.All | Delegiert | Damit die App Listen und Bibliotheken erstellen kann, verwalten Sie Listenelemente und Dokumente in einer Teamwebsitesammlung. | Keine | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| User.Read | Delegiert | So ermöglichen Sie Benutzern, sich bei der App anzumelden und der App das Lesen des Profils des aktuell angemeldeten Benutzers zu ermöglichen. | In unserem Azure-Tabellenspeicher werden keine Daten von diesem Endpunkt gespeichert. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| User.ReadBasic.All | Delegiert | Damit die App einen grundlegenden Satz von Profileigenschaften anderer Benutzer im Namen des angemeldeten Benutzers lesen kann, um dies in der App anzuzeigen. Dazu gehören Anzeigename, Vor- und Nachname, E-Mail-Adresse und Foto. | Keine, Daten werden nicht in unserem Azure-Tabellenspeicher gespeichert. | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| offline_access | Delegiert | Um der App das Abrufen eines Aktualisierungstokens zu ermöglichen, das sie verwenden kann, um ein neues Zugriffstoken abzurufen, wenn das aktuelle abläuft. | Keine, Daten werden nicht in unserem Azure-Tabellenspeicher gespeichert | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

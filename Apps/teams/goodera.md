@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Goodera, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 46dc2de8dc444591a42a0a3e4ecaa1c31232ebc3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: ca4ac668f6eec944a1fc697568ddd637240130cc
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281868"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525629"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -34,7 +34,7 @@ Von Goodera für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Goodera |
 | ID | WA200002136 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Goodera |
 | URL der Partnerwebsite | [https://goodera.com](https://goodera.com) |
 | URL der Datenschutzrichtlinie | [https://about.goodera.com/privacy](https://about.goodera.com/privacy) |
@@ -50,7 +50,7 @@ Von Goodera für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Goodera darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
@@ -68,7 +68,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Wir greifen auf die E-Mail-ID der Benutzer zu, damit wir die Benutzer identifizieren und ihnen helfen können, sich für Möglichkeiten zur Freiwilligenarbeit zu registrieren. | E-Mail-ID | Diese personenbezogenen Informationen werden nur gespeichert, damit wir wissen, für welche Möglichkeiten der Freiwilligenarbeit sich der Benutzer registriert hat. |
 
 

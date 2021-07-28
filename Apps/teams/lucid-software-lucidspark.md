@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidspark, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c05b4a1f7c5a1707ce7ab4f2d3230bdf1c7bdb4d
-ms.sourcegitcommit: 1b9ad544fd91bb0fb25e467baf2d368a812dc476
+ms.openlocfilehash: e79bed420b3081ae31a0abda25299610eeb1bc5f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52927277"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525509"
 ---
 # <a name="lucidspark"></a>Lucidspark
 
@@ -21,7 +21,7 @@ ms.locfileid: "52927277"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 13, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/e9ab21fa-5fd5-48bb-a85d-4de7ced89cd1" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/e9ab21fa-5fd5-48bb-a85d-4de7ced89cd1" target="_blank">Anzeigen in Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002583" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Lucid Software für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Lucidspark |
 | ID | WA200002583 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Lucid Software |
 | URL der Partnerwebsite | [https://lucid.co](https://lucid.co) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://lucidchart.zendesk.com](https://lucidchart.zendesk.com) |
@@ -51,23 +51,23 @@ Von Lucid Software für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Lucid Software dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidspark, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidspark-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | 3557d5c0-bcab-410b-8a03-f7045aa48de0 |
->| openid | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidspark, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidspark-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | 3557d5c0-bcab-410b-8a03-f7045aa48de0 |
->| Profil | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidspark, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidspark-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | 3557d5c0-bcab-410b-8a03-f7045aa48de0 |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidspark, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidspark-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| openid | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidspark, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidspark-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| Profil | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidspark, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidspark-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Lucidspark- und Lucidchart-Daten werden in AWS und Demflake gespeichert. | Organisationsname, Kontaktinformationen und Lizenzebene | Wir verwenden keine Microsoft-APIs. Wir verwenden openID, um grundlegende Benutzerdaten zum Ausführen von SSO abzurufen. Wir verwenden die Dateiauswahl-API, aber dadurch erhalten wir keinen Zugriff auf die Dateien des Benutzers, die sie über die Auswahl an uns übermitteln. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
@@ -101,7 +101,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39482' frameborder='no' style='width: 100%;'></iframe>
 
