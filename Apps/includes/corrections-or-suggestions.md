@@ -8,4 +8,4 @@ ms.locfileid: "52093221"
 ---
 ### <a name="feedback"></a>Feedback
 
-Fragen oder Aktualisierungen zu den hier gezeigten Informationen? <a href="https://aka.ms/AppComplianceQuestions" target="_blank">Kontaktieren Sie uns!</a>
+Fragen oder Aktualisierungen zu den hier angezeigten Informationen? <a href="https://aka.ms/AppComplianceQuestions" target="_blank">kontaktieren Sie uns!</a>
