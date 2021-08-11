@@ -6,12 +6,12 @@ description: Weitere Informationen zum Publisher Attestation-Programm
 keywords: App-Nachweiszertifizierung 365 Fragebogen appSource-Herausgeber
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 10b4bb59d26190535b9aa365c830db774f4865c063678fad02a10c73c6d1ef64
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526101"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750455"
 ---
 # <a name="what-is-publisher-attestation"></a>Was ist Publisher Nachweis?
 
@@ -32,7 +32,7 @@ Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerzielle
 - OneNote
 
 ### <a name="benefits-for-it-admins"></a>Vorteile für IT-Administratoren
-Zu den Vorteilen des Abschlusses des Publisher Attestation für IT-Administratoren gehören:
+Die Vorteile der Publisher Attestation für IT-Administratoren umfassen:
 -   Zusätzliches Vertrauen in die Sicherheits- und Compliance-Maßnahmen von Anwendungen, die in der Organisation aktiviert sind
 -   Verkürzte Zeit zum Überprüfen des Sicherheits- und Compliancestatus einer App
 
@@ -70,7 +70,7 @@ Der Entwickler kann detaillierte Informationen zu den Ergebnissen des Publisher 
 
 **Ein Beispiel für eine App, die den Publisher Attestation abgeschlossen hat, finden Sie im [MIPA-Eintrag.](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas)** 
 
-## <a name="learn-more"></a>Weitere Informationen
+## <a name="learn-more"></a>Mehr erfahren
 
 * [Microsoft 365 Übersicht über das App-Complianceprogramm](~/overview.md)
 * [Was ist Publisher Überprüfung?](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)

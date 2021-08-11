@@ -6,12 +6,12 @@ description: ISV-Benutzerhandbuch für Microsoft 365 App Compliance-Programm
 keywords: ISV-Benutzerhandbuch für Microsoft 365 App Compliance-Programm
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1da6de6ee6664bb868a2184be538a8e5bbc65ab2
-ms.sourcegitcommit: f6f3551bf1c00013efb6313ca3dc280de697137d
+ms.openlocfilehash: 74bb654b6084319122e0f9388792cf44d85ca4a664ce89bf308982a29cbfdfc8
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53202731"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54801661"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Benutzerhandbuch des Partners für Microsoft 365 App Compliance-Programm
 
@@ -21,7 +21,7 @@ ms.locfileid: "53202731"
 |Phase 2| Microsoft 365-Zertifizierung|
 
 ## <a name="1-overview"></a>1. Übersicht
-Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die im Microsoft 365 App Compliance-Programm registriert sind und Publisher Nachweis und Zertifizierung über das Partner Center-Portal durchführen möchten.
+Dieses Dokument dient als schrittweise Benutzeranleitung für unsere Partner, die im Microsoft 365 App Compliance-Programm registriert sind und Publisher Nachweis und Zertifizierung über das Partner Center-Portal durchführen möchten.
 
 
 ## <a name="2-acronyms--definitions"></a>2. Akronyme & Definitionen
@@ -58,7 +58,7 @@ Beim Auswählen einer App wird eine andere Navigationsleiste mit der Option "App
 
 ![Auswählen der App-Kompatibilität](../media/UserGuidePhotos/04.png)
 
-**Schritt 4:** Ausfüllen des Fragebogens zur Selbstbewertung für Publisher Nachweis
+**Schritt 4:** Ausfüllen des Selbstbewertungsfragebogens für Publisher Nachweis
 
 ![Herausgebernachweis](../media/UserGuidePhotos/5.5.png)
 
@@ -70,7 +70,7 @@ Sie können auch das feature Import/Export verwenden, um das Formular offline au
 
 ![Import Export Feature](../media/UserGuidePhotos/06.png)
 
-**Schritt 5:** Wenn Sie abgeschlossen sind, klicken Sie auf "Übermitteln", die Bewertung wird jetzt "Überprüft" angezeigt.
+**Schritt 5:** Nachdem Sie abgeschlossen sind, klicken Sie auf "Übermitteln", die Bewertung wird jetzt "Überprüft" angezeigt.
 
 ![Klicken Sie auf "Sumbit".](../media/UserGuidePhotos/07.png)
 
@@ -110,7 +110,7 @@ Ein Partner kann den Zertifizierungsprozess starten, indem er das Kontrollkästc
 
 ![Zertifizierung starten](../media/UserGuidePhotos/13.png)
 
-**Schritt 1:** Ursprüngliche Dokumentübermittlung Füllen Sie alle Details aus, laden Sie relevante Dokumente hoch, und klicken Sie auf "Übermitteln".
+**Schritt 1:** Füllen Sie alle Details aus, laden Sie relevante Dokumente hoch, und klicken Sie auf "Übermitteln".
 
 ![](../media/UserGuidePhotos/14.png)
  ![ Anfängliche Übermittlung 2](../media/UserGuidePhotos/15.png)
@@ -127,9 +127,9 @@ Nachdem der Analyst die ursprüngliche Dokumentübermittlung genehmigt hat, muss
 
 **Schritt 2:** Anforderungsübermittlung steuern: Füllen Sie alle Details aus, laden Sie relevante Dokumente hoch, und klicken Sie auf "Übermitteln". 
 
-![Vollständige Kontrollanforderungen ](../media/UserGuidePhotos/18.png)
- ![ Hochladen ](../media/UserGuidePhotos/19.png)
- ![ Nachweissicherungs-Kontrollanforderungen sind erfüllt](../media/UserGuidePhotos/20.png)
+![Complete Control Requirements ](../media/UserGuidePhotos/18.png)
+ ![ Hochladen Evidence Assure control requirements ](../media/UserGuidePhotos/19.png)
+ ![ are complete](../media/UserGuidePhotos/20.png)
 
 Wenn Sie auf "Absenden" klicken, wird die Zertifizierungsübermittlung überprüft. 
 
@@ -219,7 +219,7 @@ Zertifizierungsverlängerung wird genehmigt
 
 **Ablauf der Zertifizierung:**
  
-Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die Zertifizierungsseite der App in den Microsoft-Dokumenten aufrechtzuerhalten. Eine rechtzeitige Verlängerung stellt außerdem eine fortlaufende Bereinigung und Symbole für die App in AppSource und Team Store sicher.
+Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die Zertifizierungsseite der App in den Microsoft-Dokumenten aufrechtzuerhalten. Eine rechtzeitige Verlängerung stellt auch eine fortlaufende Bereinigung und Symbole für die App in AppSource und Team Store sicher.
 
 
 Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die Zertifizierungsseite der App in den Microsoft-Dokumenten aufrechtzuerhalten. Eine rechtzeitige Verlängerung stellt außerdem eine fortlaufende Bereinigung und Symbole für die App in AppSource, Teams Store, Office Store und anderen Storefronts sicher. 

@@ -6,12 +6,12 @@ description: ISV-Benutzerhandbuch für Microsoft 365 App Compliance Program SaaS
 keywords: ISV-Benutzerhandbuch für Microsoft 365 App Compliance Program SaaS
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: b3b8c37a1babf2f941f5764fddd30523319d9a34
-ms.sourcegitcommit: f6f3551bf1c00013efb6313ca3dc280de697137d
+ms.openlocfilehash: 39eed9158ab9cbaa5e26efe036c98fc2ab2b1695d615d8b28930f0d8d4735430
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53202763"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54801384"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Benutzerhandbuch des Partners für Microsoft 365 App Compliance-Programm – SaaS
 
@@ -22,7 +22,7 @@ ms.locfileid: "53202763"
 
 ## <a name="1-overview"></a>1. Übersicht 
 
-Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die für Microsoft 365 App Compliance-Programm registriert sind und Publisher Nachweis und Zertifizierung für ihre SaaS-Apps durchführen möchten, über das Partner Center-Portal.
+Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die für Microsoft 365 App Compliance-Programm registriert sind, um Publisher Nachweis und Zertifizierung für ihre SaaS-Apps zu durchlaufen, über das Partner Center-Portal.
 
 ## <a name="2-acronyms--definitions"></a>2. Akronyme & Definitionen
 |Akronym | Definition |
@@ -45,7 +45,7 @@ Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die für M
 
 ![Commercial Marketplace im Partner Center](../media/Saas2.PNG)
   
-Bei Auswahl von "Übersicht" kann der Partner eine Liste der Verfügbaren Apps anzeigen, um das Microsoft 365 Compliance-Programm zu starten.
+Bei Auswahl von "Übersicht" kann der Partner eine Liste der verfügbaren Apps anzeigen, um das Microsoft 365 Compliance-Programm zu starten.
   
 **Schritt 2:** Wählen Sie eine App aus der Liste aus, um den Publisher Nachweisprozess zu starten.
 
@@ -65,7 +65,7 @@ Beim Auswählen einer App wird eine weitere Navigationsleiste mit der Option "Ap
 
 ![Clone-Funktion](../media/UserGuidePhotos/05.png)
 
-**Sie können auch das feature Import/Export verwenden, um das Formular offline auszufüllen und es nach Abschluss zu importieren.**
+**Sie können auch die Import/Export-Funktion nutzen, um das Formular offline auszufüllen und es nach Abschluss zu importieren.**
 
 ![Import Export Feature](../media/UserGuidePhotos/06.png)
  
@@ -75,7 +75,7 @@ Beim Auswählen einer App wird eine weitere Navigationsleiste mit der Option "Ap
   
 **Genehmigen/Ablehnen von Szenarien:**
   
-A: Publisher Ablehnung des Nachweiss
+A. Publisher Ablehnung des Nachweiss
 - Im Falle einer Ablehnung kann ein Partner:
      - Fehlerbericht anzeigen
           - Der Partner wird per E-Mail benachrichtigt und kann den Fehlerbericht im Partner Center anzeigen.
@@ -86,7 +86,7 @@ A: Publisher Ablehnung des Nachweiss
 B.  Publisher Nachweisgenehmigung
 - Nach genehmigung kann der Partner:
      - Aktualisieren und erneutes Übermitteln des Attests
-     - Abgeschlossene Publisher Nachweis anzeigen
+     - Abgeschlossene Publisher Attestation anzeigen
      - Starten des Microsoft 365 Zertifizierungsprozesses
         
  ![Publisher Nachweis abgeschlossen](../media/UserGuidePhotos/10.png)       
@@ -142,7 +142,7 @@ Ein Analyst fordert eine Überarbeitung für den Fall an, dass die Kontrollanfor
   
 ![Überprüfung in Bearbeitung](../media/UserGuidePhotos/24.png) 
  
-Falls die Übermittlung die Genehmigungsstandards nicht erfüllt, wird der Analyst die Übermittlung ablehnen.
+Falls die Übermittlung die Genehmigungsstandards nicht erfüllt, lehnt der Analyst die Übermittlung ab.
   
 Der Partner kann mit dem Analysten zusammenarbeiten, um die relevanten Informationen und Dokumente bereitzustellen.
 
@@ -152,7 +152,7 @@ Sobald alle Sicherheitsstandards erfüllt sind, genehmigt der Analyst die Überm
 
 ![Microsoft 365 App-Zertifizierung genehmigt](../media/UserGuidePhotos/26.png)
   
-**Nach der Zertifizierungsgenehmigung: Beispiel für Microsoft 365 Zertifizierungssignal in AppSource.** 
+**Nach der Zertifizierungsgenehmigung: Beispiel für Microsoft 365-Zertifizierungssignal in AppSource.** 
 
 ![Nach der Zertifizierungsgenehmigung](../media/UserGuidePhotos/27.png)
  
@@ -178,7 +178,7 @@ Die Publisher Attestation-Antworten der App müssen jährlich erneut übermittel
   
 ![Renewel genehmigt](../media/UserGuidePhotos/31.png)
   
-**Schritt 2:** Überprüfen Sie die vorherigen Publisher Antworten auf den Nachweis, und aktualisieren Sie nach Bedarf die neuesten Informationen. 
+**Schritt 2:** Überprüfen Sie die vorherigen Publisher Antworten auf den Nachweis, und aktualisieren Sie bei Bedarf die neuesten Informationen. 
   
 Übermitteln Sie Publisher Nachweis zur Verlängerung, wenn sie bereit ist. Sie wird von einem M365 App Compliance-Analysten überprüft.
 
@@ -194,7 +194,7 @@ Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die
  
 ![Renewel genehmigt](../media/UserGuidePhotos/31.png)
 
-**Hinweis:** Nach Ablauf des Vorgangs kann Publisher Verlängerungsnachweis jederzeit durch Klicken auf "Verlängern" gestartet werden.
+**Hinweis:** Nach Ablauf des Vorgangs kann Publisher Verlängerungsvorgang für den Nachweis jederzeit durch Klicken auf "Verlängern" gestartet werden.
  
 **Phase 2: Microsoft 365 Zertifizierungsverlängerung**
   
@@ -214,7 +214,7 @@ Szenario 1A:
 
 Ablehnung der Zertifizierungsverlängerung: 
 - Die Zertifizierung kann abgelehnt werden, wenn: 
-     - Die App verfügt nicht über die erforderlichen Tools, Prozesse oder Konfigurationen und kann keine erforderlichen Änderungen im Zertifizierungsfenster implementieren. 
+     - Die App verfügt nicht über die erforderlichen Tools, Prozesse oder Konfigurationen und kann die erforderlichen Änderungen im Zertifizierungsfenster nicht implementieren. 
      - Die App verfügt über ausstehende Sicherheitsrisiken und kann im Zertifizierungsfenster nicht behoben werden. 
  
 ![Ablehnung der Zertifizierung](../media/UserGuidePhotos/34.png)
@@ -231,4 +231,4 @@ Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die
 
 ![Zertifizierungserneuerungsgenehmigung](../media/UserGuidePhotos/36.png)
   
-Hinweis: Nach Ablauf kann Publisher Nachweis- und Zertifizierungsprozess jederzeit durch Klicken auf "Verlängern" gestartet werden. 
+Hinweis: Nach Ablauf des Vorgangs kann Publisher Nachweis- und Zertifizierungsprozess jederzeit durch Klicken auf "Verlängern" gestartet werden. 

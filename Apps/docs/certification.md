@@ -6,33 +6,33 @@ description: Microsoft 365 Übersicht über Zertifizierungsdetails
 keywords: App-Zertifizierungsnachweis Microsoft 365 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: e5696890f532589ae4fbec08aaf9f5be7b2e4590
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: bb6434cf94db1b7af437b3317397c0ba26a4c52df23e5837d9bcab1e98ff7a47
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315095"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750465"
 ---
 # <a name="complete-microsoft-365-certification"></a>Abschließen Microsoft 365 Zertifizierung
 
 ## <a name="introduction"></a>Einführung
 
-Die Microsoft 365 Zertifizierung erfordert eine Bewertung Ihrer Sicherheits- und Complianceprozesse und -verfahren. Diese Bewertung umfasst die Überprüfung von Nachweisen, um zu überprüfen, ob Sie eine Reihe von Sicherheitskontrollen erfüllen, die drei Bereiche umfassen: Anwendungssicherheit, Betriebssicherheit/sichere Bereitstellung, Datenverarbeitungssicherheit und Datenschutz, die in [Microsoft 365 Leitfaden zur Übermittlung von Zertifizierungen](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)beschrieben sind.
+Die Microsoft 365 Zertifizierung erfordert eine Bewertung Ihrer Sicherheits- und Complianceprozesse und -verfahren. Diese Bewertung umfasst die Überprüfung von Nachweisen, um zu überprüfen, ob Sie eine Reihe von Sicherheitskontrollen erfüllen, die drei Bereiche umfassen: Anwendungssicherheit, Betriebssicherheit/sichere Bereitstellung, Sicherheit und Datenschutz, die in [Microsoft 365 Leitfaden zur Übermittlung von Zertifizierungen](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)beschrieben sind.
 
 Durch die Bereitstellung von Nachweisen (Dokumente, Screenshots usw.) können Sie demonstrieren, dass Sie die Steuerelemente in jeder Domäne erfüllen. Nachdem wir überprüft haben, dass Sie jedes Steuerelement erfüllen, erhalten Sie die Zertifizierung. Wenn Sie bereits über eine SOC2-, PCI DSS- oder ISO 27001-Zertifizierung verfügen, die den Umfang Ihrer App abdeckt, können Sie diese Berichte bereitstellen, um eine Teilmenge der Steuerelemente zu erfüllen, anstatt Nachweise bereitzustellen. 
 
 Die Zertifizierung ist eine wirkungsvolle Möglichkeit, Unternehmensorganisationen Ihr Engagement für die Einhaltung strenger Sicherheitspraktiken zu zeigen und zu zeigen, dass Ihre App für den Unternehmensverbrauch bereit ist. Die Teilnahme am Nachweis- und Zertifizierungsprogramm ist optional und verhindert nicht, dass Ihre App auf der Microsoft AppSource-Plattform veröffentlicht und verteilt wird.
 
 > [!IMPORTANT]
-> Durch die Teilnahme am Microsoft 365 Zertifizierungsprogramm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle begleiten Dokumentationen ein, die für Ihre Teilnahme am Microsoft 365 Zertifizierungsprogramm bei der Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für die Microsoft 365 Zertifizierung im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder kündigen. Ihre fortgesetzte Teilnahme am Microsoft 365 Zertifizierungsprogramm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bestimmungen nicht zustimmen oder diese ergänzenden Bedingungen kündigen, müssen Sie die Teilnahme am Microsoft 365 Zertifizierungsprogramm beenden.
+> Durch die Teilnahme am Microsoft 365 Zertifizierungsprogramm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle Begleitdokumentationen ein, die für Ihre Teilnahme am Microsoft 365 Zertifizierungsprogramm mit der Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen Microsoft 365 Zertifizierung im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder beenden. Ihre fortgesetzte Teilnahme am Microsoft 365 Zertifizierungsprogramm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bestimmungen nicht zustimmen oder wenn wir diese ergänzenden Bedingungen kündigen, müssen Sie die Teilnahme am Microsoft 365 Zertifizierungsprogramm beenden.
 
 ## <a name="certification-process"></a>Zertifizierungsprozess
 
 Bevor Sie mit dem Zertifizierungsprozess beginnen, müssen Sie den Publisher Attestation abgeschlossen haben. Nachdem Ihr Herausgebernachweis genehmigt wurde, erhalten Sie eine einführende E-Mail, in der Sie zur Teilnahme an Microsoft 365 Zertifizierung eingeladen werden.
 
 ### <a name="preparation"></a>Vorbereitung
-1. Navigieren Sie zum Partner Center, und überprüfen Sie ihre vollständige [Publisher Nachweisdokumentation.]( https://docs.microsoft.com/microsoft-365-app-certification/docs/attestation) Bei Bedarf können Sie Ihre Antworten bearbeiten und aktualisieren. Wenn Sie dies jedoch tun, müssen Sie Ihre Nachweisdokumentation zur Genehmigung erneut übermitteln. Wenn Ihre Übermittlung älter als drei Monate ist, müssen Sie Publisher Nachweis zur Überprüfung und Überprüfung erneut übermitteln. 
-1. Lesen Sie sorgfältig den [Microsoft 365 Leitfaden zur Zertifizierungsübermittlung](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide) durch, um zu verstehen, was von Ihnen benötigt wird. Stellen Sie sicher, dass Sie die Im Microsoft 365 Zertifizierungsübermittlungshandbuch angegebenen [Kontrollanforderungen]( https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#app-certification-criteria) erfüllen können.
+1. Navigieren Sie zum Partner Center, und überprüfen Sie Die ausgefüllte [Publisher Nachweisdokumentation.]( https://docs.microsoft.com/microsoft-365-app-certification/docs/attestation) Bei Bedarf können Sie Ihre Antworten bearbeiten und aktualisieren. Wenn Sie dies jedoch tun, müssen Sie Ihre Nachweisdokumentation zur Genehmigung erneut übermitteln. Wenn Ihre Übermittlung älter als drei Monate ist, müssen Sie Publisher Nachweis zur Überprüfung und Überprüfung erneut übermitteln. 
+1. Lesen Sie den [Microsoft 365 Leitfaden zur Zertifizierungsübermittlung](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide) sorgfältig durch, um zu verstehen, was von Ihnen benötigt wird. Stellen Sie sicher, dass Sie die Im Microsoft 365 Zertifizierungsübermittlungshandbuch angegebenen [Kontrollanforderungen]( https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#app-certification-criteria) erfüllen können.
 1. Klicken Sie im Partner Center auf "Zertifizierung starten". Dadurch gelangen Sie zu Ihrem anfänglichen Dokumentübermittlungsportal. Übermitteln Sie Ihre [ursprüngliche Dokumentübermittlung.](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#initial-document-submission) Dies hilft uns zu bestimmen, was für Ihre Bewertung gilt, basierend auf der Architektur Ihrer App und der Behandlung von Kundendaten. Überprüfen Sie diese Seite häufig, um festzustellen, ob Ihre Übermittlung akzeptiert wurde.
 
 >[!NOTE]
@@ -52,7 +52,7 @@ Wenn Ihre Zertifizierung nicht vor dem Ablaufdatum verlängert wird, wird ihr Ap
 
 
 
-## <a name="learn-more"></a>Weitere Informationen
+## <a name="learn-more"></a>Mehr erfahren
 
 * [Microsoft 365 Übersicht über das App-Complianceprogramm](~/overview.md)  
 * [Was ist Publisher Überprüfung?](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)

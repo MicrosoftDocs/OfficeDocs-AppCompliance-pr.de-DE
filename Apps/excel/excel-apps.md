@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Excel Apps.
 localization_priority: Normal
-ms.openlocfilehash: f630984d82de748e01559058f4d916942a4fed0a
-ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
+ms.openlocfilehash: 708661d07e98e4eaa99ca9b28aafaa65006b944ef712e6222d0e4424ea5b9ce4
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53547793"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54801851"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel Sicherheit und Compliance von Apps
 
