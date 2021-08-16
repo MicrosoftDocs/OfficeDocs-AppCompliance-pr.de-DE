@@ -6,58 +6,65 @@ description: Microsoft 365 Zertifizierungsdetails
 keywords: App-Nachweis Microsoft 365 Zertifizierung 365 Fragebogen appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 95fcd8707e7c485fb113d10ce9bb2e6091c6e4a2d2a3864082d1e493db9d3076
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 51f85b71a04cb64159b228cdb881345fecaad36c
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801921"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58241818"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Was ist Microsoft 365 Zertifizierung?
 
-Microsoft 365 Durch die Zertifizierung wird sichergestellt, dass Daten und Datenschutz angemessen gesichert und geschützt sind, wenn Sie eine Drittanbieter-App verwenden. Die Zertifizierung bestätigt, dass eine App den Kriterien entspricht, die im Leitfaden zur [Microsoft 365-Zertifizierungsübermittlung](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)beschrieben sind. Anwendungen, die die Validierung bestehen, werden Microsoft 365 zertifiziert.
-Die App-Zertifizierung erfolgt durch die Überprüfung und Genehmigung eines umfassenden Bewertungscenters auf den Sicherheits- und Compliance-Frameworks, -Prozessen und -Verfahren einer App. Obwohl die Teilnahme optional ist, ist der Erhalt einer Zertifizierung eine unverwendliche Möglichkeit, zu signalisieren, dass Ihre Anwendung und Ihre betrieblichen Verfahren einer ausführlichen Sicherheitsüberprüfung unterzogen wurden.
+Die Microsoft 365 Zertifizierung ist eine Zertifizierung, die Kunden zeigt, dass eine App gegen Branchenstandardframeworks überprüft wurde und dass starke Sicherheits- und Compliance-Praktiken zum Schutz von Kundendaten vorhanden sind. 
 
-Microsoft 365 Die Zertifizierung gilt für Web Apps (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden). SaaS-Apps befinden sich derzeit in einer privaten Vorschau, wenn Sie daran teilnehmen möchten, füllen Sie dieses [Formular](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)aus. Die Zertifizierung umfasst auch alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
+>[!VIDEO https://www.youtube.com/embed/Aff_35f10B8]
 
+
+## <a name="microsoft-365-certification-scope"></a>Microsoft 365 Zertifizierungsbereich
+
+Microsoft 365 Die Zertifizierung gilt für alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
 - Microsoft Teams
 - Word
 - Excel
-- PowerPoint 
+- PowerPoint
 - Outlook
 - SharePoint
 - Project
 - OneNote
+- **Webapps** (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden, befinden sich derzeit in einer privaten Vorschau, wenn Sie daran teilnehmen möchten, füllen Sie bitte dieses [Formular](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)aus.)
 
-## <a name="microsoft-365-certification-scope"></a>Microsoft 365 Zertifizierungsbereich
-
-Apps, die zertifiziert wurden, wurden in den folgenden drei Domänen bewertet:
-1.  **Application Security**
-1.  **Betriebssicherheit/sichere Bereitstellung**
-1.  **Sicherheit und Datenschutz bei der Datenverarbeitung**
-
-Um vollständige Details zum strengen Prozess zu erhalten, müssen ISVs durchlaufen werden, um zertifiziert zu werden. Siehe [Microsoft 365 Leitfaden zur Zertifizierungsübermittlung.](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)
 
 ## <a name="program-benefits"></a>Programmvorteile
-Die Teilnahme und der Abschluss der Microsoft 365 Zertifizierung können IT-Administratoren und Entwicklern vorteile bieten:
+Die Teilnahme und der Abschluss der Microsoft 365-Zertifizierung können IT-Administratoren und Entwicklern vorteile bieten:
 
 **Vorteile für App-Entwickler** Zu den Vorteilen für app-Entwickler gehören: 
 -   Eine kostenlose Bewertung und Überprüfung Ihrer Sicherheits- und Compliance-Position
 -   Ein Badge, das in Ihrem App-Eintrag in AppSource, Microsoft-Dokumenten und Verwaltungsportalen gedruckt wird
--   Erhöhtes Vertrauen der IT-Administratoren in Ihre App
+-   Reduzierter Zeitaufwand zur Minderung von Sicherheitsbedenken für Kunden 
 -   Die Möglichkeit, zu einem vertrauenswürdigen Ökosystem verifizierter kommerzieller Apps beizutragen
--   Verwenden von Marketingmaterialien, um Ihren Status als Microsoft 365 zertifizierte App zu bewerben
+- Verwenden von Marketingmaterialien, um Ihren Status als Microsoft 365 zertifizierte App zu bewerben
 
 **Vorteile für IT-Administratoren** Zu den Vorteilen für den IT-Administrator gehören:
 -   Erhöhtes Vertrauen in die Sicherheit Ihrer Daten
--   Reduzierter Zeit- und Ressourcenaufwand für die Untersuchung der App-Sicherheit und -Compliance einer App
+-   Reduzierter Zeit- und Ressourcenaufwand für die Untersuchung der Sicherheit und Compliance einer App 
 
-## <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Verwenden des Microsoft 365 Badge und der zugehörigen Marketingmaterialien
-Das Logo Microsoft 365 Zertifizierung zeigt, dass eine App auf Konformität mit von Microsoft bereitgestellten Kontrollen überprüft wurde, die die Datensicherheits- und Datenschutzpraktiken auswerten. Sie können das Logo Microsoft 365 Zertifizierung nach Abschluss der Microsoft 365 Zertifizierung mit ausdrücklicher schriftlicher Zustimmung von Microsoft verwenden. Wenn Ihre Zertifizierung widerrufen wird oder der Rezertifizierungsprozess nicht innerhalb eines Jahres ab dem Tag, an dem die Zertifizierung erteilt wurde, gestartet wird, müssen Sie die Verwendung aller marketingbezogenen Marketingmaterialien Microsoft 365 Zertifizierung einstellen. 
+## <a name="certification-requirements"></a>Zertifizierungsanforderungen
+Die App-Zertifizierung erfolgt durch die Überprüfung und Genehmigung eines umfassenden Bewertungscenters auf den Sicherheits- und Compliance-Frameworks, -Prozessen und -Verfahren einer App. 
+
+Apps, die zertifiziert wurden, wurden in den folgenden drei Domänen bewertet:
+1.  [**Application Security**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security)
+1.  [**Betriebssicherheit/sichere Bereitstellung**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security)
+1.  [**Sicherheit und Datenschutz bei der Datenverarbeitung**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy)
+
+Obwohl die Teilnahme optional ist, signalisiert die Zertifizierung einer App, dass sie einer umfangreichen Sicherheitsüberprüfung unterzogen wurde und mit Ihren Daten vertraut werden kann. Um vollständige Details zum strengen Prozess zu erhalten, müssen ISVs durchlaufen werden, um zertifiziert zu werden. Siehe [Microsoft 365 Zertifizierungsübermittlungshandbuch.](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide)
+
+
+### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Verwenden des Microsoft 365 Badge und zugehöriger Marketingmaterialien
+Das Logo Microsoft 365 Zertifizierung zeigt, dass eine App auf Konformität mit den von Microsoft bereitgestellten Kontrollen überprüft wurde, die die Datensicherheits- und Datenschutzpraktiken auswerten. Sie können das Logo Microsoft 365 Zertifizierung nach Abschluss der Microsoft 365 Zertifizierung mit ausdrücklicher schriftlicher Zustimmung von Microsoft verwenden. Wenn Ihre Zertifizierung widerrufen wird oder der Rezertifizierungsprozess nicht innerhalb eines Jahres ab dem Tag, an dem die Zertifizierung erteilt wurde, gestartet wird, müssen Sie die Verwendung aller marketingbezogenen Marketingmaterialien Microsoft 365 Zertifizierung einstellen. 
 
 Dieses Logo kann auf Websites, Veröffentlichungen und anderen Foren verwendet werden, in denen es sich speziell auf die Anwendung bezieht, die den Microsoft 365 Zertifizierungsprozess abgeschlossen hat. Das Logo muss in einer angemessenen Größe und an einer angemessenen Position innerhalb des digitalen Inhalts angezeigt werden. 
 
-Die folgende Anweisung muss das Logo mit sich führen: "Apps mit dem Logo "Microsoft 365 Zertifizierung" stellen dar, dass diese App Microsoft 365 Zertifizierung erreicht hat. Zusätzlich zur App-Sicherheit überprüft dieses Programm die Praktiken und Verfahren, die der App-Herausgeber verwendet. Während Kundendaten dem App-Herausgeber untergeordnet sind, können Sie sicher sein, dass Microsoft überprüft hat, dass die App sie sicher und sicher behandeln wird."
+Die folgende Anweisung muss mit dem Logo verbunden sein: "Apps mit dem Logo "Microsoft 365 Zertifizierung" stellen dar, dass diese App Microsoft 365 Zertifizierung erreicht hat. Zusätzlich zur App-Sicherheit überprüft dieses Programm die Praktiken und Verfahren, die der App-Herausgeber verwendet. Während Kundendaten dem App-Herausgeber untergeordnet sind, können Sie sicher sein, dass Microsoft überprüft hat, dass die App sie sicher und sicher behandeln wird."
 
 
 ### <a name="learn-more"></a>Weitere Informationen
