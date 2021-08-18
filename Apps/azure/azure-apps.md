@@ -2,21 +2,21 @@
 title: Sicherheit und Compliance von Azure-App-IDs – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/13/2021
+ms.date: 08/14/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Azure App-IDs.
 localization_priority: Normal
-ms.openlocfilehash: 16c783016cc638854c592326bc737923851577c0
-ms.sourcegitcommit: 89e0443433dfa6a727a657ca5962af8d4f8d3d58
+ms.openlocfilehash: 6615a45f9a39256157d742cf34d90864c82f798c
+ms.sourcegitcommit: bdc1c8f8fdd6592cfbb59c8a7cf38477bca26e2a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58343483"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58376945"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Sicherheit und Compliance von Azure-App-IDs
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über azure-App-IDs und -Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen zu azure-App-IDs und -Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **Azure-App-ID** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:-------------:|
