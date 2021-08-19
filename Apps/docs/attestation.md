@@ -6,12 +6,12 @@ description: Weitere Informationen zum Publisher Attestation-Programm
 keywords: App-Nachweiszertifizierung 365 Fragebogen appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: ad059066c4685cf72e5d0b76b10b5d9ca22b6df9
-ms.sourcegitcommit: dc086ac579e488a38bad3dad10037d43af7efd55
+ms.openlocfilehash: 286d14e580bdb9f24ccf1754685ebeeaef6d0c11
+ms.sourcegitcommit: eae0e45c87fa8f1a87257e1e38122228e6970ba9
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/18/2021
-ms.locfileid: "58385871"
+ms.locfileid: "58390459"
 ---
 # <a name="complete-publisher-attestation"></a>Vollständige Publisher Nachweis
 
@@ -33,11 +33,11 @@ Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerzielle
 
 ## <a name="program-benefits"></a>Programmvorteile
 - Zeit sparen. Verweisen Sie Ihre Kunden auf die Seite "Dokumente", auf der sie Ihre Antworten auf häufig gestellte Fragen zu Ihrer Anwendung finden können.
-- Beschleunigen der internen Überprüfungszeitachse für Sicherheit und Compliance eines Unternehmens
-- Erhöhte Transparenz
-- Differenzierung gegenüber anderen Apps im Store 
-- Link zu Ihrer Dokumentseite aus Ihrem Eintrag in AppSource, dem Teams Admin Center, dem Microsoft Admin Center und dem Teams Store 
-- Qualifikation zum Starten der Microsoft 365-Zertifizierung
+- Beschleunigen der internen Überprüfungszeitachse für Sicherheit und Compliance eines Unternehmens.
+- Erhöhte Transparenz.
+- Differenzierung gegenüber anderen Apps im Store. 
+- Link zu Ihrer Dokumentseite aus Ihrem Eintrag in AppSource, dem Teams Admin Center, dem Microsoft Admin Center und dem Teams Store. 
+- Qualifikation zum Starten der Microsoft 365-Zertifizierung.
  
 
 ## <a name="publisher-attestation-process"></a>Publisher Nachweisprozess
@@ -62,7 +62,7 @@ Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerzielle
    Wenn Ihr Publisher Attestation nicht vor dem Ablaufdatum verlängert wird, wird der App-Nachweisstatus widerrufen, und Ihr Publisher Attestation wird aus den Microsoft-Dokumentenseiten entfernt. 
 
 >[!IMPORTANT]
->Durch die Teilnahme am Publisher Attestation-Programm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle Begleitdokumentationen ein, die für Ihre Teilnahme am Publisher Attestation-Programm bei der Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für den Publisher Nachweis im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder kündigen. Ihre fortgesetzte Teilnahme am Publisher Attestation-Programm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bestimmungen nicht zustimmen oder wenn wir diese Bedingungen kündigen, müssen Sie die Teilnahme am Publisher Attestation-Programm beenden.
+>Durch die Teilnahme am Publisher Attestation-Programm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle Begleitdokumentationen ein, die für Ihre Teilnahme am Publisher Attestation-Programm bei der Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für den Publisher Nachweis im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder beenden. Ihre fortgesetzte Teilnahme am Publisher Attestation-Programm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bedingungen nicht zustimmen oder wenn wir diese Bedingungen kündigen, müssen Sie die Teilnahme am Publisher Attestation-Programm beenden.
 
 ## <a name="learn-more"></a>Weitere Informationen
 
