@@ -2,23 +2,23 @@
 title: Anwendungsinformationen für iPlanner Pro Office 365 von iGlobe
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/05/2020
+ms.date: 08/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für iPlanner Pro Office 365, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57eac5e73a8f1e292bbddeaa7a029f368ac4ac52
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 40865f86cdb5c2a726c26357abb9d582030a9892
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526471"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672752"
 ---
 # <a name="iplanner-pro-office-365"></a>iPlanner Pro Office 365
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: November 5, 2020</p>
+<p>Last updated by the developer on: August 12, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380464" target="_blank">Ansicht in AppSource</a>
 
@@ -28,7 +28,7 @@ ms.locfileid: "53526471"
 
 Von iGlobe für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | iPlanner Pro Office 365 |
 | ID | WA104380464 |
@@ -48,9 +48,9 @@ Von iGlobe für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von iGlobe darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -66,7 +66,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -128,13 +128,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von iGlobe darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
-| Auflisten der unterstützten Richtlinientypen | Sicherheitsstandards und andere allgemeine Richtlinien wie z. B. Blockieren der Legacyauthentifizierung* MFA für Administratoren erforderlich* MFA für Azure-Verwaltung erforderlich* MFA für alle Benutzer erforderlich* |
+| Auflisten der unterstützten Richtlinientypen | Sicherheitsstandards und andere gängige Richtlinien wie "Legacyauthentifizierung blockieren"* MFA für Administratoren erforderlich* MFA für Azure-Verwaltung erforderlich* MFA für alle Benutzer erforderlich* |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
 | Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |

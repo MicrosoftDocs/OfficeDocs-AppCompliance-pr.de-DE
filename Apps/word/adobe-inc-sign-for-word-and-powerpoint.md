@@ -6,14 +6,14 @@ ms.date: 02/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Adobe Sign für Word und PowerPoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Adobe Sign für Word und PowerPoint, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81a0012ebbc0e77af0fee9fa73a22f187972d13c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: ca8f1f0aba2f18c81c76cb50d8d76cb2e86efa84
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527501"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672492"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign für Word und PowerPoint
 
@@ -28,11 +28,11 @@ ms.locfileid: "53527501"
 
 Von Adobe Inc. für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Adobe Sign für Word und PowerPoint |
 | ID | WA104381155 |
-| unterstützte Office 365-Clients | Word 2016 oder höher auf dem Mac, PowerPoint 2013 Service Pack 1 oder höher auf Windows, Word 2013 Service Pack 1 oder höher auf Windows, Word im Web, PowerPoint im Web, PowerPoint 2016 oder höher auf Mac |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 Service Pack 1 oder höher auf Windows, PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2013 Service Pack 1 oder höher auf Windows |
 | Name des Partnerunternehmens | Adobe Inc. |
 | URL der Partnerwebsite | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | URL der Datenschutzrichtlinie | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -50,7 +50,7 @@ Diese Informationen wurden von Adobe Inc. darüber bereitgestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -61,11 +61,11 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| openid | Delegiert | E-Mail und UserId. So melden Sie sich an, um sicherzustellen, dass sie der Berechtigung zur Verwendung der Adobe Sign-App zustimmen.  | E-Mail ist der eindeutige Bezeichner für Benutzer in Adobe Sign. Wir speichern die E-Mail-ID, damit wir alle Aktivitäten dieses Benutzers seinem Adobe Sign-Eintrag zuordnen können.  | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -109,10 +109,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Adobe Inc. darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |

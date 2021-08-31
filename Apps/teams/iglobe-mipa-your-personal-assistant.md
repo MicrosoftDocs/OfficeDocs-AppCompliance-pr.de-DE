@@ -2,25 +2,25 @@
 title: Anwendungsinformationen für MIPA – Ihr persönlicher Assistent von iGlobe
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/06/2020
+ms.date: 08/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MIPA – Ihr persönlicher Assistent, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1cdc2ef1a79ac303722820e241e07b7e98d92cb7
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: b62f2d523d755c5294b45ae017dd69c788bdc0a7
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521588"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672812"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA – Your Personal Assistant
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Zuletzt aktualisiert vom Entwickler am: 6. November 2020</p>
+<p>Last updated by the developer on: August 12, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/eec9d2db-2325-43f5-83c7-eac7c5253a87" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/eec9d2db-2325-43f5-83c7-eac7c5253a87" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000148" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -29,7 +29,7 @@ ms.locfileid: "53521588"
 
 Von iGlobe für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | MIPA – Your Personal Assistant |
 | ID | WA200000148 |
@@ -50,34 +50,34 @@ Von iGlobe für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von iGlobe darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Contacts.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Directory.AccessAsUser.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen, Aktualisieren, Erstellen von Panneraufgaben, Lesen der zuletzt verwendeten und freigegebenen Dateien der Benutzer. Um zu überprüfen, ob der Benutzer seine Zustimmung hat und Zugriff auf die Verwendung der API hat. | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Directory.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Files.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Group.Read.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Group.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. Integration in iGlobe CRM Office 365 | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Mail.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von gekennzeichneten E-Mails | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| MailboxSettings.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren gekennzeichneter E-Mails, Lesen und Aktualisieren Outlook To Do Ganzen | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Tasks.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook zu Do Entreies | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| User.Read | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook zu Do Entreies | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| User.Read.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| User.ReadBasic.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| User.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| email | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ermöglicht der App, die primäre E-Mail-Adresse Ihrer Benutzer ( für SSO) zu lesen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| offline_access | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ermöglicht der App, die Daten anzuzeigen und zu aktualisieren, auf die Sie zugriffen, auch wenn Benutzer die App derzeit nicht verwenden. Dadurch wird der App keine zusätzlichen Berechtigungen (für SSO) erteilt. | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| openid | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ermöglicht Es Benutzern, sich mit ihren Geschäfts-, Schul- oder Unikonten bei der App anzumelden, und ermöglicht der App, grundlegende Benutzerprofilinformationen( für SSO) anzuzeigen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
->| Profil | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-maustastee-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Calendars.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Contacts.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Directory.AccessAsUser.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen, Aktualisieren, Erstellen von Panneraufgaben, Lesen der zuletzt verwendeten und freigegebenen Dateien der Benutzer. Um zu überprüfen, ob der Benutzer seine Zustimmung hat und Zugriff auf die Verwendung der API hat. | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Directory.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Files.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Group.Read.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Group.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. Integration in iGlobe CRM Office 365 | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Mail.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von gekennzeichneten E-Mails | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| MailboxSettings.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren gekennzeichneter E-Mails, Lesen und Aktualisieren Outlook To Do Ganzen | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Tasks.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.Read | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.Read.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.ReadBasic.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| User.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| email | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ermöglicht der App, die primäre E-Mail-Adresse Ihrer Benutzer ( für SSO) zu lesen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| offline_access | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ermöglicht der App, die Daten anzuzeigen und zu aktualisieren, auf die Sie zugriffen, auch wenn Benutzer die App derzeit nicht verwenden. Dadurch wird der App keine zusätzlichen Berechtigungen (für SSO) erteilt. | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| openid | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ermöglicht Es Benutzern, sich mit ihren Geschäfts-, Schul- oder Unikonten bei der App anzumelden, und ermöglicht der App, grundlegende Benutzerprofilinformationen( für SSO) anzuzeigen. | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
+>| Profil | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Lesen und Aktualisieren von Kalender-Ganzen, Lesen und Aktualisieren von Outlook für Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-maustastee-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -91,15 +91,15 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft
 >| SharePoint – MyFiles.Read | Nein |  |  |  |  |
 >| SharePoint – MyFiles.Write | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -146,13 +146,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von iGlobe darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
-| Auflisten der unterstützten Richtlinientypen | Sicherheitsstandards und andere allgemeine Richtlinien wie z. B. Blockieren der Legacyauthentifizierung* MFA für Administratoren erforderlich* MFA für Azure-Verwaltung erforderlich* MFA für alle Benutzer erforderlich* |
+| Auflisten der unterstützten Richtlinientypen | Sicherheitsstandards und andere gängige Richtlinien wie "Legacyauthentifizierung blockieren"* MFA für Administratoren erforderlich* MFA für Azure-Verwaltung erforderlich* MFA für alle Benutzer erforderlich* |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
 | Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Nein |
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |

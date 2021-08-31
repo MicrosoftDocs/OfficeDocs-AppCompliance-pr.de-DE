@@ -2,28 +2,28 @@
 title: Sicherheit und Compliance von Microsoft Outlook Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/14/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook-Apps.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook Apps.
 localization_priority: Normal
-ms.openlocfilehash: bb4239929cb153ccc62221c7a44db6921743080b
-ms.sourcegitcommit: bdc1c8f8fdd6592cfbb59c8a7cf38477bca26e2a
+ms.openlocfilehash: fa24ddc3a0dd384f5ab6b4835ffd23e7981f0b14
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58377529"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672842"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Outlook Apps
 
-Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Outlook Apps und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Outlook apps und add-ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign-Add-In für Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Altru Videos](./altru-videos.md) | Altru | **✓** |  |
 | [Genehmigte Kontaktkalender](./approved-contact-calendars.md) | Approved Contact | **✓** |  |
-| [Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
+| [Für Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
 | [CI-Signatur](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo für Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [harmon.ie für Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
@@ -36,7 +36,9 @@ Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die
 | [Office2SharePoint für Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Inhaltsauswahl für Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [OnePlaceMail für Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace-Lösungen | **✓** |  |
+| [Vertriebsengagement für Outlook](./outreach-sales-engagement-for-outlook.md) | Reichweite | **✓** |  |
 | [Prioritätsmatrix – Umwandeln von E-Mails in Aufgaben](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [ServiceDesk Plus für E-Mail](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  |
 | [StarLeaf-Add-In für Outlook](./starleaf-add-in-for-outlook.md) | StarLeaf | **✓** |  |
