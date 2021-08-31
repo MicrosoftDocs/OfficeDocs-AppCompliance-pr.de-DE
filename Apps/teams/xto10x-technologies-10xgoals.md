@@ -1,0 +1,139 @@
+---
+title: Anwendungsinformationen für 10xGoals von xto10x Technologies
+ms.author: elmalova
+author: elenamalova
+ms.date: 07/08/2021
+ms.topic: article
+ms.service: attestation
+certification_type: attested
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für 10xGoals, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 52b806ec307e396e67d9d91624e8be80c94142bb
+ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407477"
+---
+# <a name="10xgoals"></a>10xGoals
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: July 8, 2021</p>
+
+* <a href="https://teams.microsoft.com/l/app/950aa4fb-0583-4b13-9b5f-bbc92b9cc376" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003122" target="_blank">Ansicht in AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Allgemeine Informationen
+
+Von xto10x Technologies für Microsoft bereitgestellte Informationen:
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| App-Name | 10xGoals |
+| ID | WA200003122 |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | xto10x-Technologien |
+| URL der Partnerwebsite | [https://www.xto10x.com/10xgoals/](https://www.xto10x.com/10xgoals/) |
+| URL der Seite mit Teams Anwendungsinformationen | [https://www.xto10x.com/10xgoals/](https://www.xto10x.com/10xgoals/) |
+| URL der Datenschutzrichtlinie | [https://www.xto10x.com/security/privacy-policy/](https://www.xto10x.com/security/privacy-policy/) |
+| URL der Nutzungsbedingungen | [https://www.xto10x.com/security/terms-of-use/](https://www.xto10x.com/security/terms-of-use/) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
+
+Diese Informationen wurden von xto10x Technologies dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+
+Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | Anwendung | Benutzer-E-Mails und Azure-IDs werden abgerufen, damit die App die App proaktiv für alle Benutzer der Organisation installieren kann.  | Da diese App zuerst ein 10xGoals-Dienstabonnement erfordert, werden Benutzer-E-Mails und Azure-IDs des Benutzers an den 10xGoals-Dienst gesendet, damit eine proaktive Benachrichtigung an die Teams-App des Benutzers gesendet werden kann, wenn eine Aktivität im Zusammenhang mit diesem Benutzer stattfindet. | [950aa4fb-0583-4b13-9b5f-bb92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | Anwendung | Es ist erforderlich, damit die App installierte teamsAppDefinition für Administratoren abrufen und sich dann proaktiv für alle Benutzer der Organisation installieren kann.  | Es wird nichts in einer Datenbank gespeichert, die von dieser API abgerufen wird. | [950aa4fb-0583-4b13-9b5f-bb92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
+
+
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+
+Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| 10xGoals, AWS | Benutzer-E-Mail und AzureId des Benutzers.  | Da diese App zuerst ein 10xGoals-Dienstabonnement erfordert, werden Benutzer-E-Mails und Azure-IDs des Benutzers an den 10xGoals-Dienst gesendet, sodass das System proaktive Benachrichtigungen an den Benutzer senden kann, wenn eine Aktivität im Zusammenhang mit diesem Benutzer stattfindet. |
+
+#### <a name="data-access-via-bots"></a>Datenzugriff über Bots
+
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+
+>| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Da diese App zuerst ein 10xGoals-Dienstabonnement erfordert, werden Benutzer-E-Mails und Azure-IDs des Benutzers an den 10xGoals-Dienst gesendet, damit eine proaktive Benachrichtigung an die Teams-App des Benutzers gesendet werden kann, wenn eine Aktivität im Zusammenhang mit diesem Benutzer stattfindet. | Nein |  |
+
+
+#### <a name="telemetry-data"></a>Telemetriedaten
+
+Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+
+>Die Mandanten-ID der Organisation wird gespeichert, um eine abweichende Willkommensnachricht zu erhalten, je nachdem, ob ein Mandant die erforderlichen Berechtigungen erteilt hat oder nicht. Wenn ein Mandant bereits Berechtigungen erteilt hat, müssen andere Benutzer dieser Organisation diesen Fluss der Erteilung von Berechtigungen nicht erneut betrachten.
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
+
+Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+
+>NA
+
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
+
+Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+
+>Nein
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Identitätsinformationen
+
+Diese Informationen wurden von xto10x Technologies dazu bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt?  | Ja |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
+| Unterstützt Ihre App Mehrmandantenfähigkeit? | Nein |
+| Verfügt Ihre App über einen vertraulichen Client? | Nein |
+| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
+| Macht Ihre App Web-APIs verfügbar? | Ja |
+| Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
