@@ -57,7 +57,7 @@
           href: excel/sheetgo-europe-sl.md
         - name: Wunder365 für Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: Eingereichte XBRL-Daten
+        - name: XBRL-Archivierte Daten
           href: excel/xbrl-us-filed-data.md
     - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
@@ -68,7 +68,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook-Apps
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -138,7 +138,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -173,7 +173,7 @@
     - name: Microsoft Teams Apps
       href: teams/teams-apps.md
       items:
-        - name: 10xGoals
+        - name: 10xZiele
           href: teams/xto10x-technologies-10xgoals.md
         - name: 365-QA
           href: teams/advantive-365-qa.md
@@ -193,7 +193,7 @@
           href: teams/alvao-sro-service-desk.md
         - name: Ehrgeiz
           href: teams/ambition.md
-        - name: Vergrößern durch Hootsuite
+        - name: Verstärkung von Hootsuite
           href: teams/hootsuite-inc-amplify-by.md
         - name: Appraisd
           href: teams/appraisd-ltd.md
@@ -235,9 +235,9 @@
           href: teams/beesapps-beesy.md
         - name: Berrycast
           href: teams/technologies-openmind-inc-les-berrycast.md
-        - name: Bigwel
+        - name: Bigfish
           href: teams/breathe-india-advisors-pvt-ltd-bigfish.md
-        - name: Größeres Brains eLearning
+        - name: Bigger Brains eLearning
           href: teams/biggerbrains-bigger-brains-elearning.md
         - name: Bizfone
           href: teams/mobikom-bizfone.md
@@ -255,7 +255,7 @@
           href: teams/breakthru.md
         - name: Bright Poll
           href: teams/chat-apps-llc-bright-poll.md
-        - name: Hell erinnern mich
+        - name: Bright Remind Me
           href: teams/chat-apps-llc-bright-remind-me.md
         - name: Brightidea
           href: teams/brightidea.md
@@ -275,7 +275,7 @@
           href: teams/chimu-software-catchem.md
         - name: Centrical
           href: teams/biz-effective-centrical.md
-        - name: ChronoScope-Zeitverfolgung
+        - name: Chronoscope Zeiterfassung
           href: teams/chrono-innovation-chronoscope-time-tracking.md
         - name: Chronus
           href: teams/chronus.md
@@ -289,7 +289,7 @@
           href: teams/clever-ads.md
         - name: ClipTraining
           href: teams/cliptraining.md
-        - name: Cloud effektiv
+        - name: Cloud Effective
           href: teams/cloud-effective.md
         - name: Cloud Hub
           href: teams/atwork-gmbh-cloud-hub.md
@@ -303,7 +303,7 @@
           href: teams/carnduff-co-coffeepals.md
         - name: Sammlungs-Pot
           href: teams/gifted-to-you-limited-collection-pot.md
-        - name: Kommandant
+        - name: Commander
           href: teams/nimbella-commander.md
         - name: Complish
           href: teams/cauzey-pty-ltd-complish.md
@@ -321,7 +321,7 @@
           href: teams/cornerstone-ondemand-csod-learn.md
         - name: Cuckoo Workout
           href: teams/cuckoo-networks-oy-workout.md
-        - name: Verbinden
+        - name: Cultr Connect
           href: teams/cultr-connect.md
         - name: Cyberday
           href: teams/digiturvamalli-cyberday.md
@@ -359,7 +359,7 @@
           href: teams/eloops.md
         - name: Email TeamMate
           href: teams/harmonie-email-teammate.md
-        - name: E-Mail-Texting
+        - name: email-texting
           href: teams/voice-elements-corporation-email-texting.md
         - name: Employee Referrals
           href: teams/recruitday-inc-employee-referrals.md
@@ -381,15 +381,15 @@
           href: teams/evocom-informationssysteme-gmbh.md
         - name: ezTeam
           href: teams/enterprizid-inc-ezteam.md
-        - name: Fabrikasoft Cloud
+        - name: Fabasoft Cloud
           href: teams/fabasoft-austria-gmbh-cloud.md
         - name: Fellow
           href: teams/fellow-insights-inc.md
-        - name: Fünfzig
+        - name: Fifty
           href: teams/fifty.md
         - name: File Fabric
           href: teams/storage-made-easy-file-fabric.md
-        - name: EinfachsteQast
+        - name: FloQast
           href: teams/floqast.md
         - name: ForceManager CRM
           href: teams/tritium-software-sl-forcemanager-crm.md
@@ -445,6 +445,8 @@
           href: teams/hunchbuzz.md
         - name: Hyperproof
           href: teams/hyperproof.md
+        - name: Im Falle einer Krise
+          href: teams/rockdove-solutions-inc-in-case-of-crisis.md
         - name: IndustryIntel
           href: teams/industry-intelligence-team-industryintel.md
         - name: InStation
@@ -457,7 +459,7 @@
           href: teams/semos-cloud-soultions-jobpts.md
         - name: KAKEAI
           href: teams/kakeai.md
-        - name: Tool "Aus dem Werkzeug"
+        - name: Kanban Tool
           href: teams/shore-labs-kanban-tool.md
         - name: Karma
           href: teams/sliday-ltd-karma.md
@@ -479,7 +481,7 @@
           href: teams/ltapps-software-coltd-leave-request-by.md
         - name: Lexion
           href: teams/lexion.md
-        - name: LinkListener
+        - name: Link Spotter
           href: teams/communardo-products-link-spotter.md
         - name: Listy
           href: teams/information-age-technologies-listy.md
@@ -487,7 +489,7 @@
           href: teams/social-intents-live-chat.md
         - name: LMS365
           href: teams/elearningforce-international-lms365.md
-        - name: Schleifen – Kreative Learning
+        - name: Loops – Kreatives Lernen
           href: teams/skooler-loops-creative-learning.md
         - name: Lucidchart
           href: teams/lucid-software-lucidchart.md
@@ -509,7 +511,7 @@
           href: teams/meisterlabs-gmbh-meistertask.md
         - name: Mentimeter
           href: teams/mentimeter.md
-        - name: Nachrichtenerinnerung
+        - name: Nachrichterinnerung
           href: teams/missing-message-reminder.md
         - name: Micromate
           href: teams/paixon-gmbh-micromate.md
@@ -519,7 +521,7 @@
           href: teams/meisterlabs-gmbh-mindmeister.md
         - name: MindMup
           href: teams/sauf-pompiers-ltd-mindmup.md
-        - name: Denkweisen
+        - name: Mindsets
           href: teams/mindsets-learning.md
         - name: MIPA – Your Personal Assistant
           href: teams/iglobe-mipa-your-personal-assistant.md
@@ -529,6 +531,8 @@
           href: teams/fest-technologies-llc-monitask.md
         - name: Move Work Forward with Jira
           href: teams/move-work-forward-with-jira.md
+        - name: Multi Approval Process LTAPPs
+          href: teams/ltapps-software-coltd-multi-approval-process.md
         - name: MURAL
           href: teams/mural.md
         - name: Mybys
@@ -545,7 +549,7 @@
           href: teams/regroove-solutions-navo.md
         - name: NE
           href: teams/ne.md
-        - name: Nee csv.Team
+        - name: Neelix.Team
           href: teams/neelixio-neelixteam.md
         - name: netDocShare
           href: teams/kl-software-technologies-netdocshare.md
@@ -553,6 +557,8 @@
           href: teams/newtech-newcos.md
         - name: ngDesk
           href: teams/all-blue-solutions-ngdesk.md
+        - name: NickNack
+          href: teams/nicknack-ltd.md
         - name: Now Virtual Agent
           href: teams/servicenow-now-virtual-agent.md
         - name: Nugget
@@ -649,6 +655,8 @@
           href: teams/researchspace-rspace.md
         - name: Saberr
           href: teams/saberr.md
+        - name: Tresor Räume
+          href: teams/ecare-vault-inc-safe-spaces.md
         - name: Sailpoint
           href: teams/sailpoint-technologies-inc.md
         - name: SalesTim
@@ -709,7 +717,7 @@
           href: teams/sociabble.md
         - name: Social Advocacy
           href: teams/oktopost-social-advocacy.md
-        - name: Räumliches Standup
+        - name: Spatial Standup
           href: teams/high-fidelity-inc-spatial-standup.md
         - name: Spinify
           href: teams/spinify.md
@@ -729,7 +737,7 @@
           href: teams/stealthmail-software-ltd.md
         - name: Streem
           href: teams/streem.md
-        - name: Strukturelle
+        - name: Structural
           href: teams/structural-inc.md
         - name: Studi.ly
           href: teams/inlogic-office-store-studily.md
@@ -779,7 +787,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: TELUS Business Verbinden
+        - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
         - name: Template Chooser
           href: teams/officeatwork-template-chooser.md
@@ -821,7 +829,7 @@
           href: teams/in-summa-webdashboard.md
         - name: Webex Call
           href: teams/cisco-webex-call.md
-        - name: Wöchentlich10
+        - name: Weekly10
           href: teams/binary-geek-limited-weekly10.md
         - name: Wellness Coach
           href: teams/meditationlive-inc-wellness-coach.md
@@ -839,16 +847,20 @@
           href: teams/workday.md
         - name: WorkJam Home
           href: teams/workjam-home.md
-        - name: WorkJam-Zeitplan
+        - name: WorkJam Schedule
           href: teams/workjam-schedule.md
         - name: WorkplaceBuddy
           href: teams/workplacebuddy.md
         - name: Wunder365
           href: teams/jiji-technologies-pvt-ltd-wunder365.md
+        - name: X0PA-RAUM
+          href: teams/x0pa-ai-singapore-room.md
         - name: YAROOMS
           href: teams/yarooms.md
         - name: Yeeflow
           href: teams/akmii-yeeflow.md
+        - name: Zignals
+          href: teams/alight-zignals.md
         - name: Zoho CRM
           href: teams/zoho-corporation-pvt-ltd-crm.md
         - name: Zoho Desk
