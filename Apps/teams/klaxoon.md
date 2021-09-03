@@ -2,26 +2,26 @@
 title: Application Information for Klaxoon by Klaxoon
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/15/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Klausxoon, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e55059ec1274476e4234a5347b3f56065eb6e0c3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 146f6faa9874719bdf42397f8419ced0415a8add
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525529"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873450"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 15, 2020</p>
+<p>Last updated by the developer on: August 31, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/6adc8d55-eb37-4537-a66d-743b3cd4511b" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/6adc8d55-eb37-4537-a66d-743b3cd4511b" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382058" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,11 +34,12 @@ Informationen, die Von Klausxoon an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Klaxoon |
 | ID | WA104382058 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Klaxoon |
 | URL der Partnerwebsite | [https://klaxoon.com](https://klaxoon.com) |
-| URL der Datenschutzrichtlinie | [https://klaxoon.com/privacy-policy](https://klaxoon.com/privacy-policy) |
-| URL der Nutzungsbedingungen | [https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06...](https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06814d1c3354495b2.pdf) |
+| URL der Seite mit Teams Anwendungsinformationen | [https://klaxoon.com](https://klaxoon.com) |
+| URL der Datenschutzrichtlinie | [https://klaxoon.com/legal](https://klaxoon.com/legal) |
+| URL der Nutzungsbedingungen | [https://static.klaxoon.com/website/pdf/eula.pdf](https://static.klaxoon.com/website/pdf/eula.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,13 +58,13 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| keine |  | Keine |
+>| zendesk | Domänenname | Customer Relationship Management, Hilfecenter |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -71,20 +72,20 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Wir verwenden die Liste, um die Benutzerantwort zu personalisieren. z. B.: Hello {{givenName}}, vielen Dank für Ihre Frage! | Nein |  |
+>| Wir verwenden die Liste, um die Benutzerantwort zu personalisieren. z. B.: Hello {{givenName}}, vielen Dank für Ihre Frage! | Vorname, Nachname, Avatar, E-Mail und Kennwort (je nachdem, ob SSO delegiert wurde oder nicht). | Benutzerkontenverwaltung |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->ja
+>Zugriffs- und Fehlerprotokolle zu Debugzwecken, einschließlich: IP-Adresse, E-Mail-Offlineprotokolle werden verschlüsselt und ein Jahr lang archiviert. Onlineprotokolle werden einen Monat aufbewahrt.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Gespeichert in Denk-Cloud-Systemen. Verschlüsselung im Ruhezustand. Der Zugriff auf Langexoon-Server ist auf einen bestimmten IP-Adressbereich im HTTPS/SSH-Modus (SSH-Taste + Passphrase) beschränkt. Dieser Zugriff ist nur über ein eindeutiges Einmaliges möglich.
+>Daten werden für die Dauer der Kontoaktivierung aufbewahrt. Das Löschen und/oder Abrufen von Daten in flachem Format (pdf, xlsx, csv, images) oder im Besitzxoon-Format (KLX) ist jederzeit über die Anwendung selbst verfügbar. Es ist manuell und unter der Verantwortung seines Besitzers, alleiniger Besitzer der Anmeldeinformationen, um darauf zuzugreifen. Nachdem das Konto deaktiviert wurde, wird der Benutzerzugriff geschlossen.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -108,3 +109,28 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Identitätsinformationen
+
+Diese Informationen wurden von Langexoon darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Nein |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
+| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
+| Verfügt Ihre App über einen vertraulichen Client? | Ja |
+| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
