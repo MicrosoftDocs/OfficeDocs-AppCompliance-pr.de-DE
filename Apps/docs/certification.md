@@ -6,12 +6,12 @@ description: Microsoft 365 Übersicht über Zertifizierungsdetails
 keywords: App-Zertifizierungsnachweis Microsoft 365 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 7d6c72f39a07fa11bfe87a9da6d94178fd7992b3
-ms.sourcegitcommit: a2851b8a32c181843617568ab5f8b5de741547cf
+ms.openlocfilehash: 9f93edb4bead62eb626f6b65544fbf1a35ad48dd
+ms.sourcegitcommit: 854938b0495a6a30c2d03a6645e32ca52b4ce295
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58885983"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58922982"
 ---
 # <a name="complete-microsoft-365-certification"></a>Abschließen Microsoft 365 Zertifizierung
 
@@ -25,8 +25,7 @@ Die Zertifizierung ist eine wirkungsvolle Möglichkeit, Unternehmensorganisation
 
 > [!IMPORTANT]
 > Durch die Teilnahme am Microsoft 365 Zertifizierungsprogramm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und stimmen jeder Begleitdokumentation zu, die für Ihre Teilnahme am Microsoft 365 Zertifizierungsprogramm mit der Microsoft Corporation gilt ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für die Microsoft 365 Zertifizierung im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder kündigen. Ihre fortgesetzte Teilnahme am Microsoft 365 Zertifizierungsprogramm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bestimmungen zustimmen. Wenn Sie den neuen ergänzenden Bedingungen nicht zustimmen oder wenn wir diese ergänzenden Bedingungen kündigen, müssen Sie die Teilnahme am Microsoft 365 Zertifizierungsprogramm beenden.
-
->Alle Nachweise, einschließlich, aber nicht beschränkt auf Dokumente, Screenshots und Bilder, werden ab dem Zeitpunkt der Übermittlung als Nachweis der Prüfung 18 Monate lang in einem sicheren Repository aufbewahrt. Nach 18 Monaten werden alle Nachweise gelöscht.
+Alle Nachweise, einschließlich, aber nicht beschränkt auf Dokumente, Screenshots und Bilder, werden ab dem Zeitpunkt der Übermittlung als Nachweis der Prüfung 18 Monate lang in einem sicheren Repository aufbewahrt. Nach 18 Monaten werden alle Nachweise gelöscht.
 
 ## <a name="certification-process"></a>Zertifizierungsprozess
 
