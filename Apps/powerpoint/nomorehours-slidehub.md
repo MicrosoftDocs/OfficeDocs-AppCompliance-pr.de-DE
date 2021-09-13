@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SlideHub, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7eca7f35cb46db8450f6805c9e8a4c2503934dd6
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527811"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280067"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -33,7 +33,7 @@ Von nomorehours für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SlideHub |
 | ID | WA200001625 |
-| unterstützte Office 365-Clients | PowerPoint 2016 oder höher auf mac, PowerPoint im Web, PowerPoint 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | PowerPoint 2016 oder höher auf mac, PowerPoint im Web, PowerPoint 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | nomorehours |
 | URL der Partnerwebsite | [https://nomorehours.com](https://nomorehours.com) |
 | URL der Datenschutzrichtlinie | [https://nomorehours.com/privacy](https://nomorehours.com/privacy) |
@@ -51,7 +51,7 @@ Diese Informationen wurden von Nomorehours darüber bereitgestellt, wie diese Ap
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -90,7 +90,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37585' frameborder='no' style='width: 100%;'></iframe>
 

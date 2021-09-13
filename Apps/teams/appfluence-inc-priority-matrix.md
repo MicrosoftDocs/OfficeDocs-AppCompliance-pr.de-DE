@@ -9,18 +9,18 @@ certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Priority Matrix, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e88ba3c98c9ab444f2500ed09013071a6b5ab2c3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525899"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279968"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Zuletzt aktualisiert vom Entwickler am: 23. Juni 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382005" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -48,7 +48,7 @@ Informationen, die Von Appfluence Inc. an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Appfluence Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Appfluence Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
@@ -64,10 +64,10 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| openid | Delegiert | Wir speichern die SSO-Verbindung, um den Anmeldemodus für den Benutzer anzugeben. | Um Benutzer über einmaliges Anmelden anzumelden. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
 >| Calendars.Read | Delegiert | Eine kleine Anzahl von Kalenderereignissen wird in Aufgaben umgewandelt, die in unserem System gespeichert sind. | Lesen Sie Kalenderereignisse, damit sie in unserer 1:1-Ansicht angezeigt werden können. Auch zum Initialisieren neuer Konten.  | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
 >| Mail.Read | Delegiert | In unserem System erstellte Aufgaben werden mit einem Link zur ursprünglichen Nachricht gespeichert. | Wird in unserem Outlook-Add-In verwendet, um E-Mails in Aufgaben umzuwandeln und freigegebene Arbeit in der 1:1-Ansicht anzuzeigen. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
->| Tasks.Read | Delegiert | Einige Outlook/Planner-Aufgaben werden in unserem System repliziert, um neuen Benutzern zu helfen. | Wir bootstrapieren neue Benutzerkonten mit ihren Graph Aufgaben. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
+>| Tasks.Read | Delegiert | Einige Outlook/Planner-Aufgaben werden in unserem System repliziert, um neuen Benutzern zu helfen. | Wir starten neue Benutzerkonten mit ihren Graph Aufgaben. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -79,7 +79,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Der Bot kann Aufgaben erstellen und sie einem bestimmten Teamkameraden zuweisen, und dazu muss er seinen Namen kennen. | Nein |  |
+>| Der Bot kann Aufgaben erstellen und sie einem bestimmten Teamkameraden zuweisen. Dazu muss er seinen Namen kennen. | Nein |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -120,7 +120,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Appfluence Inc. bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Appfluence Inc. bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|

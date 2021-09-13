@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für 365Projects, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: aad8e35ad1e02212c23ef2a892412ba3c0ce1312
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522188"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280019"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -21,7 +21,7 @@ ms.locfileid: "53522188"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 16. März 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a9c31598-b014-4e20-b3bd-3d275fa738d3" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/a9c31598-b014-4e20-b3bd-3d275fa738d3" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002160" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -61,12 +61,12 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| Group.Read.All | Delegiert | Teamplaner-/Planner-Aufgaben zu erhalten, ist es besser, wenn ein anderer Bereich mit den geringsten Berechtigungen der App das Abrufen von Benutzerplänen und Plänen ermöglicht, aber leider gibt es keine Bereiche, die dies zulassen | nicht in DB speichern | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
 >| Group.ReadWrite.All | Anwendung | Erstellen Teams  | nicht in DB gespeichert | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
 >| People.Read | Delegiert | Benutzername, um sie als Teammitglieder hinzuzufügen oder ihnen Aufgaben zuzuweisen | Die Benutzer-GUID wird in der Aufgabenzuweisung gespeichert. | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
->| Team.ReadBasic.All | Delegiert | Hinzugefügte Teamnamen zum Verknüpfen des Projekts mit Teams Kanal | Team-GUID wird in den Projektmetadaten gespeichert, um den Link einzurichten. | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Team.ReadBasic.All | Delegiert | Verknüpfte Teamnamen zum Verknüpfen des Projekts mit Teams Kanal | Team-GUID wird in den Projektmetadaten gespeichert, um den Link einzurichten. | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
 >| User.Read | Delegiert | Abrufen von Benutzerinformationen zum Anzeigen in der Kopfzeile  | Benutzer-E-Mails werden bei der ersten Bereitstellung des Mandanten als Besitzer gespeichert. | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
 >| User.Read.All | Delegiert | Lesen von Benutzern zum Aktualisieren der Aufgabenzuweisung | Nur Benutzer-GUID wird gespeichert, es werden keine persönlichen identifizierten Informationen in der DATENBANK gespeichert. | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -130,7 +130,7 @@ Diese Informationen wurden von 365Apps bereitgestellt, wie diese App die Authent
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | ,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
+| Was vermeiden Sie für Ihre App? | ,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |

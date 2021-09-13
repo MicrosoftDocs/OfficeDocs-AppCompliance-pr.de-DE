@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mof, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 14ec3eee9b8ae673565ef91a017019d23d524619
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525879"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279950"
 ---
 # <a name="asana"></a>Asana
 
@@ -21,7 +21,7 @@ ms.locfileid: "53525879"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 2. November 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/f0e33e18-08fc-4511-a2a7-c6bdff367263" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/f0e33e18-08fc-4511-a2a7-c6bdff367263" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001727" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -52,7 +52,7 @@ Diese Informationen wurden von Wiesn bereitgestellt, wie diese App Organisations
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -61,7 +61,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Das Add-In überträgt grundlegende E-Mail-Informationen (Absender, Empfänger, Betreff, Text) und Anlagen auf Anforderung des Benutzers an Git. |  | E-Mail : Liest derzeit geöffnete E-Mails, wenn sie in einem Aufgabenbereich angezeigt werden. - Liest derzeit geöffnete E-Mail-Anlagen, die in Aufgaben des Unternehmens hochgeladen werden sollen. - Dies bietet Benutzern die Möglichkeit, Aufgaben in Xaml schnell mit Informationen aus E-Mails durchzuführen. |
 
@@ -76,14 +76,14 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Unsere Anwendung protokolliert nur Informationen zu Denkdaten. Das einzige Mal, wenn wir etwas im Zusammenhang mit Outlook Benutzerinformationen protokollieren, besteht darin, dass der Benutzer explizit eine E-Mail anfügt oder eine Anlage zu Git hochlädt, und selbst dann wird der Inhalt nicht protokolliert. Kurzzeitprotokolle sind auf Servern vorhanden, die einige Benutzerdaten enthalten können, aber kurzlebig und auf Zeiträume unter 72 Stunden beschränkt sind.
+>Unsere Anwendung protokolliert nur Informationen zu Denkdaten. Das einzige Mal, in dem wir etwas im Zusammenhang mit Outlook Benutzerinformationen protokollieren, ist, wenn der Benutzer explizit eine E-Mail anfügt oder eine Anlage in Publisher hochlädt, und selbst dann wird der Inhalt nicht protokolliert. Kurzzeitprotokolle sind auf Servern vorhanden, die einige Benutzerdaten enthalten können, aber kurzlebig und auf Zeiträume unter 72 Stunden beschränkt sind.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Enterprise Kunden haben eine garantierte Verschlüsselung im Ruhezustand mit AES-256. Daten werden in Amazon Web Services gespeichert, und AWS verwaltet die Verschlüsselungsschlüssel mit ihrem Schlüsselverwaltungssystem. Wir haben 2FA für alle Administratoren. Der Zugriff erfolgt nach dem Prinzip der geringsten Rechte.
-Ihre Organisationsadministratoren können SAML-, SCIM-, Servicekonten einrichten und eine übergeordnete Ansicht der Daten haben, die in das Tool eingefügt werden. Administratoren können einen vollständigen Organisationsexport in der Verwaltungskonsole anfordern und bei Bedarf überwachen.
+>Enterprise Kunden mit AES-256 eine garantierte Verschlüsselung im Ruhezustand haben. Daten werden in Amazon Web Services gespeichert, und AWS verwaltet die Verschlüsselungsschlüssel mit ihrem Schlüsselverwaltungssystem. Wir haben 2FA für alle Administratoren. Der Zugriff erfolgt nach dem Prinzip der geringsten Rechte.
+Ihre Organisationsadministratoren haben die Möglichkeit, SAML-, SCIM-, Servicekonten einzurichten und eine übergeordnete Ansicht der Daten zu haben, die in das Tool eingefügt werden. Administratoren können einen vollständigen Organisationsexport in der Verwaltungskonsole anfordern und bei Bedarf überwachen.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für agile Task Board, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a5062da73958a88a7b788a74771e76ae506b314d
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281467"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280010"
 ---
 # <a name="agile-task-board"></a>Agile Task Board
 
@@ -34,7 +34,7 @@ Von Agile-IS für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Agile Task Board |
 | ID | WA200002162 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Agile-IS |
 | URL der Partnerwebsite | [https://www.agile-is.de](https://www.agile-is.de) |
 | URL der Datenschutzrichtlinie | [https://www.agile-is.de/en/telemetry](https://www.agile-is.de/en/telemetry) |
@@ -52,7 +52,7 @@ Diese Informationen wurden von Agile-IS darüber bereitgestellt, wie diese App O
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 

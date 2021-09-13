@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für officeatwork-| Inhaltsauswahl für Office nach Officeatwork
+title: Anwendungsinformationen für Officeatwork-| Inhaltsauswahl für Office von Officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
@@ -9,11 +9,11 @@ certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork-| Inhaltsauswahl für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 8c6183fd0573ab38e5bf0b68976380af56133581
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527981"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280520"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork | Inhaltsauswahl für Office
 
@@ -32,7 +32,7 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – Inhaltsauswahl für Office |
 | ID | WA104380602 |
-| unterstützte Office 365-Clients | Excel auf iPad, Excel 2016 oder höher auf mac, Excel 2013 Service Pack 1 oder höher auf Windows, Excel im Web, Word auf iPad, Word 2016 oder höher für Mac, Word im Web, Word 2013 Service Pack 1 oder höher auf Windows, PowerPoint auf iPad, PowerPoint 2016 oder höher auf Dem Mac, PowerPoint im Web, PowerPoint 2013 Service Pack 1 oder höher auf Windows, OneNote im Web |
+| Office 365 unterstützten Clients | Excel auf iPad, Excel 2016 oder höher auf mac, Excel 2013 Service Pack 1 oder höher auf Windows, Excel im Web, Word auf iPad, Word 2016 oder höher auf Mac, Word im Web, Word 2013 Service Pack 1 oder höher auf Windows, PowerPoint auf iPad, PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2013 Service Pack 1 oder höher auf Windows, OneNote im Web |
 | Name des Partnerunternehmens | officeatwork |
 | URL der Partnerwebsite | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL der Datenschutzrichtlinie | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -67,13 +67,13 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint-REST-APIs | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

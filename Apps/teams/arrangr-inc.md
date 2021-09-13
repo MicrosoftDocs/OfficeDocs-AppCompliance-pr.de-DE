@@ -6,14 +6,14 @@ ms.date: 06/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Arrangr, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Arrangr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3ccc0e501a899fcb5dc613c254de9aa62911d023
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404505"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279953"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -30,11 +30,11 @@ ms.locfileid: "58404505"
 
 Von Arrangr, Inc. für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Arrangr |
 | ID | WA200002975 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Arrangr, Inc. |
 | URL der Partnerwebsite | [https://arrangr.com](https://arrangr.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://arrangr.com/welcome](https://arrangr.com/welcome) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von Arrangr, Inc. bereitgestellt, wie diese App Organ
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -64,8 +64,8 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 >| ChatMessage.Send | Delegiert | Diese Berechtigung wird verwendet, um Arrangr-Einladungen in 1:1- und Gruppenchats im Namen des Benutzers zu senden. Es wird nicht zum Sammeln von Daten verwendet. | Es werden keine Daten gespeichert, die mit dieser Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| OnlineMeetings.ReadWrite | Delegiert | Arrangr sammelt Microsoft Teams Besprechungslinks, um diese mit dieser Berechtigung zu generieren. Wir generieren Teams Besprechungen im Namen des Benutzers, damit er Teams Anrufe auf Arrangr anordnen kann. | Wir speichern die Besprechungslinks, damit sie für die entsprechenden Parteien freigegeben werden können, um an der Besprechung teilzunehmen. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| People.Read | Delegiert | Wir erfassen Namen und E-Mails von Personen, die für den Benutzer relevant sind. Auf diese Weise können wir dem Benutzer die Auswahl als Empfänger von Arrangr-Einladungen erleichtern. | Wenn der Benutzer einen Empfänger auswählt, der über diese API angeboten wird, speichern wir den Namen und die E-Mail des Empfängers, um die Besprechung durchzuführen und es dem Benutzer zu erleichtern, ihn in Zukunft erneut als Empfänger auszuwählen. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Team.ReadBasic.All | Delegiert | Wir erfassen die Namen der Teams des Benutzers, sodass er auswählen kann, in welchem Teams er eine Verbindung mit Arrangr herstellen möchte und in welches Team er eine Arrangr-Einladung teilen möchte. | Arrangr speichert die Namen von Teams der Benutzer sich entschieden hat, mit Arrangr zu verknüpfen, damit wir diese Teams in den Einstellungen anzeigen und sie aus diesen Teams auswählen können, wenn sie entscheiden, wo eine Arrangr-Einladung freigegeben werden soll. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | Wir lesen, ob unsere App im Teams Konto des Benutzers installiert wurde, sodass wir sie fragen können, ob sie unsere App installieren möchten, und dass wir sie für sie installieren können. | Wir speichern keine Daten, die über diese Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| Team.ReadBasic.All | Delegiert | Wir erfassen die Namen der Teams des Benutzers, sodass er auswählen kann, in welchem Teams er eine Verbindung mit Arrangr herstellen möchte und in welches Team er eine Arrangr-Einladung teilen möchte. | Arrangr speichert die Namen von Teams, die der Benutzer für die Verknüpfung mit Arrangr ausgewählt hat, sodass wir diese Teams in ihren Einstellungen anzeigen und sie aus diesen Teams auswählen können, wenn sie entscheiden, wo eine Arrangr-Einladung freigegeben werden soll. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | Wir lesen, ob unsere App im Teams-Konto des Benutzers installiert wurde, damit wir sie fragen können, ob sie unsere App installieren möchten, und dass wir sie für sie installieren können. | Wir speichern keine Daten, die über diese Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| Profil | Delegiert | Name und E-Mail-Adresse | Name und E-Mail-Adresse, um dem Benutzer anzuzeigen, welches Konto er mit unserem Dienst verbunden hat. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
@@ -76,17 +76,17 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Outlook | Ja | Name, E-Mail, Kalendernamen, Kalenderereignisinformationen | Wir erfassen diese Informationen, damit Benutzer ihren Kalender mit Arrangr verbinden können, um die Planung von Besprechungen zu vereinfachen. | Name, E-Mail, Kalendernamen | Wir speichern diese Informationen, damit wir den Benutzern zeigen können, welche Konten und Kalender sie mit unserem Dienst verbunden haben. |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Google Cloud, SendGrid, Stripe, Quaderno | Google Cloud speichert alle Benutzerdaten, Benutzernamen und E-Mails werden mit SendGrid geteilt, um E-Mails an Benutzer zu senden, stripe erhält Benutzernamen, E-Mails und Zahlungsinformationen für die Verarbeitung von Zahlungen. Quaderno erhält Benutzernamen, E-Mails und geografische Informationen, um die Einhaltung der Umsatzsteuer zu unterstützen. | Google Cloud wird zum Speichern von Daten benötigt, um Benutzer zu speichern und die Informationen bereitzustellen, die sie in Arrangr gespeichert haben. Um E-Mails an unsere Nutzungen zu senden, müssen wir deren E-Mail-Adressen an SendGrid senden. Um Zahlungen zu sammeln, müssen wir ihre Zahlungsinformationen in Stripe verarbeiten, aber wir speichern ihre Zahlungsinformationen nicht auf unseren eigenen Servern. Quaderno ist erforderlich, um die Mehrwertsteuer zu berechnen und sicherzustellen, dass wir die Bestimmungen der Mehrwertsteuer einhalten. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -133,7 +133,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Arrangr, Inc. bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

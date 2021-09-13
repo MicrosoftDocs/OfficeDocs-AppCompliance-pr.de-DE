@@ -6,14 +6,14 @@ ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Prezi Video, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Prezi Video, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 8e7e9c70ee848fd284e3297a915ec9847d3ef1ee
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521266"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59280664"
 ---
 # <a name="prezi-video"></a>Prezi Video
 
@@ -21,7 +21,7 @@ ms.locfileid: "53521266"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 23, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/78bbd675-511e-41a2-9a1a-8793920efa9e" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/78bbd675-511e-41a2-9a1a-8793920efa9e" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001577" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -57,13 +57,13 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Weitere Informationen finden Sie unter https://prezi.com/privacy-policy/ |  | Die folgenden APIs/SDK werden für die Integration zusammen mit der 1 verwendet. Botbuilder-SDK (python): Mit diesem SDK speichern wir die Azure Active Directory-Objekt-ID (von der API als aad_object_id bezeichnet). Wir benötigen diese Informationen, um einen Microsoft Teams Benutzer allen Prezi Video-bezogenen Inhalten zuzuordnen, die auf prezi.com erstellt wurden.  2. Botbuilder-js (javascript): Mit diesem SDK werden keine Microsoft Teams spezifischen Daten gesammelt. |
+>| Weitere Informationen finden Sie unter https://prezi.com/privacy-policy/ |  | Die folgenden APIs/SDK werden für die Integration zusammen mit der 1 verwendet. Botbuilder-SDK (python): Mit diesem SDK speichern wir die Azure Active Directory Objekt-ID (von der API als aad_object_id bezeichnet). Wir benötigen diese Informationen, um einen Microsoft Teams Benutzer allen Prezi Video-bezogenen Inhalten zuzuordnen, die auf prezi.com erstellt wurden.  2. Botbuilder-js (javascript): Mit diesem SDK werden keine Microsoft Teams spezifischen Daten gesammelt. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -87,9 +87,9 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 >Die folgenden Informationen werden in einer RDS-Datenbank gespeichert:
 
-1. Azure Active Directory Objekt-ID (von der API als aad_object_id bezeichnet) wird gespeichert, um die Videos eines Microsoft Teams Benutzers&#8217;abzurufen. Die aad_object_id wird mithilfe des offiziellen Botbuilder-SDKs von Microsoft&#8217;auf unseren Servern sicher abgerufen.
+1. Azure Active Directory Objekt-ID (die von der API als aad_object_id bezeichnet wird) wird gespeichert, um die Videos eines Microsoft Teams Benutzers&#8217;abzurufen. Die aad_object_id wird mithilfe des offiziellen Botbuilder-SDKs von Microsoft&#8217;auf unseren Servern sicher abgerufen.
 
-2. Auf prezi.com erstellte Videolinks. Inhalte, die auf prezi.com erstellt wurden, werden gemäß Abschnitt 14 in der folgenden URL gespeichert: https://prezi.com/privacy-policy/ 
+2. Videolinks, die auf prezi.com erstellt wurden. Auf prezi.com erstellte Inhalte werden gemäß Abschnitt 14 in der folgenden URL gespeichert: https://prezi.com/privacy-policy/ 
 
 Zugriffsrechte auf externe Systeme mit hohem Risiko (z. B. AWS) werden über eine einheitliche Identitäts- und Zugriffsverwaltungsplattform (OneLogin) eines Drittanbieters verwaltet.
 

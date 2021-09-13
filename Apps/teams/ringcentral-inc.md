@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für RingCentral, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: bb0787720195363368e3d822e45f173acee67870
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525399"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279845"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -51,15 +51,15 @@ Von RingCentral, Inc. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von RingCentral, Inc. zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Delegiert |  Ermöglicht der Anwendung, Besprechungseinladungen über ihren Kalender zu senden | Keine | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
 >| offline_access | Delegiert |  Ermöglicht der Anwendung, das oauth-Token abzurufen und zu aktualisieren |  Zugriffstoken, Aktualisierungstoken für den Zugriff auf die MS-Graph-API | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
->| User.Read | Delegiert |  Ermöglicht der App, das grundlegende Profil eines Benutzers&#8217;(E-Mail, Name) zu lesen, um Kontaktüberstimmungen an unserem Ende zu erreichen. Und ermöglicht es Benutzern, sich anzumelden und ihr O365-Konto mit dem RingCentral-Konto zu verknüpfen. |  E-Mail, Vorname, Nachname | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
+>| User.Read | Delegiert |  Ermöglicht der App, das grundlegende Profil eines Benutzers&#8217;(E-Mail, Name) zu lesen, um Kontaktübersprechung an unserem Ende zu führen. Und ermöglicht es Benutzern, sich anzumelden und ihr O365-Konto mit dem RingCentral-Konto zu verknüpfen. |  E-Mail, Vorname, Nachname | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
 >| User.Read.All | Delegiert | Ermöglicht der Anwendung, das vollständige Profil eines Benutzers mit Telefonnummern zu lesen, um Telefonanrufe mit unseren Diensten zu tätigen. | Keine | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
 
 
@@ -86,7 +86,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wenn wir eine andere Organisation verwenden, kontrollieren wir weiterhin Ihre persönlichen Informationen. Und wir verfügen über strenge Kontrollen, um sicherzustellen, dass es ordnungsgemäß geschützt&#8217;. Schließlich werden im abschnitt oben die Situationen beschrieben, in denen Ihre persönlichen Informationen an andere Organisationen, Behörden und Strafverfolgungsbehörden weitergegeben werden.  Wenn wir Ihre Informationen an andere Organisationen weitergeben,&#8217;wir sicherstellen, dass sie so weit wie möglich geschützt&#8217;.
+>Wenn wir eine andere Organisation verwenden, kontrollieren wir weiterhin Ihre persönlichen Informationen. Und wir verfügen über strenge Kontrollen, um sicherzustellen, dass es ordnungsgemäß geschützt&#8217;. Schließlich werden im abschnitt oben die Situationen beschrieben, in denen Ihre persönlichen Informationen an andere Organisationen, Behörden und Strafverfolgungsbehörden weitergegeben werden.  Wenn wir Ihre Informationen mit anderen Organisationen teilen,&#8217;wir sicherstellen, dass sie so weit wie möglich geschützt&#8217;.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Appraisd, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: baebeaa3079fbe38cc9c1fb76f1841059346be9c
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407512"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59279965"
 ---
 # <a name="appraisd"></a>Appraisd
 
@@ -30,12 +30,12 @@ ms.locfileid: "58407512"
 
 Von Appraisd ltd. für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Appraisd |
 | ID | WA200003123 |
 | unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Appraisd ltd. |
+| Name des Partnerunternehmens | Appraisd Ltd. |
 | URL der Partnerwebsite | [https://www.appraisd.com](https://www.appraisd.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.appraisd.com](https://www.appraisd.com) |
 | URL der Datenschutzrichtlinie | [https://help.appraisd.com/hc/en-us/articles/360007779298-Pr...](https://help.appraisd.com/hc/en-us/articles/360007779298-Privacy-Policy) |
@@ -51,7 +51,7 @@ Von Appraisd ltd. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Appraisd Ltd. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -74,7 +74,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Um kernfunktionen in Appraisd zu unterstützen. | E-Mail-Adresse, Benutzer-IDs | Um eine Verknüpfung zwischen appraisd und Teams Konten des Benutzers zu erstellen und kernfunktionen in Appraisd zu unterstützen. |
+>| Um kernfunktionen in Appraisd zu unterstützen. | E-Mail-Adresse, Benutzer-IDs | Um eine Verknüpfung zwischen den Appraisd- und Teams-Konten des Benutzers zu erstellen und kernfunktionen in Appraisd zu unterstützen. |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -117,7 +117,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Appraisd Ltd. darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
