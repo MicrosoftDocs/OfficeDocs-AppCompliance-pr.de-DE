@@ -57,7 +57,7 @@
           href: excel/sheetgo-europe-sl.md
         - name: Wunder365 für Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: XBRL-Archivierte Daten
+        - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
     - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
@@ -68,7 +68,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook Apps
+    - name: Microsoft Outlook-Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -77,7 +77,7 @@
           href: outlook/altru-videos.md
         - name: Genehmigte Kontaktkalender
           href: outlook/approved-contact-calendars.md
-        - name: Outlook
+        - name: Für Outlook
           href: outlook/asana-for-outlook.md
         - name: CI-Signature
           href: outlook/ci-solution-gmbh-signature.md
@@ -138,7 +138,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Schieberegler für Office
+        - name: officeatwork | Folienauswahl für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -149,7 +149,7 @@
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint-Apps
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Agile Task Board für SharePoint Online
@@ -158,7 +158,7 @@
           href: sharepoint/esri-inc-arcgis-maps.md
         - name: FormMachines Connector für SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
-        - name: Gaggle for SharePoint
+        - name: Umschaltfläche für SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
         - name: iGlobe CRM-Add-Ons
           href: sharepoint/iglobe-crm-add-ons.md
@@ -207,8 +207,6 @@
           href: teams/arrangr-inc.md
         - name: Asana
           href: teams/asana.md
-        - name: ASC Recording Insights
-          href: teams/asc-technologies-ag-recording-insights.md
         - name: askR.ai
           href: teams/askrai.md
         - name: Assembly
@@ -269,8 +267,12 @@
           href: teams/contexxtai-cai-adoption-bot.md
         - name: Calendar Bot
           href: teams/approved-contact-calendar-bot.md
+        - name: Kalender Pro
+          href: teams/witivio-calendar-pro.md
         - name: CalendarHero
           href: teams/calendarhero-inc.md
+        - name: Canary
+          href: teams/yattee-inc-canary.md
         - name: CatchEm
           href: teams/chimu-software-catchem.md
         - name: Centrical
@@ -303,8 +305,6 @@
           href: teams/carnduff-co-coffeepals.md
         - name: Sammlungs-Pot
           href: teams/gifted-to-you-limited-collection-pot.md
-        - name: Commander
-          href: teams/nimbella-commander.md
         - name: Complish
           href: teams/cauzey-pty-ltd-complish.md
         - name: Conferences i/o
@@ -329,8 +329,6 @@
           href: teams/datto-inc-workplace.md
         - name: DBit
           href: teams/diamondsoft-solutions-llc-dbit.md
-        - name: Decisions
-          href: teams/decisions.md
         - name: DisasterTech DICE
           href: teams/disastertech-dice.md
         - name: do!book CB
@@ -399,6 +397,8 @@
           href: teams/freshworks-inc-freshdesk.md
         - name: Fusion Remote
           href: teams/jujo-inc-fusion-remote.md
+        - name: Wiesbot
+          href: teams/geekbot-ltd.md
         - name: Gensys
           href: teams/gensys-solutions-bv.md
         - name: GitHub
@@ -467,8 +467,6 @@
           href: teams/kazoo.md
         - name: Klaxoon
           href: teams/klaxoon.md
-        - name: Koan
-          href: teams/koan-inc.md
         - name: Kronos
           href: teams/kronos-inc.md
         - name: Kudozza
@@ -497,6 +495,8 @@
           href: teams/lucid-software-lucidspark.md
         - name: LuckyDraw
           href: teams/tony-xia-luckydraw.md
+        - name: LumApps
+          href: teams/lumapps.md
         - name: Lumio by SMART
           href: teams/smart-technologies-ulc-lumio-by.md
         - name: MailClark
@@ -505,6 +505,8 @@
           href: teams/marvel.md
         - name: MeasureUp
           href: teams/media-interactiva-solutions-measureup.md
+        - name: Mediathek+
+          href: teams/cemeq-inc-mediathequeplus.md
         - name: Medxnote MT
           href: teams/medxnote-mt.md
         - name: MeisterTask
@@ -543,8 +545,6 @@
           href: teams/avepoint-inc-myhub.md
         - name: MyWorkDrive
           href: teams/myworkdrive.md
-        - name: M&#233;diath&#232;que+
-          href: teams/cemeq-inc-mediathequeplus.md
         - name: Navo
           href: teams/regroove-solutions-navo.md
         - name: NE
@@ -671,6 +671,8 @@
           href: teams/scrumgenius.md
         - name: SecretaryBot
           href: teams/mysecretary-secretarybot.md
+        - name: SEFOS
+          href: teams/meaplus-ab-sefos.md
         - name: SelfDrvn
           href: teams/selfdrvn.md
         - name: Sensei Labs Conductor
@@ -757,6 +759,8 @@
           href: teams/gamalearn-swiftassess.md
         - name: Sympli
           href: teams/sympli-llc.md
+        - name: SysCall
+          href: teams/sysaid.md
         - name: TackleBox
           href: teams/insiten-tacklebox.md
         - name: Tactileo
@@ -791,8 +795,6 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: TELUS Business Connect
-          href: teams/ringcentral-inc-telus-business-connect.md
         - name: Template Chooser
           href: teams/officeatwork-template-chooser.md
         - name: Text
@@ -807,6 +809,8 @@
           href: teams/dm-digital-srl-timeneye.md
         - name: TINYpulse
           href: teams/tinypulse.md
+        - name: Totara
+          href: teams/totara-learning.md
         - name: Tribute
           href: teams/tribute-co.md
         - name: Trivia
@@ -886,8 +890,6 @@
       items:
         - name: Adobe Sign für Word und PowerPoint
           href: word/adobe-inc-sign-for-word-and-powerpoint.md
-        - name: CocoFax – Einfaches und sicheres Senden von Fax
-          href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
           href: word/krevealllc-crosscheck.md
         - name: Excel-zu-Word-Dokumentautomatisierung
@@ -916,7 +918,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Überprüfen auf Office
+        - name: officeatwork | Prüfer für Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -926,6 +928,8 @@
           href: word/digital-science-smartcite-for-papers.md
         - name: TaxKit-Dokumente
           href: word/taxyio-gmbh-taxkit-docs.md
+        - name: TerMef
+          href: word/mondeca-termef.md
         - name: Wunder365 für Office
           href: word/jiji-technologies-private-limited-wunder365-for-office.md
         - name: xMail – Wissensverwaltungssystem
