@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7762883d8a13c9c914cc88db4c03f20be2f830f3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527001"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282227"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -33,7 +33,7 @@ Informationen, die von JiJi Technologies Private Limited to Microsoft bereitgest
 |:----------------|:-------------|
 | App-Name | Wunder365 |
 | ID | WA200000391 |
-| unterstützte Office 365-Clients | Outlook 2016 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
+| Office 365 unterstützten Clients | Outlook 2016 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
 | Name des Partnerunternehmens | JiJi Technologies Private Limited |
 | URL der Partnerwebsite | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL der Datenschutzrichtlinie | [https://www.wunder365.com/outlook-addin-privacy-policy](https://www.wunder365.com/outlook-addin-privacy-policy) |
@@ -49,9 +49,9 @@ Informationen, die von JiJi Technologies Private Limited to Microsoft bereitgest
 
 Diese Informationen wurden von JiJi Technologies Private Limited darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -66,7 +66,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -124,7 +124,7 @@ Diese Informationen wurden von JiJi Technologies Private Limited darüber bereit
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Ja |
 | Verwendet Ihre App veraltete APIs? | Nein |

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für StarLeaf, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 8f9878d4de6e09c283c6d13ee7351de9fb5f0eb8
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528231"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281777"
 ---
 # <a name="starleaf"></a>StarLeaf
 
@@ -21,7 +21,7 @@ ms.locfileid: "53528231"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 24. August 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/220b3db0-e3be-40df-8148-f0e0c33a986a" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/220b3db0-e3be-40df-8148-f0e0c33a986a" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000185" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von StarLeaf für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | StarLeaf |
 | ID | WA200000185 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | StarLeaf |
 | URL der Partnerwebsite | [https://www.starleaf.com](https://www.starleaf.com) |
 | URL der Datenschutzrichtlinie | [https://support.starleaf.com/legal-information/starleaf-pri...](https://support.starleaf.com/legal-information/starleaf-privacy-notice/) |
@@ -56,15 +56,15 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | Anwendung | wir speichern die iCalUId von Besprechungen, Uhrzeit/Datum der Besprechung, E-Mail-Adressen der Teilnehmer und eine Single-Value-Extended-Property, die wir mithilfe der benutzerdefinierten Benutzeroberfläche Office.js lesen und in die Besprechung schreiben. Die iCalUId wird verwendet, um die Besprechung in einem Outlook-Kalender eines Benutzers&#8217;mit der Videobesprechung in unserem Dienst zu korrelieren. Die Uhrzeit/das Datum und die Teilnehmer werden verwendet, um den richtigen Personen in unserem Dienst zur richtigen Zeit eine Videobesprechung bereitzustellen. SVEP wird mit unserem O365-Add-In verwendet, um Benutzern eine Benutzeroberfläche zum Festlegen von Details zur Videobesprechung in unserem Dienst bereitzustellen, z. B. Aufzeichnung. | verwendet, um Webhook-Benachrichtigungen zu abonnieren, um Benutzeränderungen an Ereignissen in ihren Kalendern nachzuverfolgen und unseren Dienst zu aktualisieren, um ihn konsistent zu halten. Es wird auch verwendet, um Ereignisse in ihrem Kalender zu erstellen, wenn ein Benutzer mit unserer Teams-App interagiert und eine Besprechung für unseren Dienst plant. | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
->| User.Read | Anwendung | Wir speichern das oauth-Aktualisierungstoken, um sich anmelden zu können. Wir speichern die Benutzerprofil-ID, um zukünftige OAuth-Versuche dieses Benutzers vergleichen zu können, und stellen sicher, dass wir die Details nicht zweimal speichern&#8217;.  | Ermöglichen Sie Benutzern, sich bei der App anzumelden, und ermöglicht es unserer App, die E-Mail-Adresse des Benutzers&#8217;abzurufen, um seine Anmeldung mit einem Konto bei unserem Dienst zu korrelieren.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| Calendars.ReadWrite | Anwendung | wir speichern die iCalUId von Besprechungen, Uhrzeit/Datum der Besprechung, E-Mail-Adressen der Teilnehmer und eine Single-Value-Extended-Property, die wir mithilfe der benutzerdefinierten Eigenschaftenschnittstelle Office.js lesen und in die Besprechung schreiben. Die iCalUId wird verwendet, um die Besprechung in einem Outlook-Kalender eines Benutzers&#8217;mit der Videobesprechung in unserem Dienst zu korrelieren. Die Uhrzeit/das Datum und die Teilnehmer werden verwendet, um den richtigen Personen in unserem Dienst zur richtigen Zeit eine Videobesprechung bereitzustellen. SVEP wird mit unserem O365-Add-In verwendet, um Benutzern eine Benutzeroberfläche zum Festlegen von Details zur Videobesprechung in unserem Dienst bereitzustellen, z. B. Aufzeichnung. | verwendet, um Webhook-Benachrichtigungen zu abonnieren, um Benutzeränderungen an Ereignissen in ihren Kalendern nachzuverfolgen und unseren Dienst zu aktualisieren, um ihn konsistent zu halten. Es wird auch verwendet, um Ereignisse in ihrem Kalender zu erstellen, wenn ein Benutzer mit unserer Teams-App interagiert und eine Besprechung für unseren Dienst plant. | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
+>| User.Read | Anwendung | Wir speichern das oauth-Aktualisierungstoken, um sich anmelden zu können. Wir speichern die Benutzerprofil-ID, um zukünftige OAuth-Versuche dieses Benutzers vergleichen zu können, und stellen sicher, dass wir ihre Details nicht zweimal speichern&#8217;.  | Ermöglichen Sie Benutzern, sich bei der App anzumelden, und ermöglicht es unserer App, die E-Mail-Adresse des Benutzers&#8217;abzurufen, um seine Anmeldung mit einem Konto bei unserem Dienst zu korrelieren.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Wenn Probleme mit dem technischen Support auftreten, können organisatorische Daten zur Fallverwaltung an SalesForce übertragen werden. Wenn der Benutzer die PSTN-Einwahlfunktion verwendet, wird der Anruf durch Twilio, Plivo oder Voxbone fließen. |  | Nicht zutreffend |
 
@@ -87,7 +87,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Daten werden auf StarLeaf&#8217;eigenen Protokollservern im Datencenter gespeichert, in dem sich der Benutzer&#8217;Konto befindet, und auf einem oder mehreren Datenauftragsverarbeitern innerhalb derselben Gerichtsbarkeit gesichert. Der Zugriff auf die Daten erfolgt über ein einzelnes Benutzerkonto mithilfe von benutzerbezogenen Kennwörtern, die überprüft werden. Die Dienstbenutzerkonten von StarLeaf&#8217;werden automatisch anhand der HR-Systeme und der Active Directory-Gruppen des Unternehmens überwacht, um das Sicherheits- und Complianceteam zu benachrichtigen, wenn Anomalien gefunden werden.
+>Die Daten werden auf StarLeaf&#8217;eigenen Protokollservern im Datencenter gespeichert, in dem sich der Benutzer&#8217;Konto befindet, und auf einem oder mehreren Datenbereichen innerhalb derselben Gerichtsbarkeit gesichert. Der Zugriff auf die Daten erfolgt über ein einzelnes Benutzerkonto mithilfe von benutzerbezogenen Kennwörtern, die überprüft werden. Die Dienstbenutzerkonten von StarLeaf&#8217;werden automatisch anhand der HR-Systeme und der Active Directory-Gruppen des Unternehmens überwacht, um das Sicherheits- und Complianceteam zu benachrichtigen, wenn Anomalien gefunden werden.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

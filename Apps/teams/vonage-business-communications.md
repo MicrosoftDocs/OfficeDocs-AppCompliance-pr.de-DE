@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Vonage Business Communications, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 80665180e1abdd6783e7644a06b4d116dcedf6ae
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58241808"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282920"
 ---
 # <a name="vonage-business-communications"></a>Vonage Business Communications
 
@@ -30,11 +30,11 @@ ms.locfileid: "58241808"
 
 Informationen, die von Vonage an Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Vonage Business Communications |
 | ID | WA200002988 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Vonage |
 | URL der Partnerwebsite | [https://www.vonage.com](https://www.vonage.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.vonage.com/unified-communications/](https://www.vonage.com/unified-communications/) |
@@ -61,7 +61,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| User.Read | Delegiert | Abrufen der Azure-Benutzer-ID und mandanten-ID, damit wir später Benachrichtigungen an diesen Benutzer senden können. |  Abrufen der Azure-Benutzer-ID und mandanten-ID, damit wir später Benachrichtigungen an diesen Benutzer senden können, wenn er eine SMS/MMS empfängt | [1d8a304e-ea67-4aa2-9345-2793419cf83f](https://docs.microsoft.com/microsoft-365-app-certification/azure/1d8a304e-ea67-4aa2-9345-2793419cf83f) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -98,7 +98,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38766' frameborder='no' style='width: 100%;'></iframe>
 
@@ -114,7 +114,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 Diese Informationen wurden von Vonage darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Polly, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Polly, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3637dd9f14fb7a887372442c9b4a067b30b35d8a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521358"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283262"
 ---
 # <a name="polly"></a>Polly
 
@@ -21,7 +21,7 @@ ms.locfileid: "53521358"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/1542629c-01b3-4a6d-8f76-1938b779e48d" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/1542629c-01b3-4a6d-8f76-1938b779e48d" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381060" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Polly für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Polly |
 | ID | WA104381060 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Polly |
 | URL der Partnerwebsite | [https://www.polly.ai](https://www.polly.ai) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.polly.ai/help/msteams](https://www.polly.ai/help/msteams) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von Polly darüber bereitgestellt, wie diese App Orga
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

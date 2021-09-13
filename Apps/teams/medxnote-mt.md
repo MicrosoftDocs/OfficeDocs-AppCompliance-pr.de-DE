@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Medxnote MT, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525489"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281216"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -21,7 +21,7 @@ ms.locfileid: "53525489"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 28, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/02ffb7cc-5fcd-4b31-bcbd-b24bbca74cc7" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/02ffb7cc-5fcd-4b31-bcbd-b24bbca74cc7" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001823" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Medxnote für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Medxnote MT |
 | ID | WA200001823 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Medxnote |
 | URL der Partnerwebsite | [https://medxnote.com/](https://medxnote.com/) |
 | URL der Datenschutzrichtlinie | [https://medxnote.com/privacy-policy/](https://medxnote.com/privacy-policy/) |
@@ -48,7 +48,7 @@ Von Medxnote für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Medxnote bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Medxnote zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
@@ -60,11 +60,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| openid | Delegiert | Wir werden Sitzungs-ID, Benutzer-ID, Bearertoken und E-Mail zwischenspeichern, die zum Anmelden von Benutzern im Aufgabenmodul verwendet werden. | wenn wir damit Benutzer im Aufgabenmodul anmelden, speichern wir Sitzungs-ID, Benutzer-ID, E-Mail, Bearertoken | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

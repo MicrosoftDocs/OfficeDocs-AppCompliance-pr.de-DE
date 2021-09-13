@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart Diagrams for Excel, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart Diagrams for Excel, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: eedc4340815926a96f52e2abebc2d553f07583e3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526031"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281978"
 ---
 # <a name="lucidchart-diagrams-for-excel"></a>Lucidchart-Diagramme für Excel
 
@@ -33,7 +33,7 @@ Von Lucid Software Inc für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Lucidchart-Diagramme für Excel |
 | ID | WA104380194 |
-| unterstützte Office 365-Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher auf Windows, Excel im Web |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher auf Windows, Excel im Web |
 | Name des Partnerunternehmens | Lucid Software Inc |
 | URL der Partnerwebsite | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL der Datenschutzrichtlinie | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
@@ -61,13 +61,13 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| JavaScript-API für Office | Ja | Wir verwenden das Office OneDrive Javascript SDK aus, um die OneDrive Dateiauswahl mit OneDrive.open() zu öffnen. Wir generieren keine Zugriffstoken und stellen keine Anforderungen an die APIs OneDrive; das OneDrive Dateiauswahl-SDK erledigt dies für uns. Es werden nur die Dateinamen angezeigt, die der Benutzer auswählt. |  | Wenn der Benutzer eine Datei mithilfe der OneDrive Dateiauswahl auswählt, wird der Dateiname gespeichert. |  |
+>| JavaScript-API für Office | Ja | Wir verwenden das Office OneDrive Javascript SDK von, um die OneDrive Dateiauswahl mit OneDrive.open() zu öffnen. Wir generieren keine Zugriffstoken und stellen keine Anforderungen an die APIs von OneDrive; das OneDrive Dateiauswahl-SDK erledigt dies für uns. Es werden nur die Dateinamen angezeigt, die der Benutzer auswählt. |  | Wenn der Benutzer eine Datei mithilfe der OneDrive Dateiauswahl auswählt, wird der Dateiname gespeichert. |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -81,7 +81,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Wir protokollieren E-Mail- und IP-Adressen aus Sicherheits- und Supportgründen. Der gesamte Zugriff auf Protokolle ist &amp; aufgezeichnete Protokolle, die in einem Drittanbietersystem nicht geändert werden können. Der Zugriff auf Protokolle erfordert MFA.
+>E-Mail- und IP-Adressen werden aus Sicherheits- und Supportgründen protokolliert. Der gesamte Zugriff auf Protokolle ist &amp; aufgezeichnete Protokolle, die in einem Drittanbietersystem nicht geändert werden können. Der Zugriff auf Protokolle erfordert MFA.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 

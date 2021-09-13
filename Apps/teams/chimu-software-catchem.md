@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CatchEm, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: bdac27ddbc3148644562af20f8f6d415a56903d9
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522028"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282164"
 ---
 # <a name="catchem"></a>CatchEm
 
@@ -21,7 +21,7 @@ ms.locfileid: "53522028"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 27. März 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/fc686a41-3bd0-45b3-a56d-f278888fd694" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/fc686a41-3bd0-45b3-a56d-f278888fd694" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002639" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Chimu Software für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | CatchEm |
 | ID | WA200002639 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Chimu Software |
 | URL der Partnerwebsite | [https://chimusoftware.com](https://chimusoftware.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://catchem.apps.chimusoftware.com/help](https://catchem.apps.chimusoftware.com/help) |
@@ -64,10 +64,10 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | So aktivieren Sie automatische Updates für die Anwendung | Nicht zutreffend | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| User.Read | Delegiert | AadObjectId: So identifizieren Sie einen Benutzer eindeutig. TenantId: Um festzustellen, ob ein Kontakt intern oder extern für den Benutzer ist. DisplayName, GivenName, Surname: to identify contacts to application users. E-Mail, Chatadressen, UserPrincipalName: Um zwischen Kontakten mit demselben Namen zu unterscheiden und &quot; die Funktion zum Klicken auf chatten zu &quot; lassen. CompanyName, Country: Analytics. AccountEnabled, DeletedDateTime: Automatisches Löschen von Benutzerdaten für deaktivierte Benutzer | AadObjectId: So identifizieren Sie einen Benutzer eindeutig. TenantId: Um festzustellen, ob ein Kontakt intern oder extern für den Benutzer ist. DisplayName, GivenName, Surname: to identify contacts to application users. E-Mail, Chatadressen, UserPrincipalName: Um zwischen Kontakten mit demselben Namen zu unterscheiden und &quot; die Funktion zum Klicken auf chatten zu &quot; lassen. CompanyName, Country: Analytics. AccountEnabled, DeletedDateTime: Automatisches Löschen von Benutzerdaten für deaktivierte Benutzer | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| User.ReadBasic.All | Delegiert | Zur Verbesserung der Genauigkeit von Daten für interne Kontakte. AadObjectId: So identifizieren Sie einen Benutzer eindeutig. TenantId: Um festzustellen, ob ein Kontakt intern oder extern für den Benutzer ist. DisplayName, GivenName, Surname: to identify contacts to application users. E-Mail, UserPrincipalName: Um zwischen Kontakten mit demselben Namen zu unterscheiden und &quot; die Funktion zum Klicken auf chatten zu &quot; lassen. | Zur Verbesserung der Genauigkeit von Daten für interne Kontakte. AadObjectId: So identifizieren Sie einen Benutzer eindeutig. TenantId: Um festzustellen, ob ein Kontakt intern oder extern für den Benutzer ist. DisplayName, GivenName, Surname: to identify contacts to application users. E-Mail, UserPrincipalName: Um zwischen Kontakten mit demselben Namen zu unterscheiden und &quot; die Funktion zum Klicken auf chatten zu &quot; lassen. | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
->| offline_access | Delegiert | Graph Sicherheitstokens, um der Anwendung zu ermöglichen, kontaktbezogene Anwesenheitsänderungen zu benachrichtigen und Kontaktlisten zu aktualisieren, wenn der Benutzer die Anwendung nicht aktiv verwendet | Graph-Sicherheitstoken | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
+>| offline_access | Delegiert | Graph Sicherheitstokens, um der Anwendung zu ermöglichen, kontaktbezogene Anwesenheitsänderungen zu benachrichtigen und Kontaktlisten zu aktualisieren, wenn der Benutzer die Anwendung nicht aktiv verwendet | Graph Sicherheitstoken | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

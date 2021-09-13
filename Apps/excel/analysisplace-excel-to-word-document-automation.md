@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Excel-zu-Word-Dokumentautomatisierung, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281207"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282596"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel-zu-Word-Dokumentautomatisierung
 
@@ -33,7 +33,7 @@ Von AnalysisPlace für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Excel-zu-Word-Dokumentautomatisierung |
 | ID | WA104380955 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows, Word 2016 oder höher auf Mac, Word 2016 oder höher auf Windows, PowerPoint 2016 oder höher auf Dem Mac, PowerPoint 2016 oder höher auf Windows, Excel im Web, Word im Web, PowerPoint im Web |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf Mac, Excel 2016 oder höher auf Windows, Word 2016 oder höher auf Mac, Word 2016 oder höher auf Windows, PowerPoint 2016 oder höher auf Mac, PowerPoint 2016 oder höher auf Windows, Excel im Web, Word im Web, PowerPoint im Web |
 | Name des Partnerunternehmens | AnalysisPlace |
 | URL der Partnerwebsite | [https://analysisplace.com](https://analysisplace.com) |
 | URL der Datenschutzrichtlinie | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
@@ -51,7 +51,7 @@ Diese Informationen wurden von AnalysisPlace bereitgestellt, wie diese App Organ
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -88,7 +88,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/29278' frameborder='no' style='width: 100%;'></iframe>
 

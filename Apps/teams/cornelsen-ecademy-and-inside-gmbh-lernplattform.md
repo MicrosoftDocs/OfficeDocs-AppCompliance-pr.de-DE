@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für eCademy Lernplattform, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: f5926d481fbfc766d80b61356656f6b44ea0c1bd
-ms.sourcegitcommit: 64333f4e583bacd85f1b47af6e1eaee266658924
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58422629"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282827"
 ---
 # <a name="ecademy-lernplattform"></a>eCademy Lernplattform
 
@@ -30,12 +30,12 @@ ms.locfileid: "58422629"
 
 Informationen, die von Derelsen eCademy inside GmbH für Microsoft bereitgestellt &amp; werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | eCademy Lernplattform |
 | ID | WA200002717 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Elsen eCademy &amp; inside GmbH |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Cornelsen eCademy &amp; inside GmbH |
 | URL der Partnerwebsite | [https://www.ecademy-learning.com](https://www.ecademy-learning.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.ecademy-learning.com](https://www.ecademy-learning.com) |
 | URL der Datenschutzrichtlinie | [https://www.ecademy-learning.com/datenschutz/](https://www.ecademy-learning.com/datenschutz/) |
@@ -53,12 +53,12 @@ Diese Informationen wurden von Denelsen eCademy inside GmbH zur Verfügung &amp;
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -97,7 +97,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
@@ -111,9 +111,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Denelsen eCademy inside GmbH darüber &amp; bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Derelsen eCademy inside GmbH bereitgestellt, &amp; wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

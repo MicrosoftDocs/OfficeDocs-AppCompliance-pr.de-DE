@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CalendarHero, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 41a7dd8a2cb7d900ac26b228c4cc2522d76da59c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527591"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282194"
 ---
 # <a name="calendarhero"></a>CalendarHero
 
@@ -21,20 +21,20 @@ ms.locfileid: "53527591"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 17. März 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/cac7469b-37cc-44f5-bf08-ff6654d35819" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/cac7469b-37cc-44f5-bf08-ff6654d35819" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000150" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von CalendarHero Inc. für Microsoft bereitgestellte Informationen:
+Informationen, die Von CalendarHero Inc. an Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | CalendarHero |
 | ID | WA200000150 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | CalendarHero Inc |
 | URL der Partnerwebsite | [https://zoom.ai](https://zoom.ai) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
@@ -60,17 +60,17 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| Calendars.ReadWrite | Beide | Besprechungen werden in unserer mongoDB in Azure zwischengespeichert, Beschreibungen werden jedoch verschlüsselt. | Zugriff auf die Kalenderereignisse des Benutzers. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Contacts.ReadWrite | Beide | Kontaktname und E-Mail-Adresse. | Lesen Sie die Kontakte des Benutzers (damit wir sie zu einer Besprechung einladen können). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Group.Read.All | Beide | Gruppenname und -mitglieder. | (Optional) Lesen von Unternehmensbenutzergruppen (für die Planung mit Gruppen). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Mail.Read | Beide | E-Mail/Name des Kontakts, Häufigkeit/Aktualität von Interaktionen. | (Optional) wird verwendet, um E-Mail-Metadaten zu lesen, unter denen sich die wichtigsten Kontakte des Benutzers befinden (über Machine Learning). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Read | Beide | E-Mail/Name des Kontakts, Häufigkeit/Aktualität von Interaktionen. | (Optional) wird verwendet, um E-Mail-Metadaten zu lesen, unter wem sich die wichtigsten Kontakte des Benutzers befinden (über Machine Learning). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| MailboxSettings.ReadWrite | Beide | Zeitzone des Benutzers. | Zeitzone des Benutzers. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read.All | Beide | E-Mail-Adresse des Benutzers &amp; (wird als Kontakt gespeichert). | (Optional) Lesen von Unternehmensbenutzern (für die Planung mit Kollegen) | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| offline_access | Anwendung | Nein | Wir müssen unser Back-End jederzeit lesen und schreiben, ohne dass der Benutzer anwesend ist. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

@@ -6,14 +6,14 @@ ms.date: 06/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für RetMig &amp; Kommaforslag, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für RetMig &amp; Kommaforslag, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 719d06109904e4cc6a06efe4c1cdcdd2281005b8
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404573"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282692"
 ---
 # <a name="retmig-amp-kommaforslag"></a>RetMig &amp; Kommaforslag
 
@@ -29,11 +29,11 @@ ms.locfileid: "58404573"
 
 Von GrammarSoft ApS für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | RetMig &amp; Kommaforslag |
 | ID | WA104382003 |
-| unterstützte Office 365-Clients | Word 2016 oder höher auf dem Mac, Word 2016 oder höher auf Windows Word im Web |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf dem Mac, Word 2016 oder höher auf Windows Word im Web |
 | Name des Partnerunternehmens | GrammarSoft ApS |
 | URL der Partnerwebsite | [https://retmig.dk](https://retmig.dk) |
 | URL der Datenschutzrichtlinie | [https://retmig.dk/terms#privacy](https://retmig.dk/terms#privacy) |
@@ -49,7 +49,7 @@ Von GrammarSoft ApS für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von GrammarSoft ApS bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -88,7 +88,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
@@ -104,7 +104,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von GrammarSoft ApS bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SurveySparrow, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: f27230d2cd0535b5828bff6eaa4e58eb03bf29e4
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522158"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283896"
 ---
 # <a name="surveysparrow"></a>SurveySparrow
 
@@ -21,7 +21,7 @@ ms.locfileid: "53522158"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: April 19, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/1b923c85-b04c-43d4-b2c2-0fdc0f598658" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/1b923c85-b04c-43d4-b2c2-0fdc0f598658" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002257" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die von admin@surveysparrow.com an Microsoft bereitgestellt werde
 |:----------------|:-------------|
 | App-Name | SurveySparrow |
 | ID | WA200002257 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | admin@surveysparrow.com |
 | URL der Partnerwebsite | [https://surveysparrow.com](https://surveysparrow.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://surveysparrow.com/apps/microsoft-teams-survey-integ...](https://surveysparrow.com/apps/microsoft-teams-survey-integration/) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von admin@surveysparrow.com darüber bereitgestellt, 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

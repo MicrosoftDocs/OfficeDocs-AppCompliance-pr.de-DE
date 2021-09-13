@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SalesTim, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 90e9a29a28b5496e4f5f63837c28d94546c76979
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53522220"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281852"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -56,14 +56,14 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.ReadWrite.All | Delegiert | NEIN | Zulassen, dass die App ihre eigenen Pakete im Unternehmens-App-Katalog installiert und aktualisiert. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| Directory.AccessAsUser.All | Delegiert | Wir&#8217;einige Benutzer-IDs nur speichern, nicht Profildaten. | Ermöglicht es einem Benutzer, andere Benutzer an verschiedenen Stellen in der Anwendung auszuwählen, z. B. genehmigende Personen in einem Workflow auszuwählen. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
->| Group.ReadWrite.All | Delegiert | Wir&#8217;nur Gruppen/Teams-IDs speichern,&#8217;keine Gruppen-/Teams-Inhalte speichern. | Ermöglicht der App, Gruppen zu erstellen, alle Gruppeneigenschaften und Mitgliedschaften im Namen des angemeldeten Benutzers zu lesen. Darüber hinaus können Gruppenbesitzer ihre eigenen Gruppen verwalten, und Gruppenmitglieder können Gruppeninhalte aktualisieren. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Group.ReadWrite.All | Delegiert | Wir&#8217;nur Gruppen/Teams-IDs speichern, wir&#8217;keine Gruppen/Teams-Inhalte speichern. | Ermöglicht der App, Gruppen zu erstellen, alle Gruppeneigenschaften und Mitgliedschaften im Namen des angemeldeten Benutzers zu lesen. Darüber hinaus können Gruppenbesitzer ihre eigenen Gruppen verwalten, und Gruppenmitglieder können Gruppeninhalte aktualisieren. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| Mail.Send | Delegiert | Wir&#8217;die Metadaten dieser Aktion speichern, z. B. Benachrichtigungsdatum, Empfänger (nur ID), Anforderungs-ID. | Ermöglicht der App das Senden von Benachrichtigungs-E-Mails, z. B. während eines Genehmigungsworkflows. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| Sites.ReadWrite.All | Delegiert | Wir verwenden einige Azure-Dienste zum Speichern von Daten, insbesondere Redis in Azure und Cosmos DB | Ermöglicht der App, die Laufwerke (Dateien und Ordner), die einem Team zugeordnet sind, während eines Teambereitstellungsprozesses zu verwalten. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| User.Read.All | Delegiert | Wir&#8217;einige Benutzer-IDs nur speichern, nicht Profildaten. | Ermöglicht der App, den vollständigen Satz von Profileigenschaften, Berichten und Vorgesetzten eines beliebigen Benutzers zu lesen. Es wird insbesondere während des Zielgruppenadressierungsprozesses verwendet, um einige Inhalte basierend auf dem aktuellen Benutzerprofil zu filtern. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 >| offline_access | Delegiert | Nein | Ermöglicht der App, einige Hintergrundvorgänge und Aktionen als Benutzer auszuführen. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

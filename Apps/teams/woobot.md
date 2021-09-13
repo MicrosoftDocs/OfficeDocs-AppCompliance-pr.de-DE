@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Woobot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a90381852e60e09402b766607413154b8da11704
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528051"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283610"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -21,7 +21,7 @@ ms.locfileid: "53528051"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 14, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/da999ad2-6288-494d-99de-8e555f2688bb" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/da999ad2-6288-494d-99de-8e555f2688bb" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381664" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Woobot für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Woobot |
 | ID | WA104381664 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Woobot |
 | URL der Partnerwebsite | [https://woobot.io](https://woobot.io) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://woobot.io/support](https://woobot.io/support) |
@@ -58,11 +58,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -70,7 +70,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Um Salesforce-Benutzer Teams Benutzern zuzuordnen, benötigen wir eine Liste der Teambenutzer-IDs. Außerdem speichern wir die Namen von Team und Kanälen, damit Benutzer Benachrichtigungen an diese Teams senden können. Außerdem speichern wir, welche Teambenutzer-IDs von der App aufgenommen wurden und welche nicht, sodass woobot diesen Benutzer persönlich willkommen heißt, wenn ein neuer Benutzer einem Team beitritt. Außerdem speichern wir die Namen von Team und Kanälen, damit Benutzer Benachrichtigungen an diese Teams senden können. |  Benutzer-ID, Team-ID und Teamname, Kanal-ID und Kanalname sowie welche Benutzer Mitglieder sind, bei denen Teams. |  |
+>| Um Salesforce-Benutzer Teams Benutzern zuzuordnen, benötigen wir eine Liste der Teambenutzer-IDs. Außerdem speichern wir die Namen von Team und Kanälen, damit Benutzer Benachrichtigungen an diese Teams senden können. Außerdem speichern wir, welche Teambenutzer-IDs von der App aufgenommen wurden und welche nicht, sodass woobot diesen Benutzer persönlich willkommen heißt, wenn ein neuer Benutzer einem Team beitritt. Außerdem speichern wir die Namen von Team und Kanälen, damit Benutzer Benachrichtigungen an diese Teams senden können. |  Benutzer-ID, Team-ID und Teamname, Kanal-ID und Kanalname sowie welche Benutzer Mitglieder sind, Teams. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten

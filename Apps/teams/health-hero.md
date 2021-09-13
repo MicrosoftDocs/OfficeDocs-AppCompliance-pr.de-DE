@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Health Hero, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 53f2892563172775e8dc6def8c4ae9cb7d2af0c8
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58245301"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283013"
 ---
 # <a name="health-hero"></a>Health Hero
 
@@ -30,11 +30,11 @@ ms.locfileid: "58245301"
 
 Informationen, die von Health Hero für Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Health Hero |
 | ID | WA200001405 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Health Hero |
 | URL der Partnerwebsite | [https://gohealthhero.com](https://gohealthhero.com) |
 | URL der Datenschutzrichtlinie | [https://www.gohealthhero.com/privacy-policy](https://www.gohealthhero.com/privacy-policy) |
@@ -52,11 +52,11 @@ Diese Informationen wurden von Health Hero bereitgestellt, wie diese App Organis
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Anwendung | Nur Benutzerinformationen zum Erstellen eines Kontos. | Wir speichern benutzer external_id , object_id, um Benutzer mit ms graph zu authentifizieren, auch für die Verwendung der Bot-Dienste. | [5f1f4eb7-479e-42f3-b86f-4c1f53e1c222](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222) |
+>| User.Read | Anwendung | Nur Benutzerinformationen zum Erstellen eines Kontos. | Wir speichern benutzer external_id , object_id, um Benutzer mit ms graph zu authentifizieren, auch für die Verwendung der Bot-Dienste | [5f1f4eb7-479e-42f3-b86f-4c1f53e1c222](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -110,9 +110,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Health Hero darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Health Hero darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |

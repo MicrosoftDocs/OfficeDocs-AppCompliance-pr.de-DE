@@ -6,14 +6,14 @@ ms.date: 12/15/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365 für Office, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365 für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: ab9ea33824f66afecc8af8df74754fc7f2dd6d43
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526521"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281966"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 für Office
 
@@ -33,7 +33,7 @@ Informationen, die von JiJi Technologies Private Limited to Microsoft bereitgest
 |:----------------|:-------------|
 | App-Name | Wunder365 für Office |
 | ID | WA200001529 |
-| unterstützte Office 365-Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows, OneNote im Web |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows, OneNote im Web |
 | Name des Partnerunternehmens | JiJi Technologies Private Limited |
 | URL der Partnerwebsite | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL der Datenschutzrichtlinie | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| Profil | Delegiert | UPN, Benutzer-ID, E-Mail-ID, Mandanten-ID für lizenzierungsüberprüfung, kostenlose Lizenz. | Ermöglicht Benutzern die Anmeldung mit einem Organisationskonto | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -81,7 +81,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Alle Webanwendungen und Storage-Ressourcen befinden sich in einem Abonnement, das nicht mit unserem Unternehmens-AAD verbunden ist, mit nur Administratoren, die Zugriff auf die Ressourcen haben. 2FA ist für diese Administratoren erforderlich. 
+>Alle Webanwendungen und Storage Ressourcen befinden sich in einem Abonnement, das nicht mit unserem Unternehmens-AAD verbunden ist, mit nur Administratoren, die Zugriff auf die Ressourcen haben. 2FA ist für diese Administratoren erforderlich. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
@@ -96,7 +96,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250' frameborder='no' style='width: 100%;'></iframe>
 
@@ -124,7 +124,7 @@ Diese Informationen wurden von JiJi Technologies Private Limited darüber bereit
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Ja |
 | Verwendet Ihre App veraltete APIs? | Nein |

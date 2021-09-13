@@ -9,13 +9,13 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Die Vertriebsbindung für Outlook, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 6a009dbc5c075f99bb71105834f3f5208ed91dea
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404485"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283091"
 ---
-# <a name="outreach-sales-engagement-for-outlook"></a>Vertriebsengagement für Outlook
+# <a name="outreach-sales-engagement-for-outlook"></a>Sales Engagement für Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -29,11 +29,11 @@ ms.locfileid: "58404485"
 
 Informationen, die von Der Vermittlung an Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Vertriebsengagement für Outlook |
+| App-Name | Sales Engagement für Outlook |
 | ID | WA104381052 |
-| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
 | Name des Partnerunternehmens | Reichweite |
 | URL der Partnerwebsite | [https://www.outreach.io](https://www.outreach.io) |
 | URL der Datenschutzrichtlinie | [https://www.outreach.io/legal/privacy-policy/](https://www.outreach.io/legal/privacy-policy/) |
@@ -49,7 +49,7 @@ Informationen, die von Der Vermittlung an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Der Vermittlung darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -57,7 +57,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -67,9 +67,9 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Mi
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Salesforce CRM | Die Integration von Kontakten in Salesforce ermöglicht eine sichere bidirektionale Synchronisierung eines begrenzten Datasets zwischen beiden Diensten. Organisationsname, E-Mail-Adresse und Benutzername. | Die intelligente bidirektionale Synchronisierung des Unternehmens gewährleistet die vollständige Genauigkeit zwischen Daten in beiden Systemen. Alle Aktivitäten, die in Der Vermittlung &#8212; Anrufen, E-Mails usw. ausgeführt werden &#8212;, werden automatisch in Salesforce protokolliert, und die Konfliktlösung erkennt und löst Konflikte, um Daten unauffindbar zu halten. Es funktioniert in Salesforce A csva- und Lightning-Editionen. |
+>| Salesforce CRM | Die Integration von Kontakten in Salesforce ermöglicht eine sichere bidirektionale Synchronisierung eines begrenzten Datasets zwischen beiden Diensten. Organisationsname, E-Mail-Adresse und Benutzername. | Die intelligente bidirektionale Synchronisierung des Unternehmens gewährleistet die vollständige Genauigkeit zwischen Daten in beiden Systemen. Alle Aktivitäten, die in Der Vermittlung &#8212; Anrufen, E-Mails usw. ausgeführt werden, &#8212; werden automatisch in Salesforce protokolliert, und die Konfliktlösung erkennt und löst Konflikte, um Daten unerklärbar zu halten. Es funktioniert in Salesforce A csva- und Lightning-Editionen. |
 
 
 
@@ -77,7 +77,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Für die Daten unserer Kunden&#8217;gelten keine Aufbewahrungszeiträume. Die Datenverarbeitung erfolgt als Datenverarbeiter und nimmt daher ohne ihre ausdrückliche Zustimmung niemals Änderungen an den Daten unserer Kunden&#8217;vor. Alle Kundendaten werden 60 Tage nach Beendigung der Geschäftsbeziehung gemäß msa und DPA gelöscht.
+>Bei der Kontaktaufnahme gelten keine Aufbewahrungszeiträume für die Daten unserer Kunden&#8217;. Die Datenverarbeitung erfolgt als Datenverarbeiter und nimmt daher ohne ihre ausdrückliche Zustimmung niemals Änderungen an den Daten unserer Kunden&#8217;vor. Alle Kundendaten werden 60 Tage nach Beendigung der Geschäftsbeziehung gemäß msa und DPA gelöscht.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -113,7 +113,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Der Vermittlung darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

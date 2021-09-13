@@ -6,16 +6,16 @@ ms.date: 07/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Spitznamen von Flowrish-Spielen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Spitznamen von Flowrish-Spielen, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3e4c0164d4aee94b2019af76aa3b134304f3a471
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873904"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282401"
 ---
-# <a name="nickname-by-flowrish-games"></a>Spitzname nach Flowrish-Spielen
+# <a name="nickname-by-flowrish-games"></a>Spitzname von Flowrish-Spielen
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Von Room6 für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Spitzname nach Flowrish-Spielen |
+| App-Name | Spitzname von Flowrish-Spielen |
 | ID | WA200003202 |
 | unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Raum6 |
@@ -53,12 +53,12 @@ Diese Informationen wurden von Room6 bereitgestellt, wie diese App Organisations
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -66,7 +66,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -81,7 +81,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->&#29305;&#12395;&#20491;&#20154;&#12434;&#29305;&#23450;&#12391;&#12365;&#12427;&#12487;&#12540;&#12479;&#65288;&#12450;&#12459;&#12454;&#12531;&#12488;&#12394;&#12393;&#65289;&#12399;&#31649;&#29702;&#12375;&#12390;&#12356;&#12394;&#12356;&#12290;&#19968;&#26178;&#30340;&#12395;&#37096;&#23627;ID&#12392;&#21517;&#21069;&#12289;&#25152;&#25345;&#12459;&#12540;&#12489;&#24773;&#22577;&#12434;SqlServer&#20869;&#12395;&#20445;&#25345;&#12375;&#12390;&#12362;&#12426;&#12289;&#12381;&#12428;&#12425;&#12398;&#12487;&#12540;&#12479;&#12399;&#23481;&#37327;&#22311;&#36843;&#12434;&#36991;&#12369;&#12427;&#12383;&#12417;24&#26178;&#38291;&#20197;&#19978;&#32076;&#36942;&#12375;&#12383;&#12487;&#12540;&#12479;&#12399;&#27598;&#26085;26&#26178;&#12395;&#23450;&#26178;&#12496;&#12483;&#12481;&#12395;&#12424;&#12426;&#33258;&#21205;&#30340;&#12395;&#21066;&#38500;&#12375;&#12390;&#12356;&#12427;&#12290;
+>&#29305;&#12395;&#20491;&#20154;&#12434;&#29305;&#23450;&#12391;&#12365;&#12427;&#12487;&#12540;&#12479;&#65288;&#12450;&#12459;&#12454;&#12531;&#12488;&#12394;&#12393;&#65289;&#12399;&#31649;&#29702;&#12375;&#12390;&#12356;&#12394;&#12356;&#12290;&#19968;&#26178;&#30340;&#12395;&#37096;&#23627;-ID&#12392;&#21517;&#21069;&#12289;&#25152;&#25345;&#12459;&#12540;&#12489;&#24773;&#22577;&#12434;SqlServer&#20869;&#12395;&#20445;&#25345;&#12375;&#12390;&#12362;&#12426;&#12289;&#12381;&#12428;&#12425;&#12398;&#12487;&#12540;&#12479;&#12399;&#23481;&#37327;&#22311;&#36843;&#12434;&#36991;&#12369;&#12427;&#12383;&#12417;24&#26178;&#38291;&#20197;&#19978;&#32076;&#36942;&#12375;&#12383;&#12487;&#12540;&#12479;&#12399;&#27598;&#26085;26&#26178;&#12395;&#23450;&#26178;&#12496;&#12483;&#12481;&#12395;&#12424;&#12426;&#33258;&#21205;&#30340;&#12395;&#21066;&#38500;&#12375;&#12390;&#12356;&#12427;&#12290;
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -95,7 +95,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
@@ -109,7 +109,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Room6 bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Room6 bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|

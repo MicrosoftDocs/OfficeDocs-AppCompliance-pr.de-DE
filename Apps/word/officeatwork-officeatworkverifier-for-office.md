@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für officeatwork-| Überprüfung auf Office nach Officeatwork
+title: Anwendungsinformationen für Officeatwork-| Überprüfung auf Office nach Officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork-| Überprüfen Sie in der CSA STAR-Registrierung nach Office, den Richtlinien für die Datenverarbeitung, den Microsoft Cloud App Security App-Kataloginformationen und den Sicherheits-/Complianceinformationen.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Überprüfen Sie in der CSA STAR-Registrierung nach Office, den Richtlinien für die Datenverarbeitung, den Microsoft Cloud App Security App-Kataloginformationen und den Sicherheits-/Complianceinformationen.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c8ac51b56ccec7e502d0fef3e680b335799ff83a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527451"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282890"
 ---
 # <a name="officeatwork--verifier-for-office"></a>officeatwork | Prüfer für Office
 
@@ -64,13 +64,13 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint-REST-APIs | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

@@ -6,14 +6,14 @@ ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für ServiceDesk Plus for Email, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für ServiceDesk Plus for Email, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 39ee4450c2545d1cc891464d7946cde4c4c3b53a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527861"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283505"
 ---
 # <a name="servicedesk-plus-for-email"></a>ServiceDesk Plus für E-Mail
 
@@ -33,7 +33,7 @@ Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informatione
 |:----------------|:-------------|
 | App-Name | ServiceDesk Plus für E-Mail |
 | ID | WA104381518 |
-| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
 | Name des Partnerunternehmens | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.manageengine.com/products/service-desk](https://www.manageengine.com/products/service-desk) |
 | URL der Datenschutzrichtlinie | [https://www.manageengine.com/privacy.html](https://www.manageengine.com/privacy.html) |
@@ -51,7 +51,7 @@ Diese Informationen wurden von Zoho Corporation Private Limited zur Verfügung g
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|

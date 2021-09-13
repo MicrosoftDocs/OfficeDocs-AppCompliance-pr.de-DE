@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Freehand, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a3c92ee618693b4fed77026a47009b490845db60
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525559"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283827"
 ---
 # <a name="freehand"></a>Freihand
 
@@ -21,7 +21,7 @@ ms.locfileid: "53525559"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 6, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381362" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die von InVisionApp Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Freihand |
 | ID | WA104381362 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | InVisionApp Inc. |
 | URL der Partnerwebsite | [https://www.invisionapp.com](https://www.invisionapp.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
@@ -58,11 +58,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors | https://support.invisionapp.com/hc/en-us/articles/360002594732-Subprocessors-and-Subcontractors |
 
@@ -77,13 +77,13 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Protokolle aus Systemen und Anwendungen werden sowohl in einem zentralen Protokollverwaltungssystem als auch in SIEM mit stark eingeschränktem Zugriff zum Ändern oder Löschen von Daten gesammelt. Das SIEM überwacht außerdem Hostangriffe, Integrität, Netzwerkreputation und korreliert diese Informationen mit Cloudtrail-Ereignissen. Das System wird von einem dedizierten Sicherheitsteam überwacht, und Warnungen werden so konfiguriert, dass der 24/7-Oncall-Techniker angezeigt wird. Protokolle aus beiden Systemen werden für einen Zeitraum von 1 Jahr aufbewahrt.
+>Protokolle aus Systemen und Anwendungen werden sowohl in einem zentralen Protokollverwaltungssystem als auch in SIEM mit stark eingeschränktem Zugriff zum Ändern oder Löschen von Daten gesammelt. Das SIEM überwacht außerdem Hosteindringung, Integrität, Netzwerkreputation und korreliert diese Informationen mit Cloudtrail-Ereignissen. Das System wird von einem dedizierten Sicherheitsteam überwacht, und Warnungen werden so konfiguriert, dass der 24/7-Oncall-Techniker angezeigt wird. Protokolle aus beiden Systemen werden für einen Zeitraum von 1 Jahr aufbewahrt.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Drittanbieter-Risikobewertungen werden von Anbietern durchgeführt, die personenbezogene Informationen verarbeiten. Klauseln wurden vertraglich hinzugefügt, um das &#8220;Recht auf Prüfung&#8221; einzuschließen, und die Due-Diligence-Prüfung findet basierend auf Denk-/Risikofaktoren jährlich erneut statt. Legal has implemented Data Protection Addendums to be added contractually when applicable, as well acceptable standards that meet InVision requirements. (Beachten Sie, dass Unterauftragsverarbeiter keinen Zugriff auf Kundendaten im unverschlüsselten Format haben würden.)
+>Drittanbieter-Risikobewertungen werden von Anbietern durchgeführt, die personenbezogene Informationen verarbeiten. Klauseln wurden vertraglich hinzugefügt, um das &#8220;Recht zur Prüfung&#8221; einzuschließen, und die Due-Diligence-Prüfung erfolgt jährlich basierend auf Denk-/Risikofaktoren. Legal has implemented Data Protection Addendums to be added contractually when applicable, as well acceptable standards that meet InVision requirements. (Beachten Sie, dass Unterauftragsverarbeiter keinen Zugriff auf Kundendaten im unverschlüsselten Format haben würden.)
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

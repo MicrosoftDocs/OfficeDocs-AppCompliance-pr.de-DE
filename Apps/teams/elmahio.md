@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für elmah.io nach elmah.io
+title: Anwendungsinformationen für elmah.io von elmah.io
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für elmah.io, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für elmah.io, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2761f22f1b41c208d7dce1589ac3d62ab41efc54
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525679"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283751"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -21,7 +21,7 @@ ms.locfileid: "53525679"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 10. März 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/88579a1e-a40e-4ff4-ac0a-789bab11b0a1" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/88579a1e-a40e-4ff4-ac0a-789bab11b0a1" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381965" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die von elmah.io an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | elmah.io |
 | ID | WA104381965 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | elmah.io |
 | URL der Partnerwebsite | [https://elmah.io](https://elmah.io) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
@@ -58,11 +58,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom, Stripe, Mailchimp, Amazon Web Services | Firmenname, Name, E-Mail | Wir teilen den Namen und die E-Mail-Adresse der Benutzer mit Intercom, Mailchimp und AWS, um E-Mails zu personalisieren. Wir teilen den Firmennamen mit Stripe für Rechnungen usw. |
 

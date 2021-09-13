@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für eTeamer von &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496;
+title: Anwendungsinformationen für eTeamer nach &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496;
 ms.author: elmalova
 author: elenamalova
 ms.date: 05/25/2021
@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für eTeamer, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 149cc78306c01d767de2a646a67d4d2848bf95db
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873878"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283715"
 ---
 # <a name="eteamer"></a>eTeamer
 
@@ -34,7 +34,7 @@ Informationen, die von &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&
 |:----------------|:-------------|
 | App-Name | eTeamer |
 | ID | WA200001621 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; |
 | URL der Partnerwebsite | [https://ecms2.edensoft.com.cn/#/Eden](https://ecms2.edensoft.com.cn/#/Eden) |
 | URL der Datenschutzrichtlinie | [https://ecms2.edensoft.com.cn/#/Privacy](https://ecms2.edensoft.com.cn/#/Privacy) |
@@ -52,14 +52,14 @@ Diese Informationen wurden von &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMember.ReadWrite.All | Beide | Die Mandantenanwendungs-ID und das Anwendungskennwort werden für die implizite OAuth 2.0-Autorisierung zum Synchronisieren von Benutzerinformationen gesammelt. | Mandanten-ID, Mandantenanwendungs-ID, Anwendungskennwort und Benutzerinformationen werden in der Datenbank gespeichert, die verwendet wird, um die Kanaldateiinformationen von Benutzern in Teams abzurufen und die Dateien zu bearbeiten. | [3407e97c-3eed-4eca-add5-2549ed881269](https://docs.microsoft.com/microsoft-365-app-certification/azure/3407e97c-3eed-4eca-add5-2549ed881269) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -110,7 +110,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|

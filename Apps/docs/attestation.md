@@ -7,11 +7,11 @@ keywords: App-Nachweiszertifizierung 365 Fragebogen appSource
 ms.topic: conceptual
 ms.service: attestation
 ms.openlocfilehash: 286d14e580bdb9f24ccf1754685ebeeaef6d0c11
-ms.sourcegitcommit: eae0e45c87fa8f1a87257e1e38122228e6970ba9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58390459"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282236"
 ---
 # <a name="complete-publisher-attestation"></a>Vollständige Publisher Nachweis
 
@@ -42,7 +42,7 @@ Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerzielle
 
 ## <a name="publisher-attestation-process"></a>Publisher Nachweisprozess
 
-1. **Teilnehmen** – Der Publisher Nachweis ist jetzt in [Partner Center](https://partner.microsoft.com)integriert. Sie können den Nachweis in einem benutzerfreundlichen Fragebogen innerhalb des Partner Centers ausfüllen. Den schrittweisen Prozess finden Sie in unseren [Office Store](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) und Commercial Marketplace-Benutzerhandbüchern. [](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide)
+1. **Teilnehmen** – Der Publisher Nachweis ist jetzt in [Partner Center](https://partner.microsoft.com)integriert. Sie können den Nachweis in einem benutzerfreundlichen Fragebogen innerhalb des Partner Centers ausfüllen. Den schrittweisen Prozess finden Sie in unseren [Office Store-](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) und Commercial Marketplace-Benutzerhandbüchern. [](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide)
 
 2. **Warten Sie auf Feedback und Ergebnisse** der Rezension . Wenn Analysten während der Konsistenzüberprüfung Blockierungsprobleme wie etwa fehlerhafte Antwortdaten finden, werden Sie für weitere Informationen kontaktiert. Analysten führen während des gesamten Prozesses ein App-Aktivitätsprotokoll mit Detaillierten Überprüfungsergebnissen und Ihren Nachverfolgungsübermittlungen. Nachdem festgestellt wurde, dass Ihr Nachweisbericht abgeschlossen ist und Ihre Antworten akzeptabel sind, wird Ihre Übermittlung genehmigt. Ihr Genehmigungsstatus ist ab dem Zeitpunkt der Übermittlung ein Jahr lang gültig.
 
@@ -59,10 +59,10 @@ Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerzielle
 
 4. **Überprüfung und erneute Übermittlung** – Ihr Publisher Nachweis muss jährlich erneut übermittelt werden. Wenn sich Ihr Nachweis der Ein-Jahres-Marke nähert, erhalten Sie eine Benachrichtigung über Partner Center, die zu einer erneuten Übermittlung Ihres Attests auffordert. 
 
-   Wenn Ihr Publisher Attestation nicht vor dem Ablaufdatum verlängert wird, wird der App-Nachweisstatus widerrufen, und Ihr Publisher Attestation wird aus den Microsoft-Dokumentenseiten entfernt. 
+   Wenn Ihr Publisher Attestation nicht vor dem Ablaufdatum verlängert wird, wird der Status des App-Nachweiss widerrufen, und Ihr Publisher Attestation wird aus den Microsoft-Dokumentenseiten entfernt. 
 
 >[!IMPORTANT]
->Durch die Teilnahme am Publisher Attestation-Programm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle Begleitdokumentationen ein, die für Ihre Teilnahme am Publisher Attestation-Programm bei der Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für den Publisher Nachweis im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder beenden. Ihre fortgesetzte Teilnahme am Publisher Attestation-Programm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bedingungen nicht zustimmen oder wenn wir diese Bedingungen kündigen, müssen Sie die Teilnahme am Publisher Attestation-Programm beenden.
+>Durch die Teilnahme am Publisher Attestation-Programm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle Begleitdokumentationen ein, die für Ihre Teilnahme am Publisher Attestation-Programm bei der Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für den Publisher Nachweis im Namen von sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder beenden. Ihre fortgesetzte Teilnahme am Publisher Attestation-Programm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bedingungen nicht zustimmen oder wenn wir diese Bedingungen kündigen, müssen Sie die Teilnahme am Publisher Attestation-Programm beenden.
 
 ## <a name="learn-more"></a>Weitere Informationen
 

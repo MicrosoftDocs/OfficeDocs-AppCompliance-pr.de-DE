@@ -6,16 +6,16 @@ ms.date: 07/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tresor Leerzeichen, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tresor Leerzeichen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 16c1adeb63cf8004df70293c8e4a188dde811250
-ms.sourcegitcommit: 90e6c1e10d55dc337c0884b63782cc14cf71b3c8
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58836192"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283055"
 ---
-# <a name="safe-spaces"></a>Tresor Räume
+# <a name="safe-spaces"></a>Safe Spaces
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,9 +32,9 @@ Von eCare Vault Inc. für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Tresor Räume |
+| App-Name | Safe Spaces |
 | ID | WA200002691 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | eCare Vault Inc. |
 | URL der Partnerwebsite | [https://ecarevault.com](https://ecarevault.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://ecarevault.com/ecare-vault-for-teams](https://ecarevault.com/ecare-vault-for-teams) |
@@ -51,7 +51,7 @@ Von eCare Vault Inc. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von eCare Vault Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -60,15 +60,15 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| EduRoster.Read | Delegiert | Name und Geburtsdatum werden zum Vorabbefüllen von Eingabefeldern verwendet. | Keine : Alle gespeicherten Daten werden vom Benutzer übermittelt (Daten werden nur vorab in Feldern aufgefüllt und dann vom Benutzer übermittelt). | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| Group.Read.All | Delegiert | Wird verwendet, um Informationen zu Kanälen abzurufen, die in der Anwendung angezeigt werden können. | Keines von dieser Berechtigung | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| GroupMember.Read.All | Delegiert | AAD-ID der Gruppenmitglieder, die zum Generieren einer eCare Vault-Teamliste verwendet werden | AAD-Benutzer-ID wird gespeichert, um ein eCare Vault-Benutzerkonto für jedes Mitglied zuzuordnen. | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| User.Read | Delegiert | E-Mail-Adresse und AAD-ID, die verwendet wird, um Benutzer anzumelden &amp; und sie eCare Vault-Benutzerkonten zuzuordnen. | E-Mail-Adresse und AAD-ID für Benutzerkonten und Senden von Benachrichtigungen an den Benutzer über das Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| User.Read | Delegiert | E-Mail-Adresse und AAD-ID, die verwendet werden, um Benutzer anzumelden &amp; und sie eCare Vault-Benutzerkonten zuzuordnen. | E-Mail-Adresse und AAD-ID für Benutzerkonten und Senden von Benachrichtigungen an den Benutzer über das Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| User.Read.All | Delegiert | Name und, AAD-ID und E-Mail-Adresse, nur für Benutzer, die Mitglieder eines Kanals sind, in dem Tresor Leerzeichen installiert ist | Name, AAD-ID und E-Mail-Adresse, die für eCare Vault-Benutzerkonten gespeichert sind | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| email | Delegiert | Nur E-Mail-Adresse | Keine : Benutzer beschließt, ein Formular zu übermitteln, das  | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| openid | Delegiert | E-Mail-Adresse und AAD-ID, die verwendet wird, um Benutzer anzumelden &amp; und sie eCare Vault-Benutzerkonten zuzuordnen. | E-Mail-Adresse und AAD-ID für Benutzerkonten und Senden von Benachrichtigungen an den Benutzer über das Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| openid | Delegiert | E-Mail-Adresse und AAD-ID, die verwendet werden, um Benutzer anzumelden &amp; und sie eCare Vault-Benutzerkonten zuzuordnen. | E-Mail-Adresse und AAD-ID für Benutzerkonten und Senden von Benachrichtigungen an den Benutzer über das Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| Profil | Delegiert | Der Benutzername wird verwendet, um den Anmeldebildschirm des Benutzers aufzufüllen. | Keine direkt – Der Benutzer entscheidet sich für die Übermittlung des Namens an das System, wenn er sich anmeldet. | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -78,9 +78,9 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Mi
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| eCare Vault | Mandanten-/Unternehmensinformationen, Domänenname der Benutzeranmeldung, Benutzeranmeldeinformationen Microsoft Teams &amp; Teamkanal-IDs. | Tresor Spaces ist eine Begleitanwendung für die eCare Vault-Plattform. Die OII ist erforderlich, um Benutzer von Microsoft Teams mit eCare Vault-Benutzern für das Unternehmen zu verknüpfen. |
+>| eCare Vault | Mandanten-/Unternehmensinformationen, Domänenname der Benutzeranmeldung, Benutzeranmeldeinformationen Microsoft Teams &amp; Teamkanal-IDs. | Tresor Spaces ist eine Begleitanwendung für die eCare Vault-Plattform. Die OII ist erforderlich, um Benutzer aus Microsoft Teams mit eCare Vault-Benutzern für das Unternehmen zu verknüpfen. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

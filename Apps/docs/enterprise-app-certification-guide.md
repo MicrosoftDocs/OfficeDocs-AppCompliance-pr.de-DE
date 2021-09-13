@@ -7,11 +7,11 @@ keywords: App-Nachweis Microsoft 365 Zertifizierung 365 Fragebogen appSource
 ms.topic: conceptual
 ms.service: attestation
 ms.openlocfilehash: 49bb08fa252a3907df67766dce39ef810381be27
-ms.sourcegitcommit: 44c92cbf86ee358e4fcdf2a51dae5be001345029
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862038"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282602"
 ---
 # <a name="what-is-microsoft-365-certification"></a>Was ist Microsoft 365 Zertifizierung?
 
@@ -35,7 +35,7 @@ Microsoft 365 Die Zertifizierung gilt für alle Apps, die in die folgenden Micro
 
 
 ## <a name="program-benefits"></a>Programmvorteile
-Die Teilnahme und der Abschluss der Microsoft 365 Zertifizierung können IT-Administratoren und Entwicklern vorteile bieten:
+Die Teilnahme und der Abschluss der Microsoft 365 Zertifizierung können it-Administratoren und Entwicklern erhebliche Vorteile bieten:
 
 **Vorteile für App-Entwickler** Zu den Vorteilen für app-Entwickler gehören: 
 -   Eine kostenlose Bewertung und Überprüfung Ihrer Sicherheits- und Compliance-Position
@@ -60,11 +60,11 @@ Obwohl die Teilnahme optional ist, signalisiert die Zertifizierung einer App, da
 
 
 ### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Verwenden des Microsoft 365 Badge und der zugehörigen Marketingmaterialien
-Das Logo Microsoft 365 Zertifizierung zeigt, dass eine App auf Konformität mit von Microsoft bereitgestellten Kontrollen überprüft wurde, die die Datensicherheits- und Datenschutzpraktiken auswerten. Sie können das Logo Microsoft 365 Zertifizierung nach Abschluss der Microsoft 365 Zertifizierung mit ausdrücklicher schriftlicher Zustimmung von Microsoft verwenden. Wenn Ihre Zertifizierung widerrufen wird oder der Rezertifizierungsprozess nicht innerhalb eines Jahres ab dem Tag, an dem die Zertifizierung erteilt wurde, gestartet wird, müssen Sie die Verwendung aller marketingbezogenen Marketingmaterialien für Microsoft 365 Zertifizierung einstellen. 
+Das Logo Microsoft 365 Zertifizierung zeigt, dass eine App auf Konformität mit den von Microsoft bereitgestellten Kontrollen überprüft wurde, die die Datensicherheits- und Datenschutzpraktiken auswerten. Sie können das Logo Microsoft 365 Zertifizierung nach Abschluss der Microsoft 365 Zertifizierung mit ausdrücklicher schriftlicher Zustimmung von Microsoft verwenden. Wenn Ihre Zertifizierung widerrufen wird oder der Rezertifizierungsprozess nicht innerhalb eines Jahres ab dem Tag, an dem die Zertifizierung erteilt wurde, gestartet wird, müssen Sie die Verwendung aller marketingbezogenen Marketingmaterialien Microsoft 365 Zertifizierung einstellen. 
 
 Dieses Logo kann auf Websites, Veröffentlichungen und anderen Foren verwendet werden, in denen es sich speziell auf die Anwendung bezieht, die den Microsoft 365 Zertifizierungsprozess abgeschlossen hat. Das Logo muss in einer angemessenen Größe und an einer angemessenen Position innerhalb des digitalen Inhalts angezeigt werden. 
 
-Die folgende Anweisung muss mit dem Logo verbunden sein: "Apps mit dem Logo "Microsoft 365 Zertifizierung" stellt dar, dass diese App Microsoft 365 Zertifizierung erreicht hat. Zusätzlich zur App-Sicherheit überprüft dieses Programm die Praktiken und Verfahren, die der App-Herausgeber verwendet. Während Kundendaten dem App-Herausgeber untergeordnet sind, können Sie sicher sein, dass Microsoft überprüft hat, dass die App sie sicher und sicher behandeln wird."
+Die folgende Anweisung muss das Logo mit sich führen: "Apps mit dem Logo "Microsoft 365 Zertifizierung" stellt dar, dass diese App Microsoft 365 Zertifizierung erreicht hat. Zusätzlich zur App-Sicherheit überprüft dieses Programm die Praktiken und Verfahren, die der App-Herausgeber verwendet. Während Kundendaten dem App-Herausgeber untergeordnet sind, können Sie sicher sein, dass Microsoft überprüft hat, dass die App sie sicher und sicher behandeln wird."
 
 
 ### <a name="learn-more"></a>Weitere Informationen

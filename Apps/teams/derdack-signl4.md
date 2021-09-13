@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SIGNL4, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 4cf1eae6ef533a1e744ca3c2968764fed0227d00
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243526"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282116"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -30,11 +30,11 @@ ms.locfileid: "58243526"
 
 Informationen, die von Derdack SIGNL4 für Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | SIGNL4 |
 | ID | WA200001239 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Derdack SIGNL4 |
 | URL der Partnerwebsite | [https://www.derdack.com](https://www.derdack.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.signl4.com](https://www.signl4.com) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von Derdack SIGNL4 zur Verfügung gestellt, wie diese
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Recurly, Twilio | Rekursiv, E-Mail-Adresse, E-Mail-Adresse ist erforderlich, um Abrechnungsbenachrichtigungen an den Kunden zu senden, wenn er die App verwendet. Twilio, Telefonnummern, Warnungsinhalte für das Senden von Warnungen über SMS-Textnachrichten | Azure-Verwaltungs-API, Azure Monitor-Warnungen werden gesammelt, Sammlung erfolgt, da das System Benachrichtigungen für diese Warnungen sendet |
 
@@ -114,7 +114,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Derdack SIGNL4 bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |

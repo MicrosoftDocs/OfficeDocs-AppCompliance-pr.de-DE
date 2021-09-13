@@ -6,14 +6,14 @@ ms.date: 12/29/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für MeaningCloud Text Analytics für Excel, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für MeaningCloud Text Analytics für Excel, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: d1361025e7379890dac4921e6a05737d381513e0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281123"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281969"
 ---
 # <a name="meaningcloud-text-analytics-for-excel"></a>MeaningCloud Text Analytics für Excel
 
@@ -33,7 +33,7 @@ Von MeaningCloud für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | MeaningCloud Text Analytics für Excel |
 | ID | WA200002421 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher am Windows, Excel im Web |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher auf Windows, Excel im Web |
 | Name des Partnerunternehmens | MeaningCloud |
 | URL der Partnerwebsite | [https://meaningcloud.com](https://meaningcloud.com) |
 | URL der Datenschutzrichtlinie | [https://www.meaningcloud.com/data-protection-policy](https://www.meaningcloud.com/data-protection-policy) |
@@ -51,7 +51,7 @@ Diese Informationen wurden von MeaningCloud darüber bereitgestellt, wie diese A
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -88,7 +88,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36382' frameborder='no' style='width: 100%;'></iframe>
 

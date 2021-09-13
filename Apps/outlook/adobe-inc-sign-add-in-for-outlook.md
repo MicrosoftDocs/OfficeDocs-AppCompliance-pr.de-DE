@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für Adobe Sign-Add-In für Outlook von Adobe Inc.
+title: Anwendungsinformationen für Adobe Sign Add-In für Outlook von Adobe Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/22/2021
@@ -9,11 +9,11 @@ certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Adobe Sign Add-In für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 6f4fc90e6ec7953e2f399022e701119e2db24b6b
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526501"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281435"
 ---
 # <a name="adobe-sign-add-in-for-outlook"></a>Adobe Sign-Add-In für Outlook
 
@@ -32,7 +32,7 @@ Von Adobe Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Adobe Sign-Add-In für Outlook |
 | ID | WA104381158 |
-| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
 | Name des Partnerunternehmens | Adobe Inc. |
 | URL der Partnerwebsite | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | URL der Datenschutzrichtlinie | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
@@ -48,9 +48,9 @@ Von Adobe Inc. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Adobe Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|

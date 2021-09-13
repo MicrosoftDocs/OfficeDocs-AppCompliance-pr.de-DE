@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ngDesk, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a0d3f507338a8ef504df171542d0fa8c25c37efc
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772112"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281429"
 ---
 # <a name="ngdesk"></a>ngDesk
 
@@ -33,7 +33,7 @@ Informationen, die von "Alle blauen Lösungen" für Microsoft bereitgestellt wer
 |:----------------|:-------------|
 | App-Name | ngDesk |
 | ID | WA200002505 |
-| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
 | Name des Partnerunternehmens | Alle blauen Lösungen |
 | URL der Partnerwebsite | [https://ngdesk.com](https://ngdesk.com) |
 | URL der Datenschutzrichtlinie | [https://ngdesk.com/privacy-policy-office-365/](https://ngdesk.com/privacy-policy-office-365/) |

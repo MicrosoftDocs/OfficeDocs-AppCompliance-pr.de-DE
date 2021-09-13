@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CI-Signaturen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3e32777fcce04ad0769fa6b5699925bfc0fd6718
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275377"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283100"
 ---
 # <a name="ci-signature"></a>CI-Signature
 
@@ -33,7 +33,7 @@ Informationen, die von ci solution GmbH an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | CI-Signature |
 | ID | WA200002458 |
-| Office 365 unterstützten Clients | Outlook 2016 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2016 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
 | Name des Partnerunternehmens | ci solution GmbH |
 | URL der Partnerwebsite | [https://www.ci-solution.com](https://www.ci-solution.com) |
 | URL der Datenschutzrichtlinie | [https://www.ci-solution.com/fileadmin/downloads/datenschutz...](https://www.ci-solution.com/fileadmin/downloads/datenschutz/ci-solution_Auftragsverarbeitung_CI-Cloud.pdf) |
@@ -51,7 +51,7 @@ Diese Informationen wurden von ci solution GmbH bereitgestellt, wie diese App Or
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 

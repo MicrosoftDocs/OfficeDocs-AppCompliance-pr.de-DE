@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Nugget, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 6108617e72e1996a335b53941989a707a6544337
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283159"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283190"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -52,7 +52,7 @@ Diese Informationen wurden von Panviva darüber bereitgestellt, wie diese App Or
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -61,7 +61,7 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -82,7 +82,7 @@ Teams Organisations-ID: Diese wird gespeichert, damit wir die Benutzer in einem 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wir verwenden Azure CosmosDB, um alle Anwendungsdaten zu speichern. Um auf die Daten zuzugreifen, benötigen Sie einen Endpunkt und einen Schlüssel, die beide in den Konfigurationsdienst eingefügt werden, der für den Zugriff auf die Daten verwendet wird. Der Konfigurationsdienst verarbeitet Anforderungen nur mit einem Bearertoken, das er in der Anforderung von unserem Bot-App-Dienst empfängt. Dieses Token wurde ursprünglich von Okta erstellt, wenn sich ein Benutzer auf der Team-Benutzeroberfläche beim Bot anmeldet. Auf diese Daten können Panviva-Administratoren zugreifen, die sich mit der 2-Faktor-Authentifizierung bei der Microsoft Azure Plattform anmelden müssen. E-Mails und Vornamen des Benutzers werden in OKTA gespeichert und können nur mit einem privaten Schlüssel aufgerufen werden, der in einem Schlüsseltresor gespeichert ist, auf den der Konfigurationsdienst dann zugreifen kann. Nur der Konfigurationsdienst hat Zugriff auf den Schlüsseltresor über die Verwendung von verwalteten Identitäten, um keine Anmeldeinformationen in der App zu speichern.
+>Wir verwenden Azure CosmosDB, um alle Anwendungsdaten zu speichern. Für den Zugriff auf die Daten benötigen Sie einen Endpunkt und einen Schlüssel, die beide in den Konfigurationsdienst eingefügt werden, der für den Zugriff auf die Daten verwendet wird. Der Konfigurationsdienst verarbeitet Anforderungen nur mit einem Bearertoken, das er in der Anforderung von unserem Bot-App-Dienst empfängt. Dieses Token wurde ursprünglich von Okta erstellt, wenn sich ein Benutzer auf der Team-Benutzeroberfläche beim Bot anmeldet. Auf diese Daten können Panviva-Administratoren zugreifen, die sich mit der 2-Faktor-Authentifizierung bei der Microsoft Azure Plattform anmelden müssen. E-Mails und Vornamen des Benutzers werden in OKTA gespeichert und können nur mit einem privaten Schlüssel aufgerufen werden, der in einem Schlüsseltresor gespeichert ist, auf den der Konfigurationsdienst dann zugreifen kann. Nur der Konfigurationsdienst hat Zugriff auf den Schlüsseltresor über die Verwendung von verwalteten Identitäten, um keine Anmeldeinformationen in der App zu speichern.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

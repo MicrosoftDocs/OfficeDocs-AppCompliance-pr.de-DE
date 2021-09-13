@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für GoToConnect, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2e3b563c4799049e9447ba7c0dbe56aa84e24a44
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282615"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282476"
 ---
 # <a name="gotoconnect"></a>GoToConnect
 
@@ -34,7 +34,7 @@ Informationen, die von LogMeIn Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | GoToConnect |
 | ID | WA200000962 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | LogMeIn Inc. |
 | URL der Partnerwebsite | [https://logmein.com](https://logmein.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.goto.com/integrations/microsoft-teams/gotoconne...](https://www.goto.com/integrations/microsoft-teams/gotoconnect) |
@@ -49,11 +49,11 @@ Informationen, die von LogMeIn Inc. an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von LogMeIn Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von LogMeIn Inc. zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 

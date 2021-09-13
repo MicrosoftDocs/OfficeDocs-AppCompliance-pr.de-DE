@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für wide Ideas, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 1e73a7aebbaaffa12572717f7a4a9968fd5667f7
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528061"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282023"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -21,7 +21,7 @@ ms.locfileid: "53528061"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 3, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/2a64f929-bed9-44d9-aa65-d7b921889959" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/2a64f929-bed9-44d9-aa65-d7b921889959" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000819" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von "Wide Ideas" für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Wide Ideas |
 | ID | WA200000819 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Wide Ideas |
 | URL der Partnerwebsite | [https://getwideideas.com](https://getwideideas.com) |
 | URL der Datenschutzrichtlinie | [https://getwideideas.com/privacy-policy/](https://getwideideas.com/privacy-policy/) |
@@ -52,20 +52,20 @@ Diese Informationen wurden von "Wide Ideas" bereitgestellt, wie diese App Organi
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | Anwendung | Wir speichern die Gruppen-ID und welche Benutzer zu welchen Gruppen gehören | Ermöglicht der App, Daten im Verzeichnis unserer Kundenorganisation zu lesen, z. B. Benutzer und Gruppen.  | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
 >| Group.ReadWrite.All | Anwendung | Wir speichern die Kanal-ID, die der Gruppe zugeordnet ist. | Ermöglicht benutzern das Erstellen von Teams, Kanälen und Registerkarten innerhalb Microsoft Teams über das Kundenportal. Dadurch können Benutzer auch vorhandene Teams in Microsoft Teams im Kundenportal synchronisieren. | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
->| User.Read | Delegiert | Wir speichern &amp; Namens-E-Mail | Ermöglicht Benutzern, sich anzumelden und In ihrem Namen Zugriff auf Microsoft Graph zu gewähren. | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
+>| User.Read | Delegiert | Wir speichern &amp; Namens-E-Mail | Ermöglicht Benutzern, sich anzumelden und in ihrem Namen Zugriff auf Microsoft Graph zu gewähren. | [77baef51-6387-4aff-9b3f-23e4654c30cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/77baef51-6387-4aff-9b3f-23e4654c30cd) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Mailjet-E-Mail, die für E-Mail-Benachrichtigungen verwendet wird. |  | Nicht zutreffend |
 
@@ -90,7 +90,7 @@ Die Organisation kann eine Anforderung an uns als Lieferant senden, wenn daten g
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Datenspeicherung: Alle Kundendaten werden in Microsoft Azure-Diensten gespeichert. Benutzer müssen über Azure AD 2-Faktor authentifiziert werden. Rollenbasierter Zugriff (Role Based Access, RBAC) ist vorhanden. Der gesamte Zugriff auf Microsoft Azure erfolgt ausschließlich über verschlüsselte Verbindungen. Alle ruhenden Daten werden verschlüsselt. Alle Dienste sind am besten durch das Azure Security Center geschützt. 
+>Datenspeicherung: Alle Kundendaten werden in Microsoft Azure Diensten gespeichert. Benutzer müssen über Azure AD 2-Faktor authentifiziert werden. Rollenbasierter Zugriff (Role Based Access, RBAC) ist vorhanden. Der gesamte Zugriff auf Microsoft Azure erfolgt ausschließlich über verschlüsselte Verbindungen. Alle ruhenden Daten werden verschlüsselt. Alle Dienste sind am besten durch das Azure Security Center geschützt. 
 
 Wir verfügen auch über eine Zugriffsrichtlinie gemäß dem Prinzip der geringsten Rechte. 
 

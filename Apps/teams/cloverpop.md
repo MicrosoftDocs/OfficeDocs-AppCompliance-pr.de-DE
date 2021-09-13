@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tarverpop, die Zugehörigen Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3865c07aca73134fd9029ee0550559d9a4f93fd2
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521868"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281324"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -50,15 +50,15 @@ Von ApplePop für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Tarverpop bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | Delegiert | Speichern Sie Benutzerdaten wie folgt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | ermöglicht dem Benutzer die Anmeldung und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung&#8221; zu ermöglichen – E-Mail, Name, oid, tid, givenName, Nachname, Familienname, Benutzer-Avatar(Foto), Organisation DisplayName | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
->| openid | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Um &#8220;Sie sich mit Teams&#8221; in unserer Web-App anmelden. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
->| Profil | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Um &#8220;Sie sich mit Teams&#8221; in unserer Web-App anmelden. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
+>| openid | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Um &#8220;sie implementieren, melden Sie sich mit Teams&#8221; in unserer Web-App an. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
+>| Profil | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Um &#8220;sie implementieren, melden Sie sich mit Teams&#8221; in unserer Web-App an. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -92,7 +92,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
  
 Für den gesamten Code wurden automatisierte Tests geschrieben, die die Sicherheit des Datenzugriffs abdeckt. Jeder Build durchläuft einen strengen Codeüberprüfungsprozess für Die Sicherheit und einen manuellen QA-Testprozess, der auch Überprüfungen der Benutzerauthentifizierung und des Datenzugriffs über verfügbare Benutzeraktionen umfasst. Es besteht eine klare Trennung zwischen unserer Produktionsumgebung und allen anderen Umgebungen, z. B. Entwicklung und Tests.
  
-Nur ausgewählte Mitarbeiter haben Zugriff auf die Produktionsumgebung und Datenbank: Unternehmensmitarbeiter und eine kleine Handvoll von überprüften Mitarbeitern, die Hintergrundprüfungen unterzogen wurden und eine quantifizierte Notwendigkeit haben (z. B. Kundensupport).
+Nur ausgewählte Mitarbeiter haben Zugriff auf die Produktionsumgebung und Datenbank: Unternehmensmitarbeiter und eine kleine Handvoll überprüfter Mitarbeiter, die Hintergrundüberprüfungen unterzogen wurden und eine quantifizierte Notwendigkeit haben (z. B. Kundensupport).
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

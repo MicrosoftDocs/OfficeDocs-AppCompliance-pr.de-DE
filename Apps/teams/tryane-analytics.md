@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tryane Analytics, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2bfff7785dbad9398697aef468115cb8f7275acd
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527551"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281051"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
@@ -21,7 +21,7 @@ ms.locfileid: "53527551"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 28, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/87631b95-fcd9-46e9-8d86-3d5205c04fec" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/87631b95-fcd9-46e9-8d86-3d5205c04fec" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001827" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Tryane für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Tryane Analytics |
 | ID | WA200001827 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Tryane |
 | URL der Partnerwebsite | [https://www.tryane.com](https://www.tryane.com) |
 | URL der Datenschutzrichtlinie | [https://analytics.tryane.com/docs/en/privacy_policy.html](https://analytics.tryane.com/docs/en/privacy_policy.html) |
@@ -63,14 +63,14 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| Member.Read.Hidden | Anwendung |  | Abrufen einer Liste aller Teams, Team-&#8217;Mitglieder und ausgeblendeter Mitgliedschaften | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| Reports.Read.All | Anwendung |  | Alle Benutzeraktivitäten in Teams lesen | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| Team.ReadBasic.All | Anwendung |  | Auflisten aller Kanäle und Teams-Eigenschaften | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
->| User.Read | Delegiert | Benutzer-ID, Name, E-Mail-Adresse, Erstellungsdatum. Wir speichern diese Daten, um Nutzungsanalysen zu Teams | Identifizieren des aktuellen Benutzers während des Abonnements | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
+>| User.Read | Delegiert | Benutzer-ID, Name, E-Mail-Adresse, Erstellungsdatum. Wir speichern diese Daten, um Nutzungsanalysen auf Teams | Identifizieren des aktuellen Benutzers während des Abonnements | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

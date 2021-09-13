@@ -9,13 +9,13 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ArcGIS Karten, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: b8c18c7116dad546223fe3b799344d973fb1bc23
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53774873"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283721"
 ---
-# <a name="arcgis-maps"></a>ArcGIS Karten
+# <a name="arcgis-maps"></a>ArcGIS Maps
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,9 +32,9 @@ Von Esri für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | ArcGIS Karten |
+| App-Name | ArcGIS Maps |
 | ID | WA200002859 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Esri |
 | URL der Partnerwebsite | [https://www.esri.com](https://www.esri.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.esri.com/en-us/about/esri-partner-network/our-p...](https://www.esri.com/en-us/about/esri-partner-network/our-partners/global-alliances/microsoft-esri/overview) |
@@ -51,7 +51,7 @@ Von Esri für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Esri darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -114,7 +114,7 @@ Diese Informationen wurden von Esri darüber bereitgestellt, wie diese App Authe
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | ArcGIS Online basiert auf dem Rollenbasierten Zugriffssteuerungsmodell (Role Based Access Control, RBAC). Alle Benutzer in der Lösung müssen über eine Rolle verfügen, für die ihnen Zugriff gewährt wird. |

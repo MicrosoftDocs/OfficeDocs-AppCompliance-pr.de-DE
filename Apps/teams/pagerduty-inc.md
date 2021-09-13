@@ -6,14 +6,14 @@ ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für PagerDuty, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für PagerDuty, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3729a9523ea4af31015f6e8111c6843e90d465f3
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873920"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282713"
 ---
 # <a name="pagerduty"></a>PagerDuty
 
@@ -53,7 +53,7 @@ Diese Informationen wurden von PagerDuty, Inc. darüber bereitgestellt, wie dies
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -79,17 +79,17 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| Profil | Delegiert | Verwendung für Autorisierungs- und Tokenanforderungen. Daten werden verwendet: access_token, refresh_token, expires_in, Bereich | access_token, refresh_token, expires_in, Bereich. Diese Daten werden zum Abrufen von Informationen über Benutzer und zum Erstellen/Abrufen von Onlinebesprechungen verwendet. | [8f79a561-d2f1-4a1e-8092-c2039043a40e](https://docs.microsoft.com/microsoft-365-app-certification/azure/8f79a561-d2f1-4a1e-8092-c2039043a40e) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Die Daten, die PagerDuty beibehält, sind auf Computerdaten aus Überwachungsprodukten beschränkt, und pii-Informationen sind auf: Unternehmens-E-Mail-Adresse, Vorname, Nachname und Telefonnummer beschränkt. Eine Liste der Unterauftragsverarbeiter mit Zugriff auf diese Daten finden Sie hier: https://www.pagerduty.com/subprocessors/ | Die Daten, die PagerDuty beibehält, sind auf Computerdaten aus Überwachungsprodukten beschränkt, und pii-Informationen sind auf: Unternehmens-E-Mail-Adresse, Vorname, Nachname und Telefonnummer beschränkt. Eine Liste der Unterauftragsverarbeiter mit Zugriff auf diese Daten finden Sie hier: https://www.pagerduty.com/subprocessors/ | Die Daten, die PagerDuty beibehält, sind auf Computerdaten aus Überwachungsprodukten beschränkt, und pii-Informationen sind auf: Unternehmens-E-Mail-Adresse, Vorname, Nachname und Telefonnummer beschränkt. Eine Liste der Unterauftragsverarbeiter mit Zugriff auf diese Daten finden Sie hier: https://www.pagerduty.com/subprocessors/ Weitere Informationen zum Datenschutz finden Sie hier: https://www.pagerduty.com/privacy-policy/ |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -104,7 +104,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->PagerDuty setzt voraus, dass Sicherheitsstandards mindestens so streng sind wie die von PagerDuty verwalteten, die von allen Anbietern verwaltet werden, an die wir Daten übertragen, einschließlich einer vertraglichen Verpflichtung in Form einer signierten DPA. Weitere Informationen zu unseren Datensicherheitsstandards finden Sie hier: https://www.pagerduty.com/data-security-policy/
+>PagerDuty setzt voraus, dass Sicherheitsstandards mindestens so streng sind wie die von PagerDuty verwalteten, von allen Anbietern, an die wir Daten übertragen, einschließlich einer vertraglichen Verpflichtung in Form einer signierten DPA. Weitere Informationen zu unseren Datensicherheitsstandards finden Sie hier: https://www.pagerduty.com/data-security-policy/
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -118,7 +118,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

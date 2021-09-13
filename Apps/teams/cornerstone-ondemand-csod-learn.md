@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CSOD Learn, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 2064ed00ba6306d86a09b3eff9dc6e56c8d1cc40
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407482"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283884"
 ---
 # <a name="csod-learn"></a>CSOD Learn
 
@@ -30,12 +30,12 @@ ms.locfileid: "58407482"
 
 Informationen, die von "Cornerstone OnDemand" für Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | CSOD Learn |
 | ID | WA200003020 |
 | unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Eckpunkt "OnDemand" |
+| Name des Partnerunternehmens | Cornerstone OnDemand |
 | URL der Partnerwebsite | [https://www.cornerstoneondemand.com](https://www.cornerstoneondemand.com) |
 | URL der Datenschutzrichtlinie | [https://www.cornerstoneondemand.com/client-privacy-policy/](https://www.cornerstoneondemand.com/client-privacy-policy/) |
 | URL der Nutzungsbedingungen | [https://www.microsoft.com/en-us/microsoft-teams/group-chat-...](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) |
@@ -50,7 +50,7 @@ Informationen, die von "Cornerstone OnDemand" für Microsoft bereitgestellt werd
 
 Diese Informationen wurden von "Cornerstone OnDemand" bereitgestellt und darüber, wie diese App Organisationsdaten sammelt und speichert sowie die Kontrolle, über die Ihre Organisation über die von der App gesammelten Daten verfügt.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -61,9 +61,9 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Organisationsdaten werden zwischen CSOD-Diensten und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. | Organisationsdaten werden zwischen CSOD-Diensten und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. | Der CSOD-Dienst verwendet keine Graph APIs. Wir verwenden die Microsoft Frameworks botbuilder^4.9.2 für die Leistung des Diensts. OII-Daten werden vom Dienst verwendet, um den CSOD-Dienstverbraucher zu identifizieren. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. |
+>| Organisationsdaten werden zwischen CSOD-Diensten und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. | Organisationsdaten werden zwischen CSOD-Diensten und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. | Der CSOD-Dienst verwendet keine Graph-APIs. Wir verwenden die Microsoft Frameworks botbuilder^4.9.2 für die Leistung des Diensts. OII-Daten werden vom Dienst verwendet, um den CSOD-Dienstverbraucher zu identifizieren. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -114,7 +114,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von "Wirk onDemand" bereitgestellt und darüber, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

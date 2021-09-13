@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SurveyMonkey, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: f4898e476e0848ba728d07d0d851fc09f239aecf
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528201"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282362"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -34,7 +34,7 @@ Von SurveyMonkey für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SurveyMonkey |
 | ID | WA104381088 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SurveyMonkey |
 | URL der Partnerwebsite | [https://www.surveymonkey.com](https://www.surveymonkey.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://help.surveymonkey.com/articles/en_US/kb/Microsoft-T...](https://help.surveymonkey.com/articles/en_US/kb/Microsoft-Teams-Integration) |
@@ -49,11 +49,11 @@ Von SurveyMonkey für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von SurveyMonkey darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von SurveyMonkey bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -66,11 +66,11 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| In SurveyMonkey wird nur die MS-Benutzer-ID gespeichert, um Antworten und Umfragen dem Teambenutzer zuzuordnen. |  | Für Teams verwenden wir das Microsoft Teams Javascript SDK im Aufgabenmodul "Erstellen", "Umfrageergebnisse" und "Umfrageergebnisse" modal. |
+>| In SurveyMonkey wird nur die MS-Benutzer-ID gespeichert, um Antworten und Umfragen dem Teambenutzer zuzuordnen. |  | Für Teams verwenden wir das Microsoft Teams Javascript SDK im Aufgabenmodul "Erstellen", "Umfrage" und "Umfrageergebnisse" modal. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
@@ -81,7 +81,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->EUII – Ein Erfolg-/Fehlerprotokoll wird erstellt, sobald eine Umfrage eine Antwort erhält, und wir versuchen, diese Antwort über den Connector an Teams zu senden. Dieses Protokoll enthält user_id, survey_id integration_id (die in der Datenbank verwendet werden können, um die MS-Team-ID, MS-Benutzer-ID nachzuschlagen).
+>EUII – Ein Erfolg-/Fehlerprotokoll wird erstellt, sobald eine Umfrage eine Antwort erhält, und wir versuchen, diese Antwort über den Connector an Teams zu senden. Dieses Protokoll enthält user_id, survey_id, integration_id (die in der Datenbank zum Nachschlagen der MS-Team-ID, MS-Benutzer-ID verwendet werden können)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -89,7 +89,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 >Unser primäres Rechenzentrum befindet sich in Las Vegas, NV, und unser sekundäres Rechenzentrum befindet sich in Dersassem, Ca. SurveyMonkey besitzt und betreibt alle Server und Infrastruktur an diesen Standorten. Wir haben auch eine kanadische Datenaufbewahrung für bestimmte SurveyMonkey-Enterprise Kunden in Kanada zur Verfügung. Alle ruhenden Daten werden mithilfe von TDE mit AES256 verschlüsselt, und daten während der Übertragung werden mit TLS 1.2 verschlüsselt.
 
-SurveyMonkey verwendet die zentrale Benutzerauthentifizierung, um die Identitäts- und Zugriffsverwaltung aufrechtzuerhalten. Dieses System verwaltet die gesamte Authentifizierung und Autorisierung für alle Unternehmens- und Produktionsinfrastrukturen, Systeme und Dienste. Strenge Zugriffsrichtlinien werden vierteljährlich beibehalten und überprüft. Die Überprüfungen umfassen unter anderem: Benutzerzugriffslisten, Richtliniengruppen und Zugriffsüberprüfungen von Drittanbietern. Um auf unsere Produktionsumgebung zuzugreifen (d. h. um ein privilegiertes Konto zu erhalten), muss man die Genehmigung des Managers einholen, eine Reihe erforderlicher Schulungen durchführen und die Genehmigung von unserem Sicherheitsteam einholen. Zu diesem Zeitpunkt wird ein zusätzliches VPN-Konto bereitgestellt, das die &#8216;normale&#8217; konto von einem &#8216;privilegierten&#8217; Konto unterscheidet.
+SurveyMonkey verwendet die zentrale Benutzerauthentifizierung, um die Identitäts- und Zugriffsverwaltung aufrechtzuerhalten. Dieses System verwaltet die gesamte Authentifizierung und Autorisierung für alle Unternehmens- und Produktionsinfrastrukturen, Systeme und Dienste. Strenge Zugriffsrichtlinien werden vierteljährlich beibehalten und überprüft. Die Überprüfungen umfassen unter anderem: Benutzerzugriffslisten, Richtliniengruppen und Zugriffsüberprüfungen von Drittanbietern. Um auf unsere Produktionsumgebung zuzugreifen (d. h. um ein privilegiertes Konto zu erhalten), muss man die Genehmigung des Vorgesetzten einholen, eine Reihe erforderlicher Schulungen durchführen und die Genehmigung von unserem Sicherheitsteam einholen. Zu diesem Zeitpunkt wird ein zusätzliches VPN-Konto bereitgestellt, das das &#8216;normale&#8217; konto von einem konto mit &#8216;privilegierten&#8217; unterscheidet.
 
 Nur vom Unternehmen ausgestellte Geräte dürfen auf unser Produktionsnetzwerk zugreifen. Alle Standardeinstellungen des Anbieters für drahtlose Verbindungen werden vor der Installation geändert, einschließlich, aber nicht beschränkt auf standardmäßige drahtlose Verschlüsselungsschlüssel, Kennwörter und SNMP-Communityzeichenfolgen. 2FA und VPN sind erforderlich, um dies remote zu tun. Wir verfügen über ein separates WLAN-Netzwerk für den Gastzugriff in unseren Unternehmensstandorten.
 

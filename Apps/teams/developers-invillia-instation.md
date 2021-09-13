@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für InStation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521808"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282110"
 ---
 # <a name="instation"></a>InStation
 
@@ -34,7 +34,7 @@ Informationen, die von Developers Invillia an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | InStation |
 | ID | WA200001701 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Developers Invillia |
 | URL der Partnerwebsite | [https://invillia.com/](https://invillia.com/) |
 | URL der Datenschutzrichtlinie | [https://instation.invillia.com/terms#privacy-policy](https://instation.invillia.com/terms#privacy-policy) |
@@ -50,9 +50,9 @@ Informationen, die von Developers Invillia an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Developers Invillia darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -65,7 +65,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| email | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| offline_access | Delegiert | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| openid | Delegiert | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
->| Profil | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;beim ersten Anmelden zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;beim ersten Anmelden zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Profil | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -76,7 +76,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 

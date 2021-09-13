@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für officeatwork-| Designer für Office von officeatwork
+title: Anwendungsinformationen für Officeatwork-| Designer für Office von officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
@@ -9,11 +9,11 @@ certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Designer für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 4c78a3564c99f749c9bd22c1bd82f44f34749d87
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527471"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283418"
 ---
 # <a name="officeatwork--designer-for-office"></a>officeatwork | Designer für Office
 
@@ -32,7 +32,7 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – Designer für Office |
 | ID | WA104380518 |
-| unterstützte Office 365-Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2016 oder höher auf Windows, Word auf iPad |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2016 oder höher auf Windows, Word auf iPad |
 | Name des Partnerunternehmens | officeatwork |
 | URL der Partnerwebsite | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL der Datenschutzrichtlinie | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -50,7 +50,7 @@ Diese Informationen wurden von Office-Mitarbeitern darüber bereitgestellt, wie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -60,7 +60,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| Group.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Auf Gruppe beschränken: Zum Aktivieren des Lesens aller Gruppen des angemeldeten Benutzers. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 >| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Zum Aktivieren des Lesens von Daten aus SharePoint Online. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 >| User.Read | Delegiert | Es werden keine Daten gespeichert. | Sing-In: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
->| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Alle Eigenschaften: Zum Aktivieren des Lesens aller Eigenschaften aller Benutzer. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Alle Eigenschaften: zum Aktivieren des Lesens aller Eigenschaften aller Benutzer. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 >| User.ReadBasic.All | Delegiert | Es werden keine Daten gespeichert. | Office 365 Benutzer – Grundlegende Eigenschaften: Zum Aktivieren des Lesens der grundlegenden Eigenschaften aller Benutzer | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 >| offline_access | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Um die automatische Anmeldung über Aktualisierungstoken wie ohne zu aktivieren, müssten sich Benutzer jedes Mal manuell anmelden, wenn sie die Officeatwork-App starten. Dieser Bereich ist nur für Nicht-SSO-aktivierte Hostanwendungen erforderlich. | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 >| openid | Delegiert | Es werden keine Daten gespeichert. | Sing-In: Damit sich Benutzer mit ihrem Organisations- und/oder Microsoft-Konto bei der OfficeAtwork-App anmelden können | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
@@ -68,7 +68,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -106,7 +106,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35749' frameborder='no' style='width: 100%;'></iframe>
 
@@ -134,7 +134,7 @@ Diese Informationen wurden von Officeatwork darüber bereitgestellt, wie diese A
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |

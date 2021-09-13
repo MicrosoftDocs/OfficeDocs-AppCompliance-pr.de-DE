@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für WorkInSync, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: c3976dcaddcc5121b58cd65836b19df1f057e79b
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873912"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282770"
 ---
 # <a name="workinsync"></a>WorkInSync
 
@@ -53,23 +53,23 @@ Diese Informationen wurden von MoveInSync darüber bereitgestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | Delegiert | 1. So rufen Sie Details zu transitiven Gruppenmitgliedern ab. Sie werden auf der Registerkarte "Teamaktivität" verwendet, wenn sie im Kanalkontext installiert werden. 2. So rufen Sie die Benutzerprofildetails &amp;  der Benutzer in der Organisation ab. Diese werden verwendet, wenn die Registerkarte "Teamaktivität" im persönlichen Kontext installiert wird, als Fallback, um die Vorschau von Teamkameraden anzuzeigen, falls die Personen-API fehlschlägt (nicht outlook-Benutzer). | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| People.Read | Delegiert | Um Personen zu erhalten, die sich am häufigsten auf den angemeldeten Benutzer beziehen, um die Registerkarte "Teamaktivität" anzuzeigen, wird im persönlichen Kontext installiert. | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| People.Read | Delegiert | Um Personen zu erhalten, die sich am häufigsten auf den angemeldeten Benutzer beziehen, um sie auf der Registerkarte "Teamaktivität" anzuzeigen, wird im persönlichen Kontext installiert. | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| Presence.Read | Delegiert | So erhalten Sie Anwesenheitsinformationen einer Liste von Benutzern auf der Registerkarte "Teamaktivität" sowohl im persönlichen als auch im Kanalkontext | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| Presence.Read.All | Delegiert | So erhalten Sie Anwesenheitsinformationen einer Liste von Benutzern auf der Registerkarte "Teamaktivität" sowohl im persönlichen als auch im Kanalkontext | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| User.Read.All | Anwendung | Wird verwendet, um Berichterstellungs-Manager-Informationen eines beliebigen Benutzers abzurufen, um Buchungs- und Check-In-/Checkout-Benachrichtigungen an den Vorgesetzten zu senden. | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| User.ReadBasic.All | Delegiert | Wird zum Lesen des Profilfotos eines Mitarbeiters verwendet | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| email | Delegiert | Erforderlich, um SSO-Token mit Teams Clientbibliothek abzurufen | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| offline_access | Delegiert | Erforderlich, um SSO-Token mit Teams Clientbibliothek abzurufen | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| openid | Delegiert | Erforderlich, um SSO-Token mit Teams Clientbibliothek abzurufen | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Profil | Delegiert | Erforderlich, um SSO-Token mit Teams Clientbibliothek abzurufen | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| email | Delegiert | Erforderlich, um ein SSO-Token mit Teams Clientbibliothek abzurufen | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| offline_access | Delegiert | Erforderlich, um ein SSO-Token mit Teams Clientbibliothek abzurufen | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| openid | Delegiert | Erforderlich, um ein SSO-Token mit Teams Clientbibliothek abzurufen | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Profil | Delegiert | Erforderlich, um ein SSO-Token mit Teams Clientbibliothek abzurufen | Keine | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -77,7 +77,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|

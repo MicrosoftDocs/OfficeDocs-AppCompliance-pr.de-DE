@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für File Fabric, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3070723eecc0e7dda11aff31da6b20a785f558b5
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404386"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282368"
 ---
 # <a name="file-fabric"></a>File Fabric
 
@@ -30,12 +30,12 @@ ms.locfileid: "58404386"
 
 Informationen, die von Storage für Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | File Fabric |
 | ID | WA200003017 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Storage Leicht gemacht |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Storage Made Easy |
 | URL der Partnerwebsite | [https://storagemadeeasy.com](https://storagemadeeasy.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://docs.storagemadeeasy.com/microsoft-teams](https://docs.storagemadeeasy.com/microsoft-teams) |
 | URL der Datenschutzrichtlinie | [https://www.storagemadeeasy.com/privacy](https://www.storagemadeeasy.com/privacy) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von Storage erleichtert, wie diese App Organisationsd
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -62,20 +62,20 @@ Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/pe
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Azure Blob Storage | Ja | Objektmetadaten und -daten | Metadaten, die für alle Dateien und Ordner von Benutzern&#8217;gesammelt werden und eine Verbundansicht über alle Dateidienste hinweg bereitstellen. Objekte, die gelesen oder geschrieben werden, wenn der Benutzer angegebene Objekte über die App herunterlädt, hochlädt oder bearbeitet. | Objektmetadaten werden gespeichert | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. |
 >| Office für das Web | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Der Benutzer kann sich authentifizieren und eine Verbindung mit allen speicherdiensten herstellen, die er kontrolliert. | Datei- und Objektmetadaten werden für das Durchsuchen und Suchen im Verbund zwischengespeichert. Daten werden übertragen, wenn bestimmte Dateien oder Objekte gelesen und aktualisiert werden. | Metadaten bieten eine Verbundansicht im Speicher. Die Datenübertragung ermöglicht den sicheren universellen Zugriff. |
+>| Der Benutzer kann sich authentifizieren und eine Verbindung mit allen von ihnen gesteuerten Speicherdiensten herstellen. | Datei- und Objektmetadaten werden für das Durchsuchen und Suchen im Verbund zwischengespeichert. Daten werden übertragen, wenn bestimmte Dateien oder Objekte gelesen und aktualisiert werden. | Metadaten bieten eine Verbundansicht im Speicher. Die Datenübertragung ermöglicht den sicheren universellen Zugriff. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -108,7 +108,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
@@ -124,10 +124,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Storage erleichtert, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |

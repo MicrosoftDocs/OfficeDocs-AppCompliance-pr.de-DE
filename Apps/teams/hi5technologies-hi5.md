@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hi5, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 1356b3e31e309379e1943dc5ca59e10c72c23410
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525599"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281258"
 ---
 # <a name="hi5"></a>Hi5
 
@@ -21,7 +21,7 @@ ms.locfileid: "53525599"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: July 21, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/ca334a56-72b5-4613-81d4-77b1148df03c" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/ca334a56-72b5-4613-81d4-77b1148df03c" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001610" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von Hi5Technologies für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Hi5 |
 | ID | WA200001610 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Hi5 Technologies |
 | URL der Partnerwebsite | [https://www.get5.io](https://www.get5.io) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://help.get5.io](https://help.get5.io) |
@@ -49,7 +49,7 @@ Von Hi5Technologies für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Hi5Technologies bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Hi5Technologies zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
@@ -57,18 +57,18 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer von Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann diese jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Erforderlich für die SSO-Anmeldung und -Authentifizierung bei unserem Server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| email | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer von Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann diese jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Erforderlich für die SSO-Anmeldung und -Authentifizierung bei unserem Server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| offline_access | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer von Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann diese jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Behält bei, dass dem Benutzer die richtigen Informationen angezeigt werden, und wir können die richtigen Informationen an andere Personen senden, die demselben Unternehmen/Arbeitsbereich beitreten. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| openid | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer von Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann diese jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Erforderlich für die SSO-Anmeldung und -Authentifizierung bei unserem Server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| Profil | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer von Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann diese jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Erforderlich für die SSO-Anmeldung und -Authentifizierung bei unserem Server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| User.Read | Delegiert | Wir speichern die Sitzungsinformationen der Benutzer nur aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Erforderlich für die SSO-Anmeldung und -Authentifizierung bei unserem Server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| email | Delegiert | Wir speichern die Sitzungsinformationen der Benutzer nur aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Erforderlich für die SSO-Anmeldung und -Authentifizierung bei unserem Server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| offline_access | Delegiert | Wir speichern die Sitzungsinformationen der Benutzer nur aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Behält bei, dass dem Benutzer die richtigen Informationen angezeigt werden, und wir können die richtigen Informationen an andere Personen senden, die demselben Unternehmen/Arbeitsbereich beitreten. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| openid | Delegiert | Wir speichern die Sitzungsinformationen der Benutzer nur aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Erforderlich für die SSO-Anmeldung und -Authentifizierung bei unserem Server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| Profil | Delegiert | Wir speichern die Sitzungsinformationen der Benutzer nur aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | Erforderlich für die SSO-Anmeldung und -Authentifizierung bei unserem Server | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -134,7 +134,7 @@ Diese Informationen wurden von Hi5Technologies bereitgestellt, wie diese App Aut
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Nein |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Ja |
 | Verwendet Ihre App veraltete APIs? | Nein |

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365 für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: ab9ea33824f66afecc8af8df74754fc7f2dd6d43
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526041"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282542"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 für Office
 
@@ -33,7 +33,7 @@ Informationen, die von JiJi Technologies Private Limited to Microsoft bereitgest
 |:----------------|:-------------|
 | App-Name | Wunder365 für Office |
 | ID | WA200001529 |
-| unterstützte Office 365-Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows, OneNote im Web |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows, OneNote im Web |
 | Name des Partnerunternehmens | JiJi Technologies Private Limited |
 | URL der Partnerwebsite | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL der Datenschutzrichtlinie | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
@@ -49,9 +49,9 @@ Informationen, die von JiJi Technologies Private Limited to Microsoft bereitgest
 
 Diese Informationen wurden von JiJi Technologies Private Limited darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -66,7 +66,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 

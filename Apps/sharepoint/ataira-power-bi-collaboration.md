@@ -6,16 +6,16 @@ ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Power BI Zusammenarbeit, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Power BI Zusammenarbeit, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c370b6058ef25fd4665e651489e0b1092539b1dd
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53607646"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281837"
 ---
-# <a name="power-bi-collaboration"></a>Power BI Zusammenarbeit
+# <a name="power-bi-collaboration"></a>Power BI-Zusammenarbeit
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,7 +31,7 @@ Von Ataira für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Power BI Zusammenarbeit |
+| App-Name | Power BI-Zusammenarbeit |
 | ID | WA104380739 |
 | Office 365 unterstützten Clients | SharePoint 2016 oder höher |
 | Name des Partnerunternehmens | Ataira |
@@ -51,25 +51,25 @@ Diese Informationen wurden von Ataira darüber bereitgestellt, wie diese App Org
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | Auch Berechtigungen für ChannelMessage.Send Team.ReadBasic.All User.Read. Diese werden verwendet, um dem Benutzer die Auswahl der Teams Gruppe und des Kanals für Benachrichtigungen zu ermöglichen. | Verwendungs-, Fehler- und Lizenzüberwachung. [callback_group_id] ,[datetime_id] ,[session_id] ,[app_type] ,[raw_url] ,[user_id] ,[list_name] ,[user_name] ,[state] ,[priority] ,[user_domain] ,[url_text] ,[group_name] ,[title_name] ,[comments] ,[file_name] ,[description] ,[group_pbi_name] ,[item_type] ,[organization_id] ,[user_objectid] ,[organization_displayName] ,[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
+>| User.Read | Delegiert | Auch Berechtigungen für ChannelMessage.Send Team.ReadBasic.All User.Read. Diese werden verwendet, um dem Benutzer die Auswahl der Teams Gruppe und des Kanals für Benachrichtigungen zu ermöglichen. | Verwendungs-, Fehler- und Lizenzüberwachung. [callback_group_id] ,[datetime_id] ,[session_id] ,[app_type] ,[raw_url] ,[user_id] ,[list_name] ,[user_name] ,[state] ,[priority] ,[user_domain] ,[url_text] ] ,[group_name] ,[title_name] ,[comments] ,[file_name] ,[description] ,[group_pbi_name] ,[item_type] ,[organization_id] ,[user_objectid] ,[organization_displayName] ,[group_id] | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um Organisationsdaten zu sammeln oder zu verarbeiten ( OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| https://analysis.windows.net/powerbi/api/ | Ja | Benutzer-E-Mail, Arbeitsbereichsname, Elementname, Url einbetten | Dient zum Auffüllen von Berichten und Dashboards in der SharePoint-Add-In-Schnittstelle | [api_pbi_id] ,[datetime_id] ,[session_id] ,[user_name] ,[user_domain] ,[WorkSpace_Name] ,[WorkSpace_Id] ,[item_Id] ,[item_type] ,[item_name] ,[webUrl] ,[embedUrl] ,[displayName] ,[item_title] ,[isOwnedByMe] | Nutzungs-, Fehler- und Lizenzüberwachung |
+>| https://analysis.windows.net/powerbi/api/ | Ja | Benutzer-E-Mail, Arbeitsbereichsname, Elementname, Url einbetten | Wird zum Auffüllen von Berichten und Dashboards in der SharePoint-Add-In-Schnittstelle verwendet | [api_pbi_id] ,[datetime_id] ,[session_id] ,[user_name] ,[user_domain] ,[WorkSpace_Name] ,[WorkSpace_Id] ,[item_Id] ,[item_type] ,[item_name] ,[webUrl] ,[embedUrl] ,[displayName] ,[item_title] ,[isOwnedByMe] | Nutzungs-, Fehler- und Lizenzüberwachung |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -77,7 +77,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Metadaten, die erforderlich sind, um Power BI Berichte und Dashboards aufzufüllen, Authentifizierung für Graph Teams API. Weitere Daten- und Datenschutzrichtlinien finden Sie auf der Website. https://www.ataira.com/PrivacyPolicy Und dann auch auf der App-Konfigurationsseite speziell für den Datenschutz. https://www.ataira.com/Microsoft/PowerBI/CollaborationSupport
+>Metadaten, die erforderlich sind, um Power BI Berichte und Dashboards aufzufüllen, Authentifizierung bei Graph Teams API. Weitere Daten- und Datenschutzrichtlinien finden Sie auf der Website. https://www.ataira.com/PrivacyPolicy Und dann auch auf der App-Konfigurationsseite speziell für den Datenschutz. https://www.ataira.com/Microsoft/PowerBI/CollaborationSupport
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 

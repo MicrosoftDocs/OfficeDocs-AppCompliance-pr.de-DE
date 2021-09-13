@@ -6,14 +6,14 @@ ms.date: 06/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für atSpoke, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für atSpoke, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2d72ea33577e386c61be6bcd09feeba813e9e1f5
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528101"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281090"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -34,7 +34,7 @@ Informationen, die von Derend Street Labs, Inc. an Microsoft bereitgestellt werd
 |:----------------|:-------------|
 | App-Name | atSpoke |
 | ID | WA200001454 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Townsend Street Labs, Inc. |
 | URL der Partnerwebsite | [https://www.atspoke.com/](https://www.atspoke.com/) |
 | URL der Datenschutzrichtlinie | [https://www.atspoke.com/privacy-policy/](https://www.atspoke.com/privacy-policy/) |
@@ -50,9 +50,9 @@ Informationen, die von Derend Street Labs, Inc. an Microsoft bereitgestellt werd
 
 Diese Informationen wurden von Derend Street Labs, Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -65,9 +65,9 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Ja, wir verwenden Dienste von Drittanbietern für die betriebliche Effizienz. Google, Inc.: Auf logischen Volumes gespeicherte Daten, Speichersicherungen im nativen Google Cloud-Netzwerk, Dienst- und API-Protokolle oder Anwendungsprotokolle. Protokollierte Transaktionsereignisse können Benutzer-IDs, Kontaktinformationen und Kundeninhalte enthalten. MongoDB, Inc.: Daten, die in cloudbasierten Datenbanksammlungen gespeichert sind. – Kundeninhalte, die Von Benutzern eingereichte Anforderungen, Antworten auf von Benutzern hinzugefügte Anforderungen und von Benutzern hinzugefügte Wissensartikel umfassen. – Benutzer-IDs (Name, E-Mail, Avatar und Telefonnummer, die zum Erstellen eines Spoke-Benutzerkontos verwendet werden). Mailgun Technologies, Inc.: Benutzer-ID und Kontaktinformationen zum Senden von E-Mail-Kommunikationen (z. B. Name und E-Mail). Twilio, Inc.: Telefonnummer des Benutzers und Kundeninhalte: Inhalte, die mithilfe von Twilio&#8217;-Diensten ausgetauscht werden, z. B. Text, Nachrichtentext, Sprach- und Videomedien, Bilder und Sound. Mixpanel, Inc.: Zu den übertragenen personenbezogenen Daten gehören Name, E-Mail, IP-Adresse und personenbezogene Daten, die in Nachrichteninhalten enthalten sind. Cloudinary, Inc.: Dateibasierte Kundeninhalte, die von Endbenutzern übermittelt werden. FlexibleSearch, Inc.: Protokollierte Anwendungstransaktionsereignisse können abgeschnittenen Text aus Kundeninhalten enthalten. Stitch, Inc.: Kontaktinformationen, Nutzungsinformationen, nicht herkömmliche Bezeichner der autorisierten Benutzer des Abonnenten und alle anderen personenbezogenen Daten, die der Abonnent oder seine autorisierten Benutzer an die Plattform übermitteln. Mode Analytics, Inc.: Informationen zu Benutzerbezeichnern, um Analysen pro Benutzer bereitzustellen. Data Dog: Protokollierte Anwendungstransaktionsereignisse können abgeschnittenen Text aus Kundeninhalten enthalten; Die Protokollaufbewahrung beträgt 14 Tage. Fullstory, Inc.: Aufzeichnungen von Aktionen, die auf unserer Web-Benutzeroberfläche ausgeführt wurden; umfasst das Benutzerkonto von Spoke zu Identifikationszwecken. |  | Wir verwenden die Bot Framework-REST-API. Wir verwenden diese API, um Nachrichten an den askSpoke-Botdienst zu senden und zu empfangen. |
+>| Ja, wir verwenden Dienste von Drittanbietern für die betriebliche Effizienz. Google, Inc.: Auf logischen Volumes gespeicherte Daten, Speichersicherungen im nativen Google Cloud-Netzwerk, Dienst- und API-Protokolle oder Anwendungsprotokolle. Protokollierte Transaktionsereignisse können Benutzer-IDs, Kontaktinformationen und Kundeninhalte enthalten. MongoDB, Inc.: Daten, die in cloudbasierten Datenbanksammlungen gespeichert sind. – Kundeninhalte, die Von Benutzern eingereichte Anforderungen, Antworten auf von Benutzern hinzugefügte Anforderungen und von Benutzern hinzugefügte Wissensartikel umfassen. – Benutzer-IDs (Name, E-Mail, Avatar und Telefonnummer, die zum Erstellen eines Spoke-Benutzerkontos verwendet werden). Mailgun Technologies, Inc.: Benutzer-ID und Kontaktinformationen zum Senden von E-Mail-Kommunikationen (z. B. Name und E-Mail). Twilio, Inc.: Telefonnummer des Benutzers und Kundeninhalte: Inhalte, die durch die Verwendung von Twilio&#8217;-Diensten ausgetauscht werden, z. B. Text, Nachrichtentext, Sprach- und Videomedien, Bilder und Sound. Mixpanel, Inc.: Zu den übertragenen personenbezogenen Daten gehören Name, E-Mail, IP-Adresse und personenbezogene Daten, die in Nachrichteninhalten enthalten sind. Cloudinary, Inc.: Dateibasierte Kundeninhalte, die von Endbenutzern übermittelt werden. FlexibleSearch, Inc.: Protokollierte Anwendungstransaktionsereignisse können abgeschnittenen Text aus Kundeninhalten enthalten. Stitch, Inc.: Kontaktinformationen, Nutzungsinformationen, nicht herkömmliche Bezeichner der autorisierten Benutzer des Abonnenten und alle anderen personenbezogenen Daten, die der Abonnent oder seine autorisierten Benutzer an die Plattform übermitteln. Mode Analytics, Inc.: Informationen zu Benutzerbezeichnern, um Analysen pro Benutzer bereitzustellen. Data Dog: Protokollierte Anwendungstransaktionsereignisse können abgeschnittenen Text aus Kundeninhalten enthalten; Die Protokollaufbewahrung beträgt 14 Tage. Fullstory, Inc.: Aufzeichnungen von Aktionen, die auf unserer Web-Benutzeroberfläche ausgeführt wurden; umfasst das Benutzerkonto von Spoke zu Identifikationszwecken. |  | Wir verwenden die Bot Framework-REST-API. Wir verwenden diese API, um Nachrichten an den askSpoke-Botdienst zu senden und zu empfangen. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -88,7 +88,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Anwendungsdaten werden in einer verwalteten MongoDB-Instanz gespeichert. Der Zugriff auf den verwalteten Dienst Atlas MongoDB Database wird über einen standardisierten Benutzerzugriffsanforderungsprozess bereitgestellt, der Genehmigungen erfordert. Regelmäßige Überprüfungen des Benutzerzugriffs werden mit der Verwaltungsanmeldung durchgeführt. Wir schränken die Anzahl der Mitarbeiter ein, die Zugriff auf vertrauliche Kundendaten haben, und es ist nicht zulässig, Daten von Computern direkt zu ändern.&#8232; Remotezugriff auf diese Datenbank erfordert eine mehrstufige Authentifizierung. Die Datenbank und alle ruhenden Sicherungen werden mithilfe der AES-256-Bit-Verschlüsselung verschlüsselt.
+>Die Anwendungsdaten werden in einer verwalteten MongoDB-Instanz gespeichert. Der Zugriff auf den verwalteten Dienst Atlas MongoDB Database wird über einen standardisierten Benutzerzugriffsanforderungsprozess bereitgestellt, der Genehmigungen erfordert. Regelmäßige Überprüfungen des Benutzerzugriffs werden mit der Verwaltungsanmeldung durchgeführt. Wir schränken die Anzahl der Mitarbeiter mit Zugriff auf vertrauliche Kundendaten ein, und es ist nicht zulässig, Daten direkt von Computern zu ändern.&#8232; Remotezugriff auf diese Datenbank erfordert eine mehrstufige Authentifizierung. Die Datenbank und alle ruhenden Sicherungen werden mithilfe der AES-256-Bit-Verschlüsselung verschlüsselt.
 
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für DisasterTech DICE, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: d8eec2ad9c7047a33dae446943c3ab2d934cc78c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525709"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283067"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -34,7 +34,7 @@ Von DisasterTech für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | DisasterTech DICE |
 | ID | WA200001909 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | DisasterTech |
 | URL der Partnerwebsite | [https://www.disastertech.com](https://www.disastertech.com) |
 | URL der Datenschutzrichtlinie | [https://dice.disastertech.com/privacy.html](https://dice.disastertech.com/privacy.html) |
@@ -50,13 +50,13 @@ Von DisasterTech für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von DisasterTech bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | E-Mail-Adresse des Benutzers, die zum Einrichten von Zugriffsrechten gespeichert ist, sowie Benutzername, um Benutzer anhand des Namens zu identifizieren | Ermöglicht es dem Benutzer, sich anzumelden, und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung sowie Teams Anmeldung zu aktivieren, auch um Benutzernamen und E-Mail-Adressen einzurichten. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| User.Read | Delegiert | E-Mail-Adresse des Benutzers, die zum Einrichten von Zugriffsrechten gespeichert ist, sowie Benutzername, um Benutzer anhand des Namens zu identifizieren | Ermöglicht es dem Benutzer, sich anzumelden, und gewährt app-Zugriff auf den UPN, um die automatische Anmeldung sowie Teams Anmeldung zu aktivieren, auch um Benutzernamen und E-Mail-Adressen einzurichten. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
 >| email | Delegiert | Keine | Erforderlich für Teams einzelnen Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
 >| offline_access | Delegiert | Keine | Erforderlich für Teams einzelnen Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
 >| openid | Delegiert | Keine | Erforderlich für Teams einzelnen Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
@@ -67,7 +67,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

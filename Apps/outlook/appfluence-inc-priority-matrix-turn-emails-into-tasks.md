@@ -9,11 +9,11 @@ certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Prioritätsmatrix – Verwandeln Sie E-Mails in Aufgaben, ihre Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 26eb40120926c63d7514ffdde02623ee86d0477d
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527421"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281402"
 ---
 # <a name="priority-matrix---turn-emails-into-tasks"></a>Prioritätsmatrix – Umwandeln von E-Mails in Aufgaben
 
@@ -32,7 +32,7 @@ Informationen, die Von Appfluence Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Prioritätsmatrix – Umwandeln von E-Mails in Aufgaben |
 | ID | WA104381735 |
-| unterstützte Office 365-Clients | Outlook 2016 oder höher auf Windows, Outlook 2016 oder höher auf Mac, Outlook unter iOS, Outlook unter Android, Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2016 oder höher auf Windows, Outlook 2016 oder höher auf mac, Outlook unter iOS, Outlook unter Android, Outlook im Web |
 | Name des Partnerunternehmens | Appfluence Inc |
 | URL der Partnerwebsite | [https://appfluence.com/office-365-project-management-integr...](https://appfluence.com/office-365-project-management-integration/) |
 | URL der Datenschutzrichtlinie | [https://appfluence.com/privacy/](https://appfluence.com/privacy/) |
@@ -46,23 +46,23 @@ Informationen, die Von Appfluence Inc. an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Appfluence Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Appfluence Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | Delegiert | Nur wenn ein neuer Benutzer zum Konto hinzugefügt wird, speichern wir seine E-Mails. | Bei der Erstellung eines neuen Kontos wird dies verwendet, um andere Teammitglieder vorzuschlagen. | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
 >| User.ReadBasic.All | Delegiert | Nur wenn ein neuer Benutzer zum Konto hinzugefügt wird, speichern wir seine E-Mails. | Bei der Erstellung eines neuen Kontos wird dies verwendet, um andere Teammitglieder vorzuschlagen. | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
 >| offline_access | Delegiert | Wir speichern das Anmeldetoken, um Anforderungen im Auftrag des Benutzers auszuführen. | Aktualisieren Sie das Token, ohne den Benutzer zu stören. (Prioritätsmatrix für Teams) | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
->| Files.Read.All | Delegiert | Wir speichern keine Dateiinformationen, es sei denn, der Benutzer erstellt explizit und wissentlich ein Priority Matrix-Element, das mit der Originaldatei verknüpft ist. | In unserer 1:1-Funktion (verfügbar über unsere Web-App und auch unsere Outlook/Teams-Add-Ins) verwenden wir dieses Feature, um SharePoint/OneDrive Dateien hervorzuheben, die von zwei Benutzern in unserem System gemeinsam genutzt werden, um Besprechungen und die allgemeine Zusammenarbeit zu vereinfachen. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
+>| Files.Read.All | Delegiert | Wir speichern keine Dateiinformationen, es sei denn, der Benutzer erstellt explizit und wissentlich ein Priority Matrix-Element, das mit der Originaldatei verknüpft ist. | In unserer One-on-One-Funktion (verfügbar über unsere Web-App und auch unsere Outlook/Teams-Add-Ins) verwenden wir dieses Feature, um SharePoint/OneDrive Dateien hervorzuheben, die von zwei Benutzern in unserem System gemeinsam genutzt werden, um Besprechungen und die allgemeine Zusammenarbeit zu vereinfachen. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
 >| User.Read | Delegiert | Grundlegende Benutzerprofilinformationen (Anzeigename, Vorname, Nachname, E-Mail, Avatar) werden von uns gespeichert. | Rufen Sie den Namen, die E-Mail-Adresse, den Avatar des Benutzers ab, um sein Konto bei uns zu personalisieren. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
 >| openid | Delegiert | Wir speichern die SSO-Verbindung, um den Anmeldemodus für den Benutzer anzugeben. | Um Benutzer über einmaliges Anmelden anzumelden. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
 >| Calendars.Read | Delegiert | Eine kleine Anzahl von Kalenderereignissen wird in Aufgaben umgewandelt, die in unserem System gespeichert sind. | Lesen Sie Kalenderereignisse, damit sie in unserer 1:1-Ansicht angezeigt werden können. Auch zum Initialisieren neuer Konten.  | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
 >| Mail.Read | Delegiert | In unserem System erstellte Aufgaben werden mit einem Link zur ursprünglichen Nachricht gespeichert. | Wird in unserem Outlook-Add-In verwendet, um E-Mails in Aufgaben umzuwandeln und freigegebene Arbeit in der 1:1-Ansicht anzuzeigen. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
->| Tasks.Read | Delegiert | Einige Outlook/Planner-Aufgaben werden in unserem System repliziert, um neuen Benutzern zu helfen. | Wir bootstrapieren neue Benutzerkonten mit ihren Graph Aufgaben. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
+>| Tasks.Read | Delegiert | Einige Outlook/Planner-Aufgaben werden in unserem System repliziert, um neuen Benutzern zu helfen. | Wir starten neue Benutzerkonten mit ihren Graph Aufgaben. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -111,7 +111,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Appfluence Inc. bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Appfluence Inc. bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für hi Digital Coach, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 2ff4472c9c54234c388508039fd10ab4818154ce
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282554"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283073"
 ---
 # <a name="hi-digital-coach"></a>hi Digital Coach
 
@@ -35,7 +35,7 @@ Informationen, die von Digital Srl für Srl für Srl bereitgestellt werden:
 | App-Name | hi Digital Coach |
 | ID | WA200002347 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Digitales Srl |
+| Name des Partnerunternehmens | Digital Attitude Srl |
 | URL der Partnerwebsite | [https://www.habitinspiringplatform.com](https://www.habitinspiringplatform.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.habitinspiringplatform.com/coaching-plan](https://www.habitinspiringplatform.com/coaching-plan) |
 | URL der Datenschutzrichtlinie | [https://www.iubenda.com/privacy-policy/98527945/full-legal](https://www.iubenda.com/privacy-policy/98527945/full-legal) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von DigitalSrl zur Verfügung gestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -66,7 +66,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -95,7 +95,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39736' frameborder='no' style='width: 100%;'></iframe>
 

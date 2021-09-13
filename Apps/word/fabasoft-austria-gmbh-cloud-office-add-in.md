@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für Labsasoft Cloud Office-Add-In von Maustasteasoft Austria GmbH
+title: Anwendungsinformationen für Webanwendungen für Die Cloud Office Add-In von Labsasoft Austria GmbH
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/08/2021
@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Das Microsoft Cloud Office Add-In, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: ab18964a27a5443fc1116c4c18d5e94830d3dc89
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404467"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282695"
 ---
 # <a name="fabasoft-cloud-office-add-in"></a>Fabrikasoft Cloud Office-Add-In
 
@@ -29,12 +29,12 @@ ms.locfileid: "58404467"
 
 Informationen, die von Derasoft Austria GmbH an Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Fabrikasoft Cloud Office-Add-In |
 | ID | WA200002917 |
 | unterstützte Office 365-Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
-| Name des Partnerunternehmens | Labsasoft Austria GmbH |
+| Name des Partnerunternehmens | Fabasoft Austria GmbH |
 | URL der Partnerwebsite | [https://www.fabasoft.com](https://www.fabasoft.com) |
 | URL der Datenschutzrichtlinie | [https://www.fabasoft.com/privacy](https://www.fabasoft.com/privacy) |
 | URL der Nutzungsbedingungen | [https://www.fabasoft.com/terms-of-use](https://www.fabasoft.com/terms-of-use) |
@@ -49,7 +49,7 @@ Informationen, die von Derasoft Austria GmbH an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Derssoft Austria GmbH bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -57,7 +57,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -111,7 +111,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Hanasoft Austria GmbH bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hibob, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 9168d876cfdf6abc2839311d3820ec8a024f29d1
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521618"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281255"
 ---
 # <a name="hibob"></a>Hibob
 
@@ -21,7 +21,7 @@ ms.locfileid: "53521618"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/fdbe3361-c7dd-4ba5-b0b7-76a2002eb421" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/fdbe3361-c7dd-4ba5-b0b7-76a2002eb421" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000765" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -52,7 +52,7 @@ Diese Informationen wurden von Hibob Inc. darüber bereitgestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -69,7 +69,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Der Spieler wird verwendet, um einen Teams Benutzer gemäß E-Mail mit bob-Benutzer zuzuordnen. Abgleich wird verwendet für – Identifikation, Benachrichtigungen, Link zu Teams Profil. | Es wird nur die UPN-Eigenschaft verwendet und gespeichert. |  |
+>| Der Popup wird verwendet, um einen Teams Benutzer gemäß E-Mail mit bob-Benutzer zuzuordnen. Der Abgleich wird verwendet für – Identifikation, Benachrichtigungen, Link zu Teams Profil. | Es wird nur die UPN-Eigenschaft verwendet und gespeichert. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -84,7 +84,7 @@ Es gibt keine Option zum Löschen der Uppon-Anforderung für Protokolle.
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Unsere Plattform wird in den Rechenzentren von Amazon&#8217;in Dublin gehostet, und Der Zugriff auf die Plattform ist rollenbasiert und wird basierend auf der Position der Mitarbeiter&#8217;auf der Grundlage von "Need-to-Know/Need-to-Do" festgelegt.
+>Unsere Plattform wird in den Rechenzentren von Amazon&#8217;in Dublin gehostet, und Der Zugriff auf die Plattform ist rollenbasiert und richtet sich nach der Position der Mitarbeiter&#8217;.
 Jeder Benutzer verfügt über seine eindeutigen Anmeldeinformationen, und wir erzwingen die 2FA-Authentifizierung für wichtige Dienste.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen

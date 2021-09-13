@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für HeyTaco!, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 7b4641b33166043dd311bdd89568c9eaea4b87a1
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521638"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282998"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -21,7 +21,7 @@ ms.locfileid: "53521638"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 3. November 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/be8d11cf-265a-4974-9912-4ff28c29fc21" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/be8d11cf-265a-4974-9912-4ff28c29fc21" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001346" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -52,11 +52,11 @@ Diese Informationen wurden von HeyTaco bereitgestellt! Darüber, wie diese App O
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| email | Delegiert | wird verwendet, um Benutzer für Datenübertragungen von Slack an MS-Teams | wird verwendet, um den Benutzer für Datenübertragungen von Slack an MS Team zuzuordnen | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| email | Delegiert | wird verwendet, um den Benutzer für Datenübertragungen von Slack an MS-Teams | wird verwendet, um den Benutzer für Datenübertragungen von Slack an MS Team zuzuordnen | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 >| openid | Delegiert | wird verwendet, um eine Person bei HeyTaco anzumelden! | wird verwendet, um eine Person bei HeyTaco anzumelden! | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 >| Profil | Delegiert | Wird verwendet, um Benutzernamen, Profilbild, Zeitzonenversatz, Mandanten-ID und Team-ID zu erfassen. | Wird verwendet, um Benutzernamen, Avatare, Zeitzonenversatz, Mandanten-ID und Team-ID zu erfassen. | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 

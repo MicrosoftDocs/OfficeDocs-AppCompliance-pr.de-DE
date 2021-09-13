@@ -2,21 +2,21 @@
 title: Sicherheit und Compliance von Microsoft PowerPoint Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/03/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft PowerPoint-Apps.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft PowerPoint Apps.
 localization_priority: Normal
-ms.openlocfilehash: 75788af0ef339cda39f16ce78e5f690f1a6dcc04
-ms.sourcegitcommit: cd30c7ec09b1a06fb0b5696d10739a27c8434c53
+ms.openlocfilehash: 84c0ceb45b41be1e8f6a248804194a15439cabeb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58881422"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281951"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft PowerPoint Apps
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft PowerPoint apps und add-ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft PowerPoint Apps und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|

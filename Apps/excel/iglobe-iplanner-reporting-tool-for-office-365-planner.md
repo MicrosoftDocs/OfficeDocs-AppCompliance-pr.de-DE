@@ -9,11 +9,11 @@ certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das iPlanner-Berichterstellungstool für Office 365 Planner, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3591c67721188d8dc70bf4f2cf0e34bdb9ffc506
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526051"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282572"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>iPlanner-Berichterstellungstool für Office 365 Planner
 
@@ -32,7 +32,7 @@ Von iGlobe für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | iPlanner-Berichterstellungstool für Office 365 Planner |
 | ID | WA104380686 |
-| unterstützte Office 365-Clients | Excel 2016 oder höher auf Windows, Excel im Web, Excel 2016 oder höher auf Dem Mac |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf Windows, Excel im Web, Excel 2016 oder höher auf Dem Mac |
 | Name des Partnerunternehmens | iGlobe |
 | URL der Partnerwebsite | [https://iglobecrm.com/](https://iglobecrm.com/) |
 | URL der Datenschutzrichtlinie | [https://instassl.iglobecrm.com/legal-information](https://instassl.iglobecrm.com/legal-information) |
@@ -50,17 +50,17 @@ Diese Informationen wurden von iGlobe darüber bereitgestellt, wie diese App Org
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | So erstellen Sie einen Kalendereintrag im Kalender des Benutzers&#8217;am Fälligkeitsdatum der Aufgabe. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Directory.AccessAsUser.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um zu überprüfen, ob der Benutzer seine Zustimmung hat und Zugriff auf die Verwendung der API hat. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Directory.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die Planner-Aufgabe Outlook To Do abzurufen, werden E-Mails gekennzeichnet und aktualisiert. So erstellen Sie eine neue Planner-Aufgabe. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die Planner-Aufgabe Outlook To Do abzurufen, wurden E-Mails gekennzeichnet und aktualisiert. So erstellen Sie eine neue Planner-Aufgabe. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Files.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | So greifen Sie auf die Datei als Anlage zu und laden Dateien in eine Aufgabe hoch. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Group.Read.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | So rufen Sie die Planliste ab und aktualisieren die Aufgabe. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Group.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Aktualisieren Sie den Bucket und die Strichlinie, um die Planner-Aufgabe abzurufen und neue Aufgaben hinzuzufügen. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Mail.Read | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | User.Read, to get the planner task Outlook To Do, Flagged emails and updating them. So erstellen Sie eine neue Planner-Aufgabe | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Read | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | User.Read, um die Planner-Aufgabe Outlook To Do, gekennzeichnete E-Mails abzurufen und sie zu aktualisieren. So erstellen Sie eine neue Planner-Aufgabe | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | So zeigen Sie die E-Mails an und senden E-Mails. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.ReadWrite.All | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Ruft den Betreff der E-Mail aus der ausgewählten E-Mail ab. Ermöglicht der App, Informationen aus der ausgewählten E-Mail abzurufen, sodass das Beschreibungsfeld in die Aufgabenbeschreibung kopiert und Anlagen aus der E-Mail oder der E-Mail selbst in die Aufgabe gespeichert werden können. Benachrichtigung senden. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Tasks.ReadWrite | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | Um die angemeldeten Benutzer Outlook To Do und User.Read zu aktualisieren, rufen Sie die Planner-Aufgabe Outlook To Do, gekennzeichnete E-Mails ab und aktualisieren sie. So erstellen Sie eine neue Planner-Aufgabe. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -101,7 +101,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
 

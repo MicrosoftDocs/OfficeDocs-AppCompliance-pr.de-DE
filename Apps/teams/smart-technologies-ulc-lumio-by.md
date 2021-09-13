@@ -6,14 +6,14 @@ ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lumio von SMART, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lumio von SMART, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7f97e53eb5b4c27aa8bf2be4c97760f8a536cd06
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53520988"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282050"
 ---
 # <a name="lumio-by-smart"></a>Lumio by SMART
 
@@ -34,7 +34,7 @@ Informationen, die von SMART Technologies ULC an Microsoft bereitgestellt werden
 |:----------------|:-------------|
 | App-Name | Lumio by SMART |
 | ID | WA200001874 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SMART Technologies ULC |
 | URL der Partnerwebsite | [https://smarttech.com](https://smarttech.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.smarttech.com/smart-learning-suite/](https://www.smarttech.com/smart-learning-suite/) |
@@ -51,14 +51,14 @@ Informationen, die von SMART Technologies ULC an Microsoft bereitgestellt werden
 
 Diese Informationen wurden von SMART Technologies ULC zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | Delegiert | Daten werden verwendet, um zu überprüfen, ob Gruppenberechtigungen keine Daten gesammelt werden.  | Es werden keine Verzeichnisdaten in einer Datenbank gespeichert. | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
->| Group.Read.All | Delegiert | Welche Gruppe sie sind, wird verwendet, um zu überprüfen, ob sie Teil der Schüler- oder Lehrergruppe sind, um die Funktionalität zu bestimmen. Es werden keine Daten gesammelt.  | Nur gespeicherte Daten sind die eindeutige ID des Clients. | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
+>| Group.Read.All | Delegiert | Welche Gruppe sie als Appart verwenden, wird verwendet, um zu überprüfen, ob sie Teil der Schüler- oder Lehrergruppe sind, um die Funktionalität zu ermitteln. Es werden keine Daten gesammelt.  | Nur gespeicherte Daten sind die eindeutige ID des Clients. | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -69,7 +69,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -98,7 +98,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37582' frameborder='no' style='width: 100%;'></iframe>
 

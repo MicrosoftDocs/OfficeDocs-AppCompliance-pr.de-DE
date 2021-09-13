@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mendeley Cite, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e6fd3ba9f600549aba80beb00738c6bd529eb18b
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58242477"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282698"
 ---
 # <a name="mendeley-cite"></a>Mendeley Cite
 
@@ -29,11 +29,11 @@ ms.locfileid: "58242477"
 
 Von ELSEVIER AUF Microsoft beschränkte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Mendeley Cite |
 | ID | WA104382081 |
-| unterstützte Office 365-Clients | Word on iPad, Word 2016 or later on Windows, Word 2016 or later on Mac, Word im Web |
+| Office 365 unterstützten Clients | Word on iPad, Word 2016 or later on Windows, Word 2016 or later on Mac, Word im Web |
 | Name des Partnerunternehmens | ELSEVIER LIMITED |
 | URL der Partnerwebsite | [https://www.mendeley.com/search/](https://www.mendeley.com/search/) |
 | URL der Datenschutzrichtlinie | [https://www.elsevier.com/legal/privacy-policy](https://www.elsevier.com/legal/privacy-policy) |
@@ -51,7 +51,7 @@ Diese Informationen wurden von ELSEVIER LIMITED darüber bereitgestellt, wie die
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -68,7 +68,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -96,7 +96,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/33852' frameborder='no' style='width: 100%;'></iframe>
 
@@ -112,7 +112,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von ELSEVIER LIMITED darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

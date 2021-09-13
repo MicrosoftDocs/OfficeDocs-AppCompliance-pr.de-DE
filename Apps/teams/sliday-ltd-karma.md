@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Karma, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53524692"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281144"
 ---
 # <a name="karma"></a>Karma
 
@@ -34,7 +34,7 @@ Von Sliday LTD für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Karma |
 | ID | WA104381640 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Sliday LTD |
 | URL der Partnerwebsite | [https://sliday.com](https://sliday.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
@@ -51,9 +51,9 @@ Von Sliday LTD für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Sliday LTD darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -64,7 +64,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -114,7 +114,7 @@ Behandelt vom digitalen Pazifik.
 
 Wir verwenden die zweistufige Authentifizierung, um auf die Systemsteuerung zuzugreifen. Nur 3 Personen haben Zugriff darauf, wir ändern jedes Monat Kennwörter, lassen Zugriffsprotokolle überwacht und stellen sicher, dass Personen, die nicht mehr mit uns arbeiten, ihre Konten von der Plattform entfernt haben.
 
-7. **Stellen Sie das am Ende implementierte Verfahren bereit, um Ihre freigegebenen IDs (z. B. Stamm,Sys, System usw.), Gruppen-IDs (generische Konten, die z. B. von mehreren Personen verwendet werden, die demselben Team angehören) und lokale Konten zu verwalten. Beschreiben, wie Sie die Nutzung privilegierter Konten und den Zugriff auf Sicherheitsgeräte einschränken, protokollieren und überwachen (z. B. Hypervisoren, Firewalls, Sicherheitsrisikoscanner, Netzwerk-Sniffer, APIs usw.), wie Sie sicherstellen, dass Benutzer, die das Team ändern oder verlassen, nicht mehr auf die Gruppen-ID zugreifen können und wie die Nachverfolgbarkeit dieser IDs ist**
+7. **Stellen Sie das am Ende implementierte Verfahren bereit, um Ihre freigegebenen IDs (z. B. Stamm,Sys, System usw.), Gruppen-IDs (generische Konten, die z. B. von mehreren Personen verwendet werden, die zum selben Team gehören) und lokale Konten zu verwalten. Beschreiben, wie Sie die Nutzung privilegierter Konten und den Zugriff auf Sicherheitsgeräte einschränken, protokollieren und überwachen (z. B. Hypervisoren, Firewalls, Sicherheitsrisikoscanner, Netzwerk-Sniffer, APIs usw.), wie Sie sicherstellen, dass Benutzer, die das Team ändern oder verlassen, nicht mehr auf die Gruppen-ID zugreifen können und wie die Nachverfolgbarkeit dieser IDs ist**
 
 Wir verwenden "1Password", um trennbare ID-&#8217;gemeinsam zu verwenden. Wir haben bei jedem Zugriff auf die freigegebene Ressource über ein freigegebenes Kennwortdepot einen separaten Aktivitätsfeed. Es sei denn, es ist absolut erforderlich, dass wir keine freigegebenen Konten verwenden und stattdessen einzelne Konten verwenden. Über eine freigegebene Anmeldung konnten keine Informationen in der Karma-Datenbank aufgerufen werden. 2FA wird verwendet, um auf 1Password zuzugreifen, um eine einzelne Anmeldung abzurufen.
 

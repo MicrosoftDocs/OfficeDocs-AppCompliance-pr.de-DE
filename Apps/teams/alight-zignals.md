@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zignals, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 313529eecfcf1e8e129bb22cb5ee4c7b53b9e2c5
-ms.sourcegitcommit: 90e6c1e10d55dc337c0884b63782cc14cf71b3c8
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58835858"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283079"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -34,8 +34,8 @@ Von Alight für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Zignals |
 | ID | WA200003201 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Steigen |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Alight |
 | URL der Partnerwebsite | [https://www.alight.eu](https://www.alight.eu) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://zignals.eu/zignals-support/](https://zignals.eu/zignals-support/) |
 | URL der Datenschutzrichtlinie | [https://www.zignals.eu/privacy-policy-zignals-for-teams/](https://www.zignals.eu/privacy-policy-zignals-for-teams/) |
@@ -51,14 +51,14 @@ Von Alight für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Alight darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | Delegiert | Für den Bereich &quot; "Meine Besprechungen" &quot; erhalten wir die Besprechungen des Benutzers heute und morgen. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Sites.ReadWrite.All | Delegiert | Wir rufen alle SharePoint Websites des Benutzers ab und zeigen sie im Bereich &quot; "Meine Teamarbeit" &quot; an, und wir erhalten alle SharePoint Aufgaben des Benutzers und zeigen sie im Bereich &quot; "Meine Aufgaben" &quot; an. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| Sites.ReadWrite.All | Delegiert | Wir rufen alle SharePoint Websites des Benutzers ab und zeigen sie im Bereich &quot; "Meine Teamarbeit" an, und wir erhalten alle SharePoint Aufgaben des &quot; Benutzers und zeigen sie im Bereich &quot; "Meine Aufgaben" &quot; an. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| Tasks.ReadWrite | Delegiert | Wir lesen den Planner des Benutzers und To Do Aufgaben und zeigen diese im Bereich &quot; "Meine Aufgaben" &quot; an. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| Team.ReadBasic.All | Delegiert | Wir rufen die verbundenen Teams des Benutzers auf und zeigen sie im &quot; Bereich "Meine Teamarbeit" &quot; an. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| User.ReadBasic.All | Delegiert | Im &quot; Bereich "Meine &quot; Dokumente" wird der Benutzer angezeigt, der zusammenarbeiten konnte. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
@@ -73,7 +73,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -106,7 +106,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 

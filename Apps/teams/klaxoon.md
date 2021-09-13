@@ -6,14 +6,14 @@ ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Klausxoon, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 146f6faa9874719bdf42397f8419ced0415a8add
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Klaxoon, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: f5d9091c7fadda0517988d9860e87fec410c1ae4
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873450"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282989"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
@@ -34,7 +34,7 @@ Informationen, die Von Klausxoon an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Klaxoon |
 | ID | WA104382058 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Klaxoon |
 | URL der Partnerwebsite | [https://klaxoon.com](https://klaxoon.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://klaxoon.com](https://klaxoon.com) |
@@ -53,12 +53,12 @@ Diese Informationen wurden von Klausxoon darüber bereitgestellt, wie diese App 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

@@ -6,16 +6,16 @@ ms.date: 06/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Tool "Centers", seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für das Tool Für die Verarbeitung von Daten, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: b73351d77f68cf00b904d95336f83d8089095791
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404576"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281480"
 ---
-# <a name="kanban-tool"></a>Tool "Aus dem Werkzeug"
+# <a name="kanban-tool"></a>Kanban Tool
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -30,11 +30,11 @@ ms.locfileid: "58404576"
 
 Von Labs für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Tool "Aus dem Werkzeug" |
+| App-Name | Kanban Tool |
 | ID | WA200002121 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Shore Labs |
 | URL der Partnerwebsite | [https://www.shorelabs.com](https://www.shorelabs.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://kanbantool.com](https://kanbantool.com) |
@@ -51,7 +51,7 @@ Von Labs für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Labs zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -61,8 +61,8 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| Team.ReadBasic.All | Delegiert | Bezeichner und Namen der Teams, bei denen der Benutzer ein direktes Mitglied ist. Sie werden verwendet, um Benutzern automatisch die richtigen Gruppen im Tool "Werkzeug" zuzuweisen. | Teambezeichner und Namen, bei denen der angemeldete Benutzer ein direktes Mitglied ist, werden Gruppen im Tool "Gif" zugeordnet. Dies ermöglicht die gruppenbasierte Zugriffsverwaltung und Freigabe von Boards zwischen verschiedenen Teams in derselben Organisation. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| User.Read | Delegiert | Grundlegende Unternehmensinformationen von angemeldeten Benutzern. Es wird verwendet, um die Kontodetails für neue Konten aufzufüllen und Benutzer zu erkennen, die zu Ihrer Organisation gehören, um Funktionen für einzelne Sign-On bereitzustellen. | Name und ein eindeutiger Microsoft-Bezeichner Ihrer Organisation. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| offline_access | Delegiert | Ermöglicht die Funktion "Anmelden mit Microsoft" und die Synchronisierung von Daten, auf die Sie der App Zugriff gewährt haben, nach der Anmeldung des Benutzers. | Behalten Sie den Zugriff auf die Daten bei, auf die Sie ihr Zugriff gewährt haben. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| openid | Delegiert | Öffnen Sie ID-Token, die es Benutzern ermöglichen, sich mit ihren Geschäfts-, Schul- oder Unikonten über die Schaltfläche "Bei Microsoft anmelden" bei der App anzumelden. | Ein unveränderlicher Bezeichner für ein Benutzerkonto im Microsoft-Identitätssystem. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| Profil | Delegiert | Benutzername zum automatischen Auffüllen im Tool "Werkzeuge" und Synchronisierung mit Änderungen in Microsoft Teams. | Der vollständige Name des Benutzers. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| openid | Delegiert | Öffnen Sie ID-Token, die es Benutzern ermöglichen, sich mit ihren Geschäfts-, Schul- oder Unikonten über die Schaltfläche "Bei Microsoft anmelden" bei der App anzumelden. | Ein unveränderlicher Bezeichner für ein Benutzerkonto im Microsoft Identity System. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| Profil | Delegiert | Benutzername zum automatischen Auffüllen im "Werkzeug" und Synchronisierung mit Änderungen in Microsoft Teams. | Der vollständige Name des Benutzers. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -75,7 +75,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -120,7 +120,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Labs zur Verfügung gestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |

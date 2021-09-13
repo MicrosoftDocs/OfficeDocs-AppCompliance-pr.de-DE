@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Quantum Workplace, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: b3001fd41b428687dce89807b43361505b3c667e
-ms.sourcegitcommit: 3621f286e5bbd52acf5e0d9c8e4287fcc8c15e38
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567296"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282536"
 ---
 # <a name="quantum-workplace"></a>Quantum Workplace
 
@@ -29,11 +29,11 @@ ms.locfileid: "58567296"
 
 Von Quantum Workplace für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Quantum Workplace |
 | ID | WA104381747 |
-| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf mac, Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
 | Name des Partnerunternehmens | Quantum Workplace |
 | URL der Partnerwebsite | [https://www.quantumworkplace.com](https://www.quantumworkplace.com) |
 | URL der Datenschutzrichtlinie | [https://www.quantumworkplace.com/privacy-policy](https://www.quantumworkplace.com/privacy-policy) |
@@ -51,19 +51,19 @@ Diese Informationen wurden von Quantum Workplace darüber bereitgestellt, wie di
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | Anwendung | ChatId wird verwendet. | Keine gespeichert | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
->| User.Read.All | Anwendung | User.Id (Gespeichert) – wird verwendet, um Benutzer zu korrelieren, die an unseren Bot-Endpunkt gesendet werden; User.UserPrincipalName (nicht gespeichert) – derzeit nicht verwendet; User.Mail (Not Stored) – Wird verwendet, um Benutzer in unserem System mit ihrer AzureAD-ID zuzuordnen, die wir speichern. | User.ID gespeichert wird, wird verwendet, um Benutzer zu korrelieren, die an unseren Bot-Endpunkt gesendet wurden. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
+>| User.Read.All | Anwendung | User.Id (Gespeichert) – wird verwendet, um Benutzer zu korrelieren, die an unseren Bot-Endpunkt gesendet werden; User.UserPrincipalName (nicht gespeichert) – derzeit nicht verwendet; User.Mail (Not Stored) – Wird verwendet, um Benutzer in unserem System mit ihrer AzureAD-ID zuzuordnen, die wir speichern. | User.ID gespeichert wird, wird verwendet, um Benutzer zu korrelieren, die an unseren Bot-Endpunkt gesendet werden. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -107,10 +107,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Quantum Workplace darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | MFA (mehrstufige Authentifizierung) |

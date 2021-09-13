@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Sammlungs-Pot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 64d48d55cdbb437697f6d001636ed505b4fcbc59
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53609996"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282803"
 ---
 # <a name="collection-pot"></a>Sammlungs-Pot
 
@@ -35,7 +35,7 @@ Informationen, die von "Beschenkt" an Sie beschränkt auf Microsoft bereitgestel
 | App-Name | Sammlungs-Pot |
 | ID | WA200002016 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Beschenkt für Sie (beschränkt) |
+| Name des Partnerunternehmens | Verschenkt an Sie – begrenzt |
 | URL der Partnerwebsite | [https://www.collectionpot.com](https://www.collectionpot.com) |
 | URL der Datenschutzrichtlinie | [https://www.collectionpot.com/privacy/](https://www.collectionpot.com/privacy/) |
 | URL der Nutzungsbedingungen | [https://www.collectionpot.com/terms-of-service/](https://www.collectionpot.com/terms-of-service/) |
@@ -52,12 +52,12 @@ Diese Informationen wurden von "Gifted to You Limited" bereitgestellt, um zu erf
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -94,7 +94,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41842' frameborder='no' style='width: 100%;'></iframe>
 

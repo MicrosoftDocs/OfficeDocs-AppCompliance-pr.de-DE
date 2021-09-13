@@ -9,13 +9,13 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Cloud Effective, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 44aebe1c15b2c4ef16f485dc22b82f8bee8e9a00
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404564"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281327"
 ---
-# <a name="cloud-effective"></a>Cloud effektiv
+# <a name="cloud-effective"></a>Cloud Effective
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -30,12 +30,12 @@ ms.locfileid: "58404564"
 
 Informationen, die von Der Cloud effektiv für Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Cloud effektiv |
+| App-Name | Cloud Effective |
 | ID | WA200002408 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Cloud effektiv |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Cloud Effective |
 | URL der Partnerwebsite | [https://CloudEffective.com](https://CloudEffective.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://cloudeffective.com/products-pricing](https://cloudeffective.com/products-pricing) |
 | URL der Datenschutzrichtlinie | [https://cloudeffective.com/privacy-policy/](https://cloudeffective.com/privacy-policy/) |
@@ -53,14 +53,14 @@ Diese Informationen wurden von Cloud Effective darüber bereitgestellt, wie dies
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.ReadWrite.All | Delegiert | Synchronisieren Sie Teamnamen und -mitglieder, um sicherzustellen, dass Teammitglieder aus MS-Teams den gleichen Zugriff auf das entsprechende Team in Cloud Effective haben.  | Name, Titel und E-Mail-Adresse des Benutzerprofils, damit Benutzer sowohl in Teams als auch in Cloud Effective identifizierbar und korrelierbar sind.  | [50356ee3-b48b-424b-a7a7-35e53c2ce736](https://docs.microsoft.com/microsoft-365-app-certification/azure/50356ee3-b48b-424b-a7a7-35e53c2ce736) |
+>| User.ReadWrite.All | Delegiert | Synchronisieren Sie Teamnamen und -mitglieder, um sicherzustellen, dass Teammitglieder aus MS-Teams den gleichen Zugriff auf das entsprechende Team in Cloud Effective haben.  | Benutzerprofilname, Titel und E-Mail-Adresse, damit Benutzer sowohl in Teams als auch in Cloud Effective identifizierbar und korrelierbar sind.  | [50356ee3-b48b-424b-a7a7-35e53c2ce736](https://docs.microsoft.com/microsoft-365-app-certification/azure/50356ee3-b48b-424b-a7a7-35e53c2ce736) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -68,7 +68,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -113,7 +113,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Cloud Effective darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

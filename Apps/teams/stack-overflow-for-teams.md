@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Stack Overflow für Teams, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 7ea59acc5a3a85fd8ad827947c117266e95901fd
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528241"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283643"
 ---
 # <a name="stack-overflow-for-teams"></a>Stack Overflow for Teams
 
@@ -50,9 +50,9 @@ Von Stack Overflow für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Stack Overflow bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -76,15 +76,15 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Nein. Die Zuordnung des MS-Teams-Benutzers und des SO-Teams-Benutzers erfolgt im SO-Teams Produkt.
+>Nein. Die Zuordnung des MS Teams-Benutzers und des SO-Teams-Benutzers erfolgt im SO-Teams Produkt.
 MS Teams sendet uns seine identifizierbaren IDs, und wir speichern diese intern, um den Benutzer zuzuordnen.
-Darüber hinaus sendet ms Teams uns ein JWT für Bot-Anforderungen (verhindert Dies verhindert die Anforderungsgundanz) und Tab-Anforderungen überprüfen die Verwendung des SO-Cookies.
+Darüber hinaus sendet MS Teams uns ein JWT für Bot-Anforderungen (verhindert Dies ist die Anforderungszweitergabe) und Tab-Anforderungen überprüfen mithilfe des SO-Cookies.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wir erstellen unser Sicherheitsprogramm basierend auf iso27001. Daten werden logisch in ein eigenes SQL schema aufgeteilt und in einer separaten Datenbankgruppe gespeichert. Ihre Daten werden in einem logisch separaten Datenspeicher gespeichert, auf den nur durch Anfragen für Ihr Team zugegriffen werden kann.
+>Wir erstellen unser Sicherheitsprogramm basierend auf iso27001. Daten werden logisch in ihr eigenes SQL schema unterteilt und in einem separaten Datenbanksatz gespeichert. Ihre Daten werden in einem logisch separaten Datenspeicher gespeichert, auf den nur durch Anfragen für Ihr Team zugegriffen werden kann.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 

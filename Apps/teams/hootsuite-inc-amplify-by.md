@@ -6,16 +6,16 @@ ms.date: 08/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen zur Verstärkung durch Hootsuite, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen zur Verstärkung durch Hootsuite, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 511693fe2d9c32e3e611fbec8c55045199e83c68
-ms.sourcegitcommit: a905d46054853025c0366c5e2efbe2139a4682d9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632363"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283568"
 ---
-# <a name="amplify-by-hootsuite"></a>Vergrößern durch Hootsuite
+# <a name="amplify-by-hootsuite"></a>Verstärkung von Hootsuite
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -30,12 +30,12 @@ ms.locfileid: "58632363"
 
 Von Hootsuite Inc. für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Vergrößern durch Hootsuite |
+| App-Name | Verstärkung von Hootsuite |
 | ID | WA200003153 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Hootsuite Inc. |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Hootsuite, Inc. |
 | URL der Partnerwebsite | [https://www.hootsuite.com](https://www.hootsuite.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.hootsuite.com/about/contact-us](https://www.hootsuite.com/about/contact-us) |
 | URL der Datenschutzrichtlinie | [https://www.hootsuite.com/legal/privacy](https://www.hootsuite.com/legal/privacy) |
@@ -51,7 +51,7 @@ Von Hootsuite Inc. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Hootsuite Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -111,7 +111,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Hootsuite Inc. darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

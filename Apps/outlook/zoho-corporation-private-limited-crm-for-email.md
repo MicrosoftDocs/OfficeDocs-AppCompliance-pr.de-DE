@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoho CRM für E-Mails, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 70b8cb54057dfb9c08068a444127bc78e736c84c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527881"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283361"
 ---
 # <a name="zoho-crm-for-email"></a>Zoho CRM für E-Mails
 
@@ -33,7 +33,7 @@ Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informatione
 |:----------------|:-------------|
 | App-Name | Zoho CRM für E-Mails |
 | ID | WA104379468 |
-| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
 | Name des Partnerunternehmens | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL der Datenschutzrichtlinie | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
@@ -51,12 +51,12 @@ Diese Informationen wurden von Zoho Corporation Private Limited zur Verfügung g
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Die Kalenderordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kalenderinformationen wie event_name, event_location participant_details werden gespeichert. | Ermöglicht dem Benutzer, Office365-Ereignisse mit Zoho CRM zu synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Contacts.ReadWrite | Delegiert | Die Kontaktordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kontaktinformationen wie first_name, last_name und E-Mail-Adressen werden gespeichert. | Ermöglicht es dem Benutzer, Office365-Kontakte mit Zoho CRM zu synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Calendars.ReadWrite | Delegiert | Die Kalenderordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kalenderinformationen wie event_name, event_location und participant_details werden gespeichert. | Ermöglicht dem Benutzer, Office365-Ereignisse mit Zoho CRM zu synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | Delegiert | Die Kontaktordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kontaktinformationen wie first_name, last_name und E-Mail-Adresse werden gespeichert. | Ermöglicht es dem Benutzer, Office365-Kontakte mit Zoho CRM zu synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 >| Files.Read | Delegiert |  | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 >| Files.Read.All | Delegiert |  | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 >| Files.Read.Selected | Delegiert | UserPrincipalName wird zur Benutzeridentifikation gespeichert. | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Smart Verbinden für Jira, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: a4a5a1ad980bba5214811bea5d981a1705ec4f1f
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528029"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283514"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -21,7 +21,7 @@ ms.locfileid: "53528029"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: July 21, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/6402de97-ce33-4386-bf28-b37e9e139c09" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/6402de97-ce33-4386-bf28-b37e9e139c09" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002055" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von yasoon GmbH für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Smart Connect for Jira |
 | ID | WA200002055 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | yasoon GmbH |
 | URL der Partnerwebsite | [https://www.yasoon.com](https://www.yasoon.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
@@ -53,7 +53,7 @@ Diese Informationen wurden von yasoon GmbH zur Verfügung gestellt, wie diese Ap
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -74,11 +74,11 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Atlassian Jira und möglicherweise einer unserer Vertragsnehmer sind hier zu sehen: https://go.yasoon.com/contractors | Nachrichtenmetadaten (IDs, Zeitstempel), Benutzer- und Organisationsmetadaten (Benutzer-IDs, Organisations-IDs) und E-Mail-Adressen des Benutzers | Unterstützung der App-Funktionalität (z. B. Abgleichen von Atlassian-Konten mit Office-Konten) und Ermöglichen unserer Unterstützung, Probleme schneller zu beheben. |
+>| Atlassian Jira und möglicherweise einer unserer Vertragsnehmer sind hier zu sehen: https://go.yasoon.com/contractors | Nachrichtenmetadaten (IDs, Zeitstempel), Benutzer- und Organisationsmetadaten (Benutzer-IDs, Organisations-IDs) und E-Mail-Adressen des Benutzers | Unterstützung der App-Funktionalität (z. B. Abgleich von Atlassian-Konten mit Office Konten) und Ermöglichen unserer Unterstützung, Probleme schneller zu beheben. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|

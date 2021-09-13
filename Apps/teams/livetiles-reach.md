@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Reach, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: d188c61f6f87dbe528219d82f1b58477b184da8a
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521464"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282479"
 ---
 # <a name="reach"></a>Reach
 
@@ -51,24 +51,24 @@ Von LiveTiles für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von LiveTiles darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsActivity.Send | Anwendung | keine | Keine | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7c1920d-3ac0-42db-9757-078a2b321fd8 ) |
 >| User.Read | Delegiert | User DisplayName, User Email Address, UPN. Erforderlich, damit sich Benutzer bei der App anmelden und grundlegende Informationen des angemeldeten Benutzers abrufen können, z. B. den Anzeigenamen. Die E-Mail-Adresse wird zum Senden von E-Mail-Benachrichtigungen verwendet.  | User DisplayName, User Email Address, UPN. Erforderlich, damit sich Benutzer bei der App anmelden und grundlegende Informationen des angemeldeten Benutzers abrufen können, z. B. den Anzeigenamen. Die E-Mail-Adresse wird zum Senden von E-Mail-Benachrichtigungen verwendet.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
->| User.ReadBasic.All | Delegiert | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefon Number, User Business Telefon Number, User Office Location. Erforderlich, damit Benutzer in der App nach anderen Benutzern suchen (Phonebook) und die grundlegenden Profil- und Kontaktinformationen anderer Benutzer anzeigen können.  | keine | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
+>| User.ReadBasic.All | Delegiert | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefon Number, User Business Telefon Number, User Office Location. Erforderlich, damit Benutzer in der App nach anderen Benutzern suchen (Phonebook) und die grundlegenden Profil- und Kontaktinformationen anderer Benutzer anzeigen können.  | Keine | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
 >| Directory.Read.All | Anwendung | Gruppenmitgliedschaft, AD-Gruppen im Verzeichnis. Die Gruppenmitgliedschaft von Benutzern wird in einem Cache gespeichert, um Aufrufe der Microsoft Graph-API zu minimieren. Erforderlich, damit Benutzer nach Active Directory-Gruppen suchen können. Darüber hinaus ist diese Berechtigung erforderlich, damit die Anwendung die AD-Gruppenmitgliedschaft von Benutzern in Webaufträgen des Back-Ends auflösen kann. | Gruppenmitgliedschaft von Benutzern. Die Gruppenmitgliedschaft von Benutzern wird in einem Cache gespeichert, um Aufrufe der Microsoft Graph-API zu minimieren. Erforderlich, damit Benutzer nach Active Directory-Gruppen suchen können. Darüber hinaus ist diese Berechtigung erforderlich, damit die Anwendung die AD-Gruppenmitgliedschaft von Benutzern in Webaufträgen des Back-Ends auflösen kann.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
->| User.Read.All | Anwendung | Die aus dem Benutzerprofil abgerufenen Daten hängen von der in der App angegebenen Konfiguration des Zielgruppenadressierungsfeatures ab. Erforderlich, damit die App Benutzerprofile ohne einen angemeldeten Benutzer lesen kann. Das Lesen von Profildaten ist für das Feature für die Informationsadressierung innerhalb der Anwendung erforderlich, damit die Informationen basierend auf einem bestimmten Profileigenschaftenwert für bestimmte Benutzer angezeigt werden.  | keine | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
+>| User.Read.All | Anwendung | Die aus dem Benutzerprofil abgerufenen Daten hängen von der in der App angegebenen Konfiguration des Zielgruppenadressierungsfeatures ab. Erforderlich, damit die App Benutzerprofile ohne einen angemeldeten Benutzer lesen kann. Das Lesen von Profildaten ist für das Feature für die Informationsadressierung innerhalb der Anwendung erforderlich, damit die Informationen basierend auf einem bestimmten Profileigenschaftenwert für bestimmte Benutzer angezeigt werden.  | Keine | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| SendGrid, OneSignal | E-Mail-Adresse, Anzeigename | Senden von Benachrichtigungen an Benutzer per E-Mail und mobilen Pushbenachrichtigungen |
 

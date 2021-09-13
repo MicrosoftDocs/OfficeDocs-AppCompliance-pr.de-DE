@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Gruppenadressbuch – NextSet, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 1fe6aa3843708b6fac9f9688575708355d43d6a5
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404506"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282968"
 ---
 # <a name="group-address-book---nextset"></a>Gruppenadressbuch – NextSet
 
@@ -30,11 +30,11 @@ ms.locfileid: "58404506"
 
 Von NextSet,Inc. für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Gruppenadressbuch – NextSet |
 | ID | WA200001863 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | NextSet,Inc. |
 | URL der Partnerwebsite | [https://www.nextset.co.jp](https://www.nextset.co.jp) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.nextset.co.jp/address.html](https://www.nextset.co.jp/address.html) |
@@ -53,27 +53,27 @@ Diese Informationen wurden von NextSet, Inc. bereitgestellt, wie diese App Organ
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | Delegiert | Microsoft 365&#19978;&#12398;&#32068;&#32340;&#12434;&#21462;&#24471;&#12375;&#12484;&#12522;&#12540;&#24418;&#24335;&#12391;&#34920;&#31034;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#32068;&#32340;&#12484;&#12522;&#12540;&#24773;&#22577;&#12434;&#32032;&#26089;&#12367;&#34920;&#31034;&#12377;&#12427;&#12383;&#12417;&#12395;&#12471;&#12473;&#12486;&#12512;&#12398;&#12487;&#12540;&#12479;&#12473;&#12488;&#12450;&#12395;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [53d19d16-137b-4365-a095-685d5044d28c](https://docs.microsoft.com/microsoft-365-app-certification/azure/53d19d16-137b-4365-a095-685d5044d28c) |
 >| User.Read.All | Beide | Microsoft 365&#19978;&#12398;&#32068;&#32340;&#12395;&#25152;&#23646;&#12377;&#12427;&#12518;&#12540;&#12470;&#12540;&#19968;&#35239;&#12434;&#34920;&#31034;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#32068;&#32340;&#12484;&#12522;&#12540;&#24773;&#22577;&#12434;&#32032;&#26089;&#12367;&#34920;&#31034;&#12377;&#12427;&#12383;&#12417;&#12395;&#12471;&#12473;&#12486;&#12512;&#12398;&#12487;&#12540;&#12479;&#12473;&#12488;&#12450;&#12395;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [53d19d16-137b-4365-a095-685d5044d28c](https://docs.microsoft.com/microsoft-365-app-certification/azure/53d19d16-137b-4365-a095-685d5044d28c) |
->| openid | Delegiert | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;-ID-&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;-ID-&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [53d19d16-137b-4365-a095-685d5044d28c](https://docs.microsoft.com/microsoft-365-app-certification/azure/53d19d16-137b-4365-a095-685d5044d28c) |
+>| openid | Delegiert | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;-ID-&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;ID-&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [53d19d16-137b-4365-a095-685d5044d28c](https://docs.microsoft.com/microsoft-365-app-certification/azure/53d19d16-137b-4365-a095-685d5044d28c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche andere Microsoft-APIs als Microsoft Graph verwenden, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange Online PowerShell, 365 PowerShell | Ja | 365&#12398;&#12464;&#12523;&#12540;&#12503;&#12420;&#12518;&#12540;&#12470;&#12540;&#24773;&#22577;&#12398;&#12484;&#12522;&#12540; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; | &#32068;&#32340;&#21517;&#12420;ID&#12289;&#12518;&#12540;&#12470;&#12540;&#21517;&#12420;ID&#12289;&#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#12408;&#12398;&#25152;&#23646;&#27083;&#25104; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#32068;&#32340;&#20869;&#12398;&#36899;&#32097;&#20808;&#12398;&#12484;&#12522;&#12540;&#34920;&#31034;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht-Microsoft-Dienste werden nicht verwendet.
+>Nicht Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -106,7 +106,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
@@ -122,10 +122,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von NextSet, Inc. bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -133,7 +133,7 @@ Diese Informationen wurden von NextSet, Inc. bereitgestellt, wie diese App die A
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |

@@ -6,16 +6,16 @@ ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für LinkAufsteller, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für LinkAufsteller, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 8a6c2ee716c7e07686e2c62e1cd79196acbdc5a3
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407536"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59281309"
 ---
-# <a name="link-spotter"></a>LinkListener
+# <a name="link-spotter"></a>Link Spotter
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -30,12 +30,12 @@ ms.locfileid: "58407536"
 
 Informationen, die von Communarray-Produkten für Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | LinkListener |
+| App-Name | Link Spotter |
 | ID | WA200003092 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Commundot-Produkte |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Communardo Products |
 | URL der Partnerwebsite | [https://www.communardo.com](https://www.communardo.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://communardo.atlassian.net/wiki/spaces/LINK/overview](https://communardo.atlassian.net/wiki/spaces/LINK/overview) |
 | URL der Datenschutzrichtlinie | [https://www.communardo.com/privacy-statement/](https://www.communardo.com/privacy-statement/) |
@@ -53,19 +53,19 @@ Diese Informationen wurden von Communverständnis-Produkten bereitgestellt, wie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | Delegiert | Überprüfen der Kanalmitgliedschaft des aktuellen Benutzers | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| ChannelMessage.Read.All | Anwendung | Urls innerhalb von Nachrichten, Nachrichten-ID, Antwort-zu-Nachrichten-ID, Kanal-ID, Autor-ID... Diese Informationen sind erforderlich, da Graph keine leistungsfähige Möglichkeit bietet, alle in Nachrichten in einem Kanal veröffentlichten Links abzurufen. Daher müssen Nachrichten aktiv analysiert werden, um die Linkfunktionalität auf unserer Registerkarte Teams bereitzustellen. | Urls innerhalb von Nachrichten, Nachrichten-ID, Antwort-zu-Nachrichten-ID, Kanal-ID, Autor-ID | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| User.Read.All | Anwendung | Bestimmen Sie, wie viele Benutzer über eine Teams Lizenz verfügen. Wird verwendet, um die Platzgröße des kostenpflichtigen App-Quellabonnements für den Kundenmandanten zu aktualisieren. | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| User.ReadBasic.All | Delegiert | Anzeigen des Profilbilds und des Namens des Nachrichtenautors in der App | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| Channel.ReadBasic.All | Delegiert | Überprüfen der Kanalmitgliedschaft des aktuellen Benutzers | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| ChannelMessage.Read.All | Anwendung | Urls innerhalb von Nachrichten, Nachrichten-ID, Antwort-zu-Nachrichten-ID, Kanal-ID, Autor-ID... Diese Informationen sind erforderlich, da Graph keine leistungsfähige Möglichkeit bietet, alle links, die in Nachrichten in einem Kanal veröffentlicht wurden, abzurufen. Daher müssen Nachrichten aktiv analysiert werden, um die Linkfunktionalität auf unserer Registerkarte Teams bereitzustellen. | Urls innerhalb von Nachrichten, Nachrichten-ID, Antwort-zu-Nachrichten-ID, Kanal-ID, Autor-ID | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| User.Read.All | Anwendung | Bestimmen Sie, wie viele Benutzer über eine Teams-Lizenz verfügen. Wird verwendet, um die Platzgröße des kostenpflichtigen App-Quellabonnements für den Kundenmandanten zu aktualisieren. | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| User.ReadBasic.All | Delegiert | Anzeigen des Profilbilds und des Namens des Nachrichtenautors in der App | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| email | Delegiert | OpenID Connect | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| offline_access | Delegiert | OpenID Connect | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| offline_access | Delegiert | OpenID Connect | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| openid | Delegiert | OpenID Connect | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| Profil | Delegiert | OpenID Connect | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| Profil | Delegiert | OpenID Connect | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
@@ -75,7 +75,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Marketplace-API (SaaS-Erfüllungs-API) | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -83,7 +83,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -128,10 +128,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Commun über die Behandlung von Authentifizierung, Autorisierung, bewährten Methoden für die Anwendungsregistrierung und andere Identitätskriterien durch diese App bereitgestellt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -139,7 +139,7 @@ Diese Informationen wurden von Commun über die Behandlung von Authentifizierung
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |

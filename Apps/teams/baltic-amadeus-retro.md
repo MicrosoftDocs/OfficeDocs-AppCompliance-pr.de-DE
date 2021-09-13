@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Denz, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2ccca5bd5160eb1772245841df037d2033f58881
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527621"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282524"
 ---
 # <a name="retro"></a>Retro
 
@@ -48,11 +48,11 @@ Informationen, die von Der Baltisch für Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Der baltisch-baltisch-benutzerdefinierten Abteilung bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Der baltisch-balktischen Abteilung bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -61,7 +61,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Die Webanwendung verfügt über eine eigene Web-API, die nicht als Microsoft-Dienst betrachtet wird. Wie bereits erwähnt, werden E-Mail und Fullname zur Identifizierung und zu geeigneten Inhaltsanzeigezwecken gespeichert. Diese Daten werden an keiner anderen Stelle gesendet. Darüber hinaus verfügt Einer über eine optionale Funktionalität zum Exportieren von Sprintdaten in den Atlassian-Zusammenflussbereich. Dazu muss der Benutzer den Zugehörigen Benutzernamen und das Kennwort eingeben. Diese Daten werden nur verwendet, um authentifizierte Anforderungen an die Confluence-API im Namen des Benutzers zu senden, und sie werden nicht gespeichert oder an einer beliebigen Stelle protokolliert. |  | Der Besitzer verfügt über eine eigene Web-API, die auch in Azure registriert ist. Um sie verwenden zu können, muss der Benutzer über die Microsoft Identity Platform authentifiziert werden. Der Benutzer muss authentifiziert werden, damit die App benutzerspezifische Inhalte servern kann. |
 
@@ -71,7 +71,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Bot greift auf die Liste zu, um zu überprüfen, welches Mitglied dem Team beigetreten ist oder dieses verlassen hat. Basierend darauf wird dieser Benutzer entweder aus dem Projekt hinzugefügt oder deaktiviert, sodass der Benutzer nicht mehr in der Liste der Sprintteilnehmer angezeigt wird. | E-Mails und FullName sind miteinander verknüpft und werden in der Datenbank gespeichert. E-Mails werden für die Benutzeridentifikation verwendet, um geeignete Inhalte für den angemeldeten Benutzer anzuzeigen. FullName wird zum Anzeigen von Veröffentlichungen verwendet, damit andere Benutzer wissen können, für wen sie Feedback auswerten oder schreiben.  |  |
+>| Bot greift auf die Liste zu, um zu überprüfen, welches Mitglied dem Team beigetreten ist oder dieses verlassen hat. Basierend darauf wird dieser Benutzer entweder aus dem Projekt hinzugefügt oder deaktiviert, sodass der Benutzer nicht mehr in der Liste der Sprintteilnehmer angezeigt wird. | E-Mails und FullName sind miteinander verknüpft und werden in der Datenbank gespeichert. E-Mails werden für die Benutzeridentifikation verwendet, um geeignete Inhalte für den angemeldeten Benutzer anzuzeigen. FullName wird zum Anzeigen von Bestätigungen verwendet, damit andere Benutzer wissen können, für wen sie Feedback auswerten oder schreiben.  |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten

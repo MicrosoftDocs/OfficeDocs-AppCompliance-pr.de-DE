@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für officeatwork-| Bildauswahl für Office von Officeatwork
+title: Anwendungsinformationen für Officeatwork-| Bildauswahl für Office nach Officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Bildauswahl für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Image Chooser for Office, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 1771077916652e6323145a12833277e538f14e02
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526511"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283109"
 ---
 # <a name="officeatwork--image-chooser-for-office"></a>officeatwork | Bildauswahl für Office
 
@@ -33,7 +33,7 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – Bildauswahl für Office |
 | ID | WA200002683 |
-| unterstützte Office 365-Clients | Excel auf iPad, Excel 2016 oder höher auf mac, Excel 2013 Service Pack 1 oder höher auf Windows, Excel im Web, Word auf iPad, Word 2016 oder höher auf Mac, Word im Web, Word 2013 Service Pack 1 oder höher auf Windows, PowerPoint auf iPad, PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2013 Service Pack 1 oder höher auf Windows, OneNote im Web |
+| Office 365 unterstützten Clients | Excel auf iPad, Excel 2016 oder höher auf dem Mac Excel 2013 Service Pack 1 oder höher auf Windows, Excel im Web, Word auf iPad, Word 2016 oder höher auf Mac, Word im Web, Word 2013 Service Pack 1 oder höher auf Windows, PowerPoint auf iPad, PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2013 Service Pack 1 oder höher auf Windows, OneNote im Web |
 | Name des Partnerunternehmens | officeatwork |
 | URL der Partnerwebsite | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | URL der Datenschutzrichtlinie | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -51,7 +51,7 @@ Diese Informationen wurden von Office-Mitarbeitern darüber bereitgestellt, wie 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -68,7 +68,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|

@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Complish, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: d9cd325ef8585b5cdc6da00f4f0f40a306cf1b21
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987789"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283887"
 ---
 # <a name="complish"></a>Complish
 
@@ -34,8 +34,8 @@ Informationen, die von DerZey Pty Ltd. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Complish |
 | ID | WA200001641 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Trapzey Pty Ltd |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Cauzey Pty Ltd |
 | URL der Partnerwebsite | [https://www.complish.app](https://www.complish.app) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.complish.app](https://www.complish.app) |
 | URL der Datenschutzrichtlinie | [https://www.complish.app/privacy-policy](https://www.complish.app/privacy-policy) |
@@ -51,14 +51,14 @@ Informationen, die von DerZey Pty Ltd. an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von DerUmsetzey Pty Ltd. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -81,7 +81,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->–
+>Nicht zutreffend
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -95,7 +95,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39734' frameborder='no' style='width: 100%;'></iframe>
 

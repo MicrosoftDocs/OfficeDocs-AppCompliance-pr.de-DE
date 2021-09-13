@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2f074d098f4a1819a7c5b2236e5e1a6e957f884c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527581"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282464"
 ---
 # <a name="lucidchart"></a>Lucidchart
 
@@ -34,7 +34,7 @@ Von Lucid Software für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Lucidchart |
 | ID | WA104381935 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Lucid Software |
 | URL der Partnerwebsite | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://lucidchart.zendesk.com/](https://lucidchart.zendesk.com/) |
@@ -51,9 +51,9 @@ Von Lucid Software für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Lucid Software dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -63,19 +63,19 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, können zusätzliche microsoft-APIs außer Microsoft Graph verwenden, um Organisationsdaten zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| JavaScript-API für Office | Ja | Wir verwenden das Office OneDrive Javascript SDK aus, um die OneDrive Dateiauswahl mit OneDrive.open() zu öffnen. Wir generieren keine Zugriffstoken und stellen keine Anforderungen an die APIs von OneDrive; das OneDrive Dateiauswahl-SDK erledigt dies für uns. Es werden nur die Dateinamen angezeigt, die der Benutzer auswählt. |  | Wenn der Benutzer eine Datei mithilfe der OneDrive Dateiauswahl auswählt, wird der Dateiname gespeichert. |  |
+>| JavaScript-API für Office | Ja | Wir verwenden das Office OneDrive Javascript SDK von, um die OneDrive Dateiauswahl mit OneDrive.open() zu öffnen. Wir generieren keine Zugriffstoken und stellen keine Anforderungen an die APIs von OneDrive; das OneDrive Dateiauswahl-SDK erledigt dies für uns. Es werden nur die Dateinamen angezeigt, die der Benutzer auswählt. |  | Wenn der Benutzer eine Datei mithilfe der OneDrive Dateiauswahl auswählt, wird der Dateiname gespeichert. |  |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Lucidchart-Daten werden in AWS gespeichert. |  | Wir verwenden keine Microsoft-APIs. Wir verwenden openID, um grundlegende Benutzerdaten zum Ausführen von SSO abzurufen. Wir verwenden die Dateiauswahl-API, aber dadurch erhalten wir keinen Zugriff auf die Dateien des Benutzers, die sie über die Auswahl an uns übermitteln. |
+>| Lucidchart-Daten werden in AWS gespeichert. |  | Wir verwenden keine Microsoft-APIs. Wir verwenden openID, um grundlegende Benutzerdaten zum Ausführen von SSO abzurufen. Wir verwenden die Dateiauswahl-API, aber dadurch erhalten wir keinen Zugriff auf die Dateien des Benutzers, außer auf die Dateien, die sie über die Auswahl an uns übermitteln. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 

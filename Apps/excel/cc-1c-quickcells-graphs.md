@@ -9,11 +9,11 @@ certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für QuickCells Graphs, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 7db491204c22eb49eb155d29e7656c61a1721c2d
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281187"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59282590"
 ---
 # <a name="quickcells-graphs"></a>QuickCells-Diagramme
 
@@ -33,7 +33,7 @@ Von CC-1C für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | QuickCells-Diagramme |
 | ID | WA200001574 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows Excel im Web |
+| unterstützte Office 365-Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows Excel im Web |
 | Name des Partnerunternehmens | CC-1C |
 | URL der Partnerwebsite | [https://quickcells.co](https://quickcells.co) |
 | URL der Datenschutzrichtlinie | [https://quickcells.co/legal/privacy](https://quickcells.co/legal/privacy) |
@@ -51,7 +51,7 @@ Diese Informationen wurden von CC-1C zur Verfügung gestellt, wie diese App Orga
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
