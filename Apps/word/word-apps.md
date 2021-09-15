@@ -2,17 +2,17 @@
 title: Microsoft Word Sicherheit und Compliance von Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Word Apps.
 localization_priority: Normal
-ms.openlocfilehash: 5151e78ae6da2df72ad35703f7375ae4e3374606
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4ecbb89758a3f3a66bc8fd4dd64c337a50415124
+ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283160"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59353876"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Sicherheit und Compliance von Apps
 
@@ -21,6 +21,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign für Word und PowerPoint](./adobe-inc-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [CocoFax – Einfaches Senden von Fax &amp;](./cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [Excel-zu-Word-Dokumentautomatisierung](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Fabrikasoft Cloud Office-Add-In](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
