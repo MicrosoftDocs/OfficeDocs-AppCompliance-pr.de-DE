@@ -57,7 +57,7 @@
           href: excel/sheetgo-europe-sl.md
         - name: Wunder365 für Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: Eingereichte XBRL-Daten
+        - name: XBRL-Archivierte Daten
           href: excel/xbrl-us-filed-data.md
     - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
@@ -68,7 +68,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook-Apps
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -77,7 +77,7 @@
           href: outlook/altru-videos.md
         - name: Genehmigte Kontaktkalender
           href: outlook/approved-contact-calendars.md
-        - name: Für Outlook
+        - name: Outlook
           href: outlook/asana-for-outlook.md
         - name: CI-Signature
           href: outlook/ci-solution-gmbh-signature.md
@@ -91,7 +91,7 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: Jira Cloud for Outlook (Offiziell)
+        - name: Jira Cloud for Outlook (Official)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: MIPA – Ihr eigener persönlicher Assistent
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
@@ -103,7 +103,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail für Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Sales Engagement für Outlook
+        - name: Vertriebsengagement für Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Prioritätsmatrix – Umwandeln von E-Mails in Aufgaben
           href: outlook/appfluence-inc-priority-matrix-turn-emails-into-tasks.md
@@ -123,7 +123,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM für E-Mails
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint-Apps
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -140,7 +140,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -813,6 +813,8 @@
           href: teams/officeatwork-template-chooser.md
         - name: Text
           href: teams/approved-contact-text.md
+        - name: ThoughtWire EWS
+          href: teams/thoughtwire-corp-ews.md
         - name: Tikit
           href: teams/cireson-tikit.md
         - name: TimeClock 365
@@ -837,6 +839,8 @@
           href: teams/uservoice.md
         - name: Vacation Tracker
           href: teams/vacation-tracker.md
+        - name: Verto 365
+          href: teams/tmi-systems-verto-365.md
         - name: Viima
           href: teams/viima-solutions-oy.md
         - name: VisualSP
@@ -875,6 +879,8 @@
           href: teams/workjam-home.md
         - name: WorkJam Schedule
           href: teams/workjam-schedule.md
+        - name: WorkJam-Aufgaben
+          href: teams/workjam-tasks.md
         - name: WorkplaceBuddy
           href: teams/workplacebuddy.md
         - name: Wunder365
@@ -934,7 +940,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -1136,6 +1142,8 @@
           href: azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222.md
         - name: 621d9ae7-c14e-4fab-9604-63e1ffc9e721
           href: azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721.md
+        - name: 626ce0a3-4620-483d-953d-53b106b9ffad
+          href: azure/626ce0a3-4620-483d-953d-53b106b9ffad.md
         - name: 6919164d-b678-4c3d-a268-e6fbecc1e68d
           href: azure/6919164d-b678-4c3d-a268-e6fbecc1e68d.md
         - name: 6996cad6-a969-487a-9182-f4dc4c6c8803

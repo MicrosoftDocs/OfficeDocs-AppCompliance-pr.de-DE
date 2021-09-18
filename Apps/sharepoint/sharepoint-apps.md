@@ -2,17 +2,17 @@
 title: Sicherheit und Compliance von Microsoft SharePoint Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/13/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft SharePoint-Apps.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft SharePoint Apps.
 localization_priority: Normal
-ms.openlocfilehash: 9a6f577d1a87951788548eaff50423ea49a480fe
-ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
+ms.openlocfilehash: 62687fe3c26249cd0d9db810c9ca4520f1f128d1
+ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59345661"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59438376"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft SharePoint Apps
 
@@ -23,7 +23,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Agile Task Board für SharePoint Online](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
 | [ArcGIS Maps](./esri-inc-arcgis-maps.md) | Esri, Inc. | **✓** |  |
 | [FormMachines Connector für SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** |  |
-| [Umschaltfläche für SharePoint](./gagglenet-inc-gaggle-for-sharepoint.md) | Gaggle.net, Inc. | **✓** |  |
+| [Gaggle for SharePoint](./gagglenet-inc-gaggle-for-sharepoint.md) | Gaggle.net, Inc. | **✓** |  |
 | [iGlobe CRM-Add-Ons](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iGlobe CRM-Office 365 für Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Konnect eMail Parser](./konnect-email-parser.md) | Konnect eMail | **✓** |  |
