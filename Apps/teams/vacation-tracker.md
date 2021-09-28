@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Urlaubs-Tracker, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7fb611741379a3c4d2f9f7a80708385e1b7f2675
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 0bd430bb14f85f563d490148f00988fa7634176e
+ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785155"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59971697"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -65,7 +65,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| email | Delegiert | Wenn sich der Benutzer mit Microsoft AAD anmeldet, speichern wir seine E-Mail-Adresse als eindeutigen Bezeichner. | Wir speichern die E-Mails des Benutzers als eindeutigen Bezeichner. Wir verwenden diese E-Mail nicht für die Kommunikation, Benutzer geben ihre geschäftliche E-Mail-Adresse ein, die wir für die Kommunikation während der Registrierung verwenden. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| offline_access | Delegiert | Wir sammeln keine Daten mit dieser Berechtigung. Es wird verwendet, um den Zugriff auf Daten beizubehalten, auf die wir zugreifen dürfen. | Wir speichern keine Daten mit dieser Berechtigung. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| openid | Delegiert | Wir verwenden diese Berechtigung zum Anmelden oder Registrieren von Benutzern beim Urlaubs-Tracker. Wir sammeln keine bestimmten Daten mit dieser Berechtigung. | Wir verwenden diese Berechtigung zum Anmelden oder Registrieren von Benutzern beim Urlaubs-Tracker. Wir speichern keine bestimmten Daten mit dieser Berechtigung. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| profile | Delegiert | Wir erfassen die grundlegenden Benutzerinformationen, einschließlich Name, ID und Mandanten-ID. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation im Urlaubs-Tracker zu verbinden. | Wir speichern den Namen, die ID und die Mandanten-ID des Benutzers. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation im Urlaubs-Tracker zu verbinden. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Profil | Delegiert | Wir erfassen die grundlegenden Benutzerinformationen, einschließlich Name, ID und Mandanten-ID. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation im Urlaubs-Tracker zu verbinden. | Wir speichern den Namen, die ID und die Mandanten-ID des Benutzers. Wir verwenden diese Daten, um angemeldete Benutzer mit ihrer Organisation im Urlaubs-Tracker zu verbinden. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
@@ -111,9 +111,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

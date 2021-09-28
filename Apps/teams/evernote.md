@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Evernote, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6965e328f3e976462d900e227a74411599ad959c
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: f92b9b5bdadab35f844f1ac90ade896d7d2d0494
+ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785305"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59973557"
 ---
 # <a name="evernote"></a>Evernote
 
@@ -34,7 +34,7 @@ Von Evernote für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Evernote |
 | ID | WA104381639 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Evernote |
 | URL der Partnerwebsite | [https://evernote.com](https://evernote.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://evernote.com/about-us](https://evernote.com/about-us) |
@@ -87,7 +87,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
->Nein
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -97,9 +97,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/11693' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/11693" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

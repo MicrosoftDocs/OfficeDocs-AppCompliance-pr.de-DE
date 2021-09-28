@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tryane Analytics, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 48383622a5bb2907f74136f2003a51e17af20e5c
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: e806f46e2ff2046defcc7967f6d7bec420629329
+ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785115"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59975110"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
@@ -97,7 +97,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
->Nein
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,9 +107,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -125,16 +125,16 @@ Diese Informationen wurden von Tryane bereitgestellt, wie diese App Authentifizi
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
-| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | No |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | No |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
 | Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
-| Verfügt Ihre App über einen vertraulichen Client? | Nein |
+| Verfügt Ihre App über einen vertraulichen Client? | No |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
-| Macht Ihre App Web-APIs verfügbar? | Nein |
-| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Macht Ihre App Web-APIs verfügbar? | No |
+| Verwendet Ihre App Vorschau-APIs? | No |
 | Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

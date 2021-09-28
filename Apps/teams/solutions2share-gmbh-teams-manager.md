@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für Teams Manager von Solutions2Share GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Teams Manager, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0f135c14a96849a21ebf424b152a257df8e5e9e9
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: e51b08446bed1f22f1e058b92604841ce255eb8f
+ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283556"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59971797"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: September 24, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/87000000-3db9-bb44-5015-0b4a327a6597" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000764" target="_blank">Ansicht in AppSource</a>
@@ -34,9 +34,10 @@ Von Solutions2Share GmbH für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Teams Manager |
 | ID | WA200000764 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Solutions2Share GmbH |
-| URL der Partnerwebsite | [https://teams-manager.com/](https://teams-manager.com/) |
+| URL der Partnerwebsite | [https://teams-manager.com](https://teams-manager.com) |
+| URL der Seite mit Teams Anwendungsinformationen | [https://teams-manager.com](https://teams-manager.com) |
 | URL der Datenschutzrichtlinie | [https://www.teams-manager.com/privacy](https://www.teams-manager.com/privacy) |
 | URL der Nutzungsbedingungen | [https://www.teams-manager.com/terms-of-use/](https://www.teams-manager.com/terms-of-use/) |
 
@@ -52,7 +53,7 @@ Diese Informationen wurden von Solutions2Share GmbH bereitgestellt, wie diese Ap
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -63,7 +64,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| User.ReadBasic.All | Delegiert | Keine | Listet alle Benutzer auf, um sie in der Personenauswahl innerhalb der App anzuzeigen. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -71,7 +72,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -93,7 +94,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
->Nein
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,3 +112,29 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Identitätsinformationen
+
+Diese Informationen wurden von Solutions2Share GmbH bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | No |
+| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
+| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
+| Verfügt Ihre App über einen vertraulichen Client? | No |
+| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/><br/> |
+| Macht Ihre App Web-APIs verfügbar? | Ja |
+| Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
+| Verwendet Ihre App Vorschau-APIs? | Ja |
+| Verwendet Ihre App veraltete APIs? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
