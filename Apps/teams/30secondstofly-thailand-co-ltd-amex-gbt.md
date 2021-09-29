@@ -1,45 +1,44 @@
 ---
-title: Anwendungsinformationen für qbo von Unscrambl
+title: Anwendungsinformationen für AMEX GBT by 30SecondsToFly (Thailand) Co Ltd
 ms.author: elmalova
 author: elenamalova
 ms.date: 09/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für qbo, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57d228504c0432aea96d8fc915606b1c71d36cf1
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für AMEX GBT, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 9c29a455decb6d37a7f0477cf12ed9ba79b68b31
 ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992075"
+ms.locfileid: "59992222"
 ---
-# <a name="qbo"></a>qbo
+# <a name="amex-gbt"></a>AMEX GBT
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 28, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/834c6939-152c-450b-a305-c65b4dd5d1c7" target="_blank">Anzeigen im Teams Speicher</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001708" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/157b5ffb-b183-453c-b072-9c94bb6c694c" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003272" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Unscrambl für Microsoft bereitgestellte Informationen:
+Informationen, die von 30SecondsToFly (Thailand) Co Ltd an Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | qbo |
-| ID | WA200001708 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Unscrambl |
-| URL der Partnerwebsite | [https://unscrambl.com](https://unscrambl.com) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://qbo.ai](https://qbo.ai) |
-| URL der Datenschutzrichtlinie | [https://qbo.ai/legal/](https://qbo.ai/legal/) |
-| URL der Nutzungsbedingungen | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
+| App-Name | AMEX GBT |
+| ID | WA200003272 |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | 30SecondsToFly (Thailand) Co Ltd |
+| URL der Partnerwebsite | [https://www.amexglobalbusinesstravel.com](https://www.amexglobalbusinesstravel.com) |
+| URL der Datenschutzrichtlinie | [https://privacy.amexgbt.com/statement](https://privacy.amexgbt.com/statement) |
+| URL der Nutzungsbedingungen | [https://www.amexglobalbusinesstravel.com/terms-service/](https://www.amexglobalbusinesstravel.com/terms-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +48,7 @@ Von Unscrambl für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Unscrambl bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von 30SecondsToFly (Thailand) Co Ltd darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
@@ -57,13 +56,6 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
-
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
-
->| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Bot Framework-APIs | Ja | Domänenname, wie aus der E-Mail eines Benutzers identifiziert | Wir erfassen E-Mails zum Senden des Berichts, wenn dies vom Benutzer gewünscht wird. | Nur E-Mail | Gespeichert als Teil des Benutzerprofils |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
@@ -75,9 +67,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Wir verfügen über eine App-Funktion, mit der ein Benutzer eine PDF mit Berichten an sich selbst senden kann. | email address | Wir verfügen über eine App-Funktion, mit der ein Benutzer eine PDF mit Berichten an sich selbst senden kann. Diese wird als Teil des Benutzerprofils gespeichert. |
+>Es wird nicht auf EUII zugegriffen.
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -90,7 +80,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Diese Daten werden in einer MariaDB gespeichert, die auf einem virtuellen Computer in Azure (Südostasien) gehostet wird. Der Zugriff auf den virtuellen Computer ist ip-beschränkt, kennwort- und der Zugriff auf die DATENBANK auch kennwortgeschützter.
+>Löschung
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -106,9 +96,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -118,7 +108,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Unscrambl bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von 30SecondsToFly (Thailand) Co Ltd darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|

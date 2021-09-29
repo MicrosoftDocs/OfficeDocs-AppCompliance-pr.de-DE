@@ -1,45 +1,44 @@
 ---
-title: Anwendungsinformationen für HighSide von HighSide, Inc
+title: Application Information for Presentations AI by Infographfx technologies
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/24/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für HighSide, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: eb6def1ce0eb93badd11f9a11d370c8533101656
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für presentations AI, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: abbedd25675690af35f2c3aa9e9b5cdae2cf1d37
 ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992065"
+ms.locfileid: "59992215"
 ---
-# <a name="highside"></a>HighSide
+# <a name="presentations-ai"></a>Präsentations-KI
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 24, 2021</p>
+<p>Last updated by the developer on: August 17, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/3c77edc8-0136-4ca2-8d4b-3558923c0e77" target="_blank">Anzeigen im Teams Speicher</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002220" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1f510555-b518-4084-84e0-18c7bebc807c" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001352" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die Von HighSide, Inc. an Microsoft bereitgestellt werden:
+Informationen von Infographfx-Technologien für Microsoft:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | HighSide |
-| ID | WA200002220 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | HighSide, Inc |
-| URL der Partnerwebsite | [https://highside.io](https://highside.io) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://highside.io/secureteams](https://highside.io/secureteams) |
-| URL der Datenschutzrichtlinie | [https://highside.io/privacy-shield](https://highside.io/privacy-shield) |
-| URL der Nutzungsbedingungen | [https://highside.io/terms-of-service](https://highside.io/terms-of-service) |
+| App-Name | Präsentations-KI |
+| ID | WA200001352 |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Infographfx-Technologien |
+| URL der Partnerwebsite | [https://presentations.ai](https://presentations.ai) |
+| URL der Datenschutzrichtlinie | [https://presentations.ai/privacy_teams.html](https://presentations.ai/privacy_teams.html) |
+| URL der Nutzungsbedingungen | [https://presentations.ai/terms_teams.html](https://presentations.ai/terms_teams.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +48,7 @@ Informationen, die Von HighSide, Inc. an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von HighSide, Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Infographfx-Technologien dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
@@ -62,17 +61,13 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| AWS | Microsoft Teams Mandanten-ID | Wir wissen also, von welchen Teamanfragen wir kommen und zu wem Benutzer gehören. |
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Suchfunktionen | Benutzername | Suchfunktionen |
+>Es wird nicht auf EUII zugegriffen.
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -85,7 +80,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Nicht zutreffend
+>–
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -101,9 +96,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37581' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37581" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,11 +108,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von HighSide, Inc. bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Infographfx-Technologien dazu bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | No |
+| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
+| Unterstützt Ihre App Mehrmandantenfähigkeit? | No |
+| Verfügt Ihre App über einen vertraulichen Client? | No |
+| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
+| Macht Ihre App Web-APIs verfügbar? | Ja |
+| Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
+| Verwendet Ihre App Vorschau-APIs? | No |
+| Verwendet Ihre App veraltete APIs? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

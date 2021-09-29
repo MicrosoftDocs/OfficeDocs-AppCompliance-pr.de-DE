@@ -1,45 +1,44 @@
 ---
-title: Anwendungsinformationen für qbo von Unscrambl
+title: Anwendungsinformationen für Inhalts-Manager von Colligo Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für qbo, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57d228504c0432aea96d8fc915606b1c71d36cf1
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Content Manager, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 7392dc618ff6f22b935b5760e97d72155ea41660
 ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992075"
+ms.locfileid: "59992180"
 ---
-# <a name="qbo"></a>qbo
+# <a name="content-manager"></a>Inhalts-Manager
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 28, 2021</p>
+<p>Last updated by the developer on: June 14, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/834c6939-152c-450b-a305-c65b4dd5d1c7" target="_blank">Anzeigen im Teams Speicher</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001708" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/36ad88c6-ffce-4c52-a5a5-3eae64ed65bf" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003250" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Unscrambl für Microsoft bereitgestellte Informationen:
+Von Colligo Inc. für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | qbo |
-| ID | WA200001708 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Unscrambl |
-| URL der Partnerwebsite | [https://unscrambl.com](https://unscrambl.com) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://qbo.ai](https://qbo.ai) |
-| URL der Datenschutzrichtlinie | [https://qbo.ai/legal/](https://qbo.ai/legal/) |
-| URL der Nutzungsbedingungen | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
+| App-Name | Inhalts-Manager |
+| ID | WA200003250 |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Colligo Inc |
+| URL der Partnerwebsite | [https://www.colligo.com](https://www.colligo.com) |
+| URL der Datenschutzrichtlinie | [https://www.colligo.com/product-policy/](https://www.colligo.com/product-policy/) |
+| URL der Nutzungsbedingungen | [https://www.colligo.com/media/Colligo-Software-License-Agre...](https://www.colligo.com/media/Colligo-Software-License-Agreement-Schedule-A.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +48,7 @@ Von Unscrambl für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Unscrambl bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Colligo Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
@@ -63,9 +62,9 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Bot Framework-APIs | Ja | Domänenname, wie aus der E-Mail eines Benutzers identifiziert | Wir erfassen E-Mails zum Senden des Berichts, wenn dies vom Benutzer gewünscht wird. | Nur E-Mail | Gespeichert als Teil des Benutzerprofils |
+>| SharePoint-CSOM | No |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -75,9 +74,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Wir verfügen über eine App-Funktion, mit der ein Benutzer eine PDF mit Berichten an sich selbst senden kann. | email address | Wir verfügen über eine App-Funktion, mit der ein Benutzer eine PDF mit Berichten an sich selbst senden kann. Diese wird als Teil des Benutzerprofils gespeichert. |
+>Es wird nicht auf EUII zugegriffen.
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -90,7 +87,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Diese Daten werden in einer MariaDB gespeichert, die auf einem virtuellen Computer in Azure (Südostasien) gehostet wird. Der Zugriff auf den virtuellen Computer ist ip-beschränkt, kennwort- und der Zugriff auf die DATENBANK auch kennwortgeschützter.
+>Verschieben von Dokumenten vom Benutzercomputer in ein vom Benutzer ausgewähltes Ziel (SharePoint Online, Teams und OneDrive)
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -106,9 +103,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -118,11 +115,24 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Unscrambl bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Colligo Inc. bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
+| Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung |
+| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
+| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
+| Verfügt Ihre App über einen vertraulichen Client? | No |
+| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
+| Macht Ihre App Web-APIs verfügbar? | No |
+| Verwendet Ihre App Vorschau-APIs? | No |
+| Verwendet Ihre App veraltete APIs? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
