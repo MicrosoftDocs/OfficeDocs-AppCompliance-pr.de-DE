@@ -57,7 +57,7 @@
           href: excel/sheetgo-europe-sl.md
         - name: Wunder365 für Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: XBRL-Archivierte Daten
+        - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
     - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
@@ -127,7 +127,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM für E-Mails
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint-Apps
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -144,7 +144,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -164,7 +164,7 @@
           href: sharepoint/esri-inc-arcgis-maps.md
         - name: FormMachines Connector für SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
-        - name: Umschaltfläche für SharePoint
+        - name: Umschalter für SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
         - name: iGlobe CRM-Add-Ons
           href: sharepoint/iglobe-crm-add-ons.md
@@ -172,7 +172,7 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
-        - name: Blitzgeräte Gewittersenkte
+        - name: Gewittertools – Blitze
           href: sharepoint/lightning-tools-conductor.md
         - name: officeatwork | Vorlagenauswahl für SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
@@ -363,6 +363,8 @@
           href: teams/degreed.md
         - name: DELTAoverC
           href: teams/deltaoverc.md
+        - name: Digiplein
+          href: teams/educatieve-uitgeversgroep-bv-digiplein.md
         - name: DisasterTech DICE
           href: teams/disastertech-dice.md
         - name: do!book CB
@@ -427,6 +429,8 @@
           href: teams/fifty.md
         - name: File Fabric
           href: teams/storage-made-easy-file-fabric.md
+        - name: FireWatch
+          href: teams/infographics-uk-ltd-firewatch.md
         - name: FloQast
           href: teams/floqast.md
         - name: ForceManager CRM
@@ -483,6 +487,8 @@
           href: teams/hive.md
         - name: Hoylu
           href: teams/hoylu.md
+        - name: Humu
+          href: teams/humu-inc.md
         - name: HunchBuzz
           href: teams/hunchbuzz.md
         - name: Hyperproof
@@ -653,6 +659,8 @@
           href: teams/teamschamp-playquiz-aprende-and-juega.md
         - name: Polly
           href: teams/polly.md
+        - name: POP Cloud VoIP Connector
+          href: teams/popp-communications-cloud-voip-connector.md
         - name: PostBeyond
           href: teams/postbeyond.md
         - name: Powell Teams
@@ -1002,7 +1010,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Überprüfen auf Office
+        - name: officeatwork | Prüfer für Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
