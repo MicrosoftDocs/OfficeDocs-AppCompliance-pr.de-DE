@@ -16,7 +16,7 @@
       items:
         - name: Abschließen Publisher Überprüfung
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
-        - name: Vollständiges Publisher Attestation
+        - name: Vollständige Publisher Nachweis
           href: docs/attestation.md
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
@@ -70,7 +70,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook-Apps
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -85,6 +85,8 @@
           href: outlook/ci-solution-gmbh-signature.md
         - name: CodeTwo für Outlook
           href: outlook/codetwo-for-outlook.md
+        - name: Commuty
+          href: outlook/commuty.md
         - name: Evernote
           href: outlook/evernote.md
         - name: harmon.ie für Outlook
@@ -159,7 +161,7 @@
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint-Apps
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Adobe Sign für SharePoint
@@ -1024,7 +1026,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -1059,6 +1061,8 @@
           href: saas/elearningforce-international-aps-lms365.md
         - name: MIPA – Mein intelligenter persönlicher Assistent
           href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
+        - name: MyHub für Teams
+          href: saas/avepoint-inc-myhub-for-teams.md
         - name: Office2SharePoint
           href: saas/iglobe-office2sharepoint.md
         - name: Priority Matrix
