@@ -2,17 +2,17 @@
 title: Sicherheit und Compliance von Microsoft Teams-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/07/2021
+ms.date: 10/08/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Teams-Apps.
 localization_priority: Priority
-ms.openlocfilehash: f80ec5836e9a7f24d595a03522e223ad8da0db94
-ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
+ms.openlocfilehash: 260dbfcc660315f8d74e14e57dc025097e8e2ffe
+ms.sourcegitcommit: 085c227ffcf8f88e6e55d3c40752a3df25642592
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60233659"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60255498"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Teams-Apps
 
@@ -180,6 +180,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Im Falle einer Krise](./rockdove-solutions-inc-in-case-of-crisis.md) | RockDove Solutions, Inc. | **✓** |  |
 | [InCaseIT](./pilotech-as-incaseit.md) | Pilotech AS | **✓** |  |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Industry Intelligence Team | **✓** |  |
+| [Infor Coleman](./infor-us-inc-coleman.md) | INFOR (USA), INC. | **✓** |  |
 | [InStation](./developers-invillia-instation.md) | Developers Invillia | **✓** |  |
 | [isLucid](./uab-lucid-agreements-islucid.md) | UAB Lucid-Vereinbarungen | **✓** |  |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  |
@@ -202,6 +203,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Live Chat](./social-intents-live-chat.md) | Social Intents | **✓** |  |
 | [LMS365](./elearningforce-international-lms365.md) | ELEARNINGFORCE International | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Loops – Kreatives Lernen](./skooler-loops-creative-learning.md) | Skooler | **✓** |  |
+| [LTI Client](./flipick-pvt-ltd-lti-client.md) | Flipick Pvt Ltd | **✓** |  |
 | [Lucca](./lucca.md) | Lucca | **✓** |  |
 | [Lucidchart](./lucid-software-lucidchart.md) | Lucid Software | **✓** |  |
 | [Lucidspark](./lucid-software-lucidspark.md) | Lucid Software | **✓** |  |
