@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für Go1 by Go1
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/03/2020
+ms.date: 08/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Go1, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d6fa3c9d0ecf710724379da869fba4b0cec23f6a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 265d4cf5cef2f7fb685159ebf2cb6d516d32cb0f
+ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281528"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "60287357"
 ---
 # <a name="go1"></a>Go1
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 3, 2020</p>
+<p>Last updated by the developer on: August 23, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/c859de61-8a6b-42e6-ba88-f639df33bc72" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001484" target="_blank">Ansicht in AppSource</a>
@@ -34,10 +34,10 @@ Von Go1 an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Go1 |
 | ID | WA200001484 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Go1 |
 | URL der Partnerwebsite | [https://www.go1.com/user/login](https://www.go1.com/user/login) |
-| URL der Datenschutzrichtlinie | [https://www.go1.com/en-au/terms/privacy-policy](https://www.go1.com/en-au/terms/privacy-policy) |
+| URL der Datenschutzrichtlinie | [https://www.go1.com/terms/privacy-policy](https://www.go1.com/terms/privacy-policy) |
 | URL der Nutzungsbedingungen | [https://www.go1.com/en-au/terms/user-terms](https://www.go1.com/en-au/terms/user-terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -50,14 +50,14 @@ Von Go1 an Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Go1 dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite.All | Anwendung | App speichert keine Dateidaten | ermöglicht Benutzern das Hochladen und Freigeben von Dateien aus OneDrive | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
->| Group.ReadWrite.All | Anwendung | Teams und Kanalname und eindeutige IDs zur Unterstützung der App, die die Lernumgebung verwaltet | ermöglicht der App, Teams und Kanäle dynamisch einzurichten, um strukturiertes Lernen in Teams Umgebung zu unterstützen. | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
+>| Group.ReadWrite.All | Anwendung | Teams und Kanalname sowie eindeutige IDs zur Unterstützung der App, die die Lernumgebung verwaltet | ermöglicht der App, Teams und Kanäle dynamisch einzurichten, um strukturiertes Lernen in Teams Umgebung zu unterstützen. | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
 >| User.Read.All | Anwendung | Benutzername und E-Mail und UPN gespeichert, um direkte persönliche Erfahrung zu ermöglichen | ermöglicht die Verwendung zum Signieren und Unterstützen der Freigabe von Lernressourcen zwischen Teammitgliedern | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
 
 
@@ -65,9 +65,9 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Der Vor- und Nachname der Benutzer kann bei der Wiedergabe von Kursinhalten mit den Inhaltsanbietern von GO1 geteilt werden. Dies wird nur freigegeben, wenn der Inhaltsanbieter eine personalisierte Lernerfahrung bereitstellen muss. |  | Nicht zutreffend |
+>| Der Vor- und Nachname der Benutzer kann bei der Wiedergabe von Kursinhalten mit den Inhaltsanbietern von GO1 geteilt werden. Dies wird nur freigegeben, wenn der Inhaltsanbieter eine personalisierte Lernerfahrung bereitstellen muss. | Vorname, Nachname, E-Mail-Adresse | Nicht zutreffend |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -110,3 +110,28 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Identitätsinformationen
+
+Diese Informationen wurden von Go1 darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Nein |
+| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Nein |
+| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Nein |
+| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
+| Verfügt Ihre App über einen vertraulichen Client? | Nein |
+| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/><br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
+| Verwendet Ihre App Vorschau-APIs? | Nein |
+| Verwendet Ihre App veraltete APIs? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
