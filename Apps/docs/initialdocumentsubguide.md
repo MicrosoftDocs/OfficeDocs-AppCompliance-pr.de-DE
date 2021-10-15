@@ -3,15 +3,15 @@ ms.author: oromalle
 title: Microsoft 365 Zertifizierung – Leitfaden für die anfängliche Dokumentübermittlung
 author: orionomalley
 description: Microsoft 365 Detaillierte Ansicht des Leitfadens für die Zertifizierungsübermittlung
-keywords: App-Zertifizierungsteams Microsoft 365 M365-Erstdokumentübermittlung zur Sicherheitscompliance
+keywords: App-Zertifizierungsteams Microsoft 365 der ersten Übermittlung von M365-Dokumenten zur Sicherheitscompliance
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: f8b45c5130d4c4a231f2d7ce7b1bc6992757bf46
-ms.sourcegitcommit: 1e461d44be2da90b41fdcb60b35a6a180d52c9d6
+ms.openlocfilehash: 0352b64649d87b40d185a2bc06ce23da6cf341ef
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59497108"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378813"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Zertifizierung – Leitfaden für die anfängliche Dokumentübermittlung
 
@@ -24,27 +24,11 @@ Bitte fügen Sie den vollständigen Penetrationstestbericht mit Datumsangaben hi
 -   Dieser Bericht muss die Umgebung enthalten, die die Bereitstellung der App/des Add-Ins unterstützt, sowie alle zusätzlichen Umgebungen, die den Betrieb der App/Add-Ins unterstützen.
 
 
-## <a name="software-inventory"></a>Softwareinventar
+## <a name="system-component-inventory"></a>Systemkomponenteninventar
 
-Ein aktuelles Softwareinventar, das alle in der In-Scope-Umgebung verwendeten Software zusammen mit den Versionen enthält.
+Eine aktuelle Neustrukturung aller Systemkomponenten, die von der unterstützenden Infrastruktur verwendet werden. Dies wird verwendet, um beim Sampling bei der Durchführung der Bewertungsphase zu helfen. Wenn Ihre Umgebung PaaS umfasst, wäre es hilfreich, wenn Sie Details zu allen genutzten PaaS-Diensten angeben können.
 
-**Beispiel:**
-
-|Software|  Publisher|  Version|     Zweck|
-|-|-|-|-|
-|Windows Server|    Microsoft 2016 | Build 14393| Serverbetriebssystem für die Produktionsumgebung|.
-|Linux Ubuntu|  -|    16.04 (Xenial)| Serverbetriebssystem, das in der DMZ verwendet wird.|
-|Esxi|  Vmware| 6.5.0 (Build 13004031)| Wird zur Unterstützung der virtuellen Server verwendet.|
-|Mysql (Windows)|   -|    8.0.2.1|    Datenbankserver zum Speichern des Chatverlaufs.|
-|Tomcat|        Apache| 7.0.92| Kundenportal.|
-|IIS|   Microsoft|  10.0|   Unterstützt die APIs.|
-
-
-## <a name="hardware-inventory"></a>Hardwareinventur
-
-Eine aktuelle Hardwareinventur, die von der unterstützenden Infrastruktur verwendet wird. Dies wird verwendet, um beim Sampling bei der Durchführung der Bewertungsphase zu helfen. Wenn Ihre Umgebung PaaS umfasst, wäre es hilfreich, wenn Sie Details zu allen genutzten PaaS-Diensten angeben können.
-
-**Hinweis:** IaaS/PaaS hätte keine Hardware, die der ISVs-Steuerung unterliegt.  
+**Hinweis:** IaaS/PaaS hätte keine Hardware, die der ISVs-Steuerung unterliegt.  Geben Sie in diesem Fall eine Liste oder einen Screenshot aller virualen Ressourcen an.
 
 **Beispiel:**
 
@@ -56,13 +40,29 @@ Eine aktuelle Hardwareinventur, die von der unterstützenden Infrastruktur verwe
 |LXM2|  Linux-Computer|  Testcomputer|Nicht zutreffend|Nicht zutreffend|       
 
 
-## <a name="web-dependencies"></a>Webabhängigkeiten
+## <a name="software-inventory"></a>Softwareinventar
+
+Eine aktuelle Bestandsaufnahme aller Softwareressourcen, einschließlich aller Software, die in der In-Scope-Umgebung zusammen mit den Versionen verwendet wird.
+
+**Beispiel:**
+
+|Software|  Publisher|  Version|     Zweck|
+|-|-|-|-|
+|Windows Server|    Microsoft 2016 | Build 14393| Serverbetriebssystem für die Produktionsumgebung|.
+|Linux Ubuntu|  Nicht zutreffend|    16.04 (Xenial)| Serverbetriebssystem, das in der DMZ verwendet wird.|
+|Esxi|  Vmware| 6.5.0 (Build 13004031)| Wird zur Unterstützung der virtuellen Server verwendet.|
+|Mysql (Windows)|   Nicht zutreffend|    8.0.2.1|    Datenbankserver zum Speichern des Chatverlaufs.|
+|Tomcat|        Apache| 7.0.92| Kundenportal.|
+|IIS|   Microsoft|  10.0|   Unterstützt die APIs.|
+
+
+## <a name="third-party-dependencies"></a>Abhängigkeiten von Drittanbietern
 
 Dokumentation, in der alle Abhängigkeiten aufgeführt sind, die von der App/dem Add-In mit den aktuell ausgeführten Versionen verwendet werden.
 
 **Beispiel:**
 
-|Webabhängigkeiten|  Aktuelle verwendete Version|
+|Webabhängigkeiten|  Aktuelle Verwendete Version|
 |-|-|
 |Jquery|    3.5.1|
 |React| 16.13.1|
@@ -74,7 +74,7 @@ Dokumentation, in der alle Abhängigkeiten aufgeführt sind, die von der App/dem
 
 ## <a name="public-ip-addresses"></a>Öffentliche IP-Adressen
 
-Ausführliche Informationen zu allen öffentlichen IP-Adressen und URLs, die von der unterstützenden Infrastruktur verwendet werden. Dies muss den vollständigen routingfähigen IP-Bereich enthalten, der der Umgebung zugeordnet ist, es sei denn, eine angemessene Segmentierung wurde implementiert, um den verwendeten Bereich aufzuteilen (angemessene Nachweise für die Segmentierung sind erforderlich).
+Ausführliche Informationen zu allen öffentlichen IP-Adressen und URLs, die von der unterstützenden Infrastruktur verwendet werden. Dies muss den vollständigen routingfähigen IP-Bereich enthalten, der der Umgebung zugeordnet ist, es sei denn, eine angemessene Segmentierung wurde implementiert, um den verwendeten Bereich aufzuteilen (es sind angemessene Nachweise für die Segmentierung erforderlich).
 
 **Beispiel:**
 
