@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Excel-zu-Word-Dokumentautomatisierung durch AnalysisPlace
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/15/2021
+ms.date: 02/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Excel-zu-Word-Dokumentautomatisierung, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Excel-to-Word-Dokumentautomatisierung, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d8dee2b12160b94cc55d1be0b355b9e5212b595a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279821"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60405764"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel-zu-Word-Dokumentautomatisierung
 
@@ -33,7 +33,7 @@ Von AnalysisPlace für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Excel-zu-Word-Dokumentautomatisierung |
 | ID | WA104380955 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf Mac, Excel 2016 oder höher auf Windows, Word 2016 oder höher auf Mac, Word 2016 oder höher auf Windows, PowerPoint 2016 oder höher auf Mac, PowerPoint 2016 oder höher auf Windows, Excel im Web, Word im Web, PowerPoint im Web |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows, Word 2016 oder höher auf Dem Mac, Word 2016 oder höher auf Windows, PowerPoint 2016 oder höher auf Dem Mac, PowerPoint 2016 oder höher Windows, Excel im Web, Word im Web, PowerPoint im Web |
 | Name des Partnerunternehmens | AnalysisPlace |
 | URL der Partnerwebsite | [https://analysisplace.com](https://analysisplace.com) |
 | URL der Datenschutzrichtlinie | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
@@ -49,9 +49,9 @@ Von AnalysisPlace für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von AnalysisPlace bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -107,7 +107,7 @@ Diese Informationen wurden von AnalysisPlace bereitgestellt, wie diese App die A
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -123,3 +123,4 @@ Diese Informationen wurden von AnalysisPlace bereitgestellt, wie diese App die A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

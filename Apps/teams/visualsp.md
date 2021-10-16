@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für VisualSP von VisualSP
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für VisualSP, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7f8fb55c479f6730643d85ac866703f59d1f621e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7217613a44460129dc17b6fa23d1b962566f9189
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281030"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60405854"
 ---
 # <a name="visualsp"></a>VisualSP
 
@@ -34,7 +34,7 @@ Von VisualSP für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | VisualSP |
 | ID | WA200001426 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | VisualSP |
 | URL der Partnerwebsite | [https://visualsp.com](https://visualsp.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.visualsp.com/visualsp-for-microsoft-teams/](https://www.visualsp.com/visualsp-for-microsoft-teams/) |
@@ -49,11 +49,11 @@ Von VisualSP für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von VisualSP dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von VisualSP darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -118,3 +118,4 @@ Diese Informationen wurden von VisualSP bereitgestellt, wie diese App die Authen
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

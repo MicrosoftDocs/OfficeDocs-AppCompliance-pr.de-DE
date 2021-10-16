@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für CrossCheck von kRevealLLC
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CrossCheck, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 245f732d796db9f59f0404a72d3df08aca364c76
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 37cb5bad4ded3d0c580e7a9857c8bab327b49fc7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280532"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60404732"
 ---
 # <a name="crosscheck"></a>CrossCheck
 
@@ -33,7 +33,7 @@ Von kRevealLLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | CrossCheck |
 | ID | WA200003198 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | kRevealLLC |
 | URL der Partnerwebsite | [https://kreveal.com](https://kreveal.com) |
 | URL der Datenschutzrichtlinie | [https://crosscheck.krevealaddins.com/docs/privacy.htm](https://crosscheck.krevealaddins.com/docs/privacy.htm) |
@@ -53,12 +53,12 @@ Diese Informationen wurden von kRevealLLC darüber bereitgestellt, wie diese App
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| openid | Anwendung | Es werden keine Daten gesammelt oder verwendet. | Die E-Mail-Adresse des Benutzers wird bei der Erstellung eines Kontos für die zukünftige Autorisierung gespeichert. Anmeldungen und Anmeldeversuche werden protokolliert. | [5edad654-f2d5-41d8-bfc0-92c2735252e1](https://docs.microsoft.com/microsoft-365-app-certification/azure/5edad654-f2d5-41d8-bfc0-92c2735252e1) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -88,28 +88,17 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von kRevealLLC darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von kRevealLLC darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -125,3 +114,4 @@ Diese Informationen wurden von kRevealLLC darüber bereitgestellt, wie diese App
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Qubie von Tivian
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Qubie, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d0873a510d894772d494487c293551e12dceb929
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 64e1c15379bd709cb2270afaa3d62e8819dfed13
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283619"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60405900"
 ---
 # <a name="qubie"></a>Qubie
 
@@ -34,7 +34,7 @@ Von Tivian für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Qubie |
 | ID | WA104381933 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Tivian |
 | URL der Partnerwebsite | [https://www.questback.com/our-products/performance-suite/te...](https://www.questback.com/our-products/performance-suite/teams-triumph-with-qubie/) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.questback.com/qubie-ms-teams](https://www.questback.com/qubie-ms-teams) |
@@ -58,11 +58,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -101,4 +101,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Impression-Signaturen durch Impression-Signaturen
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/31/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Impression-Signaturen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 258535a6af9fc20dec68b95580a0556fa1d628f1
-ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
+ms.openlocfilehash: eb11d81de704323129790a113ecf1f379c9cd595
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124062"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60404742"
 ---
 # <a name="impression-signatures"></a>Impression-Signaturen
 
@@ -33,7 +33,7 @@ Informationen, die von Impression-Signaturen für Microsoft bereitgestellt werde
 |:----------------|:-------------|
 | App-Name | Impression-Signaturen |
 | ID | WA200003216 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | Impression-Signaturen |
 | URL der Partnerwebsite | [https://www.impression-signatures.com](https://www.impression-signatures.com) |
 | URL der Datenschutzrichtlinie | [https://www.iubenda.com/privacy-policy/8039352/full-legal](https://www.iubenda.com/privacy-policy/8039352/full-legal) |
@@ -49,16 +49,16 @@ Informationen, die von Impression-Signaturen für Microsoft bereitgestellt werde
 
 Diese Informationen wurden von Impression-Signaturen dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| openid | Beide | Authentifizierungsdaten und Verzeichnisdaten. | Keine. | [be181d9c-9060-40a0-a692-b29f2e314d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/be181d9c-9060-40a0-a692-b29f2e314d16) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -90,17 +90,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -115,3 +104,4 @@ Diese Informationen wurden von Impression-Signaturen bereitgestellt, wie diese A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

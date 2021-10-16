@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für CodeTwo für Outlook von CodeTwo
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CodeTwo für Outlook, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: be70f483b2e8871375451bffe107de9b2f29f33d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ccabb31cfa84b6aa09570499951b2786c8084cfd
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281387"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60404682"
 ---
 # <a name="codetwo-for-outlook"></a>CodeTwo für Outlook
 
@@ -33,7 +33,7 @@ Von CodeTwo für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | CodeTwo für Outlook |
 | ID | WA200003022 |
-| unterstützte Office 365-Clients | Outlook 2016 oder höher am Windows Outlook im Web |
+| Office 365 unterstützten Clients | Outlook 2016 oder höher auf Windows, Outlook im Web |
 | Name des Partnerunternehmens | CodeTwo |
 | URL der Partnerwebsite | [https://www.codetwo.com](https://www.codetwo.com) |
 | URL der Datenschutzrichtlinie | [https://www.codetwo.com/regulations/privacy](https://www.codetwo.com/regulations/privacy) |
@@ -49,18 +49,18 @@ Von CodeTwo für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von CodeTwo darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -111,3 +111,4 @@ Diese Informationen wurden von CodeTwo darüber bereitgestellt, wie diese App Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für File Fabric von Storage erleichtert
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/30/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für File Fabric, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3070723eecc0e7dda11aff31da6b20a785f558b5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2e81f8d41c8efeca13c837abf30b449d70850788
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282368"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60406264"
 ---
 # <a name="file-fabric"></a>File Fabric
 
@@ -34,7 +34,7 @@ Informationen, die von Storage für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | File Fabric |
 | ID | WA200003017 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Storage Made Easy |
 | URL der Partnerwebsite | [https://storagemadeeasy.com](https://storagemadeeasy.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://docs.storagemadeeasy.com/microsoft-teams](https://docs.storagemadeeasy.com/microsoft-teams) |
@@ -51,14 +51,14 @@ Informationen, die von Storage für Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Storage erleichtert, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite | Anwendung | Dateidaten, die gelesen oder geschrieben werden, wenn der Benutzer bestimmte Dateien über die App herunterlädt, hochlädt oder bearbeitet. | Dateidaten werden nicht gespeichert. | [0752d800-857f-49bd-87eb-e60985516c67](https://docs.microsoft.com/microsoft-365-app-certification/azure/0752d800-857f-49bd-87eb-e60985516c67) |
->| Sites.ReadWrite.All | Anwendung | Metadaten, die für alle Dateien und Ordner von Benutzern&#8217;gesammelt werden und eine Verbundansicht über alle Dateidienste hinweg bereitstellen. | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. | [0752d800-857f-49bd-87eb-e60985516c67](https://docs.microsoft.com/microsoft-365-app-certification/azure/0752d800-857f-49bd-87eb-e60985516c67) |
+>| Sites.ReadWrite.All | Anwendung | Metadaten, die für alle Benutzer&#8217;Dateien und Ordner gesammelt werden, die eine Verbundansicht über alle Dateidienste hinweg bereitstellen. | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. | [0752d800-857f-49bd-87eb-e60985516c67](https://docs.microsoft.com/microsoft-365-app-certification/azure/0752d800-857f-49bd-87eb-e60985516c67) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
@@ -66,10 +66,10 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Azure Blob Storage | Ja | Objektmetadaten und -daten | Metadaten, die für alle Dateien und Ordner von Benutzern&#8217;gesammelt werden und eine Verbundansicht über alle Dateidienste hinweg bereitstellen. Objekte, die gelesen oder geschrieben werden, wenn der Benutzer angegebene Objekte über die App herunterlädt, hochlädt oder bearbeitet. | Objektmetadaten werden gespeichert | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. |
+>| Azure Blob Storage | Ja | Objektmetadaten und -daten | Metadaten, die für alle Benutzer&#8217;Dateien und Ordner gesammelt werden, die eine Verbundansicht über alle Dateidienste hinweg bereitstellen. Objekte, die gelesen oder geschrieben werden, wenn der Benutzer angegebene Objekte über die App herunterlädt, hochlädt oder bearbeitet. | Objektmetadaten werden gespeichert | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. |
 >| Office für das Web | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -79,7 +79,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -106,17 +106,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -135,7 +124,7 @@ Diese Informationen wurden von Storage erleichtert, wie diese App die Authentifi
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
@@ -144,3 +133,4 @@ Diese Informationen wurden von Storage erleichtert, wie diese App die Authentifi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
