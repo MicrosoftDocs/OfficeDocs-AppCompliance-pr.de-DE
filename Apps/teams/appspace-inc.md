@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Appspace von Appspace, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Appspace, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 592194c022b276a07d7fb91d9c0253724d8f28e7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 24221bfb9ac02fe9bc7b62127648d9f0cb9e9ca5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279956"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414781"
 ---
 # <a name="appspace"></a>Appspace
 
@@ -34,7 +34,7 @@ Informationen, die Von Appspace, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Appspace |
 | ID | WA200001738 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Appspace, Inc. |
 | URL der Partnerwebsite | [https://www.appspace.com](https://www.appspace.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.appspace.com](https://www.appspace.com) |
@@ -55,17 +55,17 @@ Diese Informationen wurden von Appspace, Inc. bereitgestellt, wie diese App Orga
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Team.ReadBasic.All | Delegiert | Rufen Sie die Teams ab, zu denen der Benutzer gehört. | Der Anwendungscache kann die Teams und IDs enthalten, auf die das Benutzer-/Dienstkonto Zugriff hat. Diese Daten bleiben während des gesamten Lebenszyklus verschlüsselt. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
 >| User.ReadBasic.All | Delegiert | Lesen Sie grundlegende Profileigenschaften anderer Benutzer in Ihrer Organisation im Namen des angemeldeten Benutzers. Dazu gehören der Anzeigename, der Vor-und Nachname, die E-Mail-Adresse, Durchwahlen und Foto. Ermöglicht der App auch, das vollständige Profil des angemeldeten Benutzers zu lesen. | Der Benutzername des angemeldeten Benutzers wird beibehalten, damit Benutzer erkennen können, welches Benutzer- oder Dienstkonto sie mit der Appspace-Plattform verknüpft haben. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -121,3 +121,4 @@ Diese Informationen wurden von Appspace, Inc. bereitgestellt, wie diese App die 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

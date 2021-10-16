@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Nugget von Panviva
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/12/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Nugget, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6108617e72e1996a335b53941989a707a6544337
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: de483c47b529b889a6e3cc0b6ff51de8546c2f93
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283190"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413607"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -34,7 +34,7 @@ Von Panviva für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Nugget |
 | ID | WA200001737 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Panviva |
 | URL der Partnerwebsite | [https://www.panviva.com](https://www.panviva.com) |
 | URL der Datenschutzrichtlinie | [https://www.panviva.com/privacy-policy/](https://www.panviva.com/privacy-policy/) |
@@ -50,9 +50,9 @@ Von Panviva für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Panviva darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -82,7 +82,7 @@ Teams Organisations-ID: Diese wird gespeichert, damit wir die Benutzer in einem 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wir verwenden Azure CosmosDB, um alle Anwendungsdaten zu speichern. Für den Zugriff auf die Daten benötigen Sie einen Endpunkt und einen Schlüssel, die beide in den Konfigurationsdienst eingefügt werden, der für den Zugriff auf die Daten verwendet wird. Der Konfigurationsdienst verarbeitet Anforderungen nur mit einem Bearertoken, das er in der Anforderung von unserem Bot-App-Dienst empfängt. Dieses Token wurde ursprünglich von Okta erstellt, wenn sich ein Benutzer auf der Team-Benutzeroberfläche beim Bot anmeldet. Auf diese Daten können Panviva-Administratoren zugreifen, die sich mit der 2-Faktor-Authentifizierung bei der Microsoft Azure Plattform anmelden müssen. E-Mails und Vornamen des Benutzers werden in OKTA gespeichert und können nur mit einem privaten Schlüssel aufgerufen werden, der in einem Schlüsseltresor gespeichert ist, auf den der Konfigurationsdienst dann zugreifen kann. Nur der Konfigurationsdienst hat Zugriff auf den Schlüsseltresor über die Verwendung von verwalteten Identitäten, um keine Anmeldeinformationen in der App zu speichern.
+>Wir verwenden Azure CosmosDB, um alle Anwendungsdaten zu speichern. Um auf die Daten zuzugreifen, benötigen Sie einen Endpunkt und einen Schlüssel, die beide in den Konfigurationsdienst eingefügt werden, der für den Zugriff auf die Daten verwendet wird. Der Konfigurationsdienst verarbeitet Anforderungen nur mit einem Bearertoken, das er in der Anforderung von unserem Bot-App-Dienst empfängt. Dieses Token wurde ursprünglich von Okta erstellt, wenn sich ein Benutzer auf der Team-Benutzeroberfläche beim Bot anmeldet. Auf diese Daten können Panviva-Administratoren zugreifen, die sich mit der 2-Faktor-Authentifizierung bei der Microsoft Azure Plattform anmelden müssen. E-Mails und Vornamen des Benutzers werden in OKTA gespeichert und können nur mit einem privaten Schlüssel aufgerufen werden, der in einem Schlüsseltresor gespeichert ist, auf den der Konfigurationsdienst dann zugreifen kann. Nur der Konfigurationsdienst hat Zugriff auf den Schlüsseltresor über die Verwendung von verwalteten Identitäten, damit keine Anmeldeinformationen in der App gespeichert werden.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -105,4 +105,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

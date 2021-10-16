@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für ApproveSimple von Textureza, Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 04/25/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ApproveSimple, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a4e133d6f86ea92bc210af8399186701f6a4744f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e4f9a44196c2cc42474485f9787ecb09bba72ec6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280667"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411844"
 ---
 # <a name="approvesimple"></a>ApproveSimple
 
@@ -34,7 +34,7 @@ Informationen, die von Derzza, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | ApproveSimple |
 | ID | WA104381812 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Capriza, Inc |
 | URL der Partnerwebsite | [https://www.capriza.com/msteams-landing-page](https://www.capriza.com/msteams-landing-page) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://support.capriza.com/](https://support.capriza.com/) |
@@ -58,11 +58,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -101,4 +101,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

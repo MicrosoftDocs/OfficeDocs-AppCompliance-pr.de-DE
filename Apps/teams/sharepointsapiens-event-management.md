@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für die Ereignisverwaltung nach SharePoint| Sapiens
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Ereignisverwaltung, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Ereignisverwaltung, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39480c170eb59a9f16b703a5182a2f2f23847955
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 74e6e3963a03ff6cc6da44ffc33184f6b5fe1cf9
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282392"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412755"
 ---
 # <a name="event-management"></a>Ereignisverwaltung
 
@@ -34,7 +34,7 @@ Von SharePoint| bereitgestellte Informationen Sapiens an Microsoft:
 |:----------------|:-------------|
 | App-Name | Ereignisverwaltung |
 | ID | WA200000714 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SharePoint|Sapiens |
 | URL der Partnerwebsite | [https://www.sharepointsapiens.com](https://www.sharepointsapiens.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.sharepointsapiens.com/event-management-office36...](https://www.sharepointsapiens.com/event-management-office365/documentation/teams/) |
@@ -55,9 +55,9 @@ Diese Informationen wurden von SharePoint| Sapiens darüber, wie diese App Organ
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.ReadBasic.All | Delegiert | E-Mail-Adresse und Name von Exchange Chatrooms und Ressourcen zum Aktivieren der Raum- und Ressourcenbuchung | Es werden keine Daten gespeichert. | [9e8e113c-8a08-4606-b08a-de4decc7252f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9e8e113c-8a08-4606-b08a-de4decc7252f) |
+>| User.ReadBasic.All | Delegiert | E-Mail-Adresse und Name Exchange Räume und Ressourcen, um die Raum- und Ressourcenbuchung zu ermöglichen | Es werden keine Daten gespeichert. | [9e8e113c-8a08-4606-b08a-de4decc7252f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9e8e113c-8a08-4606-b08a-de4decc7252f) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
@@ -67,13 +67,13 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Office 365 Exchange Online | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Mailgun.com (optional), Stripe.com (optional) | Firmenname und -adresse für die Abrechnung, wenn Stripe.com für die Abrechnung, Kalender-Einladungen und Antworten an und von Benutzern verwendet wird, E-Mail-Adresse, wenn mailgun als E-Mail-Dienst verwendet wird | Wenn Sie sich dafür entscheiden, unseren E-Mail-Dienst anstelle Ihres Exchange Online-E-Mail-Diensts zu verwenden, senden und empfangen die Dienste E-Mail über die API und Infrastruktur von Mailgun. Wenn Sie Ihre eigene Exchange Postfach verwenden, werden keine Daten von mailgun verarbeitet. Wenn Sie sich für die Zahlung der Abonnementgebühren per Kreditkarte entscheiden, werden die gesammelten Daten von stripe.com gesteuert und verarbeitet. Wenn Sie sich für den Kauf per Po und Rechnung anstelle einer Kreditkarte entscheiden, werden keine Daten von stripe.com verarbeitet. |
+>| Mailgun.com (optional), Stripe.com (optional) | Firmenname und -adresse für die Abrechnung, wenn Stripe.com für die Abrechnung, Kalender-Einladungen und Antworten an und von Benutzern als E-Mail-Adresse verwendet wird, wenn mailgun als E-Mail-Dienst verwendet wird | Wenn Sie unseren E-Mail-Dienst anstelle Ihres Exchange Online-E-Mail-Diensts verwenden, senden und empfangen die Dienste E-Mails über die API und Infrastruktur der Mailgun. Wenn Sie Ihre eigene Exchange Postfach verwenden, werden keine Daten von mailgun verarbeitet. Wenn Sie sich für die Zahlung der Abonnementgebühren per Kreditkarte entscheiden, werden die gesammelten Daten von stripe.com gesteuert und verarbeitet. Wenn Sie sich für den Kauf per Po und Rechnung anstelle einer Kreditkarte entscheiden, werden keine Daten von stripe.com verarbeitet. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -106,7 +106,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36018' frameborder='no' style='width: 100%;'></iframe>
 
@@ -125,7 +125,7 @@ Diese Informationen wurden von SharePoint| Sapiens darüber, wie diese App Authe
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -141,3 +141,4 @@ Diese Informationen wurden von SharePoint| Sapiens darüber, wie diese App Authe
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Application Information for Workbench Intelligence by Temporall
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/22/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workbench Intelligence, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bf2a249e9eb0cf8e572158d9b393b49fc81153ff
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 7adf907a083a4fcf5c7c57fe0cf048ba771d0d6e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785472"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414431"
 ---
 # <a name="workbench-intelligence"></a>Workbench Intelligence
 
@@ -35,7 +35,7 @@ Von Temporall für Microsoft bereitgestellte Informationen:
 | App-Name | Workbench Intelligence |
 | ID | WA200002705 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Zeitlich |
+| Name des Partnerunternehmens | Temporall |
 | URL der Partnerwebsite | [https://www.temporall.com](https://www.temporall.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.temporall.com/teams_intelligence/](https://www.temporall.com/teams_intelligence/) |
 | URL der Datenschutzrichtlinie | [https://temporall.com/privacy-policy/](https://temporall.com/privacy-policy/) |
@@ -51,11 +51,11 @@ Von Temporall für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Temporall bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.Read.All | Delegiert | Ruft eine Liste der installierten Teams-Apps ab, um die lokale App-ID für die bekannte externe ID abzurufen. | Die lokale App-ID. Erforderlich, um die App identifizieren zu können, wenn sie auf einem anderen Mandanten installiert ist. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| Channel.ReadBasic.All | Anwendung | Name der &amp; Kanal-ID. Begründung: Zulassen, dass der Kanal beitreten/verlassen wird, um Nachrichtenaktivitäten zu synchronisieren.  | Das rohe Datenobjekt, das vom Abrufen des Kanals zurückgegeben wird. Begründung: Mit der temporären Workbench können Benutzer Daten nach Kanälen filtern und kategorisieren. Diese Rohdaten werden gespeichert, um einen Verweis auf das ursprüngliche Objekt zu erhalten. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
@@ -68,7 +68,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| User.Read | Delegiert | Grundlegende &amp; Unternehmensinformationen für Benutzer. Begründung: Wird verwendet, um Nachrichtenaktivitäten nach Benutzer zu kategorisieren, ermöglicht es dem Bot, an proaktiven Nachrichten teilzunehmen. | Benutzername, E-Mail, Symbol, Unterhaltungsreferenz. Begründung: Ermöglicht unserem Bot, proaktiv Nachrichten mit relevanten Informationen an Benutzer zu senden. Gruppieren von Benutzern für die Datenanzeige | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -78,7 +78,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -105,17 +105,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -142,3 +131,4 @@ Diese Informationen wurden von Temporall bereitgestellt, wie diese App die Authe
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

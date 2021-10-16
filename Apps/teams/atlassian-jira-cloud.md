@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Jira Cloud von Atlassian
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8044715d2f2f743b194d080c9a74b9651f9dac24
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bb6857d460cb648d45cf63a5bfcac66508ec6f1d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283574"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413096"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -34,7 +34,7 @@ Von Atlassian für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Jira Cloud |
 | ID | WA200002140 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Atlassian |
 | URL der Partnerwebsite | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
 | URL der Datenschutzrichtlinie | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
@@ -50,9 +50,9 @@ Von Atlassian für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Atlassian bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -84,7 +84,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 Ihre Auswahl: Sie haben das Recht, eine Kopie Ihrer Informationen anzufordern, unserer Nutzung Ihrer Informationen (einschließlich zu Marketingzwecken) zu widersprechen, die Löschung oder Einschränkung Ihrer Informationen anzufordern oder Ihre Informationen in einem strukturierten, elektronischen Format anzufordern. Im Folgenden werden die Tools und Prozesse für diese Anforderungen beschrieben. Sie können einige der Auswahlmöglichkeiten ausführen, indem Sie sich bei den Diensten anmelden und die in den Diensten oder Ihrem Konto verfügbaren Einstellungen verwenden. Wenn die Dienste von einem Administrator für Sie verwaltet werden (siehe Hinweis für Endbenutzer unten), müssen Sie sich möglicherweise zuerst an &quot; &quot; Ihren Administrator &quot; &quot; wenden, um Ihre Anforderungen zu unterstützen. Bei allen anderen Anfragen können Sie uns wie im Abschnitt "Kontakt kontaktieren" unten angegeben kontaktieren, um Unterstützung anzufordern.
 
-Ihre Anforderung und Auswahlmöglichkeiten können in bestimmten Fällen eingeschränkt sein: z. B. wenn die Erfüllung Ihrer Anforderung Informationen über eine andere Person offenlegen würde, oder wenn Sie bitten, Informationen zu löschen, die wir oder Ihr Administrator gesetzlich zulässig sind oder zwingende berechtigte Interessen haben, die wir oder Ihr Administrator aufbewahren dürfen. Wenn Sie uns aufgefordert haben, Daten für Dritte freizugeben, z. B. durch die Installation von Drittanbieter-Apps, müssen Sie sich direkt an diese Drittanbieter wenden, um Ihre Informationen löschen oder anderweitig einschränken zu lassen. Wenn Sie nicht gelöste Bedenken haben, haben Sie möglicherweise das Recht, sich bei einer Datenschutzbehörde in dem Land zu melden, in dem Sie leben, in dem Sie arbeiten oder in dem Sie der Meinung sind, dass Ihre Rechte nicht erfüllt sind.
+Ihre Anforderungen und Auswahlmöglichkeiten können in bestimmten Fällen eingeschränkt sein: z. B. wenn die Erfüllung Ihrer Anforderung Informationen über eine andere Person offenlegen würde, oder wenn Sie informationen löschen möchten, die wir oder Ihr Administrator gesetzlich zulässig sind oder zwingende berechtigte Interessen haben, die wir oder Ihr Administrator aufbewahren dürfen. Wenn Sie uns aufgefordert haben, Daten für Dritte freizugeben, z. B. durch die Installation von Drittanbieter-Apps, müssen Sie sich direkt an diese Drittanbieter wenden, um Ihre Informationen löschen oder anderweitig einschränken zu lassen. Wenn Sie nicht gelöste Bedenken haben, haben Sie möglicherweise das Recht, sich bei einer Datenschutzbehörde in dem Land, in dem Sie leben, in dem Sie arbeiten oder in dem Sie der Meinung sind, dass Ihre Rechte nicht erfüllt sind, zu melden.
 
 Zugriff auf und Aktualisierung Ihrer Informationen: Unsere Dienste und zugehörige Dokumentation bieten Ihnen die Möglichkeit, auf bestimmte Informationen über Sie innerhalb des Diensts zuzugreifen und diese zu aktualisieren. Sie können beispielsweise über Ihr Konto auf Ihre Profilinformationen zugreifen und mithilfe von Stichwortsuchen im Dienst nach Inhalten suchen, die Informationen zu Ihnen enthalten. Sie können Ihre Profilinformationen in Ihren Profileinstellungen aktualisieren und Inhalte ändern, die Informationen über Sie enthalten, mithilfe der bearbeitungstools, die mit diesen Inhalten verknüpft sind.
 
@@ -111,7 +111,7 @@ Datenportabilität: Datenübertragbarkeit ist die Möglichkeit, einige Ihrer Inf
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596' frameborder='no' style='width: 100%;'></iframe>
 
@@ -120,4 +120,5 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

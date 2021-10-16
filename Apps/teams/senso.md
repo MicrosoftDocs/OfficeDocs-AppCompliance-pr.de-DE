@@ -2,18 +2,18 @@
 title: Application Information for Wieso von Wiesn
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Xaml, die Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Xaml, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a44620633f9eee6c5d5e18997a58158a16c5e801
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c517e652c97ba8a74cbadd9b6121084dd40c5394
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282071"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414461"
 ---
 # <a name="senso"></a>Senso
 
@@ -34,7 +34,7 @@ Informationen, die von Dero an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Senso |
 | ID | WA200002571 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Senso |
 | URL der Partnerwebsite | [https://www.senso.cloud](https://www.senso.cloud) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.senso.cloud/safeguarding-microsoft-teams/](https://www.senso.cloud/safeguarding-microsoft-teams/) |
@@ -51,11 +51,11 @@ Informationen, die von Dero an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Dero bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | Anwendung | Lesen Sie die Kanalnamen und Beschreibungen für alle Kanäle, um zu ermitteln, wo eine Verletzung gekennzeichnet wurde.   | Wenn eine Verletzung auftritt, werden der Name des Absenders (von), die Namen der Empfänger (An), der Kanalname, das Datum, die Uhrzeit und die Nachrichten aus diesem Chatkanal protokolliert, um Kontext für einen Verstoß bereitzustellen.  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
 >| ChannelMember.Read.All | Anwendung | Lesen Sie die Mitgliederliste und Chatnachrichten aller Kanäle. | Wenn eine Verletzung auftritt, werden der Name des Absenders (von), die Namen der Empfänger (An), der Kanalname, das Datum, die Uhrzeit und die Nachrichten aus diesem Chatkanal protokolliert, um Kontext für einen Verstoß bereitzustellen.  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
@@ -71,9 +71,9 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Senso.cloud verwendet die folgenden Unterprozessoren für die Leistung des Diensts: https://www.senso.cloud/privacy-policy/ Abschnitt 5. Offenlegung Ihrer personenbezogenen Daten. | Die Arten von Daten, die wir für Drittanbieterkonten und Drittanbieter freigeben, sind in Abschnitt 5 in der rechten Spalte der Tabelle https://www.senso.cloud/privacy-policy/) ( . | Die rechtmäßige Grundlage für die verarbeitung jeder basiert auf der Erfüllung eines Vertrags mit Ihnen oder erforderlich für unsere berechtigten Interessen (für die Ausführung unseres Geschäfts, Archivierungsdaten, Bereitstellung von Verwaltung und IT-Diensten, Netzwerksicherheit, um Betrug und Datenschutzverletzungen zu verhindern. Beispielsweise ist die Geschäftliche E-Mail-Adresse, die E-Mail-Adresse erforderlich, um die Benachrichtigungen über den Rechnungskontakt an den Kunden zu senden, oder wenn die Zahlung per Kreditkarte erfolgt, sind Informationen erforderlich, um beim Zugriff auf den Kundensupport Supporttickets zu erhalten. |
+>| Senso.cloud verwendet die folgenden Unterprozessoren für die Leistung seines Diensts: https://www.senso.cloud/privacy-policy/ Abschnitt 5. Offenlegung Ihrer personenbezogenen Daten. | Die Arten von Daten, die wir für Drittanbieterkonten und Drittanbieter freigeben, sind in Abschnitt 5 in der rechten Spalte der Tabelle https://www.senso.cloud/privacy-policy/) ( . | Die rechtmäßige Grundlage für die verarbeitung jeder basiert auf der Erfüllung eines Vertrags mit Ihnen oder erforderlich für unsere berechtigten Interessen (für die Ausführung unseres Geschäfts, Archivierungsdaten, Bereitstellung von Verwaltung und IT-Diensten, Netzwerksicherheit, um Betrug und Datenschutzverletzungen zu verhindern. Beispielsweise ist die Geschäftliche E-Mail-Adresse, die E-Mail-Adresse erforderlich, um die Benachrichtigungen über den Rechnungskontakt an den Kunden zu senden, oder wenn die Zahlung per Kreditkarte erfolgt, sind Informationen erforderlich, um beim Zugriff auf den Kundensupport Supporttickets zu erhalten. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -81,7 +81,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Senso.cloud verwendet die folgenden Unterprozessoren für die Leistung des Diensts: https://www.senso.cloud/privacy-policy/ Abschnitt 5. Offenlegung Ihrer personenbezogenen Daten. | Die Arten von Daten, die wir für Drittanbieterkonten und Drittanbieter freigeben, sind in Abschnitt 5 in der rechten Spalte der Tabelle https://www.senso.cloud/privacy-policy/) ( . | Die rechtmäßige Grundlage für die verarbeitung jeder basiert auf der Erfüllung eines Vertrags mit Ihnen oder erforderlich für unsere berechtigten Interessen (für die Ausführung unseres Geschäfts, Archivierungsdaten, Bereitstellung von Verwaltung und IT-Diensten, Netzwerksicherheit, um Betrug und Datenschutzverletzungen zu verhindern. Beispielsweise ist die Geschäftliche E-Mail-Adresse, die E-Mail-Adresse erforderlich, um die Benachrichtigungen über den Rechnungskontakt an den Kunden zu senden, oder wenn die Zahlung per Kreditkarte erfolgt, sind Informationen erforderlich, um beim Zugriff auf den Kundensupport Supporttickets zu erhalten. |
+>| Senso.cloud verwendet die folgenden Unterprozessoren für die Leistung seines Diensts: https://www.senso.cloud/privacy-policy/ Abschnitt 5. Offenlegung Ihrer personenbezogenen Daten. | Die Arten von Daten, die wir für Drittanbieterkonten und Drittanbieter freigeben, sind in Abschnitt 5 in der rechten Spalte der Tabelle https://www.senso.cloud/privacy-policy/) ( . | Die rechtmäßige Grundlage für die verarbeitung jeder basiert auf der Erfüllung eines Vertrags mit Ihnen oder erforderlich für unsere berechtigten Interessen (für die Ausführung unseres Geschäfts, Archivierungsdaten, Bereitstellung von Verwaltung und IT-Diensten, Netzwerksicherheit, um Betrug und Datenschutzverletzungen zu verhindern. Beispielsweise ist die Geschäftliche E-Mail-Adresse, die E-Mail-Adresse erforderlich, um die Benachrichtigungen über den Rechnungskontakt an den Kunden zu senden, oder wenn die Zahlung per Kreditkarte erfolgt, sind Informationen erforderlich, um beim Zugriff auf den Kundensupport Supporttickets zu erhalten. |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -144,3 +144,4 @@ Diese Informationen wurden von Demo bereitgestellt, wie diese App die Authentifi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

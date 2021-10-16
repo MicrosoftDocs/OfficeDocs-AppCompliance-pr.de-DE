@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für CloudExtend Analytics für NetSuite von Celigo CloudExtend
+title: Anwendungsinformationen für CloudExtend Analytics for NetSuite von Celigo CloudExtend
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/19/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CloudExtend Analytics für NetSuite, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 489f4f04afc52476b34a98ecd808c035ff47a676
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3dc8880f51ad68e09bb71276a33b9b2a864a8eaa
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282581"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413216"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics für NetSuite
 
@@ -53,17 +53,17 @@ Diese Informationen wurden von Celigo CloudExtend darüber bereitgestellt, wie d
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | Beide | Lesen der Sammlung von Websites, für die der Benutzer Zugriff hat, um Informationen zu Arbeitsmappen abzurufen, die über Websites freigegeben wurden | Speichern Sie die Website-ID, um offline auf die Arbeitsmappe zuzugreifen. | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
 >| Files.ReadWrite.All | Beide | Lesen des Arbeitsmappeninhalts wie Tabellen und Blatt und Schreiben von Inhalten in diese Tabellen | Arbeitsmappendetails wie Web-URL, Arbeitsmappen-ID und der Speicherort der Arbeitsmappe, um offline darauf zuzugreifen | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Chargebee, NetSuite, Salesforce, Intercom, LogLadenet, Amazon AWS | Organisationsname, NetSuite-Kontonummer, Domäne der E-Mail-Adressen der Organisation, Abrechnungskontaktinformationen | Lizenzbereitstellung, Validierung und Abrechnung Kundensupport, Problembehandlung und Kontoverwaltung |
 
@@ -112,7 +112,7 @@ Diese Informationen wurden von Celigo CloudExtend bereitgestellt, wie diese App 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -129,3 +129,4 @@ Diese Informationen wurden von Celigo CloudExtend bereitgestellt, wie diese App 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

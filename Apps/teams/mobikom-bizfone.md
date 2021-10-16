@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Bizfone von MobiKOM
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Bizfone, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 20f1497c8cb4541982082a6bfbccd0f4968a8663
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c9e2f8ce67921b36adaa058d59e2ae3ca188e083
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281183"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415052"
 ---
 # <a name="bizfone"></a>Bizfone
 
@@ -34,7 +34,7 @@ Von MobiKOM für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Bizfone |
 | ID | WA200000874 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | MobiKOM |
 | URL der Partnerwebsite | [https://mobikom.dk](https://mobikom.dk) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://mobikom.dk/faq/](https://mobikom.dk/faq/) |
@@ -55,7 +55,7 @@ Diese Informationen wurden von MobiKOM darüber bereitgestellt, wie diese App Or
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | Delegiert | Kalender werden verwendet, damit Benutzer kollegen ihre Kalandar anzeigen und Besprechungen zum Einrichten ihrer Telefonie verwenden können. | Kalender werden verwendet, damit Benutzer kollegen ihre Kalandar anzeigen und Besprechungen zum Einrichten ihrer Telefonie verwenden können. | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
 >| Contacts.Read | Delegiert | Die Kontakte der Benutzer können gespeichert werden, wenn sie sie in der App anzeigen möchten, um die Auswahl von Kontakten zu vereinfachen. | Die Kontakte der Benutzer können gespeichert werden, wenn sie sie in der App anzeigen möchten, um die Auswahl von Kontakten zu vereinfachen. | [1dd6ac57-e6f0-4995-a57f-b6d074c16e11](https://docs.microsoft.com/microsoft-365-app-certification/azure/1dd6ac57-e6f0-4995-a57f-b6d074c16e11) |
@@ -70,11 +70,11 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| EWS. AccessAsUser.All | Ja | Firmenname, Mitarbeiternamen und Telefonnummern | Anzeigen der Daten für die Benutzer in der App und deren Verwendung | Firmenname, Mitarbeiternamen und Telefonnummern | Anzeigen der Daten für die Benutzer in der App und deren Verwendung |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Ribbon Communications, Voxbone, team.blue, Fakturaservice.dk A/S, Flexible | Firmenname, Mitarbeiternamen und Telefonnummern | Das Menüband stellt unseren Teams SBC bereit. Voxbone wird für internationale Nummern verwendet, jedoch nur, wenn Sie diese haben. team.blue ist unser Hostinganbieter. FakturaService.dk A/S wird für die Abrechnung verwendet. Flexibles Wird für die Protokollierung verwendet |
 
@@ -107,17 +107,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -145,3 +134,4 @@ Diese Informationen wurden von MobiKOM darüber bereitgestellt, wie diese App di
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

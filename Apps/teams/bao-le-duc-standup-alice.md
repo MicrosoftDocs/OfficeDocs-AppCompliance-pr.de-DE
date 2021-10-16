@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Standup Alice, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5d1d075f16fed6e0a0029e3c90050068ca5bf9b5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4fe2dfa0ccacd8ed19088536deb3fdf82e3f3d46
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283484"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411874"
 ---
 # <a name="standup-alice"></a>Standup Alice
 
@@ -34,7 +34,7 @@ Von Bao Le Duc für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Standup Alice |
 | ID | WA200000758 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Bao Le Duc |
 | URL der Partnerwebsite | [https://www.standupalice.com](https://www.standupalice.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.standupalice.com](https://www.standupalice.com) |
@@ -51,9 +51,9 @@ Von Bao Le Duc für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Bao Le Duc darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -62,9 +62,9 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Cloud – wir hosten den Bot in der Google Cloud | TeamId von Microsoft Teams | Wir benötigen TeamId, um zu identifizieren, welches Microsoft Teams &quot; Team &quot; ist |
+>| Google Cloud – wir hosten den Bot in der Google Cloud | TeamId Microsoft Teams | Wir benötigen TeamId, um zu identifizieren, welches Microsoft Teams &quot; Team &quot; ist |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -122,3 +122,4 @@ Diese Informationen wurden von Bao Le Duc bereitgestellt, wie diese App die Auth
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

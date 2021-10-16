@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Vonage Business Communications von Vonage
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2021
+ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Vonage Business Communications, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 80665180e1abdd6783e7644a06b4d116dcedf6ae
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7b87151f6898c83a24b4878a3c6e60b7d951c974
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282920"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414381"
 ---
 # <a name="vonage-business-communications"></a>Vonage Business Communications
 
@@ -34,7 +34,7 @@ Informationen, die von Vonage an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Vonage Business Communications |
 | ID | WA200002988 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Vonage |
 | URL der Partnerwebsite | [https://www.vonage.com](https://www.vonage.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.vonage.com/unified-communications/](https://www.vonage.com/unified-communications/) |
@@ -51,11 +51,11 @@ Informationen, die von Vonage an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Vonage darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsActivity.Send | Anwendung | Mit dieser Berechtigung werden keine Daten gespeichert. | Mit dieser Berechtigung werden keine Daten gespeichert. | [1d8a304e-ea67-4aa2-9345-2793419cf83f](https://docs.microsoft.com/microsoft-365-app-certification/azure/1d8a304e-ea67-4aa2-9345-2793419cf83f) |
 >| User.Read | Delegiert | Abrufen der Azure-Benutzer-ID und mandanten-ID, damit wir später Benachrichtigungen an diesen Benutzer senden können. |  Abrufen der Azure-Benutzer-ID und mandanten-ID, damit wir später Benachrichtigungen an diesen Benutzer senden können, wenn er eine SMS/MMS empfängt | [1d8a304e-ea67-4aa2-9345-2793419cf83f](https://docs.microsoft.com/microsoft-365-app-certification/azure/1d8a304e-ea67-4aa2-9345-2793419cf83f) |
@@ -121,3 +121,4 @@ Diese Informationen wurden von Vonage darüber bereitgestellt, wie diese App Aut
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Nulia Works von Nulia
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/11/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Nulia Works, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4d176b18a8089d9107f30b7581bcca69daf0871e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2d59f585e7d07ecdab694853d92d4442bfb0d069
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282944"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413459"
 ---
 # <a name="nulia-works"></a>Nulia Works
 
@@ -34,7 +34,7 @@ Von Nulia für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Nulia Works |
 | ID | WA200002051 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Nulia |
 | URL der Partnerwebsite | [https://nulia.com](https://nulia.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://nulia.com/product](https://nulia.com/product) |
@@ -51,30 +51,30 @@ Von Nulia für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Nulia darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise zählen wir die Anzahl der Kalenderereignisse, die ein Benutzer hat. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Contacts.Read | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise zählen wir die Anzahl der Kontakte, die ein Benutzer erstellt hat. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Files.Read.All | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise zählen wir die Anzahl der Dateien, die ein Benutzer mit dem Computer synchronisiert. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
->| Group.Read.All | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise wird aus den Gruppen abgerufen, wie viele Teams ein Benutzer gehört. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
+>| Group.Read.All | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise rufen wir aus den Gruppen ab, wie viele Teams ein Benutzer gehört. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Mail.Read | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise zählen wir die Anzahl der benutzerdefinierten E-Mail-Ordner, die ein Benutzer erstellt hat. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| MailboxSettings.Read | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise wird angezeigt, ob ein Benutzer eine Abwesenheitsantwort festgelegt hat. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Notes.Read | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise zählen wir die Anzahl der Notizbücher, die ein Benutzer freigegeben hat. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
->| Reports.Read.All | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Wir rufen beispielsweise aus den Benutzerberichten ab, wie viele Teams Nachrichten sie an einem Tag gesendet haben. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
+>| Reports.Read.All | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise rufen wir aus den Benutzerberichten ab, wie viele Teams Nachrichten sie an einem Tag gesendet haben. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Sites.Read.All | Anwendung | Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden diese Daten, um Die Benutzer anhand von Fähigkeiten und Ergebnisfortschritten zu bewerten. Beispielsweise zählen wir die Anzahl der Websitesammlungen, die der Benutzer erstellt hat. Dieser Wert wirkt sich auf den Fortschritt ihrer Fähigkeiten aus. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| User.Read | Anwendung | Wir zeigen den Anzeigenamen, die Abteilung und das Profilbild des Benutzers an. | Wir speichern den Anzeigenamen und die Abteilung in unserer Datenbank, damit wir nicht jedes Mal auf die Graph treffen müssen. Das Profilbild wird nicht gespeichert. | [Wir erstellen eine neue Anwendungs-ID für jeden Kunden. Unser Nulia-Mandant verwendet beispielsweise die Anwendungs-ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Organization.Read.All | Anwendung | Wir erfassen den Namen des Mandanten und Yammer Basis-URL. Wir verwenden dies, um Yammer zu starten, wenn der Benutzer auf eine Schaltfläche "Ausprobieren" in unserer App klickt, &quot; die sich auf Yammer Aktivitäten &quot; bezieht. | Wir speichern alle gesammelten Daten im Blobspeicher. Wir verwenden dies beispielsweise, um Yammer zu starten, wenn der Benutzer in unserer App auf eine Schaltfläche "Ausprobieren" klickt, &quot; die sich auf Yammer Aktivitäten &quot; bezieht. | [Wir verwenden die gesammelten Daten, um den Benutzerfortschritt bei Fähigkeiten und Ergebnissen zu bewerten. Wir erfassen Nutzungsanzahlen für mehrere O365-Workloads.](https://docs.microsoft.com/microsoft-365-app-certification/azure/We use the data collected to score user progress on skills and Outcomes. We collect usage counts across multiple O365 workloads.) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -143,3 +143,4 @@ Diese Informationen wurden von Nulia darüber bereitgestellt, wie diese App Auth
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

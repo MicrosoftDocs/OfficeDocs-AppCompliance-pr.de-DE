@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Highspot von Highspot
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/13/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Highspot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bbf47f6b42e1f77fefed8de24ce23858e5cb52fd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9796eda272fc2e54041983ef559dd8a8b4a070b0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282992"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412344"
 ---
 # <a name="highspot"></a>Highspot
 
@@ -34,7 +34,7 @@ Von Highspot für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Highspot |
 | ID | WA200002894 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Highspot |
 | URL der Partnerwebsite | [https://www.highspot.com](https://www.highspot.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.highspot.com/overview/](https://www.highspot.com/overview/) |
@@ -51,7 +51,7 @@ Von Highspot für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Highspot darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -65,11 +65,11 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Microsoft Teams-API | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| https://engage.highspot.com/viewer/5e0f9071628ba277fd1c3dc5?iid=5e1fb2a5b7b7391d951d4c86 | https://engage.highspot.com/viewer/5e0f9071628ba277fd1c3dc5?iid=5e1fb2a5b7b7391d951d4c86 | https://engage.highspot.com/viewer/5e0f9071628ba277fd1c3dc5?iid=5e1fb2a5b7b7391d951d4c86 |
 
@@ -129,3 +129,4 @@ Diese Informationen wurden von Highspot darüber bereitgestellt, wie diese App A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

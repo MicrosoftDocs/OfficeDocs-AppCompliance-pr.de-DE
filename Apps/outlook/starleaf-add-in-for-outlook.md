@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Das StarLeaf-Add-In für Outlook von StarLeaf
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 06/17/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für das StarLeaf-Add-In für Outlook, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für StarLeaf-Add-Ins für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 66f31eb44942e20b4db10d5e718eb67e3e50b03e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a47dfedd6354fae038e4fbcc3ed768866fd8aec2
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283373"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413517"
 ---
 # <a name="starleaf-add-in-for-outlook"></a>StarLeaf-Add-In für Outlook
 
@@ -53,17 +53,17 @@ Diese Informationen wurden von StarLeaf zur Verfügung gestellt, wie diese App O
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Anwendung | wir speichern die iCalUId von Besprechungen, Uhrzeit/Datum der Besprechung, E-Mail-Adressen der Teilnehmer und eine Single-Value-Extended-Property, die wir mithilfe der benutzerdefinierten Eigenschaftenschnittstelle Office.js lesen und in die Besprechung schreiben. Die iCalUId wird verwendet, um die Besprechung in einem Outlook-Kalender eines Benutzers&#8217;mit der Videobesprechung in unserem Dienst zu korrelieren. Die Uhrzeit/das Datum und die Teilnehmer werden verwendet, um den richtigen Personen in unserem Dienst zur richtigen Zeit eine Videobesprechung bereitzustellen. SVEP wird mit unserem O365-Add-In verwendet, um Benutzern eine Benutzeroberfläche zum Festlegen von Details zur Videobesprechung in unserem Dienst bereitzustellen, z. B. Aufzeichnung. | verwendet, um Webhook-Benachrichtigungen zu abonnieren, um Benutzeränderungen an Ereignissen in ihren Kalendern nachzuverfolgen und unseren Dienst zu aktualisieren, um ihn konsistent zu halten. Es wird auch verwendet, um Ereignisse in ihrem Kalender zu erstellen, wenn ein Benutzer mit unserer Teams-App interagiert und eine Besprechung für unseren Dienst plant. | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 >| User.Read | Anwendung | Wir speichern das oauth-Aktualisierungstoken, um sich anmelden zu können. Wir speichern die Benutzerprofil-ID, um zukünftige OAuth-Versuche dieses Benutzers vergleichen zu können, und stellen sicher, dass wir ihre Details nicht zweimal speichern&#8217;.  | Ermöglichen Sie Benutzern, sich bei der App anzumelden, und ermöglicht es unserer App, die E-Mail-Adresse des Benutzers&#8217;abzurufen, um seine Anmeldung mit einem Konto bei unserem Dienst zu korrelieren.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Wenn Probleme mit dem technischen Support auftreten, können organisatorische Daten zur Fallverwaltung an SalesForce übertragen werden. Wenn der Benutzer die PSTN-Einwahlfunktion verwendet, wird der Anruf durch Twilio, Plivo oder Voxbone fließen. |  | Nicht zutreffend |
 
@@ -102,4 +102,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

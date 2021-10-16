@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für InStation von Entwickler Invillia
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für InStation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 33ef3024f1b0e9b70cb6445e28c71ee1f6de22be
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282110"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411773"
 ---
 # <a name="instation"></a>InStation
 
@@ -34,7 +34,7 @@ Informationen, die von Developers Invillia an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | InStation |
 | ID | WA200001701 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Developers Invillia |
 | URL der Partnerwebsite | [https://invillia.com/](https://invillia.com/) |
 | URL der Datenschutzrichtlinie | [https://instation.invillia.com/terms#privacy-policy](https://instation.invillia.com/terms#privacy-policy) |
@@ -54,10 +54,10 @@ Diese Informationen wurden von Developers Invillia darüber bereitgestellt, wie 
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| OnlineMeetings.Read.All | Delegiert | Stores: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | Stores: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
->| OnlineMeetings.ReadWrite.All | Delegiert | Stores: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | Stores: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OnlineMeetings.Read.All | Delegiert | Speicher: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | Speicher: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OnlineMeetings.ReadWrite.All | Delegiert | Speicher: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | Speicher: ID, join_url, join_web_url und chat_id. Ermöglicht der App das Erstellen von Besprechungen | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| Presence.Read | Delegiert | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | Aktivität und Haftung. Ermöglicht der App, den Benutzerstatus zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| Presence.Read.All | Delegiert | Ermöglicht der App, sich bei ihrem ersten Schritt bei der Organisation anzumelden. | Aktivität und Haftung. Ermöglicht der App, den Benutzerstatus zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| User.Read | Delegiert | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | Speicher: ID, E-Mail, Anzeigename, Nachname und Bild. Ermöglicht der App, nach Benutzerdaten zu suchen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
@@ -65,18 +65,18 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| email | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| offline_access | Delegiert | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| openid | Delegiert | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
->| Profil | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Profil | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;beim ersten Anmelden zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;beim ersten Anmelden zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -114,4 +114,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

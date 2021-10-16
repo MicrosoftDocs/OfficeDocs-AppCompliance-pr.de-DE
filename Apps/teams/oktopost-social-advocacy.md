@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für soziale Netzwerke von Oktopost
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/18/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Soziales, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 376dae946bfd5bf8fafcf10d33f2e7ae4e20a706
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f020fb0c4f40d333b7a9f703ef71eb2d98b49478
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282746"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412184"
 ---
 # <a name="social-advocacy"></a>Social Advocacy
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 18. Mai 2021</p>
+<p>Last updated by the developer on: May 18, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/b9370833-f71b-4f99-8343-adc3c29c74b1" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002598" target="_blank">Ansicht in AppSource</a>
@@ -34,7 +34,7 @@ Von Oktopost für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Social Advocacy |
 | ID | WA200002598 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Oktopost |
 | URL der Partnerwebsite | [https://www.oktopost.com](https://www.oktopost.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.oktopost.com](https://www.oktopost.com) |
@@ -51,9 +51,9 @@ Von Oktopost für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Oktopost darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -120,3 +120,4 @@ Diese Informationen wurden von Oktopost bereitgestellt, wie diese App die Authen
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

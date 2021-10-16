@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Google Analytics Insights von Freevolut LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/13/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Google Analytics Insights, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3b2b1e528878540c22682ce5dc4fa30df0eba1d8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ac096261a48b8031369be672a27141ba549f07f0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283836"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413016"
 ---
 # <a name="google-analytics-insights"></a>Google Analytics Insights
 
@@ -34,7 +34,7 @@ Von Freevolut LTD für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Google Analytics Insights |
 | ID | WA200000743 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Freevolut LTD |
 | URL der Partnerwebsite | [https://www.ga-insights.com](https://www.ga-insights.com) |
 | URL der Datenschutzrichtlinie | [https://www.ga-insights.com/Privacy](https://www.ga-insights.com/Privacy) |
@@ -50,9 +50,9 @@ Von Freevolut LTD für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Freevolut LTD darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -61,7 +61,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -103,4 +103,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

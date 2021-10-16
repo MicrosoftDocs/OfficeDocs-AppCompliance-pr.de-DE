@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Humu von Humu Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/20/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Humu, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1c4f09d20ef885ae5c7e26a4c02d3d877bf7ef00
-ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 772974445cbe3962521bd25019a1172f961590dc
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60112279"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415092"
 ---
 # <a name="humu"></a>Humu
 
@@ -34,7 +34,7 @@ Von Humu Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Humu |
 | ID | WA200003302 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Humu Inc. |
 | URL der Partnerwebsite | [https://www.humu.com](https://www.humu.com) |
 | URL der Datenschutzrichtlinie | [https://www.humu.com/privacy-services](https://www.humu.com/privacy-services) |
@@ -52,18 +52,18 @@ Diese Informationen wurden von Humu Inc. bereitgestellt, wie diese App Organisat
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| GCP | Organisationsname, Mitarbeiterhierarchie, E-Mail-Adressen/Abteilung/Standort des Mitarbeiters | Kunden- und Mitarbeiterdaten werden von Kundenadministratoren zur Verwendung durch ihre Mitarbeiter in Humu geladen, bevor sich einzelne Benutzer bei Humu anmelden und die App "Humu for Teams" verwenden. Mitarbeiter können auch Feedback über die App eingeben, die wir für die spätere Verwendung erfassen.  |
+>| GCP | Organisationsname, Mitarbeiterhierarchie, E-Mail-Adressen/Abteilung/Standort des Mitarbeiters | Kunden- und Mitarbeiterdaten werden von Kundenadministratoren zur Verwendung durch ihre Mitarbeiter in Humu geladen, bevor sich einzelne Benutzer bei Humu anmelden und die App "Humu für Teams" verwenden. Mitarbeiter können auch Feedback über die App eingeben, die wir für die spätere Verwendung erfassen.  |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -96,17 +96,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/4e95a4f5-304c-4629-901c-72341d8f2a0' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/4e95a4f5-304c-4629-901c-72341d8f2a0" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,3 +110,4 @@ Diese Informationen wurden von Humu Inc. bereitgestellt, wie diese App die Authe
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

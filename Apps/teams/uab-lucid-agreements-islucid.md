@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für isLucid durch UAB Lucid Agreements
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/09/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für isLucid, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für isLucid, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d29616471c22a2fd4f01a849d14b965ae106aa80
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7270fa4f4a08ca820d1fe7452dea13fb107f2294
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281048"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414902"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -34,7 +34,7 @@ Informationen, die von UAB Lucid-Vereinbarungen für Microsoft bereitgestellt we
 |:----------------|:-------------|
 | App-Name | isLucid |
 | ID | WA200002385 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | UAB Lucid-Vereinbarungen |
 | URL der Partnerwebsite | [https://islucid.com](https://islucid.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://islucid.com](https://islucid.com) |
@@ -51,11 +51,11 @@ Informationen, die von UAB Lucid-Vereinbarungen für Microsoft bereitgestellt we
 
 Diese Informationen wurden von UAB Lucid Agreements darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calls.AccessMedia.All | Beide | Mit einer benutzerspezifischen Zustimmung für jeden Anruf (initiierte Transkription) greift er auf den Audiodatenstrom zu. Der Audiodatenstrom wird an einen Transkriptionsdienst weitergeleitet, damit Benutzer weitere Funktionen erhalten. | App speichert in einem separaten Container in Azure (Blobspeicher und Cosmos DB für jeden Client separat) Transkription und zugehörige Metainformationen. Dies ist erforderlich, um weiteren Zugriff auf besprechungsinformationen für den Benutzer bereitzustellen, der die Anwendung verwendet hat und in der bestimmten Besprechung war. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| Calls.JoinGroupCall.All | Beide | Mit einer benutzerspezifischen Zustimmung für jeden Anruf (initiierte Transkription) greift er auf den Audiodatenstrom zu. Der Audiodatenstrom wird an einen Transkriptionsdienst weitergeleitet, damit Benutzer weitere Funktionen erhalten. | App speichert in einem separaten Container in Azure (Blobspeicher und Cosmos DB für jeden Client separat) Transkription und zugehörige Metainformationen. Dies ist erforderlich, um weiteren Zugriff auf besprechungsinformationen für den Benutzer bereitzustellen, der die Anwendung verwendet hat und in der bestimmten Besprechung war. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
@@ -70,7 +70,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| hubspot.com | Name, Nachname, E-Mail und Telefon Anzahl der neu registrierten Benutzer | Wir verwenden Hubspot CRM für die Verwaltung von Vertriebsinformationen |
 
@@ -93,7 +93,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wir steuern keine Daten auf unseren Clients, wenn der Client isLucid als gehostete Lösung erwirbt. Für SaaS-Lösungen ermöglichen wir Benutzern, die Nutzung unserer Dienste abzubrechen, und löschen dann Cosmos db isntance, die dem Partner zugeordnet ist. Wir sind dabei, auch Informationen an die Compliance-API zu senden.
+>Wir steuern keine Daten auf unseren Clients, wenn der Client isLucid als gehostete Lösung erwirbt. Für SaaS-Lösungen ermöglichen wir Es Benutzern, die Nutzung unserer Dienste abzubrechen, und dann löschen wir Cosmos db isntance, die dem Partner zugeordnet ist. Wir sind dabei, auch Informationen an die Compliance-API zu senden.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -105,17 +105,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -134,7 +123,7 @@ Diese Informationen wurden von UAB Lucid Agreements darüber bereitgestellt, wie
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Ja |
@@ -143,3 +132,4 @@ Diese Informationen wurden von UAB Lucid Agreements darüber bereitgestellt, wie
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

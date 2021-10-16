@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Soapbox von Soapbox
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Soapbox, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 89151d495479f3390aa179f810325ab56f77337a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e072f8c987b3fc551a98970a7134535ec275b594
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281456"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414059"
 ---
 # <a name="soapbox"></a>Soapbox
 
@@ -34,7 +34,7 @@ Von Soapbox für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Soapbox |
 | ID | WA104381501 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Soapbox |
 | URL der Partnerwebsite | [https://soapboxhq.com](https://soapboxhq.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://msteams.services.soapboxhq.com/faqs](https://msteams.services.soapboxhq.com/faqs) |
@@ -51,18 +51,18 @@ Von Soapbox für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Soapbox bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Delegiert | Synchronisierungstoken. | Kalenderzugriff ist erforderlich, um SoapBox-Besprechungen mit Kalenderereignissen zu synchronisieren | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | Delegiert | Name, E-Mail, Microsoft-Benutzer-ID. | Name und E-Mail werden verwendet, um SoapBox-Benutzer zu erstellen. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| offline_access | Delegiert |  | Offlinezugriff auf Kalender ist erforderlich, damit SoapBox-Benachrichtigungen für synchronisierte Kalenderereignisse relevant sind. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -110,4 +110,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

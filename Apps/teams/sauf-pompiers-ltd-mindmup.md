@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MindMup, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 018079ed1d80c0ea3127734a504d56007d06d54e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 75588e4a5c58969377568884cf709309026b6029
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279836"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413417"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -34,7 +34,7 @@ Informationen, die von Sauf Holdingiers Ltd an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | MindMup |
 | ID | WA200001759 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Sauf Pompiers Ltd |
 | URL der Partnerwebsite | [https://www.mindmup.com](https://www.mindmup.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.mindmup.com/tutorials/microsoft-teams.html](https://www.mindmup.com/tutorials/microsoft-teams.html) |
@@ -55,17 +55,17 @@ Diese Informationen wurden von Sauf Holdingiers Ltd bereitgestellt, wie diese Ap
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Teams.ReadBasic.All | Delegiert | Teambezeichner und Teamnamen für Benutzer | So ermöglichen Sie Benutzern das Freigeben von Dokumenten für Teams, in denen sie Mitglied sind | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
 >| User.Read | Delegiert | Benutzer-ID, E-Mail-Adresse, die nach der Authentifizierung angezeigt werden soll | Benutzeridentifer, E-Mail-Adresse | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS-Speichersysteme, die verwendet werden, um grundlegende Benutzerprofilinformationen zu speichern, um die Freigabe von Dokumenten und den sicheren Zugriff auf Benutzerdokumente auf MindMup zu unterstützen | Mandanten-ID | Zugriffssteuerung |
 
@@ -90,7 +90,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 Der gesamte Operator-/Administratorzugriff ist durch 2FA geschützt.
 
-Der Benutzer- und Clientadministratorzugriff erfolgt über die integrierte Authentifizierung von Microsoft/Azure AD, wobei 2FA-Optionen direkt über SSO verfügbar sind.
+Der Benutzer- und Clientadministratorzugriff wird von Microsoft/Azure AD integrierter Authentifizierung bereitgestellt, wobei 2FA-Optionen direkt über SSO verfügbar sind.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -123,7 +123,7 @@ Diese Informationen wurden von Sauf Pomiers Ltd. bereitgestellt, wie diese App d
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -139,3 +139,4 @@ Diese Informationen wurden von Sauf Pomiers Ltd. bereitgestellt, wie diese App d
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

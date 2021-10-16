@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Hibob von Hibob Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/13/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hibob, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9168d876cfdf6abc2839311d3820ec8a024f29d1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b6eaaa5c8e9b7a707bdd88b965964089c5dce472
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281255"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412364"
 ---
 # <a name="hibob"></a>Hibob
 
@@ -34,7 +34,7 @@ Informationen, die von Hibob Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Hibob |
 | ID | WA200000765 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Hibob Inc. |
 | URL der Partnerwebsite | [https://www.hibob.com](https://www.hibob.com) |
 | URL der Datenschutzrichtlinie | [https://www.hibob.com/privacy-policy/](https://www.hibob.com/privacy-policy/) |
@@ -57,11 +57,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -69,7 +69,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Der Popup wird verwendet, um einen Teams Benutzer gemäß E-Mail mit bob-Benutzer zuzuordnen. Der Abgleich wird verwendet für – Identifikation, Benachrichtigungen, Link zu Teams Profil. | Es wird nur die UPN-Eigenschaft verwendet und gespeichert. |  |
+>| Der Spieler wird verwendet, um einen Teams Benutzer gemäß E-Mail mit bob-Benutzer zuzuordnen. Abgleich wird verwendet für – Identifikation, Benachrichtigungen, Link zu Teams Profil. | Es wird nur die UPN-Eigenschaft verwendet und gespeichert. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -84,7 +84,7 @@ Es gibt keine Option zum Löschen der Uppon-Anforderung für Protokolle.
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Unsere Plattform wird in den Rechenzentren von Amazon&#8217;in Dublin gehostet, und Der Zugriff auf die Plattform ist rollenbasiert und richtet sich nach der Position der Mitarbeiter&#8217;.
+>Unsere Plattform wird in den Rechenzentren von Amazon&#8217;in Dublin gehostet, und Der Zugriff auf die Plattform ist rollenbasiert und wird basierend auf der Position der Mitarbeiter&#8217;auf der Grundlage von "Need-to-Know/Need-to-Do" festgelegt.
 Jeder Benutzer verfügt über seine eindeutigen Anmeldeinformationen, und wir erzwingen die 2FA-Authentifizierung für wichtige Dienste.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
@@ -108,4 +108,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

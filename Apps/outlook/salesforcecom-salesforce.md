@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Salesforce nach salesforce.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Salesforce, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 152885012f81c077fc0bb018fda7080867c54986
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 749e4cf95c8eefb650f6fd0f8ceb59721d7efcc8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283376"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413527"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -33,7 +33,7 @@ Informationen, die von salesforce.com an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Salesforce |
 | ID | WA104379334 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac Outlook im Web |
+| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
 | Name des Partnerunternehmens | salesforce.com |
 | URL der Partnerwebsite | [https://www.salesforce.com](https://www.salesforce.com) |
 | URL der Datenschutzrichtlinie | [https://www.salesforce.com/company/privacy/](https://www.salesforce.com/company/privacy/) |
@@ -49,26 +49,26 @@ Informationen, die von salesforce.com an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von salesforce.com darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Auflisten aller anderen Microsoft-APIs als Microsoft Graph diese App verwendet wird.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| JavaScript-API für Office | Ja | Das Add-In verwendet Funktionen von Office.js und EWS, um Inhalte und Anlagen zu einer E-Mail zu kopieren, die ein Outlook Benutzer sich bei Salesforce angemeldet hat. Ähnliche Funktionen werden auf kalenderseitiger Seite verwendet, um Termine in Salesforce zu protokollieren. | Das Add-In verwendet Funktionen von Office.js und EWS, um Inhalte und Anlagen zu einer E-Mail zu kopieren, die ein Outlook Benutzer sich bei Salesforce angemeldet hat. Ähnliche Funktionen werden auf kalenderseitiger Seite verwendet, um Termine in Salesforce zu protokollieren. | Das Add-In verwendet Funktionen wie getUserIdentityTokenAsync, um die aktuelle Outlook Benutzeridentität abzurufen. GetItem (.js and EWS) to get and set AdditionalProperties and the content of the current email message when saving to Salesforce records, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. | Das Add-In verwendet Funktionen wie getUserIdentityTokenAsync, um die aktuelle Outlook Benutzeridentität abzurufen. GetItem (.js and EWS) to get and set AdditionalProperties and the content of the current email message when saving to Salesforce records, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. |
->| Exchange-Webdienste (Exchange Web Services, EWS) | Ja | Das Add-In verwendet Funktionen von Office.js und EWS, um Inhalte und Anlagen zu einer E-Mail zu kopieren, die ein Outlook Benutzer sich bei Salesforce angemeldet hat. Ähnliche Funktionen werden auf kalenderseitiger Seite verwendet, um Termine in Salesforce zu protokollieren. | Das Add-In verwendet Funktionen von Office.js und EWS, um Inhalte und Anlagen zu einer E-Mail zu kopieren, die ein Outlook Benutzer sich bei Salesforce angemeldet hat. Ähnliche Funktionen werden auf kalenderseitiger Seite verwendet, um Termine in Salesforce zu protokollieren. | Das Add-In verwendet Funktionen wie getUserIdentityTokenAsync, um die aktuelle Outlook Benutzeridentität abzurufen. GetItem (.js and EWS) to get and set AdditionalProperties and the content of the current email message when saving to Salesforce records, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. | Das Add-In verwendet Funktionen wie getUserIdentityTokenAsync, um die aktuelle Outlook Benutzeridentität abzurufen. GetItem (.js and EWS) to get and set AdditionalProperties and the content of the current email message when saving to Salesforce records, GetAttachment (EWS) to retrieve the attachments from Exchange and add to the paired Salesforce email, UpdateItem (.js), GetFolder (.js) to get the drafts folder, CreateItem (.js), which is used to create a draft message. |
+>| JavaScript-API für Office | Ja | Das Add-In verwendet Funktionen von Office.js und EWS, um Inhalte und Anlagen zu einer E-Mail zu kopieren, die ein Outlook Benutzer sich bei Salesforce angemeldet hat. Ähnliche Funktionen werden auf kalenderseitiger Seite verwendet, um Termine in Salesforce zu protokollieren. | Das Add-In verwendet Funktionen von Office.js und EWS, um Inhalte und Anlagen zu einer E-Mail zu kopieren, die ein Outlook Benutzer sich bei Salesforce angemeldet hat. Ähnliche Funktionen werden auf kalenderseitiger Seite verwendet, um Termine in Salesforce zu protokollieren. | Das Add-In verwendet Funktionen wie getUserIdentityTokenAsync, um die aktuelle Outlook Benutzeridentität abzurufen. GetItem (.js und EWS), um AdditionalProperties und den Inhalt der aktuellen E-Mail-Nachricht beim Speichern in Salesforce-Datensätzen abzurufen und festzulegen, GetAttachment (EWS), um die Anlagen aus Exchange abzurufen und der gepaarten Salesforce-E-Mail, UpdateItem (.js), GetFolder (.js) zum Abrufen des Entwurfsordners hinzuzufügen,  CreateItem (.js), das zum Erstellen eines Nachrichtenentwurfs verwendet wird. | Das Add-In verwendet Funktionen wie getUserIdentityTokenAsync, um die aktuelle Outlook Benutzeridentität abzurufen. GetItem (.js und EWS), um AdditionalProperties und den Inhalt der aktuellen E-Mail-Nachricht beim Speichern in Salesforce-Datensätzen abzurufen und festzulegen, GetAttachment (EWS), um die Anlagen aus Exchange abzurufen und der gepaarten Salesforce-E-Mail, UpdateItem (.js), GetFolder (.js) zum Abrufen des Entwurfsordners hinzuzufügen,  CreateItem (.js), das zum Erstellen eines Nachrichtenentwurfs verwendet wird. |
+>| Exchange-Webdienste (Exchange Web Services, EWS) | Ja | Das Add-In verwendet Funktionen von Office.js und EWS, um Inhalte und Anlagen zu einer E-Mail zu kopieren, die ein Outlook Benutzer sich bei Salesforce angemeldet hat. Ähnliche Funktionen werden auf kalenderseitiger Seite verwendet, um Termine in Salesforce zu protokollieren. | Das Add-In verwendet Funktionen von Office.js und EWS, um Inhalte und Anlagen zu einer E-Mail zu kopieren, die ein Outlook Benutzer sich bei Salesforce angemeldet hat. Ähnliche Funktionen werden auf kalenderseitiger Seite verwendet, um Termine in Salesforce zu protokollieren. | Das Add-In verwendet Funktionen wie getUserIdentityTokenAsync, um die aktuelle Outlook Benutzeridentität abzurufen. GetItem (.js und EWS), um AdditionalProperties und den Inhalt der aktuellen E-Mail-Nachricht beim Speichern in Salesforce-Datensätzen abzurufen und festzulegen, GetAttachment (EWS), um die Anlagen aus Exchange abzurufen und der gepaarten Salesforce-E-Mail, UpdateItem (.js), GetFolder (.js) zum Abrufen des Entwurfsordners hinzuzufügen,  CreateItem (.js), das zum Erstellen eines Nachrichtenentwurfs verwendet wird. | Das Add-In verwendet Funktionen wie getUserIdentityTokenAsync, um die aktuelle Outlook Benutzeridentität abzurufen. GetItem (.js und EWS), um AdditionalProperties und den Inhalt der aktuellen E-Mail-Nachricht beim Speichern in Salesforce-Datensätzen abzurufen und festzulegen, GetAttachment (EWS), um die Anlagen aus Exchange abzurufen und der gepaarten Salesforce-E-Mail, UpdateItem (.js), GetFolder (.js) zum Abrufen des Entwurfsordners hinzuzufügen,  CreateItem (.js), das zum Erstellen eines Nachrichtenentwurfs verwendet wird. |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -94,17 +94,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -119,3 +108,4 @@ Diese Informationen wurden von salesforce.com darüber bereitgestellt, wie diese
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

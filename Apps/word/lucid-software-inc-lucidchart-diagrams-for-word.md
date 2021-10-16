@@ -2,18 +2,18 @@
 title: Application Information for Lucidchart Diagrams for Word by Lucid Software Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart Diagrams for Word, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart Diagrams for Word, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 36eb26fa83f894db60f1b615ce58f5c17ba3f19c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 1e5c76df854304b05af209288315c762c8300ca7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281738"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414300"
 ---
 # <a name="lucidchart-diagrams-for-word"></a>Lucidchart-Diagramme für Word
 
@@ -33,7 +33,7 @@ Von Lucid Software Inc für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Lucidchart-Diagramme für Word |
 | ID | WA104380118 |
-| unterstützte Office 365-Clients | Word 2016 oder höher auf Mac, Word 2013 oder höher auf Windows, Word im Web |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word 2013 oder höher auf Windows, Word im Web |
 | Name des Partnerunternehmens | Lucid Software Inc |
 | URL der Partnerwebsite | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | URL der Datenschutzrichtlinie | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
@@ -49,11 +49,11 @@ Von Lucid Software Inc für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Lucid Software Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidchart, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidchart-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| openid | Delegiert | Name und E-Mail-Adresse. | Die E-Mail-, OpenID- und Profilberechtigungen ermöglichen Lucidchart, ein OpenID-Token für einen Benutzer zu generieren und genügend grundlegende Informationen über den Benutzer zu erhalten, um bei Bedarf ein Lucidchart-Konto für diesen zu registrieren. Um die von Microsoft zurückgegebenen Daten zu überprüfen, stellen wir eine Anforderung zum Abrufen des öffentlichen Schlüssels, mit dem ihre Antwort signiert ist. Im Rahmen unseres SSO-Flusses werden keine anderen Daten von Microsoft empfangen oder an Microsoft gesendet. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -71,7 +71,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Lucidchart-Daten werden in AWS gespeichert. |  | Wir verwenden keine Microsoft-APIs. Wir verwenden openID, um grundlegende Benutzerdaten zum Ausführen von SSO abzurufen. Wir verwenden die Dateiauswahl-API, aber dadurch erhalten wir keinen Zugriff auf die Dateien des Benutzers, außer auf die Dateien, die sie über die Auswahl an uns übermitteln. |
 
@@ -81,7 +81,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Wir protokollieren E-Mail- und IP-Adressen aus Sicherheits- und Supportgründen. Der gesamte Zugriff auf Protokolle erfolgt über aufgezeichnete &amp; Protokolle, die in einem Drittanbietersystem nicht geändert werden können. Der Zugriff auf Protokolle erfordert MFA.
+>E-Mail- und IP-Adressen werden aus Sicherheits- und Supportgründen protokolliert. Der gesamte Zugriff auf Protokolle ist &amp; aufgezeichnete Protokolle, die in einem Drittanbietersystem nicht geändert werden können. Der Zugriff auf Protokolle erfordert MFA.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -110,4 +110,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

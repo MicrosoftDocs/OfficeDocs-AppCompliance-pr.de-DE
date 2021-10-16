@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Denkbot von MySecretar
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Denbot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8d7e2fce37cf43fe52cb050e85aa9e4fd5e00802
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ad8e6b2a2f1a7214db66f37de774c01e65ed92e6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282416"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415032"
 ---
 # <a name="secretarybot"></a>SecretaryBot
 
@@ -34,7 +34,7 @@ Informationen, die von MySecre über Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | SecretaryBot |
 | ID | WA104381085 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | MySecretary |
 | URL der Partnerwebsite | [https://secretarybot.wordpress.com/](https://secretarybot.wordpress.com/) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://secretarybot.wordpress.com/faq/](https://secretarybot.wordpress.com/faq/) |
@@ -51,15 +51,15 @@ Informationen, die von MySecre über Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von MySecre über die Erfassung und Speicherung von Organisationsdaten durch diese App und die Kontrolle ihrer Organisation über die von der App erfassten Daten bereitgestellt.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read.Shared | Delegiert |  | Abrufen von Informationen zur freien Zeit der Benutzer und ihrer Kollegen. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Calendars.ReadWrite | Delegiert |  | Besprechungsanfrage anstelle des Benutzers senden. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| MailboxSettings.Read | Delegiert | Store Sprache zum Anzeigen der korrekten Spracherkennung. Zeit sparen, um MS Graph Kalender-API korrekt aufzurufen | Abrufen der Einstellung für Sprache und Zeitzone des Benutzers. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| MailboxSettings.Read | Delegiert | Store Sprache für die Anzeige der korrekten Spracherkennung. Zeit sparen, um MS Graph Kalender-API korrekt aufzurufen | Abrufen der Einstellung für Sprache und Zeitzone des Benutzers. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| People.Read | Delegiert |  | Versuchen Sie, Kollegen zu finden, die starke Beziehungen zum Benutzer haben. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | Delegiert | Store Benutzername, Stadt, Land und Sprache für Benutzeranalysen. Store E-Mail für die Kontaktaufnahme mit dem Kunden. Wir haben noch nie eine E-Mail-Adresse verwendet, können aber für Support verwendet werden. | Versuchen Sie, das Land und die bevorzugte Sprache des Benutzers zu finden. Es wird für die Sicherung für MailboxSettings.Read verwendet. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| email | Delegiert | Siehe weiter oben. | Zum Speichern von E-Mails. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -110,4 +110,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

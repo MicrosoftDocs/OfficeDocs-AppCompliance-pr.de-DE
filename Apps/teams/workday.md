@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Workday by Workday
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2021
+ms.date: 02/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workday, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 71a16c42f8676ac12ed4de34ccbdf010de009453
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 38b56caaf5bc20986cec75615725e601a6f12562
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282917"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414841"
 ---
 # <a name="workday"></a>Workday
 
@@ -34,7 +34,7 @@ Von Workday für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Workday |
 | ID | WA200001555 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Workday |
 | URL der Partnerwebsite | [https://www.workday.com/en-us/homepage.html](https://www.workday.com/en-us/homepage.html) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://nw.myworkday.com/microsoftteams/](https://nw.myworkday.com/microsoftteams/) |
@@ -51,21 +51,21 @@ Von Workday für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Abrufen der App-ID, Installieren der App für Benutzer, Abrufen Teams Lizenzdetails von AAD | Wir speichern keine Daten im Zusammenhang mit diesem Feature.  Damit können wir die App für den Benutzer installieren. | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
->| User.Read.All | Anwendung | Dient zum Abrufen von Benutzer-A AUSWENN, um Benutzernachrichten zu senden. | Nur die A AUS- und Teams A AID  | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
+>| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Abrufen der App-ID, Installieren der App für Benutzer, Abrufen Teams Lizenzdetails aus AAD | Wir speichern keine Daten im Zusammenhang mit diesem Feature.  Damit können wir die App für den Benutzer installieren. | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
+>| User.Read.All | Anwendung | Rufen Sie Benutzer A AUS, um Benutzernachrichten zu senden. | Nur A AID und Teams A AUSKOMMEN  | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Organisationsdaten werden zwischen Workday Services und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Bedingungen Ihres Vertrags mit Workday. | Organisationsdaten werden zwischen Workday Services und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Bedingungen Ihres Vertrags mit Workday. | Nicht zutreffend |
 
@@ -125,3 +125,4 @@ Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

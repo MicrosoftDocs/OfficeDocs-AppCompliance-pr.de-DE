@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für PagerDuty von PagerDuty, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für PagerDuty, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für PagerDuty, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3729a9523ea4af31015f6e8111c6843e90d465f3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a296483ba42328a306131aee8a2f29aed8d7006b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282713"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412835"
 ---
 # <a name="pagerduty"></a>PagerDuty
 
@@ -34,7 +34,7 @@ Informationen, die Von PagerDuty, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | PagerDuty |
 | ID | WA200001637 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | PagerDuty, Inc. |
 | URL der Partnerwebsite | [https://www.pagerduty.com](https://www.pagerduty.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.pagerduty.com/integrations/microsoft-teams](https://www.pagerduty.com/integrations/microsoft-teams) |
@@ -49,13 +49,13 @@ Informationen, die Von PagerDuty, Inc. an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von PagerDuty, Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von PagerDuty, Inc. zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| OnlineMeetings.ReadWrite | Delegiert | Von der Besprechungserstellung/-antwort verwenden wir solche Felder: join_web_url, audioConferencing. Diese Felder sind erforderlich, um dem Benutzer einen Link zu einer Besprechung oder alternative Möglichkeiten zum Herstellen einer Verbindung in einer Besprechung anzuzeigen. | Wir speichern: join_web_url, audioConferencing. Diese Felder sind erforderlich, um dem Benutzer einen Link zu einer Besprechung oder alternative Möglichkeiten zum Herstellen einer Verbindung in einer Besprechung anzuzeigen. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| TeamsAppInstallation.ReadForTeam | Delegiert | Wird zum Hinzufügen einer Pagerduty-App zum Chat verwendet. | Wird zum Hinzufügen einer Pagerduty-App zum Chat verwendet. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
@@ -83,7 +83,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Die Daten, die PagerDuty beibehält, sind auf Computerdaten aus Überwachungsprodukten beschränkt, und pii-Informationen sind auf: Unternehmens-E-Mail-Adresse, Vorname, Nachname und Telefonnummer beschränkt. Eine Liste der Unterauftragsverarbeiter mit Zugriff auf diese Daten finden Sie hier: https://www.pagerduty.com/subprocessors/ | Die Daten, die PagerDuty beibehält, sind auf Computerdaten aus Überwachungsprodukten beschränkt, und pii-Informationen sind auf: Unternehmens-E-Mail-Adresse, Vorname, Nachname und Telefonnummer beschränkt. Eine Liste der Unterauftragsverarbeiter mit Zugriff auf diese Daten finden Sie hier: https://www.pagerduty.com/subprocessors/ | Die Daten, die PagerDuty beibehält, sind auf Computerdaten aus Überwachungsprodukten beschränkt, und pii-Informationen sind auf: Unternehmens-E-Mail-Adresse, Vorname, Nachname und Telefonnummer beschränkt. Eine Liste der Unterauftragsverarbeiter mit Zugriff auf diese Daten finden Sie hier: https://www.pagerduty.com/subprocessors/ Weitere Informationen zum Datenschutz finden Sie hier: https://www.pagerduty.com/privacy-policy/ |
 
@@ -116,17 +116,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -141,3 +130,4 @@ Diese Informationen wurden von PagerDuty, Inc. darüber bereitgestellt, wie dies
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Goodera von Goodera
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/09/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Goodera, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ca4ac668f6eec944a1fc697568ddd637240130cc
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e497a3be7a795e83556a527179d28b5fe40cb0df
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281516"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414611"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -34,7 +34,7 @@ Von Goodera für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Goodera |
 | ID | WA200002136 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Goodera |
 | URL der Partnerwebsite | [https://goodera.com](https://goodera.com) |
 | URL der Datenschutzrichtlinie | [https://about.goodera.com/privacy](https://about.goodera.com/privacy) |
@@ -50,14 +50,14 @@ Von Goodera für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Goodera darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -119,3 +119,4 @@ Diese Informationen wurden von Goodera bereitgestellt, wie diese App Authentifiz
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

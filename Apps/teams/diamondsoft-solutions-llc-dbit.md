@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für DBit von Diamondsoft Solutions, LLC
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für DBit, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f3adc828ee3a7b77b54d49c401375a9671a496e6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 095ce62c1d0b193cd63105e2df3599f6eac3725c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282104"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412455"
 ---
 # <a name="dbit"></a>DBit
 
@@ -34,7 +34,7 @@ Von Diamondsoft Solutions, LLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | DBit |
 | ID | WA200001536 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Diamondsoft Solutions, LLC |
 | URL der Partnerwebsite | [https://www.diamondsoftsolutions.com](https://www.diamondsoftsolutions.com) |
 | URL der Datenschutzrichtlinie | [https://www.dbit.io/privacypolicy.html](https://www.dbit.io/privacypolicy.html) |
@@ -50,11 +50,11 @@ Von Diamondsoft Solutions, LLC für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Diamondsoft Solutions, LLC zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | Delegiert | Wir speichern Graph Informationen nicht in unserem System oder in unseren Datenbanken. | Anmelden und Benutzerprofil lesen | [1533d702-7604-463a-9fa3-63077c425e76](https://docs.microsoft.com/microsoft-365-app-certification/azure/1533d702-7604-463a-9fa3-63077c425e76) |
 >| email | Delegiert | Wir speichern Graph Informationen nicht in unserem System oder in unseren Datenbanken. | E-Mail-Adresse von Benutzern anzeigen | [1533d702-7604-463a-9fa3-63077c425e76](https://docs.microsoft.com/microsoft-365-app-certification/azure/1533d702-7604-463a-9fa3-63077c425e76) |
@@ -67,7 +67,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -75,7 +75,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| So erstellen Sie eine Willkommensnachricht | In unserem System oder in unseren Datenbanken werden keine Listeninformationen gespeichert. |  |
+>| So erstellen Sie eine Willkommensnachricht | Wir speichern keine Listeninformationen in unserem System oder in unseren Datenbanken. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -111,4 +111,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

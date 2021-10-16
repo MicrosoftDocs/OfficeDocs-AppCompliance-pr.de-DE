@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Plumm von Plumm Health LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/18/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Plumm, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0ecc8063bb993d681ec98a3750ada9afb63bdb81
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 47a0607828ff96d92cea8be21819fa9e4680f0b4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378641"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412174"
 ---
 # <a name="plumm"></a>Plumm
 
@@ -53,7 +53,7 @@ Diese Informationen wurden von Plumm Health LTD darüber bereitgestellt, wie die
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -66,13 +66,13 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| Profil | Delegiert | Wir erfassen Namen, Bilder und E-Mails für unsere Benutzer über diese Berechtigung. Dies ist erforderlich, damit wir einzelne Benutzer identifizieren können, und diese Datenpunkte werden überall dort angezeigt, wo dies erforderlich ist, z. B. auf einer einzelnen Profilseite und bei der E-Mail-/Benachrichtigungskommunikation. | Diese Berechtigungen ermöglichen unserer App, das grundlegende Profil unserer Benutzer (Name, Bild, E-Mail) anzuzeigen. Diese Daten werden verwendet, um den Namen und/oder das Profilbild des Benutzers auf dem App-Konto bei uns und bei der E-Mail-Kommunikation und/oder Benachrichtigung anzuzeigen. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Intercom | Vorname, Nachname, E-Mail | Intercom ist unser CRM, das uns bei der Verwaltung der Kommunikation mit allen unseren Benutzern hilft. Deshalb müssen wir den Vornamen, den Nachnamen und die E-Mail-ID unserer Benutzer an das CRM senden, damit entsprechende Nachrichten/E-Mails an die Benutzer gesendet werden können. |
+>| Intercom | Vorname, Nachname, E-Mail | Intercom ist unser CRM, das uns bei der Verwaltung der Kommunikation mit allen unseren Benutzern hilft. Deshalb müssen wir den Vornamen, nachnamen und die E-Mail-ID unserer Benutzer an das CRM senden, damit entsprechende Nachrichten/E-Mails an die Benutzer gesendet werden können. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -103,17 +103,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -141,3 +130,4 @@ Diese Informationen wurden von Plumm Health LTD darüber bereitgestellt, wie die
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

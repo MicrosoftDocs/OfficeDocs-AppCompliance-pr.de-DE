@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Goalhub von Momentum Cloud Pty Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/01/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Goalhub, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 40639ecd98fcb754eef6286910cdc5972c3ebaf0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 81dae2dab8755d85d72645843ee1094318c8b75e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283277"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414505"
 ---
 # <a name="goalhub"></a>Goalhub
 
@@ -34,7 +34,7 @@ Informationen, die von Momentum Cloud Pty Ltd an Microsoft bereitgestellt werden
 |:----------------|:-------------|
 | App-Name | Goalhub |
 | ID | WA200002400 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Momentum Cloud Pty Ltd |
 | URL der Partnerwebsite | [https://www.momentumcloud.com.au](https://www.momentumcloud.com.au) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.goalhub.com/about-1](https://www.goalhub.com/about-1) |
@@ -51,9 +51,9 @@ Informationen, die von Momentum Cloud Pty Ltd an Microsoft bereitgestellt werden
 
 Diese Informationen wurden von Der Impulse Cloud Pty Ltd bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -114,7 +114,7 @@ Diese Informationen wurden von Momentum Cloud Pty Ltd bereitgestellt, wie diese 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Nein |
@@ -130,3 +130,4 @@ Diese Informationen wurden von Momentum Cloud Pty Ltd bereitgestellt, wie diese 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Kippa, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7ead43ebca3ff707255791bc6286db40565890a3
-ms.sourcegitcommit: d49943662d5e28a9c1289ee23318818f1f68ff96
+ms.openlocfilehash: ac1bcae2a1f1145620e225add7cb827160fddc4d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60340852"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412885"
 ---
 # <a name="kippa"></a>Kippa
 
@@ -34,8 +34,8 @@ Informationen, die von KIPPPPAS Technologies inc. an Microsoft bereitgestellt we
 |:----------------|:-------------|
 | App-Name | Kippa |
 | ID | WA200003327 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | KIPPPPAS Technologies inc. |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | KLIPPAS Technologies inc. |
 | URL der Partnerwebsite | [https://www.kippa.app](https://www.kippa.app) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.kippa.app/kippa-app/](https://www.kippa.app/kippa-app/) |
 | URL der Datenschutzrichtlinie | [https://www.kippa.app/privacy-policy/](https://www.kippa.app/privacy-policy/) |
@@ -95,17 +95,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -133,3 +122,4 @@ Diese Informationen wurden von KIPPPPAS Technologies inc. bereitgestellt, wie di
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

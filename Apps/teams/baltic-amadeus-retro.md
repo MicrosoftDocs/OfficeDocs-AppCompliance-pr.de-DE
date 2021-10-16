@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Diete von Baltisch (Baltisch)
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Denz, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2ccca5bd5160eb1772245841df037d2033f58881
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f9f42dedcf61d229dd925aa095520535e933d7f1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282524"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411884"
 ---
 # <a name="retro"></a>Retro
 
@@ -34,7 +34,7 @@ Informationen, die von Der Baltisch für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Retro |
 | ID | WA200001892 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Baltic Amadeus |
 | URL der Partnerwebsite | [https://www.ba.lt/en/](https://www.ba.lt/en/) |
 | URL der Datenschutzrichtlinie | [https://retro.ba.lt/privacypolicy](https://retro.ba.lt/privacypolicy) |
@@ -57,11 +57,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Die Webanwendung verfügt über eine eigene Web-API, die nicht als Microsoft-Dienst betrachtet wird. Wie bereits erwähnt, werden E-Mail und Fullname zur Identifizierung und zu geeigneten Inhaltsanzeigezwecken gespeichert. Diese Daten werden an keiner anderen Stelle gesendet. Darüber hinaus verfügt Einer über eine optionale Funktionalität zum Exportieren von Sprintdaten in den Atlassian-Zusammenflussbereich. Dazu muss der Benutzer den Zugehörigen Benutzernamen und das Kennwort eingeben. Diese Daten werden nur verwendet, um authentifizierte Anforderungen an die Confluence-API im Namen des Benutzers zu senden, und sie werden nicht gespeichert oder an einer beliebigen Stelle protokolliert. |  | Der Besitzer verfügt über eine eigene Web-API, die auch in Azure registriert ist. Um sie verwenden zu können, muss der Benutzer über die Microsoft Identity Platform authentifiziert werden. Der Benutzer muss authentifiziert werden, damit die App benutzerspezifische Inhalte servern kann. |
 
@@ -109,4 +109,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

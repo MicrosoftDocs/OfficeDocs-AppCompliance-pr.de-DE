@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für agile Task Board für SharePoint Online von Agile-IS
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für agile Task Board für SharePoint Online, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 649c3ee34514214e91eaa1fe5ed43b43f6d9a43b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 34526c1037ee220cabfecf6dd06fac93bb0e4952
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281846"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412104"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>Agile Task Board für SharePoint Online
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 3. November 2020</p>
+<p>Last updated by the developer on: November 3, 2020</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200002087" target="_blank">Ansicht in AppSource</a>
 
@@ -49,9 +49,9 @@ Von Agile-IS für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Agile-IS darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -76,7 +76,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 >Die Anwendung speichert alle Daten in SharePoint Onlinelisten und Dokumentbibliotheken auf derselben Website, auf der die jeweilige Instanz der App ausgeführt wird. Die Zugriffssteuerung auf diese Daten hängt von der Mandantenkonfiguration des Kunden ab. 
 
-Für die Lizenzsteuerung werden die Domäne und der UPN an einen in Azure gehosteten Dienst übertragen. Diese Informationen werden durch die Azure AD-Authentifizierung gesichert.
+Für die Lizenzsteuerung werden die Domäne und der UPN an einen in Azure gehosteten Dienst übertragen. Diese Informationen werden durch Azure AD Authentifizierung gesichert.
 
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
@@ -100,4 +100,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Smartnotation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4b64237390587a005373b02901a11694f15c37d6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 037d211144819f3ee2271f1152c84bd13fde968e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282935"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414451"
 ---
 # <a name="smartnotation"></a>Smartnotation
 
@@ -34,7 +34,7 @@ Von Smartnotation B.V. bereitgestellte Informationen an Microsoft:
 |:----------------|:-------------|
 | App-Name | Smartnotation |
 | ID | WA200000681 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Smartnotation B.V. |
 | URL der Partnerwebsite | [https://www.smartnotation.com/landing/](https://www.smartnotation.com/landing/) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.smartnotation.com/landing/integrations/](https://www.smartnotation.com/landing/integrations/) |
@@ -51,9 +51,9 @@ Von Smartnotation B.V. bereitgestellte Informationen an Microsoft:
 
 Diese Informationen wurden von Smartnotation B.V. bereitgestellt. Darüber, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -118,3 +118,4 @@ Diese Informationen wurden von Smartnotation B.V. bereitgestellt. Darüber, wie 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

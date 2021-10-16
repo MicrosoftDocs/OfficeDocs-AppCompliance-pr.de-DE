@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für CSOD Learn by Cornerstone OnDemand
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/01/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CSOD Learn, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 2064ed00ba6306d86a09b3eff9dc6e56c8d1cc40
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 76046422709a8472b17d1b4b6c51f672f043eed8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283884"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414711"
 ---
 # <a name="csod-learn"></a>CSOD Learn
 
@@ -34,7 +34,7 @@ Informationen, die von "Cornerstone OnDemand" für Microsoft bereitgestellt werd
 |:----------------|:-------------|
 | App-Name | CSOD Learn |
 | ID | WA200003020 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cornerstone OnDemand |
 | URL der Partnerwebsite | [https://www.cornerstoneondemand.com](https://www.cornerstoneondemand.com) |
 | URL der Datenschutzrichtlinie | [https://www.cornerstoneondemand.com/client-privacy-policy/](https://www.cornerstoneondemand.com/client-privacy-policy/) |
@@ -57,13 +57,13 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Organisationsdaten werden zwischen CSOD-Diensten und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. | Organisationsdaten werden zwischen CSOD-Diensten und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. | Der CSOD-Dienst verwendet keine Graph-APIs. Wir verwenden die Microsoft Frameworks botbuilder^4.9.2 für die Leistung des Diensts. OII-Daten werden vom Dienst verwendet, um den CSOD-Dienstverbraucher zu identifizieren. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. |
+>| Organisationsdaten werden zwischen CSOD-Diensten und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. | Organisationsdaten werden zwischen CSOD-Diensten und Microsoft gemeinsam genutzt. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. | Der CSOD-Dienst verwendet Graph APIs nicht. Wir verwenden die Microsoft Frameworks botbuilder^4.9.2 für die Leistung des Diensts. OII-Daten werden vom Dienst verwendet, um den CSOD-Dienstverbraucher zu identifizieren. Weitere Informationen finden Sie in den Vertragsbedingungen mit CSOD. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -96,17 +96,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,3 +110,4 @@ Diese Informationen wurden von "Wirk onDemand" bereitgestellt und darüber, wie 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

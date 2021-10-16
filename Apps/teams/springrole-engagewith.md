@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für EngageWith von SpringRole
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/13/2021
+ms.date: 01/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für EngageWith, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9cd618fb9ee580936f33beed27dfc2a39934d1f0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0b1089cbaff1f86af48e0c097f7bcd51b785827c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283553"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412725"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -34,7 +34,7 @@ Von SpringRole für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | EngageWith |
 | ID | WA200001915 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SpringRole |
 | URL der Partnerwebsite | [https://www.springworks.in](https://www.springworks.in) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |
@@ -51,18 +51,18 @@ Von SpringRole für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von SpringRole darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe. Kundenname, E-Mail, IP, Zahlungsinformationen. Wir verwenden diese Drittanbieter, um unseren Kunden die beste Benutzererfahrung zu bieten. | Name, E-Mail | Dieses Add-In verwendet keine zusätzlichen APIs |
 
@@ -122,3 +122,4 @@ Diese Informationen wurden von SpringRole darüber bereitgestellt, wie diese App
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

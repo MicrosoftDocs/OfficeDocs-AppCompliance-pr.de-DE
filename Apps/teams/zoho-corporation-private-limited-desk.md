@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Zoho Desk von Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoho Desk, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e76f0cce92e7aa5bac28df505613ec461a3fc06
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2882f70ce6c44de4b797ae15bee2bec446212a82
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282905"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414340"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -34,7 +34,7 @@ Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informatione
 |:----------------|:-------------|
 | App-Name | Zoho Desk |
 | ID | WA104382044 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.zoho.com/desk](https://www.zoho.com/desk) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |
@@ -51,11 +51,11 @@ Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informatione
 
 Diese Informationen wurden von Zoho Corporation Private Limited zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.Read | Delegiert |  | Benutzerdateien lesen. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Files.Read.All | Delegiert |  | Lesen Sie alle Dateien, auf die der Benutzer zugreifen kann. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -89,7 +89,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->1) Auf der Benutzeroberfläche gibt es eine Option zum Löschen der Entitäten, Administratoren und Agents innerhalb des Zoho Desks, die Löschoptionen haben, können dies ausführen. 2) Wir haben auch Optionen zum Exportieren, mit denen der Administrator exportieren und für seine Zwecke erreichen kann.  3) Wir führen die Überwachung im Back-End durch, wenn der Kunde diese Informationen anfordern kann.
+>1) Auf der Benutzeroberfläche gibt es eine Option zum Löschen der Entitäten, Administratoren und Agents innerhalb des Zoho Desks, die Löschoptionen haben, können dies ausführen. 2) Wir haben auch Optionen zum Exportieren, mit denen der Administrator exportieren und für ihren Zweck erreichen kann.  3) Wir führen die Überwachung im Back-End durch, auf Kundenanforderung können diese Informationen bereitgestellt werden.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -107,4 +107,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

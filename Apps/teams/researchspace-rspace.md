@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für RSpace von ResearchSpace
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/25/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für RSpace, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3327e47994935c3beace465b60238a2c0978175c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3d53c27f3a6f216f72169fb3dc936d7ca6d65c28
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279881"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414952"
 ---
 # <a name="rspace"></a>RSpace
 
@@ -34,7 +34,7 @@ Von ResearchSpace für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | RSpace |
 | ID | WA104381671 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ResearchSpace |
 | URL der Partnerwebsite | [https://www.researchspace.com](https://www.researchspace.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.researchspace.com/enterprise/help-and-support-r...](https://www.researchspace.com/enterprise/help-and-support-resources-enterprise/) |
@@ -51,18 +51,18 @@ Von ResearchSpace für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von ResearchSpace bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -99,4 +99,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

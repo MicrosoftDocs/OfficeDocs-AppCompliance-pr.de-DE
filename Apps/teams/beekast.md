@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Beekast by Beekast
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Beekast, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3fe1f857d283cf3b582744351590d0d2a0959190
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c78b03756ef538373a12b2f3601fb6df05c2602b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283466"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411864"
 ---
 # <a name="beekast"></a>Beekast
 
@@ -34,7 +34,7 @@ Von Beekast für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Beekast |
 | ID | WA200001447 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Beekast |
 | URL der Partnerwebsite | [https://www.beekast.com](https://www.beekast.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.beekast.com](https://www.beekast.com) |
@@ -51,20 +51,20 @@ Von Beekast für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Beekast darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | Delegiert | E-Mail, Vorname und Nachname: Diese Daten werden für die Zusammenarbeit innerhalb der Beekast-Anwendung verwendet. | E-Mail, Vorname und Nachname: Diese Daten werden für die Zusammenarbeit innerhalb der Beekast-Anwendung verwendet und müssen gespeichert werden, um sowohl innerhalb als auch außerhalb von MS Teams Kontext verwendet zu werden. | [4d0997dc-df53-4b18-9df1-bb283f8a0377](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d0997dc-df53-4b18-9df1-bb283f8a0377) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Es wird keine OII übertragen, nur EUII | Es wird keine OII übertragen, nur EUII | Nicht zutreffend (Keine OII wird übertragen, nur EUII) |
 
@@ -122,3 +122,4 @@ Diese Informationen wurden von Beekast darüber bereitgestellt, wie diese App Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Zignals von Alight
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/17/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zignals, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 313529eecfcf1e8e129bb22cb5ee4c7b53b9e2c5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9a9e3f1cd6456e1e3c943091325caaff8b934b98
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283079"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413116"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -34,7 +34,7 @@ Von Alight für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Zignals |
 | ID | WA200003201 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Alight |
 | URL der Partnerwebsite | [https://www.alight.eu](https://www.alight.eu) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://zignals.eu/zignals-support/](https://zignals.eu/zignals-support/) |
@@ -51,14 +51,14 @@ Von Alight für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Alight darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | Delegiert | Für den Bereich &quot; "Meine Besprechungen" &quot; erhalten wir die Besprechungen des Benutzers heute und morgen. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Sites.ReadWrite.All | Delegiert | Wir rufen alle SharePoint Websites des Benutzers ab und zeigen sie im Bereich &quot; "Meine Teamarbeit" an, und wir erhalten alle SharePoint Aufgaben des &quot; Benutzers und zeigen sie im Bereich &quot; "Meine Aufgaben" &quot; an. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| Sites.ReadWrite.All | Delegiert | Wir rufen alle SharePoint Websites des Benutzers ab und zeigen sie im Bereich &quot; "Meine Teamarbeit" &quot; an, und wir erhalten alle SharePoint Aufgaben des Benutzers und zeigen sie im Bereich &quot; "Meine Aufgaben" &quot; an. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| Tasks.ReadWrite | Delegiert | Wir lesen den Planner des Benutzers und To Do Aufgaben und zeigen diese im Bereich &quot; "Meine Aufgaben" &quot; an. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| Team.ReadBasic.All | Delegiert | Wir rufen die verbundenen Teams des Benutzers auf und zeigen sie im &quot; Bereich "Meine Teamarbeit" &quot; an. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
 >| User.ReadBasic.All | Delegiert | Im &quot; Bereich "Meine &quot; Dokumente" wird der Benutzer angezeigt, der zusammenarbeiten konnte. | In der App-Datenbank werden keine Informationen gespeichert. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
@@ -104,17 +104,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -141,3 +130,4 @@ Diese Informationen wurden von Alight bereitgestellt, wie diese App die Authenti
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

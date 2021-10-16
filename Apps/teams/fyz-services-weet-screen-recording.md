@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für die Weet-Bildschirmaufzeichnung von FYZ SERVICES
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/23/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Weet-Bildschirmaufzeichnung, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Weet-Bildschirmaufzeichnung, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8dc2f7f77b62661226a3ebf184e0bd9f0efc1756
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: fa9dee24b0953351451c92c553ac4f6e6426d87d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785564"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412996"
 ---
 # <a name="weet-screen-recording"></a>Weet Screen Recording
 
@@ -55,14 +55,14 @@ Diese Informationen wurden von FYZ SERVICES darüber bereitgestellt, wie diese A
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | Delegiert | Erkennen zulassen, ob die Weet-App bereits installiert ist | Kein Datenspeicher | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| User.Read | Delegiert | Wir sammeln keine Daten, aber wir verwenden E-Mails nur, um dem Benutzer bei der Funktion für die automatische Kompletion zu helfen. | Wir speichern keine Informationen über den Benutzer, wir verwenden E-Mails nur für die automatische Kompletion. | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| User.ReadBasic.All | Delegiert | Wir sammeln keine Daten, aber wir verwenden E-Mails nur, um dem Benutzer bei der Funktion für die automatische Kompletion zu helfen. | Wir speichern keine Informationen über den Benutzer, wir verwenden E-Mails nur für die automatische Kompletion. | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| offline_access | Delegiert | Wir sammeln keine Daten, aber wir verwenden E-Mails nur, um dem Benutzer bei der Funktion für die automatische Kompletion zu helfen. | Wir speichern keine Informationen über den Benutzer, wir verwenden E-Mails nur für die automatische Kompletion. | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| openid | Delegiert | Wir sammeln keine Daten, aber wir verwenden E-Mails nur, um dem Benutzer bei der Funktion für die automatische Kompletion zu helfen. | Wir speichern keine Informationen über den Benutzer, wir verwenden E-Mails nur für die automatische Kompletion. | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| profile | Delegiert | Wir sammeln keine Daten, aber wir verwenden E-Mails nur, um dem Benutzer bei der Funktion für die automatische Kompletion zu helfen. | Wir speichern keine Informationen über den Benutzer, wir verwenden E-Mails nur für die automatische Kompletion. | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| Profil | Delegiert | Wir sammeln keine Daten, aber wir verwenden E-Mails nur, um dem Benutzer bei der Funktion für die automatische Kompletion zu helfen. | Wir speichern keine Informationen über den Benutzer, wir verwenden E-Mails nur für die automatische Kompletion. | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
@@ -73,7 +73,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -100,17 +100,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -125,3 +114,4 @@ Diese Informationen wurden von FYZ SERVICES darüber bereitgestellt, wie diese A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

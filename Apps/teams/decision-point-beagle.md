@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Beagle nach Entscheidungspunkt
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/21/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Beagle, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b2984bceaa4a6c8871c8413aaf19e4f52c7d620c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c2b27ed465588096f1645dbeba4546b9c152acc3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282131"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414701"
 ---
 # <a name="beagle"></a>Beagle
 
@@ -34,7 +34,7 @@ Informationen, die von Entscheidungspunkt an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Beagle |
 | ID | WA200002687 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Entscheidungspunkt |
 | URL der Partnerwebsite | [https://decisionpoint.ai](https://decisionpoint.ai) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
@@ -58,11 +58,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -120,3 +120,4 @@ Diese Informationen wurden von Entscheidungspunkt darüber bereitgestellt, wie d
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

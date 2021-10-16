@@ -1,45 +1,45 @@
 ---
-title: Anwendungsinformationen für SuitePro-G von IQar
+title: Anwendungsinformationen für GuideSpark Communicate Cloud von GuideSpark
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/27/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für SuitePro-G, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c256ccf34681500a09dc403b4441378e46aed526
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für GuideSpark Communicate Cloud, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: becc848dde742ac9f9b66d634f687219e3600353
 ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412925"
+ms.locfileid: "60412264"
 ---
-# <a name="suitepro-g"></a>SuitePro-G
+# <a name="guidespark-communicate-cloud"></a>GuideSpark Communicate Cloud
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: July 19, 2021</p>
+<p>Last updated by the developer on: October 13, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/76476325-8503-4c4b-aa68-9dd2ec2e8c54" target="_blank">Anzeigen im Teams Speicher</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002069" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/34b870ca-2417-4660-b835-ebb18ee7ccf9" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003348" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von IQar für Microsoft bereitgestellte Informationen:
+Von GuideSpark für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | SuitePro-G |
-| ID | WA200002069 |
+| App-Name | GuideSpark Communicate Cloud |
+| ID | WA200003348 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | IQar |
-| URL der Partnerwebsite | [https://iqar-france.fr](https://iqar-france.fr) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://admin.suiteprog.com/Terms](https://admin.suiteprog.com/Terms) |
-| URL der Datenschutzrichtlinie | [https://iqar-france.fr/privacy](https://iqar-france.fr/privacy) |
-| URL der Nutzungsbedingungen | [https://iqar-france.fr/cgu](https://iqar-france.fr/cgu) |
+| Name des Partnerunternehmens | GuideSpark |
+| URL der Partnerwebsite | [https://guidespark.com](https://guidespark.com) |
+| URL der Seite mit Teams Anwendungsinformationen | [https://www.guidespark.com/change-communications-software/](https://www.guidespark.com/change-communications-software/) |
+| URL der Datenschutzrichtlinie | [https://www.guidespark.com/privacy-policy/](https://www.guidespark.com/privacy-policy/) |
+| URL der Nutzungsbedingungen | [https://www.guidespark.com/terms/](https://www.guidespark.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Von IQar für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von IQar darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von GuideSpark bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
@@ -81,7 +81,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Überwachung
+>GuideSpark greift nicht auf die Daten des Partners zu.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -93,23 +93,12 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/41838' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/41838" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von IQar darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von GuideSpark darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|

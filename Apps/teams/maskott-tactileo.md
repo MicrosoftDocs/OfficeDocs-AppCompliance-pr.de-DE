@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Tatileo von Maskott
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/19/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tactileo, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: de2cf08f5b196cfb587804f16ec3e2a79a0a0bb4
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5c341b5c35b5fa8f1cac612c1f29f36b196e9b96
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283433"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412204"
 ---
 # <a name="tactileo"></a>Tactileo
 
@@ -34,7 +34,7 @@ Von Maskott für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Tactileo |
 | ID | WA200002624 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Maskott |
 | URL der Partnerwebsite | [https://www.maskott.com](https://www.maskott.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.tactileo.com](https://www.tactileo.com) |
@@ -51,7 +51,7 @@ Von Maskott für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Maskott zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -65,11 +65,11 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API-REST | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Base de donn&#233;es MONGODB | ATLAS | Stocker les activit&#233;s Tactileo, les s&#233;ances et les r&#233;sultats des apprenants. |
 
@@ -129,3 +129,4 @@ Diese Informationen wurden von Maskott bereitgestellt, wie diese App die Authent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

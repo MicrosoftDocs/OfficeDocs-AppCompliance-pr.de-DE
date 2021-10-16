@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für SelfDrvn von SelfDrvn
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/01/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für SelfDrvn, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für SelfDrvn, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1bec8e13c2cfbf53e2585abfa3cf01f0a534848e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 663c09f6f2ce51de7d8986953f955bd2ecb7ff95
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281153"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413407"
 ---
 # <a name="selfdrvn"></a>SelfDrvn
 
@@ -34,7 +34,7 @@ Von SelfDrvn für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SelfDrvn |
 | ID | WA200001861 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SelfDrvn |
 | URL der Partnerwebsite | [https://selfdrvn.com](https://selfdrvn.com) |
 | URL der Datenschutzrichtlinie | [https://selfdrvn.com/privacy](https://selfdrvn.com/privacy) |
@@ -50,14 +50,14 @@ Von SelfDrvn für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von SelfDrvn zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -129,3 +129,4 @@ Diese Informationen wurden von SelfDrvn bereitgestellt, wie diese App die Authen
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

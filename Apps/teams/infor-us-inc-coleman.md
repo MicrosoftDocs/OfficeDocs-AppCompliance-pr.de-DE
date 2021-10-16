@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Infor Coleman von INFOR (US), INC.
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/05/2021
+ms.date: 10/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Infor Coleman, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b93279356130f5343efaa0c7326483bbf1a0f467
-ms.sourcegitcommit: 085c227ffcf8f88e6e55d3c40752a3df25642592
+ms.openlocfilehash: d06dec9fe442345491d60964d8ec346f72fa6645
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60255698"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413777"
 ---
 # <a name="infor-coleman"></a>Infor Coleman
 
@@ -34,8 +34,8 @@ Informationen von INFOR (US), INC. an Microsoft:
 |:----------------|:-------------|
 | App-Name | Infor Coleman |
 | ID | WA200003314 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | INFOR (US), INC. |
+| Office 365 unterstützten Clients | Microsoft Teams |
+| Name des Partnerunternehmens | INFOR (USA), INC. |
 | URL der Partnerwebsite | [https://www.infor.com](https://www.infor.com) |
 | URL der Datenschutzrichtlinie | [https://www.infor.com/about/privacy](https://www.infor.com/about/privacy) |
 | URL der Nutzungsbedingungen | [https://www.infor.com/about/legal](https://www.infor.com/about/legal) |
@@ -57,11 +57,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -92,17 +92,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,3 +106,4 @@ Diese Informationen wurden von INFOR (US), INC. bereitgestellt. Darüber, wie di
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

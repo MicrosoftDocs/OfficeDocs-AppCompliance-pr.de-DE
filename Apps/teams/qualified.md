@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für qualifizierte durch qualifizierte
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/05/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Qualified, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d47e6f2919fb97eb1c9a162f2ade8c1a1bf485a8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4ec36a9c4dbe5a815011b516394171594151ba2c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281660"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412815"
 ---
 # <a name="qualified"></a>Qualified
 
@@ -34,7 +34,7 @@ Von Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Qualified |
 | ID | WA200002720 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Qualified |
 | URL der Partnerwebsite | [https://www.qualified.com](https://www.qualified.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.qualified.com/university-guide/microsoft-teams-...](https://www.qualified.com/university-guide/microsoft-teams-integration) |
@@ -55,7 +55,7 @@ Diese Informationen wurden von Qualified bereitgestellt, wie diese App Organisat
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | Anwendung | Ermöglicht uns die Auswahl eines Kanals, der benachrichtigt werden soll. | E-Mail-Adresse, Mandanten-ID, oauth-Aktualisierungstoken | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
 >| Team.ReadBasic.All | Anwendung | Ermöglicht es uns, alle Kanäle aus allen Teams zu finden, damit wir Kanäle auswählen können, die benachrichtigt werden sollen. | E-Mail-Adresse, Mandanten-ID, oauth-Aktualisierungstoken | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
@@ -68,11 +68,11 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Bot Framework-API | Ja | Mandanten-ID, Team-IDs, Kanal-IDs | Mandanten-ID: Um service_url für Bot-Framework-API-Aufrufe zu ermitteln; Team-IDs + Kanal-IDs: um zu bestimmen, zu welchen Teams/Kanälen unser Bot hinzugefügt wurde | Mandanten-ID, Team-IDs, Kanal-IDs | Mandanten-ID: Um service_url für Bot-Framework-API-Aufrufe zu ermitteln; Team-IDs + Kanal-IDs: um zu bestimmen, zu welchen Teams/Kanälen unser Bot hinzugefügt wurde |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Heroku, Sentry, Papertrail | Name, E-Mail-Adresse, IP | Diese Systeme hosten und überwachen unseren Produktionsdienst |
 
@@ -126,7 +126,7 @@ Diese Informationen wurden von Qualified bereitgestellt, wie diese App die Authe
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -142,3 +142,4 @@ Diese Informationen wurden von Qualified bereitgestellt, wie diese App die Authe
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

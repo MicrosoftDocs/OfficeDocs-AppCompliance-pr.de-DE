@@ -6,14 +6,14 @@ ms.date: 02/11/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für ScanBuddy.ai, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für ScanBuddy.ai, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e9fbc11281494fe1c5a12fbbe1124ea7953a24b7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 24f183b93a237b5b2dea25dd65306a72517ce935
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283310"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413697"
 ---
 # <a name="scanbuddyai"></a>ScanBuddy.ai
 
@@ -34,7 +34,7 @@ Informationen, die von Moblize.it LLC an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | ScanBuddy.ai |
 | ID | WA200001305 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Moblize.it LLC |
 | URL der Partnerwebsite | [https://admin.scanbuddy.app/](https://admin.scanbuddy.app/) |
 | URL der Datenschutzrichtlinie | [https://scanbuddy.ai/scan-buddy-app-privacy-policy](https://scanbuddy.ai/scan-buddy-app-privacy-policy) |
@@ -50,9 +50,9 @@ Informationen, die von Moblize.it LLC an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Moblize.it LLC darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -103,4 +103,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

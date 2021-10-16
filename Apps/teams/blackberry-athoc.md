@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für BlackBerry AtHoc von BlackBerry
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2021
+ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für BlackBerry AtHoc, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 38d1d54293b3f406a0a5c8028850dae27a9c9294
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 38e85981b12faf81ce3b737300aacdbee42dc2a1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279944"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415202"
 ---
 # <a name="blackberry-athoc"></a>BlackBerry AtHoc
 
@@ -34,7 +34,7 @@ Von BlackBerry für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | BlackBerry AtHoc |
 | ID | WA200003065 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | BlackBerry |
 | URL der Partnerwebsite | [https://www.blackberry.com](https://www.blackberry.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.blackberry.com/us/en/products/blackberry-athoc](https://www.blackberry.com/us/en/products/blackberry-athoc) |
@@ -55,17 +55,17 @@ Diese Informationen wurden von BlackBerry darüber bereitgestellt, wie diese App
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMessage.Send | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, das AAD-Token, das BlackBerry AtHoc-Token, die Einstellung/Konfiguration des BlackBerry AtHoc-Servers im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| Group.Read.All | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, das AAD-Token, das BlackBerry AtHoc-Token, die Einstellung/Konfiguration des BlackBerry AtHoc-Servers im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| User.Read | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, das AAD-Token, das BlackBerry AtHoc-Token, die Einstellung/Konfiguration des BlackBerry AtHoc-Servers im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| email | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, das AAD-Token, das BlackBerry AtHoc-Token, die Einstellung/Konfiguration des BlackBerry AtHoc-Servers im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| openid | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, das AAD-Token, das BlackBerry AtHoc-Token, die Einstellung/Konfiguration des BlackBerry AtHoc-Servers im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| Profil | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, das AAD-Token, das BlackBerry AtHoc-Token, die Einstellung/Konfiguration des BlackBerry AtHoc-Servers im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| ChannelMessage.Send | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, AAD Token, BlackBerry AtHoc-Token, BlackBerry AtHoc Server-Einstellung/-Konfiguration im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| Group.Read.All | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, AAD Token, BlackBerry AtHoc-Token, BlackBerry AtHoc Server-Einstellung/-Konfiguration im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| User.Read | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, AAD Token, BlackBerry AtHoc-Token, BlackBerry AtHoc Server-Einstellung/-Konfiguration im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| email | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, AAD Token, BlackBerry AtHoc-Token, BlackBerry AtHoc Server-Einstellung/-Konfiguration im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| openid | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, AAD Token, BlackBerry AtHoc-Token, BlackBerry AtHoc Server-Einstellung/-Konfiguration im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| Profil | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal von Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | Wir&#8217;die Benutzerdaten nicht in der Datenbank, sondern im Bot-Speicher speichern. Wir speichern den Prinzipalnamen des angemeldeten Benutzers, AAD Token, BlackBerry AtHoc-Token, BlackBerry AtHoc Server-Einstellung/-Konfiguration im Bot-Speicher. Benötigen Sie die Informationen zum Senden von API-Anforderungen an die Microsoft Graph-API und unseren BlackBerry AtHoc-Server. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -88,7 +88,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->NA
+>–
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -125,3 +125,4 @@ Diese Informationen wurden von BlackBerry bereitgestellt, wie diese App die Auth
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

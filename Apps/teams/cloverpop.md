@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Poppop von Tarverpop
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 08/04/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tarverpop, die Zugehörigen Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tarverpop, die Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3865c07aca73134fd9029ee0550559d9a4f93fd2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 28d424f384d8b16ff70e7d00f366c3a0f89f64b5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281324"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412515"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -34,7 +34,7 @@ Von ApplePop für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Cloverpop |
 | ID | WA200001803 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cloverpop |
 | URL der Partnerwebsite | [https://www.cloverpop.com/](https://www.cloverpop.com/) |
 | URL der Datenschutzrichtlinie | [https://www.cloverpop.com/privacy-policy/](https://www.cloverpop.com/privacy-policy/) |
@@ -54,18 +54,18 @@ Diese Informationen wurden von Tarverpop bereitgestellt, wie diese App Organisat
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | Delegiert | Speichern Sie Benutzerdaten wie folgt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | ermöglicht dem Benutzer die Anmeldung und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung&#8221; zu ermöglichen – E-Mail, Name, oid, tid, givenName, Nachname, Familienname, Benutzer-Avatar(Foto), Organisation DisplayName | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
->| openid | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Um &#8220;sie implementieren, melden Sie sich mit Teams&#8221; in unserer Web-App an. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
->| Profil | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Um &#8220;sie implementieren, melden Sie sich mit Teams&#8221; in unserer Web-App an. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
+>| openid | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Zum Implementieren &#8220;Melden Sie sich mit Teams&#8221; in unserer Web-App an. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
+>| Profil | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Zum Implementieren &#8220;Melden Sie sich mit Teams&#8221; in unserer Web-App an. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -115,4 +115,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

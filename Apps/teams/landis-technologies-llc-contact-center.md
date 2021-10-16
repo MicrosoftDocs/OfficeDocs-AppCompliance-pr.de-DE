@@ -2,18 +2,18 @@
 title: Application Information for Contact Center von Landis Technologies LLC
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/20/2020
+ms.date: 03/13/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Contact Center, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 57fd0d98d6c7139c6356b4c23a6ac8a21c48e6b6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3a252658a02bb5e9d834bf18fe4696cbdda33e4b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281813"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415072"
 ---
 # <a name="contact-center"></a>Contact Center
 
@@ -34,7 +34,7 @@ Von Landis Technologies LLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Contact Center |
 | ID | WA200001428 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Landis Technologies LLC |
 | URL der Partnerwebsite | [https://landistechnologies.com/](https://landistechnologies.com/) |
 | URL der Datenschutzrichtlinie | [https://www.landistechnologies.com/legal/](https://www.landistechnologies.com/legal/) |
@@ -50,11 +50,11 @@ Von Landis Technologies LLC für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Landis Technologies LLC darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calls.AccessMedia.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
 >| Calls.Initiate.All | Anwendung | Anrufdetailberichte, Aufzeichnung der Anrufstimmung &amp; | Ermöglicht anrufwarteschlangen, IVRs &amp; Berichterstellung | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
@@ -80,7 +80,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -95,13 +95,13 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Ja. MS Graph API-Anforderungen werden protokolliert, um Unterstützung bei Support-Vorfällen zu bieten. Sie wird nach Microsoft Azure Anwendungsstandard Insights gelöscht.
+>Ja. MS Graph API-Anforderungen werden protokolliert, um Unterstützung bei Support-Vorfällen zu leisten. Sie wird pro Microsoft Azure Anwendungsstandard Insights gelöscht.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->A- Gespeichert: in Azure SQL B- verschlüsselt? Ja C: Wer zugriffen können? DB-Administratoren D– Autorisierter Zugriff? Der Sicherheitsbeauftragte genehmigt Administratorkonten, 2FA für Administratoren, IP-geschützten Bereich.
+>A- Gespeichert: in Azure SQL B- verschlüsselt? Ja C: Wer zugriffen können? DB-Administratoren D– Autorisierter Zugriff? Sicherheitsbeauftragter genehmigt Administratorkonten, 2FA für Administratoren, IP-geschützten Bereich.
 
 
 
@@ -126,4 +126,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

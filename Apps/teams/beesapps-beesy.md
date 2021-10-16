@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Beesy von BeesApps
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 01/31/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Beesy, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ff8d420d7ea17219b2c94e9e9ac6bf4b8fa4efcb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2d6c04408ab08da89a858987981beb3fafc30229
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283454"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411854"
 ---
 # <a name="beesy"></a>Beesy
 
@@ -34,7 +34,7 @@ Von BeesApps für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Beesy |
 | ID | WA200001248 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | BeesApps |
 | URL der Partnerwebsite | [https://www.beesapps.com/](https://www.beesapps.com/) |
 | URL der Datenschutzrichtlinie | [https://www.beesy.me/legal/privacypolicy_en.pdf](https://www.beesy.me/legal/privacypolicy_en.pdf) |
@@ -50,20 +50,20 @@ Von BeesApps für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von BeesApps zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | Wir speichern nur die UPN-ID, um die angegebene zu vergleichen, indem wir über ein AAD-Token anfordern, um zu überprüfen, ob das Konto in unserem System vorhanden ist. | ermöglicht dem Benutzer die Anmeldung und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung zu aktivieren. | [d27f56ed-ddc7-4cf8-86ac-721b76c7d287](https://docs.microsoft.com/microsoft-365-app-certification/azure/d27f56ed-ddc7-4cf8-86ac-721b76c7d287) |
+>| User.Read | Delegiert | Wir speichern nur die UPN-ID, um die angegebene zu vergleichen, indem wir über AAD Token anfordern, um zu überprüfen, ob das Konto in unserem System vorhanden ist. | ermöglicht dem Benutzer die Anmeldung und ermöglicht app-Zugriff auf den UPN, um die automatische Anmeldung zu aktivieren. | [d27f56ed-ddc7-4cf8-86ac-721b76c7d287](https://docs.microsoft.com/microsoft-365-app-certification/azure/d27f56ed-ddc7-4cf8-86ac-721b76c7d287) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -71,7 +71,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Wir greifen auf diese Daten zu, um Kontext in den Bot bereitzustellen, um Aktionen direkt für die Person zu erfassen, die chatten (unser Bot ist ein virtueller Assistent). | Es werden keine Daten direkt aus dem Dienstplan gespeichert. Wir vergleichen das Teammitglied mit einer bereits integrierten Person in beesy.me Dienstdaten, die nur übereinstimmen. |  |
+>| Wir greifen auf diese Daten zu, um Kontext in den Bot bereitzustellen, um Aktionen direkt für die Person zu erfassen, die chatten (unser Bot ist ein virtueller Assistent). | Es werden keine Daten direkt aus dem Dienstplan gespeichert. Wir vergleichen das Teammitglied mit einer bereits integrierten Person in beesy.me Dienstdaten, nur abgleichend. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -84,7 +84,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Daten werden auf unseren dedizierten Servern gespeichert. Diese Server sind nur über private Vpn-Verbindungen zugänglich, vpn-geschützt durch SSL-Zertifikat und Kennwort, nur für Administratoren. Andere Server kommunizieren über private Vlan-Ebene 2, immer dedizierte Server.
+>Daten werden auf unseren dedizierten Servern gespeichert, auf diese Server kann nur über private Vpn-Verbindungen zugegriffen werden, VPN durch SSL-Zertifikat und Kennwort geschützt, nur für Administratoren. Andere Server kommunizieren über private Vlan-Ebene 2, immer dedizierte Server.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -107,4 +107,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für researcHR von KBE&#26666;&#24335;&#20250;&#31038;
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/05/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für researcHR, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b57d492945766c8d65417cf2f1d642ea4ecb8aae
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bc174eb69b69cdf2d04c27bc4649f18111d87811
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279890"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412805"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -28,13 +28,13 @@ ms.locfileid: "59279890"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von KBE&#26666;&#24335;&#20250;&#31038; an Microsoft bereitgestellt werden:
+Informationen, die von KBE&#26666;&#24335;&#20250;&#31038; für Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | researcHR |
 | ID | WA200002557 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | KBE&#26666;&#24335;&#20250;&#31038; |
 | URL der Partnerwebsite | [https://app.researchr.work/corporate](https://app.researchr.work/corporate) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://app.researchr.work](https://app.researchr.work) |
@@ -55,7 +55,7 @@ Diese Informationen wurden von KBE&#26666;&#24335;&#20250;&#31038; darüber bere
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.Create | Anwendung | Wir verwenden diesen Bereich, um es unserem Bot zu ermöglichen, einen neuen Kanal auf dem Teams-Client zu erstellen. Siehe: https://docs.microsoft.com/en-us/graph/api/channel-post | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 >| Directory.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/en-us/graph/api/channel-list | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
@@ -66,15 +66,15 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| offline_access | Delegiert | Wir verwenden diesen Bereich, um das Aktualisierungstoken abzurufen, damit das Zugriffstoken der authentifizierten Benutzer ohne Benutzerinteraktionen aktualisiert werden kann. Siehe: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | Wir speichern das Aktualisierungstoken in unserer Datenbank, damit wir das Zugriffstoken ohne Benutzerinteraktionen aktualisieren können. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -101,17 +101,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -126,3 +115,4 @@ Diese Informationen wurden von KBE&#26666;&#24335;&#20250;&#31038; darüber bere
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

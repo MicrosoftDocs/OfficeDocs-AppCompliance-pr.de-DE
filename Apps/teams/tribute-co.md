@@ -2,18 +2,18 @@
 title: Application Information for Cortana by Co.
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Diess, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 589dcefe68d389ecfc2a4ba3f51998878358c58f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 40784780329bac272702741c6fec0af25ea46ab6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281087"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413297"
 ---
 # <a name="tribute"></a>Tribute
 
@@ -34,7 +34,7 @@ Informationen, die Von Co. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Tribute |
 | ID | WA200002589 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Tribute Co. |
 | URL der Partnerwebsite | [https://www.tributementorship.com](https://www.tributementorship.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
@@ -51,9 +51,9 @@ Informationen, die Von Co. an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Co. zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -129,3 +129,4 @@ Diese Informationen wurden von Co. zur Verfügung gestellt, wie diese App die Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

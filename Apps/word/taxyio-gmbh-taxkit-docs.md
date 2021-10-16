@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für TaxKit-Dokumente von Taxy.io GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/21/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TaxKit-Dokumente, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 941ba359f865c2f6b0fe2f0b66b32f5caf2d3f9d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0428fe98c30df1812df4dfd420466634a490b960
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282875"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413226"
 ---
 # <a name="taxkit-docs"></a>TaxKit-Dokumente
 
@@ -33,7 +33,7 @@ Informationen, die von Taxy.io GmbH an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | TaxKit-Dokumente |
 | ID | WA200002849 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | Taxy.io GmbH |
 | URL der Partnerwebsite | [https://www.taxy.io](https://www.taxy.io) |
 | URL der Datenschutzrichtlinie | [https://www.taxy.io/tk-datenschutz](https://www.taxy.io/tk-datenschutz) |
@@ -49,9 +49,9 @@ Informationen, die von Taxy.io GmbH an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Taxy.io GmbH bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -86,17 +86,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -111,3 +100,4 @@ Diese Informationen wurden von Taxy.io GmbH bereitgestellt, wie diese App die Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

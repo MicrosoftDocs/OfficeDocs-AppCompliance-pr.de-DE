@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Verbinden Verbinden von Verbinden
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/28/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Verbinden, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: fd1859943d358808752e0c2a511d63ad985ca446
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b27b187fe2d898f873fecbde6a45bdc908edeb1b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283875"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412465"
 ---
 # <a name="cultr-connect"></a>Cultr Connect
 
@@ -34,7 +34,7 @@ Informationen, die von Angeber an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Cultr Connect |
 | ID | WA200003008 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cultr |
 | URL der Partnerwebsite | [https://cultr.works](https://cultr.works) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://cultr.works/how-it-works/](https://cultr.works/how-it-works/) |
@@ -51,11 +51,11 @@ Informationen, die von Angeber an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Ihnen bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | Grundlegende Benutzerinformationen. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
 >| GroupMember.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | Grundlegende Benutzerinformationen. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
@@ -102,17 +102,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -123,7 +112,7 @@ Diese Informationen wurden von DerEnser bereitgestellt, wie diese App die Authen
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -139,3 +128,4 @@ Diese Informationen wurden von DerEnser bereitgestellt, wie diese App die Authen
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für ngDesk von All Blue Solutions
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/30/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ngDesk, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b361541352b4fb5c21431403aaea8d7b13a0e104
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0cf3f69794fb007c824e065ba3b153bb980090f1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282209"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414791"
 ---
 # <a name="ngdesk"></a>ngDesk
 
@@ -34,7 +34,7 @@ Informationen, die von "Alle blauen Lösungen" für Microsoft bereitgestellt wer
 |:----------------|:-------------|
 | App-Name | ngDesk |
 | ID | WA200002968 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Alle blauen Lösungen |
 | URL der Partnerwebsite | [https://ngdesk.com](https://ngdesk.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://ngdesk.com](https://ngdesk.com) |
@@ -58,11 +58,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -118,3 +118,4 @@ Diese Informationen wurden von "All Blue Solutions" bereitgestellt, wie diese Ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

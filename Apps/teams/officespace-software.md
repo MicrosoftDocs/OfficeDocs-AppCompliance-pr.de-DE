@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für OfficeSpace von OfficeSpace Software
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2021
+ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für OfficeSpace, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 17147e0c536336554e858536b1e3b085ad842925
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d8e6981a66409925c8b88ecea9376ef62316a14b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282761"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414149"
 ---
 # <a name="officespace"></a>OfficeSpace
 
@@ -34,7 +34,7 @@ Von OfficeSpace Software für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | OfficeSpace |
 | ID | WA200002052 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | OfficeSpace Software |
 | URL der Partnerwebsite | [https://www.officespacesoftware.com](https://www.officespacesoftware.com) |
 | URL der Datenschutzrichtlinie | [https://www.officespacesoftware.com/oss-customer-privacy-po...](https://www.officespacesoftware.com/oss-customer-privacy-policy-25052018) |
@@ -50,9 +50,9 @@ Von OfficeSpace Software für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von OfficeSpace Software dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -119,3 +119,4 @@ Diese Informationen wurden von OfficeSpace Software darüber bereitgestellt, wie
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Officevibe von Officevibe
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/30/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Officevibe, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 968e5ba9e3144e4dd987e63af0480311ab7f4cab
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5aad81602d2ebe11505782ff09355f8fb7c23c10
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282758"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415012"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -34,7 +34,7 @@ Von Officevibe für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Officevibe |
 | ID | WA200002508 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Officevibe |
 | URL der Partnerwebsite | [https://officevibe.com](https://officevibe.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://officevibe-portal.zendesk.com/hc/en-us/articles/360...](https://officevibe-portal.zendesk.com/hc/en-us/articles/360048865311-Officevibe-Communications-via-Microsoft-Teams-Coming-soon-) |
@@ -51,11 +51,11 @@ Von Officevibe für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Officevibe darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
 >| Group.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
@@ -68,7 +68,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Hubspot, Recurly, Xero, MongoDB Atlas | Name des Unternehmens und Branche | Kundenverwaltung, Zahlungs- und Abonnementverwaltung und Anwendungsdatenspeicherung |
 
@@ -126,3 +126,4 @@ Diese Informationen wurden von Officevibe darüber bereitgestellt, wie diese App
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

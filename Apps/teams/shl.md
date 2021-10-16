@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für SHL von SHL
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/25/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SHL, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5c5b98779e7c038d809a8ecaee60fee1cdf0ca71
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 10d1b85a8f4d57ed956355ecc5247a5a4c3a5b43
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281486"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414942"
 ---
 # <a name="shl"></a>SHL
 
@@ -34,7 +34,7 @@ Informationen, die von SHL an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | SHL |
 | ID | WA200002887 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SHL |
 | URL der Partnerwebsite | [https://shl.com](https://shl.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.shl.com/en/about/](https://www.shl.com/en/about/) |
@@ -55,16 +55,16 @@ Diese Informationen wurden von SHL darüber bereitgestellt, wie diese App Organi
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read.Shared | Delegiert | Verfügbare freigegebene Calander-Slots | NA | [afd2c390-8b78-40fa-913b-7fc5911e884a](https://docs.microsoft.com/microsoft-365-app-certification/azure/afd2c390-8b78-40fa-913b-7fc5911e884a) |
+>| Calendars.Read.Shared | Delegiert | Verfügbare freigegebene Calander-Slots | – | [afd2c390-8b78-40fa-913b-7fc5911e884a](https://docs.microsoft.com/microsoft-365-app-certification/azure/afd2c390-8b78-40fa-913b-7fc5911e884a) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Wir übertragen Daten an die Dienste unserer eigenen Anwendung (Talentcentral: https://talentcentral.eu.shl.com/admin) | EUII: Microsoft Teams-Benutzername und Teams-Benutzer-ID | Der Benutzername aus Teams App wird in unserer anderen Anwendung verwendet, die E-Mails mit dem Benutzernamen auslöst. und Benutzer-ID, die wir als Bezeichner beibehalten und mit der Benutzer-ID unserer Anwendung&#8217;zuordnen. |
 
@@ -124,3 +124,4 @@ Diese Informationen wurden von SHL darüber bereitgestellt, wie diese App Authen
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
