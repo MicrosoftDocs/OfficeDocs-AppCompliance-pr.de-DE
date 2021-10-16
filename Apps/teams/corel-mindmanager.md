@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für MindManager von Corel
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/03/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MindManager, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7a431ae7736e2efa22a2d75ff3a1cfc2e1e2234f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f9cd3639b4c7abf8cb5472213e11faa879fb7917
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282833"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411089"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -34,7 +34,7 @@ Von Corel für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | MindManager |
 | ID | WA200002261 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Corel |
 | URL der Partnerwebsite | [https://www.mindmanager.com](https://www.mindmanager.com) |
 | URL der Datenschutzrichtlinie | [https://www.corel.com/en/corel-privacy-policy/](https://www.corel.com/en/corel-privacy-policy/) |
@@ -54,7 +54,7 @@ Diese Informationen wurden von Corel darüber bereitgestellt, wie diese App Orga
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMessage.Send | Delegiert | Informationen zu Änderungen in einer MindManager-Datei, die dann als Nachricht gepostet werden können | Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 >| Chat.Send | Delegiert | Informationen zu Änderungen in einer MindManager-Datei, die dann als Nachricht gepostet werden können | Dateimetadaten, Dateiinhalt – für den Dateibrowser kann der Benutzer seine Dateien durchsuchen, um eine MindManager-Datei (MMAP) zu öffnen. | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
@@ -64,11 +64,11 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| offline_access | Delegiert | Auf diese Weise können wir eine Datei später im Namen des Benutzers an dem ursprünglichen Speicherort speichern, falls erforderlich. | Dateiinhalt: während der gemeinsamen Bearbeitungssitzung (gemeinsame Bearbeitung in Echtzeit auf MindManager.mmap-Dateien) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Amazon Web Services | Organisationsname, Organisationsdomäne | Die Organisation benötigt eine Kontoeinrichtung innerhalb unserer Anwendungsinfrastruktur, um die Anwendung in Teams |
 
@@ -122,7 +122,7 @@ Diese Informationen wurden von Corel darüber bereitgestellt, wie diese App die 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -139,3 +139,4 @@ Diese Informationen wurden von Corel darüber bereitgestellt, wie diese App die 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

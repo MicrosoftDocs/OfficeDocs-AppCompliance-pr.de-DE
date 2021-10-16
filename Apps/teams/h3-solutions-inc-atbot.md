@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für AtBot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d71404e66489ba3f1e81ca5f1a1a92c17b36f9e6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b5f7db2aba878720e33c5c1df2236fd034819dfb
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283031"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411663"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -34,7 +34,7 @@ Informationen, die von H3 Solutions, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | AtBot |
 | ID | WA104381219 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | H3 Solutions, Inc. |
 | URL der Partnerwebsite | [https://atbot.io](https://atbot.io) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://admin.atbot.io/Docs/GettingStarted](https://admin.atbot.io/Docs/GettingStarted) |
@@ -51,14 +51,14 @@ Informationen, die von H3 Solutions, Inc. an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von H3 Solutions, Inc. bereitgestellt, um zu erfahren, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | Anwendung | AAD-Gruppenname, AAD-Gruppen-GUID, UPN | Aufzählen von AAD-Gruppen, um die Sicherheitskürzung von Bot-Fähigkeiten zu ermöglichen. Auflisten von Benutzern, um Lizenzen anwenden zu können. Aufzählen von Benutzern, die als Administratoren/Mitwirkende hinzugefügt werden sollen | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| Directory.Read.All | Delegiert | AAD-Gruppenname, AAD-Gruppen-GUID, UPN | Aufzählen von AAD-Gruppen, um die Sicherheitskürzung von Bot-Fähigkeiten zu ermöglichen. Auflisten von Benutzern, um Lizenzen anwenden zu können. Aufzählen von Benutzern, die als Administratoren/Mitwirkende hinzugefügt werden sollen | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | Anwendung | AAD Gruppenname, AAD Gruppen-GUID, UPN | Aufzählen AAD Gruppen, um die Sicherheitskürzung von Bot-Fähigkeiten zu ermöglichen. Auflisten von Benutzern, um Lizenzen anwenden zu können. Aufzählen von Benutzern, die als Administratoren/Mitwirkende hinzugefügt werden sollen | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | Delegiert | AAD Gruppenname, AAD Gruppen-GUID, UPN | Aufzählen AAD Gruppen, um die Sicherheitskürzung von Bot-Fähigkeiten zu ermöglichen. Auflisten von Benutzern, um Lizenzen anwenden zu können. Aufzählen von Benutzern, die als Administratoren/Mitwirkende hinzugefügt werden sollen | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| People.Read | Delegiert | Nein | Aufzählen von Personen in einer Aktion "Person abrufen" aus Flow.  Ermöglicht es dem Bot, Personen vom /People-Endpunkt in Microsoft Graph abzurufen. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| User.Read | Delegiert | Mandanten-ID, UPN | Ermöglicht uns den Zugriff auf die Mandanten-ID und den UPN des Benutzers&#8217;, damit wir die erstellten Flows/Logik-Apps mit den Benutzern verknüpfen können, die sie erstellt haben. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| email | Delegiert | E-Mail-Adressen werden verwendet, um den Support über unser Supportsystem zu kontaktieren. | Ermöglicht uns den Zugriff auf die E-Mail-Adresse des Benutzers. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
@@ -86,13 +86,13 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Mandanten-ID, UPN. Wir verwenden Application Insights, und unsere Protokolle dauern 90 Tage, bevor sie automatisch archiviert werden. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
+>Mandanten-ID, UPN. Wir verwenden application Insights und unsere Protokolle dauern 90 Tage, bevor sie automatisch archiviert werden. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Administratoren können Botkonfigurationen löschen, die AAD-Gruppennamen/-GUIDs enthalten können.
+>Administratoren können Botkonfigurationen löschen, die AAD Gruppennamen/GUIDs enthalten können.
 Nach dem Abbruch des Diensts werden alle UPNs aus der Lizenzierungsdatenbank entfernt.
 Siehe "Azure Services" unter Data Residency.  Ein Großteil der kundenspezifischen Daten, die über die Verwendung von AtBot erstellt werden, werden im Mandanten des Kunden gespeichert, sodass Administratoren dieses Mandanten die volle Kontrolle über die daten dort haben.
 
@@ -127,7 +127,7 @@ Diese Informationen wurden von H3 Solutions, Inc. bereitgestellt, wie diese App 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -142,3 +142,4 @@ Diese Informationen wurden von H3 Solutions, Inc. bereitgestellt, wie diese App 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

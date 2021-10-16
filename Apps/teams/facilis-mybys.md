@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Mybys von Facilis
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/18/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mybys, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ce63aba5257555ddd4fb573aed5c2b1891c37baa
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e76ab0d8c6c261bc36d821398c324387460a316f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281561"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411039"
 ---
 # <a name="mybys"></a>Mybys
 
@@ -34,7 +34,7 @@ Von Facilis für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Mybys |
 | ID | WA200002605 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Facilis |
 | URL der Partnerwebsite | [https://facilisglobal.com](https://facilisglobal.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://facilisglobal.com/products/microsoft-teams](https://facilisglobal.com/products/microsoft-teams) |
@@ -51,9 +51,9 @@ Von Facilis für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Facilis dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -120,3 +120,4 @@ Diese Informationen wurden von Facilis darüber bereitgestellt, wie diese App Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

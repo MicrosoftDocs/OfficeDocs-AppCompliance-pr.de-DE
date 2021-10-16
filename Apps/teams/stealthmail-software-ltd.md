@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Mailboxmail von Dermail Software Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/31/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für MailboxMail, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für "MailboxMail", die Zugehörigen Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 322cdc906ab0cd2ae8980d1412bb4dd9c897a5f6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 117f7c791048373b4e1d985c991b001f5aa595dd
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282044"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60407364"
 ---
 # <a name="stealthmail"></a>StealthMail
 
@@ -34,7 +34,7 @@ Informationen, die von DerMail Software Ltd an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | StealthMail |
 | ID | WA200001748 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Stealthmail Software Ltd |
 | URL der Partnerwebsite | [https://stealthmail.com](https://stealthmail.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://stealthmail.com/product/teams](https://stealthmail.com/product/teams) |
@@ -51,11 +51,11 @@ Informationen, die von DerMail Software Ltd an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Derzmail Software Ltd bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMessage.Read.All | Delegiert | Die Anwendung sendet die Nachricht mit dem Verweis auf erstellte sichere E-Mails an den Kanal. | Keiner | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 >| ChannelMessage.Send | Delegiert | Die Anwendung sendet die Nachricht mit dem Verweis auf erstellte sichere E-Mails an den Kanal. | Keiner | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
@@ -122,7 +122,7 @@ Diese Informationen wurden von Derzmail Software Ltd bereitgestellt, wie diese A
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -139,3 +139,4 @@ Diese Informationen wurden von Derzmail Software Ltd bereitgestellt, wie diese A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

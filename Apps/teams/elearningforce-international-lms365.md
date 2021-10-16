@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für LMS365 von ELEARNINGFORCE International
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/28/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für LMS365, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für LMS365, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5a88349d6fa62769d528c66baeb428b791a007b0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 37053d460cd8619379f7a2e5b3f581f789d00986
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283763"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410268"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -33,7 +33,7 @@ Von ELEARNINGFORCE International für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | LMS365 |
 | ID | WA104381467 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ELEARNINGFORCE International |
 | URL der Partnerwebsite | [https://www.elearningforce.com](https://www.elearningforce.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
@@ -50,11 +50,11 @@ Von ELEARNINGFORCE International für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von ELEARNINGFORCE International darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| GroupMember.Read.All | Anwendung | Keine | Ermöglicht der App, AD-Gruppenmitglieder zu erweitern, was erforderlich ist, um eine Gruppe von Benutzern für die Kurse zu registrieren. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| Mail.Send | Delegiert | Keine | Die Berechtigung wird während der Konfiguration des E-Mail-Kontos für Benachrichtigungen dynamisch angefordert. Ermöglicht der App das Senden von Benachrichtigungs-E-Mails | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
@@ -93,7 +93,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Ja, wir verwenden Insights Log Analytics-Telemetriedaten/-protokolle, die nur für Das Aufnehmen von Problemen verwendet werden und über eine Aufbewahrungsrichtlinie von 90 Tagen verfügen, nach der alle Daten gelöscht werden.
+>Ja, wir verwenden Insights Log Analytics-Telemetriedaten/-protokolle, die nur für Problembeschießen verwendet werden und über eine Aufbewahrungsrichtlinie von 90 Tagen verfügen, nach der alle Daten gelöscht werden.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -149,3 +149,4 @@ Diese Informationen wurden von ELEARNINGFORCE International darüber bereitgeste
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für 10xGoals von xto10x Technologies
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für 10xGoals, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für 10xGoals, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 52b806ec307e396e67d9d91624e8be80c94142bb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 82730906a833ef43df8a3eafaee1111cf6889472
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280604"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411360"
 ---
 # <a name="10xgoals"></a>10xZiele
 
@@ -34,7 +34,7 @@ Von xto10x Technologies für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | 10xZiele |
 | ID | WA200003122 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | xto10x-Technologien |
 | URL der Partnerwebsite | [https://www.xto10x.com/10xgoals/](https://www.xto10x.com/10xgoals/) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.xto10x.com/10xgoals/](https://www.xto10x.com/10xgoals/) |
@@ -51,11 +51,11 @@ Von xto10x Technologies für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von xto10x Technologies dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | Anwendung | Benutzer-E-Mails und Azure-IDs werden abgerufen, damit die App die App proaktiv für alle Benutzer der Organisation installieren kann.  | Da diese App zuerst ein 10xGoals-Dienstabonnement erfordert, werden Benutzer-E-Mails und Azure-IDs des Benutzers an den 10xGoals-Dienst gesendet, damit eine proaktive Benachrichtigung an die Teams-App des Benutzers gesendet werden kann, wenn eine Aktivität im Zusammenhang mit diesem Benutzer stattfindet. | [950aa4fb-0583-4b13-9b5f-bb92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | Anwendung | Es ist erforderlich, damit die App installierte teamsAppDefinition für Administratoren abrufen und sich dann proaktiv für alle Benutzer der Organisation installieren kann.  | Es wird nichts in einer Datenbank gespeichert, die von dieser API abgerufen wird. | [950aa4fb-0583-4b13-9b5f-bb92b9cc376](https://docs.microsoft.com/microsoft-365-app-certification/azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376) |
@@ -65,7 +65,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| 10xGoals, AWS | Benutzer-E-Mail und AzureId des Benutzers.  | Da diese App zuerst ein 10xGoals-Dienstabonnement erfordert, werden Benutzer-E-Mails und Azure-IDs des Benutzers an den 10xGoals-Dienst gesendet, sodass das System proaktive Benachrichtigungen an den Benutzer senden kann, wenn eine Aktivität im Zusammenhang mit diesem Benutzer stattfindet. |
 
@@ -88,7 +88,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->NA
+>–
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -100,17 +100,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -137,3 +126,4 @@ Diese Informationen wurden von xto10x Technologies dazu bereitgestellt, wie dies
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

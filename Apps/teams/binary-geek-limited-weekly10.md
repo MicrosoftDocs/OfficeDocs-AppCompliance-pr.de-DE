@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Weekly10 von Binary Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/19/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Weekly10, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3a1456ccf706a9588f82e38ea35e5e37f8098b9b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9bdd5e42398270719c9f0ecd9814155974dbee6f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281822"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411129"
 ---
 # <a name="weekly10"></a>Weekly10
 
@@ -34,7 +34,7 @@ Informationen, die von Binary Binary Binary Limited auf Microsoft bereitgestellt
 |:----------------|:-------------|
 | App-Name | Weekly10 |
 | ID | WA200001441 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Binary Geek Limited |
 | URL der Partnerwebsite | [https://www.weekly10.com](https://www.weekly10.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.weekly10.com/integrations/microsoft-teams/](https://www.weekly10.com/integrations/microsoft-teams/) |
@@ -51,15 +51,15 @@ Informationen, die von Binary Binary Binary Limited auf Microsoft bereitgestellt
 
 Diese Informationen wurden von Binary Limited bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | Anwendung | Synchronisation von Benutzern von Azure AD in Wöchentlich 10 (optional) | Benutzeridentitätsdaten: Benutzerprinzipalname, E-Mail, Vorname, Nachname und Vorgesetzter. | [2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb](https://docs.microsoft.com/microsoft-365-app-certification/azure/2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb) |
+>| Directory.Read.All | Anwendung | Synchronisation von Benutzern von Azure AD in Wöchentlich10 (optional) | Benutzeridentitätsdaten: Benutzerprinzipalname, E-Mail, Vorname, Nachname und Vorgesetzter. | [2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb](https://docs.microsoft.com/microsoft-365-app-certification/azure/2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb) |
 >| Calendars.ReadWrite | Anwendung | Überprüfen der Mitarbeiterverfügbarkeit und der automatisierten Buchung von Besprechungen (optional). | Verfügbarkeitszeiten für Mitarbeiter (keine Details) und wenn eine Besprechung gebucht wird, wird der Verweis auf diese Besprechung angezeigt. Diese Daten werden verwendet, um zu verstehen, ob ein Mitarbeiter nicht im Büro ist, um eine nahtlose Mitarbeitererfahrung zu erhalten, und um Besprechungen für 1:1-Zeit oder Leistungsüberprüfungen zu buchen. | [494610b2-b490-4f54-8384-312d6f9b4869](https://docs.microsoft.com/microsoft-365-app-certification/azure/494610b2-b490-4f54-8384-312d6f9b4869) |
->| User.Read | Delegiert | Überprüfung des Benutzers für SSO-Zwecke in Azure AD. | Abgesehen von Tokeninformationen werden keine zusätzlichen Daten aufbewahrt. | [6fd1421e-89e8-4a8b-bd01-9397656a50d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5) |
+>| User.Read | Delegiert | Überprüfung des Benutzers für SSO-Zwecke im Azure AD. | Abgesehen von Tokeninformationen werden keine zusätzlichen Daten aufbewahrt. | [6fd1421e-89e8-4a8b-bd01-9397656a50d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -99,17 +99,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -120,7 +109,7 @@ Diese Informationen wurden von Binary Limited bereitgestellt, um zu erfahren, wi
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -137,3 +126,4 @@ Diese Informationen wurden von Binary Limited bereitgestellt, um zu erfahren, wi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

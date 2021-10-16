@@ -2,18 +2,18 @@
 title: Application Information for Wisembly by Wisembly
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/22/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wisembly, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 66b0fcb7ef7dd5e178eebadfdbfc5136edfb0919
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5115f2e2b8e80686abac839d816fa4761496c9e3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281765"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411390"
 ---
 # <a name="wisembly"></a>Wisembly
 
@@ -34,7 +34,7 @@ Von Wisembly für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Wisembly |
 | ID | WA200001554 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Wisembly |
 | URL der Partnerwebsite | [https://wisembly.com](https://wisembly.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://wisembly.com](https://wisembly.com) |
@@ -51,9 +51,9 @@ Von Wisembly für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Wisembly darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -114,7 +114,7 @@ Diese Informationen wurden von Wisembly darüber bereitgestellt, wie diese App A
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Nein |
@@ -130,3 +130,4 @@ Diese Informationen wurden von Wisembly darüber bereitgestellt, wie diese App A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

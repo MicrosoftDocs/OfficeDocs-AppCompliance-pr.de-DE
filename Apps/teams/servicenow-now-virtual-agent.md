@@ -2,18 +2,18 @@
 title: Application Information for Now Virtual Agent by ServiceNow
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 05/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den virtuellen Now-Agent, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1ac2988c550894341d5933afbc59de6f63c51b68
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 20ae315016fa0d5cbc960616f09bfd350ceb5c43
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282398"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408344"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -34,7 +34,7 @@ Von ServiceNow für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Now Virtual Agent |
 | ID | WA104381816 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ServiceNow |
 | URL der Partnerwebsite | [https://www.servicenow.com/](https://www.servicenow.com/) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://docs.servicenow.com/bundle/london-servicenow-platfo...](https://docs.servicenow.com/bundle/london-servicenow-platform/page/administer/virtual-agent/task/install-va-integrations.html#install-va-integrations) |
@@ -51,24 +51,24 @@ Von ServiceNow für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von ServiceNow bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | Die Domäne wird in unserem Rechenzentrum für zukünftige Nachrichtenweiterleitungszwecke gespeichert. | Wenn der ServiceNow-Administrator die Integration mit MS Teams installiert, muss sich der Administrator bei dessen MS Teams-Konto anmelden. Wir lesen die Domäne aus der E-Mail-Adresse (nicht die vollständige E-Mail-Adresse). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | Delegiert | Die Domäne wird in unserem Rechenzentrum für zukünftige Nachrichtenweiterleitungszwecke gespeichert. | Wenn der ServiceNow-Administrator die Integration mit MS Teams installiert, muss sich der Administrator bei seiner MS Teams Anmelden. Wir lesen die Domäne aus der E-Mail-Adresse (nicht die vollständige E-Mail-Adresse). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -92,7 +92,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10638' frameborder='no' style='width: 100%;'></iframe>
 
@@ -101,4 +101,5 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

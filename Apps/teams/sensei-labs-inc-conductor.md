@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Sensei Labs, Leiter von Sensei Labs Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sensei Labs, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0c7fa93ad3521decc194fcddf94d86d161a864ea
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b2ff7116020569a5a03ccd86cc30b580ded30c58
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280625"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408394"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -34,7 +34,7 @@ Von Sensei Labs Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Sensei Labs Conductor |
 | ID | WA200001951 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Sensei Labs Inc. |
 | URL der Partnerwebsite | [https://www.senseilabs.com](https://www.senseilabs.com) |
 | URL der Datenschutzrichtlinie | [https://www.senseilabs.com/conductor/conductor-privacy-poli...](https://www.senseilabs.com/conductor/conductor-privacy-policy/) |
@@ -50,9 +50,9 @@ Von Sensei Labs Inc. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Sensei Labs Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -68,7 +68,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -76,14 +76,14 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| um die Person während Bot-Unterhaltungen ordnungsgemäß zu adressiert. Um den Benutzer in Teams dem Benutzer in unserer Anwendung zuzuordnen | Teams Bezeichner, Name, E-Mail-Adresse | um Teams Benutzer dem Benutzer auf unserer Plattform zuzuordnen |
+>| um die Person während Bot-Unterhaltungen ordnungsgemäß zu adressiert. Um den Benutzer in Teams dem Benutzer in unserer Anwendung zuzuordnen | Teams Bezeichner, Name, E-Mail-Adresse | um Teams Benutzer auf unserer Plattform dem Benutzer zuzuordnen |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Teams Teammitgliedschaft. Zuordnung zwischen der Teams Instanz des Kunden und deren Instanz "Leiter". Daten, die aufbewahrt werden, solange sie ein Kunde des Kunden sind. Entfernen, wenn die Instanz "Leiter" des Kunden außer Betrieb genommen wird, oder auf Anforderung
+>Teams Teammitgliedschaft. Zuordnung zwischen der Teams Instanz des Kunden und deren Instanz "Zu" Daten, die aufbewahrt werden, solange sie ein Kunde des Kunden sind. Entfernen, wenn die Instanz "Leiter" des Kunden außer Betrieb genommen wird, oder auf Anforderung
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -122,7 +122,7 @@ Diese Informationen wurden von Sensei Labs Inc. darüber bereitgestellt, wie die
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Nein |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -139,3 +139,4 @@ Diese Informationen wurden von Sensei Labs Inc. darüber bereitgestellt, wie die
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

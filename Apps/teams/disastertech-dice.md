@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für DisasterTech DICE von DisasterTech
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für DisasterTech DICE, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d8eec2ad9c7047a33dae446943c3ab2d934cc78c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: fd0c7aeda8b245db0b222ffcfd4d59deb3d0374d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283067"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411069"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -34,7 +34,7 @@ Von DisasterTech für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | DisasterTech DICE |
 | ID | WA200001909 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | DisasterTech |
 | URL der Partnerwebsite | [https://www.disastertech.com](https://www.disastertech.com) |
 | URL der Datenschutzrichtlinie | [https://dice.disastertech.com/privacy.html](https://dice.disastertech.com/privacy.html) |
@@ -50,11 +50,11 @@ Von DisasterTech für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von DisasterTech bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | Delegiert | E-Mail-Adresse des Benutzers, die zum Einrichten von Zugriffsrechten gespeichert ist, sowie Benutzername, um Benutzer anhand des Namens zu identifizieren | Ermöglicht es dem Benutzer, sich anzumelden, und gewährt app-Zugriff auf den UPN, um die automatische Anmeldung sowie Teams Anmeldung zu aktivieren, auch um Benutzernamen und E-Mail-Adressen einzurichten. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
 >| email | Delegiert | Keine | Erforderlich für Teams einzelnen Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
@@ -109,4 +109,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

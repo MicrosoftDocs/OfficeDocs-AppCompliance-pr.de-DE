@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für CalendarHero von CalendarHero Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/17/2020
+ms.date: 01/22/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CalendarHero, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 41a7dd8a2cb7d900ac26b228c4cc2522d76da59c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 380aa287ed8c0a11743b56fbb6a2e3e8fbea5081
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282194"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411119"
 ---
 # <a name="calendarhero"></a>CalendarHero
 
@@ -28,16 +28,16 @@ ms.locfileid: "59282194"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die Von CalendarHero Inc. an Microsoft bereitgestellt werden:
+Von CalendarHero Inc. für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | CalendarHero |
 | ID | WA200000150 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | CalendarHero Inc |
 | URL der Partnerwebsite | [https://zoom.ai](https://zoom.ai) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
+| URL Teams Anwendungsinformationsseite | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
 | URL der Datenschutzrichtlinie | [https://zoom.ai/privacy-policy](https://zoom.ai/privacy-policy) |
 | URL der Nutzungsbedingungen | [https://zoom.ai/terms-of-use](https://zoom.ai/terms-of-use) |
 
@@ -55,7 +55,7 @@ Diese Informationen wurden von CalendarHero Inc. darüber bereitgestellt, wie di
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Beide | Besprechungen werden in unserer mongoDB in Azure zwischengespeichert, Beschreibungen werden jedoch verschlüsselt. | Zugriff auf die Kalenderereignisse des Benutzers. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Contacts.ReadWrite | Beide | Kontaktname und E-Mail-Adresse. | Lesen Sie die Kontakte des Benutzers (damit wir sie zu einer Besprechung einladen können). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -66,7 +66,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| offline_access | Anwendung | Nein | Wir müssen unser Back-End jederzeit lesen und schreiben, ohne dass der Benutzer anwesend ist. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -114,4 +114,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für die ChronoScope-Zeitverfolgung von Chrono Innovation
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/23/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für chronoscope Time Tracking, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Chronoscope-Zeitverfolgung, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9e87baec293d3c18e48da28e1714fce9703f446f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bbf812cc60f8c11658fec34eea297798eded20e4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282143"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410358"
 ---
 # <a name="chronoscope-time-tracking"></a>Chronoscope Zeiterfassung
 
@@ -34,7 +34,7 @@ Informationen von Chrono Innovation für Microsoft:
 |:----------------|:-------------|
 | App-Name | Chronoscope Zeiterfassung |
 | ID | WA200003095 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Chrono Innovation |
 | URL der Partnerwebsite | [https://www.chronoinnovation.com](https://www.chronoinnovation.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.chronoscope.app](https://www.chronoscope.app) |
@@ -51,13 +51,13 @@ Informationen von Chrono Innovation für Microsoft:
 
 Diese Informationen wurden von Chrono Innovation dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| AccessReview.Read.All | Anwendung | die Teams-Mandanten-ID, teams addObjectId und Teams-Benutzerkontoinformationen. Beim Verknüpfen von ChronoScope-Benutzern überprüfen wir, dass die E-Mail einem Teams Konto entspricht, sodass wir das Konto ohne manuellen Schritt des Benutzers verknüpfen können. | Teams-Mandanten-ID, Teams-AddObjectId und Teams-Benutzerkontoinformationen. Beim Verknüpfen von ChronoScope-Benutzern überprüfen wir, dass die E-Mail einem Teams Konto entspricht, sodass wir das Konto ohne manuellen Schritt des Benutzers verknüpfen können. | [9bc8244d-a186-4b12-809e-c47b3eee73c6](https://docs.microsoft.com/microsoft-365-app-certification/azure/9bc8244d-a186-4b12-809e-c47b3eee73c6) |
+>| AccessReview.Read.All | Anwendung | die Teams-Mandanten-ID, teams addObjectId und Teams-Benutzerkontoinformationen. Beim Verknüpfen von ChronoScope-Benutzern überprüfen wir, dass die E-Mail einem Teams Konto entspricht, sodass wir das Konto ohne manuellen Schritt des Benutzers verknüpfen können | Teams-Mandanten-ID, Teams-AddObjectId und Teams-Benutzerkontoinformationen. Beim Verknüpfen von ChronoScope-Benutzern überprüfen wir, dass die E-Mail einem Teams Konto entspricht, sodass wir das Konto ohne manuellen Schritt des Benutzers verknüpfen können | [9bc8244d-a186-4b12-809e-c47b3eee73c6](https://docs.microsoft.com/microsoft-365-app-certification/azure/9bc8244d-a186-4b12-809e-c47b3eee73c6) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -72,7 +72,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| um den Teams-Benutzer zu finden, "workspaWhen", der ChronoScope-Benutzer verknüpft, überprüfen wir, dass die E-Mail einem Teams Konto entspricht, sodass wir das Konto ohne manuellen Schritt von "user.ce" in der Datenbank unserer Anwendung verknüpfen und diesen Teams-Benutzer authentifizieren können. | tenantId , Benutzerkontoinformationen wie userId , addObjectId , givenName ,email ,role,objectId | Beim Verknüpfen von ChronoScope-Benutzern überprüfen wir, dass die E-Mail mit einem Teams Konto übereinstimmt, sodass wir das Konto ohne manuellen Schritt des Benutzers verknüpfen können. Um auch Pushbenachrichtigungen zu den vorab ausgefüllten Benutzerzeiteinträgen senden zu können, damit sie sie speichern/bearbeiten/löschen können. |
+>| um die Teams-Benutzer zu finden, die "workspaWhen" mit ChronoScope-Benutzern verknüpfen, überprüfen wir, dass die E-Mail einem Teams Konto entspricht, sodass wir das Konto ohne manuellen Schritt von "user.ce" in der Datenbank unserer Anwendung verknüpfen und diesen Teams-Benutzer authentifizieren können. | tenantId , Benutzerkontoinformationen wie userId , addObjectId , givenName ,email ,role,objectId | Beim Verknüpfen von ChronoScope-Benutzern überprüfen wir, dass die E-Mail einem Teams Konto entspricht, sodass wir das Konto ohne manuellen Schritt des Benutzers verknüpfen können. Um auch Pushbenachrichtigungen zu den vorab ausgefüllten Benutzerzeiteinträgen senden zu können, damit sie sie speichern/bearbeiten/löschen können. |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -97,17 +97,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -134,3 +123,4 @@ Diese Informationen wurden von Chrono Innovation dazu bereitgestellt, wie diese 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Karma von Sliday LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/14/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Karma, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Karma, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a7603ed4676653b26d93027e5c3e3d47065e83db
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 69163a7c191e9a7e8d460a7f20623466d208042e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281144"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410909"
 ---
 # <a name="karma"></a>Karma
 
@@ -34,7 +34,7 @@ Von Sliday LTD für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Karma |
 | ID | WA104381640 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Sliday LTD |
 | URL der Partnerwebsite | [https://sliday.com](https://sliday.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://karmabot.readme.io/](https://karmabot.readme.io/) |
@@ -55,12 +55,12 @@ Diese Informationen wurden von Sliday LTD darüber bereitgestellt, wie diese App
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | Anwendung | Vorname, Nachname und E-Mail-Adresse des Unternehmens. Vorname, Nachname für Berichterstellung mit Administratorzugriff. E-Mail-Adresse für kommunikation in Bezug auf Karma, Abrechnungszwecke und Herarchie. | Anzeigename der Administratorzustimmung. Melden Sie sich an, und lesen Sie das Benutzerprofil. Beschreibung der Administratorzustimmung. Ermöglicht Benutzern die Anmeldung bei der App und ermöglicht es der App, das Profil der angemeldeten Benutzer zu lesen. Außerdem kann die App grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. Anzeigename der Zustimmung des BenutzersSignieren und Lesen Ihres Profils. Beschreibung der Zustimmung des Benutzers. Ermöglicht es Ihnen, sich mit Ihrem Organisationskonto bei der App anzumelden und die App ihr Profil lesen zu lassen. Außerdem kann die App grundlegende Unternehmensinformationen lesen. | [9ff28b02-fg5-4cac-9d17-4cf6987c371f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9ff28b02-ccc5-4cac-9d17-4cf6987c371f) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -145,4 +145,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

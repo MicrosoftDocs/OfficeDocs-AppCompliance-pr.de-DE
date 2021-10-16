@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Email TeamMate, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1aecf8fedde78acae86eb654f066bb443ff387ed
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c36dba77d67a638c035b34cea1d88113fb082466
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283016"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411640"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -34,7 +34,7 @@ Informationen, die von harmon.ie an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Email TeamMate |
 | ID | WA200002338 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | harmon.ie |
 | URL der Partnerwebsite | [https://harmon.ie](https://harmon.ie) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://harmon.ie](https://harmon.ie) |
@@ -51,29 +51,29 @@ Informationen, die von harmon.ie an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von harmon.ie darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Chat.Read | Delegiert | Von TeamMate erforderlich, um Chatmitglieder einer bestimmten Unterhaltung abzurufen, um Dateien freizugeben, die in SharePoint/One-Laufwerk mit den Chatmitgliedern der Unterhaltung gespeichert sind | Keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Files.ReadWrite.All | Delegiert | Von TeamMate zum Speichern von E-Mail-Anlagen &amp; in SharePoint/Teams/OneDrive erforderlich | Keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Mail.ReadWrite | Delegiert | TeamMate muss die E-Mails des Benutzers anzeigen und auf in Teams gespeicherte E-Mails antworten | Keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| People.Read | Delegiert | TeamMate muss nach E-Mails von Personen suchen und Personen vorschlagen, mit denen Sie häufig Kontakt aufnehmen. | Keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.Read | Delegiert | ermöglicht Benutzern die Anmeldung bei TeamMate mit ihrem Konto und ermöglicht TeamMate, grundlegende Benutzerprofilinformationen anzuzeigen. | Keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.ReadBasic.All | Delegiert | Von TeamMate erforderlich, um E-Mail-Adressen von Chatmitgliedern aufzulösen, in der Reihenfolge, in der die in OneDrive gespeicherten Freigabedateien mit ihnen gespeichert sind  | Keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Chat.Read | Delegiert | Von TeamMate erforderlich, um Chatmitglieder einer bestimmten Unterhaltung abzurufen, um Dateien freizugeben, die in SharePoint/One-Laufwerk mit den Chatmitgliedern der Unterhaltung gespeichert sind | keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Files.ReadWrite.All | Delegiert | Von TeamMate zum Speichern von E-Mail-Anlagen &amp; in SharePoint/Teams/OneDrive erforderlich | keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Mail.ReadWrite | Delegiert | TeamMate muss die E-Mails des Benutzers anzeigen und auf in Teams gespeicherte E-Mails antworten. | keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| People.Read | Delegiert | TeamMate muss nach E-Mails von Personen suchen und Personen vorschlagen, mit denen Sie häufig Kontakt aufnehmen. | keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| User.Read | Delegiert | ermöglicht Benutzern die Anmeldung bei TeamMate mit ihrem Konto und ermöglicht TeamMate, grundlegende Benutzerprofilinformationen anzuzeigen. | keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| User.ReadBasic.All | Delegiert | Von TeamMate erforderlich, um E-Mail-Adressen von Chatmitgliedern aufzulösen, in der Reihenfolge, in der die in OneDrive gespeicherten Freigabedateien mit ihnen gespeichert sind  | keine | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -102,7 +102,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone pivot="mcas"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 <iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36364' frameborder='no' style='width: 100%;'></iframe>
 
@@ -138,3 +138,4 @@ Diese Informationen wurden von harmon.ie darüber bereitgestellt, wie diese App 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

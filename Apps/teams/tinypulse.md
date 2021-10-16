@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für TINYvalue von TINYvalue
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TINYvalue, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5ea21e3a277c8b3388c8ae28256a671484d625f1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2d85dc6d521a910cd000e16b79caa92162db57be
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283622"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411420"
 ---
 # <a name="tinypulse"></a>TINYpulse
 
@@ -34,7 +34,7 @@ Informationen, die von TINYvalue an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | TINYpulse |
 | ID | WA104381729 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | TINYpulse |
 | URL der Partnerwebsite | [https://www.tinypulse.com](https://www.tinypulse.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
@@ -51,18 +51,18 @@ Informationen, die von TINYvalue an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von TINYvalue bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -130,3 +130,4 @@ Diese Informationen wurden von TINYvalue bereitgestellt, wie diese App die Authe
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

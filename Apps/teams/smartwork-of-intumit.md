@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für SmartWork von SmartWork von Intumit
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/23/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SmartWork, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9df1a52e4634956a1a48984faeea9e4b453c03a4
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: fab20b7cfe9fd8008f98a44e473102acd6efbadc
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279833"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410879"
 ---
 # <a name="smartwork"></a>SmartWork
 
@@ -34,7 +34,7 @@ Von SmartWork von Intumit für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SmartWork |
 | ID | WA200001149 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SmartWork of Intumit |
 | URL der Partnerwebsite | [https://www.intumit.com/english/](https://www.intumit.com/english/) |
 | URL der Datenschutzrichtlinie | [https://www.intumit.com/privacy.html](https://www.intumit.com/privacy.html) |
@@ -50,20 +50,20 @@ Von SmartWork von Intumit für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von SmartWork of Intumit darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | Verwenden von userPrincipalName zum Identifizieren, ob die E-Mails des Benutzers von gültigem AAD stammen oder nicht | Anmelden und Benutzerprofil lesen | [a938ae1e-a791-4751-9e6a-178c991fa0fa](https://docs.microsoft.com/microsoft-365-app-certification/azure/a938ae1e-a791-4751-9e6a-178c991fa0fa) |
+>| User.Read | Delegiert | Verwenden von userPrincipalName zum Identifizieren, ob die E-Mails des Benutzers von gültigen AAD stammen oder nicht | Anmelden und Benutzerprofil lesen | [a938ae1e-a791-4751-9e6a-178c991fa0fa](https://docs.microsoft.com/microsoft-365-app-certification/azure/a938ae1e-a791-4751-9e6a-178c991fa0fa) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -71,7 +71,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Verwenden, um die E-Mails des Benutzers zu identifizieren, ob sie von gültigem AAD stammen oder nicht | E-Mail-Adresse des Benutzers | Die E-Mail-Liste des gespeicherten Benutzers, um zu identifizieren, ob der Benutzer von gültigem AAD stammt oder nicht |
+>| Verwenden, um die E-Mails des Benutzers zu identifizieren, ob sie von gültigen AAD stammen oder nicht | E-Mail-Adresse des Benutzers | Die E-Mail-Liste des gespeicherten Benutzers, um zu identifizieren, ob der Benutzer aus gültigen AAD stammt oder nicht |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -84,7 +84,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Nur Sie haben ein gültiges AAD-Konto, das auf die Anwendung zugreifen kann.
+>Nur Sie verfügen über gültige AAD Konto kann auf die Anwendung zugreifen.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -125,7 +125,7 @@ Diese Informationen wurden von SmartWork of Intumit darüber bereitgestellt, wie
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | ,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
+| Was vermeiden Sie für Ihre App? | ,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
@@ -134,3 +134,4 @@ Diese Informationen wurden von SmartWork of Intumit darüber bereitgestellt, wie
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

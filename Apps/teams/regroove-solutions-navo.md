@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Navo von Regroove Solutions
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 01/20/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Navo, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e17eac9ef2db9418a38900d0de84ce62fad71097
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 554d59fbb03382ab517bb2f928823a33b2ec4ee0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59279896"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411530"
 ---
 # <a name="navo"></a>Navo
 
@@ -34,7 +34,7 @@ Informationen, die von Regroove Solutions für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Navo |
 | ID | WA200001047 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Regroove Solutions |
 | URL der Partnerwebsite | [https://regroove.ca ; https://getnavo.com](https://regroove.ca ; https://getnavo.com) |
 | URL der Datenschutzrichtlinie | [https://getnavo.com/privacy-policy/](https://getnavo.com/privacy-policy/) |
@@ -54,17 +54,17 @@ Diese Informationen wurden von Regroove Solutions dazu bereitgestellt, wie diese
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | Anwendung | Wir speichern die Benutzeranzahl und fragen sie einmal pro Abrechnungszyklus ab. Wir verwenden auch die Mandanten-ID als ID für die Organisation. | Ermöglicht uns zu zählen, wie viele Benutzer im Mandanten sind, die wir für Abrechnungszwecke verwenden. Außerdem können wir abfragen, in welchen Gruppen sich ein Benutzer befindet, damit wir die Sicherheitskürzung verwenden können, um bestimmte Daten zu schützen. Außerdem fragen wir die Mandanten-ID der Organisation ab. | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 >| User.Read | Delegiert | Keine Daten gespeichert | Anmelden und Benutzerprofil lesen | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Wir speichern die Mandanten-ID und die Benutzeranzahl in Stripe. |  | User.Read | Delegiert | Anmelden und Benutzerprofil lesen – keine Daten gespeichert |
 
@@ -79,7 +79,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Ja, in anwendung Insights speichern wir die benutzerauthentifizierungs-ID und die Benutzerkonto-ID (Mandanten-ID).
+>Ja, in Anwendung Insights speichern wir die authentifizierte Benutzer-ID und die Benutzerkonto-ID (Mandanten-ID).
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -108,4 +108,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für DIE VEREINSUNG von DEREN ANWENDUNG
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für XAML, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 58349e188a709d1f74a3a3b6426ca4b4a34c34d4
-ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
+ms.openlocfilehash: 547125dfa636a60f8a95153c5b75b060ee2f65f1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60233619"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60409448"
 ---
 # <a name="mural"></a>MURAL
 
@@ -21,7 +21,7 @@ ms.locfileid: "60233619"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 22, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381626" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Informationen, die von DER VONSENN für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | MURAL |
 | ID | WA104381626 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | MURAL |
 | URL der Partnerwebsite | [https://mural.co](https://mural.co) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://support.mural.co](https://support.mural.co) |
@@ -51,7 +51,7 @@ Informationen, die von DER VONSENN für Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von DER XAML bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -122,3 +122,4 @@ Diese Informationen wurden von AUTHORIZATION bereitgestellt, wie diese App die A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

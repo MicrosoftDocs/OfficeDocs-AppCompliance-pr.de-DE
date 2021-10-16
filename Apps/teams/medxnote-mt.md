@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Medxnote MT von Medxnote
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2020
+ms.date: 08/19/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Medxnote MT, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 35f038dcfc9a7ee49153c585741465f444a4e1a4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281216"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411590"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -34,7 +34,7 @@ Von Medxnote für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Medxnote MT |
 | ID | WA200001823 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Medxnote |
 | URL der Partnerwebsite | [https://medxnote.com/](https://medxnote.com/) |
 | URL der Datenschutzrichtlinie | [https://medxnote.com/privacy-policy/](https://medxnote.com/privacy-policy/) |
@@ -48,13 +48,13 @@ Von Medxnote für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Medxnote zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Medxnote bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read.All | Anwendung | wir zwischenspeichern Name und E-Mail, die auf Der Krankenhausseite verwendet werden, um die Rechte von Benutzern zu überprüfen | Wenn Nachrichten mehrmals gesendet werden, wenn Name und E-Mail-Adresse hinzugefügt werden, werden diese Daten serverseitig zwischengespeichert. Sie werden auch für die optionale Berechtigungsprüfung auf Der Krankenhausseite verwendet. | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
 >| openid | Delegiert | Wir werden Sitzungs-ID, Benutzer-ID, Bearertoken und E-Mail zwischenspeichern, die zum Anmelden von Benutzern im Aufgabenmodul verwendet werden. | wenn wir damit Benutzer im Aufgabenmodul anmelden, speichern wir Sitzungs-ID, Benutzer-ID, E-Mail, Bearertoken | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
@@ -78,7 +78,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
 >E-Mail-Adresse, Name, Mandanten-ID, Kanal-ID kann in Protokollen angezeigt werden. Alle Protokolldaten werden nach spätestens 1 Monat automatisch gelöscht.
-Der Zugriff darauf ist auf eine Handvoll Von Organisationsadministratoren beschränkt, die über 2FA-erzwungenen Zugriff verfügen.
+Der Zugriff darauf ist auf eine Handvoll Organisationsadministratoren beschränkt, die über 2FA-erzwungenen Zugriff verfügen.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -108,4 +108,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

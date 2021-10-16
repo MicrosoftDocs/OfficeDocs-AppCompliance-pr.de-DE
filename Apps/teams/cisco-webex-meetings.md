@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Cisco Webex-Besprechungen von Cisco Webex-Besprechungen
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 08/28/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Cisco Webex-Besprechungen, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Cisco Webex-Besprechungen, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b46674ef9171747267a6f2142fa2d83c8cb7687b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f26139e928a283f45b3ac76f054b64c480d09230
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281339"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410348"
 ---
 # <a name="cisco-webex-meetings"></a>Cisco Webex-Meetings
 
@@ -34,7 +34,7 @@ Informationen, die Von Cisco Webex-Besprechungen an Microsoft bereitgestellt wer
 |:----------------|:-------------|
 | App-Name | Cisco Webex-Meetings |
 | ID | WA104381435 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cisco Webex-Meetings |
 | URL der Partnerwebsite | [https://www.cisco.com](https://www.cisco.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://collaborationhelp.cisco.com/](https://collaborationhelp.cisco.com/) |
@@ -51,9 +51,9 @@ Informationen, die Von Cisco Webex-Besprechungen an Microsoft bereitgestellt wer
 
 Diese Informationen wurden von Cisco Webex-Besprechungen darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -101,4 +101,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

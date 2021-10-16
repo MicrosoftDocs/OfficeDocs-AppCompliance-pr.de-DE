@@ -14,9 +14,9 @@
     - name: Für Entwickler
       expanded: true
       items:
-        - name: Vollständige Publisher Überprüfung
+        - name: Abschließen Publisher Überprüfung
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
-        - name: Vollständiges Publisher Attestation
+        - name: Vollständige Publisher Nachweis
           href: docs/attestation.md
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
@@ -61,7 +61,7 @@
           href: excel/sheetgo-europe-sl.md
         - name: Wunder365 für Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: Eingereichte XBRL-Daten
+        - name: XBRL-Archivierte Daten
           href: excel/xbrl-us-filed-data.md
     - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
@@ -156,7 +156,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -174,11 +174,11 @@
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: Agile Task Board für SharePoint Online
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
-        - name: ArcGIS Maps
-          href: sharepoint/esri-inc-arcgis-maps.md
+        - name: ArcGIS for SharePoint
+          href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: FormMachines Connector für SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
-        - name: Gaggle for SharePoint
+        - name: Umschaltfläche für SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
         - name: HelloSign für SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -188,7 +188,7 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
-        - name: Blitzgeräte Gewittersenkte
+        - name: Gewittertools – Blitze
           href: sharepoint/lightning-tools-conductor.md
         - name: officeatwork | Vorlagenauswahl für SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
@@ -487,6 +487,8 @@
           href: teams/controlex-gmbh-grouplotse.md
         - name: Gtmhub
           href: teams/gtmhub.md
+        - name: GuideSpark Communicate Cloud
+          href: teams/guidespark-communicate-cloud.md
         - name: Guru
           href: teams/guru-technologies.md
         - name: Health Hero
@@ -1056,7 +1058,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md

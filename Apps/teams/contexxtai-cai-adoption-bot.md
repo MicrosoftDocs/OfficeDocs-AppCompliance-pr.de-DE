@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für C.AI Adoption Bot von contexxt.ai
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/06/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für C.AI Adoption Bot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für C.AI Adoption Bot, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5bb11c96f750701128470f3e1c61ea0f5d476233
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 655d6801d05e2f909cbe5d1ee9578092a43f6778
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281273"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410338"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -34,7 +34,7 @@ Informationen, die von contexxt.ai an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | C.AI Adoption Bot |
 | ID | WA200002633 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | contexxt.ai |
 | URL der Partnerwebsite | [https://contexxt.ai](https://contexxt.ai) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://contexxt.ai/cai-adoption-bot/](https://contexxt.ai/cai-adoption-bot/) |
@@ -51,16 +51,16 @@ Informationen, die von contexxt.ai an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von contexxt.ai darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | Anwendung | Die Verfügbarkeit des Benutzers kann Tipps zum richtigen Zeitpunkt und nicht zu Fokuszeiten senden, z. B. | Die Verfügbarkeit des anonymisierten Benutzers kann Tipps zum richtigen Zeitpunkt und nicht zu Fokuszeiten senden, z. B. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| ChannelMessage.Read.All | Anwendung | Microsoft Teams Kanalmetadaten, z. B. privat oder nicht, oder die Anzahl der Unterhaltungen pro Kanal, um die Nutzung von Teams | Anonymisierte Microsoft Teams Kanalmetadaten, z. B. privat oder nicht oder Die Anzahl der Unterhaltungen pro Kanal, um die Nutzung von Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| Chat.Read.All | Anwendung | Microsoft Teams Chatmetadaten, z. B. ob eine Nachricht gefällt oder wie viele Gruppen- und 1:1-Chats vorhanden sind, um die Nutzung von Teams | Anonymisierte Microsoft Teams Chatmetadaten, z. B. ob eine Nachricht gefällt oder wie viele Gruppen- und 1:1-Chats vorhanden sind, um die Nutzung von Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
->| Directory.Read.All | Anwendung | Benutzerobjekt-ID zum Senden von Tipps zum späteren Senden von Benutzerinformationen. | Hashed (anonymized) Object-ID of the user for being being able sending tips to specifi user later. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Directory.Read.All | Anwendung | Benutzerobjekt-ID für das Senden von Tipps zum späteren Senden des Benutzers. | Hashed (anonymized) Object-ID of the user for being being able sending tips to specifi user later. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| Group.Read.All | Anwendung | Microsoft Teams Metadaten, z. B. die Menge der Teams und Kanäle zur Analyse der Nutzung von Teams | Microsoft Teams Metadaten, z. B. die Menge der Teams und Kanäle zur Analyse der Nutzung von Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| Mail.Read | Anwendung | Microsoft Exchange Metadaten, z. B. E-Mails und Gruppen im Vergleich zu 1:1-E-Mails, um die Nutzung von Exchange zu analysieren (im Vergleich zu Teams) | Anonymisierte Microsoft Exchange Metadaten, z. B. E-Mails und Gruppen im Vergleich zu 1:1-E-Mails, um die Nutzung von Exchange zu analysieren (im Vergleich zu Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| User.Read.All | Anwendung | Microsoft Teams Chat- und Unterhaltungsmetadaten, z. B. wenn ein Benutzer erwähnt wurde, um die Nutzung von Teams | Anonymisierte Microsoft Teams Chat- und Unterhaltungsmetadaten, z. B. wenn ein Benutzer erwähnt wurde, um die Nutzung von Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
@@ -70,7 +70,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -124,7 +124,7 @@ Diese Informationen wurden von contexxt.ai darüber bereitgestellt, wie diese Ap
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -139,3 +139,4 @@ Diese Informationen wurden von contexxt.ai darüber bereitgestellt, wie diese Ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

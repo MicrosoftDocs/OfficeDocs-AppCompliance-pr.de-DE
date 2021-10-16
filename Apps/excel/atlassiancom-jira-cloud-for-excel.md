@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Jira Cloud für Excel von Atlassian.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud für Excel, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 73212faa010d95233281a0cf7f120e9ee0fd1ffb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 8147e1c318502d2eefad376d6df263172a0577a2
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282593"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410749"
 ---
 # <a name="jira-cloud-for-excel"></a>Jira Cloud für Excel
 
@@ -49,9 +49,9 @@ Informationen, die von Atlassian.com an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Atlassian.com darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -82,15 +82,15 @@ Ihre Anforderung und Auswahlmöglichkeiten können in bestimmten Fällen eingesc
 
 Zugriff auf und Aktualisierung Ihrer Informationen: Unsere Dienste und zugehörige Dokumentation bieten Ihnen die Möglichkeit, auf bestimmte Informationen über Sie innerhalb des Diensts zuzugreifen und diese zu aktualisieren. Sie können beispielsweise über Ihr Konto auf Ihre Profilinformationen zugreifen und mithilfe von Stichwortsuchen im Dienst nach Inhalten suchen, die Informationen zu Ihnen enthalten. Sie können Ihre Profilinformationen in Ihren Profileinstellungen aktualisieren und Inhalte ändern, die Informationen über Sie enthalten, mithilfe der bearbeitungstools, die mit diesen Inhalten verknüpft sind.
 
-Deaktivieren Ihres Kontos: Wenn Sie unsere Dienste nicht mehr verwenden möchten, können Sie oder Ihr Administrator Ihr Dienstkonto möglicherweise deaktivieren. Wenn Sie Ihr eigenes Konto deaktivieren können, steht Ihnen diese Einstellung in den Kontoeinstellungen zur Verfügung. Wenden Sie sich andernfalls an Ihren Administrator. Wenn Sie Administrator sind und ein Konto nicht über Ihre Administratoreinstellungen deaktivieren können, wenden Sie sich an den Atlassian-Support. Bitte beachten Sie, dass durch das Deaktivieren Ihres Kontos Ihre Informationen nicht gelöscht werden. Ihre Informationen bleiben basierend auf Ihrer früheren Teilnahme an den Diensten für andere Dienstbenutzer sichtbar. Weitere Informationen zum Löschen Ihrer Informationen finden Sie unten.   
+Deaktivieren Ihres Kontos: Wenn Sie unsere Dienste nicht mehr verwenden möchten, können Sie oder Ihr Administrator Ihr Dienstkonto möglicherweise deaktivieren. Wenn Sie Ihr eigenes Konto deaktivieren können, steht Ihnen diese Einstellung in den Kontoeinstellungen zur Verfügung. Wenden Sie sich andernfalls an Ihren Administrator. Wenn Sie Administrator sind und ein Konto nicht über Ihre Administratoreinstellungen deaktivieren können, wenden Sie sich an den Atlassian-Support. Bitte beachten Sie, dass durch das Deaktivieren Ihres Kontos Ihre Informationen nicht gelöscht werden; Ihre Informationen bleiben basierend auf Ihrer früheren Teilnahme an den Diensten für andere Dienstbenutzer sichtbar. Weitere Informationen zum Löschen Ihrer Informationen finden Sie unten.   
 
 Löschen Sie Ihre Informationen: Unsere Dienste und zugehörige Dokumentation bieten Ihnen die Möglichkeit, bestimmte Informationen über Sie innerhalb des Diensts zu löschen. Sie können z. B. Inhalte entfernen, die Informationen über Sie enthalten, indem Sie die mit diesem Inhalt verknüpften Such- und Bearbeitungstools für Schlüsselwörter verwenden, und Sie können bestimmte Profilinformationen in Ihren Profileinstellungen entfernen. Bitte beachten Sie jedoch, dass wir möglicherweise bestimmte Informationen zu Aufzeichnungszwecken aufbewahren müssen, um Transaktionen abzuschließen oder um unseren gesetzlichen Verpflichtungen nachzukommen.   
 
 Fordern Sie an, dass wir Ihre Informationen nicht mehr verwenden: In einigen Fällen bitten Sie uns möglicherweise, den Zugriff auf Ihre Informationen zu beenden, sie zu speichern, zu verwenden und anderweitig zu verarbeiten, wenn Sie der Meinung sind, dass wir nicht über die entsprechenden Rechte verfügen. Wenn Sie beispielsweise der Meinung sind, dass ein Dienstkonto ohne Ihre Erlaubnis für Sie erstellt wurde oder Sie kein aktiver Benutzer mehr sind, können Sie anfordern, dass wir Ihr Konto wie in dieser Richtlinie angegeben löschen. Wenn Sie uns ihre Zustimmung zur Verwendung Ihrer Informationen für einen begrenzten Zweck gegeben haben, können Sie sich an uns wenden, um diese Zustimmung zu widerrufen. Dies hat jedoch keine Auswirkungen auf die Verarbeitung, die zu diesem Zeitpunkt bereits stattgefunden hat. Sie können die Nutzung Ihrer Informationen für Marketingzwecke auch ablehnen, indem Sie uns kontaktieren, wie unten angegeben. Wenn Sie solche Anforderungen stellen, benötigen wir möglicherweise Zeit, um Ihre Anforderung zu untersuchen und zu vereinfachen. Wenn eine Verzögerung oder Einigkeit darüber besteht, ob wir das Recht haben, Ihre Informationen weiterhin zu verwenden, schränken wir jede weitere Verwendung Ihrer Informationen ein, bis der Antrag erfüllt oder der Konflikt gelöst wird, vorausgesetzt, Ihr Administrator legt (sofern zutreffend) keine Beanstandungen vor. Wenn Sie Informationen darüber, dass Sie mit einer Drittanbieter-App geteilt werden, deaktivieren Sie die App, oder wenden Sie sich dazu an Ihren Administrator.
 
-Abmelden von Kommunikationen: Sie können den Empfang von Werbekommunikationen von uns deaktivieren, indem Sie den Link zum Kündigen des Abonnements in jeder E-Mail verwenden, Ihre E-Mail-Einstellungen in Ihrem Einstellungsmenü ihres Dienstkontos aktualisieren oder uns wie unten angegeben kontaktieren, um Ihre Kontaktinformationen aus unserer Werbe-E-Mail-Liste oder Registrierungsdatenbank zu entfernen.  Auch nachdem Sie den Empfang von Werbenachrichten von uns abgemeldet haben, erhalten Sie weiterhin Transaktionsnachrichten von uns in Bezug auf unsere Dienste. Sie können einige Benachrichtigungen in den Kontoeinstellungen deaktivieren. 
+Abmelden von Kommunikationen: Sie können den Empfang von Werbekommunikationen von uns deaktivieren, indem Sie den Link zum Kündigen des Abonnements in jeder E-Mail verwenden, Ihre E-Mail-Einstellungen innerhalb Ihres Einstellungsmenüs für Ihr Dienstkonto aktualisieren oder uns wie unten angegeben kontaktieren, um Ihre Kontaktinformationen aus unserer Werbe-E-Mail-Liste oder Registrierungsdatenbank zu entfernen.  Auch nachdem Sie den Empfang von Werbenachrichten von uns abgemeldet haben, erhalten Sie weiterhin Transaktionsnachrichten von uns in Bezug auf unsere Dienste. Sie können einige Benachrichtigungen in den Kontoeinstellungen deaktivieren. 
 
-Möglicherweise können Sie den Empfang personalisierter Werbung von anderen Unternehmen deaktivieren, die Mitglieder der Network Advertising-Initiative sind oder die Self-Regulatory Principles for Online Behavioral Advertising der Digital Advertising Alliance abonnieren. Weitere Informationen zu dieser Vorgehensweise und zum Verständnis Ihrer Optionen finden Sie unter: https://www.aboutads.info https://optout.networkadvertising.org/ und https://www.youronlinechoices.eu . 
+Möglicherweise können Sie den Empfang personalisierter Werbung von anderen Unternehmen deaktivieren, die Mitglieder der Network Advertising-Initiative sind oder die die Self-Regulatory Principles for Online Behavioral Advertising der Digital Advertising Alliance abonnieren. Weitere Informationen zu dieser Vorgehensweise und zum Verständnis Ihrer Optionen finden Sie unter: https://www.aboutads.info https://optout.networkadvertising.org/ und https://www.youronlinechoices.eu . 
 
 Deaktivieren von Cookie-Steuerelementen: Entsprechende browserbasierte Cookie-Steuerelemente werden in unserem &amp; Cookie-Tracking-Hinweis beschrieben.
 
@@ -114,4 +114,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für SIGNL4 von Derdack SIGNL4
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SIGNL4, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4cf1eae6ef533a1e744ca3c2968764fed0227d00
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7042695f0bfb257552e4e040a1b8d254016b612a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282116"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411079"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -34,7 +34,7 @@ Informationen, die von Derdack SIGNL4 für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | SIGNL4 |
 | ID | WA200001239 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Derdack SIGNL4 |
 | URL der Partnerwebsite | [https://www.derdack.com](https://www.derdack.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.signl4.com](https://www.signl4.com) |
@@ -51,18 +51,18 @@ Informationen, die von Derdack SIGNL4 für Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Derdack SIGNL4 zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle Nicht-Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Recurly, Twilio | Rekursiv, E-Mail-Adresse, E-Mail-Adresse ist erforderlich, um Abrechnungsbenachrichtigungen an den Kunden zu senden, wenn er die App verwendet. Twilio, Telefonnummern, Warnungsinhalte für das Senden von Warnungen über SMS-Textnachrichten | Azure-Verwaltungs-API, Azure Monitor-Warnungen werden gesammelt, Sammlung erfolgt, da das System Benachrichtigungen für diese Warnungen sendet |
 
@@ -78,13 +78,13 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
 >E-Mail-Adressinformationen sind in Protokollen enthalten. Außerdem können zusätzliche, von der Organisation übermittelte Warnungsinhaltsdaten in die Protokolle eingeschlossen werden. Um dies zu verhindern, kann die Organisation das Konto in der App beenden.
-Die Daten in den Protokollen sind für support- und problembehebungsbezogene Probleme erforderlich, die der Kunde mit der App hat.
+Die Daten in den Protokollen sind für support- und problembehandlungsbezogene Probleme erforderlich, die der Kunde mit der App hat.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Daten werden im Azure-Rechenzentrum in Europa gespeichert. Der Zugriff darauf ist für Administratoren möglich. 2FA mit AAD-Authentifizierung. Zugriffstasten für Speicherkonten werden auch zum Verwalten des Zugriffs verwendet.
+>Daten werden im Azure-Rechenzentrum in Europa gespeichert. Der Zugriff darauf ist für Administratoren möglich. 2FA mit AAD Authentifizierung. Zugriffstasten für Speicherkonten werden auch zum Verwalten des Zugriffs verwendet.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -134,3 +134,4 @@ Diese Informationen wurden von Derdack SIGNL4 bereitgestellt, wie diese App die 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

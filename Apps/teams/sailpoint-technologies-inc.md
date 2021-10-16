@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Sie von DerPoint Technologies, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/03/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für LyncPoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für XamlPoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a7ffb3278f93ccc2096c75901f1bd05c2ca27da9
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b99338b0bcc64e9a3e48c6365028441814195351
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283658"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410939"
 ---
 # <a name="sailpoint"></a>Sailpoint
 
@@ -34,7 +34,7 @@ Informationen, die Von DerPoint Technologies, Inc. an Microsoft bereitgestellt w
 |:----------------|:-------------|
 | App-Name | Sailpoint |
 | ID | WA200002761 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SailPoint Technologies, Inc. |
 | URL der Partnerwebsite | [https://sailpoint.com](https://sailpoint.com) |
 | URL der Datenschutzrichtlinie | [https://www.sailpoint.com/legal/privacy/](https://www.sailpoint.com/legal/privacy/) |
@@ -57,7 +57,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -119,3 +119,4 @@ Diese Informationen wurden von DerLesepoint Technologies, Inc. bereitgestellt, w
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

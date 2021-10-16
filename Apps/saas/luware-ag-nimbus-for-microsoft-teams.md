@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Luware Nimbus für Microsoft Teams von Luware AG
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Luware Nimbus für Microsoft Teams, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Luware Nimbus für Microsoft Teams, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ee4101bb8116bec2db6a095ef170368eb9dfff6b
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: d7139f3ca934da20e58bb9f838217796ca5644da
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60290377"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410489"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus für Microsoft Teams
 
@@ -50,26 +50,26 @@ Diese Informationen wurden von Luware AG darüber bereitgestellt, wie diese App 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | Delegiert | Telefonzentralenkonsole: Lesen des Kalenders des angemeldeten Benutzers anzeigen Kalender mit Terminen | Keine Änderungen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Calendars.Read.Shared | Delegiert | Telefonzentralenkonsole: Lesen von freigegebenen Kalendern zum Anzeigen von Kalendern mit Terminen | Keine Änderungen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read | Delegiert | Telefonzentralenkonsole: Suchen in den Exchange Kontakten des angemeldeten Benutzers | Keine Änderungen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read.Shared | Delegiert | Telefonzentralenkonsole: Suchen in den freigegebenen Exchange-Kontakten | Keine Änderungen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Calendars.Read | Delegiert | Telefonzentralenkonsole: Lesen des Kalenders des angemeldeten Benutzers anzeigen Kalender mit Terminen | Keine | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Calendars.Read.Shared | Delegiert | Telefonzentralenkonsole: Lesen von freigegebenen Kalendern zum Anzeigen von Kalendern mit Terminen | Keine | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Contacts.Read | Delegiert | Telefonzentralenkonsole: Suchen in den Exchange Kontakten des angemeldeten Benutzers | Keine | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Contacts.Read.Shared | Delegiert | Telefonzentralenkonsole: Suchen in den freigegebenen Exchange-Kontakten | Keine | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| GroupMember.Read.All | Anwendung | Abrufen von Teammitgliedern, Lesen von Sicherheitsgruppen | Wir speichern diese Informationen, da Callcenter-Agents über Gruppenmitgliedschaften verwaltet werden. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Presence.Read.All | Delegiert | Anzeigen der Anwesenheit in der Kontaktsuche auf der Telefonzentralen-Konsolenseite | Keine Änderungen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.Read | Delegiert | Abrufen von UserInformation (vom angemeldeten Benutzer) | Keine Änderungen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Presence.Read.All | Delegiert | Anzeigen der Anwesenheit in der Kontaktsuche auf der Telefonzentralen-Konsolenseite | Keine | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| User.Read | Delegiert | Abrufen von UserInformation (vom angemeldeten Benutzer) | Keine | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| User.Read.All | Beide | Nimbus-App – Rufen Sie CallerInformation ab. Bei einem internen Anruf an das Contact Center führen wir einen Reverse-Lookup dazu durch, wer es sein könnte, damit wir diese Informationen dem Agent anzeigen können. In der Attendant Console (mit delegierter Berechtigung) durchsuchen wir das gesamte interne Verzeichnis nach Übertragungszielen. | Für reporting REasons on who called the most, we store that data. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.ReadBasic.All | Delegiert | Eingeschränkte Benutzersuche | Keine Änderungen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| User.ReadBasic.All | Delegiert | Eingeschränkte Benutzersuche | Keine | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| Calls.AccessMedia.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Abonnieren Sie DTMF-Töne, in denen der Kunde tatsächlich seine Position in der IVR auswählen kann. | Alle DTMF-Informationen für ausgewählte Möglichkeiten durch den IVR aus Gründen der Berichterstellung | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
 >| Calls.Initiate.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Tätigen eines Anrufs an den Agent  | Alle KDS-Informationen aus Gründen der Berichterstellung | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
 >| Calls.InitiateGroupCall.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Tätigen eines Anrufs an den Agent  | Alle KDS-Informationen aus Gründen der Berichterstellung | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
 >| Calls.JoinGroupCall.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Nehmen Sie an einem eskalierten Anruf teil, um Ankündigungen wiederzugeben | Alle KDS-Informationen aus Gründen der Berichterstellung | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -99,17 +99,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -129,7 +118,7 @@ Diese Informationen wurden von Luware AG darüber bereitgestellt, wie diese App 
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Ja |
@@ -138,3 +127,4 @@ Diese Informationen wurden von Luware AG darüber bereitgestellt, wie diese App 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

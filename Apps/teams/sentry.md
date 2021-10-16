@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Sentry von Sentry
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/09/2020
+ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sentry, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fb959fbccb6b1ceddfaa6496cb155803fc9f9a28
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0dfca194e173992cec4cfc244a9c13638602aeb6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282056"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410929"
 ---
 # <a name="sentry"></a>Sentry
 
@@ -34,7 +34,7 @@ Von Sentry an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Sentry |
 | ID | WA200002106 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Sentry |
 | URL der Partnerwebsite | [https://sentry.io](https://sentry.io) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://docs.sentry.io/product/integrations/msteams/](https://docs.sentry.io/product/integrations/msteams/) |
@@ -66,7 +66,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >| Teams | Nein |  |  |  |  |
 >| conversations | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -126,3 +126,4 @@ Diese Informationen wurden von Sentry bereitgestellt, wie diese App die Authenti
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

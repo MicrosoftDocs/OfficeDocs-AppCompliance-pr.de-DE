@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Fusion Remote von Jujo Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/12/2020
+ms.date: 07/11/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Fusion Remote, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b920e0fa93512c7cc9429b02dcecd9c0e3fe27b6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 46bbea460fad8864ada8f7971b0fd64983f2eb3c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282089"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411620"
 ---
 # <a name="fusion-remote"></a>Fusion Remote
 
@@ -34,7 +34,7 @@ Von Jujo Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Fusion Remote |
 | ID | WA200001422 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Jujo Inc. |
 | URL der Partnerwebsite | [https://www.jujotech.com](https://www.jujotech.com) |
 | URL der Datenschutzrichtlinie | [https://www.jujothech.com/privacy-policy](https://www.jujothech.com/privacy-policy) |
@@ -54,7 +54,7 @@ Diese Informationen wurden von Jujo Inc. darüber bereitgestellt, wie diese App 
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.Read | Delegiert | Lesezugriff auf Benutzerdateien | Lesezugriff auf Benutzerdateien | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
 >| Files.Read.All | Delegiert | Alle Dateien lesen, auf die der Benutzer zugreifen kann | Alle Dateien lesen, auf die der Benutzer zugreifen kann | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
@@ -72,7 +72,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| openid | Delegiert | Benutzer anmelden | Benutzer anmelden | [238d0bd1-fa0a-4bb6-be82-97f7f9ee590e](https://docs.microsoft.com/microsoft-365-app-certification/azure/238d0bd1-fa0a-4bb6-be82-97f7f9ee590e) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -120,4 +120,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wunder365, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 71d163c9dc86fbd21fc9032abcc732168b8210eb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 81f30170d7aed41a9038a31512b62f4eea24b42d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282095"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410168"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -34,7 +34,7 @@ Informationen von JiJi Technologies Pvt Ltd an Microsoft:
 |:----------------|:-------------|
 | App-Name | Wunder365 |
 | ID | WA200000742 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | JiJi Technologies Pvt Ltd |
 | URL der Partnerwebsite | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.wunder365.com/wunder365-for-office](https://www.wunder365.com/wunder365-for-office) |
@@ -55,7 +55,7 @@ Diese Informationen wurden von JiJi Technologies Pvt Ltd darüber bereitgestellt
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Um Planner-Aufgaben abzurufen/zu aktualisieren, stellen Sie Aufgabenupdates im Teamkanal bereit | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 >| Mail.Send | Delegiert | Es werden keine Daten gespeichert. | Zulassen, dass die App E-Mail-Benachrichtigungen an Benutzer sendet | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
@@ -71,7 +71,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Die REST-API für SharePoint | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -95,7 +95,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Alle Webanwendungen und Storage Ressourcen befinden sich in einem Abonnement, das nicht mit unserem Unternehmens-AAD verbunden ist, mit nur Administratoren, die Zugriff auf die Ressourcen haben. 2FA ist für diese Administratoren erforderlich. 
+>Alle Webanwendungen und Storage Ressourcen befinden sich in einem Abonnement, das nicht mit unserem Unternehmen AAD mit nur Administratoren verbunden ist, die Zugriff auf die Ressourcen haben. 2FA ist für diese Administratoren erforderlich. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
@@ -129,10 +129,10 @@ Diese Informationen wurden von JiJi Technologies Pvt Ltd darüber bereitgestellt
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
-| Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung für Benutzer mit Administratorrollen, Mehrstufige Authentifizierung für Azure-Verwaltungsaufgaben, Blockieren von Anmeldungen für Benutzer, die versuchen, Legacyauthentifizierungsprotokolle zu verwenden, Anfordern vertrauenswürdiger Speicherorte für die Azure AD Multi-Factor Authentication-Registrierung, Blockieren oder Gewähren des Zugriffs von bestimmten Speicherorten, Blockieren riskanten Anmeldeverhaltens |
+| Auflisten der unterstützten Richtlinientypen | Anfordern der mehrstufigen Authentifizierung für Benutzer mit Administratorrollen, Anfordern der mehrstufigen Authentifizierung für Azure-Verwaltungsaufgaben, Blockieren von Anmeldungen für Benutzer, die versuchen, legacy-Authentifizierungsprotokolle zu verwenden, Anfordern vertrauenswürdiger Speicherorte für Azure AD Registrierung der mehrstufigen Authentifizierung, Blockieren oder Gewähren des Zugriffs von bestimmten Speicherorten, Blockieren riskanten Anmeldeverhaltens |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
 | Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
@@ -146,3 +146,4 @@ Diese Informationen wurden von JiJi Technologies Pvt Ltd darüber bereitgestellt
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

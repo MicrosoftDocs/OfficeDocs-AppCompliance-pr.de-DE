@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für myOKR von SOE Technologies
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/18/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für myOKR, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 94d5b0056961f509423819a04160e87bb4b5e3e0
-ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
+ms.openlocfilehash: c4a3e8872b8042f0114925c0e89de12b98ef5440
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60131754"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411470"
 ---
 # <a name="myokr"></a>myOKR
 
@@ -21,7 +21,7 @@ ms.locfileid: "60131754"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 18, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c0b70874-2c95-4be7-a0cb-0d893e25a2a3" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/c0b70874-2c95-4be7-a0cb-0d893e25a2a3" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003308" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +34,7 @@ Von SOE-Technologien für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | myOKR |
 | ID | WA200003308 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SOE-Technologien |
 | URL der Partnerwebsite | [https://www.myokr.co](https://www.myokr.co) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.myokr.co](https://www.myokr.co) |
@@ -55,7 +55,7 @@ Diese Informationen wurden von SOE Technologies dazu bereitgestellt, wie diese A
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Delegiert | Abrufen von Benutzerkalenderdetails zum Erstellen einer 1:1-Besprechung im Benutzerkalender, aktualisieren oder löschen, die von der myOKR-Plattform erstellt wurden, und anzeigen von freien Zeitfenstern | Wir speichern die erstellte Kalender-ID und die Teilnahme-URL in der Datenbank für die besprechungen, die auf der myOKR-Plattform erstellt wurden. | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
 >| User.Read | Delegiert | Wir verwenden die Azure-Objekt-ID des Benutzers, um benutzeranmeldung bei der myOKR-App mithilfe der Microsoft-Authentifizierung für die E-Mail vorzunehmen. | Benutzer-E-Mail und Azure Active-Objekt-ID | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
@@ -68,7 +68,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -76,7 +76,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Die Active Azure Directory-ID des Benutzers wird für die E-Mail des Benutzers gespeichert, um proaktive Nachrichten vom Bot zu senden. | E-Mail, Name, Manager-Informationen, Titel, Benutzer-Azure Active Directory-ID  | Diese Informationen werden in der myOKR-Anwendung verwendet, um ein Benutzerkonto zu erstellen, dem Vorgesetzten das Anzeigen der Berichtsdetails auf der Plattform zu ermöglichen, dem Administrator das Anzeigen von allgemeinen Analysen und Berichten basierend auf Abteilung, Standort und Vorgesetzter zu ermöglichen. |
+>| Die Active Azure Directory-ID des Benutzers wird für die E-Mail des Benutzers gespeichert, um proaktive Nachrichten vom Bot zu senden. | E-Mail, Name, Managerinformationen, Titel, Benutzer-Azure Active Directory-ID  | Diese Informationen werden in der myOKR-Anwendung verwendet, um ein Benutzerkonto zu erstellen, dem Vorgesetzten das Anzeigen der Berichtsdetails auf der Plattform zu ermöglichen, dem Administrator das Anzeigen von allgemeinen Analysen und Berichten basierend auf Abteilung, Standort und Vorgesetzter zu ermöglichen. |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -101,17 +101,6 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -122,7 +111,7 @@ Diese Informationen wurden von SOE-Technologien darüber bereitgestellt, wie die
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -130,7 +119,7 @@ Diese Informationen wurden von SOE-Technologien darüber bereitgestellt, wie die
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
@@ -138,3 +127,4 @@ Diese Informationen wurden von SOE-Technologien darüber bereitgestellt, wie die
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

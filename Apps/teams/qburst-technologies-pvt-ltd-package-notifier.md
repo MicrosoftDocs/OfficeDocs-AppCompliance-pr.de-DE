@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Paketbeschreiber von QBURST TECHNOLOGIES PVT LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/25/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Paketbeschrifter, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5ee07ef32944be2a98dc3f30902434771b8ccebb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 39219580d6d37172921349eda752a479b7a98f25
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281162"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411540"
 ---
 # <a name="package-notifier"></a>Package Notifier
 
@@ -34,7 +34,7 @@ Von QBURST TECHNOLOGIES PVT LTD für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Package Notifier |
 | ID | WA200002737 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | QBURST TECHNOLOGIES PVT LTD |
 | URL der Partnerwebsite | [https://www.qburst.in](https://www.qburst.in) |
 | URL der Datenschutzrichtlinie | [https://package-notifier.qburst.in/privacy-policy.html](https://package-notifier.qburst.in/privacy-policy.html) |
@@ -50,9 +50,9 @@ Von QBURST TECHNOLOGIES PVT LTD für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von QBURST TECHNOLOGIES PVT LTD darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -68,7 +68,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -120,7 +120,7 @@ Diese Informationen wurden von QBURST TECHNOLOGIES PVT LTD darüber bereitgestel
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | 499b84ac-1321-427f-aa17-267ca6975798/user_impersonation offline_access |
@@ -137,3 +137,4 @@ Diese Informationen wurden von QBURST TECHNOLOGIES PVT LTD darüber bereitgestel
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für Woobot von Woobot
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/14/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Woobot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a90381852e60e09402b766607413154b8da11704
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2fe1f97a0a0f11caf7817192f2f7ac81f06f0b37
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283610"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411380"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -34,7 +34,7 @@ Von Woobot für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Woobot |
 | ID | WA104381664 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Woobot |
 | URL der Partnerwebsite | [https://woobot.io](https://woobot.io) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://woobot.io/support](https://woobot.io/support) |
@@ -58,7 +58,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -70,7 +70,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Um Salesforce-Benutzer Teams Benutzern zuzuordnen, benötigen wir eine Liste der Teambenutzer-IDs. Außerdem speichern wir die Namen von Team und Kanälen, damit Benutzer Benachrichtigungen an diese Teams senden können. Außerdem speichern wir, welche Teambenutzer-IDs von der App aufgenommen wurden und welche nicht, sodass woobot diesen Benutzer persönlich willkommen heißt, wenn ein neuer Benutzer einem Team beitritt. Außerdem speichern wir die Namen von Team und Kanälen, damit Benutzer Benachrichtigungen an diese Teams senden können. |  Benutzer-ID, Team-ID und Teamname, Kanal-ID und Kanalname sowie welche Benutzer Mitglieder sind, Teams. |  |
+>| Um Salesforce-Benutzer Teams Benutzern zuzuordnen, benötigen wir eine Liste der Teambenutzer-IDs. Außerdem speichern wir die Namen von Team und Kanälen, damit Benutzer Benachrichtigungen an diese Teams senden können. Außerdem speichern wir, welche Teambenutzer-IDs von der App aufgenommen wurden und welche nicht, sodass woobot diesen Benutzer persönlich willkommen heißt, wenn ein neuer Benutzer einem Team beitritt. Außerdem speichern wir die Namen von Team und Kanälen, damit Benutzer Benachrichtigungen an diese Teams senden können. |  Benutzer-ID, Team-ID und Teamname, Kanal-ID und Kanalname und welche Benutzer Mitglieder sind, Teams. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -101,4 +101,5 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

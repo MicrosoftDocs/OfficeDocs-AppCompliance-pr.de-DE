@@ -2,18 +2,18 @@
 title: Anwendungsinformationen für BravoNow von SpadeMap Software Services
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für BravoNow, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1eb20f61739f5b6969c3f3889666adcce05d64a0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 742d23bb2fdc8b91f0636fb0bb1842cac2ee05fa
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59281792"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410859"
 ---
 # <a name="bravonow"></a>BravoNow
 
@@ -34,7 +34,7 @@ Informationen, die Von Spade Über Software Services für Microsoft bereitgestel
 |:----------------|:-------------|
 | App-Name | BravoNow |
 | ID | WA200000157 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SpadeWorx-Softwaredienste |
 | URL der Partnerwebsite | [https://www.spadeworx.com](https://www.spadeworx.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://bravo.pozitive.io](https://bravo.pozitive.io) |
@@ -51,13 +51,13 @@ Informationen, die Von Spade Über Software Services für Microsoft bereitgestel
 
 Diese Informationen wurden von SpadeLocker Software Services dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | Benutzer-E-Mail-Adresse. | NA | [272032ad-0c2e-4928-910e-5d52b19f70d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/272032ad-0c2e-4928-910e-5d52b19f70d5) |
+>| User.Read | Delegiert | Benutzer-E-Mail-Adresse. | – | [272032ad-0c2e-4928-910e-5d52b19f70d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/272032ad-0c2e-4928-910e-5d52b19f70d5) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -134,3 +134,4 @@ Diese Informationen wurden von SpadeLocker Software Services dazu bereitgestellt
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
