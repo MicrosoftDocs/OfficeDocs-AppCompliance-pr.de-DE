@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Impression-Signaturen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: eb11d81de704323129790a113ecf1f379c9cd595
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6c0070dadcba5334a905861e95ef3a658db4ec50
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60404742"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428692"
 ---
 # <a name="impression-signatures"></a>Impression-Signaturen
 
@@ -33,7 +33,7 @@ Informationen, die von Impression-Signaturen für Microsoft bereitgestellt werde
 |:----------------|:-------------|
 | App-Name | Impression-Signaturen |
 | ID | WA200003216 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | Impression-Signaturen |
 | URL der Partnerwebsite | [https://www.impression-signatures.com](https://www.impression-signatures.com) |
 | URL der Datenschutzrichtlinie | [https://www.iubenda.com/privacy-policy/8039352/full-legal](https://www.iubenda.com/privacy-policy/8039352/full-legal) |
@@ -47,9 +47,9 @@ Informationen, die von Impression-Signaturen für Microsoft bereitgestellt werde
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Impression-Signaturen dazu bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Impression-Signaturen bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -104,4 +104,3 @@ Diese Informationen wurden von Impression-Signaturen bereitgestellt, wie diese A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

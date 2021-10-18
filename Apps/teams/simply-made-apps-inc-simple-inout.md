@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für einfaches Ein-/Aus, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81bd50847286f0ec3286dead589a1dc1ddb3f188
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: fe408b862fcad88f26acb8bf721e26e7d07f59f3
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411510"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429773"
 ---
 # <a name="simple-inout"></a>Simple In/Out
 
@@ -118,4 +118,3 @@ Diese Informationen wurden von Simply Made Apps, Inc. darüber bereitgestellt, w
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

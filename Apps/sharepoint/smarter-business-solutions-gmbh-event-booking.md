@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Smarter Event Booking, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: abb3c1aefe5dbb1c16469b8a0f479a24fcf6bca4
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: eb79e6c2ca6438e3e3f55922ce4d8930d8d8a17e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412034"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429653"
 ---
 # <a name="smarter-event-booking"></a>Intelligentere Ereignisbuchung
 
@@ -100,4 +100,3 @@ Diese Informationen wurden von Smarter Business Solutions GmbH bereitgestellt, w
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

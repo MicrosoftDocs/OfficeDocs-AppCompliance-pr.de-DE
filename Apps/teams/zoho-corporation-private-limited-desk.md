@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoho Desk, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2882f70ce6c44de4b797ae15bee2bec446212a82
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8b934d980843f06ad78ca65ceb5782ce951fa41b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414340"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430273"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -53,7 +53,7 @@ Diese Informationen wurden von Zoho Corporation Private Limited zur Verfügung g
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -66,7 +66,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| Profil | Delegiert |  | Zeigen Sie das grundlegende Profil des Benutzers an. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -89,7 +89,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->1) Auf der Benutzeroberfläche gibt es eine Option zum Löschen der Entitäten, Administratoren und Agents innerhalb des Zoho Desks, die Löschoptionen haben, können dies ausführen. 2) Wir haben auch Optionen zum Exportieren, mit denen der Administrator exportieren und für ihren Zweck erreichen kann.  3) Wir führen die Überwachung im Back-End durch, auf Kundenanforderung können diese Informationen bereitgestellt werden.
+>1) Auf der Benutzeroberfläche gibt es eine Option zum Löschen der Entitäten, Administratoren und Agents innerhalb des Zoho Desks, die Löschoptionen haben, können dies ausführen. 2) Wir haben auch Optionen zum Exportieren, mit denen der Administrator exportieren und für seine Zwecke erreichen kann.  3) Wir führen die Überwachung im Back-End durch, wenn der Kunde diese Informationen anfordern kann.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -107,5 +107,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

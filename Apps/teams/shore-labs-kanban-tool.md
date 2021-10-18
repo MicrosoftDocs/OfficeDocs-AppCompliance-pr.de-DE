@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Tool "Centers", seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7422dcff9386dbb64599660eea58941d2a862b13
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f8ab41264bce6b78ce099a0b295e381e7102a4ca
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413397"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430163"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -51,7 +51,7 @@ Von Labs für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Labs zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -61,8 +61,8 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| Team.ReadBasic.All | Delegiert | Bezeichner und Namen der Teams, bei denen der Benutzer ein direktes Mitglied ist. Sie werden verwendet, um Benutzern automatisch die richtigen Gruppen im Tool "Werkzeug" zuzuweisen. | Teambezeichner und Namen, bei denen der angemeldete Benutzer ein direktes Mitglied ist, werden Gruppen im Tool "Gif" zugeordnet. Dies ermöglicht die gruppenbasierte Zugriffsverwaltung und Freigabe von Boards zwischen verschiedenen Teams in derselben Organisation. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| User.Read | Delegiert | Grundlegende Unternehmensinformationen von angemeldeten Benutzern. Es wird verwendet, um die Kontodetails für neue Konten aufzufüllen und Benutzer zu erkennen, die zu Ihrer Organisation gehören, um funktionen für einzelne Sign-On bereitzustellen. | Name und ein eindeutiger Microsoft-Bezeichner Ihrer Organisation. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 >| offline_access | Delegiert | Ermöglicht die Funktion "Anmelden mit Microsoft" und die Synchronisierung von Daten, auf die Sie der App Zugriff gewährt haben, nach der Anmeldung des Benutzers. | Behalten Sie den Zugriff auf die Daten bei, auf die Sie ihr Zugriff gewährt haben. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| openid | Delegiert | Öffnen Sie ID-Token, die es Benutzern ermöglichen, sich mit ihren Geschäfts-, Schul- oder Unikonten über die Schaltfläche "Bei Microsoft anmelden" bei der App anzumelden. | Ein unveränderlicher Bezeichner für ein Benutzerkonto im Microsoft-Identitätssystem. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| Profil | Delegiert | Benutzername zum automatischen Auffüllen im "Werkzeug" und Synchronisierung mit Änderungen in Microsoft Teams. | Der vollständige Name des Benutzers. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| openid | Delegiert | Öffnen Sie ID-Token, die es Benutzern ermöglichen, sich mit ihren Geschäfts-, Schul- oder Unikonten über die Schaltfläche "Bei Microsoft anmelden" bei der App anzumelden. | Ein unveränderlicher Bezeichner für ein Benutzerkonto im Microsoft Identity System. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| Profil | Delegiert | Benutzername zum automatischen Auffüllen im Tool "Werkzeuge" und Synchronisierung mit Änderungen in Microsoft Teams. | Der vollständige Name des Benutzers. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
@@ -112,7 +112,7 @@ Diese Informationen wurden von Labs zur Verfügung gestellt, wie diese App Authe
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -129,4 +129,3 @@ Diese Informationen wurden von Labs zur Verfügung gestellt, wie diese App Authe
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

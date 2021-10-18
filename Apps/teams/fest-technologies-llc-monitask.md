@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Monitask, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d0168be872f1b5c237dff650e58403c69602d141
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 1d97a2413b4025c999ef071e59afe79b4638e5db
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413817"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428288"
 ---
 # <a name="monitask"></a>Monitask
 
@@ -69,14 +69,14 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| EUII ist erforderlich, um eine Übereinstimmung zwischen Monitask-Benutzer und MS-Teams-Benutzer zu finden. | MS Teams-Benutzer-ID, MS Teams Bot-Unterhaltungs-ID, MS Teams AadObjectId | MS Teams Benutzer-ID erforderlich, um eine Übereinstimmung zwischen Monitask-Benutzer und MS Teams Benutzer im Kontext der Unterhaltung mit bot zu finden; Die Bot-Unterhaltungs-ID ist erforderlich, um an einen Benutzer "Täglicher Bericht" von Monitask zu senden. MS Teams AadObjectId ist erforderlich, um eine Übereinstimmung zwischen Monitask-Benutzer und MS-Teams-Benutzer im Kontext von "Tab" in MS Teams  |
+>| EUII ist erforderlich, um eine Übereinstimmung zwischen Monitask-Benutzer und MS-Teams-Benutzer zu finden. | MS Teams-Benutzer-ID, MS Teams Bot-Unterhaltungs-ID, MS Teams AadObjectId | MS Teams Benutzer-ID erforderlich, um eine Übereinstimmung zwischen Monitask-Benutzer und MS Teams-Benutzer im Kontext der Unterhaltung mit bot zu finden; Die Bot-Unterhaltungs-ID ist erforderlich, um an einen Benutzer "Täglicher Bericht" von Monitask zu senden. MS Teams AadObjectId ist erforderlich, um eine Übereinstimmung zwischen Monitask-Benutzer und MS Teams-Benutzer im Kontext von "Tab" in MS Teams  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->MS Teams Benutzer- und Unterhaltungsbezeichner werden in Protokollen gespeichert. Protokolle werden 90 Tage lang in Azure Application Insights gespeichert.
+>MS Teams Benutzer-ID und Unterhaltungs-ID werden in Protokollen gespeichert. Protokolle werden 90 Tage lang in Azure Application Insights gespeichert.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -108,4 +108,3 @@ Diese Informationen wurden von FEST Technologies, LLC zur Verfügung gestellt, w
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

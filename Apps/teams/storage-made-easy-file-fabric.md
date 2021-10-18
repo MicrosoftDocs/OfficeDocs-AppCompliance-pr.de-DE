@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für File Fabric von Storage erleichtert
+title: Application Information for File Fabric by Storage Made Easy
 ms.author: elmalova
 author: elenamalova
 ms.date: 08/19/2021
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für File Fabric, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 2e81f8d41c8efeca13c837abf30b449d70850788
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6176cbf56aa94dd460e5f3e60127e65339d05157
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60406264"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430747"
 ---
 # <a name="file-fabric"></a>File Fabric
 
@@ -53,12 +53,12 @@ Diese Informationen wurden von Storage erleichtert, wie diese App Organisationsd
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite | Anwendung | Dateidaten, die gelesen oder geschrieben werden, wenn der Benutzer bestimmte Dateien über die App herunterlädt, hochlädt oder bearbeitet. | Dateidaten werden nicht gespeichert. | [0752d800-857f-49bd-87eb-e60985516c67](https://docs.microsoft.com/microsoft-365-app-certification/azure/0752d800-857f-49bd-87eb-e60985516c67) |
->| Sites.ReadWrite.All | Anwendung | Metadaten, die für alle Benutzer&#8217;Dateien und Ordner gesammelt werden, die eine Verbundansicht über alle Dateidienste hinweg bereitstellen. | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. | [0752d800-857f-49bd-87eb-e60985516c67](https://docs.microsoft.com/microsoft-365-app-certification/azure/0752d800-857f-49bd-87eb-e60985516c67) |
+>| Sites.ReadWrite.All | Anwendung | Metadaten, die für alle Dateien und Ordner von Benutzern&#8217;gesammelt werden und eine Verbundansicht über alle Dateidienste hinweg bereitstellen. | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. | [0752d800-857f-49bd-87eb-e60985516c67](https://docs.microsoft.com/microsoft-365-app-certification/azure/0752d800-857f-49bd-87eb-e60985516c67) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
@@ -66,16 +66,16 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Azure Blob Storage | Ja | Objektmetadaten und -daten | Metadaten, die für alle Benutzer&#8217;Dateien und Ordner gesammelt werden, die eine Verbundansicht über alle Dateidienste hinweg bereitstellen. Objekte, die gelesen oder geschrieben werden, wenn der Benutzer angegebene Objekte über die App herunterlädt, hochlädt oder bearbeitet. | Objektmetadaten werden gespeichert | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. |
+>| Azure Blob Storage | Ja | Objektmetadaten und -daten | Metadaten, die für alle Dateien und Ordner von Benutzern&#8217;gesammelt werden und eine Verbundansicht über alle Dateidienste hinweg bereitstellen. Objekte, die gelesen oder geschrieben werden, wenn der Benutzer angegebene Objekte über die App herunterlädt, hochlädt oder bearbeitet. | Objektmetadaten werden gespeichert | Zwischengespeicherte Metadaten für schnelleres Browsen und Suchen. |
 >| Office für das Web | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Der Benutzer kann sich authentifizieren und eine Verbindung mit allen von ihnen gesteuerten Speicherdiensten herstellen. | Datei- und Objektmetadaten werden für das Durchsuchen und Suchen im Verbund zwischengespeichert. Daten werden übertragen, wenn bestimmte Dateien oder Objekte gelesen und aktualisiert werden. | Metadaten bieten eine Verbundansicht im Speicher. Die Datenübertragung ermöglicht den sicheren universellen Zugriff. |
+>| Der Benutzer kann sich authentifizieren und eine Verbindung mit allen speicherdiensten herstellen, die er kontrolliert. | Datei- und Objektmetadaten werden für das Durchsuchen und Suchen im Verbund zwischengespeichert. Daten werden übertragen, wenn bestimmte Dateien oder Objekte gelesen und aktualisiert werden. | Metadaten bieten eine Verbundansicht im Speicher. Die Datenübertragung ermöglicht den sicheren universellen Zugriff. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -116,7 +116,7 @@ Diese Informationen wurden von Storage erleichtert, wie diese App die Authentifi
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -124,7 +124,7 @@ Diese Informationen wurden von Storage erleichtert, wie diese App die Authentifi
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
@@ -133,4 +133,3 @@ Diese Informationen wurden von Storage erleichtert, wie diese App die Authentifi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

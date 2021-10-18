@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Xaml, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c517e652c97ba8a74cbadd9b6121084dd40c5394
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3e538fddf6ca799348ca010c7553a0dd1439fba1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414461"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429573"
 ---
 # <a name="senso"></a>Senso
 
@@ -73,7 +73,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Senso.cloud verwendet die folgenden Unterprozessoren für die Leistung seines Diensts: https://www.senso.cloud/privacy-policy/ Abschnitt 5. Offenlegung Ihrer personenbezogenen Daten. | Die Arten von Daten, die wir für Drittanbieterkonten und Drittanbieter freigeben, sind in Abschnitt 5 in der rechten Spalte der Tabelle https://www.senso.cloud/privacy-policy/) ( . | Die rechtmäßige Grundlage für die verarbeitung jeder basiert auf der Erfüllung eines Vertrags mit Ihnen oder erforderlich für unsere berechtigten Interessen (für die Ausführung unseres Geschäfts, Archivierungsdaten, Bereitstellung von Verwaltung und IT-Diensten, Netzwerksicherheit, um Betrug und Datenschutzverletzungen zu verhindern. Beispielsweise ist die Geschäftliche E-Mail-Adresse, die E-Mail-Adresse erforderlich, um die Benachrichtigungen über den Rechnungskontakt an den Kunden zu senden, oder wenn die Zahlung per Kreditkarte erfolgt, sind Informationen erforderlich, um beim Zugriff auf den Kundensupport Supporttickets zu erhalten. |
+>| Senso.cloud verwendet die folgenden Unterprozessoren für die Leistung des Diensts: https://www.senso.cloud/privacy-policy/ Abschnitt 5. Offenlegung Ihrer personenbezogenen Daten. | Die Arten von Daten, die wir für Drittanbieterkonten und Drittanbieter freigeben, sind in Abschnitt 5 in der rechten Spalte der Tabelle https://www.senso.cloud/privacy-policy/) ( . | Die rechtmäßige Grundlage für die verarbeitung jeder basiert auf der Erfüllung eines Vertrags mit Ihnen oder erforderlich für unsere berechtigten Interessen (für die Ausführung unseres Geschäfts, Archivierungsdaten, Bereitstellung von Verwaltung und IT-Diensten, Netzwerksicherheit, um Betrug und Datenschutzverletzungen zu verhindern. Beispielsweise ist die Geschäftliche E-Mail-Adresse, die E-Mail-Adresse erforderlich, um die Benachrichtigungen über den Rechnungskontakt an den Kunden zu senden, oder wenn die Zahlung per Kreditkarte erfolgt, sind Informationen erforderlich, um beim Zugriff auf den Kundensupport Supporttickets zu erhalten. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -81,7 +81,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Senso.cloud verwendet die folgenden Unterprozessoren für die Leistung seines Diensts: https://www.senso.cloud/privacy-policy/ Abschnitt 5. Offenlegung Ihrer personenbezogenen Daten. | Die Arten von Daten, die wir für Drittanbieterkonten und Drittanbieter freigeben, sind in Abschnitt 5 in der rechten Spalte der Tabelle https://www.senso.cloud/privacy-policy/) ( . | Die rechtmäßige Grundlage für die verarbeitung jeder basiert auf der Erfüllung eines Vertrags mit Ihnen oder erforderlich für unsere berechtigten Interessen (für die Ausführung unseres Geschäfts, Archivierungsdaten, Bereitstellung von Verwaltung und IT-Diensten, Netzwerksicherheit, um Betrug und Datenschutzverletzungen zu verhindern. Beispielsweise ist die Geschäftliche E-Mail-Adresse, die E-Mail-Adresse erforderlich, um die Benachrichtigungen über den Rechnungskontakt an den Kunden zu senden, oder wenn die Zahlung per Kreditkarte erfolgt, sind Informationen erforderlich, um beim Zugriff auf den Kundensupport Supporttickets zu erhalten. |
+>| Senso.cloud verwendet die folgenden Unterprozessoren für die Leistung des Diensts: https://www.senso.cloud/privacy-policy/ Abschnitt 5. Offenlegung Ihrer personenbezogenen Daten. | Die Arten von Daten, die wir für Drittanbieterkonten und Drittanbieter freigeben, sind in Abschnitt 5 in der rechten Spalte der Tabelle https://www.senso.cloud/privacy-policy/) ( . | Die rechtmäßige Grundlage für die verarbeitung jeder basiert auf der Erfüllung eines Vertrags mit Ihnen oder erforderlich für unsere berechtigten Interessen (für die Ausführung unseres Geschäfts, Archivierungsdaten, Bereitstellung von Verwaltung und IT-Diensten, Netzwerksicherheit, um Betrug und Datenschutzverletzungen zu verhindern. Beispielsweise ist die Geschäftliche E-Mail-Adresse, die E-Mail-Adresse erforderlich, um die Benachrichtigungen über den Rechnungskontakt an den Kunden zu senden, oder wenn die Zahlung per Kreditkarte erfolgt, sind Informationen erforderlich, um beim Zugriff auf den Kundensupport Supporttickets zu erhalten. |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -144,4 +144,3 @@ Diese Informationen wurden von Demo bereitgestellt, wie diese App die Authentifi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

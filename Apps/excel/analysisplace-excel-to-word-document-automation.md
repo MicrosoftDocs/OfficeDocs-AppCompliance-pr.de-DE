@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Excel-to-Word-Dokumentautomatisierung, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d8dee2b12160b94cc55d1be0b355b9e5212b595a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 31781dd4044cd216624efd41d74f27ad9e61c158
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412144"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430123"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel-zu-Word-Dokumentautomatisierung
 
@@ -33,7 +33,7 @@ Von AnalysisPlace für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Excel-zu-Word-Dokumentautomatisierung |
 | ID | WA104380955 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows, Word 2016 oder höher auf Dem Mac, Word 2016 oder höher auf Windows, PowerPoint 2016 oder höher auf Dem Mac, PowerPoint 2016 oder höher Windows, Excel im Web, Word im Web, PowerPoint im Web |
+| Office 365 unterstützten Clients | Excel 2016 oder höher auf Dem Mac, Excel 2016 oder höher auf Windows, Word 2016 oder höher auf Mac, Word 2016 oder höher auf Windows, PowerPoint 2016 oder höher auf Dem Mac, PowerPoint 2016 oder höher Windows, Excel im Web, Word im Web, PowerPoint im Web |
 | Name des Partnerunternehmens | AnalysisPlace |
 | URL der Partnerwebsite | [https://analysisplace.com](https://analysisplace.com) |
 | URL der Datenschutzrichtlinie | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
@@ -51,12 +51,12 @@ Diese Informationen wurden von AnalysisPlace bereitgestellt, wie diese App Organ
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -123,4 +123,3 @@ Diese Informationen wurden von AnalysisPlace bereitgestellt, wie diese App die A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

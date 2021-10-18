@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Chronoscope-Zeitverfolgung, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bbf812cc60f8c11658fec34eea297798eded20e4
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e275e7a41794b06cb7afc65d60e99ef9037f50a5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410358"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428832"
 ---
 # <a name="chronoscope-time-tracking"></a>Chronoscope Zeiterfassung
 
@@ -123,4 +123,3 @@ Diese Informationen wurden von Chrono Innovation dazu bereitgestellt, wie diese 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

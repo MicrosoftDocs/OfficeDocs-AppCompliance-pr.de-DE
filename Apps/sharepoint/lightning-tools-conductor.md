@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Blitz-Tools, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9541cab6ba5fcd7da59cfe43c89e2e3bf3fceab9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 9f597f25df7b000d3d98a2dfbc4fe3c34fef7842
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412044"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430525"
 ---
 # <a name="lightning-tools-lightning-conductor"></a>Blitzgeräte Gewittersenkte
 
@@ -49,23 +49,23 @@ Informationen, die von den Blitztools für Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von den Blitztools bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | Anwendung | So fragen Sie Kalenderinformationen ab und melden sie | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Contacts.Read | Anwendung | Es werden keine Daten gesammelt oder gespeichert. Die Daten werden verwendet, um den DisplayName der Kontakte des aktuellen Benutzers anzuzeigen. | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Directory.Read.All | Anwendung | Anzeigen von Benutzern im Gewitterstrom | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
->| Files.Read.All | Anwendung | Anzeigen OneDrive Dateien im Gewitterkneil | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
+>| Files.Read.All | Anwendung | Anzeigen OneDrive Dateien im Blitzeinschlag | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Mail.Read | Anwendung | Wenn die Abfrage in "Blitzeinstand" Nachrichten aus dem Postfach des aktuellen Benutzers anzeigt | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| People.Read.All | Anwendung | So zeigen Sie die Personenansicht in der Blitzausblendung an, wenn Benutzer als Mitglieder einer Website abgefragt werden. | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Presence.Read.All | Anwendung | So zeigen Sie die Anwesenheit von Benutzern auf der Personenkarte an | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Sites.Read.All | Anwendung | So führen Sie Websites in der Strukturansicht des Gewitterknaufschlags auf | Der Blitzeinschlag verwendet keine Datenbank oder speichert keine Daten. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -109,4 +109,3 @@ Diese Informationen wurden von den Blitztools bereitgestellt, wie diese App die 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

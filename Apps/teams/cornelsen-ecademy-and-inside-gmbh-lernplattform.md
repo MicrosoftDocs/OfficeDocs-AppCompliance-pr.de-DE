@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für eCademy Lernplattform, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6149d1358d4cf0531386724f40ae112e2d13b81e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a6108725baabc61e0033e0a3500b7ee80269785f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410318"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428632"
 ---
 # <a name="ecademy-lernplattform"></a>eCademy Lernplattform
 
@@ -51,7 +51,7 @@ Informationen, die von Derelsen eCademy inside GmbH für Microsoft bereitgestell
 
 Diese Informationen wurden von Denelsen eCademy inside GmbH zur Verfügung &amp; gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -64,7 +64,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Intercom, Segment, Google Cloud, MailJet, Mixpanel, Bytescomb, Sentry, Heroku | finden Sie in unserem Dokument zu Datensicherheit/Datenschutz. | Die Teams-App ist nur eine Registerkartenintegration, wir benötigen OII, um unsere Dienstorchestrierung auszuführen. |
+>| Intercom, Segment, Google Cloud, MailJet, Mixpanel, Bytescomb, Sentry, Heroku | finden Sie in unserem Dokument zu Datensicherheit/Datenschutz. | Die Teams App ist nur eine Registerkartenintegration, wir benötigen OII, um unsere Dienstorchestrierung auszuführen. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -100,7 +100,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Derelsen eCademy inside GmbH bereitgestellt, &amp; wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Denelsen eCademy inside GmbH darüber &amp; bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -109,4 +109,3 @@ Diese Informationen wurden von Derelsen eCademy inside GmbH bereitgestellt, &amp
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

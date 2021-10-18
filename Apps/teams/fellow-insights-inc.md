@@ -6,14 +6,14 @@ ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für "Fellow", seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für "Fellow", die Zugehörigen Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3dc9a5d3bcd6e5bbc356efab77ad15406e9fb772
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4fb839013c38dcf7b490e02810ad5726be0aabda
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414631"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428592"
 ---
 # <a name="fellow"></a>Fellow
 
@@ -48,9 +48,9 @@ Informationen, die von "Fellow Insights Inc" an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Kollegen Insights Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Kollegen Insights Inc. zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -68,7 +68,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| offline_access | Delegiert | Das Aktualisierungstoken des Benutzers, um den Zugriff auf Daten aufrechtzuerhalten, die über andere Bereiche gesammelt werden. | Das Aktualisierungstoken des Benutzers wird in der Datenbank gespeichert. Dies wird in Fellow verwendet, um Ereignisse im Hintergrund für die kalenderbasierte Notizenerfahrung sowie Benachrichtigungen für die Notizen bei geplanten Ereignissen zu synchronisieren. | [f6671df0-1909-428c-91f7-1c42df04d3e4](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6671df0-1909-428c-91f7-1c42df04d3e4) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -85,7 +85,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Mitmenschen speichern Informationen, die direkt vom Benutzer bereitgestellt werden, einschließlich personenbezogener Daten. Darüber hinaus speichert Er einige Informationen aus Drittanbietersystemen, z. B. OAuth-Daten, Kalenderdaten und PII, &amp; z. B. Namens-E-Mails. Wir bewahren alle Daten auf unbestimmte Zeit auf, solange dies für den Zweck, für den sie gesammelt wurden, erforderlich und gesetzlich zulässig ist. Wir löschen diese Informationen sicher zu einem früheren Zeitpunkt nach Eingang einer Anfrage von Benutzern. Protokolldaten werden 30 Tage lang aufbewahrt.
+>Mitmenschen speichern Informationen, die direkt vom Benutzer bereitgestellt werden, einschließlich personenbezogener Daten. Außerdem speichert Er einige Informationen aus Drittanbietersystemen, z. B. OAuth-Daten, Kalenderdaten und PII, &amp; z. B. Namens-E-Mails. Wir bewahren alle Daten auf unbestimmte Zeit auf, solange dies für den Zweck, für den sie gesammelt wurden, erforderlich und gesetzlich zulässig ist. Wir löschen diese Informationen sicher zu einem früheren Zeitpunkt nach Eingang einer Anfrage von Benutzern. Protokolldaten werden 30 Tage lang aufbewahrt.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -119,12 +119,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Kollegen Insights Inc. darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Kollegen Insights Inc. darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -140,4 +140,3 @@ Diese Informationen wurden von Kollegen Insights Inc. darüber bereitgestellt, w
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

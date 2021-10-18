@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Reach, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81e9414b73aef445a14aada037e4b233bbeb7aae
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 882e5bdff55a1217c39b8f97761a28eba92d0036
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414571"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430817"
 ---
 # <a name="reach"></a>Reach
 
@@ -61,7 +61,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| User.Read | Delegiert | User DisplayName, User Email Address, UPN. Erforderlich, damit sich Benutzer bei der App anmelden und grundlegende Informationen des angemeldeten Benutzers abrufen können, z. B. den Anzeigenamen. Die E-Mail-Adresse wird zum Senden von E-Mail-Benachrichtigungen verwendet.  | User DisplayName, User Email Address, UPN. Erforderlich, damit sich Benutzer bei der App anmelden und grundlegende Informationen des angemeldeten Benutzers abrufen können, z. B. den Anzeigenamen. Die E-Mail-Adresse wird zum Senden von E-Mail-Benachrichtigungen verwendet.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
 >| User.ReadBasic.All | Delegiert | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefon Number, User Business Telefon Number, User Office Location. Erforderlich, damit Benutzer in der App nach anderen Benutzern suchen (Phonebook) und die grundlegenden Profil- und Kontaktinformationen anderer Benutzer anzeigen können.  | Keine | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
 >| Directory.Read.All | Anwendung | Gruppenmitgliedschaft, AD-Gruppen im Verzeichnis. Die Gruppenmitgliedschaft von Benutzern wird in einem Cache gespeichert, um Aufrufe der Microsoft Graph-API zu minimieren. Erforderlich, damit Benutzer nach Active Directory-Gruppen suchen können. Darüber hinaus ist diese Berechtigung erforderlich, damit die Anwendung die AD-Gruppenmitgliedschaft von Benutzern in Webaufträgen des Back-Ends auflösen kann. | Gruppenmitgliedschaft von Benutzern. Die Gruppenmitgliedschaft von Benutzern wird in einem Cache gespeichert, um Aufrufe der Microsoft Graph-API zu minimieren. Erforderlich, damit Benutzer nach Active Directory-Gruppen suchen können. Darüber hinaus ist diese Berechtigung erforderlich, damit die Anwendung die AD-Gruppenmitgliedschaft von Benutzern in Webaufträgen des Back-Ends auflösen kann.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
->| User.Read.All | Anwendung | Die aus dem Benutzerprofil abgerufenen Daten hängen von der in der App angegebenen Konfiguration des Zielgruppenadressierungsfeatures ab. Erforderlich, damit die App Benutzerprofile ohne einen angemeldeten Benutzer lesen kann. Das Lesen von Profildaten ist für das Feature für die Informationsadressierung innerhalb der Anwendung erforderlich, damit die Informationen basierend auf einem bestimmten Profileigenschaftenwert für bestimmte Benutzer angezeigt werden.  | keine | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
+>| User.Read.All | Anwendung | Die aus dem Benutzerprofil abgerufenen Daten hängen von der in der App angegebenen Konfiguration des Zielgruppenadressierungsfeatures ab. Erforderlich, damit die App Benutzerprofile ohne einen angemeldeten Benutzer lesen kann. Das Lesen von Profildaten ist für das Feature für die Informationsadressierung innerhalb der Anwendung erforderlich, damit die Informationen basierend auf einem bestimmten Profileigenschaftenwert für bestimmte Benutzer angezeigt werden.  | Keine | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -122,7 +122,7 @@ Diese Informationen wurden von LiveTiles darüber bereitgestellt, wie diese App 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Nein |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung, Einschränken von Benutzerspeicherorten und IP-Bereichen |
@@ -140,4 +140,3 @@ Diese Informationen wurden von LiveTiles darüber bereitgestellt, wie diese App 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

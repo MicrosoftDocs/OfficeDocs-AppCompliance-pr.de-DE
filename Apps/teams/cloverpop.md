@@ -6,14 +6,14 @@ ms.date: 08/04/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tarverpop, die Datenverarbeitungsrichtlinien, Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tarverpop, die Zugehörigen Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 28d424f384d8b16ff70e7d00f366c3a0f89f64b5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 93b31587f920416def80740ed2ebf3a399e0879c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412515"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429192"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -50,9 +50,9 @@ Von ApplePop für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Tarverpop bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -61,7 +61,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| Profil | Delegiert | Store Benutzerdaten gefällt. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Wenn Benutzer Entscheidungen erstellen und mit diesen interagieren, verknüpfen wir diese Daten mit dem Benutzer, dem Team und der Organisation, die sie erstellt haben. Wir müssen diesen Besitz auch in einer benutzerfreundlichen UX anzeigen. Daher werden Anzeigeinformationen gespeichert, z. B. der Benutzer&#8217;Avatar. | Zum Implementieren &#8220;Melden Sie sich mit Teams&#8221; in unserer Web-App an. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -92,7 +92,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
  
 Für den gesamten Code wurden automatisierte Tests geschrieben, die die Sicherheit des Datenzugriffs abdeckt. Jeder Build durchläuft einen strengen Codeüberprüfungsprozess für Die Sicherheit und einen manuellen QA-Testprozess, der auch Überprüfungen der Benutzerauthentifizierung und des Datenzugriffs über verfügbare Benutzeraktionen umfasst. Es besteht eine klare Trennung zwischen unserer Produktionsumgebung und allen anderen Umgebungen, z. B. Entwicklung und Tests.
  
-Nur ausgewählte Mitarbeiter haben Zugriff auf die Produktionsumgebung und Datenbank: Unternehmensmitarbeiter und eine kleine Handvoll überprüfter Mitarbeiter, die Hintergrundüberprüfungen unterzogen wurden und eine quantifizierte Notwendigkeit haben (z. B. Kundensupport).
+Nur ausgewählte Mitarbeiter haben Zugriff auf die Produktionsumgebung und Datenbank: Unternehmensmitarbeiter und eine kleine Handvoll von überprüften Mitarbeitern, die Hintergrundprüfungen unterzogen wurden und eine quantifizierte Notwendigkeit haben (z. B. Kundensupport).
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -115,5 +115,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

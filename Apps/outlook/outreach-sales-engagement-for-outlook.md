@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Die Vertriebsbindung für Outlook, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 483fb4fd6741e479403e4cd05ad284b50a87f9c4
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d3b2a00ddb4023a54e78825c2382c1dbdad6f28a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413557"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430725"
 ---
 # <a name="outreach-sales-engagement-for-outlook"></a>Sales Engagement für Outlook
 
@@ -49,7 +49,7 @@ Informationen, die von Der Vermittlung an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Der Vermittlung darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -69,7 +69,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Salesforce CRM | Die Integration von Kontakten in Salesforce ermöglicht eine sichere bidirektionale Synchronisierung eines begrenzten Datasets zwischen beiden Diensten. Organisationsname, E-Mail-Adresse und Benutzername. | Die intelligente bidirektionale Synchronisierung des Unternehmens gewährleistet die vollständige Genauigkeit zwischen Daten in beiden Systemen. Alle Aktivitäten, die in Der Vermittlung &#8212; Anrufen, E-Mails usw. ausgeführt werden, &#8212; werden automatisch in Salesforce protokolliert, und die Konfliktlösung erkennt und löst Konflikte, um Daten unerklärbar zu halten. Es funktioniert in Salesforce A csva- und Lightning-Editionen. |
+>| Salesforce CRM | Die Integration von Kontakten in Salesforce ermöglicht eine sichere bidirektionale Synchronisierung eines begrenzten Datasets zwischen beiden Diensten. Organisationsname, E-Mail-Adresse und Benutzername. | Die intelligente bidirektionale Synchronisierung des Unternehmens gewährleistet die vollständige Genauigkeit zwischen Daten in beiden Systemen. Alle Aktivitäten, die in Der Vermittlung &#8212; Anrufen, E-Mails usw. ausgeführt werden &#8212; werden automatisch in Salesforce protokolliert, und die Konfliktlösung erkennt und löst Konflikte, um Daten unauffindbar zu halten. Es funktioniert in Salesforce A csva- und Lightning-Editionen. |
 
 
 
@@ -109,4 +109,3 @@ Diese Informationen wurden von Der Vermittlung darüber bereitgestellt, wie dies
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

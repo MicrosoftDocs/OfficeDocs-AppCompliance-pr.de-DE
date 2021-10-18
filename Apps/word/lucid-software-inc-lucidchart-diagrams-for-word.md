@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidchart Diagrams for Word, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1e5c76df854304b05af209288315c762c8300ca7
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: df9a4b46213f5bf7cecba6de5e539674dadec369
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414300"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428438"
 ---
 # <a name="lucidchart-diagrams-for-word"></a>Lucidchart-Diagramme für Word
 
@@ -51,7 +51,7 @@ Diese Informationen wurden von Lucid Software Inc. bereitgestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -65,9 +65,9 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| JavaScript-API für Office | Ja | Wir verwenden das Office OneDrive Javascript SDK von, um die OneDrive Dateiauswahl mit OneDrive.open() zu öffnen. Wir generieren keine Zugriffstoken und stellen keine Anforderungen an die APIs von OneDrive; das OneDrive Dateiauswahl-SDK erledigt dies für uns. Es werden nur die Dateinamen angezeigt, die der Benutzer auswählt. |  | Wenn der Benutzer eine Datei mithilfe der OneDrive Dateiauswahl auswählt, wird der Dateiname gespeichert. |  |
+>| JavaScript-API für Office | Ja | Wir verwenden das Office OneDrive Javascript SDK von, um die OneDrive Dateiauswahl mit OneDrive.open() zu öffnen. Wir generieren keine Zugriffstoken und stellen keine Anforderungen an die APIs OneDrive; das OneDrive Dateiauswahl-SDK erledigt dies für uns. Es werden nur die Dateinamen angezeigt, die der Benutzer auswählt. |  | Wenn der Benutzer eine Datei mithilfe der OneDrive Dateiauswahl auswählt, wird der Dateiname gespeichert. |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -81,7 +81,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->E-Mail- und IP-Adressen werden aus Sicherheits- und Supportgründen protokolliert. Der gesamte Zugriff auf Protokolle ist &amp; aufgezeichnete Protokolle, die in einem Drittanbietersystem nicht geändert werden können. Der Zugriff auf Protokolle erfordert MFA.
+>Wir protokollieren E-Mail- und IP-Adressen aus Sicherheits- und Supportgründen. Der gesamte Zugriff auf Protokolle erfolgt über aufgezeichnete &amp; Protokolle, die in einem Drittanbietersystem nicht geändert werden können. Der Zugriff auf Protokolle erfordert MFA.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -110,5 +110,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

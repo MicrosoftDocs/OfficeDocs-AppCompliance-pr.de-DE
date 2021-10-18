@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Nugget, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: de483c47b529b889a6e3cc0b6ff51de8546c2f93
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 7c32714b99ec38c2328c1443fb8747ac8b516a3e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413607"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429693"
 ---
 # <a name="nugget"></a>Nugget
 
@@ -50,14 +50,14 @@ Von Panviva für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Panviva darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -82,7 +82,7 @@ Teams Organisations-ID: Diese wird gespeichert, damit wir die Benutzer in einem 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Wir verwenden Azure CosmosDB, um alle Anwendungsdaten zu speichern. Um auf die Daten zuzugreifen, benötigen Sie einen Endpunkt und einen Schlüssel, die beide in den Konfigurationsdienst eingefügt werden, der für den Zugriff auf die Daten verwendet wird. Der Konfigurationsdienst verarbeitet Anforderungen nur mit einem Bearertoken, das er in der Anforderung von unserem Bot-App-Dienst empfängt. Dieses Token wurde ursprünglich von Okta erstellt, wenn sich ein Benutzer auf der Team-Benutzeroberfläche beim Bot anmeldet. Auf diese Daten können Panviva-Administratoren zugreifen, die sich mit der 2-Faktor-Authentifizierung bei der Microsoft Azure Plattform anmelden müssen. E-Mails und Vornamen des Benutzers werden in OKTA gespeichert und können nur mit einem privaten Schlüssel aufgerufen werden, der in einem Schlüsseltresor gespeichert ist, auf den der Konfigurationsdienst dann zugreifen kann. Nur der Konfigurationsdienst hat Zugriff auf den Schlüsseltresor über die Verwendung von verwalteten Identitäten, damit keine Anmeldeinformationen in der App gespeichert werden.
+>Wir verwenden Azure CosmosDB, um alle Anwendungsdaten zu speichern. Für den Zugriff auf die Daten benötigen Sie einen Endpunkt und einen Schlüssel, die beide in den Konfigurationsdienst eingefügt werden, der für den Zugriff auf die Daten verwendet wird. Der Konfigurationsdienst verarbeitet Anforderungen nur mit einem Bearertoken, das er in der Anforderung von unserem Bot-App-Dienst empfängt. Dieses Token wurde ursprünglich von Okta erstellt, wenn sich ein Benutzer auf der Team-Benutzeroberfläche beim Bot anmeldet. Auf diese Daten können Panviva-Administratoren zugreifen, die sich mit der 2-Faktor-Authentifizierung bei der Microsoft Azure Plattform anmelden müssen. E-Mails und Vornamen des Benutzers werden in OKTA gespeichert und können nur mit einem privaten Schlüssel aufgerufen werden, der in einem Schlüsseltresor gespeichert ist, auf den der Konfigurationsdienst dann zugreifen kann. Nur der Konfigurationsdienst hat Zugriff auf den Schlüsseltresor über die Verwendung von verwalteten Identitäten, um keine Anmeldeinformationen in der App zu speichern.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -105,5 +105,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

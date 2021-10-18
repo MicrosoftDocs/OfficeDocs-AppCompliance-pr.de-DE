@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sensei Labs, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b2ff7116020569a5a03ccd86cc30b580ded30c58
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 19adf0976c42008fd29bbdefb14831815edcd262
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408394"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430033"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -58,11 +58,11 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Auflisten aller anderen Microsoft-APIs als Microsoft Graph diese App verwendet wird.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Bot-Framework | Ja | Teams Instanz-ID | um Teams Instanz einer Instanz unserer Anwendung zuzuordnen, die der Organisation zugeordnet ist  | Teams Instanz-ID | um Teams Instanz einer Instanz unserer Anwendung zuzuordnen, die der Organisation zugeordnet ist  |
+>| Bot-Framework | Ja | Teams Instanz-ID | um Teams Instanz der Instanz unserer Anwendung zuzuordnen, die der Organisation zugeordnet ist  | Teams Instanz-ID | um Teams Instanz der Instanz unserer Anwendung zuzuordnen, die der Organisation zugeordnet ist  |
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
@@ -76,14 +76,14 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| um die Person während Bot-Unterhaltungen ordnungsgemäß zu adressiert. Um den Benutzer in Teams dem Benutzer in unserer Anwendung zuzuordnen | Teams Bezeichner, Name, E-Mail-Adresse | um Teams Benutzer auf unserer Plattform dem Benutzer zuzuordnen |
+>| um die Person während Bot-Unterhaltungen ordnungsgemäß zu adressiert. Um den Benutzer in Teams dem Benutzer in unserer Anwendung zuzuordnen | Teams Bezeichner, Name, E-Mail-Adresse | zum Zuordnen Teams Benutzers zu Benutzern auf unserer Plattform |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Teams Teammitgliedschaft. Zuordnung zwischen der Teams Instanz des Kunden und deren Instanz "Zu" Daten, die aufbewahrt werden, solange sie ein Kunde des Kunden sind. Entfernen, wenn die Instanz "Leiter" des Kunden außer Betrieb genommen wird, oder auf Anforderung
+>Teams Teammitgliedschaft. Zuordnung zwischen Teams Instanz des Kunden und deren Instanz 1. Daten, die aufbewahrt werden, solange sie ein Kunde des Kunden sind. Entfernen, wenn die Instanz "Leiter" des Kunden außer Betrieb genommen wird, oder auf Anforderung
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
@@ -122,7 +122,7 @@ Diese Informationen wurden von Sensei Labs Inc. darüber bereitgestellt, wie die
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Nein |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -130,7 +130,7 @@ Diese Informationen wurden von Sensei Labs Inc. darüber bereitgestellt, wie die
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
@@ -139,4 +139,3 @@ Diese Informationen wurden von Sensei Labs Inc. darüber bereitgestellt, wie die
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
