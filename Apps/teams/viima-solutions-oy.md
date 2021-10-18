@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Viima, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5b9233ff1a9a5cb8613ac7a9c6c2e1e00e71e860
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4e75995c34daf7c50c9c0ec0e6843c776c55ab1c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414882"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434534"
 ---
 # <a name="viima"></a>Viima
 
@@ -53,14 +53,14 @@ Diese Informationen wurden von Viima Solutions Oy darüber bereitgestellt, wie d
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | Delegiert |  Vor- und Nachnamen, UPN/E-Mail-Adresse, Standort, Gebietsschema, Abteilung, Bürostandort. Diese werden verwendet, um den Benutzer anzumelden und grundlegende Profilinformationen für sie in der App bereitzustellen. | ermöglicht dem Benutzer die Anmeldung und gewährt der App Zugriff auf den UPN und grundlegende Profilinformationen, um die automatische Anmeldung zu ermöglichen. | [b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -83,7 +83,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Daten werden in AWS (Irland) gespeichert. Der Zugriff auf Daten ist auf autorisierte Wartungs- und technische Supportmitarbeiter beschränkt, die entsprechende Schulungen erhalten haben und mit einer Reihe von Sicherheitsmaßnahmen wie 2FA, geschützter IP-Bereich (Nur Zugriff über das Unternehmensnetzwerk) usw. geschützt sind. Die Maßnahmen sind ISO27001-kompatibel und werden von einem Drittanbieter überwacht.
+>Daten werden in AWS (Irland) gespeichert. Der Zugriff auf Daten ist auf autorisierte Wartungs- und technische Supportmitarbeiter beschränkt, die eine entsprechende Schulung erhalten haben und mit einer Reihe von Sicherheitsmaßnahmen wie 2FA, geschützter IP-Bereich (Nur Zugriff über das Unternehmensnetzwerk) usw. geschützt sind. Die Maßnahmen sind ISO27001-kompatibel und werden von einem Drittanbieter überwacht.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -124,7 +124,7 @@ Diese Informationen wurden von Viima Solutions Oy darüber bereitgestellt, wie d
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
@@ -133,4 +133,3 @@ Diese Informationen wurden von Viima Solutions Oy darüber bereitgestellt, wie d
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

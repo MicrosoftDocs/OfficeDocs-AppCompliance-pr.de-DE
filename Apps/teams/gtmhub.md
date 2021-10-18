@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Gtmhub, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 85b35713d3e6f558920e49e759be31516bc72442
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b33a6e3edf18ba4a1bd24acb5ec690f84188ca1c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410218"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60438929"
 ---
 # <a name="gtmhub"></a>Gtmhub
 
@@ -53,12 +53,12 @@ Diese Informationen wurden von Gtmhub zur Verfügung gestellt, wie diese App Org
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -107,4 +107,3 @@ Diese Informationen wurden von Gtmhub bereitgestellt, wie diese App Authentifizi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

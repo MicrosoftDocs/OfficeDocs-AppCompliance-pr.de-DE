@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430927"
+ms.locfileid: "60445122"
 ---
 # <a name="termef"></a>TerMef
 
@@ -33,7 +33,7 @@ Von Mondeca für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | TerMef |
 | ID | WA200003128 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | Mondeca |
 | URL der Partnerwebsite | [https://mondeca.com](https://mondeca.com) |
 | URL der Datenschutzrichtlinie | [https://mondeca.com/wp-content/uploads/2020/09/Privacy-and-...](https://mondeca.com/wp-content/uploads/2020/09/Privacy-and-data-protection-policy.pdf) |
@@ -49,7 +49,7 @@ Von Mondeca für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Mondeca darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 

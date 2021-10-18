@@ -8,18 +8,18 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für IndustryIntel, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 979179baaac538e4535c99a7d0504c8df120f3f2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 0f28fd77efbae29b6cd0bf1e4390bd62dd1e9362
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412955"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445047"
 ---
 # <a name="industryintel"></a>IndustryIntel
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 3, 2020</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 3. November 2020</p>
 
 * <a href="https://teams.microsoft.com/l/app/beb2be89-a403-46fe-9a67-c1294c9f9740" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001907" target="_blank">Ansicht in AppSource</a>
@@ -48,16 +48,16 @@ Informationen, die vom Industry Intelligence-Team für Microsoft bereitgestellt 
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden vom Industry Intelligence-Team darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden vom Industry Intelligence-Team bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -69,21 +69,21 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| So überprüfen Sie den Benutzer, ob der Benutzer Zugriff auf das Industry Intelligence-Netzwerk hat. Wenn der Benutzer die Überprüfung erfolgreich durchgeführt hat, kann der Benutzer die vollständige Funktion der Bot- und Messaging-Erweiterung verwenden. | Wir haben nur die Teammitglied-ID gespeichert, die für die Zuordnung der ID mit Industry Intelligence/interner Benutzer-ID vorgesehen ist. |  |
+>| So überprüfen Sie den Benutzer, ob der Benutzer Zugriff auf das Industry Intelligence-Netzwerk hat. Wenn der Benutzer die Überprüfung erfolgreich durchgeführt hat, kann der Benutzer die vollständige Funktion der Bot- und Messaging-Erweiterung verwenden. | Wir haben nur die Teammitglied-ID gespeichert, die zum Zuordnen der ID mit Industry Intelligence/interner Benutzer-ID dient. |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->Nein. Die Zuordnung des MS-Teams-Benutzers und des SO-Teams-Benutzers erfolgt im SO-Teams Produkt. MS Teams sendet uns seine identifizierbaren IDs, und wir speichern diese intern, um den Benutzer zuzuordnen. Darüber hinaus sendet MS Teams uns ein JWT für Bot-Anforderungen (verhindert Dies ist die Anforderungszweitergabe) und Tab-Anforderungen überprüfen mithilfe des SO-Cookies.
+>Nein. Die Zuordnung des MS-Teams-Benutzers und des SO-Teams-Benutzers erfolgt im SO-Teams Produkt. MS Teams sendet uns seine identifizierbaren IDs, und wir speichern diese intern, um den Benutzer zuzuordnen. Darüber hinaus sendet ms Teams uns ein JWT für Bot-Anforderungen (verhindert die Anforderungsgundanz) und Tab-Anforderungen überprüfen mithilfe des SO-Cookies.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Der Datenzugriff wird durch das IP-Bereichssystem geschützt und sicher authentifiziert. Die Daten werden logisch in ihr eigenes SQL schema unterteilt und in einer separaten Datenbankgruppe gespeichert. Ihre Daten werden in einem logisch separaten Datenspeicher gespeichert, auf den nur durch Anfragen für Ihr Team zugegriffen werden kann.
+>Der Datenzugriff wird durch das IP-Bereichssystem geschützt und sicher authentifiziert. Die Daten werden logisch in ihr eigenes SQL schema unterteilt und in einem separaten Datenbanksatz gespeichert. Ihre Daten werden in einem logisch separaten Datenspeicher gespeichert, auf den nur durch Anfragen für Ihr Team zugegriffen werden kann.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -106,5 +106,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

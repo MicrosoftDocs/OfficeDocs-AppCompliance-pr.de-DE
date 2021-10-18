@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Beesy, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2d6c04408ab08da89a858987981beb3fafc30229
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b4fca2218dfc87e1e268fa9d95a6e7c7e7d8349b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411854"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434454"
 ---
 # <a name="beesy"></a>Beesy
 
@@ -107,5 +107,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

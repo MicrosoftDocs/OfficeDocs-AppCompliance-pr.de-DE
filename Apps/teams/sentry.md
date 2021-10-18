@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430967"
+ms.locfileid: "60445027"
 ---
 # <a name="sentry"></a>Sentry
 

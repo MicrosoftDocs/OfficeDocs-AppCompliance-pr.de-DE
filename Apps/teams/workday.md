@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workday, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 38b56caaf5bc20986cec75615725e601a6f12562
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b6839d8bb13fd019639c7b3c98077e2e26c5cb91
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414841"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60437333"
 ---
 # <a name="workday"></a>Workday
 
@@ -53,15 +53,15 @@ Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Or
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Abrufen der App-ID, Installieren der App für Benutzer, Abrufen Teams Lizenzdetails aus AAD | Wir speichern keine Daten im Zusammenhang mit diesem Feature.  Damit können wir die App für den Benutzer installieren. | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
->| User.Read.All | Anwendung | Rufen Sie Benutzer A AUS, um Benutzernachrichten zu senden. | Nur A AID und Teams A AUSKOMMEN  | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
+>| User.Read.All | Anwendung | Dient zum Abrufen von Benutzer-A AUSWENN, um Benutzernachrichten zu senden. | Nur A AID und Teams A AUSKOMMEN  | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -125,4 +125,3 @@ Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

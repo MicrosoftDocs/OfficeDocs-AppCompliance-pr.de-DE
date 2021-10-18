@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CloudExtend Analytics für NetSuite, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3dc8880f51ad68e09bb71276a33b9b2a864a8eaa
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e02f0c9f31495e9ab9e388859b9240e9b05bc534
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413216"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442277"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics für NetSuite
 
@@ -129,4 +129,3 @@ Diese Informationen wurden von Celigo CloudExtend bereitgestellt, wie diese App 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

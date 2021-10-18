@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für isLucid, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7270fa4f4a08ca820d1fe7452dea13fb107f2294
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5c482dbb0a7fda2f588eef80e16abb5f495be478
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414902"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445017"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -53,20 +53,20 @@ Diese Informationen wurden von UAB Lucid Agreements darüber bereitgestellt, wie
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calls.AccessMedia.All | Beide | Mit einer benutzerspezifischen Zustimmung für jeden Anruf (initiierte Transkription) greift er auf den Audiodatenstrom zu. Der Audiodatenstrom wird an einen Transkriptionsdienst weitergeleitet, damit Benutzer weitere Funktionen erhalten. | App speichert in einem separaten Container in Azure (Blobspeicher und Cosmos DB für jeden Client separat) Transkription und zugehörige Metainformationen. Dies ist erforderlich, um weiteren Zugriff auf besprechungsinformationen für den Benutzer bereitzustellen, der die Anwendung verwendet hat und in der bestimmten Besprechung war. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| Calls.JoinGroupCall.All | Beide | Mit einer benutzerspezifischen Zustimmung für jeden Anruf (initiierte Transkription) greift er auf den Audiodatenstrom zu. Der Audiodatenstrom wird an einen Transkriptionsdienst weitergeleitet, damit Benutzer weitere Funktionen erhalten. | App speichert in einem separaten Container in Azure (Blobspeicher und Cosmos DB für jeden Client separat) Transkription und zugehörige Metainformationen. Dies ist erforderlich, um weiteren Zugriff auf besprechungsinformationen für den Benutzer bereitzustellen, der die Anwendung verwendet hat und in der bestimmten Besprechung war. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| Group.ReadWrite.All | Beide | Wenn der Benutzer die Integration in Microsoft Planner verwendet, um Aufgaben aus dem Anruf zu erstellen und automatisch in MS Planner zu speichern, sammelt isLucid für diese benutzerverfügbaren Gruppen, Pläne und zugewiesenen Personen. Ohne diese Berechtigung wäre der Benutzer nicht in der Lage, eine Aufgabe aus der Transkription mithilfe von "isLucid" zu erstellen. | Aufgabentitel, Aufgabenersteller, Aufgabenzeitstempel, Aufgabenbeschreibung werden gespeichert, damit Benutzer Zugriff auf den Verlauf von Aufgaben erhalten können, die aus einer bestimmten Besprechung erstellt wurden. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
->| OnlineMeetings.Read.All | Beide | Die Anwendung sammelt Besprechungstitel, damit Benutzer später (wenn die Besprechung abgeschlossen ist) frühere Transkripte und Aufgaben einfacher finden können. | Besprechungstitel, Zeitstempel der Besprechung, Besprechungsorganisator | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
+>| OnlineMeetings.Read.All | Beide | Die Anwendung sammelt Besprechungstitel, damit Benutzer später (wenn die Besprechung beendet ist) frühere Transkripte und Aufgaben einfacher finden können. | Besprechungstitel, Zeitstempel der Besprechung, Besprechungsorganisator | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| Tasks.ReadWrite | Beide | Wenn der Benutzer die Integration in Microsoft Planner verwendet, um Aufgaben aus dem Anruf zu erstellen und automatisch in MS Planner zu speichern, sammelt isLucid für diese benutzerverfügbaren Gruppen, Pläne und zugewiesenen Personen. Ohne diese Berechtigung wäre der Benutzer nicht in der Lage, eine Aufgabe aus der Transkription mithilfe von "isLucid" zu erstellen. | Aufgabentitel, Aufgabenersteller, Aufgabenzeitstempel, Aufgabenbeschreibung werden gespeichert, damit Benutzer Zugriff auf den Verlauf von Aufgaben erhalten können, die aus einer bestimmten Besprechung erstellt wurden. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| User.ReadWrite.All | Beide | Wenn der Benutzer die Integration in Microsoft Planner verwendet, um Aufgaben aus dem Anruf zu erstellen und automatisch in MS Planner zu speichern, sammelt isLucid für diese benutzerverfügbaren Gruppen, Pläne und zugewiesenen Personen. Ohne diese Berechtigung wäre der Benutzer nicht in der Lage, eine Aufgabe aus der Transkription mithilfe von "isLucid" zu erstellen. | Aufgabentitel, Aufgabenersteller, Aufgabenzeitstempel, Aufgabenbeschreibung werden gespeichert, damit Benutzer Zugriff auf den Verlauf von Aufgaben erhalten können, die aus einer bestimmten Besprechung erstellt wurden. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| openid | Beide | Benutzer-ID, Mandanten-ID, die gesammelt werden, um Azure Active Directory Anmeldefunktionen für unsere Benutzer bereitzustellen | Benutzer-ID, Mandanten-ID für weitere Rechteverwaltung | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -123,7 +123,7 @@ Diese Informationen wurden von UAB Lucid Agreements darüber bereitgestellt, wie
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Ja |
@@ -132,4 +132,3 @@ Diese Informationen wurden von UAB Lucid Agreements darüber bereitgestellt, wie
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

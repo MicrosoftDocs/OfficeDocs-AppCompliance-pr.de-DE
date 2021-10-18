@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für LinkAufsteller, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 1224640f839a0e7147f75cad57ea8bf701f88477
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 37a82564e1dc0a716d31eeb6bd7f7a8b2de510fb
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411099"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444693"
 ---
 # <a name="link-spotter"></a>Link Spotter
 
@@ -51,31 +51,31 @@ Informationen, die von Communarray-Produkten für Microsoft bereitgestellt werde
 
 Diese Informationen wurden von Communverständnis-Produkten bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | Delegiert | Überprüfen der Kanalmitgliedschaft des aktuellen Benutzers | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| Channel.ReadBasic.All | Delegiert | Überprüfen der Kanalmitgliedschaft des aktuellen Benutzers | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| ChannelMessage.Read.All | Anwendung | Urls innerhalb von Nachrichten, Nachrichten-ID, Antwort-zu-Nachrichten-ID, Kanal-ID, Autor-ID... Diese Informationen sind erforderlich, da Graph keine leistungsfähige Möglichkeit bietet, alle links, die in Nachrichten in einem Kanal veröffentlicht wurden, abzurufen. Daher müssen Nachrichten aktiv analysiert werden, um die Linkfunktionalität auf unserer Registerkarte Teams bereitzustellen. | Urls innerhalb von Nachrichten, Nachrichten-ID, Antwort-zu-Nachrichten-ID, Kanal-ID, Autor-ID | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| User.Read.All | Anwendung | Bestimmen Sie, wie viele Benutzer über eine Teams Lizenz verfügen. Wird verwendet, um die Platzgröße des kostenpflichtigen App-Quellabonnements für den Kundenmandanten zu aktualisieren. | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| User.Read.All | Anwendung | Bestimmen Sie, wie viele Benutzer über eine Teams Lizenz verfügen. Wird verwendet, um die Platzgröße des kostenpflichtigen App-Quellabonnements für den Kundenmandanten zu aktualisieren. | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| User.ReadBasic.All | Delegiert | Anzeigen des Profilbilds und des Namens des Nachrichtenautors in der App | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| email | Delegiert | OpenID Connect | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| email | Delegiert | OpenID Connect | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| offline_access | Delegiert | OpenID Connect | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
->| openid | Delegiert | OpenID Connect | Keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
+>| openid | Delegiert | OpenID Connect | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 >| Profil | Delegiert | OpenID Connect | keine | [a4c28379-0840-42c5-9407-f088a7f54048](https://docs.microsoft.com/microsoft-365-app-certification/azure/a4c28379-0840-42c5-9407-f088a7f54048) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Auflisten aller anderen Microsoft-APIs als Microsoft Graph diese App verwendet wird.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Marketplace-API (SaaS-Erfüllungs-API) | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -120,7 +120,7 @@ Diese Informationen wurden von Commun über die Behandlung von Authentifizierung
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -137,4 +137,3 @@ Diese Informationen wurden von Commun über die Behandlung von Authentifizierung
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

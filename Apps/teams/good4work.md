@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60431047"
+ms.locfileid: "60442782"
 ---
 # <a name="good4work"></a>Good4work
 
@@ -51,7 +51,7 @@ Von Good4work für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Good4work darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 

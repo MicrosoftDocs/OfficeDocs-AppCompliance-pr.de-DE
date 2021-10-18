@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Degreed, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: fbc3a32f8ee92972908efc96fab15a69bd2d23ab
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 73c33fd0f16cd5fb78d45529495532d9d5ff4f5a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413847"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60439201"
 ---
 # <a name="degreed"></a>Degreed
 
@@ -124,4 +124,3 @@ Diese Informationen wurden von Degreed darüber bereitgestellt, wie diese App Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

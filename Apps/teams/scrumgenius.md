@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ScrumGenius, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f6e7f801c1a09f6624fe181fd9242bcbc9007844
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6bd3d875a7c3d60f39083a0688e33dfd7ed2446f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414079"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434559"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -103,5 +103,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

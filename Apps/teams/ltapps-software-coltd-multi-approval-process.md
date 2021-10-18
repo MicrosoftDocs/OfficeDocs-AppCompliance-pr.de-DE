@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60431017"
+ms.locfileid: "60442765"
 ---
 # <a name="multi-approval-process-ltapps"></a>Multi Approval Process LTAPPs
 
@@ -60,7 +60,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Auflisten aller anderen Microsoft-APIs als Microsoft Graph diese App verwendet wird.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -111,7 +111,7 @@ Diese Informationen wurden von LTAPPs SOFTWARE CO., LTD darüber bereitgestellt,
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -119,7 +119,7 @@ Diese Informationen wurden von LTAPPs SOFTWARE CO., LTD darüber bereitgestellt,
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | ,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
+| Was vermeiden Sie für Ihre App? | ,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/> |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |

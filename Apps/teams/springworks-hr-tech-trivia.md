@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Trivia, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f2e79a1843977a1c8c1ea0f62259cfa4bde8f076
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: cb6a1e4c70135aff7286824373b441cb2b045c60
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410849"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445187"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -129,4 +129,3 @@ Diese Informationen wurden von Springworks HR Tech darüber bereitgestellt, wie 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

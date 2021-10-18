@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MIPA – Ihr persönlicher Assistent, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity-certification
-ms.openlocfilehash: 27ce9d2194a42fdc465aa0de695f1c263e43dd90
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: ae67c6289bc3c7603e041f30359e3dbc4d5c7dea
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412975"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444673"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA – Your Personal Assistant
 
@@ -161,43 +161,6 @@ Diese Informationen wurden von iGlobe darüber bereitgestellt, wie diese App Aut
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Zertifizierungsinformationen
-
-| **Control** | **Microsoft 365 Zertifizierungsergebnis** |
-|:------------|:---------------------------------------|
-| [**ANWENDUNGSSICHERHEIT**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfung der Sicherheitsrisikobewertung (DAST/SAST/Penetrationstest) | Nicht zutreffend |
-| [**BETRIEBSSICHERHEIT**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Risikobewertung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder entsprechende Technologien) | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Änderungssteuerung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/Bereitstellung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angriffserkennung und -verhinderung (optional) | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollieren von Daten) | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | Nicht zutreffend |
-| [**DATENSCHUTZ BEI DER DATENVERARBEITUNG &amp;**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhenden Daten | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenaufbewahrung und -entsorgung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSGVO | – |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

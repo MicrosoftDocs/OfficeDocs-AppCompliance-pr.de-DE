@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für BrainBot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c6db3fdfd92513cd670fab84eecc4fa711a7449e
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 568e5b5ad334c5b93049c7bba878b39b73050050
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413080"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445443"
 ---
 # <a name="brainbot"></a>BrainBot
 
@@ -118,7 +118,7 @@ Diese Informationen wurden von Biggerbrains darüber bereitgestellt, wie diese A
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Nein |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -126,7 +126,7 @@ Diese Informationen wurden von Biggerbrains darüber bereitgestellt, wie diese A
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Nein |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
@@ -134,4 +134,3 @@ Diese Informationen wurden von Biggerbrains darüber bereitgestellt, wie diese A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

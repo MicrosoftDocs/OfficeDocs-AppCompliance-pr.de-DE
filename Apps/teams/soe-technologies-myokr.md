@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für myOKR, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c4a3e8872b8042f0114925c0e89de12b98ef5440
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 71c27d24b0f93cafa4f899e845c8d056a55721eb
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411470"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434544"
 ---
 # <a name="myokr"></a>myOKR
 
@@ -53,7 +53,7 @@ Diese Informationen wurden von SOE Technologies dazu bereitgestellt, wie diese A
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -64,7 +64,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| openid | Delegiert | Wir verwenden die Azure-Objekt-ID des Benutzers, um benutzeranmeldung bei der myOKR-App mithilfe der Microsoft-Authentifizierung vorzunehmen. | Die aktive Azure-ID des Benutzers wird für die E-Mail gespeichert. | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -76,7 +76,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Die Active Azure Directory-ID des Benutzers wird für die E-Mail des Benutzers gespeichert, um proaktive Nachrichten vom Bot zu senden. | E-Mail, Name, Managerinformationen, Titel, Benutzer-Azure Active Directory-ID  | Diese Informationen werden in der myOKR-Anwendung verwendet, um ein Benutzerkonto zu erstellen, dem Vorgesetzten das Anzeigen der Berichtsdetails auf der Plattform zu ermöglichen, dem Administrator das Anzeigen von allgemeinen Analysen und Berichten basierend auf Abteilung, Standort und Vorgesetzter zu ermöglichen. |
+>| Die Active Azure Directory-ID des Benutzers wird für die E-Mail des Benutzers gespeichert, um proaktive Nachrichten vom Bot zu senden. | E-Mail, Name, Manager-Informationen, Titel, Benutzer-Azure Active Directory-ID  | Diese Informationen werden in der myOKR-Anwendung verwendet, um ein Benutzerkonto zu erstellen, dem Vorgesetzten das Anzeigen der Berichtsdetails auf der Plattform zu ermöglichen, dem Administrator das Anzeigen von allgemeinen Analysen und Berichten basierend auf Abteilung, Standort und Vorgesetzter zu ermöglichen. |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -111,7 +111,7 @@ Diese Informationen wurden von SOE-Technologien darüber bereitgestellt, wie die
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -119,7 +119,7 @@ Diese Informationen wurden von SOE-Technologien darüber bereitgestellt, wie die
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
@@ -127,4 +127,3 @@ Diese Informationen wurden von SOE-Technologien darüber bereitgestellt, wie die
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

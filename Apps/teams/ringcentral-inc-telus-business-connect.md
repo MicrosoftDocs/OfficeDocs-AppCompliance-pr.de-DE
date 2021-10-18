@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430997"
+ms.locfileid: "60445197"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 
@@ -58,7 +58,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Delegiert |  Ermöglicht der Anwendung, Besprechungseinladungen über ihren Kalender zu senden | Keine | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read | Delegiert |  Ermöglicht der App, das grundlegende Profil eines Benutzers&#8217;(E-Mail, Name) zu lesen, um Kontaktübersprechungen an unserem Ende zu führen. Und ermöglicht es Benutzern, sich anzumelden und ihr O365-Konto mit dem RingCentral-Konto zu verknüpfen. |  E-Mail, Vorname, Nachname | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read | Delegiert |  Ermöglicht der App, das grundlegende Profil eines Benutzers&#8217;(E-Mail, Name) zu lesen, um Kontaktüberstimmungen an unserem Ende zu erreichen. Und ermöglicht es Benutzern, sich anzumelden und ihr O365-Konto mit dem RingCentral-Konto zu verknüpfen. |  E-Mail, Vorname, Nachname | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| User.Read.All | Delegiert | Ermöglicht der Anwendung, das vollständige Profil eines Benutzers mit Telefonnummern zu lesen, um Telefonanrufe mit unseren Diensten zu tätigen. | Keine | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| offline_access | Delegiert |  Ermöglicht der Anwendung, das oauth-Token abzurufen und zu aktualisieren |  Zugriffstoken, Aktualisierungstoken für den Zugriff auf die MS-Graph-API | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 

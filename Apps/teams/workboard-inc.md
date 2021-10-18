@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workboard, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e4eb373bba9f98978e08fee875bb14c0e057096c
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 529173742467cfbe54098bd3960bc93382cb45de
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414852"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444983"
 ---
 # <a name="workboard"></a>Workboard
 
@@ -134,4 +134,3 @@ Diese Informationen wurden von Workboard Inc. darüber bereitgestellt, wie diese
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

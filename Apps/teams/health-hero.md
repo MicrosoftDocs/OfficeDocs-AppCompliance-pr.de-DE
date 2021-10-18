@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Health Hero, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d1b716209a69f4526b900fd1a56049ffc2d3dbc8
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 73fa8f0638a27edbb1316517fce7fb3bb15e57fd
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414601"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434609"
 ---
 # <a name="health-hero"></a>Health Hero
 
@@ -52,14 +52,14 @@ Diese Informationen wurden von Health Hero bereitgestellt, wie diese App Organis
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | Anwendung | Nur Benutzerinformationen zum Erstellen eines Kontos. | Wir speichern benutzer external_id , object_id, um Benutzer mit ms graph zu authentifizieren, auch für die Verwendung der Bot-Dienste | [5f1f4eb7-479e-42f3-b86f-4c1f53e1c222](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f1f4eb7-479e-42f3-b86f-4c1f53e1c222) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -110,7 +110,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Health Hero darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Health Hero darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -123,7 +123,7 @@ Diese Informationen wurden von Health Hero darüber bereitgestellt, wie diese Ap
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Nein |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Ja |
 | Verwendet Ihre App veraltete APIs? | Nein |
@@ -131,4 +131,3 @@ Diese Informationen wurden von Health Hero darüber bereitgestellt, wie diese Ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

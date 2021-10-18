@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Neeali.Team, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c67a0cb706d4e9651b40dc4070ed9608cbd858d5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 968a4ffad3d1c5893414ea3e672474330fc37553
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413637"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60437139"
 ---
 # <a name="neelixteam"></a>Neelix.Team
 
@@ -53,7 +53,7 @@ Diese Informationen wurden von Neelix.IO darüber bereitgestellt, wie diese App 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -62,7 +62,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| email | Delegiert | E-Mail wird als Teil der Benutzerregistrierung in Needrossel verwendet. Nach der ersten Registrierung wird E-Mail für Benachrichtigungen verwendet.  | E-Mails werden im Benutzerprofil gespeichert. E-Mail wird auch verwendet, um zu überprüfen, ob der Benutzer nicht versucht, dieselbe E-Mail über einen anderen OAuth-Kanal zu verwenden. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
 >| offline_access | Delegiert | Dies wird zum Abrufen des Aktualisierungstokens verwendet |  Das Aktualisierungstoken wird gespeichert, um ein neues Zugriffstoken abzurufen. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
 >| Profil | Delegiert | Der Benutzername wird zum Erstellen eines Benutzerkontos bei der Registrierung bei Needrossel verwendet.  | Der Benutzername wird in einem Benutzerkonto gespeichert. Dies ist erforderlich, damit Benutzer von anderen Teammitgliedern in ihrem Team-Journal benachrichtigt werden können. Der Benutzer kann den in Nee xaml gespeicherten Namen aktualisieren. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| User.Read | Delegiert | Die Bot-App verwendet user.read, um Informationen senden zu können, sodass nee contoso core platform den Benutzer identifizieren kann. | Informationen werden nicht gespeichert | [bed170ee-dbd7-4efa-b48e-b0937ded1689](https://docs.microsoft.com/microsoft-365-app-certification/azure/bed170ee-dbd7-4efa-b48e-b0937ded1689) |
+>| User.Read | Delegiert | Die Bot-App verwendet user.read, um Informationen senden zu können, sodass die Nee contoso-Kernplattform den Benutzer identifizieren kann. | Informationen werden nicht gespeichert | [bed170ee-dbd7-4efa-b48e-b0937ded1689](https://docs.microsoft.com/microsoft-365-app-certification/azure/bed170ee-dbd7-4efa-b48e-b0937ded1689) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
@@ -72,7 +72,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Microsoft Identity Platform | Nein |  |  |  |  |
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -129,7 +129,7 @@ Diese Informationen wurden von Neelix.IO darüber bereitgestellt, wie diese App 
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Ja |
 | Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
@@ -138,4 +138,3 @@ Diese Informationen wurden von Neelix.IO darüber bereitgestellt, wie diese App 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Gaggle für SharePoint, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 37d1b1811e3e4fff4306e98501ca98da0a7ca8b0
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 79bdbfff967abc1b4bf5315af606e15c594ea615
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412084"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445487"
 ---
 # <a name="gaggle-for-sharepoint"></a>Gaggle for SharePoint
 
@@ -97,5 +97,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

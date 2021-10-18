@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Vtiger CRM, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: be7e2463ce3324b2831630cae662813af698a4f6
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3deae708d6b821fae718e0ea6b190cd1b28c1788
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411400"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444632"
 ---
 # <a name="vtiger-crm"></a>Vtiger CRM
 
@@ -51,7 +51,7 @@ Von Vtiger für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Vtiger darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -105,7 +105,7 @@ Diese Informationen wurden von Vtiger darüber bereitgestellt, wie diese App Aut
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | Einschränkung basierend auf der IP-Adresse. Datenzugriffssteuerung mithilfe von Rollen und Profilen. |
@@ -122,4 +122,3 @@ Diese Informationen wurden von Vtiger darüber bereitgestellt, wie diese App Aut
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mofa, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 014546ad1e5e4ee5beb0b8512ed2247e1ae34ccf
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 2697126a901dde102be0ee29c153b69d0021acf5
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411673"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60437149"
 ---
 # <a name="guru"></a>Guru
 
@@ -64,7 +64,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Endbenutzeranwendung und interne Datenbanken | Wenn ein Benutzer oder ein Unternehmen die App "Album" für Teams einrichte, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit dem Benutzerprofil verknüpft sind, aufgezeichnet und von Von Von Derns zugänglich sein. | Da ein Benutzer sowohl über ein Teams- als auch über ein Helpdesk-Konto verfügen muss, um die Integration zu verwenden, verfolgen und verfolgen wir, welche Benutzer die Integration ermöglichen, um diesen Benutzern Unterstützung und Verwaltung bereitzustellen. |
+>| Endbenutzeranwendung und interne Datenbanken | Wenn ein Benutzer oder ein Unternehmen die App "Portrait" für Teams einrichte, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit dem Benutzerprofil verknüpft sind, aufgezeichnet und von Von Portrait zugänglich sein. | Da ein Benutzer sowohl über ein Teams- als auch über ein Helpdesk-Konto verfügen muss, um die Integration zu verwenden, verfolgen und verfolgen wir, welche Benutzer die Integration ermöglichen, um diesen Benutzern Unterstützung und Verwaltung bereitzustellen. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -83,7 +83,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Das Team Einstellungen Administratoren in einem Team ermöglichen, zu bestimmen, welche Gruppen und Zugriffs-/Rollensteuerelemente pro Sammlung bereitgestellt werden sollen, mit der Möglichkeit, Karten zu alternativen Personen hinzuzufügen, zu entfernen und erneut zuzuweisen. Enterprise Kunden, die SSO bereitgestellt haben, profitieren auch von der SSO-Anbieterkonsole zum Onboarding/Offboarden und Einrichten von Gruppen über SCIM.
+>Das Team Einstellungen Administratoren in einem Team erlauben, zu bestimmen, welche Gruppen und Zugriffs-/Rollensteuerelemente pro Sammlung bereitgestellt werden sollen, mit der Möglichkeit, Karten zu alternativen Personen hinzuzufügen, zu entfernen und erneut zuzuweisen. Enterprise Kunden, die SSO bereitgestellt haben, profitieren auch von der SSO-Anbieterkonsole zum Onboarding/Offboarden und Einrichten von Gruppen über SCIM.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -120,4 +120,3 @@ Diese Informationen wurden von Namespace Technologies darüber bereitgestellt, w
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

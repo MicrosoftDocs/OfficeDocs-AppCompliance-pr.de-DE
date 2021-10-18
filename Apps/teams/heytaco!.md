@@ -8,18 +8,18 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für HeyTaco!, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e52056b40599ab98a69a6a93e7b2187ddf5f3765
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 72a600a577b773f1e3de08c7ef10b15b8007d52b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412374"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444874"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 3, 2020</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 3. November 2020</p>
 
 * <a href="https://teams.microsoft.com/l/app/be8d11cf-265a-4974-9912-4ff28c29fc21" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001346" target="_blank">Ansicht in AppSource</a>
@@ -50,18 +50,18 @@ Informationen von HeyTaco! an Microsoft:
 
 Diese Informationen wurden von HeyTaco bereitgestellt! Darüber, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| email | Delegiert | wird verwendet, um den Benutzer für Datenübertragungen von Slack an MS-Teams | wird verwendet, um den Benutzer für Datenübertragungen von Slack an MS Team zuzuordnen | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| email | Delegiert | wird verwendet, um den Benutzer für Datenübertragungen von Slack an MS Teams | wird verwendet, um den Benutzer für Datenübertragungen von Slack an MS Team zuzuordnen | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 >| openid | Delegiert | wird verwendet, um eine Person bei HeyTaco anzumelden! | wird verwendet, um eine Person bei HeyTaco anzumelden! | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 >| Profil | Delegiert | Wird verwendet, um Benutzernamen, Profilbild, Zeitzonenversatz, Mandanten-ID und Team-ID zu erfassen. | Wird verwendet, um Benutzernamen, Avatare, Zeitzonenversatz, Mandanten-ID und Team-ID zu erfassen. | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -73,7 +73,7 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Um dem Benutzer mitzuteilen, dass er einen Taco erhalten hat und von wem er stammt. | E-Mail-Adresse (für Migrations-Tasos von einer Plattform zu einer anderen) Name (zur Begrüßung des Benutzers) Profilbild (zur Anzeige in der Bestenliste) Zeitzone (zum ordnungsgemäßen Anzeigen der auf der Aktivitätsseite angegebenen Taktos) Mandanten-ID (Zum Aggregieren von Daten nach Mandant) Team-ID (zum Aggregieren von Daten nach Team)  |  |
+>| Um dem Benutzer mitzuteilen, dass er einen Taco erhalten hat und von wem er stammt. | E-Mail-Adresse (für Migrations-Tasos von einer Plattform zu einer anderen) Name (zur Begrüßung des Benutzers) Profilbild (zur Anzeige in der Bestenliste) Zeitzone (zum ordnungsgemäßen Anzeigen der auf der Aktivitätsseite angegebenen Taktos) Mandanten-ID (Zum Aggregieren von Daten nach Mandant) Team-ID (Zum Aggregieren von Daten nach Team)  |  |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -115,5 +115,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

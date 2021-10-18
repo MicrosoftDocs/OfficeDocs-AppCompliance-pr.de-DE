@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Broadcast, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 405bc777e87f5338d663347f609fcd41d33538c3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a05c24f2534b2635a5faf103b4b1803aa86fe3ee
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413889"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60435559"
 ---
 # <a name="broadcast"></a>Übertragung
 
@@ -53,14 +53,14 @@ Diese Informationen wurden von Cerkl darüber bereitgestellt, wie diese App Orga
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | Die E-Mail-Adresse des Benutzers wird gesammelt und verwendet, um festzustellen, ob sich der Benutzer derzeit in unserem System befindet und von einer Organisation hinzugefügt wurde. | Die App speichert keine Daten, die von der Microsoft Graph-API abgerufen wurden. | [74ef25ab-3685-446c-aa43-4e9cc251ed62](https://docs.microsoft.com/microsoft-365-app-certification/azure/74ef25ab-3685-446c-aa43-4e9cc251ed62) |
+>| User.Read | Delegiert | Die E-Mail-Adresse des Benutzers wird gesammelt und verwendet, um festzustellen, ob sich der Benutzer derzeit in unserem System befindet und von einer Organisation hinzugefügt wurde. | Die App speichert keine Daten, die aus der Microsoft Graph-API abgerufen wurden. | [74ef25ab-3685-446c-aa43-4e9cc251ed62](https://docs.microsoft.com/microsoft-365-app-certification/azure/74ef25ab-3685-446c-aa43-4e9cc251ed62) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -120,4 +120,3 @@ Diese Informationen wurden von Cerkl bereitgestellt, wie diese App die Authentif
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

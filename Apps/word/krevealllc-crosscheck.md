@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430937"
+ms.locfileid: "60432875"
 ---
 # <a name="crosscheck"></a>CrossCheck
 
@@ -33,7 +33,7 @@ Von kRevealLLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | CrossCheck |
 | ID | WA200003198 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | kRevealLLC |
 | URL der Partnerwebsite | [https://kreveal.com](https://kreveal.com) |
 | URL der Datenschutzrichtlinie | [https://crosscheck.krevealaddins.com/docs/privacy.htm](https://crosscheck.krevealaddins.com/docs/privacy.htm) |
@@ -49,7 +49,7 @@ Von kRevealLLC für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von kRevealLLC darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -93,12 +93,12 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von kRevealLLC darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von kRevealLLC darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -106,7 +106,7 @@ Diese Informationen wurden von kRevealLLC darüber bereitgestellt, wie diese App
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |

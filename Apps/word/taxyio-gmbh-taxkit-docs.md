@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TaxKit-Dokumente, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0428fe98c30df1812df4dfd420466634a490b960
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 8f9f800ce0a652fee303c387285e48ad6ea4caf9
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413226"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60444584"
 ---
 # <a name="taxkit-docs"></a>TaxKit-Dokumente
 
@@ -33,7 +33,7 @@ Informationen, die von Taxy.io GmbH an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | TaxKit-Dokumente |
 | ID | WA200002849 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | Taxy.io GmbH |
 | URL der Partnerwebsite | [https://www.taxy.io](https://www.taxy.io) |
 | URL der Datenschutzrichtlinie | [https://www.taxy.io/tk-datenschutz](https://www.taxy.io/tk-datenschutz) |
@@ -51,12 +51,12 @@ Diese Informationen wurden von Taxy.io GmbH bereitgestellt, wie diese App Organi
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -100,4 +100,3 @@ Diese Informationen wurden von Taxy.io GmbH bereitgestellt, wie diese App die Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

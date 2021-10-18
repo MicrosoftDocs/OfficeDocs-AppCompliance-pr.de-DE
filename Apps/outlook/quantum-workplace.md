@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Quantum Workplace, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d69d74d770c04eb127a17ccf2a477c94316496b5
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 957fc8a758b989242c4cd39dae5be0abacd0ac08
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413537"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60437101"
 ---
 # <a name="quantum-workplace"></a>Quantum Workplace
 
@@ -49,9 +49,9 @@ Von Quantum Workplace für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Quantum Workplace darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
@@ -59,7 +59,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| User.Read.All | Anwendung | User.Id (Gespeichert) – wird verwendet, um Benutzer zu korrelieren, die an unseren Bot-Endpunkt gesendet wurden; User.UserPrincipalName (nicht gespeichert) – derzeit nicht verwendet; User.Mail (Not Stored) – Wird verwendet, um Benutzer in unserem System mit ihrer AzureAD-ID zuzuordnen, die wir speichern. | User.ID gespeichert wird, wird verwendet, um Benutzer zu korrelieren, die an unseren Bot-Endpunkt gesendet werden. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -99,7 +99,7 @@ Diese Informationen wurden von Quantum Workplace darüber bereitgestellt, wie di
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | MFA |
@@ -117,4 +117,3 @@ Diese Informationen wurden von Quantum Workplace darüber bereitgestellt, wie di
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

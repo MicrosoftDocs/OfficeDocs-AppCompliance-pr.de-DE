@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SurveyMonkey, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4d792807b4a8160b3e62c7c1a23b4cf8a49b2148
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a67e1c8db56a621253fe8ad0471d4db234dc7d70
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413347"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432855"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -49,7 +49,7 @@ Von SurveyMonkey für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von SurveyMonkey bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von SurveyMonkey darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
@@ -81,15 +81,15 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->EUII – Ein Erfolg-/Fehlerprotokoll wird erstellt, sobald eine Umfrage eine Antwort erhält, und wir versuchen, diese Antwort über den Connector an Teams zu senden. Dieses Protokoll enthält user_id, survey_id, integration_id (die in der Datenbank verwendet werden können, um die MS-Team-ID, MS-Benutzer-ID nachzuschlagen).
+>EUII : Jedes Mal, wenn eine Umfrage eine Antwort erhält, wird ein Erfolgs-/Fehlerprotokoll erstellt, und wir versuchen, diese Antwort über den Connector an Teams zu senden. Dieses Protokoll enthält user_id, survey_id, integration_id (die in der Datenbank verwendet werden können, um die MS-Team-ID, MS-Benutzer-ID nachzuschlagen).
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Unser primäres Rechenzentrum befindet sich in Las Vegas, NV, und unser sekundäres Rechenzentrum befindet sich in Dersassem, Ca. SurveyMonkey besitzt und betreibt alle Server und Infrastruktur an diesen Standorten. Wir verfügen auch über eine kanadische Datenaufbewahrung für bestimmte SurveyMonkey-Enterprise Kunden in Kanada. Alle ruhenden Daten werden mithilfe von TDE mit AES256 verschlüsselt, und daten während der Übertragung werden mit TLS 1.2 verschlüsselt.
+>Unser primäres Rechenzentrum befindet sich in Las Vegas, NV, und unser sekundäres Rechenzentrum befindet sich in Dersassem, Ca. SurveyMonkey besitzt und betreibt alle Server und Infrastruktur an diesen Standorten. Wir haben auch eine kanadische Datenaufbewahrung für bestimmte SurveyMonkey-Enterprise Kunden in Kanada zur Verfügung. Alle ruhenden Daten werden mithilfe von TDE mit AES256 verschlüsselt, und daten während der Übertragung werden mit TLS 1.2 verschlüsselt.
 
-SurveyMonkey verwendet die zentrale Benutzerauthentifizierung, um die Identitäts- und Zugriffsverwaltung aufrechtzuerhalten. Dieses System verwaltet die gesamte Authentifizierung und Autorisierung für alle Unternehmens- und Produktionsinfrastrukturen, Systeme und Dienste. Strenge Zugriffsrichtlinien werden vierteljährlich beibehalten und überprüft. Die Überprüfungen umfassen unter anderem: Benutzerzugriffslisten, Richtliniengruppen und Zugriffsüberprüfungen von Drittanbietern. Um auf unsere Produktionsumgebung zuzugreifen (d. h. um ein privilegiertes Konto zu erhalten), muss man die Genehmigung des Vorgesetzten einholen, eine Reihe erforderlicher Schulungen durchführen und die Genehmigung von unserem Sicherheitsteam einholen. Zu diesem Zeitpunkt wird ein zusätzliches VPN-Konto bereitgestellt, das die &#8216;normale&#8217; Konto von einem konto mit &#8216;privilegierten&#8217; unterscheidet.
+SurveyMonkey verwendet die zentrale Benutzerauthentifizierung, um die Identitäts- und Zugriffsverwaltung aufrechtzuerhalten. Dieses System verwaltet die gesamte Authentifizierung und Autorisierung für alle Unternehmens- und Produktionsinfrastrukturen, Systeme und Dienste. Strenge Zugriffsrichtlinien werden vierteljährlich beibehalten und überprüft. Die Überprüfungen umfassen unter anderem: Benutzerzugriffslisten, Richtliniengruppen und Zugriffsüberprüfungen von Drittanbietern. Um auf unsere Produktionsumgebung zuzugreifen (d. h. um ein privilegiertes Konto zu erhalten), muss man die Genehmigung des Managers einholen, eine Reihe erforderlicher Schulungen durchführen und die Genehmigung von unserem Sicherheitsteam einholen. Zu diesem Zeitpunkt wird ein zusätzliches VPN-Konto bereitgestellt, das die &#8216;normale&#8217; Konto von einem konto mit &#8216;privilegierten&#8217; unterscheidet.
 
 Nur vom Unternehmen ausgestellte Geräte dürfen auf unser Produktionsnetzwerk zugreifen. Alle Standardeinstellungen des Anbieters für drahtlose Verbindungen werden vor der Installation geändert, einschließlich, aber nicht beschränkt auf standardmäßige drahtlose Verschlüsselungsschlüssel, Kennwörter und SNMP-Communityzeichenfolgen. 2FA und VPN sind erforderlich, um dies remote zu tun. Wir verfügen über ein separates WLAN-Netzwerk für den Gastzugriff in unseren Unternehmensstandorten.
 
@@ -116,5 +116,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 
