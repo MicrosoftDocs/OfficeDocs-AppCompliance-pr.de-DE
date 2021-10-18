@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Powell Teams, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 745b6ff67059c682a0ccd67b7fac88fbe0ac3c04
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: bdf4afe576656e8aed81c00364fefd1b99a822ac
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412825"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427947"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -126,4 +126,3 @@ Diese Informationen wurden von Powell Software darüber bereitgestellt, wie dies
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

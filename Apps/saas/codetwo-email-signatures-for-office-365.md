@@ -6,14 +6,14 @@ ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für CodeTwo-E-Mail-Signaturen für Office 365, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für CodeTwo-E-Mail-Signaturen für Office 365, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 13a8b7200513d09c77416ea93be55178c9b2a762
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3b6ab4d89a64aaec64dbb731a213fd203876476c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413156"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428177"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>CodeTwo-E-Mail-Signaturen für Office 365
 
@@ -48,7 +48,7 @@ Von CodeTwo für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von CodeTwo darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -57,7 +57,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| User.Read | Delegiert | Ermöglicht Benutzern, sich bei der App anzumelden, und ermöglicht der App, das Profil der angemeldeten Benutzer zu lesen. Außerdem kann die App grundlegende Organisationsinformationen von angemeldeten Benutzern lesen. | Es werden keine Daten gespeichert. | [2a93620e-4345-4e3b-9bae-0195f08aab69](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a93620e-4345-4e3b-9bae-0195f08aab69) |
 >| User.Read | Delegiert | Damit können Benutzer sich bei der App anmelden, und die App kann das Profil von angemeldeten Benutzern lesen. Die App kann auch grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. | Es werden keine Daten gespeichert. | [7afd058a-f568-4496-96b1-28d06ab3500f](https://docs.microsoft.com/microsoft-365-app-certification/azure/7afd058a-f568-4496-96b1-28d06ab3500f) |
 >| Directory.AccessAsUser.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. | Es werden keine Daten gespeichert. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| Directory.Read.All | Beide | Ermöglicht der App, Daten in Ihrem&#8217;Verzeichnis zu lesen, z. B. Benutzer, Gruppen und Apps. | Es werden keine Daten gespeichert. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
+>| Directory.Read.All | Beide | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation&#8217;zu lesen, z. B. Benutzer, Gruppen und Apps. | Es werden keine Daten gespeichert. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
 >| User.ReadBasic.All | Delegiert | Ermöglicht der App, einen grundlegenden Satz von Profileigenschaften anderer Benutzer in Ihrer Organisation im Namen des angemeldeten Benutzers zu lesen. Dazu gehören Anzeigename, Vor- und Nachname, E-Mail-Adresse und Foto. Informationen werden verwendet, um E-Mail-Signaturen für Benutzer automatisch zu personalisieren. | Es werden keine Daten gespeichert. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
 >| User.Read | Delegiert | Allows users to sign-in to the app, and allows the app to read the profile of signed-in users. Außerdem kann die App grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | Es werden keine Daten gespeichert. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
 >| email | Delegiert | Ermöglicht der App, die primäre E-Mail-Adresse Ihrer Benutzer zu lesen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | Es werden keine Daten gespeichert. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
@@ -134,4 +134,3 @@ Diese Informationen wurden von CodeTwo darüber bereitgestellt, wie diese App Au
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

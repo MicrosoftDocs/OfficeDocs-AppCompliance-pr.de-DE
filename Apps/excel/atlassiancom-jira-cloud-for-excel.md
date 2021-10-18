@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud für Excel, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8147e1c318502d2eefad376d6df263172a0577a2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: a09523899c3d8c16174e29594c772ada9a751aa7
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410749"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428207"
 ---
 # <a name="jira-cloud-for-excel"></a>Jira Cloud für Excel
 
@@ -51,12 +51,12 @@ Diese Informationen wurden von Atlassian.com darüber bereitgestellt, wie diese 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -78,7 +78,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 Ihre Auswahl: Sie haben das Recht, eine Kopie Ihrer Informationen anzufordern, unserer Nutzung Ihrer Informationen (einschließlich zu Marketingzwecken) zu widersprechen, die Löschung oder Einschränkung Ihrer Informationen anzufordern oder Ihre Informationen in einem strukturierten, elektronischen Format anzufordern. Im Folgenden werden die Tools und Prozesse für diese Anforderungen beschrieben. Sie können einige der Auswahlmöglichkeiten ausführen, indem Sie sich bei den Diensten anmelden und die in den Diensten oder Ihrem Konto verfügbaren Einstellungen verwenden. Wenn die Dienste von einem Administrator für Sie verwaltet werden (siehe Hinweis für Endbenutzer unten), müssen Sie sich möglicherweise zuerst an &quot; &quot; Ihren Administrator &quot; &quot; wenden, um Ihre Anforderungen zu unterstützen. Bei allen anderen Anfragen können Sie uns wie im Abschnitt "Kontakt kontaktieren" unten angegeben kontaktieren, um Unterstützung anzufordern.
 
-Ihre Anforderung und Auswahlmöglichkeiten können in bestimmten Fällen eingeschränkt sein: z. B. wenn die Erfüllung Ihrer Anforderung Informationen über eine andere Person offenlegen würde, oder wenn Sie bitten, Informationen zu löschen, die wir oder Ihr Administrator gesetzlich zulässig sind oder zwingende berechtigte Interessen haben, die wir oder Ihr Administrator aufbewahren dürfen. Wenn Sie uns aufgefordert haben, Daten für Dritte freizugeben, z. B. durch die Installation von Drittanbieter-Apps, müssen Sie sich direkt an diese Drittanbieter wenden, um Ihre Informationen löschen oder anderweitig einschränken zu lassen. Wenn Sie nicht gelöste Bedenken haben, haben Sie möglicherweise das Recht, sich bei einer Datenschutzbehörde in dem Land zu melden, in dem Sie leben, in dem Sie arbeiten oder in dem Sie der Meinung sind, dass Ihre Rechte nicht erfüllt sind.
+Ihre Anforderung und Auswahlmöglichkeiten können in bestimmten Fällen eingeschränkt sein: z. B. wenn die Erfüllung Ihrer Anforderung Informationen über eine andere Person offenlegen würde, oder wenn Sie bitten, Informationen zu löschen, die wir oder Ihr Administrator gesetzlich zulässig sind oder zwingende berechtigte Interessen haben, die wir oder Ihr Administrator aufbewahren dürfen. Wenn Sie uns aufgefordert haben, Daten für Dritte freizugeben, z. B. durch die Installation von Drittanbieter-Apps, müssen Sie sich direkt an diese Drittanbieter wenden, um Ihre Informationen löschen oder anderweitig einschränken zu lassen. Wenn Sie nicht gelöste Bedenken haben, haben Sie möglicherweise das Recht, sich bei einer Datenschutzbehörde in dem Land, in dem Sie leben, in dem Sie arbeiten oder in dem Sie der Meinung sind, dass Ihre Rechte nicht erfüllt sind, zu melden.
 
 Zugriff auf und Aktualisierung Ihrer Informationen: Unsere Dienste und zugehörige Dokumentation bieten Ihnen die Möglichkeit, auf bestimmte Informationen über Sie innerhalb des Diensts zuzugreifen und diese zu aktualisieren. Sie können beispielsweise über Ihr Konto auf Ihre Profilinformationen zugreifen und mithilfe von Stichwortsuchen im Dienst nach Inhalten suchen, die Informationen zu Ihnen enthalten. Sie können Ihre Profilinformationen in Ihren Profileinstellungen aktualisieren und Inhalte ändern, die Informationen über Sie enthalten, mithilfe der bearbeitungstools, die mit diesen Inhalten verknüpft sind.
 
@@ -114,5 +114,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

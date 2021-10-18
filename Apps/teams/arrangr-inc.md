@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Arrangr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a79f5d727ae54489bf5623d41c2bf77c32f4be81
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f4a5df023e906ad18e260debe09953351210d5bc
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410419"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427867"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -62,15 +62,15 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| ChannelMessage.Send | Delegiert | Diese Berechtigung wird verwendet, um Arrangr-Einladungen im Namen des Benutzers an Teamkanäle zu senden. Es wird nicht zum Sammeln von Daten verwendet. | Es werden keine Daten gespeichert, die mit dieser Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| Chat.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um Arrangr-Einladungen in einen Teams Chat im Namen des Benutzers zu senden. Diese Berechtigung wird nicht zum Sammeln von Daten verwendet. | Es werden keine Daten gespeichert, die mit dieser Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| ChatMessage.Send | Delegiert | Diese Berechtigung wird verwendet, um Arrangr-Einladungen in 1:1- und Gruppenchats im Namen des Benutzers zu senden. Es wird nicht zum Sammeln von Daten verwendet. | Es werden keine Daten gespeichert, die mit dieser Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| OnlineMeetings.ReadWrite | Delegiert | Arrangr sammelt Microsoft Teams Besprechungslinks, um diese mit dieser Berechtigung zu generieren. Wir generieren Teams Besprechungen im Namen des Benutzers, damit sie Teams Anrufe auf Arrangr organisieren können. | Wir speichern die Besprechungslinks, damit sie für die entsprechenden Parteien freigegeben werden können, um an der Besprechung teilzunehmen. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| OnlineMeetings.ReadWrite | Delegiert | Arrangr sammelt Microsoft Teams Besprechungslinks, um diese mit dieser Berechtigung zu generieren. Wir generieren Teams Besprechungen im Namen des Benutzers, damit er Teams Anrufe auf Arrangr anordnen kann. | Wir speichern die Besprechungslinks, damit sie für die entsprechenden Parteien freigegeben werden können, um an der Besprechung teilzunehmen. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| People.Read | Delegiert | Wir erfassen Namen und E-Mails von Personen, die für den Benutzer relevant sind. Auf diese Weise können wir dem Benutzer die Auswahl als Empfänger von Arrangr-Einladungen erleichtern. | Wenn der Benutzer einen Empfänger auswählt, der über diese API angeboten wird, speichern wir den Namen und die E-Mail des Empfängers, um die Besprechung durchzuführen und es dem Benutzer zu erleichtern, ihn in Zukunft erneut als Empfänger auszuwählen. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Team.ReadBasic.All | Delegiert | Wir erfassen die Namen der Teams des Benutzers, sodass er auswählen kann, in welchem Teams er eine Verbindung mit Arrangr herstellen möchte und in welches Team er eine Arrangr-Einladung teilen möchte. | Arrangr speichert die Namen von Teams der Benutzer eine Verknüpfung mit Arrangr ausgewählt hat, sodass wir diese Teams in ihren Einstellungen anzeigen und sie aus diesen Teams auswählen können, wenn sie entscheiden, wo eine Arrangr-Einladung freigegeben werden soll. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
+>| Team.ReadBasic.All | Delegiert | Wir erfassen die Namen der Teams des Benutzers, sodass er auswählen kann, in welchem Teams er eine Verbindung mit Arrangr herstellen möchte und in welches Team er eine Arrangr-Einladung teilen möchte. | Arrangr speichert die Namen von Teams der Benutzer sich entschieden hat, mit Arrangr zu verknüpfen, sodass diese Teams in den Einstellungen angezeigt werden können und sie bei der Entscheidung, wo eine Arrangr-Einladung freigegeben werden soll, aus diesen Teams auswählen können. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | Wir lesen, ob unsere App im Teams Konto des Benutzers installiert wurde, damit wir sie fragen können, ob sie unsere App installieren möchten, und dass wir sie für sie installieren können. | Wir speichern keine Daten, die über diese Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 >| Profil | Delegiert | Name und E-Mail-Adresse | Name und E-Mail-Adresse, um dem Benutzer anzuzeigen, welches Konto er mit unserem Dienst verbunden hat. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Auflisten aller anderen Microsoft-APIs als Microsoft Graph diese App verwendet wird.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
@@ -129,4 +129,3 @@ Diese Informationen wurden von Arrangr, Inc. bereitgestellt, wie diese App die A
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

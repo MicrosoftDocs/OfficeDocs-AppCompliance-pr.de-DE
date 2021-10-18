@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Denkhaltungen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d1c978f3932d01b92c062b6e2f653075f467727b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 65063fc8802484e44af91b3071393909b609e5df
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411570"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427987"
 ---
 # <a name="mindsets"></a>Mindsets
 
@@ -28,7 +28,7 @@ ms.locfileid: "60411570"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von Denkfunktionen Learning an Microsoft bereitgestellt werden:
+Informationen, die von den Learning "Mentalität" an Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -49,16 +49,16 @@ Informationen, die von Denkfunktionen Learning an Microsoft bereitgestellt werde
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Denkstrukturen Learning darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Denkhaltungen Learning darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -100,7 +100,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Denkmethoden Learning darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Denkmethoden Learning darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -109,4 +109,3 @@ Diese Informationen wurden von Denkmethoden Learning darüber bereitgestellt, wi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

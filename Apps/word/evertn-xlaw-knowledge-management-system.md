@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für xLocker – Wissensverwaltungssystem, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b07ad480387dac712f6b9195fd74a82706d2629b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: cce6d174386db07ebf7e062066549cc47c61c845
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413236"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429293"
 ---
 # <a name="xlaw---knowledge-management-system"></a>xMail – Wissensverwaltungssystem
 
@@ -33,7 +33,7 @@ Von Evertn an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | xMail – Wissensverwaltungssystem |
 | ID | WA104381077 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | evertn |
 | URL der Partnerwebsite | [https://extendlaw.com](https://extendlaw.com) |
 | URL der Datenschutzrichtlinie | [https://xlaw.eu/en/privacypolicy.html](https://xlaw.eu/en/privacypolicy.html) |
@@ -49,14 +49,14 @@ Von Evertn an Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Evertn bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -111,4 +111,3 @@ Diese Informationen wurden von Evertn bereitgestellt, wie diese App die Authenti
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

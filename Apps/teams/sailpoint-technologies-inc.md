@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für XamlPoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b99338b0bcc64e9a3e48c6365028441814195351
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ffaee793e78de9df4dbc29740be56c1701dc07cc
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410939"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423130"
 ---
 # <a name="sailpoint"></a>Sailpoint
 
@@ -119,4 +119,3 @@ Diese Informationen wurden von DerLesepoint Technologies, Inc. bereitgestellt, w
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

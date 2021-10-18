@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für InStation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 33ef3024f1b0e9b70cb6445e28c71ee1f6de22be
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 71210aafa0ff6cd960e69f64e10e735fa225660e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411773"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60426814"
 ---
 # <a name="instation"></a>InStation
 
@@ -50,7 +50,7 @@ Informationen, die von Developers Invillia an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Developers Invillia darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -65,7 +65,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| email | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| offline_access | Delegiert | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | speichert: Token und Aktualisierungstoken. Ermöglicht der App, eine Aktualisierung des MS-Tokens durchzuführen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 >| openid | Delegiert | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | Ermöglicht der App, sich im ersten Schritt bei der Organisation anzumelden. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
->| Profil | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;beim ersten Anmelden zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;beim ersten Anmelden zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Profil | Delegiert | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | Ermöglicht der App, die grundlegenden Informationen des Administrators&#180;bei der ersten Anmeldung zu erfassen. | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
@@ -114,5 +114,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

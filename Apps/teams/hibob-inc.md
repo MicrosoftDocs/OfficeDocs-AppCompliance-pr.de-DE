@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hibob, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b6eaaa5c8e9b7a707bdd88b965964089c5dce472
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b4caa166e958d71b9a0f7105874761dc330563f8
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412364"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428268"
 ---
 # <a name="hibob"></a>Hibob
 
@@ -50,7 +50,7 @@ Informationen, die von Hibob Inc. an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Hibob Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -84,7 +84,7 @@ Es gibt keine Option zum Löschen der Uppon-Anforderung für Protokolle.
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Unsere Plattform wird in den Rechenzentren von Amazon&#8217;in Dublin gehostet, und Der Zugriff auf die Plattform ist rollenbasiert und wird basierend auf der Position der Mitarbeiter&#8217;auf der Grundlage von "Need-to-Know/Need-to-Do" festgelegt.
+>Unsere Plattform wird in den Rechenzentren von Amazon&#8217;in Dublin gehostet, und Der Zugriff auf die Plattform ist rollenbasiert und wird entsprechend der Position der Mitarbeiter&#8217;auf der Grundlage von "Need-to-Know/Need-to-Do" festgelegt.
 Jeder Benutzer verfügt über seine eindeutigen Anmeldeinformationen, und wir erzwingen die 2FA-Authentifizierung für wichtige Dienste.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
@@ -108,5 +108,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

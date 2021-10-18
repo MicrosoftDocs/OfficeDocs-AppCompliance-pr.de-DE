@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mediatheque+, die Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a4c4ab05f9dd1809d85c82cc89547f76c3f87ed7
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 85eece86d9246a14c8f36691ab3b75e01638f030
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411834"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60426887"
 ---
 # <a name="mediatheque"></a>Mediathek+
 
@@ -106,4 +106,3 @@ Diese Informationen wurden von CEMEQ inc. bereitgestellt, wie diese App die Auth
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

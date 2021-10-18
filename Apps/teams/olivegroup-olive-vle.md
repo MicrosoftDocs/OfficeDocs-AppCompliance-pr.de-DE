@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für OLIV VLE, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9c94d52ef9e2c233eeb054d3b52a6175ccf235ea
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: c7e685ad2762eb2b6849098737d93c671e2131e2
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412845"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427967"
 ---
 # <a name="olive-vle"></a>OLIV VLE
 
@@ -106,4 +106,3 @@ Diese Informationen wurden von Olivgroup bereitgestellt, wie diese App die Authe
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

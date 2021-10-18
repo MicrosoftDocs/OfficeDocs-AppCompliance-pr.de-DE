@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für StarLeaf-Add-Ins für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a47dfedd6354fae038e4fbcc3ed768866fd8aec2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: abf5b74e015e427d90ddaabee09a51846261f4cc
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413517"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60427907"
 ---
 # <a name="starleaf-add-in-for-outlook"></a>StarLeaf-Add-In für Outlook
 
@@ -79,7 +79,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Daten werden auf StarLeaf&#8217;eigenen Protokollservern im Datencenter gespeichert, in dem sich der Benutzer&#8217;Konto befindet, und auf einem oder mehreren Datenauftragsverarbeitern innerhalb derselben Gerichtsbarkeit gesichert. Der Zugriff auf die Daten erfolgt über ein einzelnes Benutzerkonto mithilfe von benutzerbezogenen Kennwörtern, die überprüft werden. Die Dienstbenutzerkonten von StarLeaf&#8217;werden automatisch anhand der HR-Systeme und der Active Directory-Gruppen des Unternehmens überwacht, um das Sicherheits- und Complianceteam zu benachrichtigen, wenn Anomalien gefunden werden.
+>Die Daten werden auf StarLeaf&#8217;eigenen Protokollservern im Datencenter gespeichert, in dem sich der Benutzer&#8217;Konto befindet, und auf einem oder mehreren Datenbereichen innerhalb derselben Gerichtsbarkeit gesichert. Der Zugriff auf die Daten erfolgt über ein einzelnes Benutzerkonto mithilfe von benutzerbezogenen Kennwörtern, die überprüft werden. Die Dienstbenutzerkonten von StarLeaf&#8217;werden automatisch anhand der HR-Systeme und der Active Directory-Gruppen des Unternehmens überwacht, um das Sicherheits- und Complianceteam zu benachrichtigen, wenn Anomalien gefunden werden.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -102,5 +102,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 
