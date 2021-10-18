@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für "Im Falle einer Krise", die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d6cb978afddcd7b87851ac515e0594757d63fb21
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 43c9e7a3611f712d6425e60c292c359cc6d332d1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412795"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430987"
 ---
 # <a name="in-case-of-crisis"></a>Im Falle einer Krise
 
@@ -51,16 +51,16 @@ Informationen, die von RockDove Solutions, Inc. an Microsoft bereitgestellt werd
 
 Diese Informationen wurden von RockDove Solutions, Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Delegiert | Dadurch wird voll auf den Kalender eines Benutzers zugegriffen. Unsere App zeigt die Beschreibung, den Konferenzlink sowie das Start- und Enddatum an. Unsere App ermöglicht es einem Benutzer auch, ein Ereignis im Outlook-Kalender zu erstellen. | In Zukunft können Ereignis-IDs in der Datenbank gespeichert werden. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| Channel.ReadBasic.All | Delegiert | Ermöglicht den Zugriff auf einen Benutzerkanal.  Die Benutzerliste der Kanäle wird zum Auswählen eines Kanals verwendet, in den eine Datei hochgeladen werden soll. | Nicht zutreffend | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| Files.ReadWrite | Delegiert | Nicht zutreffend | Nicht zutreffend | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Files.ReadWrite.All | Delegiert | Wir ermöglichen Benutzern das Hochladen von Dateien aus der Problemverwaltung in Teams | Nicht zutreffend | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
+>| Files.ReadWrite.All | Delegiert | Wir ermöglichen Benutzern das Hochladen von Dateien aus der Problemverwaltung auf Teams | Nicht zutreffend | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| Sites.ReadWrite.All | Delegiert | Dies ist erforderlich, um in einen privaten Kanal hochzuladen. | Nicht zutreffend | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| Team.ReadBasic.All | Delegiert | Die Liste der Teams ist erforderlich, um die Liste der Kanäle abzurufen, zu denen der Benutzer gehört. Dadurch können wir die Liste der verfügbaren Uploadkanäle anzeigen. | Nicht zutreffend | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 >| email | Delegiert | Sie müssen die E-Mails des Benutzers nach der Authentifizierung abrufen, um sie mit E-Mails in unserer Datenbank zu vergleichen. Wenn der Benutzer kein Konto in unserem System hat, erstellen wir ein Konto. | Wir speichern die E-Mail-Adresse und erstellen dafür ein App-Konto. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
@@ -68,7 +68,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 >| openid | Delegiert | Erforderliche Berechtigung zur Authentifizierung über openid | Nicht zutreffend | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -115,7 +115,7 @@ Diese Informationen wurden von RockDove Solutions, Inc. bereitgestellt, wie dies
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
@@ -131,4 +131,3 @@ Diese Informationen wurden von RockDove Solutions, Inc. bereitgestellt, wie dies
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

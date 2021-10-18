@@ -6,14 +6,14 @@ ms.date: 06/28/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud, die Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bb6857d460cb648d45cf63a5bfcac66508ec6f1d
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f7448496a0b9ec9da60ecf1264c3b92f9aaf0b40
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413096"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430907"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -84,7 +84,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 Ihre Auswahl: Sie haben das Recht, eine Kopie Ihrer Informationen anzufordern, unserer Nutzung Ihrer Informationen (einschließlich zu Marketingzwecken) zu widersprechen, die Löschung oder Einschränkung Ihrer Informationen anzufordern oder Ihre Informationen in einem strukturierten, elektronischen Format anzufordern. Im Folgenden werden die Tools und Prozesse für diese Anforderungen beschrieben. Sie können einige der Auswahlmöglichkeiten ausführen, indem Sie sich bei den Diensten anmelden und die in den Diensten oder Ihrem Konto verfügbaren Einstellungen verwenden. Wenn die Dienste von einem Administrator für Sie verwaltet werden (siehe Hinweis für Endbenutzer unten), müssen Sie sich möglicherweise zuerst an &quot; &quot; Ihren Administrator &quot; &quot; wenden, um Ihre Anforderungen zu unterstützen. Bei allen anderen Anfragen können Sie uns wie im Abschnitt "Kontakt kontaktieren" unten angegeben kontaktieren, um Unterstützung anzufordern.
 
-Ihre Anforderungen und Auswahlmöglichkeiten können in bestimmten Fällen eingeschränkt sein: z. B. wenn die Erfüllung Ihrer Anforderung Informationen über eine andere Person offenlegen würde, oder wenn Sie informationen löschen möchten, die wir oder Ihr Administrator gesetzlich zulässig sind oder zwingende berechtigte Interessen haben, die wir oder Ihr Administrator aufbewahren dürfen. Wenn Sie uns aufgefordert haben, Daten für Dritte freizugeben, z. B. durch die Installation von Drittanbieter-Apps, müssen Sie sich direkt an diese Drittanbieter wenden, um Ihre Informationen löschen oder anderweitig einschränken zu lassen. Wenn Sie nicht gelöste Bedenken haben, haben Sie möglicherweise das Recht, sich bei einer Datenschutzbehörde in dem Land, in dem Sie leben, in dem Sie arbeiten oder in dem Sie der Meinung sind, dass Ihre Rechte nicht erfüllt sind, zu melden.
+Ihre Anforderung und Auswahlmöglichkeiten können in bestimmten Fällen eingeschränkt sein: z. B. wenn die Erfüllung Ihrer Anforderung Informationen über eine andere Person offenlegen würde, oder wenn Sie bitten, Informationen zu löschen, die wir oder Ihr Administrator gesetzlich zulässig sind oder zwingende berechtigte Interessen haben, die wir oder Ihr Administrator aufbewahren dürfen. Wenn Sie uns aufgefordert haben, Daten für Dritte freizugeben, z. B. durch die Installation von Drittanbieter-Apps, müssen Sie sich direkt an diese Drittanbieter wenden, um Ihre Informationen löschen oder anderweitig einschränken zu lassen. Wenn Sie nicht gelöste Bedenken haben, haben Sie möglicherweise das Recht, sich bei einer Datenschutzbehörde in dem Land zu melden, in dem Sie leben, in dem Sie arbeiten oder in dem Sie der Meinung sind, dass Ihre Rechte nicht erfüllt sind.
 
 Zugriff auf und Aktualisierung Ihrer Informationen: Unsere Dienste und zugehörige Dokumentation bieten Ihnen die Möglichkeit, auf bestimmte Informationen über Sie innerhalb des Diensts zuzugreifen und diese zu aktualisieren. Sie können beispielsweise über Ihr Konto auf Ihre Profilinformationen zugreifen und mithilfe von Stichwortsuchen im Dienst nach Inhalten suchen, die Informationen zu Ihnen enthalten. Sie können Ihre Profilinformationen in Ihren Profileinstellungen aktualisieren und Inhalte ändern, die Informationen über Sie enthalten, mithilfe der bearbeitungstools, die mit diesen Inhalten verknüpft sind.
 
@@ -120,5 +120,4 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

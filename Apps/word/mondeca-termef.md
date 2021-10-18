@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TerMef, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6444814d2eddd24d070b52dcb5ce330dfd3fbbcd
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 78428ca71ff249ba3803f2dbc67d9b2f06519296
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414290"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430927"
 ---
 # <a name="termef"></a>TerMef
 
@@ -33,7 +33,7 @@ Von Mondeca für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | TerMef |
 | ID | WA200003128 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 oder höher auf Windows |
+| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | Mondeca |
 | URL der Partnerwebsite | [https://mondeca.com](https://mondeca.com) |
 | URL der Datenschutzrichtlinie | [https://mondeca.com/wp-content/uploads/2020/09/Privacy-and-...](https://mondeca.com/wp-content/uploads/2020/09/Privacy-and-data-protection-policy.pdf) |
@@ -49,7 +49,7 @@ Von Mondeca für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Mondeca darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
@@ -100,4 +100,3 @@ Diese Informationen wurden von Mondeca bereitgestellt, wie diese App die Authent
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

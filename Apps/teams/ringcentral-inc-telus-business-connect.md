@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TELUS Business Verbinden, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 465b92171bb82a617d2369298037c06fce1fa84a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d39d9d969d09d711de1d879dd869543e06d3a596
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413447"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430997"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 
@@ -58,7 +58,7 @@ Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/gra
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Delegiert |  Ermöglicht der Anwendung, Besprechungseinladungen über ihren Kalender zu senden | Keine | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read | Delegiert |  Ermöglicht der App, das grundlegende Profil eines Benutzers&#8217;(E-Mail, Name) zu lesen, um Kontaktüberstimmungen an unserem Ende zu erreichen. Und ermöglicht es Benutzern, sich anzumelden und ihr O365-Konto mit dem RingCentral-Konto zu verknüpfen. |  E-Mail, Vorname, Nachname | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read | Delegiert |  Ermöglicht der App, das grundlegende Profil eines Benutzers&#8217;(E-Mail, Name) zu lesen, um Kontaktübersprechungen an unserem Ende zu führen. Und ermöglicht es Benutzern, sich anzumelden und ihr O365-Konto mit dem RingCentral-Konto zu verknüpfen. |  E-Mail, Vorname, Nachname | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| User.Read.All | Delegiert | Ermöglicht der Anwendung, das vollständige Profil eines Benutzers mit Telefonnummern zu lesen, um Telefonanrufe mit unseren Diensten zu tätigen. | Keine | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| offline_access | Delegiert |  Ermöglicht der Anwendung, das oauth-Token abzurufen und zu aktualisieren |  Zugriffstoken, Aktualisierungstoken für den Zugriff auf die MS-Graph-API | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 
@@ -112,4 +112,3 @@ Diese Informationen wurden von RingCentral, Inc. bereitgestellt, wie diese App d
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
