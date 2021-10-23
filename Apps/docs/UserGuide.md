@@ -6,12 +6,12 @@ description: ISV-Benutzerhandbuch für Microsoft 365 App Compliance-Programm
 keywords: ISV-Benutzerhandbuch für Microsoft 365 App Compliance-Programm
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 74bb654b6084319122e0f9388792cf44d85ca4a664ce89bf308982a29cbfdfc8
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 79a301d6825b3f9ea3d882e13e91b48f3808f60b
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801661"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60544566"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Benutzerhandbuch des Partners für Microsoft 365 App Compliance-Programm
 
@@ -21,7 +21,7 @@ ms.locfileid: "54801661"
 |Phase 2| Microsoft 365-Zertifizierung|
 
 ## <a name="1-overview"></a>1. Übersicht
-Dieses Dokument dient als schrittweise Benutzeranleitung für unsere Partner, die im Microsoft 365 App Compliance-Programm registriert sind und Publisher Nachweis und Zertifizierung über das Partner Center-Portal durchführen möchten.
+Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die im Microsoft 365 App Compliance-Programm registriert sind und Publisher Nachweis und Zertifizierung über das Partner Center-Portal durchführen möchten.
 
 
 ## <a name="2-acronyms--definitions"></a>2. Akronyme & Definitionen
@@ -37,26 +37,19 @@ Dieses Dokument dient als schrittweise Benutzeranleitung für unsere Partner, di
 
 **Startseite:** Dies ist die Zielseite, sobald sich ein Partner beim Partner Center anmeldet.
 
-![Partner Center Home Screen](../media/UserGuidePhotos/01.png)
+**Schritt 1:** Wählen Sie Marketplace-Angebote aus. 
 
-**Schritt 1:**   Auf der linken Seite der Seite in der Navigationsleiste:
-- Auswählen Office Speichers
-- Select Overview
+![Commercial Marketplace im Partner Center](../media/NewPChomepage.png)
+  
+**Schritt 2:** Nachdem Sie "Marketplace-Angebote" ausgewählt haben, umschalten Sie auf "Office Store". Wählen Sie eine App aus der Liste aus, um den Publisher Nachweisprozess zu starten.
 
+![Auswählen einer App im commercial Marketplace](../media/NewPCoffersComm.png)
 
-![Office Store finden Sie im linken Navigationsbereich](../media/UserGuidePhotos/02.png)
-
-Bei Auswahl von "Übersicht" kann der Partner eine Liste der über Partner Center übermittelten Apps anzeigen, die für das Microsoft 365 Compliance-Programm verfügbar sind.
-
-**Schritt 2:** Wählen Sie eine App aus der Liste aus, um den Publisher Nachweisprozess zu starten.
-
-![Wählen Sie aus, welche Anwendung Sie bestätigen möchten.](../media/UserGuidePhotos/03.png)
-
-Beim Auswählen einer App wird eine andere Navigationsleiste mit der Option "App-Compliance" angezeigt.
-
+Beim Auswählen einer App wird eine weitere Navigationsleiste mit der Option "App-Compliance" angezeigt.
+  
 **Schritt 3:** Wählen Sie "App-Compliance" aus.
 
-![Auswählen der App-Kompatibilität](../media/UserGuidePhotos/04.png)
+![Auswählen der App-Kompatibilität](../media/PCappcompliance3.png)
 
 **Schritt 4:** Ausfüllen des Selbstbewertungsfragebogens für Publisher Nachweis
 
@@ -70,7 +63,7 @@ Sie können auch das feature Import/Export verwenden, um das Formular offline au
 
 ![Import Export Feature](../media/UserGuidePhotos/06.png)
 
-**Schritt 5:** Nachdem Sie abgeschlossen sind, klicken Sie auf "Übermitteln", die Bewertung wird jetzt "Überprüft" angezeigt.
+**Schritt 5:** Wenn Sie abgeschlossen sind, klicken Sie auf "Übermitteln", die Bewertung wird jetzt "Überprüft" angezeigt.
 
 ![Klicken Sie auf "Sumbit".](../media/UserGuidePhotos/07.png)
 
@@ -155,7 +148,7 @@ Sobald alle Sicherheitsstandards erfüllt sind, genehmigt der Analyst die Überm
 
 ## <a name="5---microsoft-365-renewal-workflow"></a>5. Microsoft 365-Verlängerungsworkflow:
   
-**Microsoft 365 Publisher Nachweis- und Zertifizierungsverlängerungsworkflow:** Microsoft 365 App Compliance-Programm bietet jetzt einen jährlichen Verlängerungsprozess. Während dieses Vorgangs können App-Entwickler ihren vorhandenen Publisher Attestation-Fragebogen und dokumente aktualisieren, die für Microsoft 365 Zertifizierung erforderlich sind. 
+**Microsoft 365 Publisher Nachweis- und Zertifizierungsverlängerungsworkflow:** Microsoft 365 App Compliance-Programm bietet jetzt einen jährlichen Verlängerungsprozess. Während dieses Prozesses können App-Entwickler ihren vorhandenen Publisher Attestation-Fragebogen und dokumente aktualisieren, die für Microsoft 365 Zertifizierung erforderlich sind. 
  
 **Vorteile:** 
 
@@ -173,7 +166,7 @@ Der neue Verlängerungsprozess ist im [Partner Center](https://partner.microsoft
 
 ![Microsoft 365Publisher Nachweis- und Zertifizierungsverlängerungsworkflow ](../media/UserGuidePhotos/28.png)
 
-**Schritt 2:** Überprüfen Sie die vorherigen Publisher Antworten auf den Nachweis, und aktualisieren Sie bei Bedarf die neuesten Informationen. Übermitteln Sie Publisher Nachweis zur Verlängerung, wenn sie bereit ist. Sie wird von einem Microsoft 365 App-Compliance-Analysten überprüft.
+**Schritt 2:** Überprüfen Sie die vorherigen Publisher Antworten auf den Nachweis, und aktualisieren Sie nach Bedarf die neuesten Informationen. Übermitteln Sie Publisher Nachweis zur Verlängerung, wenn sie bereit ist. Sie wird von einem Microsoft 365 App-Compliance-Analysten überprüft.
 
 ![Aktualisieren des Publisher Attestation](../media/UserGuidePhotos/29.png)
 
