@@ -1,48 +1,46 @@
 ---
-title: Application Information for Remind by 88 Ventures Limited
+title: Anwendungsinformationen für Netskope für Microsoft Teams von Netskope
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/27/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Remind, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Netskope für Microsoft Teams, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 94c70633add16eaaef067f8232328ab449d8a2ff
+ms.openlocfilehash: a986a6f8fbbf98f408dcbf3e90b6bf219951889f
 ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/02/2021
-ms.locfileid: "60683699"
+ms.locfileid: "60683733"
 ---
-# <a name="remind"></a>Remind
+# <a name="netskope-for-microsoft-teams"></a>Netskope für Microsoft Teams
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 27, 2021</p>
+<p>Last updated by the developer on: September 27, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Anzeigen im Teams Speicher</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001444" target="_blank">Ansicht in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/web-apps/netskope.netskope_teams" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von 88 Limited limited für Microsoft bereitgestellte Informationen:
+Von Netskope für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Remind |
-| ID | WA200001444 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | 88 Ventures Limited |
-| Website des Unternehmens | [https://moonbearapps.com](https://moonbearapps.com) |
-| Nutzungsbedingungen der App | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
-| Kernfunktionen der App | Erinnern Sie sich oder Ihre Teammitglieder an wichtige Besprechungen, Aufgaben oder sogar Geburtstage. Legen Sie persönliche Erinnerungen, Gruppenchaterinnerungen oder Kanalerinnerungen fest. Sie können sogar wiederkehrende Erinnerungen festlegen (z. B. eine Teambesprechung jeden Montag um 9 Uhr)! |
-| Firmenstandort | Hongkong |
+| App-Name | Netskope für Microsoft Teams |
+| ID | netskope.netskope_teams |
+| Name des Partnerunternehmens | Netskope |
+| Website des Unternehmens | [https://www.netskope.com](https://www.netskope.com) |
+| Nutzungsbedingungen der App | [https://www.netskope.com/subscription-terms/](https://www.netskope.com/subscription-terms/) |
+| Kernfunktionen der App | Netskope verfügt über die branchenspezifische&#8217;einzige Lösung, die einheitliche marktführende CASB- und Next-Gen-SWG, Remotebrowserisolation, Cloudfirewall, Öffentliche Cloudsicherheit und zero-trust Private Access unter einer Einzigen Plattform ( Netskope Security Cloud) bietet.  Zusätzlich zu diesen modularen Features bietet Netskope auch zusätzliche Sicherheits-Microservices, die hinzugefügt werden können, um den Sicherheitsstatus von Kunden weiter zu optimieren, z. B. unsere erweiterten DLP-, Verschlüsselungs- und Bedrohungsschutzfeatures. |
+| Firmenstandort | Vereinigte Staaten von Amerika |
 | Seite "App-Informationen" | |
-| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
-| Welche Hosting-Cloudanbieter verwendet die App? | Sonstiges |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
+| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,19 +50,21 @@ Von 88 Limited limited für Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von 88 Limited Limited bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Netskope zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
+| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzer-GUID und Benutzernamen beim Erinnern anderer Benutzer |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Deutschland |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerinformationen |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nicht aufbewahrt |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Ja |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -78,7 +78,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
-| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? | TraditionalAntiMalware |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? | ApplicationControls |
 | Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? | Ja |
 | Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? | Ja |
 | Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? | Ja |
@@ -106,26 +106,26 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nein |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Ja |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
-| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
-| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Ja |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? |  Typ2 |
+| Letztes SOC2-Zertifizierungsdatum |  2021-10-21 |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
-| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Ja |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
-| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nein |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Ja |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
-| Entspricht die App NIST 800-171? | Nein |
-| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
+| Entspricht die App NIST 800-171? | Ja |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -135,16 +135,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Nein |
-| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? | Nein |
-| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Ja |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? | Ja |
+| URL der Datenschutzrichtlinie | https://www.netskope.com/privacy-policy |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Ja |
+| Haben Einzelpersonen die Möglichkeit, der Verarbeitung zu widersprechen? | Ja |
 | Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? | Nein |
 | Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
 | Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
-| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Nein |
-| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Nein |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Ja |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Ja |
 | Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Nein |
-| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Nein |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,10 +158,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Unterstützt Ihre App die fortlaufende Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
+| Unterstützt Ihre App die fortlaufende Zugriffsauswertung (Continuous Access Evaluation, CAE) | Ja |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
@@ -167,7 +169,21 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
 >|:------------------------|:--------------------|:------------------------------------|
->| Directory.Read.All | Delegiert | Wird verwendet, wenn ein Administrator nach Benutzern sucht, um sie Lizenzen zuzuweisen. Die Verwendung dieses Features ist völlig optional und während der normalen App-Verwendung nicht erforderlich. |
+>| ChannelMessage.Read.All | Anwendung | DLP für Kanalnachrichten und Beiträge |
+>| ChannelMessage.UpdatePolicyViolation.All | Anwendung | DLP für Kanalnachrichten und Beiträge |
+>| Chat.Read.All | Anwendung | DLP für Kanal-/DM-Chats |
+>| Chat.ReadBasic.All | Anwendung | DLP für Kanal-/DM-Chats |
+>| Chat.ReadWrite | Anwendung | DLP für Kanal-/DM-Chats |
+>| Chat.UpdatePolicyViolation.All | Anwendung | DLP für Kanalnachrichten und Beiträge |
+>| Directory.Read.All | Anwendung | Benutzermitgliedschaftsidentifikation und Sichtbarkeit |
+>| Files.Read.All | Anwendung | DLP für in MSTeams gepostete Dateien |
+>| Files.ReadWrite.All | Anwendung | DLP für in MSTeams gepostete Dateien |
+>| Group.Read.All | Anwendung | Gruppenidentifikation und Sichtbarkeit |
+>| GroupMember.Read.All | Anwendung | Gruppenidentifikation und Sichtbarkeit |
+>| Reports.Read.All | Anwendung | Berichterstellung und Sichtbarkeit |
+>| Sites.Read.All | Anwendung | SharePoint Website-DLP des Teams |
+>| TeamsActivity.Read | Anwendung | Benutzeraktivitätsbasierte Richtlinien |
+>| User.Read.All | Anwendung | Benutzeridentifikation und Sichtbarkeit |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
