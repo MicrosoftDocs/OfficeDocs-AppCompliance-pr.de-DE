@@ -2,17 +2,17 @@
 title: Sicherheit und Compliance von SaaS-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/15/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle SaaS-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 6e04ab4beaf8a551d334bd34c58e362c53d0789b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 0743da5c3857eb922317cc0d6902628b8d6a15a2
+ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411169"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60719107"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicherheit und Compliance von SaaS-Apps
 
@@ -30,6 +30,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Luware Nimbus für Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** |  |
 | [MIPA – Mein intelligenter persönlicher Assistent](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MyHub für Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** |  |
+| [Netskope für Microsoft Teams](./netskope-for-microsoft-teams.md) | Netskope | **✓** |  |
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |

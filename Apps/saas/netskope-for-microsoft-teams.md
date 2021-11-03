@@ -12,8 +12,8 @@ ms.openlocfilehash: a986a6f8fbbf98f408dcbf3e90b6bf219951889f
 ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60683733"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60719727"
 ---
 # <a name="netskope-for-microsoft-teams"></a>Netskope für Microsoft Teams
 
@@ -36,7 +36,7 @@ Von Netskope für Microsoft bereitgestellte Informationen:
 | Name des Partnerunternehmens | Netskope |
 | Website des Unternehmens | [https://www.netskope.com](https://www.netskope.com) |
 | Nutzungsbedingungen der App | [https://www.netskope.com/subscription-terms/](https://www.netskope.com/subscription-terms/) |
-| Kernfunktionen der App | Netskope verfügt über die branchenspezifische&#8217;einzige Lösung, die einheitliche marktführende CASB- und Next-Gen-SWG, Remotebrowserisolation, Cloudfirewall, Öffentliche Cloudsicherheit und zero-trust Private Access unter einer Einzigen Plattform ( Netskope Security Cloud) bietet.  Zusätzlich zu diesen modularen Features bietet Netskope auch zusätzliche Sicherheits-Microservices, die hinzugefügt werden können, um den Sicherheitsstatus von Kunden weiter zu optimieren, z. B. unsere erweiterten DLP-, Verschlüsselungs- und Bedrohungsschutzfeatures. |
+| Kernfunktionen der App | Netskope verfügt über die branchenweit&#8217;einzige Lösung, die einheitliche marktführende CASB- und Next-Gen-SWG-Lösungen, Remotebrowserisolation, Cloudfirewall, Öffentliche Cloudsicherheit und zero-trust Private Access unter einer Einzigen Plattform ( Netskope Security Cloud) bietet.  Zusätzlich zu diesen modularen Features bietet Netskope auch zusätzliche Sicherheits-Microservices, die hinzugefügt werden können, um den Sicherheitsstatus von Kunden weiter zu optimieren, z. B. unsere erweiterten DLP-, Verschlüsselungs- und Bedrohungsschutzfeatures. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
