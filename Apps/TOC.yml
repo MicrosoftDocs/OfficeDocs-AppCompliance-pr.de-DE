@@ -59,7 +59,7 @@
           href: excel/supermetrics.md
         - name: Wunder365 für Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: XBRL-Archivierte Daten
+        - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
     - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
@@ -70,7 +70,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook Apps
+    - name: Microsoft Outlook-Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -103,7 +103,7 @@
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox Deadline and Matter Management – Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: 'LawToolBox ist für Outlook, Teams und SharePoint wichtig'
+        - name: 'LawToolBox ist wichtig für Outlook, Teams und SharePoint'
           href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
         - name: MIPA – Ihr eigener persönlicher Assistent
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
@@ -137,7 +137,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM für E-Mails
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint Apps
+    - name: Microsoft PowerPoint-Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -154,7 +154,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -186,7 +186,7 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
-        - name: Blitzgeräte Gewittersenkte
+        - name: Gewittertools – Blitze
           href: sharepoint/lightning-tools-conductor.md
         - name: officeatwork | Vorlagenauswahl für SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
@@ -257,6 +257,8 @@
           href: teams/leya-sa-aula-digital.md
         - name: AVA
           href: teams/avepoint-inc-ava.md
+        - name: Avaamo IT Assistant
+          href: teams/avaamo-it-assistant.md
         - name: Axelleron
           href: teams/axelleron.md
         - name: Beagle
@@ -359,6 +361,8 @@
           href: teams/reward-gateway-connectplus.md
         - name: Contact Center
           href: teams/landis-technologies-llc-contact-center.md
+        - name: Contact Center | ROGER365.io
+          href: teams/roger365io-contact-centerroger365io.md
         - name: Inhalts-Manager
           href: teams/colligo-inc-content-manager.md
         - name: Contextere AVA
@@ -581,8 +585,8 @@
           href: teams/lucca.md
         - name: Lucidchart
           href: teams/lucid-software-lucidchart.md
-        - name: Lucidspark
-          href: teams/lucid-software-lucidspark.md
+        - name: Lucidspark Whiteboard
+          href: teams/lucid-software-lucidspark-whiteboard.md
         - name: LuckyDraw
           href: teams/tony-xia-luckydraw.md
         - name: LumApps
@@ -621,6 +625,8 @@
           href: teams/iglobe-mipa-your-personal-assistant.md
         - name: monday.com
           href: teams/mondaycom.md
+        - name: Moneypenny
+          href: teams/callitech-limited-moneypenny.md
         - name: Monitask
           href: teams/fest-technologies-llc-monitask.md
         - name: Move Work Forward with Jira
@@ -641,6 +647,8 @@
           href: teams/myworkdrive.md
         - name: Nailted
           href: teams/nailted-app-sl.md
+        - name: Natterhub
+          href: teams/natterhub.md
         - name: Navo
           href: teams/regroove-solutions-navo.md
         - name: NE
@@ -677,6 +685,8 @@
           href: teams/librestream-onsight-connect.md
         - name: OpenAgora
           href: teams/open-agora-openagora.md
+        - name: Optmyzr
+          href: teams/optmyzr.md
         - name: Org@Work
           href: teams/lundano-org@work.md
         - name: Package Notifier
@@ -687,6 +697,10 @@
           href: teams/pandadoc.md
         - name: ParkHere Corporate
           href: teams/parkhere-gmbh-corporate.md
+        - name: PayaFy
+          href: teams/nimblesoft-inc-payafy.md
+        - name: Perdoo
+          href: teams/perdoo-gmbh.md
         - name: Perfect Wiki von RD17
           href: teams/ooo-rd17-perfect-wiki-by.md
         - name: Perfony
@@ -911,7 +925,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Teamwork
+        - name: Teamarbeit
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -927,7 +941,7 @@
           href: teams/cireson-tikit.md
         - name: TimeClock 365
           href: teams/softsale-timeclock-365.md
-        - name: timeghost – Zeitverfolgung
+        - name: timeghost – Zeiterfassung
           href: teams/kollisch-gmbh-timeghost-time-tracking.md
         - name: Timeneye
           href: teams/dm-digital-srl-timeneye.md
@@ -965,10 +979,14 @@
           href: teams/vtiger-crm.md
         - name: Waldo
           href: teams/kickle-waldo.md
+        - name: Wazoku
+          href: teams/wazoku.md
         - name: Webdashboard
           href: teams/in-summa-webdashboard.md
         - name: Webex Call
           href: teams/cisco-webex-call.md
+        - name: Weekdone
+          href: teams/weekdone-ltd.md
         - name: Weekly10
           href: teams/binary-geek-limited-weekly10.md
         - name: Weet Screen Recording
@@ -1054,6 +1072,8 @@
           href: word/lucid-software-inc-lucidchart-diagrams-for-word.md
         - name: Mendeley Cite
           href: word/elsevier-limited-mendeley-cite.md
+        - name: neopol
+          href: word/neopolis-gmbh.md
         - name: Office2SharePoint für Office
           href: word/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | Inhaltsauswahl für Office
@@ -1066,7 +1086,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -1074,6 +1094,8 @@
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
         - name: SmartCite für Papiere
           href: word/digital-science-smartcite-for-papers.md
+        - name: Stilus für Word
+          href: word/meaningcloud-stilus-for-word.md
         - name: TaxKit-Dokumente
           href: word/taxyio-gmbh-taxkit-docs.md
         - name: TerMef
@@ -1085,6 +1107,12 @@
     - name: SaaS-Apps
       href: saas/saas-apps.md
       items:
+        - name: Contact Center für Teams
+          href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
+        - name: Classroom.cloud
+          href: saas/netsupport-ltd-classroomcloud.md
+        - name: Cloudsicherung für Office 365 – Prod (transact)
+          href: saas/avepoint-inc-cloud-backup-for-office-365-prod-transact.md
         - name: CodeTwo-E-Mail-Signaturen für Office 365
           href: saas/codetwo-email-signatures-for-office-365.md
         - name: Inhaltsauswahl
@@ -1109,6 +1137,8 @@
           href: saas/netskope-for-microsoft-teams.md
         - name: Office2SharePoint
           href: saas/iglobe-office2sharepoint.md
+        - name: Richtlinien und Insights für Microsoft 365 (BYOL)
+          href: saas/avepoint-inc-policies-and-insights-for-microsoft-365-byol.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md
         - name: SalesTim
@@ -1358,6 +1388,8 @@
           href: azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md
         - name: 82eb2bf2-969c-46da-9e89-1db59ac4fbb3
           href: azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md
+        - name: 88546d4f-9973-4716-98e4-cd181c04bc2d
+          href: azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md
         - name: 89d5ca9f-d63b-4885-bd30-6e7433c1540c
           href: azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c.md
         - name: 8aa22b64-9a2c-403b-83c1-feaf774c764c
@@ -1374,7 +1406,7 @@
           href: azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md
         - name: 917edb36-f047-45cf-ad96-0e7e9ec7d8af
           href: azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af.md
-        - name: 950aa4fb-0583-4b13-9b5f-bb92b9cc376
+        - name: 950aa4fb-0583-4b13-9b5f-b92b9cc376
           href: azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376.md
         - name: 95fb5da0-6ced-4247-9d62-294f8fcb75df
           href: azure/95fb5da0-6ced-4247-9d62-294f8fcb75df.md
