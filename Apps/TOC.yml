@@ -59,9 +59,9 @@
           href: excel/supermetrics.md
         - name: Wunder365 für Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: Eingereichte XBRL-Daten
+        - name: XBRL-Archivierte Daten
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote-Apps
+    - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Inhaltsauswahl für Office
@@ -79,7 +79,7 @@
           href: outlook/altru-videos.md
         - name: Genehmigte Kontaktkalender
           href: outlook/approved-contact-calendars.md
-        - name: Outlook
+        - name: Für Outlook
           href: outlook/asana-for-outlook.md
         - name: CI-Signature
           href: outlook/ci-solution-gmbh-signature.md
@@ -137,7 +137,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM für E-Mails
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint Apps
+    - name: Microsoft PowerPoint-Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -186,7 +186,7 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
-        - name: Gewittertools – Blitze
+        - name: Blitzgeräte Gewittersenkte
           href: sharepoint/lightning-tools-conductor.md
         - name: officeatwork | Vorlagenauswahl für SharePoint
           href: sharepoint/officeatwork-officeatworktemplate-chooser-for-sharepoint.md
@@ -215,6 +215,8 @@
           href: teams/agile-is-task-board.md
         - name: ALVAO Service Desk
           href: teams/alvao-sro-service-desk.md
+        - name: Bernstein
+          href: teams/infeedo-amber.md
         - name: Ehrgeiz
           href: teams/ambition.md
         - name: AMEX GBT
@@ -1428,7 +1430,7 @@
           href: azure/8f79a561-d2f1-4a1e-8092-c2039043a40e.md
         - name: 917edb36-f047-45cf-ad96-0e7e9ec7d8af
           href: azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af.md
-        - name: 950aa4fb-0583-4b13-9b5f-bb92b9cc376
+        - name: 950aa4fb-0583-4b13-9b5f-b92b9cc376
           href: azure/950aa4fb-0583-4b13-9b5f-bbc92b9cc376.md
         - name: 95fb5da0-6ced-4247-9d62-294f8fcb75df
           href: azure/95fb5da0-6ced-4247-9d62-294f8fcb75df.md
