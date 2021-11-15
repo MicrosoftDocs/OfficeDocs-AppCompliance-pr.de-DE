@@ -2,28 +2,28 @@
 title: Sicherheit und Compliance von Microsoft Outlook Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/26/2021
+ms.date: 11/13/2021
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook-Apps.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook Apps.
 localization_priority: Normal
-ms.openlocfilehash: 8eef852ed64d2058bba7717c7747385213f62d99
-ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
+ms.openlocfilehash: 7cf7f2a9030afd27b4055bfe1432dedea06920fe
+ms.sourcegitcommit: e2058327f6190424ecc5d6d8b12afe60bd7dc1f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60682325"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60966431"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Outlook Apps
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Outlook Apps und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Outlook apps und add-ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign-Add-In für Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Altru Videos](./altru-videos.md) | Altru | **✓** |  |
 | [Genehmigte Kontaktkalender](./approved-contact-calendars.md) | Approved Contact | **✓** |  |
-| [Für Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
+| [Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
 | [CI-Signatur](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo für Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Commuty](./commuty.md) | Commuty | **✓** |  |
@@ -35,13 +35,13 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud for Outlook (Offiziell)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
 | [Verwaltung von LawToolBox-Stichtagen &amp; – Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
-| [LawToolBox ist wichtig für Outlook, Teams &amp; SharePoint](./lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md) | LawToolBox.com Inc. | **✓** |  |
+| [LawToolBox Deadline and Matter Management – Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
 | [MIPA – Ihr eigener persönlicher Assistent](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Alle blauen Lösungen | **✓** |  |
 | [Office2SharePoint für Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Inhaltsauswahl für Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail für Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace-Lösungen | **✓** |  |
-| [Vertriebsengagement für Outlook](./outreach-sales-engagement-for-outlook.md) | Reichweite | **✓** |  |
+| [Sales Engagement für Outlook](./outreach-sales-engagement-for-outlook.md) | Reichweite | **✓** |  |
 | [Pexip One für Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Prioritätsmatrix – Umwandeln von E-Mails in Aufgaben](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |

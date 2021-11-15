@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel-Apps
+    - name: Microsoft Excel Apps
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator für B2B-Partner
@@ -59,9 +59,9 @@
           href: excel/supermetrics.md
         - name: Wunder365 für Office
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
-        - name: XBRL-Archivierte Daten
+        - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote Apps
+    - name: Microsoft OneNote-Apps
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Inhaltsauswahl für Office
@@ -79,7 +79,7 @@
           href: outlook/altru-videos.md
         - name: Genehmigte Kontaktkalender
           href: outlook/approved-contact-calendars.md
-        - name: Für Outlook
+        - name: Outlook
           href: outlook/asana-for-outlook.md
         - name: CI-Signature
           href: outlook/ci-solution-gmbh-signature.md
@@ -103,8 +103,8 @@
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox Deadline and Matter Management – Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: 'LawToolBox ist für Outlook, Teams und SharePoint wichtig'
-          href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
+        - name: LawToolBox Deadline and Matter Management – Outlook
+          href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: MIPA – Ihr eigener persönlicher Assistent
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
         - name: ngDesk
@@ -115,7 +115,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail für Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Vertriebsengagement für Outlook
+        - name: Sales Engagement für Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One für Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -137,7 +137,7 @@
           href: outlook/zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md
         - name: Zoho CRM für E-Mails
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint-Apps
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -154,13 +154,13 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project Apps
+    - name: Microsoft Project-Apps
       href: project/project-apps.md
       items:
         - name: officeatwork | Vorlagenauswahl für Office
@@ -176,7 +176,7 @@
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: FormMachines Connector für SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
-        - name: Umschaltfläche für SharePoint
+        - name: Gaggle for SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
         - name: HelloSign für SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -194,7 +194,7 @@
           href: sharepoint/ataira-power-bi-collaboration.md
         - name: Intelligentere Ereignisbuchung
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
-    - name: Microsoft Teams Apps
+    - name: Microsoft Teams-Apps
       href: teams/teams-apps.md
       items:
         - name: 10xZiele
@@ -351,7 +351,7 @@
           href: teams/gifted-to-you-limited-collection-pot.md
         - name: Commander
           href: teams/nimbella-commander.md
-        - name: Company Navigator
+        - name: Unternehmensnavigator
           href: teams/konica-minolta-it-solutions-company-navigator.md
         - name: Complish
           href: teams/cauzey-pty-ltd-complish.md
@@ -459,7 +459,7 @@
           href: teams/fifty.md
         - name: File Fabric
           href: teams/storage-made-easy-file-fabric.md
-        - name: Fireflies AI
+        - name: Fireflies KI
           href: teams/firefliesai-fireflies-ai.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
@@ -567,6 +567,8 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
+        - name: MEHRSPRACHIGE KUDO-Besprechungen
+          href: teams/kudo-inc-multilingual-meetings.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
@@ -685,7 +687,7 @@
           href: teams/nulia-works.md
         - name: OfficeAmp
           href: teams/anaek-inc-officeamp.md
-        - name: OfficeRnD-Hybridarbeit
+        - name: OfficeRnD Hybrid Work
           href: teams/officernd-hybrid-work.md
         - name: OfficeSpace
           href: teams/officespace-software.md
@@ -1106,7 +1108,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -1328,6 +1330,8 @@
           href: azure/5022e09d-d2f9-499f-8925-554c324ad23a.md
         - name: 50356ee3-b48b-424b-a7a7-35e53c2ce736
           href: azure/50356ee3-b48b-424b-a7a7-35e53c2ce736.md
+        - name: 5123b34d-663d-4ae9-a3c9-d2298be203f2
+          href: azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md
         - name: 512b84d2-5840-45d6-8d01-5f073836d039
           href: azure/512b84d2-5840-45d6-8d01-5f073836d039.md
         - name: 51e2b67d-9854-446a-8da1-cdd89ef0b987
