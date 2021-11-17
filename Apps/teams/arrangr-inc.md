@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für Arrangr von Arrangr, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/19/2021
+ms.date: 11/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Arrangr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: f4a5df023e906ad18e260debe09953351210d5bc
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 1f1798cd6741c6cafdd33defe8b8e713ac58eab5
+ms.sourcegitcommit: 7989546de4aa2bbd2a751281d1aa215facae2d15
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60427867"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61040987"
 ---
 # <a name="arrangr"></a>Arrangr
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 15, 2021</p>
+<p>Last updated by the developer on: November 15, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/57de46f8-193a-400c-9a34-c862333aed55" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002975" target="_blank">Ansicht in AppSource</a>
@@ -34,12 +34,15 @@ Von Arrangr, Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Arrangr |
 | ID | WA200002975 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Arrangr, Inc. |
-| URL der Partnerwebsite | [https://arrangr.com](https://arrangr.com) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://arrangr.com/welcome](https://arrangr.com/welcome) |
-| URL der Datenschutzrichtlinie | [https://arrangr.com/privacy_policy](https://arrangr.com/privacy_policy) |
-| URL der Nutzungsbedingungen | [https://arrangr.com/terms_of_use](https://arrangr.com/terms_of_use) |
+| Website des Unternehmens | [https://arrangr.com](https://arrangr.com) |
+| Nutzungsbedingungen der App | [https://arrangr.com/terms_of_use](https://arrangr.com/terms_of_use) |
+| Kernfunktionen der App | Arrangr ist ein intelligenter integrierter Planer für jede Besprechung. Ob persönlich oder remote, 1:1 oder mit einer Gruppe– Arrangr ist einfach und schnell. Arrangr lässt sich in Microsoft-Kalender integrieren, um Ihre gebuchten Zeiten einfach und schnell zu blockieren, Ihren Zeitplan zu visualisieren und sicherzustellen, dass Ihre Besprechungen in Ihren Kalender eingefügt werden. Darüber hinaus können Sie mit unserer Teams Integration ganz einfach Einladungen mit Teamkameraden teilen, neue Besprechungen innerhalb Teams initiieren und Ihre Arrangr-Besprechungen auf einer Teams Registerkarte nachverfolgen. |
+| Firmenstandort | Vereinigte Staaten von Amerika |
+| Seite "App-Informationen" | |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
+| Welche Hosting-Cloudanbieter verwendet die App? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,81 +54,123 @@ Von Arrangr, Inc. für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Arrangr, Inc. bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
-
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
-
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Wir erfassen Namen der Kalender von Benutzern und Details zu ihren Kalenderereignissen, um die Planung von Besprechungen zu vereinfachen. | Wir speichern die Namen aller Kalender, die sie verbunden haben, damit sie sehen und ändern können, welche Kalender sie verbunden haben. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Channel.ReadBasic.All | Delegiert | Sammeln Sie eine Liste der Kanäle, die den Benutzern zur Verfügung stehen, damit wir ihnen eine Liste ihrer Kanäle anzeigen können, in die sie einen auswählen können, in den eine Arrangr-Einladung geteilt werden soll. | Wir speichern keine Informationen auf den Kanälen des Benutzers. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| ChannelMessage.Send | Delegiert | Diese Berechtigung wird verwendet, um Arrangr-Einladungen im Namen des Benutzers an Teamkanäle zu senden. Es wird nicht zum Sammeln von Daten verwendet. | Es werden keine Daten gespeichert, die mit dieser Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Chat.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um Arrangr-Einladungen in einen Teams Chat im Namen des Benutzers zu senden. Diese Berechtigung wird nicht zum Sammeln von Daten verwendet. | Es werden keine Daten gespeichert, die mit dieser Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| ChatMessage.Send | Delegiert | Diese Berechtigung wird verwendet, um Arrangr-Einladungen in 1:1- und Gruppenchats im Namen des Benutzers zu senden. Es wird nicht zum Sammeln von Daten verwendet. | Es werden keine Daten gespeichert, die mit dieser Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| OnlineMeetings.ReadWrite | Delegiert | Arrangr sammelt Microsoft Teams Besprechungslinks, um diese mit dieser Berechtigung zu generieren. Wir generieren Teams Besprechungen im Namen des Benutzers, damit er Teams Anrufe auf Arrangr anordnen kann. | Wir speichern die Besprechungslinks, damit sie für die entsprechenden Parteien freigegeben werden können, um an der Besprechung teilzunehmen. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| People.Read | Delegiert | Wir erfassen Namen und E-Mails von Personen, die für den Benutzer relevant sind. Auf diese Weise können wir dem Benutzer die Auswahl als Empfänger von Arrangr-Einladungen erleichtern. | Wenn der Benutzer einen Empfänger auswählt, der über diese API angeboten wird, speichern wir den Namen und die E-Mail des Empfängers, um die Besprechung durchzuführen und es dem Benutzer zu erleichtern, ihn in Zukunft erneut als Empfänger auszuwählen. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Team.ReadBasic.All | Delegiert | Wir erfassen die Namen der Teams des Benutzers, sodass er auswählen kann, in welchem Teams er eine Verbindung mit Arrangr herstellen möchte und in welches Team er eine Arrangr-Einladung teilen möchte. | Arrangr speichert die Namen von Teams der Benutzer sich entschieden hat, mit Arrangr zu verknüpfen, sodass diese Teams in den Einstellungen angezeigt werden können und sie bei der Entscheidung, wo eine Arrangr-Einladung freigegeben werden soll, aus diesen Teams auswählen können. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | Wir lesen, ob unsere App im Teams Konto des Benutzers installiert wurde, damit wir sie fragen können, ob sie unsere App installieren möchten, und dass wir sie für sie installieren können. | Wir speichern keine Daten, die über diese Berechtigung gesammelt werden. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
->| Profil | Delegiert | Name und E-Mail-Adresse | Name und E-Mail-Adresse, um dem Benutzer anzuzeigen, welches Konto er mit unserem Dienst verbunden hat. | [57de46f8-193a-400c-9a34-c862333aed55](https://docs.microsoft.com/microsoft-365-app-certification/azure/57de46f8-193a-400c-9a34-c862333aed55) |
-
-#### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
-
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph zum Sammeln oder Verarbeiten von organisationsbezogenen Informationen (OII). Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
-
->| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| Outlook | Ja | Name, E-Mail, Kalendernamen, Kalenderereignisinformationen | Wir erfassen diese Informationen, damit Benutzer ihren Kalender mit Arrangr verbinden können, um die Planung von Besprechungen zu vereinfachen. | Name, E-Mail, Kalendernamen | Wir speichern diese Informationen, damit wir den Benutzern zeigen können, welche Konten und Kalender sie mit unserem Dienst verbunden haben. |
-
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
-
-Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
-
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Cloud, SendGrid, Stripe, Quaderno | Google Cloud speichert alle Benutzerdaten, Benutzernamen und E-Mails werden mit SendGrid geteilt, um E-Mails an Benutzer zu senden, stripe erhält Benutzernamen, E-Mails und Zahlungsinformationen für die Verarbeitung von Zahlungen. Quaderno erhält Benutzernamen, E-Mails und geografische Informationen, um die Einhaltung der Umsatzsteuer zu unterstützen. | Google Cloud wird zum Speichern von Daten benötigt, um Benutzer zu speichern und die Informationen bereitzustellen, die sie in Arrangr gespeichert haben. Um E-Mails an unsere Nutzungen zu senden, müssen wir deren E-Mail-Adressen an SendGrid senden. Um Zahlungen zu sammeln, müssen wir ihre Zahlungsinformationen in Stripe verarbeiten, aber wir speichern ihre Zahlungsinformationen nicht auf unseren eigenen Servern. Quaderno ist erforderlich, um die Mehrwertsteuer zu berechnen und sicherzustellen, dass wir die Bestimmungen der Mehrwertsteuer einhalten. |
-
-#### <a name="data-access-via-bots"></a>Datenzugriff über Bots
-
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
-
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Benutzer verwenden unsere Messaging-Erweiterung, um Besprechungen mit anderen zu planen. Wir müssen dem Benutzer das Konto anzeigen, bei dem er angemeldet ist, und wir müssen in der Lage sein, die einladung, die er sendet, dem richtigen Arrangr-Benutzer zuzuordnen. | Benutzernamen, E-Mails und Kommunikationsinformationen. | Diese Informationen sind erforderlich, um Besprechungen zwischen mehreren Parteien zu koordinieren und die Details für die Verbindung und die Person, mit der sie sich treffen, zu teilen. |
-
-
-#### <a name="telemetry-data"></a>Telemetriedaten
-
-Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
-
->In den Telemetrie- oder Protokollen der Anwendungen werden keine OII oder EUII angezeigt.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
-
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
-
->Wir steuern die im Google Cloud Datastore gespeicherten Daten über deren API und können alle benötigten Daten löschen. Unsere Benutzer können die Entfernung ihrer Konten und die Löschung ihrer Daten anfordern.
-
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
-
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
-
->Ja
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
+| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Unterstützt die App TLS 1.1 oder höher? | Ja |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzername und E-Mail, Namen ihrer Kalender, Kalenderkonferenzlinks, Namen von Teams. |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
+| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Identitätsinformationen
-
-Diese Informationen wurden von Arrangr, Inc. bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
+| Führen Sie jährliche Penetrationstests für die App durch? | Nein |
+| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? | TraditionalAntiMalware, ApplicationControls |
+| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? | Ja |
+| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? | Nein |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? | Nein |
+| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nein |
+| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? | Nein |
+| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? | Nein |
+| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Nein |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
+| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nein |
+| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Nein |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
+| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Nein |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Letztes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
+| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
+| Letztes SOC3-Zertifizierungsdatum | |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Ja |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? | Ja |
+| URL der Datenschutzrichtlinie | https://arrangr.com/privacy_policy |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
+| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? | Nein |
+| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
+| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Ja |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Ja |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
+| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Unterstützt Ihre App continuous Access Evaluation (CAE) | Nein |
+| Speichert Ihre App Anmeldeinformationen im Code? | Nein |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
+
+>Diese Anwendung verwendet microsoft Graph nicht.
+
+>Diese Anwendung verfügt nicht über zusätzliche APIs.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

@@ -5,20 +5,19 @@ author: elenamalova
 ms.date: 11/01/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Richtlinien &amp; Insights für Microsoft 365 (BYOL), die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+certification_type: certified
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Richtlinien &amp; Insights für Microsoft 365 (BYOL), seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2f86ce69199b8573824f5207ea1e7b78147b73ea
-ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
+ms.openlocfilehash: 45bd93418e3b6b2c5f3b613f2c7467cd238c8213
+ms.sourcegitcommit: 7989546de4aa2bbd2a751281d1aa215facae2d15
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60874960"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61039967"
 ---
 # <a name="policies-amp-insights-for-microsoft-365-byol"></a>Richtlinien &amp; Insights für Microsoft 365 (BYOL)
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: October 26, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/avepoint.policies-insights_mo365_byol" target="_blank">Ansicht in AppSource</a>
@@ -36,7 +35,7 @@ Von AvePoint Inc. für Microsoft bereitgestellte Informationen:
 | Name des Partnerunternehmens | AvePoint Inc. |
 | Website des Unternehmens | [https://www.avepoint.com](https://www.avepoint.com) |
 | Nutzungsbedingungen der App | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Kernfunktionen der App | Gewinnen Von Sicherheitserkenntnissen und Anwenden automatisierter Richtlinien auf Teams, Gruppen, SharePoint und OneDrive |
+| Kernfunktionen der App | Sicherheitserkenntnisse erhalten und automatisierte Richtlinien auf Teams, Gruppen, SharePoint und OneDrive anwenden |
 | Firmenstandort | Vereinigte Staaten von Amerika |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -167,7 +166,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| Sites.FullControl.All | Anwendung | Abrufen und Aktualisieren der Informationen von Websitesammlungen und Gruppen/Teams&#8217; Websites. |
 >| User.Read.All | Anwendung | Lesen der Einstellungen aller Benutzer |
