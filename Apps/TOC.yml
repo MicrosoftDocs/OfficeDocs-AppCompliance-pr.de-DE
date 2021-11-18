@@ -79,7 +79,7 @@
           href: outlook/altru-videos.md
         - name: Genehmigte Kontaktkalender
           href: outlook/approved-contact-calendars.md
-        - name: Outlook
+        - name: Für Outlook
           href: outlook/asana-for-outlook.md
         - name: CI-Signature
           href: outlook/ci-solution-gmbh-signature.md
@@ -160,7 +160,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project-Apps
+    - name: Microsoft Project Apps
       href: project/project-apps.md
       items:
         - name: officeatwork | Vorlagenauswahl für Office
@@ -172,11 +172,11 @@
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: Agile Task Board für SharePoint Online
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
-        - name: ArcGIS für SharePoint
+        - name: ArcGIS for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: FormMachines Connector für SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
-        - name: Gaggle for SharePoint
+        - name: Umschaltfläche für SharePoint
           href: sharepoint/gagglenet-inc-gaggle-for-sharepoint.md
         - name: HelloSign für SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -567,7 +567,7 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
-        - name: MEHRSPRACHIGE KUDO-Besprechungen
+        - name: Mehrsprachige KUDO-Besprechungen
           href: teams/kudo-inc-multilingual-meetings.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
@@ -1348,8 +1348,6 @@
           href: azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md
         - name: 56412014-bafe-474e-95b4-ebfea106a167
           href: azure/56412014-bafe-474e-95b4-ebfea106a167.md
-        - name: 57de46f8-193a-400c-9a34-c862333aed55
-          href: azure/57de46f8-193a-400c-9a34-c862333aed55.md
         - name: 5971c986-9d39-409c-a6f8-1385b1f690ef
           href: azure/5971c986-9d39-409c-a6f8-1385b1f690ef.md
         - name: 597cc93d-8951-4f62-b549-eca97ba5c042
