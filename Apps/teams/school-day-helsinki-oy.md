@@ -1,44 +1,45 @@
 ---
-title: Anwendungsinformationen für LawToolBox Deadline and Matter Management – Outlook von LawToolBox.com Inc.
+title: Application Information for School Day by School Day Modal Oy
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/24/2021
+ms.date: 10/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für LawToolBox Deadline and Matter Management – Outlook, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für School Day, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
+ms.openlocfilehash: 87ac7c69b2087c9960d9c6116e2682db1be786b2
 ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148123"
+ms.locfileid: "61148166"
 ---
-# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox Deadline and Matter Management – Outlook
+# <a name="school-day"></a>School Day
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 24, 2021</p>
+<p>Last updated by the developer on: October 12, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/7caaa66b-34b0-4c15-a65d-dba6edf0c8fd" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001430" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von LawToolBox.com Inc. an Microsoft bereitgestellt werden:
+Informationen, die Von School Day Modal Oy an Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | LawToolBox Deadline and Matter Management – Outlook |
-| ID | WA200003103 |
-| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
-| Name des Partnerunternehmens | LawToolBox.com Inc. |
-| Website des Unternehmens | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
-| Nutzungsbedingungen der App | [https://www.lawtoolbox.com/customersupport/2019/LawToolBox_...](https://www.lawtoolbox.com/customersupport/2019/LawToolBox_End_User_License_Agreement_and_SLA_LAWTOOLBOX_2019_APR.pdf) |
-| Kernfunktionen der App | Verwalten von Stichtagen und Suchen nach Dateien mit unseren Microsoft 365 Integrationen für Juristische |
-| Firmenstandort | Vereinigte Staaten von Amerika |
+| App-Name | School Day |
+| ID | WA200001430 |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | School Day Helsinki Oy |
+| Website des Unternehmens | [https://www.schoolday.com](https://www.schoolday.com) |
+| Nutzungsbedingungen der App | [https://www.schoolday.com/eula](https://www.schoolday.com/eula) |
+| Kernfunktionen der App | Verbessern Sie das Wohlbefinden von Schülern und Social-Emotional Learning (SEL) mit School Day am Microsoft Teams! |
+| Firmenstandort | Finnland |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
 
@@ -50,7 +51,7 @@ Informationen, die von LawToolBox.com Inc. an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von LawToolBox.com Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von School Day Modal Oy zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -59,7 +60,7 @@ Diese Informationen wurden von LawToolBox.com Inc. darüber bereitgestellt, wie 
 | Welche Daten werden in Ihren Datenbanken gespeichert? |  |
 | Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb eines Monats gelöscht |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
 | Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
@@ -74,8 +75,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Führen Sie jährliche Penetrationstests für die App durch? | Nr. |
-| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Nr. |
+| Führen Sie jährliche Penetrationstests für die App durch? | Ja |
+| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
 | Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? |  |
 | Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? |  |
 | Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? |  |
@@ -104,7 +105,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Ja |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
@@ -113,15 +114,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nr. |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Ja |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nr. |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nr. |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nr. |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nr. |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nr. |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Ja |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Ja |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Ja |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nr. |
 
@@ -154,13 +155,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
-| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
-| Auflisten der unterstützten Richtlinientypen | Für eine bessere Kontrolle kann der Administrator App-Berechtigungen implementieren |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nr. |
 | Unterstützt Ihre App continuous Access Evaluation (CAE) |  |
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
-| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nr. |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
