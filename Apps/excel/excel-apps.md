@@ -2,17 +2,17 @@
 title: sicherheit und Compliance von Microsoft Excel Apps – alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/08/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Excel Apps.
 localization_priority: Normal
-ms.openlocfilehash: 8e82269d80d00dcbb6c0b078fb3f140e21a2c237
-ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
+ms.openlocfilehash: f5e36298554672e6cb7c22cb84d32c68d902cb37
+ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066393"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61145227"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Excel Apps
 
@@ -23,6 +23,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Canon EMEA Service Cost Calculator für B2B-Partner](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics für NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
 | [Excel-zu-Word-Dokumentautomatisierung](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [For über sich selbst](./forbury-property.md) | Forbury-Eigenschaft | **✓** |  |
 | [harmon.ie für Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Impression-Signaturen](./impression-signatures.md) | Impression-Signaturen | **✓** |  |
 | [iPlanner-Berichterstellungstool für Office 365 Planner](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
