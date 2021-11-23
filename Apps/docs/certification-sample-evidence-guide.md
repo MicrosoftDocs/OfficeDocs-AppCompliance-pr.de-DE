@@ -1,37 +1,38 @@
 ---
-title: Microsoft 365 Zertifizierung – Beispielbeweishandbuch
+title: Microsoft 365 Zertifizierung – Beispielnachweishandbuch
 author: OrionOmalley
 ms.author: oromalle
-description: Microsoft 365 Beispielleitfaden für die Übermittlung von Zertifizierungsnachweisen – Übersicht
+description: Microsoft 365 – Beispielleitfaden für die Übermittlung von Zertifizierungsnachweisen
 keywords: Beispiel für app-Zertifizierungsnachweis Microsoft 365 AppSource-Zertifizierung – Richtlinien für die Übermittlung von Nachweisen
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 92584b5ca70403d01696890ba8af093a36ca9009
-ms.sourcegitcommit: dfd937182e08ed377a5ad80f0db929ab7d7c7a7b
+ms.openlocfilehash: 5e619ffe1f89f675b473f90dead3c0bc550ae41a
+ms.sourcegitcommit: 7975c249abac22ca1a8c7c9b592d4404bea10cf4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60790603"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61151820"
 ---
-# <a name="microsoft-365-certification---sample-evidence-guide"></a>Microsoft 365 Zertifizierung – Beispielbeweishandbuch
+# <a name="microsoft-365-certification---sample-evidence-guide"></a>Microsoft 365 Zertifizierung – Beispielnachweishandbuch
 
 ## <a name="overview"></a>Übersicht
 
-Dieser Leitfaden wurde erstellt, um ISVs Unterstützung auf der Ebene der detaillierten, für die Microsoft 365 Zertifizierungssteuerelemente erforderlichen Ebene bereitzustellen. Darüber hinaus enthält sie Anleitungen zum Strukturieren der Übermittlung von Nachweisen sowie Beispiele für die Arten von Nachweisen, die potenziell verwendet werden können, um die Zertifizierungssteuerelemente zu erfüllen. Alle in diesem Dokument freigegebenen Beispiele stellen nicht den einzigen Nachweis dar, der verwendet werden kann, um zu gewährleisten, dass die Kontrollen erfüllt werden, sondern dienen nur als Richtlinie für die Art von Informationen, die den Zertifizierungsanalysten die erforderlichen Nachweise liefern können, um ihnen bei dieser Assertion zu helfen. Bitte beachten Sie: – Die tatsächlichen Schnittstellen, Screenshots und Dokumentationen, die zur Erfüllung der Anforderungen verwendet werden, variieren je nach Produktverwendung, Systemeinrichtung und internen Prozessen. Beachten Sie außerdem, dass der ISV bei Bedarf eine Richtlinien- oder Prozedurdokumentation benötigt, um die ACTUAL-Dokumente und keine Screenshots zu senden, wie möglicherweise in einigen der Beispiele gezeigt. Es wird empfohlen, dass Sie diese Richtlinien befolgen, um zu vermeiden, dass ihre Bewertung aufgrund unzureichender Nachweise verzögert wird. 
+Dieses Handbuch wurde erstellt, um ISVs Beispiele für die Art der Nachweise und die Detailebene bereitzustellen, die für jedes der Microsoft 365 Zertifizierungssteuerelemente erforderlich sind. Alle in diesem Dokument freigegebenen Beispiele stellen nicht den einzigen Nachweis dar, der verwendet werden kann, um zu veranschaulichen, dass Steuerelemente erfüllt werden, sondern dienen nur als Richtlinie für die Art der erforderlichen Nachweise. 
+
+Bitte beachten Sie: Die tatsächlichen Schnittstellen, Screenshots und Dokumentationen, die zur Erfüllung der Anforderungen verwendet werden, variieren je nach Produktverwendung, Systemeinrichtung und internen Prozessen. Beachten Sie außerdem, dass der ISV bei Bedarf eine Richtlinien- oder Prozedurdokumentation benötigt, um die ACTUAL-Dokumente und keine Screenshots zu senden, wie möglicherweise in einigen der Beispiele gezeigt. 
 
 Es gibt zwei Abschnitte in der Zertifizierung, die Übermittlungen erfordern:
 1. [**Die anfängliche Dokumentübermittlung:**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/initialdocumentsubguide) eine kleine Gruppe von Dokumenten auf hoher Ebene, die für die Bereichsdefinition Ihrer Bewertung erforderlich sind.
-1. Die Übermittlung von **Nachweisen:** der vollständige Nachweissatz, der für jedes steuerelementbezogene Steuerelement für Ihre Zertifizierungsbewertung erforderlich ist. Beispiele für Nachweise für jedes Steuerelement finden Sie unten.
-
+1. Die Übermittlung von **Nachweisen:** der vollständige Nachweissatz, der für jedes steuerelementbezogene Steuerelement für Ihre Zertifizierungsbewertung erforderlich ist. 
 
 ## <a name="structure"></a>Structure 
 
-Dies korreliert direkt mit den Kategorien, die im Leitfaden für Online-Microsoft 365-Zertifizierungsübermittlungen angegeben sind. Bitte beachten Sie, dass es am besten ist, diesen Leitfaden direkt zusammen mit der bereitgestellten Microsoft 365 Prüflistenkalkulation zu verwenden, um ein Missverständnis zu vermeiden, auf das sich die einzelnen Beispiele in dieser Richtlinie beziehen. Die in diesem Dokument bereitgestellten Anleitungen sind wie folgt detailliert:
+Dieses Dokument ist direkt den Steuerelementen zugeordnet, die Ihnen während der Zertifizierung im Partner Center angezeigt werden. Die in diesem Dokument bereitgestellten Anleitungen sind wie folgt detailliert:
 - Sicherheitsdomäne: Die drei Sicherheitsdomänen, in die alle Steuerelemente gruppiert sind: Anwendungssicherheit, Betriebssicherheit und Datensicherheit und Datenschutz.
-- Steuerelemente: = Beschreibung der Bewertungsaktivität – Diese Steuerelemente und die zugeordnete Nummer (Nein) werden direkt aus der Microsoft 365 Zertifizierungscheckliste entnommen.  
+- Steuerelemente: = Beschreibung der Bewertungsaktivität – Diese Steuerelemente und die zugeordnete Nummer (Nein) werden direkt aus der Microsoft 365 Zertifizierungsprüfliste entnommen.  
 - Intent: = Die Absicht, warum die Sicherheitssteuerung in das Programm einbezogen wird, und das spezifische Risiko, das es mindern soll.  Es besteht die Möglichkeit, dass diese Informationen ISVs die Gründe für das Steuerelement liefern, um die Arten von Nachweisen, die gesammelt werden müssen, besser zu verstehen und zu verstehen, auf welche ISV achten müssen und welche Kenntnisse und Kenntnisse sie bei der Erstellung ihrer Nachweise haben müssen.
 - Beispielrichtlinien für Nachweise: = Wird als Leitfaden für die Aufgaben der Beweissammlung in der Microsoft 365 Prüflistentabelle für die Zertifizierung angegeben, können die ISV-Mitarbeiter auf diese Weise deutlich Beispiele für die Art der Nachweise anzeigen, die vom Zertifizierungsanalysten verwendet werden können, der es verwenden wird, um eine sichere Entscheidung zu treffen, ob ein Steuerelement vorhanden ist und beibehalten wird – es ist keinesfalls vollständig.
-- Beispiel für Nachweise: = Dieser Abschnitt enthält Beispiel-Screenshots und Bilder potenzieller Nachweise, die für die einzelnen Steuerelemente in der Microsoft 365 Prüflistenkalkulation erfasst werden, insbesondere für die Domänen "Betriebssicherheit" und "Datensicherheit und Datenschutzsicherheit" (Registerkarten in der Tabelle). Bitte beachten Sie alle Informationen mit roten Pfeilen und Feldern in den Beispielen, um Ihr Verständnis der Anforderungen zu unterstützen, die erforderlich sind, um jedes Steuerelement zu erfüllen.
+- Beispiel für Nachweise: = Dieser Abschnitt enthält Beispielfotos und Bilder potenzieller Nachweise, die für die einzelnen Steuerelemente in der Microsoft 365 Prüflistenkalkulation erfasst werden, insbesondere für die Domänen "Betriebssicherheit" und "Datensicherheit und Datenschutzsicherheit" (Registerkarten in der Tabelle). Bitte beachten Sie alle Informationen mit roten Pfeilen und Feldern in den Beispielen, um Ihr Verständnis der Anforderungen zu unterstützen, die erforderlich sind, um jedes Steuerelement zu erfüllen.
 
 
 ## <a name="security-domain-application-security"></a>Sicherheitsdomäne: Anwendungssicherheit
@@ -175,7 +176,7 @@ Diese Sicherheitssteuerungsgruppe gilt für PaaS-Hostingumgebungen (Platform-as-
 
 **Steuerelement Nr. 10:** Bereitstellen einer Richtliniendokumentation, die bestimmt, wie neue Sicherheitsrisiken identifiziert und einer Risikobewertung zugewiesen werden.
 
-- Absicht: Die Absicht dieses Steuerelements besteht darin, über unterstützende Dokumentationen zu verfügen, um sicherzustellen, dass Sicherheitsrisiken schnell erkannt werden, um das Zeitfenster zu verringern, das Bedrohungsteilnehmer haben, um diese Sicherheitsrisiken zu nutzen. Es muss ein robuster Mechanismus vorhanden sein, um Sicherheitsrisiken zu identifizieren, die alle von den Organisationen verwendeten Systemkomponenten abdecken. Beispielsweise Betriebssysteme (Windows Server, Ubuntu usw.), Anwendungen (Tomcat, MS Exchange, SonnenWinds usw.), Codeabhängigkeiten (AngularJS, jQuery usw.). Organisationen müssen nicht nur die rechtzeitige Identifizierung von Sicherheitsrisiken innerhalb des Vermögens sicherstellen, sondern auch alle Sicherheitsrisiken entsprechend bewerten, um sicherzustellen, dass die Behebung innerhalb eines geeigneten Zeitrahmens basierend auf dem Risiko durchgeführt wird, das die Sicherheitslücke darstellt.
+- Absicht: Die Absicht dieses Steuerelements besteht darin, über unterstützende Dokumentationen zu verfügen, um sicherzustellen, dass Sicherheitsrisiken schnell erkannt werden, um das Zeitfenster zu verringern, das Bedrohungsteilnehmer haben, um diese Sicherheitsrisiken zu nutzen. Es muss ein robuster Mechanismus vorhanden sein, um Sicherheitsrisiken zu identifizieren, die alle von den Organisationen verwendeten Systemkomponenten abdecken. z. B. Betriebssysteme (Windows Server, Ubuntu usw.), Anwendungen (Tomcat, MS Exchange, PvWinds usw.), Codeabhängigkeiten (AngularJS, jQuery usw.). Organisationen müssen nicht nur die rechtzeitige Identifizierung von Sicherheitsrisiken innerhalb des Vermögens sicherstellen, sondern auch alle Sicherheitsrisiken entsprechend bewerten, um sicherzustellen, dass die Behebung innerhalb eines geeigneten Zeitrahmens basierend auf dem Risiko durchgeführt wird, das die Sicherheitslücke darstellt.
 
 **Hinweis** Auch wenn Sie in einer reinen Platform as a Service-Umgebung ausgeführt werden, sind Sie dennoch dafür verantwortlich, Sicherheitsrisiken innerhalb Ihrer Codebasis zu identifizieren, z. B. Bibliotheken von Drittanbietern.
 
@@ -185,13 +186,13 @@ Diese Sicherheitssteuerungsgruppe gilt für PaaS-Hostingumgebungen (Platform-as-
 
 ![Bild](../media/UserGuidePhotos/Control-No-10.png)
 
-**Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. IsVs erwarten, dass sie die tatsächliche unterstützende Richtlinien-/Prozedurdokumentation freigeben und nicht einfach eine screenshot._
+**Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. IsVs erwarten, dass sie die tatsächliche Unterstützende Richtlinien-/Prozedurdokumentation freigeben und nicht einfach eine screenshot._
 
 **Steuerelement Nr. 11:** Bereitstellen von Nachweisen dafür, wie neue Sicherheitsrisiken identifiziert werden.
 
-- Absicht: Dieses Steuerelement soll sicherstellen, dass der Prozess befolgt wird und&#39;robust genug sein, um neue Sicherheitsrisiken in der gesamten Umgebung zu identifizieren. Dies sind möglicherweise nicht nur die Betriebssysteme. Kann Anwendungen enthalten, die in der Umgebung ausgeführt werden, sowie codeabhängigkeiten.
+- Absicht: Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass der Prozess befolgt wird und&#39;robust genug ist, um neue Sicherheitsrisiken in der gesamten Umgebung zu identifizieren. Dies sind möglicherweise nicht nur die Betriebssysteme. Kann Anwendungen enthalten, die in der Umgebung ausgeführt werden, sowie codeabhängigkeiten.
 
-- Beispielrichtlinien für Nachweise: Nachweise können durch anzeigen von Abonnements für Mailinglisten, manuelle Überprüfung von Sicherheitsquellen für neu veröffentlichte Sicherheitsrisiken (müssten mit Zeitstempeln der Aktivitäten, d. h. mit JIRA oder Azure DevOps), Tools bereitgestellt werden, die veraltete Software finden (z. B. Snyk bei der Suche nach veralteten Softwarebibliotheken,  oder kann Nessus mit authentifizierten Scans sein, die veraltete Software identifizieren.)
+- Beispielrichtlinien für Nachweise: Nachweise können durch Anzeigen von Abonnements für Mailinglisten, manuelle Überprüfung von Sicherheitsquellen auf neu veröffentlichte Sicherheitsrisiken (müssten mit Zeitstempeln der Aktivitäten, z. B. mit JIRA oder Azure DevOps), Tools, die veraltete Software finden (z. B. Snyk bei der Suche nach veralteten Softwarebibliotheken, oder Nessus mithilfe authentifizierter Scans, die identifizieren, bereitgestellt werden  veraltete Software.
 
 **Hinweis** Wenn Sie Nessus verwenden, müsste dies regelmäßig ausgeführt werden, um Sicherheitsrisiken schnell zu erkennen. Wir empfehlen dies mindestens wöchentlich.
 
@@ -205,7 +206,7 @@ Diese Sicherheitssteuerungsgruppe gilt für PaaS-Hostingumgebungen (Platform-as-
 
 - Absicht: Patching muss auf dem Risiko basieren, je riskanter die Sicherheitslücke, desto schneller muss es behoben werden. Die Risikobewertung identifizierter Sicherheitsrisiken ist ein integraler Bestandteil dieses Prozesses. Mit diesem Steuerelement soll sichergestellt werden, dass ein dokumentierter Risikobewertungsprozess ausgeführt wird, um sicherzustellen, dass alle identifizierten Sicherheitsrisiken entsprechend dem Risiko bewertet werden. Organisationen verwenden in der Regel die CVSS-Bewertung (Common Vulnerability Scoring System), die von Anbietern oder Sicherheitsexperten bereitgestellt wird. Wenn sich die Organisation auf CVSS stützt, wird empfohlen, dass ein Mechanismus für die erneute Rangfolge in den Prozess einbezogen wird, damit die Organisation die Rangfolge basierend auf einer internen Risikobewertung ändern kann. Manchmal ist die Sicherheitsanfälligkeit aufgrund der Art und Weise, wie die Anwendung in der Umgebung bereitgestellt wurde, möglicherweise keine Anwendung. Beispielsweise kann eine Java-Sicherheitslücke veröffentlicht werden, die sich auf eine bestimmte Bibliothek auswirkt, die nicht von der Organisation verwendet wird.
 
-- Beispielrichtlinien für Nachweise: Stellen Sie Nachweise anhand eines Screenshots oder auf andere Weise bereit, z. B. DevOps/Jira, der zeigt, dass Sicherheitsrisiken den Risikobewertungsprozess durchlaufen und der Organisation eine entsprechende Risikobewertung zugewiesen wird.
+- Beispielrichtlinien für Nachweise: Stellen Sie Nachweise anhand eines Screenshots oder auf andere Weise bereit, z. B. DevOps/Jira, das zeigt, dass Sicherheitsrisiken den Risikobewertungsprozess durchlaufen und der Organisation eine entsprechende Risikobewertung zugewiesen wird.
 
 - Beispielbeweis: Dieser Screenshot zeigt die Risikobewertung innerhalb von Spalte D und die erneute Rangfolge in den Spalten F und G, wenn die Organisation eine Risikobewertung durchführt und feststellt, dass das Risiko herabgestuft werden kann. Nachweise für eine erneute Bewertung von Risikobewertungen müssten als unterstützende Nachweise bereitgestellt werden.
 
@@ -227,7 +228,7 @@ Diese Sicherheitssteuerungsgruppe gilt für PaaS-Hostingumgebungen (Platform-as-
 
 ![Bild](../media/UserGuidePhotos/Control-No-13.png)
 
-**Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. IsVs erwarten, dass sie die tatsächliche unterstützende Richtlinien-/Prozedurdokumentation freigeben und nicht einfach eine screenshot._
+**Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. IsVs erwarten, dass sie die tatsächliche Unterstützende Richtlinien-/Prozedurdokumentation freigeben und nicht einfach eine screenshot._
 
 **Steuerelement Nr. 14:** Liefern Sie demonstratablen Nachweis, dass alle stichprobenierten Systemkomponenten gepatcht werden.
 
@@ -237,7 +238,7 @@ Diese Sicherheitssteuerungsgruppe gilt für PaaS-Hostingumgebungen (Platform-as-
 
 - Beispielrichtlinien für Nachweise: Bereitstellen eines Screenshots für _jedes Gerät_ im Beispiel und unterstützende Softwarekomponenten, die zeigen, dass Patches in Übereinstimmung mit dem dokumentierten Patchingprozess installiert sind.
 
-- Beispielbeweis: Der folgende Screenshot zeigt, dass die In-Scope-Systemkomponente &quot; CSVNET-SBU-WM &quot; Windows Updates gemäß der Patchingrichtlinie durchführt.
+- Beispielbeweis: Der folgende Screenshot zeigt, dass die In-Scope-Systemkomponente &quot; CSVNET-SBU-WM &quot; Windows Updates gemäß der Patchingrichtlinie ausführt.
 
 ![Bild](../media/UserGuidePhotos/Control-No-14.png)
 
@@ -249,7 +250,7 @@ Diese Sicherheitssteuerungsgruppe gilt für PaaS-Hostingumgebungen (Platform-as-
 
 - Beispielrichtlinien für Nachweise: Stellen Sie einen Screenshot für _jedes Gerät_ im Beispiel bereit, auf dem die Version des ausgeführten Betriebssystems (einschließlich des Servers&#39;Namen im Screenshot) angezeigt wird. Stellen Sie außerdem sicher, dass in der Umgebung ausgeführte Softwarekomponenten unterstützte Versionen ausführen. Dies kann durch die Bereitstellung der Ausgabe interner Berichte zu Sicherheitsrisiken (sofern authentifizierte Überprüfungen enthalten sind) und/oder durch die Ausgabe von Tools erfolgen, die Drittanbieterbibliotheken wie [Snyk,](https://snyk.io/) [Trivy](https://github.com/aquasecurity/trivy) oder [NPM-Überwachung](https://docs.npmjs.com/cli/v7/commands/npm-audit)überprüfen. Wenn sie nur in PaaS ausgeführt wird, muss nur das Patchen von Drittanbieterbibliotheken von den Patching-Steuerelementgruppen abgedeckt werden.
 
-- Beispielbeweis: Der folgende Nachweis zeigt, dass die bereichsbezogene Systemkomponente (SYSTEM COMPONENT) Software ausführt, die vom Anbieter unterstützt wird, da Nessus keine Probleme gekennzeichnet&#39;.
+- Beispielbeweis: Der folgende Nachweis zeigt, dass auf der bereichsbezogenen Systemkomponente (SYSTEM COMPONENT) SOFTWARE ausgeführt wird, die vom Anbieter unterstützt wird, da Nessus keine Probleme&#39;gekennzeichnet&#39;.
 
 ![Bild](../media/UserGuidePhotos/Control-No-15.png)
 
@@ -257,7 +258,7 @@ Diese Sicherheitssteuerungsgruppe gilt für PaaS-Hostingumgebungen (Platform-as-
 
 - Beispielnachweis 2
 
-Dieser Screenshot zeigt, dass die in-Scope-Systemkomponente &quot; JRNET-SBU-WM &quot; unter einer unterstützten Windows Version ausgeführt wird.
+Dieser Screenshot zeigt, dass die integrierte Systemkomponente &quot; GIFNET-SBU-WM &quot; unter einer unterstützten Windows Version ausgeführt wird.
 
 ![Bild](../media/UserGuidePhotos/Control-No-15-1.png)
 
@@ -279,15 +280,15 @@ Durch die Einführung regelmäßiger Sicherheitsrisikobewertungen können Organi
 
 - Absicht: Die Überprüfung von Sicherheitsrisiken sucht nach möglichen Schwachstellen in einem Computersystem, in Netzwerken und Webanwendungen einer Organisation, um Löcher zu identifizieren, die möglicherweise zu Sicherheitsverstößen und der Offenlegung vertraulicher Daten führen können. Die Überprüfung von Sicherheitsrisiken ist häufig durch Branchenstandards und Behördliche Vorschriften erforderlich, z. B. PCI DSS (Payment Card Industry Data Security Standard).
 
-- Ein Bericht der Sicherheitsmetrik mit dem Titel &quot; [2020 Security Metrics Guide to PCI DSS Compliance](https://info.securitymetrics.com/pci-guide-2020) &quot; gibt an, dass &#39;im Durchschnitt 166 Tage ab dem Zeitpunkt, an dem eine Organisation Sicherheitslücken hatte, bis ein Angreifer das System kompromittiert hat. Sobald Angreifer kompromittiert wurden, hatten sie durchschnittlich 127 Tage Lang Zugriff auf vertrauliche Daten&#39; daher dient diese Kontrolle dazu, potenzielle Sicherheitsschwächen innerhalb der bereichsbezogenen Umgebung zu identifizieren.
+- Ein Bericht der Sicherheitsmetrik mit dem Titel &quot; [2020 Security Metrics Guide to PCI DSS Compliance](https://info.securitymetrics.com/pci-guide-2020) &quot; gibt an, dass &#39;im Durchschnitt 166 Tage ab dem Zeitpunkt, an dem eine Organisation Sicherheitslücken hatte, bis ein Angreifer das System kompromittiert hat. Sobald Angreifer kompromittiert wurden, hatten sie durchschnittlich 127 Tage Lang Zugriff auf vertrauliche Daten&#39; daher ist diese Kontrolle darauf ausgelegt, potenzielle Sicherheitsschwächen innerhalb der bereichsbezogenen Umgebung zu identifizieren.
 
-- Beispielrichtlinien für Nachweise: Stellen Sie die vollständigen Scan-Berichte für jedes Quartal&#39;Sicherheitsrisikoscans bereit, die in den letzten 12 Monaten durchgeführt wurden. In den Berichten sollten die Ziele eindeutig angegeben werden, um zu überprüfen, ob der vollständige öffentliche Speicherbedarf enthalten ist, und gegebenenfalls jedes interne Subnetz. Stellen Sie **ALLE** Scanberichte für **JEDES** Quartal bereit.
+- Beispielrichtlinien für Nachweise: Stellen Sie die vollständigen Scan-Berichte für jedes Quartal&#39;Sicherheitsrisikoüberprüfungen bereit, die in den letzten 12 Monaten durchgeführt wurden. In den Berichten sollten die Ziele eindeutig angegeben werden, um zu überprüfen, ob der vollständige öffentliche Speicherbedarf enthalten ist, und gegebenenfalls jedes interne Subnetz. Stellen Sie **ALLE** Scanberichte für **JEDES** Quartal bereit.
 
 - Beispielbeweis: Beispielbeweis wäre die Bereitstellung der Scanberichte aus dem verwendeten Scantool. Jedes Quartal&#39;Überprüfungsberichte sollten zur Überprüfung bereitgestellt werden. Die Überprüfung muss die gesamten Systemkomponenten der Umgebungen umfassen. jedes interne Subnetz und jede öffentliche IP-Adresse/URL, die für die Umgebung verfügbar ist.
 
 **Steuerelement Nr. 17:** Stellen Sie demonstratable Nachweise dafür bereit, dass die Behebung von Sicherheitsrisiken, die während der Überprüfung auf Sicherheitslücken erkannt wurden, in Übereinstimmung mit Ihrem dokumentierten Patching-Zeitrahmen gepatcht wird.
 
-- Absicht: Wenn Sicherheitsrisiken und Fehlkonfigurationen nicht schnell erkannt, verwaltet und behoben werden, kann dies das Risiko einer Kompromittierung, die zu potenziellen Datenschutzverletzungen führt,&#39;Organisation erhöhen. Die ordnungsgemäße Identifizierung und Behebung von Problemen wird als wichtig für den Gesamtsicherheitsstatus und die Umgebung einer Organisation&#39;betrachtet, die den bewährten Methoden verschiedener Sicherheitsframeworks entspricht. Beispiel: ISO 27001 und PCI DSS.
+- Absicht: Wenn Sicherheitsrisiken und Fehlkonfigurationen nicht schnell erkannt, verwaltet und behoben werden, kann dies das Risiko einer Kompromittierung erhöhen, die zu potenziellen Datenschutzverletzungen führt,&#39;. Die korrekte Identifizierung und Behebung von Problemen wird als wichtig für die allgemeine Sicherheitslage und Umgebung einer Organisation&#39;betrachtet, die mit den bewährten Methoden verschiedener Sicherheitsframeworks für; Beispiel: ISO 27001 und PCI DSS.
 
 - Beispielrichtlinien für Nachweise: Stellen Sie geeignete Artefakte (d. h. Screenshots) bereit, die zeigen, dass eine Stichprobe der entdeckten Sicherheitsrisiken durch die Überprüfung auf Sicherheitsrisiken in Übereinstimmung mit den patchenden Fenstern behoben wird, die bereits in Steuerelement 13 oben bereitgestellt wurden.
 
@@ -369,9 +370,9 @@ Im folgenden Screenshot sind drei eingehende Regeln aufgeführt, von denen jede 
 
 **Steuerelement Nr. 23:** Stellen Sie nachweisbare Nachweise dafür bereit, dass die Firewallregelbasis so konfiguriert ist, dass Datenverkehr nicht explizit definiert wird.
 
-- Absicht: Die meisten Firewalls verarbeiten die Regeln in einem Top-Down-Ansatz, um eine übereinstimmende Regel zu finden. Wenn eine Regel übereinstimmt, wird die Aktion dieser Regel angewendet, und die weitere Verarbeitung der Regeln wird beendet. Wenn keine Übereinstimmungsregeln gefunden werden, wird der Datenverkehr standardmäßig verweigert. Wenn die&#39;Firewall nicht standardmäßig Datenverkehr abgibt, wenn keine übereinstimmende Regel gefunden wird, muss die Regelbasis &quot; eine Allen verweigern-Regel am Ende aller &quot; Firewalllisten enthalten.  Dadurch wird sichergestellt, dass die Firewall bei der Verarbeitung der Regeln nicht standardmäßig in einen Standardzustand "Zulassen"&#39;, sodass Datenverkehr zugelassen wird, der nicht explizit definiert&#39;wurde.
+- Absicht: Die meisten Firewalls verarbeiten die Regeln in einem Top-Down-Ansatz, um eine übereinstimmende Regel zu finden. Wenn eine Regel übereinstimmt, wird die Aktion dieser Regel angewendet, und die weitere Verarbeitung der Regeln wird beendet. Wenn keine Übereinstimmungsregeln gefunden werden, wird der Datenverkehr standardmäßig verweigert. Wenn die&#39;Firewall nicht standardmäßig Datenverkehr abgibt, wenn keine übereinstimmende Regel gefunden wird, muss die Regelbasis &quot; eine "Alle verweigern"-Regel &quot; am Ende aller Firewalllisten enthalten.  Dadurch wird sichergestellt, dass die Firewall bei der Verarbeitung der Regeln nicht standardmäßig in einen Standardzustand "Zulassen"&#39;, sodass Datenverkehr zugelassen wird, der nicht explizit definiert&#39;wurde.
 
-- Beispielrichtlinien für Nachweise: Nachweise können über die Firewallkonfiguration bereitgestellt werden, oder durch Screenshots mit allen Firewallregeln, &quot; die eine Regel "Alle verweigern" &quot; am Ende anzeigen, oder wenn die Firewall Datenverkehr abbricht, der&#39;nicht standardmäßig mit einer Regel übereinstimmt, geben Sie dann einen Screenshot aller Firewallregeln und einen Link zu administrativen Handbüchern des Anbieters ein, in dem hervorgehoben wird, dass die Firewall standardmäßig den gesamten Datenverkehr löscht, der nicht übereinstimmt.
+- Beispielrichtlinien für Nachweise: Nachweise können über die Firewallkonfiguration bereitgestellt werden, oder durch Screenshots mit allen Firewallregeln, &quot; die eine Regel "Alle verweigern" &quot; am Ende anzeigen, oder wenn die Firewall Datenverkehr abbricht,&#39;der nicht standardmäßig mit einer Regel übereinstimmt, geben Sie dann einen Screenshot aller Firewallregeln und einen Link zu administrativen Handbüchern des Anbieters ein, in dem hervorgehoben wird, dass die Firewall standardmäßig den gesamten Datenverkehr löscht, der nicht übereinstimmt.
 
 - Beispielnachweis: Unten sehen Sie einen Screenshot der WatchGuard-Firewallregelbasis, der zeigt, dass keine Regeln konfiguriert sind, um den gesamten Datenverkehr zuzulassen. Am Ende gibt es keine Verweigerungsregel, da der WatchGuard Datenverkehr abgibt,&#39;standardmäßig nicht übereinstimmen.
 
@@ -408,7 +409,7 @@ Der folgende Screenshot zeigt Denknachweis für eine Firewallüberprüfung, die 
 
 ### <a name="firewalls--wafs"></a>Firewalls – WAFs
 
-Es ist optional, eine Webanwendungsfirewall (Web Application Firewall, WAF) in der Lösung bereitzustellen. Wenn ein WAF verwendet wird, zählt dies als zusätzliches Guthaben für die Bewertungsmatrix innerhalb der &#39;Operational Security&#39; Sicherheitsdomäne. WAFs können Webdatenverkehr überprüfen, um Webdatenverkehr zwischen dem Internet und veröffentlichten Webanwendungen zu filtern und zu überwachen, um webanwendungsspezifische Angriffe zu identifizieren. Webanwendungen können von vielen Angriffen betroffen sein, die spezifisch für Webanwendungen sind, z. B. SQL Injection (SQLi), Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF/XSRF) usw. und WAFs sind so konzipiert, dass sie vor diesen Arten von schädlichen Nutzlasten geschützt sind, um Webanwendungen vor Angriffen und potenziellen Kompromittierungen zu schützen.
+Es ist optional, eine Webanwendungsfirewall (Web Application Firewall, WAF) in der Lösung bereitzustellen. Wenn ein WAF verwendet wird, zählt dies als zusätzliches Guthaben für die Bewertungsmatrix innerhalb der &#39;Operational Security&#39; Sicherheitsdomäne. WAFs können Webdatenverkehr überprüfen, um Webdatenverkehr zwischen dem Internet und veröffentlichten Webanwendungen zu filtern und zu überwachen, um webanwendungsspezifische Angriffe zu identifizieren. Webanwendungen können von vielen Angriffen betroffen sein, die spezifisch für Webanwendungen sind, z. B. SQL Injection (SQLi), Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF/XSRF) usw. und WAFs sind darauf ausgelegt, sich vor diesen Arten von schädlichen Nutzlasten zu schützen, um Webanwendungen vor Angriffen und potenziellen Kompromittierungen zu schützen.
 
 **Steuerelement Nr. 26:** Stellen Sie demonstratable Nachweise dafür bereit, dass die Webanwendungsfirewall (Web Application Firewall, WAF) so konfiguriert ist, dass schädlicher Datenverkehr aktiv überwacht, benachrichtigt und blockiert wird.
 
@@ -416,7 +417,7 @@ Es ist optional, eine Webanwendungsfirewall (Web Application Firewall, WAF) in d
 
 - Beispielrichtlinien für Nachweise: Stellen Sie eine Konfigurationsausgabe aus dem WAF bereit, die die eingehenden Webverbindungen hervorhebt, die bereitgestellt werden, und dass die Konfiguration aktiv schädlichen Datenverkehr blockiert oder überwacht und benachrichtigt. Alternativ können Screenshots der spezifischen Einstellungen freigegeben werden, um zu veranschaulichen, dass eine Organisation dieses Steuerelement erfüllt.
 
-- Beispielnachweis: Die folgenden Screenshots zeigen, dass die CONTOSO Production Azure Application Gateway WAF-Richtlinie aktiviert ist und für &#39;Prevention&#39;-Modus konfiguriert ist, der aktiv schädlichen Datenverkehr löscht.
+- Beispielnachweis: Die folgenden Screenshots zeigen, dass die WAF-Richtlinie für contoso Production Azure Application Gateway aktiviert ist und für &#39;Prevention&#39;-Modus konfiguriert ist, der aktiv schädlichen Datenverkehr löscht.
 
 
 ![Bild](../media/UserGuidePhotos/Control-No-26.png)
@@ -431,7 +432,7 @@ Der folgende Screenshot zeigt die eingehenden Webverbindungen, die diese WAF ver
 
 ![Bild](../media/UserGuidePhotos/Control-No-26-2.png)
 
-Der folgende Screenshot zeigt den Contoso \_ AppGW \_ CoreRules, der zeigt, dass dies für den api.contoso.com Dienst gilt.
+Der folgende Screenshot zeigt den Contoso \_ AppGW \_ CoreRules, der zeigt, dass dies für den api.contoso.com-Dienst gilt.
 
 ![Bild](../media/UserGuidePhotos/Control-No-26-3.png)
 
@@ -585,7 +586,7 @@ Organisationen, die an Softwareentwicklungsaktivitäten beteiligt sind, müssen 
 
 ![Bild](../media/UserGuidePhotos/Control-No-35.png)Unten sehen Sie ein Ticket, das zeigt, dass Codeänderungen einem Überprüfungs- und Autorisierungsprozess durch eine andere Person als den ursprünglichen Entwickler unterzogen werden. Es zeigt, dass eine Codeüberprüfung vom Zugewiesenen angefordert wurde und einer anderen Person für die Codeüberprüfung zugewiesen wird.
 
-Die folgende Abbildung zeigt, dass die Codeüberprüfung einer anderen Person als dem ursprünglichen Entwickler zugewiesen wurde, wie im hervorgehobenen Abschnitt auf der rechten Seite des bilds unten dargestellt. Auf der linken Seite können Sie sehen, dass der Code überprüft wurde und eine &#39;BESTANDENE CODEÜBERPRÜFUNG&#39; Status vom Codebearbeiter erhalten hat.
+Die folgende Abbildung zeigt, dass die Codeüberprüfung einer anderen Person als dem ursprünglichen Entwickler zugewiesen wurde, wie im hervorgehobenen Abschnitt auf der rechten Seite des bilds unten dargestellt. Auf der linken Seite können Sie sehen, dass der Code überprüft wurde und eine &#39;BESTANDENE CODEÜBERPRÜFUNG&#39; Status durch den Codebearbeiter erhalten hat.
 
 Das Ticket muss jetzt von einem Vorgesetzten genehmigt werden, bevor die Änderungen in Liveproduktionssysteme eingefügt werden können.
 
@@ -603,7 +604,7 @@ Bitte beachten Sie, dass während des gesamten Prozesses drei Personen beteiligt
 
 - Beispielrichtlinien für Nachweise: Stellen Sie Nachweise anhand von Zertifikaten bereit, wenn sie von einem externen Schulungsunternehmen durchgeführt werden, oder durch Bereitstellen von Screenshots der Schulungstagebücher oder anderer Artefakte, die zeigen, dass Entwickler an Schulungen teilgenommen haben. Wenn diese Schulung über interne Ressourcen durchgeführt wird, stellen Sie auch den Nachweis des Schulungsmaterials bereit.
 
-- Beispielbeweis: Unten sehen Sie die E-Mail, die Mitarbeiter im DevOps Team anfordert, bei der jährlichen OWASP-Schulung der top Ten-Schulung registriert zu werden.
+- Beispielbeweis: Unten sehen Sie die E-Mail, die Mitarbeiter im DevOps Team anfordert, bei der jährlichen OWASP-Schulung der zehn wichtigsten Schulungen registriert zu werden.
 
 ![Bild](../media/UserGuidePhotos/Control-No-36.png)
 
@@ -615,7 +616,7 @@ Unten sehen Sie, dass die Schulung mit geschäftlicher Begründung und Genehmigu
 
 **Steuerelement Nr. 37:** Stellen Sie demonstratable Nachweise dafür bereit, dass Coderepositorys mit mehrstufiger Authentifizierung (MFA) gesichert sind.
 
-- Absicht: Wenn ein Bedrohungsakteur auf die Codebasis einer Software&#39;zugreifen und diese ändern kann, könnte er Sicherheitslücken, Hintertüren oder bösartigen Code in die Codebasis und damit in die Anwendung einfügen. Es gibt bereits mehrere Fälle davon, wobei wahrscheinlich der am häufigsten öffentlich genutzte NotPetya-Ransomware-Angriff ist, der berichtend durch ein kompromittiertes Update an der schädlichen Steuersoftware namens M.E.Doc infiziert wurde (siehe [Was ist NotPetya](https://www.itpro.co.uk/malware/34381/what-is-notpetya)).
+- Intent: If a threat actor can access and modify a software&#39;s code base, he/she could introduce vulnerabilities, backdoors, or malicious code into the code base and therefore into the application. Es gibt bereits mehrere Fälle davon, wobei wahrscheinlich der am meisten öffentlich zugängliche NotPetya-Ransomware-Angriff ist, der berichtend durch ein kompromittiertes Update an der schädlichen Steuersoftware namens M.E.Doc infiziert wurde (siehe [Was ist NotAnte](https://www.itpro.co.uk/malware/34381/what-is-notpetya)).
 
 - Beispielrichtlinien für Nachweise: Bereitstellen von Nachweisen anhand von Screenshots aus dem Code-Repository, für die **alle** Benutzer die MFA aktiviert haben.
 
@@ -635,13 +636,13 @@ Unten sehen Sie, dass die Schulung mit geschäftlicher Begründung und Genehmigu
 
 ### <a name="account-management"></a>Kontoverwaltung
 
-Sichere Kontoverwaltungspraktiken sind wichtig, da Benutzerkonten die Basis für den Zugriff auf Informationssysteme, Systemumgebungen und Daten bilden. Benutzerkonten müssen ordnungsgemäß gesichert werden, da die Anmeldeinformationen des Benutzers kompromittiert werden&#39;Anmeldeinformationen nicht nur eine Grundlage für die Umgebung und den Zugriff auf vertrauliche Daten bieten können, sondern auch administrative Kontrolle über die gesamte Umgebung oder Schlüsselsysteme bieten können, wenn der Benutzer&#39;-Anmeldeinformationen über Administratorrechte verfügt.
+Sichere Kontoverwaltungspraktiken sind wichtig, da Benutzerkonten die Basis für den Zugriff auf Informationssysteme, Systemumgebungen und Daten bilden. Benutzerkonten müssen ordnungsgemäß gesichert werden, da die Anmeldeinformationen des Benutzers kompromittiert werden&#39;die Anmeldeinformationen nicht nur eine Grundlage für die Umgebung und den Zugriff auf vertrauliche Daten bieten können, sondern auch administrative Kontrolle über die gesamte Umgebung oder Schlüsselsysteme bieten, wenn der Benutzer&#39;Anmeldeinformationen über Administratorrechte verfügt.
 
 **Steuerelement Nr. 39:** Bereitstellen von Richtliniendokumentationen, die kontoverwaltungspraktiken und -verfahren regeln.
 
 - Absicht: Benutzerkonten werden weiterhin von Bedrohungsteilnehmern ausgerichtet und sind häufig die Quelle einer Datenkompromittiert. Durch die Konfiguration übermäßig eingeschränkter Konten erhöhen Organisationen nicht nur den Pool der &#39;privilegierten&#39; Konten, die von einem Bedrohungsakteur genutzt werden können, um eine Datenschutzverletzung auszuführen, sondern können auch das Risiko einer erfolgreichen Ausnutzung einer Sicherheitslücke erhöhen, die bestimmte Berechtigungen erfordern würde, um erfolgreich zu sein.
 
--  BeyondTrust erstellt jedes Jahr einen &quot; Microsoft-Sicherheitsrisikobericht, der &quot; Sicherheitsrisiken von Microsoft für das vorherige Jahr analysiert und Prozentsätze dieser Sicherheitsrisiken angibt, die davon abhängig sind, dass das Benutzerkonto über Administratorrechte verfügt. In einem kürzlich veröffentlichten Blogbeitrag &quot; ["New Microsoft Vulnerabilities Report reveals a 48% YoY Increase in Vulnerabilities &amp; How They Could Be Mitigated with Least Privilege](https://www.beyondtrust.com/blog/entry/microsoft-vulnerabilities-report), &quot; 90% of Critical vulnerabilities in Internet Explorer, 85% of Critical vulnerabilities in Microsoft Edge and 100% of Critical vulnerabilities in Microsoft Outlook would been mitigated by removing admin rights. Zur Unterstützung der sicheren Kontoverwaltung müssen Organisationen sicherstellen, dass unterstützende Richtlinien und Verfahren zur Förderung bewährter Sicherheitsmethoden vorhanden sind und befolgt werden, um diese Bedrohungen zu mindern.
+-  BeyondTrust erstellt jedes Jahr einen &quot; Microsoft-Sicherheitsrisikobericht, der &quot; Sicherheitsrisiken von Microsoft für das vorherige Jahr analysiert und Prozentsätze dieser Sicherheitsrisiken angibt, die davon abhängig sind, dass das Benutzerkonto über Administratorrechte verfügt. In einem kürzlich veröffentlichten Blogbeitrag &quot; ["New Microsoft Vulnerabilities Report reveals a 48% YoY Increase in Vulnerabilities &amp; How They Could Be Mitigated with Least Privilege,](https://www.beyondtrust.com/blog/entry/microsoft-vulnerabilities-report) &quot; 90% of Critical vulnerabilities in Internet Explorer, 85% of Critical vulnerabilities in Microsoft Edge and 100% of Critical vulnerabilities in Microsoft Outlook would been mitigated by removing admin rights. Zur Unterstützung der sicheren Kontoverwaltung müssen Organisationen sicherstellen, dass unterstützende Richtlinien und Verfahren zur Förderung bewährter Sicherheitsmethoden vorhanden sind und befolgt werden, um diese Bedrohungen zu mindern.
 
 - Beispielrichtlinien für Nachweise: Geben Sie die dokumentierten Richtlinien und Prozedurdokumente an, die Ihre Kontoverwaltungsmethoden abdecken. Die behandelten Themen sollten mindestens an den Steuerelementen innerhalb der Microsoft 365 Zertifizierung ausgerichtet sein.
 
@@ -655,9 +656,9 @@ Sichere Kontoverwaltungspraktiken sind wichtig, da Benutzerkonten die Basis für
 
 **Steuerelement Nr. 40:** Stellen Sie demonstratable Nachweise dafür bereit, dass Standardanmeldeinformationen in den beispielierten Systemkomponenten deaktiviert, entfernt oder geändert werden.
 
-- Absicht: Obwohl dies immer weniger beliebt ist, gibt es immer noch Fälle, in denen Bedrohungsteilnehmer standardmäßige und gut dokumentierte Benutzeranmeldeinformationen nutzen können, um Komponenten des Produktionssystems zu kompromittieren. Ein beliebtes Beispiel hierfür ist Dell iDRAC (Integrated Dell Remote Access Controller). Dieses System kann zum Remote-Verwalten eines Dell-Servers verwendet werden, der von einem Bedrohungsakteur genutzt werden könnte, um die Kontrolle über das Betriebssystem des Servers&#39;zu erlangen. Die Standardanmeldeinformationen von root::systems sind dokumentiert und können häufig von Bedrohungsteilnehmern genutzt werden, um Zugriff auf systeme zu erhalten, die von Organisationen verwendet werden. Dieses Steuerelement soll sicherstellen, dass diese Standardanmeldeinformationen deaktiviert oder entfernt werden.
+- Absicht: Obwohl dies immer weniger beliebt ist, gibt es immer noch Fälle, in denen Bedrohungsteilnehmer standardmäßige und gut dokumentierte Benutzeranmeldeinformationen nutzen können, um Komponenten des Produktionssystems zu kompromittieren. Ein beliebtes Beispiel hierfür ist Dell iDRAC (Integrated Dell Remote Access Controller). Dieses System kann zum Remoteverwaltung eines Dell-Servers verwendet werden, der von einem Bedrohungsakteur genutzt werden kann, um die Kontrolle über das Betriebssystem des Servers&#39;zu erlangen. Die Standardanmeldeinformationen von root::systems sind dokumentiert und können häufig von Bedrohungsteilnehmern genutzt werden, um Zugriff auf systeme zu erhalten, die von Organisationen verwendet werden. Dieses Steuerelement soll sicherstellen, dass diese Standardanmeldeinformationen deaktiviert oder entfernt werden.
 
-- Beispielrichtlinien für Nachweise: Es gibt verschiedene Möglichkeiten, Nachweise zur Unterstützung dieses Steuerelements zu sammeln. Screenshots von konfigurierten Benutzern in allen Systemkomponenten können hilfreich sein, d. h. Screenshots der Dateien Linux /etc/shadow und /etc/passwd helfen zu veranschaulichen, ob Konten deaktiviert wurden. Bitte beachten Sie, dass die /etc/shadow-Datei erforderlich wäre, um zu veranschaulichen, dass Konten wirklich deaktiviert sind, indem Sie beobachten, dass der Kennworthash mit einem ungültigen Zeichen beginnt, z. B. &#39;!&#39;, das angibt, dass das Kennwort nicht verwendet werden kann. Der Ratschlag wäre, nur einige Zeichen des Kennworts zu deaktivieren und den Rest zu redigieren. Andere Optionen sind screensharing-Sitzungen, bei denen der Prüfer die Standardanmeldeinformationen manuell testen konnte, z. B. in der obigen Erläuterung zu Dell iDRAC muss der Prüfer versuchen, sich mit allen Dell iDRAC-Schnittstellen mit den Standardanmeldeinformationen zu authentifizieren.
+- Beispielrichtlinien für Nachweise: Es gibt verschiedene Möglichkeiten, Nachweise zur Unterstützung dieses Steuerelements zu sammeln. Screenshots von konfigurierten Benutzern in allen Systemkomponenten können hilfreich sein, d. h. Screenshots der Dateien Linux /etc/shadow und /etc/passwd helfen zu veranschaulichen, ob Konten deaktiviert wurden. Bitte beachten Sie, dass die /etc/shadow-Datei erforderlich ist, um zu veranschaulichen, dass Konten wirklich deaktiviert sind, indem Sie beobachten, dass der Kennworthash mit einem ungültigen Zeichen beginnt, z. B. &#39;!&#39;, das angibt, dass das Kennwort nicht verwendet werden kann. Der Ratschlag wäre, nur einige Zeichen des Kennworts zu deaktivieren und den Rest zu redigieren. Andere Optionen sind screensharing-Sitzungen, bei denen der Prüfer die Standardanmeldeinformationen manuell testen konnte, z. B. in der obigen Erläuterung zu Dell iDRAC muss der Prüfer versuchen, sich mit allen Dell iDRAC-Schnittstellen mit den Standardanmeldeinformationen zu authentifizieren.
 
 - Beispielbeweis: Der folgende Screenshot zeigt Benutzerkonten, die für die bereichsbezogene Systemkomponente &quot; CSVNET-SBU-WM konfiguriert &quot; sind. Es werden mehrere Standardkonten angezeigt. Administrator, DefaultAccount und Guest zeigen jedoch in den folgenden Screenshots, dass diese Konten deaktiviert sind.
 
@@ -681,7 +682,7 @@ Dieser nächste Screenshot zeigt, dass das DefaultAccount in der bereichsbezogen
 
 - Beispielrichtlinien für Nachweise: Nachweise würden in der Regel in Form von Änderungsanforderungstickets vorliegen, ITSM-Anforderungen (IT Service Management) oder Zettel mit Anforderungen für zu erstellende, zu ändernde oder zu löschende Konten wurden durch einen Genehmigungsprozess durchlaufen.
 
-- Beispielbeweis: Die folgenden Abbildungen zeigen die Kontoerstellung für einen neuen Starter für das DevOps-Team, das eine RBAC-Einstellung basierend auf den Produktionsumgebungsberechtigungen ohne Zugriff auf die Entwicklungsumgebung und standardmäßigen nicht privilegierten Zugriff auf alles andere benötigt.
+- Beispielnachweis: Die abbildungen unten zeigen die Kontoerstellung für einen neuen Starter für das DevOps-Team, das eine RBAC-Einstellung basierend auf den Produktionsumgebungsberechtigungen ohne Zugriff auf die Entwicklungsumgebung und standardmäßigen nicht privilegierten Zugriff auf alles andere benötigt.
 
 Die Kontoerstellung hat den Genehmigungsprozess und den Abmeldevorgang durchlaufen, nachdem das Konto erstellt und das Ticket geschlossen wurde.
 
@@ -693,11 +694,11 @@ Die Kontoerstellung hat den Genehmigungsprozess und den Abmeldevorgang durchlauf
 
 **Steuerelement Nr. 42:** Stellen Sie demonstratable Nachweise dafür bereit, dass ein Prozess zum Deaktivieren oder Löschen von Konten vorhanden ist, die nicht innerhalb von 3 Monaten verwendet werden.
 
-- Absicht: Inaktive Konten können manchmal kompromittiert werden, entweder weil sie auf Brute-Force-Angriffe abzielen, die möglicherweise nicht gekennzeichnet werden, da der Benutzer nicht versucht, sich bei den Konten anzumelden, oder durch eine Kennwortdatenbankverletzung, bei der ein Benutzer&#39;Kennwort wiederverwendet wurde und in einem Benutzernamen-/Kennwortabbild im Internet verfügbar ist. Nicht verwendete Konten sollten deaktiviert/entfernt werden, um die Angriffsfläche zu reduzieren, die ein Bedrohungsakteur zum Ausführen von Kontokompromittierenaktivitäten hat. Diese Konten können darauf zurückzuführen sein, dass ein Leaveer-Prozess nicht ordnungsgemäß durchgeführt wird, ein Mitarbeiter langfristige Zeit in Anspruch oder ein Mitarbeiter, der in den Karenz-/Paternitäts-Leaveen geht. Durch die Implementierung eines vierteljährlichen Prozesses zur Identifizierung dieser Konten können Organisationen die Angriffsfläche minimieren.
+- Absicht: Inaktive Konten können manchmal kompromittiert werden, entweder weil sie zielgerichtet für Brute-Force-Angriffe sind, die möglicherweise nicht gekennzeichnet werden, da der Benutzer nicht versucht, sich bei den Konten anzumelden, oder durch eine Kennwortdatenbankverletzung, bei der ein Benutzer&#39;Kennwort wiederverwendet wurde und in einem Benutzernamen-/Kennwortabbild im Internet verfügbar ist. Nicht verwendete Konten sollten deaktiviert/entfernt werden, um die Angriffsfläche zu reduzieren, die ein Bedrohungsakteur zum Ausführen von Kontokompromittierenaktivitäten hat. Diese Konten können darauf zurückzuführen sein, dass ein Leaveer-Prozess nicht ordnungsgemäß durchgeführt wird, ein Mitarbeiter langfristige Zeit in Anspruch oder ein Mitarbeiter, der in den Karenz-/Paternitäts-Leaveen geht. Durch die Implementierung eines vierteljährlichen Prozesses zur Identifizierung dieser Konten können Organisationen die Angriffsfläche minimieren.
 
 - Beispiel für Nachweisrichtlinien: Nachweise sollten zweifach sein. Zunächst ein Screenshot oder Dateiexport mit der &quot; letzten Anmeldung aller Benutzerkonten innerhalb der &quot; Bereichsumgebung. Dies können lokale Konten sowie Konten innerhalb eines zentralisierten Verzeichnisdiensts sein, z. B. AAD (Azure Active Directory). Dies zeigt, dass keine Konten aktiviert sind, die älter als 3 Monate sind. Zweitens: Nachweise für den vierteljährlichen Überprüfungsprozess, die möglicherweise belegen, dass die Aufgabe innerhalb von ADO (Azure DevOps) oder JIRA-Tickets abgeschlossen wird, oder durch Papieraufzeichnungen, die abgemeldet werden sollten.
 
-- Beispielnachweis: Dieser erste Screenshot zeigt die Ausgabe des Skripts, das vierteljährlich ausgeführt wird, um das letzte Anmeldeattribut für Benutzer innerhalb AAD anzuzeigen.
+- Beispielbeweis: Dieser erste Screenshot zeigt die Ausgabe des Skripts, das vierteljährlich ausgeführt wird, um das letzte Anmeldeattribut für Benutzer innerhalb AAD anzuzeigen.
 
 ![Bild](../media/UserGuidePhotos/Control-No-42.png)
 
@@ -774,17 +775,17 @@ Der folgende Screenshot zeigt, dass Benutzer basierend auf ihrer Auftragsfunktio
 
 - Beispielrichtlinien für Nachweise: Es gibt viele Anleitungen im Internet, um Dienstkonten zu härten. Nachweise können in Form von Screenshots vorliegen, die veranschaulichen, wie die Organisation die sichere Härtung des Kontos implementiert hat. Einige Beispiele (die Erwartung ist, dass mehrere Techniken verwendet werden) umfassen:
 - Beschränken der Konten auf eine Gruppe von Computern in Active Directory
-- Das Festlegen des Kontos, sodass die interaktive Anmeldung nicht zulässig&#39;,
+- Festlegen des Kontos, sodass die interaktive Anmeldung nicht zulässig&#39;ist,
 - Festlegen eines äußerst komplexen Kennworts,
 - Aktivieren Sie für Active Directory, dass das &quot; Konto vertraulich ist und nicht delegiert werden &quot; kann. Diese Techniken werden im folgenden Artikel &quot; ["Segmentierung" und "Freigegebenes Active Directory" für eine Karteninhaberdatenumgebung](https://pciramblings.com/2019/12/13/segmentation-and-shared-active-directory-of-a-cardholder-data-environment/) &quot; erläutert.
 
 - Beispielnachweis: Es gibt mehrere Möglichkeiten, ein Dienstkonto zu sichern, das von jeder einzelnen Umgebung abhängig ist. Die für Ihre Umgebung geeigneten Mechanismen, die verwendet werden, würden in der zuvor beschriebenen Kontoverwaltungsrichtlinie/-verfahren dokumentiert, was zur Überprüfung dieses Nachweises beitragen würde. Nachfolgend sind einige der Mechanismen aufgeführt, die verwendet werden können:
 
-Der folgende Screenshot zeigt, &#39;Konto vertraulich ist und eine Verbindung delegiert werden soll,&#39; Option im Dienstkonto Prod SQL Service Account ausgewählt &quot; \_ &quot; ist.
+Der folgende Screenshot zeigt, &#39;Konto vertraulich ist und eine Verbindung delegiert werden soll,&#39; Option für das Dienstkonto Prod SQL Service Account ausgewählt &quot; \_ &quot; ist.
 
 ![Bild](../media/UserGuidePhotos/Control-No-46.png)
 
-Dieser nächste Screenshot zeigt, dass das Dienstkonto &quot; \_ "Prod SQL Service Account" &quot; für die SQL Server gesperrt ist und sich nur bei diesem Server anmelden kann.
+Dieser nächste Screenshot zeigt, dass das Dienstkonto &quot; \_ Prod SQL Service Account für die SQL Server &quot; gesperrt ist und sich nur bei diesem Server anmelden kann.
 
 ![Bild](../media/UserGuidePhotos/Control-No-46-1.png)
 
@@ -843,9 +844,9 @@ Der folgende Nachweis zeigt auch, dass die RDP-Transportsicherheit für die Verw
 
 - Intent: If a malicious threat actor can gain access to Public DNS records, there is a risk that they are able to modify URLs used by the app, or where the manifest file is pointing to introduce malicious code or to direct user traffic to an endpoint under the actor control. Dies kann zu einem Verlust von Benutzerdaten oder zu Schadsoftware-/Ransomware-Infektionen in der Gesamten Benutzerbasis der App führen.
 
-- Beispielrichtlinien für Nachweise: Bereitstellen von Nachweisen, die demonstrieren, dass öffentliche DNS-Verwaltungsportale durch MFA geschützt sind. Auch wenn öffentliches DNS auf Servern innerhalb der bereichsbezogenen Umgebung gehostet wird (d. h. von der Organisation gesteuert und betrieben wird), gibt es möglicherweise immer noch ein Verwaltungsportal, in dem der Domänenname registriert wurde, und die DNS-Einträge wurden &#39;verwalteten&#39;, um die DNS-Server auf Ihre eigene Infrastruktur zu verweisen. Wenn dies der Fall ist, sollte die MFA auf der Verwaltungsschnittstelle der Domänenregistrierungsstelle aktiviert werden, wenn die DNS-Einträge der Domänen geändert werden können. Es sollte ein Screenshot mit der Administrativen Benutzeroberfläche bereitgestellt werden, die für MFA auf Systemebene aktiviert ist (d. h. alle privilegierten Konten).
+- Beispielrichtlinien für Nachweise: Bereitstellen von Nachweisen, die demonstrieren, dass öffentliche DNS-Verwaltungsportale durch MFA geschützt sind. Auch wenn öffentliches DNS auf Servern innerhalb der bereichsbezogenen Umgebung gehostet wird (d. h. von der Organisation gesteuert und betrieben wird), kann es dennoch ein Verwaltungsportal geben, in dem der Domänenname registriert wurde, und die DNS-Einträge wurden &#39;verwalteten&#39;, um die DNS-Server auf Ihre eigene Infrastruktur zu verweisen. Wenn dies der Fall ist, sollte die MFA auf der Verwaltungsschnittstelle der Domänenregistrierungsstelle aktiviert werden, wenn die DNS-Einträge der Domänen geändert werden können. Es sollte ein Screenshot mit der Administrativen Benutzeroberfläche bereitgestellt werden, die für MFA auf Systemebene aktiviert ist (d. h. alle privilegierten Konten).
 
-- Beispielnachweis: Der folgende Screenshot zeigt, contoso.com DNS innerhalb Microsoft Azure für Contoso Corporation verwaltet wird.
+- Beispielnachweis: Der folgende Screenshot zeigt die contoso.com DNS innerhalb Microsoft Azure für Contoso Corporation verwaltet wird.
 
 ![Bild](../media/UserGuidePhotos/Control-No-49.png)
 
@@ -871,7 +872,7 @@ Eindringerkennungs- und Verhinderungssysteme (Intrusion Detection and Prevention
 
 ![Bild](../media/UserGuidePhotos/Control-No-50.png)
 
-Der zusätzliche Screenshot unten zeigt, dass IDPS für alle Regeln innerhalb der WatchGuard Firewall&#39;-Konfiguration aktiviert ist.
+Der folgende zusätzliche Screenshot zeigt, dass IDPS für alle Regeln in der Konfiguration der WatchGuard Firewall&#39;aktiviert ist.
 
 ![Bild](../media/UserGuidePhotos/Control-No-50-1.png)
 
@@ -881,7 +882,7 @@ Der zusätzliche Screenshot unten zeigt, dass IDPS für alle Regeln innerhalb de
 
 - Beispielrichtlinien für Nachweise: Nachweise werden wahrscheinlich anhand eines Screenshots angezeigt, der zeigt, dass idPS so konfiguriert ist, dass Signaturen mindestens täglich aktualisiert werden und die letzte Aktualisierung angezeigt wird.
 
-- Beispielbeweis: Obwohl dieser Screenshot&#39;nicht zeigt, dass die IDPS-Signaturen innerhalb der letzten 24 Stunden aktualisiert wurden, zeigt er, dass die neueste Version installiert wurde, die vor einer Woche stammte (_Nachweise, die am 18__th_ _Mai_ gesammelt wurden). Dies in Kombination mit dem folgenden Screenshot zeigt, dass Signaturen innerhalb eines Zeitraums von 24 Stunden auf dem neuesten Stand sind.
+- Beispielbeweis: Dieser Screenshot zeigt zwar&#39;nicht, dass die IDPS-Signaturen innerhalb der letzten 24 Stunden aktualisiert wurden, es zeigt jedoch, dass die neueste Version installiert wurde, die vor einer Woche stammt (_Nachweise, die am 18__th_ _Mai_ gesammelt wurden). Dies in Kombination mit dem folgenden Screenshot zeigt, dass Signaturen innerhalb eines Zeitraums von 24 Stunden auf dem neuesten Stand sind.
 
 ![Bild](../media/UserGuidePhotos/Control-No-51.png)
 
@@ -901,7 +902,7 @@ Dieser nächste Screenshot zeigt, dass IDPS für diese Regeln aktiviert ist.
 
 ![Bild](../media/UserGuidePhotos/Control-No-52-1.png)
 
-Der folgende Screenshot zeigt, dass eine Proxyaktion auf die &#39;Regel für &quot; &quot; \_ eingehenden Bot-Datenverkehr&#39; angewendet wird, die zum Aktivieren der \_ Inhaltsüberprüfung verwendet wird.
+Der folgende Screenshot zeigt, wie eine Proxyaktion auf die &#39;Regel für &quot; &quot; \_ eingehenden Bot-Datenverkehr&#39; angewendet wird, die zum Aktivieren der \_ Inhaltsüberprüfung verwendet wird.
 
 ![Bild](../media/UserGuidePhotos/Control-No-52-2.png)
 
@@ -915,7 +916,7 @@ Der folgende Screenshot zeigt, dass die Inhaltsüberprüfung aktiviert ist.
 
 - Beispielrichtlinien für Nachweise: Es sollten Nachweise anhand von Screenshots bereitgestellt werden, um zu veranschaulichen, dass alle eingehenden Datenverkehrsflüsse überwacht werden. Dies kann die NextGen-Firewall verwenden, die anzeigt, dass alle eingehenden Regeln für IDPS aktiviert sind, oder sie kann die Verwendung von IDPS-Sensoren ermöglichen und demonstrieren, dass der gesamte Datenverkehr so konfiguriert ist, dass er den IDPS-Sensor erreicht.
 
-- Beispielbeweis: Dieser Screenshot zeigt, dass IDPS für alle Regeln (Richtlinien) der WatchGuard Firewall&#39;konfiguriert ist.
+- Beispielnachweis: Dieser Screenshot zeigt, dass IDPS für alle Regeln (Richtlinien) der WatchGuard Firewall&#39;konfiguriert ist.
 
 ![Bild](../media/UserGuidePhotos/Control-No-53.png)
 
@@ -925,7 +926,7 @@ Der folgende Screenshot zeigt, dass die Inhaltsüberprüfung aktiviert ist.
 
 - Beispielrichtlinien für Nachweise: Es sollten Nachweise anhand von Screenshots bereitgestellt werden, um zu veranschaulichen, dass alle ausgehenden Datenverkehrsflüsse überwacht werden. Dies kann die NextGen-Firewall verwenden, die anzeigt, dass alle ausgehenden Regeln für IDPS aktiviert sind, oder sie kann die Verwendung von IDPS-Sensoren ermöglichen und demonstrieren, dass der gesamte Datenverkehr so konfiguriert ist, dass er den IDPS-Sensor erreicht.
 
-- Beispielbeweis: Dieser Screenshot zeigt, dass IDPS für alle Regeln (Richtlinien) der WatchGuard Firewall&#39;konfiguriert ist.
+- Beispielnachweis: Dieser Screenshot zeigt, dass IDPS für alle Regeln (Richtlinien) der WatchGuard Firewall&#39;konfiguriert ist.
 
 ![Bild](../media/UserGuidePhotos/Control-No-54.png)
 
@@ -977,7 +978,7 @@ Die Protokollierung von Sicherheitsereignissen ist ein integraler Bestandteil de
 
 **Steuerelement Nr. 55:** Bereitstellen einer Richtliniendokumentation für bewährte Methoden und Verfahren zur Steuerung der Protokollierung von Sicherheitsereignissen.
 
-- Absicht: Die Protokollierung von Sicherheitsereignissen ist eine wichtige Funktion jedes&#39;Sicherheitsprogramms. Richtlinien und Verfahren müssen vorhanden sein, um Klarheit und Konsistenz zu schaffen, um sicherzustellen, dass Organisationen Protokollierungskontrollen gemäß den vom Anbieter und der Branche empfohlenen Methoden implementieren. Dies trägt dazu bei, sicherzustellen, dass relevante und detaillierte Protokolle verwendet werden, die nicht nur nützlich sind, um potenzielle oder tatsächliche Sicherheitsereignisse zu identifizieren, sondern sie können auch dazu beitragen, dass eine Vorfallreaktionsaktivität das Ausmaß einer Sicherheitsverletzung erkennt.
+- Absicht: Die Protokollierung von Sicherheitsereignissen ist eine wichtige Funktion jedes Sicherheitsprogramms&#39;Organisation. Richtlinien und Verfahren müssen vorhanden sein, um Klarheit und Konsistenz zu schaffen, um sicherzustellen, dass Organisationen Protokollierungskontrollen gemäß den vom Anbieter und der Branche empfohlenen Methoden implementieren. Dies trägt dazu bei, sicherzustellen, dass relevante und detaillierte Protokolle verwendet werden, die nicht nur nützlich sind, um potenzielle oder tatsächliche Sicherheitsereignisse zu identifizieren, sondern sie können auch dazu beitragen, dass eine Vorfallreaktionsaktivität das Ausmaß einer Sicherheitsverletzung erkennt.
 
 - Beispielrichtlinien für Nachweise: Bereitstellen dokumentierter Richtlinien und Prozedurdokumente für Organisationen, die bewährte Methoden für die Protokollierung von Sicherheitsereignissen enthalten.
 
@@ -1042,7 +1043,7 @@ Dieser letzte Screenshot zeigt, wie die Protokollnachricht in der zentralen Prot
 
 ![Bild](../media/UserGuidePhotos/Control-No-58.png)
 
-Der nächste Screenshot zeigt den WatchGuard, der als NTP-Server konfiguriert ist und auf time.windows.com zeigt, da er&#39;Zeitquelle ist.
+Der nächste Screenshot zeigt das WatchGuard-Objekt, das als NTP-Server konfiguriert ist und auf time.windows.com zeigt, wie es die Zeitquelle&#39;.
 
 ![Bild](../media/UserGuidePhotos/Control-No-58-1.png)
 
@@ -1056,7 +1057,7 @@ Dieser letzte Screenshot zeigt die integrierte &quot; Systemkomponente, SODASSNE
 
 - Beispielrichtlinien für Nachweise: Nachweise sollten anhand von Screenshots oder Konfigurationseinstellungen bereitgestellt werden, die demonstrieren, dass Protokolle so konfiguriert sind, dass sie sofort (oder unmittelbar) an eine zentrale Protokollierungslösung gesendet werden, die sich außerhalb der DMZ befindet. Wir suchen nach einem fast sofortigen Versand von Protokollen, da je länger es dauert, bis Protokolle an die zentrale Protokollierungslösung ausgeliefert werden, desto länger müsste ein Behandelnder die lokalen Protokolle manipulieren, bevor der Versand erfolgt.
 
-- Beispielnachweis: Die Contoso DMZ-Systeme verwenden NXLog für den Versand von Protokolldateien. Der folgende Screenshot zeigt den &#39;nxlog&#39; Dienst, der auf dem &quot; DESKTOP-7S65PN &quot; DMZ-Jumpbox ausgeführt wird, das zum Verwalten aller DMZ-Server verwendet wird.
+- Beispielnachweis: Die Contoso DMZ-Systeme verwenden NXLog für den Versand von Protokolldateien. Der folgende Screenshot zeigt die &#39;nxlog&#39; Diensts, der auf dem &quot; DESKTOP-7S65PN &quot; DMZ-Sprungfeld ausgeführt wird, das zum Verwalten aller DMZ-Server verwendet wird.
 
 ![Bild](../media/UserGuidePhotos/Control-No-59.png)
 
@@ -1082,19 +1083,19 @@ Die folgende URL für NXLog ( [https://nxlog.co/documentation/nxlog-user-guide/m
 
 - Absicht: Manchmal besteht ein Zeitunterschied zwischen einem Kompromittierungs- oder Sicherheitsereignis und einer Organisation, die es identifiziert. Mit dieser Steuerung soll sichergestellt werden, dass die Organisation Zugriff auf historische Ereignisdaten hat, um bei der Reaktion auf Vorfälle und forensische Untersuchungen zu helfen, die möglicherweise erforderlich sind.
 
-- Beispielrichtlinien für Nachweise: Der Nachweis erfolgt in der Regel durch Anzeigen der zentralisierten Protokollierungslösung&#39;Konfigurationseinstellungen, die zeigen, wie lange Daten aufbewahrt werden. Daten zur Protokollierung von Sicherheitsereignissen für 30 Tage müssen sofort in der Lösung verfügbar sein. Wenn daten jedoch archiviert werden, muss dies belegen, dass 90 Tage verfügbar sind. Dazu können Archivordner mit Datumsangaben exportierter Daten angezeigt werden.
+- Beispielrichtlinien für Nachweise: Nachweise werden in der Regel anhand der zentralisierten Protokollierungslösung&#39;Konfigurationseinstellungen angezeigt, die zeigen, wie lange Daten aufbewahrt werden. Daten zur Protokollierung von Sicherheitsereignissen für 30 Tage müssen sofort in der Lösung verfügbar sein. Wenn daten jedoch archiviert werden, muss dies belegen, dass 90 Tage verfügbar sind. Dazu können Archivordner mit Datumsangaben exportierter Daten angezeigt werden.
 
 - Beispielnachweis 1: Die folgenden Screenshots zeigen, dass Protokolle im Wert von 30Days in "GifVault" verfügbar sind.
 
 ![Bild](../media/UserGuidePhotos/Control-No-61.png)
 
-**Hinweis:** Da es sich um ein öffentlich zugängliches Dokument handelt, wurde die Seriennummer der Firewall redigiert. Wir würden jedoch&#39;ISVs nicht in Betracht ziehen, um alle bearbeiteten Screenshots zu unterstützen, es sei denn, sie enthält personenbezogene Informationen.
+**Hinweis:** Da es sich um ein öffentlich zugängliches Dokument handelt, wurde die Seriennummer der Firewall bearbeitet. Wir würden jedoch&#39;ISVs nicht in Betracht ziehen, alle bearbeiteten Screenshots zu unterstützen, es sei denn, sie enthält personenbezogene Informationen.
 
 Dieser nächste Screenshot zeigt, dass Protokolle verfügbar sind, indem ein Protokollextrakt aus 5 Monaten angezeigt wird.
 
 ![Bild](../media/UserGuidePhotos/Control-No-61-1.png)
 
-**Hinweis:** Da es sich um ein öffentlich zugängliches Dokument handelt, wurden die öffentlichen IP-Adressen redigiert, wir würden jedoch isvs&#39;nicht in Betracht ziehen, alle bearbeiteten Screenshots zu unterstützen, es sei denn, sie enthält personenbezogene Informationen.
+**Hinweis:** Da es sich um ein öffentlich zugängliches Dokument handelt, wurden die öffentlichen IP-Adressen redigiert. Wir würden jedoch&#39;ISVs nicht in Betracht ziehen, um alle bearbeiteten Screenshots zu unterstützen, es sei denn, sie enthält personenbezogene Informationen.
 
 - Beispielnachweis 2: Der folgende Screenshot zeigt, dass Protokollereignisse 30 Tage lang live und 90 Tage im Kaltspeicher in Azure aufbewahrt werden.
 
@@ -1122,7 +1123,7 @@ Die Überprüfung von Sicherheitsprotokollen ist eine wichtige Funktion, um Orga
 
 - Absicht: Dieses Steuerelement soll sicherstellen, dass tägliche Protokollüberprüfungen durchgeführt werden. Dies ist wichtig, um Anomalien zu identifizieren, die möglicherweise nicht von den Warnungsskripts/Abfragen erfasst werden, die für die Bereitstellung von Sicherheitsereigniswarnungen konfiguriert sind.
 
-- Beispielrichtlinien für Nachweise: Nachweise werden in der Regel durch Screenshots oder Bildschirmfreigaben bereitgestellt, die zeigen, dass Protokollüberprüfungen durchgeführt werden. Dies kann über Formulare erfolgen, die täglich ausgefüllt werden, oder durch ein JIRA- oder DevOps-Ticket mit relevanten Kommentaren, um dies anzuzeigen, wird täglich durchgeführt. Beispielsweise kann ein wöchentliches JIRA-Ticket am &quot; 26. Juni 2021 für die tägliche Protokollüberprüfung erstellt &quot; werden, an jedem Tag, an dem jemand die Ergebnisse der täglichen Protokollüberprüfung veröffentlicht. Wenn Anomalien gekennzeichnet werden, kann dies in diesem Ticket dokumentiert werden, um das nächste Steuerelement in einer einzelnen JIRA zu veranschaulichen.
+- Beispielrichtlinien für Nachweise: Nachweise werden in der Regel durch Screenshots oder Bildschirmfreigaben bereitgestellt, die zeigen, dass Protokollüberprüfungen durchgeführt werden. Dies kann über Formulare erfolgen, die täglich ausgefüllt werden, oder durch ein JIRA- oder DevOps-Ticket mit relevanten Kommentaren, um anzuzeigen, dass dies täglich durchgeführt wird. Beispielsweise kann ein wöchentliches JIRA-Ticket am &quot; 26. Juni 2021 für die tägliche Protokollüberprüfung erstellt &quot; werden, an jedem Tag, an dem jemand die Ergebnisse der täglichen Protokollüberprüfung veröffentlicht. Wenn Anomalien gekennzeichnet werden, kann dies in diesem Ticket dokumentiert werden, um das nächste Steuerelement in einer einzelnen JIRA zu veranschaulichen.
 
 - Wenn automatisierte Tools verwendet werden, können Screenshot-Nachweise bereitgestellt werden, um die konfigurierte Automatisierung zu veranschaulichen und zusätzliche Nachweise bereitzustellen, um zu zeigen, dass die Automatisierung ausgeführt wird und jemand die automatisierte Ausgabe überprüft.
 
@@ -1136,7 +1137,7 @@ Dieser nächste Screenshot zeigt, wo mehrere fehlgeschlagene Anmeldeversuche gef
 
 ![Bild](../media/UserGuidePhotos/Control-No-63-1.png)
 
-Dieser letzte Screenshot zeigt, wo eine Änderung der Kennwortrichtlinie vorgenommen wurde, um die Richtlinie festzulegen, sodass Kontokennwörter nicht ablaufen&#39;.
+Dieser letzte Screenshot zeigt, wo eine Kennwortrichtlinienänderung vorgenommen wurde, um die Richtlinie festzulegen, sodass Kontokennwörter nicht ablaufen&#39;.
 
 ![Bild](../media/UserGuidePhotos/Control-No-63-2.png)
 
@@ -1369,7 +1370,7 @@ Aufgrund der Konnektivitätsanforderungen von M365-entwickelten Apps/Add-Ins erf
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-1-1.png)
 
-**Hinweis:** Die Zertifizierungsanalysten überprüfen die vollständige Ausgabe, um zu bestätigen, dass alle Anforderungen der TLS-Profilkonfigurationsanforderungen erfüllt sind (Screenshots der vollständigen Scanausgabe). Depending_ _zu_ _what Nachweis bereitgestellt wurde, führen die Analysten möglicherweise eine eigene Qualys-Überprüfung durch.
+**Hinweis:** Die Zertifizierungsanalysten überprüfen die vollständige Ausgabe, um zu bestätigen, dass alle Anforderungen der TLS-Profilkonfigurationsanforderungen erfüllt sind (Screenshots der vollständigen Scanausgabe). Depending_ _auf_ _what Nachweis bereitgestellt wurde, führen die Analysten möglicherweise eine eigene Qualys-Überprüfung durch.
 
 - Beispielnachweis 2: Der folgende Screenshot zeigt, dass TLS 1.2 auf dem Speicher konfiguriert ist.
 
@@ -1405,7 +1406,7 @@ Hexadezimal: 0x00000000 - aus 0xffffffff - ein
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-2.png)
 
-**Steuerelement Nr. 3:** Stellen Sie demonstratable Nachweise dafür bereit, dass tls http strict transport security aktiviert und auf >= 15552000 für alle Standorte konfiguriert ist.
+**Steuerelement Nr. 3:** Stellen Sie demonstratable Nachweise dafür bereit, dass tls http strict transport security aktiviert und für >= 15552000 für alle Standorte konfiguriert ist.
 
 - Absicht: HTTP Strict Transport Security (HSTS) ist ein Sicherheitsmechanismus, der Websites vor Man-in-the-Middle-Angriffen schützt, indem TLS-Verbindungen über ein HTTPS-Antwortheaderfeld namens &quot; Strict-Transport-Security erzwungen &quot; werden.
 
@@ -1425,13 +1426,13 @@ Wenn von der Microsoft 365 Plattform genutzte Daten von ISVs gespeichert werden,
 
 - Beispielrichtlinien für Nachweise: Nachweise können anhand von Screenshots bereitgestellt werden, die zeigen, wie die Verschlüsselung zum Schutz von M365-Daten in Datenbanken und anderen Speicherorten verwendet wird. Der Nachweis sollte belegen, dass die Verschlüsselungskonfiguration den Konfigurationsanforderungen für [das Verschlüsselungsprofil](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#appendix-b) der Microsoft 365-Zertifizierung entspricht.
 
-- Beispielnachweis: Der folgende Screenshot zeigt, dass TDE (Transparent Data Encryption) in der Contoso-Datenbank aktiviert ist. Der zweite Screenshot zeigt die Microsoft-Dokumentseite &#39;[Transparente Datenverschlüsselung für SQL-Datenbank, SQL verwaltete Instanz und Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=sql-server-ver15&amp;tabs=azure-portal)&#39; zeigt, dass die AES 256-Verschlüsselung für Azure TDE verwendet wird.
+- Beispielnachweis: Der folgende Screenshot zeigt, dass TDE (Transparent Data Encryption) in der Contoso-Datenbank aktiviert ist. Der zweite Screenshot zeigt die Microsoft-Dokumentseite &#39;[Transparente Datenverschlüsselung für SQL-Datenbank, SQL verwaltete Instanz und Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/azure-sql/database/transparent-data-encryption-tde-overview?view=sql-server-ver15&amp;tabs=azure-portal)&#39;, die zeigt, dass die AES 256-Verschlüsselung für Azure TDE verwendet wird.
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-4.png)
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-4-1.png)
 
-- Beispielnachweis 2: Der folgende Screenshot zeigt Azure Storage mit Verschlüsselung für Blobs und Dateien konfiguriert. Der folgende Screenshot zeigt die Microsoft Docs-Seite &quot; [Azure Storage Verschlüsselung ruhenden Daten,](https://docs.microsoft.com/en-gb/azure/storage/common/storage-service-encryption) &quot; die zeigt, dass Azure Storage AES-256 für die Verschlüsselung verwendet.
+- Beispielnachweis 2: Der folgende Screenshot zeigt Azure Storage mit Verschlüsselung für Blobs und Dateien konfiguriert. Der folgende Screenshot zeigt die Microsoft Docs-Seite &quot; [Azure Storage Verschlüsselung für ruhenden Daten,](https://docs.microsoft.com/en-gb/azure/storage/common/storage-service-encryption) &quot; die zeigt, dass Azure Storage AES-256 für die Verschlüsselung verwendet.
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-4-2.png)
 
@@ -1465,7 +1466,7 @@ Wenn ISVs M365-Daten nutzen und speichern, besteht das Risiko einer Datenkomprom
 
 - Absicht: Eine dokumentierte und befolgte Aufbewahrungsrichtlinie ist nicht nur wichtig, um einige gesetzliche Verpflichtungen zu erfüllen, z. B. Datenschutzbestimmungen wie, aber nicht beschränkt auf die Datenschutz-Grundverordnung (EU DSGVO) und das Data Protection Act (UK DPA 2018), sondern auch um das Risiko eines Unternehmens zu begrenzen. Durch Das Verständnis der Datenanforderungen der Organisation und der Dauer der Daten, die das Unternehmen benötigt, um seine Funktionen auszuführen, können Organisationen sicherstellen, dass Die Daten ordnungsgemäß verworfen werden, sobald ihre Nützlichkeit abläuft. Durch die Reduzierung der gespeicherten Datenvolumen verringern Organisationen die Datenmenge, die verfügbar gemacht wird, wenn eine Datenkompromittierungen auftreten. Dadurch werden die Gesamtauswirkungen eingeschränkt.
 
-- Häufig speichern Organisationen Daten einfach, weil sie einfach nur für den Fall gut &quot; zu haben &quot;&#39;&#39;. Wenn die Organisation die Daten jedoch nicht benötigt, um ihre Dienst- oder Geschäftsfunktion auszuführen, sollten die Daten nicht gespeichert werden, da dies die Risiken der Organisation unnötig erhöht.
+- Häufig speichern Organisationen Daten einfach, weil sie einfach nur für den Fall gut zu &quot; haben &quot;&#39;&#39;. Wenn die Organisation die Daten jedoch nicht benötigt, um ihre Dienst- oder Geschäftsfunktion auszuführen, sollten die Daten nicht gespeichert werden, da dies die Risiken der Organisation unnötig erhöht.
 
 - Beispielrichtlinien für Nachweise: Geben Sie die vollständige Datenaufbewahrungsrichtlinie an, in der klar angegeben wird, wie lange Daten (müssen alle Datentypen umfassen) aufbewahrt werden sollen, damit das Unternehmen seine Geschäftsfunktionen ausführen kann.
 
@@ -1485,7 +1486,7 @@ Wenn ISVs M365-Daten nutzen und speichern, besteht das Risiko einer Datenkomprom
 
 **Hinweis:** Alle personenbezogenen/vertraulichen Kundendaten sollten innerhalb des Screenshots bearbeitet werden.
 
-- Beispielbeweis: Der folgende Nachweis zeigt eine SQL Abfrage, die den Inhalt der Datenbanktabelle in aufsteigender Reihenfolge im Feld &#39;DATE \_ TRANSACTION&#39; anzeigt, um die ältesten Datensätze in der Datenbank anzuzeigen. Die Daten sollten zwei Monate alt sein und&#39;den festgelegten Aufbewahrungszeitraum nicht überschreiten.
+- Beispielbeweis: Der folgende Nachweis zeigt eine SQL Abfrage, die den Inhalt der Datenbanktabelle in aufsteigender Reihenfolge im Feld &#39;DATE TRANSACTION&#39; anzeigt, \_ um die ältesten Datensätze in der Datenbank anzuzeigen. Die Daten sollten zwei Monate alt sein und&#39;den festgelegten Aufbewahrungszeitraum nicht überschreiten.
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-8.png)
 
@@ -1534,7 +1535,7 @@ Der Datenzugriff muss auf so wenige Personen wie erforderlich beschränkt werden
 
 - Absicht: Der Prozess zum Gewähren des Zugriffs auf Daten und/oder Verschlüsselungsschlüssel muss eine Genehmigung umfassen, um sicherzustellen, dass ein einzelner&#39;Zugriff für seine Auftragsfunktion erforderlich ist. Dadurch wird sichergestellt, dass Mitarbeiter ohne einen echten Grund für den Zugriff keinen unnötigen Zugriff erhalten&#39;.
 
-- Beispielrichtlinien für Nachweise: In der Regel können die für das vorherige Steuerelement bereitgestellten Nachweise zur Unterstützung dieses Steuerelements beitragen. Wenn&#39;keine formale Genehmigung für die bereitgestellte Dokumentation vorliegt, kann der Nachweis aus einer Änderungsanforderung bestehen, die für den Zugriff innerhalb eines Tools, z. B. Azure DevOps oder Jira, erhoben und genehmigt wird.
+- Beispielrichtlinien für Nachweise: In der Regel können die für das vorherige Steuerelement bereitgestellten Nachweise zur Unterstützung dieses Steuerelements beitragen. Wenn&#39;keine formale Genehmigung für die bereitgestellte Dokumentation vorliegt, kann der Nachweis darin bestehen, dass eine Änderungsanforderung für den Zugriff innerhalb eines Tools wie Azure DevOps oder Jira erhoben und genehmigt wird.
 
 - Beispielnachweis: Diese Gruppe von Bildern zeigt Jira Tickets, die für die obige Liste in Steuerelement 10 erstellt und genehmigt wurden, um den Zugriff auf vertrauliche Daten und/oder Verschlüsselungsschlüssel zu gewähren oder zu verweigern.
 
@@ -1620,7 +1621,7 @@ Oben sehen Sie, dass der Zugriff genehmigt und wie erledigt abgemeldet wurde.
 
 ### <a name="gdpr"></a>DSGVO
 
-Die meisten Organisationen verarbeiten Daten, bei denen es sich möglicherweise um Daten eines europäischen&#39;(betroffene Personen) handelt. Wenn Daten einer **betroffenen** Person verarbeitet werden, müssen Organisationen die Datenschutz-Grundverordnung (DSGVO) einhalten. Dies gilt sowohl für Datenverantwortliche (Sie erfassen diese Daten direkt) als auch für Datenverarbeiter (Sie verarbeiten diese Daten im Auftrag eines Datenverantwortlichen). Obwohl in diesem Abschnitt nicht die gesamte Verordnung&#39;, werden einige der wichtigsten Elemente der DSGVO behandelt, um zu gewährleisten, dass die Organisation die DSGVO ernst nimmt.
+Die meisten Organisationen verarbeiten Daten, bei denen es sich möglicherweise um Daten eines europäischen&#39;(betroffene Personen) handelt. Wenn Daten einer **betroffenen** Person verarbeitet werden, müssen Organisationen die Datenschutz-Grundverordnung (DSGVO) einhalten. Dies gilt sowohl für Datenverantwortliche (Sie erfassen diese Daten direkt) als auch für Datenverarbeiter (Sie verarbeiten diese Daten im Auftrag eines Datenverantwortlichen). Obwohl dieser Abschnitt nicht die gesamte Verordnung&#39;, werden einige der wichtigsten Elemente der DSGVO behandelt, um zu gewährleisten, dass die Organisation die DSGVO ernst nimmt.
 
 **Steuerelement Nr. 15:** Stellen Sie einen Sar-Prozess (Documented Subject Access Request) bereit und stellen Sie Nachweise bereit, die belegen, dass betroffene Personen in der Lage sind, SARs auszulösen.
 
@@ -1638,9 +1639,9 @@ Die meisten Organisationen verarbeiten Daten, bei denen es sich möglicherweise 
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass die Organisation über einen stabilen Mechanismus verfügt, um alle betroffenen Personen&#39; Daten zu identifizieren. Dies kann ein manueller Prozess sein, da der gesamte Datenspeicher gut dokumentiert ist, oder es können andere Tools verwendet werden, um sicherzustellen, dass alle Daten im Rahmen des SARs-Prozesses gespeichert werden.
 
-- Beispielrichtlinien für Nachweise: Nachweise können über eine Liste aller Datenspeicherorte und einen dokumentierten Prozess bereitgestellt werden, um alle Datenspeicherorte nach Daten zu durchsuchen. Dazu gehören alle erforderlichen Befehle zum Suchen nach Daten, d. h., wenn SQL Speicherorte enthalten sind, würden bestimmte SQL Anweisungen detailliert sein, um sicherzustellen, dass die Daten ordnungsgemäß gefunden werden.
+- Beispielrichtlinien für Nachweise: Nachweise können über eine Liste aller Datenspeicherorte und einen dokumentierten Prozess bereitgestellt werden, um alle Datenspeicherorte nach Daten zu durchsuchen. Dazu gehören alle erforderlichen Befehle zum Suchen nach Daten, d. h. wenn SQL Speicherorte enthalten sind, werden bestimmte SQL Anweisungen detailliert beschrieben, um sicherzustellen, dass die Daten ordnungsgemäß gefunden werden.
 
-- Beispielbeweis: Der folgende Screenshot ist ein Codeausschnitt aus der obigen SAR-&#39;-Prozedur, die zeigt, wie Daten gefunden werden.
+- Beispielnachweis: Der folgende Screenshot ist ein Codeausschnitt aus der obigen SAR-&#39;-Prozedur, der zeigt, wie Daten gefunden werden.
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-17.png)
 
@@ -1650,7 +1651,7 @@ Die vier folgenden Bilder zeigen, wie die ISV-Datenspeicherorte abgefragt und da
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-17-2.png)
 
-Diese Abfrage bestätigt die verwendeten Speicherkonten. Sie können Speicher, Blobs und/oder Dateien mithilfe von Resource Graph Explorer (Kusto) oder PowerShell abfragen und entfernen (siehe unten).
+Diese Abfrage bestätigt die verwendeten Speicherkonten. Sie können Speicher, Blobs und/oder Dateien mithilfe von Resource Graph Explorer (Kusto) oder PowerShell (siehe unten) abfragen und entfernen.
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-17-4.png)
 
@@ -1696,13 +1697,13 @@ Nachfolgend finden Sie eine Datenschutzrichtlinie, die in Verbindung mit dem zuv
 
 ![Bild](../media/UserGuidePhotos/Security-Domain-Control-No-18-5.png)
 
-Die obige Abbildung von Azure zeigt, wie Azure so konfiguriert wurde, dass die Complianceanforderungen der DSGVO für in einer Back-End-Umgebung gespeicherte Daten erfüllt werden. Die Richtlinie (_die benutzerdefinierten oder basierend auf Azure Blueprints erstellt werden kann_) ermöglicht es dem ISV sicherzustellen, dass client&#39;Daten richtig gespeichert sind und dass nur über die festgelegten Metriken und Warnungen zugegriffen werden kann, um die Compliance sicherzustellen und nicht konforme Daten oder Benutzerzugriff auf das Compliance-Manager-Dashboard anzuzeigen.
+Die obige Abbildung von Azure zeigt, wie Azure so konfiguriert wurde, dass die Complianceanforderungen der DSGVO für in einer Back-End-Umgebung gespeicherte Daten erfüllt werden. Die Richtlinie (_die benutzerdefinierten oder basierend auf Azure-Blueprints erstellt werden kann_) ermöglicht es dem ISV sicherzustellen, dass client&#39;-Daten richtig gespeichert sind und dass nur über die festgelegten Metriken und Warnungen darauf zugegriffen werden kann, um die Compliance sicherzustellen und nicht konforme Daten oder Benutzerzugriff auf dem Compliance-Manager-Dashboard anzuzeigen.
 
 Bücher
 
 Murdoch D. (2018) Blue Team Handbuch: Incident Response Edition: Ein komprimierter Feldleitfaden für den Reaktionsgeber für Cybersicherheitsvorfälle. 2nd Edition, Publisher: CreateSpace Independent Publishing Platform.
 
-Informationsquellen
+References
 
 - Berichterstattung über Cyberdelikte bei Aktionsvergehen: [https://www.actionfraud.police.uk/](https://www.actionfraud.police.uk/) (Zugriff am 21.08.2011).
 - EU. (2021) DSGVO-Checkliste für Datenverantwortliche verfügbar unter: [https://gdpr.eu/checklist/](https://gdpr.eu/checklist/) (Zugriff am 21.01.2011).
