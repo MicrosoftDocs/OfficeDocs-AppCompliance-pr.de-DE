@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel Apps
+    - name: Microsoft Excel-Apps
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator für B2B-Partner
@@ -156,7 +156,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -188,6 +188,8 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
+        - name: LifeWorks Viva Connections
+          href: sharepoint/lifeworks-inc-viva-connections.md
         - name: Gewittertools – Blitze
           href: sharepoint/lightning-tools-conductor.md
         - name: officeatwork | Vorlagenauswahl für SharePoint
@@ -871,6 +873,8 @@
           href: teams/slido.md
         - name: Smart Connect for Jira
           href: teams/yasoon-gmbh-smart-connect-for-jira.md
+        - name: SmartDraw
+          href: teams/smartdraw-software-llc.md
         - name: Smartnotation
           href: teams/smartnotation-bv.md
         - name: Smartsheet
@@ -1089,13 +1093,15 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word Apps
+    - name: Microsoft Word-Apps
       href: word/word-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
           href: word/adobe-inc-sign-for-word-and-powerpoint.md
         - name: AuditBoard-Add-In
           href: word/auditboard-inc-add-in.md
+        - name: Citasion
+          href: word/citasion-llc.md
         - name: CocoFax – Einfaches und sicheres Senden von Fax
           href: word/cocofax-sending-fax-made-easy-and-secure.md
         - name: CrossCheck
@@ -1130,7 +1136,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Überprüfen auf Office
+        - name: officeatwork | Prüfer für Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -1155,7 +1161,7 @@
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
         - name: Classroom.cloud
           href: saas/netsupport-ltd-classroomcloud.md
-        - name: Cloudsicherung für Office 365 – Prod (transact)
+        - name: CloudSicherung für Office 365 – Prod (transact)
           href: saas/avepoint-inc-cloud-backup-for-office-365-prod-transact.md
         - name: CodeTwo-E-Mail-Signaturen für Office 365
           href: saas/codetwo-email-signatures-for-office-365.md
@@ -1208,6 +1214,8 @@
           href: azure/00738e07-f9a4-4bf5-b6f9-851ec7ea31d5.md
         - name: 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0
           href: azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0.md
+        - name: 0492ead3-ee26-40df-9757-d95cc693d856
+          href: azure/0492ead3-ee26-40df-9757-d95cc693d856.md
         - name: 05ffe668-5b27-45ff-a64d-b2ed6c475d7a
           href: azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a.md
         - name: 066a6b3a-f7a0-450a-98c7-34db1da31594
