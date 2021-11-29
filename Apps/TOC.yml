@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
-        - name: Microsoft 365-Zertifizierungsübermittlungshandbuch
+        - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel Apps
       href: excel/excel-apps.md
@@ -63,7 +63,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote-Apps
+    - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Inhaltsauswahl für Office
@@ -72,7 +72,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook Apps
+    - name: Microsoft Outlook-Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -81,7 +81,7 @@
           href: outlook/altru-videos.md
         - name: Genehmigte Kontaktkalender
           href: outlook/approved-contact-calendars.md
-        - name: Für Outlook
+        - name: Outlook
           href: outlook/asana-for-outlook.md
         - name: CI-Signature
           href: outlook/ci-solution-gmbh-signature.md
@@ -117,7 +117,7 @@
           href: outlook/officeatwork-officeatworkcontent-chooser-for-outlook.md
         - name: OnePlaceMail für Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Vertriebsengagement für Outlook
+        - name: Sales Engagement für Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One für Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -162,7 +162,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project-Apps
+    - name: Microsoft Project Apps
       href: project/project-apps.md
       items:
         - name: officeatwork | Vorlagenauswahl für Office
@@ -215,7 +215,7 @@
           href: teams/appfluence-inc-agenda-boss.md
         - name: Agile Task Board
           href: teams/agile-is-task-board.md
-        - name: Self-Service-Assistent
+        - name: Alloy Self-Service Assistant
           href: teams/alloy-software-self-service-assistant.md
         - name: ALVAO Service Desk
           href: teams/alvao-sro-service-desk.md
@@ -269,6 +269,8 @@
           href: teams/axelleron.md
         - name: Beagle
           href: teams/decision-point-beagle.md
+        - name: Bedriftsnett
+          href: teams/unifon-as-bedriftsnett.md
         - name: Beekast
           href: teams/beekast.md
         - name: Beesy
@@ -375,6 +377,8 @@
           href: teams/colligo-inc-content-manager.md
         - name: Contextere AVA
           href: teams/contextere-ava.md
+        - name: ContractZen
+          href: teams/contractzen.md
         - name: CSOD Learn
           href: teams/cornerstone-ondemand-csod-learn.md
         - name: Cuckoo Workout
@@ -1085,7 +1089,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word-Apps
+    - name: Microsoft Word Apps
       href: word/word-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -1126,7 +1130,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -1151,7 +1155,7 @@
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
         - name: Classroom.cloud
           href: saas/netsupport-ltd-classroomcloud.md
-        - name: CloudSicherung für Office 365 – Prod (transact)
+        - name: Cloudsicherung für Office 365 – Prod (transact)
           href: saas/avepoint-inc-cloud-backup-for-office-365-prod-transact.md
         - name: CodeTwo-E-Mail-Signaturen für Office 365
           href: saas/codetwo-email-signatures-for-office-365.md
@@ -1472,6 +1476,8 @@
           href: azure/99a0a9b1-5d28-45df-9f99-792aa32795f4.md
         - name: 99a3ad8d-8682-4f2a-9c2c-b4b27e99585c
           href: azure/99a3ad8d-8682-4f2a-9c2c-b4b27e99585c.md
+        - name: 9a7ce614-bdc8-4640-aaea-d8c626c58966
+          href: azure/9a7ce614-bdc8-4640-aaea-d8c626c58966.md
         - name: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
           href: azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md
         - name: 9b03f15d-1219-4b2f-9699-640be54e1319
@@ -1490,6 +1496,8 @@
           href: azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md
         - name: a1a0b277-0efb-4f00-9661-6d1a3df3cddc
           href: azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md
+        - name: a2af9d71-95f1-4236-be2c-c105ab9b7ee9
+          href: azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md
         - name: a4c28379-0840-42c5-9407-f088a7f54048
           href: azure/a4c28379-0840-42c5-9407-f088a7f54048.md
         - name: a554bdf0-866f-4ee2-b95b-3afbfc70d5bc
@@ -1646,6 +1654,8 @@
           href: azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md
         - name: f3943662-e828-40ed-9c6e-369680fe421f
           href: azure/f3943662-e828-40ed-9c6e-369680fe421f.md
+        - name: f3ad2154-7e10-4730-a055-8852ced42d47
+          href: azure/f3ad2154-7e10-4730-a055-8852ced42d47.md
         - name: f5c9f179-b9a5-4364-8f99-18d203b902ad
           href: azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md
         - name: f6671df0-1909-428c-91f7-1c42df04d3e4
