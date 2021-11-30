@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel-Apps
+    - name: Microsoft Excel Apps
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator für B2B-Partner
@@ -156,7 +156,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Schieberegler für Office
+        - name: officeatwork | Folienauswahl für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -1093,7 +1093,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word-Apps
+    - name: Microsoft Word Apps
       href: word/word-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -1161,7 +1161,7 @@
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
         - name: Classroom.cloud
           href: saas/netsupport-ltd-classroomcloud.md
-        - name: CloudSicherung für Office 365 – Prod (transact)
+        - name: Cloudsicherung für Office 365 – Prod (transact)
           href: saas/avepoint-inc-cloud-backup-for-office-365-prod-transact.md
         - name: CodeTwo-E-Mail-Signaturen für Office 365
           href: saas/codetwo-email-signatures-for-office-365.md
@@ -1242,6 +1242,8 @@
           href: azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md
         - name: 1040474b-572d-4575-a423-95dd262a8b8a
           href: azure/1040474b-572d-4575-a423-95dd262a8b8a.md
+        - name: 12397cb1-c0e5-42ae-a5be-ca4084aeadd8
+          href: azure/12397cb1-c0e5-42ae-a5be-ca4084aeadd8.md
         - name: 14cf575a-fae2-48e2-af39-e3448d3a48bb
           href: azure/14cf575a-fae2-48e2-af39-e3448d3a48bb.md
         - name: 15439749-b811-4e89-b777-4fe6ef247801
@@ -1572,6 +1574,8 @@
           href: azure/bbdcd676-7448-453c-bec7-70e5384bc290.md
         - name: bceca1f0-723f-44d0-b732-b3506c0a641d
           href: azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md
+        - name: bd2aaebe-63b9-434b-aad8-e7010f2ece20
+          href: azure/bd2aaebe-63b9-434b-aad8-e7010f2ece20.md
         - name: be181d9c-9060-40a0-a692-b29f2e314d16
           href: azure/be181d9c-9060-40a0-a692-b29f2e314d16.md
         - name: be8d11cf-265a-4974-9912-4ff28c29fc21
