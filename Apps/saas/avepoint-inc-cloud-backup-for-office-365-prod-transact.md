@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für cloudbasierte Sicherung für Office 365 – Prod (Transact), seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9257448bd15bc23647a3567fb0f66a7325fe1fd
-ms.sourcegitcommit: 7989546de4aa2bbd2a751281d1aa215facae2d15
+ms.openlocfilehash: d2017f681e2689dbf4625baf7f7d3dcef62bbfc4
+ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "61039997"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61261687"
 ---
-# <a name="cloud-backup-for-office-365---prod-transact"></a>Cloud-Sicherung für Office 365 – Prod (Transact)
+# <a name="cloud-backup-for-office-365---prod-transact"></a>Cloudsicherung für Office 365 – Prod (transact)
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: September 29, 2021</p>
@@ -30,13 +30,16 @@ Von AvePoint Inc. für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Cloud-Sicherung für Office 365 – Prod (Transact) |
+| App-Name | Cloudsicherung für Office 365 – Prod (transact) |
 | ID | avepoint.cloudbackup_o365_transact |
 | Name des Partnerunternehmens | AvePoint Inc. |
 | Website des Unternehmens | [https://www.avepoint.com](https://www.avepoint.com) |
 | Nutzungsbedingungen der App | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Kernfunktionen der App | AvePoint Cloud Backup ist die branchenweit&#8217;umfassendste Cloud-zu-Cloud-Sicherungslösung für Microsoft 365. ersetzen durch
-Unbegrenzte, automatisierte Sicherungen und sicherer Speicher in AvePoint&#8217;Azure-Speicher oder Ihrer eigenen Cloud– Sie entscheiden einfach, wie viel wiederhergestellt werden soll und wann. Bei Bedarf und granulare Wiederherstellung auf Elementebene bietet jederzeit Zugriff auf Ihre geschäftskritischen E-Mails, Dateien, Unterhaltungen, Aufzeichnungen, Projekte, Aufgaben, Gruppen, Teams, Planner und Websites. | | Firmenstandort | Vereinigte Staaten von Amerika | | Seite "App-Informationen" | | | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas | | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
+| Kernfunktionen der App | AvePoint Cloud Backup ist die branchenweit&#8217;umfassendste Cloud-zu-Cloud-Sicherungslösung für Microsoft 365. Mit unbegrenzten, automatisierten Sicherungen und sicherem Speicher in AvePoint&#8217;Azure-Speicher oder Ihrer eigenen Cloud entscheiden Sie nur, wie viel wiederhergestellt werden soll und wann. Bei Bedarf und granulare Wiederherstellung auf Elementebene bietet jederzeit Zugriff auf Ihre geschäftskritischen E-Mails, Dateien, Unterhaltungen, Aufzeichnungen, Projekte, Aufgaben, Gruppen, Teams, Planner und Websites. |
+| Firmenstandort | Vereinigte Staaten von Amerika |
+| Seite "App-Informationen" | |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +157,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
@@ -163,7 +166,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
 >|:------------------------|:--------------------|:------------------------------------|

@@ -1,21 +1,27 @@
 ---
 ms.author: oromalle
-title: Microsoft 365 Zertifizierung – Leitfaden für die anfängliche Dokumentübermittlung
+title: Microsoft 365-Zertifizierung – Leitfaden für die ursprüngliche Dokumentübermittlung
 author: orionomalley
-description: Microsoft 365 Detaillierte Ansicht des Leitfadens für die Zertifizierungsübermittlung
-keywords: App-Zertifizierungsteams Microsoft 365 der ersten Übermittlung von M365-Dokumenten zur Sicherheitscompliance
+description: detaillierte Ansicht des Microsoft 365-Zertifizierungsübermittlungshandbuchs
+keywords: App-Zertifizierungsteams Microsoft 365 M365-Erstübermittlung von Dokumenten zur Sicherheitscompliance
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 0352b64649d87b40d185a2bc06ce23da6cf341ef
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 0f879ce6b02fb469b0210500e4706d468ccb4011
+ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378813"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61261677"
 ---
-# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Zertifizierung – Leitfaden für die anfängliche Dokumentübermittlung
+# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification – Leitfaden für die ursprüngliche Dokumentübermittlung
 
 Die anfängliche Dokumentübermittlung ist Teil der Phase vor der Bewertung der Zertifizierung. Anhand der bereitgestellten Informationen erhalten Zertifizierungsanalysten den Hintergrund, der erforderlich ist, um zu ermitteln, welche Steuerelemente und Systemkomponenten für Ihre Bewertung im Umfang sind. Dieses Dokument dient nur als Beispiel für das, was von Ihrer anfänglichen Dokumentübermittlung erwartet wird. Die von Ihnen bereitgestellte Dokumentation hängt davon ab, wie Ihre Lösung erstellt, implementiert und verwaltet wird.
+
+## <a name="what-is-the-hosting-environment-or-service-model-used-to-run-your-app"></a>Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet?
+- Infrastructure as a Service (IaaS) ist ein Clouddienstmodell, bei dem Ihr Clouddienstanbieter Ihre Infrastrukturkomponenten hostet, ISVs jedoch weiterhin für die individuelle Bereitstellung und Verwaltung der Komponenten verantwortlich sind, z. B. virtuelle Computer/Betriebssysteme, Datenspeicher und Netzwerkkomponenten. Beispiele hierfür sind Azure Virtual Machine und Azure Disk Storage.
+- Platform as a Service (PaaS) ist ein Clouddienstmodell, bei dem die Infrastrukturkomponenten vom Clouddienstanbieter verwaltet werden. ISVs sind nur für die Bereitstellung ihrer eigenen Anwendungen und Dienste verantwortlich. Beispiele hierfür sind Azure App Services, Azure Functions und Azure CDN.
+- Isv Hosted in this context means that no cloud service provider is used. Der ISV verwaltet seine eigenen Server, Datenträger und Netzwerke lokal unabhängig voneinander.
+- Hybrid bedeutet in diesem Zusammenhang, dass eines der oben genannten Modelle verwendet wird. Einige ISVs entscheiden sich beispielsweise dafür, eine Mischung aus IaaS-Diensten und PaaS-Diensten zu verwenden, um ihre App zu unterstützen, oder sie verfügen möglicherweise über lokale ISV-gehostete Komponenten und lagern andere an einen Clouddienstanbieter aus. Wenn Sie eines von mehreren Dienstmodellen verwenden, wählen Sie Hybrid aus.
 
 ## <a name="penetration-test-report"></a>Penetrationstestbericht
 
@@ -34,7 +40,7 @@ Eine aktuelle Neustrukturung aller Systemkomponenten, die von der unterstützend
 
 |Objektname|    Objekttyp| Beschreibung|    Hersteller|   Modell|
 |-|-|-|-|-|
-|D212|  Windows  Maschine|   Virtueller Computer|    Nicht zutreffend| Nicht zutreffend|
+|D212|  Windows Computer|   Virtueller Computer|    Nicht zutreffend| Nicht zutreffend|
 |LT101| Laptop| Arbeitsstation|    Microsoft|  Surface 3|
 |C2938| Option| Option|Nicht zutreffend|Nicht zutreffend|     
 |LXM2|  Linux-Computer|  Testcomputer|Nicht zutreffend|Nicht zutreffend|       
@@ -62,7 +68,7 @@ Dokumentation, in der alle Abhängigkeiten aufgeführt sind, die von der App/dem
 
 **Beispiel:**
 
-|Webabhängigkeiten|  Aktuelle Verwendete Version|
+|Webabhängigkeiten|  Aktuelle verwendete Version|
 |-|-|
 |Jquery|    3.5.1|
 |React| 16.13.1|
@@ -74,7 +80,7 @@ Dokumentation, in der alle Abhängigkeiten aufgeführt sind, die von der App/dem
 
 ## <a name="public-ip-addresses"></a>Öffentliche IP-Adressen
 
-Ausführliche Informationen zu allen öffentlichen IP-Adressen und URLs, die von der unterstützenden Infrastruktur verwendet werden. Dies muss den vollständigen routingfähigen IP-Bereich enthalten, der der Umgebung zugeordnet ist, es sei denn, eine angemessene Segmentierung wurde implementiert, um den verwendeten Bereich aufzuteilen (es sind angemessene Nachweise für die Segmentierung erforderlich).
+Ausführliche Informationen zu allen öffentlichen IP-Adressen und URLs, die von der unterstützenden Infrastruktur verwendet werden. Dies muss den vollständigen routingfähigen IP-Bereich enthalten, der der Umgebung zugeordnet ist, es sei denn, eine angemessene Segmentierung wurde implementiert, um den verwendeten Bereich aufzuteilen (angemessene Nachweise für die Segmentierung sind erforderlich).
 
 **Beispiel:**
 
