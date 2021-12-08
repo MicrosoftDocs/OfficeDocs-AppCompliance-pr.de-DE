@@ -2,17 +2,17 @@
 title: Sicherheit und Compliance von Microsoft Outlook Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/22/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook Apps.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook-Apps.
 localization_priority: Normal
-ms.openlocfilehash: d475bd1d8cc129b3b1ab96d204cbbc9c0e44e49c
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: e432d03df0c033f6d93a7a7b4f6ec541ff84fe84
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148063"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61351600"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Outlook Apps
 
@@ -23,7 +23,6 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Adobe Sign-Add-In für Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Altru Videos](./altru-videos.md) | Altru | **✓** |  |
 | [Genehmigte Kontaktkalender](./approved-contact-calendars.md) | Approved Contact | **✓** |  |
-| [Für Outlook](./asana-for-outlook.md) | Asana | **✓** |  |
 | [CI-Signatur](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo für Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Commuty](./commuty.md) | Commuty | **✓** |  |
@@ -41,14 +40,12 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Office2SharePoint für Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Inhaltsauswahl für Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail für Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace-Lösungen | **✓** |  |
-| [Sales Engagement für Outlook](./outreach-sales-engagement-for-outlook.md) | Reichweite | **✓** |  |
+| [Vertriebsengagement für Outlook](./outreach-sales-engagement-for-outlook.md) | Reichweite | **✓** |  |
 | [Pexip One für Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Prioritätsmatrix – Umwandeln von E-Mails in Aufgaben](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [ServiceDesk Plus für E-Mail](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  |
-| [StarLeaf-Add-In für Outlook](./starleaf-add-in-for-outlook.md) | StarLeaf | **✓** |  |
 | [Wunder365](./jiji-technologies-private-limited-wunder365.md) | JiJi Technologies Private Limited | **✓** |  |
 | [XQ Secure Email](./xq-message-secure-email.md) | XQ-Nachricht | **✓** |  |
-| [Zoho Campaigns-Tool für die Marketingautomatisierung](./zoho-corporation-private-limited-campaigns-tool-for-marketing-automation.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho CRM für E-Mails](./zoho-corporation-private-limited-crm-for-email.md) | Zoho Corporation Private Limited | **✓** |  |

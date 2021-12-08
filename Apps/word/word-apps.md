@@ -1,18 +1,18 @@
 ---
-title: Microsoft Word Sicherheit und Compliance von Apps – Alle Apps
+title: sicherheit und Compliance von Microsoft Word Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/29/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Word Apps.
 localization_priority: Normal
-ms.openlocfilehash: ead76387b7cdfd52f035f81db53baa59e3bf580f
-ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
+ms.openlocfilehash: c45c9f29de245e5c60199eb85b54c0324ece68b0
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217049"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61353670"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Word Apps
 
@@ -31,7 +31,6 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Impression-Signaturen](./impression-signatures.md) | Impression-Signaturen | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
 | [Loio-Vertragsüberprüfungssoftware](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
-| [Lucidchart-Diagramme für Word](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
 | [Mendeley Cite](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [neopol](./neopolis-gmbh.md) | neorena GmbH | **✓** |  |
 | [Office2SharePoint für Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

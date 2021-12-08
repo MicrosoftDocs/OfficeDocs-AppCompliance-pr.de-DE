@@ -2,17 +2,17 @@
 title: Sicherheit und Compliance von Microsoft PowerPoint Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/20/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft PowerPoint Apps.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft PowerPoint-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 1b1c190303b7b4bebece542bb5bdf01a56a47bd7
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: f99a5ba130a68a68d89e06e228cbfc98a539042a
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60545805"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61354170"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft PowerPoint Apps
 
@@ -23,7 +23,6 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Adobe Sign für Word und PowerPoint](./adobe-inc-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Excel-zu-Word-Dokumentautomatisierung](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie für Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
-| [Lucidchart-Diagramme für PowerPoint](./lucid-software-inc-lucidchart-diagrams-for-powerpoint.md) | Lucid Software Inc | **✓** |  |
 | [Office2SharePoint für Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Inhaltsauswahl für Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Bildauswahl für Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |

@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für Tikit von Cireson
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/01/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tikit, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4d7eb0c6987d0e7ae0805740c52607b3a1de652f
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: b198e4d613b2b25aa6dffc2f385ccba225f1801b
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60441023"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61349990"
 ---
 # <a name="tikit"></a>Tikit
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: May 4, 2021</p>
+<p>Last updated by the developer on: November 30, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/b13c40ee-e073-459e-96b5-3f3cca046a37" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002602" target="_blank">Ansicht in AppSource</a>
@@ -34,12 +34,15 @@ Informationen, die Von Grapheson an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Tikit |
 | ID | WA200002602 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cireson |
-| URL der Partnerwebsite | [https://tikit.ai](https://tikit.ai) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://tikit.ai](https://tikit.ai) |
-| URL der Datenschutzrichtlinie | [https://tikit.ai/privacy-statement/](https://tikit.ai/privacy-statement/) |
-| URL der Nutzungsbedingungen | [https://tikit.ai/terms-service/](https://tikit.ai/terms-service/) |
+| Website des Unternehmens | [https://tikit.ai](https://tikit.ai) |
+| Nutzungsbedingungen der App | [https://tikit.ai/terms-service/](https://tikit.ai/terms-service/) |
+| Kernfunktionen der App | Microsoft-First Ticketing, das exklusiv für Teams erstellt wurde |
+| Firmenstandort | Vereinigte Staaten von Amerika |
+| Seite "App-Informationen" | |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,104 +54,136 @@ Informationen, die Von Grapheson an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Ihnen zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
-
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
-
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Device.Read | Anwendung | Benutzerdiagramminformationen, die für einmaliges Anmelden über teams-Bot-Kommunikation verwendet werden  | Wir speichern Benutzerrollen, Vornamen, Vornamen, E-Mail, AAD-ID Teams Benutzer-ID. Diese Informationen werden für Anwendungsauthentifizierung, Sicherheit, RBAC, Teams-Integration, Teams-Benachrichtigungen und Benutzerbeziehungszuordnung verwendet.   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Directory.AccessAsUser.All | Delegiert | Gruppennamen und Rollen für RBAC | Rollenname des Gruppennamens, &amp; muss eine sichere zugeordnete Zugriffssteuerung bereitstellen. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Directory.Read.All | Delegiert | Gruppennamen und Rollen für RBAC | Rollenname des Gruppennamens, &amp; muss eine sichere zugeordnete Zugriffssteuerung bereitstellen. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Group.Read.All | Beide | Gruppennamen und Rollen für RBAC | Gruppennamen und Rollen für RBAC | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read | Delegiert | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, die für die Authentifizierung verwendet wird  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, die für die Authentifizierung verwendet wird  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read.All | Anwendung | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, die für die Authentifizierung verwendet wird  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, die für die Authentifizierung verwendet wird  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.ReadBasic.All | Delegiert | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, die für die Authentifizierung verwendet wird  | Benutzerrollen, Familienname, Vorname, E-Mail, AAD-ID, Teams Benutzer-ID, die für die Authentifizierung verwendet wird  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| email | Delegiert | Benutzer-E-Mail, die für die Anmeldung und die zugehörige Identifikation verwandter Entitäten verwendet wird. &quot;Zugewiesener Benutzer&quot; | Benutzer-E-Mail, die für die Anmeldung und die zugehörige Identifikation verwandter Entitäten verwendet wird. &quot;Zugewiesener Benutzer&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| openid | Delegiert | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Profil | Delegiert | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | wird für die Authentifizierung über MSAL gemäß Anforderungen verwendet.  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
-
-#### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
-
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
-
->| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| QnA Maker | Nein |  |  |  |  |
-
-#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
-
-Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
-
->Nicht-Microsoft-Dienste werden nicht verwendet.
-
-#### <a name="data-access-via-bots"></a>Datenzugriff über Bots
-
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
-
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Name und E-Mail für Benutzerentitätsbeziehungen &quot; Ticket Requestor&quot;  | Name und E-Mail  | für Benutzerentitätsbeziehungen &quot; Ticket Requestor&quot;  |
-
-
-#### <a name="telemetry-data"></a>Telemetriedaten
-
-Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
-
->Wir speichern den Firmennamen, die Mandanten-ID, die E-Mail-Adresse, die Bot-Client-ID in App-Insights mit einer 30-dat-Aufbewahrungsrichtlinie.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
-
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
-
->In einem Partnersystem sind keine Daten vorhanden.
-
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
-
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
-
->Ja
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
+| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Unterstützt die App TLS 1.1 oder höher? | Ja |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofil (Azure Active Directory Informationen – Name, Titel usw.) |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
+| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Ja |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? | Nr. |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36548' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36548" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Führen Sie jährliche Penetrationstests für die App durch? | Nein |
+| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? | ApplicationControls |
+| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? | Ja |
+| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? | Ja |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? | Ja |
+| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nr. |
+| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? | Nein |
+| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? | Ja |
+| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Ja |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, Credential, DNSManagement |
+| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
+| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Identitätsinformationen
-
-Diese Informationen wurden von DerEnson bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+::: zone pivot="compliance"
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
-| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
-| Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung, zulassen, dass nur in Intune registrierte Geräte auf bestimmte Dienste zugreifen, Benutzerspeicherorte und IP-Bereich einschränken |
-| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
-| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
-| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
-| Verfügt Ihre App über einen vertraulichen Client? | Ja |
-| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
-| Macht Ihre App Web-APIs verfügbar? | Ja |
-| Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
-| Verwendet Ihre App Vorschau-APIs? | Ja |
-| Verwendet Ihre App veraltete APIs? | Nein |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Letztes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nr. |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
+| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
+| Letztes SOC3-Zertifizierungsdatum | |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nr. |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Ja |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? | Ja |
+| URL der Datenschutzrichtlinie | https://www.tikit.ai/privacy-statement/ |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
+| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? | Nein |
+| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
+| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Ja |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Ja |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Nr. |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Antwort** |
+|:----------------|:-------------|
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
+| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
+| Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung, zulassen, dass nur in Intune registrierte Geräte auf bestimmte Dienste zugreifen, Benutzerspeicherorte und IP-Bereich einschränken |
+| Unterstützt Ihre App continuous Access Evaluation (CAE) | Nein |
+| Speichert Ihre App Anmeldeinformationen im Code? | Nein |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
+
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
+>|:------------------------|:--------------------|:------------------------------------|
+>| Directory.Read.All | Delegiert | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet |
+>| Directory.AccessAsUser.All | Delegiert | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet |
+>| email | Delegiert | Anmeldeberechtigungen |
+>| Group.Read.All | Beide | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet |
+>| openid | Delegiert | Anmeldung |
+>| Profil | Delegiert | Anmeldung |
+>| User.Read | Delegiert | Anmeldung |
+>| User.Read.All | Anwendung | Anmeldung |
+>| User.ReadBasic.All | Delegiert | Anmeldung |
+
+>Diese Anwendung verfügt nicht über zusätzliche APIs.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
