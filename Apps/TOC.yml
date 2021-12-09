@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
-        - name: Microsoft 365-Zertifizierungsübermittlungshandbuch
+        - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel Apps
       href: excel/excel-apps.md
@@ -68,7 +68,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook-Apps
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -150,7 +150,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project-Apps
+    - name: Microsoft Project Apps
       href: project/project-apps.md
       items:
         - name: officeatwork | Vorlagenauswahl für Office
@@ -1095,6 +1095,8 @@
           href: saas/officeatwork-uploader.md
         - name: Verifier
           href: saas/officeatwork-verifier.md
+        - name: Umfassende Ideen – Innovationssoftware
+          href: saas/wide-ideasidea2innovation-ideas-innovation-software.md
         - name: Assistent
           href: saas/officeatwork-wizard.md
     - name: Azure-App-IDs
@@ -1482,6 +1484,8 @@
           href: azure/d27f56ed-ddc7-4cf8-86ac-721b76c7d287.md
         - name: d2c7af43-2e9d-41b2-b374-e9ffbe316d61
           href: azure/d2c7af43-2e9d-41b2-b374-e9ffbe316d61.md
+        - name: d44d071f-a9e5-4f99-b72e-5ab38cd7b175
+          href: azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md
         - name: d492530a-8cff-481c-90da-9c3c3f1be7da
           href: azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md
         - name: d5630318-189a-4912-abae-99b1f8f82cce
