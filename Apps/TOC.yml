@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
-        - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
+        - name: Microsoft 365-Zertifizierungsübermittlungshandbuch
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel Apps
       href: excel/excel-apps.md
@@ -68,7 +68,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook Apps
+    - name: Microsoft Outlook-Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -101,6 +101,8 @@
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: LawToolBox Deadline and Matter Management – Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
+        - name: Mailbutler
+          href: outlook/mailbutler.md
         - name: MIPA – Ihr eigener persönlicher Assistent
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
         - name: ngDesk
@@ -150,7 +152,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project Apps
+    - name: Microsoft Project-Apps
       href: project/project-apps.md
       items:
         - name: officeatwork | Vorlagenauswahl für Office
@@ -331,8 +333,8 @@
           href: teams/conferences-io.md
         - name: Confluence Cloud
           href: teams/atlassian-confluence-cloud.md
-        - name: Confluence Connector
-          href: teams/move-work-forward-confluence-connector.md
+        - name: Konfluence Connector von MVF
+          href: teams/move-work-forward-confluence-connector-by-mwf.md
         - name: Verbinden+
           href: teams/reward-gateway-connectplus.md
         - name: Contact Center | ROGER365.io
@@ -377,6 +379,8 @@
           href: teams/r2-docuo.md
         - name: DocuSign eSignature
           href: teams/docusign-inc-esignature.md
+        - name: Unified Call Recording (Einheitliche Anrufaufzeichnung)
+          href: teams/dubber-unified-call-recording.md
         - name: Easy Projects
           href: teams/logic-software-inc-easy-projects.md
         - name: eCademy Lernplattform
@@ -565,7 +569,7 @@
           href: teams/smart-technologies-ulc-lumio-by.md
         - name: MailClark
           href: teams/mailclark.md
-        - name: Karten-Pro
+        - name: Map Pro
           href: teams/witivio-map-pro.md
         - name: Marvel
           href: teams/marvel.md
@@ -1128,6 +1132,8 @@
           href: azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb.md
         - name: 0c67871c-ffbc-4b37-bd61-afce12b299f9
           href: azure/0c67871c-ffbc-4b37-bd61-afce12b299f9.md
+        - name: 0d56e89d-8356-457f-89a2-618386a39eb8
+          href: azure/0d56e89d-8356-457f-89a2-618386a39eb8.md
         - name: 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf
           href: azure/0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md
         - name: 12397cb1-c0e5-42ae-a5be-ca4084aeadd8
