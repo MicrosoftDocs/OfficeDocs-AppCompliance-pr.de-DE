@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
-        - name: Microsoft 365-Zertifizierungsübermittlungshandbuch
+        - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel Apps
       href: excel/excel-apps.md
@@ -68,7 +68,7 @@
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
         - name: Wunder365 für Office
           href: onenote/jiji-technologies-private-limited-wunder365-for-office.md
-    - name: Microsoft Outlook-Apps
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -152,7 +152,7 @@
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project-Apps
+    - name: Microsoft Project Apps
       href: project/project-apps.md
       items:
         - name: officeatwork | Vorlagenauswahl für Office
@@ -162,7 +162,7 @@
       items:
         - name: Adobe Sign für SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: ArcGIS für SharePoint
+        - name: ArcGIS for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: HelloSign für SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
@@ -443,8 +443,8 @@
           href: teams/tritium-software-sl-forcemanager-crm.md
         - name: FormMachines
           href: teams/enterprise-digital-machines-formmachines.md
-        - name: Freihand
-          href: teams/invisionapp-inc-freehand.md
+        - name: Freehand by InVision
+          href: teams/invisionapp-inc-freehand-by-invision.md
         - name: Geekbot
           href: teams/geekbot-ltd.md
         - name: Gensys
@@ -1166,6 +1166,8 @@
           href: azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md
         - name: 24a9cf21-407c-41f9-8cc6-e7015f4e02af
           href: azure/24a9cf21-407c-41f9-8cc6-e7015f4e02af.md
+        - name: 25379fc8-577f-4935-b681-6f027977fbe3
+          href: azure/25379fc8-577f-4935-b681-6f027977fbe3.md
         - name: 272032ad-0c2e-4928-910e-5d52b19f70d5
           href: azure/272032ad-0c2e-4928-910e-5d52b19f70d5.md
         - name: 27c89ce8-b449-4959-b801-988d8b727512
