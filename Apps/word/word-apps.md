@@ -1,18 +1,18 @@
 ---
-title: sicherheit und Compliance von Microsoft Word Apps – Alle Apps
+title: Microsoft Word Sicherheit und Compliance von Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/07/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Word Apps.
 localization_priority: Normal
-ms.openlocfilehash: c45c9f29de245e5c60199eb85b54c0324ece68b0
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 2a684455e3806339d3e369ce42a4d00acc76f526
+ms.sourcegitcommit: fc537c6574ed98a1706c4cadf02150a2f3e1137c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61353670"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "61537777"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Word Apps
 
