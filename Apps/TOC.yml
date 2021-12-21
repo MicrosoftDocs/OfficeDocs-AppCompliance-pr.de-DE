@@ -59,7 +59,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote Apps
+    - name: Microsoft OneNote-Apps
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Inhaltsauswahl für Office
@@ -97,9 +97,9 @@
           href: outlook/iglobe-iplanner-pro-office-365.md
         - name: Jira Cloud for Outlook (Offiziell)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
-        - name: LawToolBox-Stichtage und Matter Management – Outlook
+        - name: LawToolBox Deadline and Matter Management – Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: LawToolBox-Stichtage und Matter Management – Outlook
+        - name: LawToolBox Deadline and Matter Management – Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: Mailbutler
           href: outlook/mailbutler.md
@@ -148,18 +148,18 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Schieberegler für Office
+        - name: officeatwork | Folienauswahl für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project-Apps
+    - name: Microsoft Project Apps
       href: project/project-apps.md
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint Apps
+    - name: Microsoft SharePoint-Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Adobe Sign für SharePoint
@@ -871,7 +871,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Teamarbeit
+        - name: Teamwork
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -879,7 +879,7 @@
           href: teams/officeatwork-template-chooser.md
         - name: Text
           href: teams/approved-contact-text.md
-        - name: Der Hub für Diess
+        - name: The Captivate Hub
           href: teams/captivate-io-ltd-the-hub.md
         - name: ThoughtExchange
           href: teams/thoughtexchange.md
@@ -1396,6 +1396,8 @@
           href: azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md
         - name: a1a0b277-0efb-4f00-9661-6d1a3df3cddc
           href: azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md
+        - name: a22e0150-3615-46aa-b0a7-086c87a9f38d
+          href: azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md
         - name: a2af9d71-95f1-4236-be2c-c105ab9b7ee9
           href: azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md
         - name: a4c28379-0840-42c5-9407-f088a7f54048
