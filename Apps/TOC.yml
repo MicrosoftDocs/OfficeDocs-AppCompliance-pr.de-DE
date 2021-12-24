@@ -585,6 +585,8 @@
           href: teams/mentimeter.md
         - name: Nachrichterinnerung
           href: teams/message-reminder.md
+        - name: MetaVisitor
+          href: teams/wafer-systems-metavisitor.md
         - name: MGR360
           href: teams/mgr360.md
         - name: Mia
@@ -1091,7 +1093,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: Luware Compliance Recording for Microsoft Teams
+        - name: Luware-Complianceaufzeichnung für Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus für Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
