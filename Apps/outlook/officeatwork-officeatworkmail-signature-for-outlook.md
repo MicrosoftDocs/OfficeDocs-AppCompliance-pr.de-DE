@@ -1,27 +1,27 @@
 ---
-title: Anwendungsinformationen für officeatwork-| Bildauswahl für Office nach Officeatwork
+title: Anwendungsinformationen für officeatwork-| E-Mail-Signatur für Outlook von officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Image Chooser for Office, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Officeatwork-| Mail Signature for Outlook, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 89a1658d35f78feede5f6e58110ab51a51ab29dd
+ms.openlocfilehash: 9c2b253c143a1efa249f0e4ea14387664bb68834
 ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/12/2022
-ms.locfileid: "61779210"
+ms.locfileid: "61788522"
 ---
-# <a name="officeatwork--image-chooser-for-office"></a>officeatwork | Bildauswahl für Office
+# <a name="officeatwork--mail-signature-for-outlook"></a>officeatwork | E-Mail-Signatur für Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Zuletzt aktualisiert vom Entwickler am: 7. Januar 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200002683" target="_blank">Ansicht in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003062" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -31,13 +31,13 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | officeatwork – Bildauswahl für Office |
-| ID | WA200002683 |
-| unterstützte Office 365-Clients | Excel auf iPad, Excel 2016 oder höher auf einem Mac, Excel 2013 Service Pack 1 oder höher auf Windows, Excel im Web, Word auf iPad, Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 Service Pack 1 oder höher später auf Windows, PowerPoint auf iPad, PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2013 Service Pack 1 oder höher auf Windows, OneNote im Web |
+| App-Name | officeatwork – E-Mail-Signatur für Outlook |
+| ID | WA200003062 |
+| Office 365 unterstützten Clients | Outlook 2016 oder höher auf Windows, Outlook im Web |
 | Name des Partnerunternehmens | officeatwork |
 | Website des Unternehmens | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Nutzungsbedingungen der App | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Kernfunktionen der App | Image Bank für M365 | Zugreifen auf Ihre zentral freigegebenen Bilder in Word, Excel, PowerPoint und anderen Apps |
+| Kernfunktionen der App | E-Mail-Signaturen, einfach und sicher, zentral verwaltet, &amp; personalisiert in der gesamten Organisation. |
 | Firmenstandort | Schweiz |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -157,14 +157,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | Sicherheitsstandards |
 | Unterstützt Ihre App continuous Access Evaluation (CAE) | Ja |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
-| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
@@ -172,13 +172,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >|:------------------------|:--------------------|:------------------------------------|
 >| openid | Delegiert | Aktivieren der Anmeldung |
 >| Profil | Delegiert | Aktivieren der Anmeldung |
->| offline_access | Delegiert | Aktivieren der automatisierten Anmeldung für ältere Office-Hosts |
->| User.Read | Delegiert | Aktivieren der Anzeige des angemeldeten Benutzers |
->| Files.ReadWrite.All | Delegiert | Aktivieren des Features "Favoriten und OneDrive" |
->| Group.ReadWrite.All | Delegiert | Aktivieren Teams-Features |
->| User.Read.All | Delegiert | Aktivieren der Anzeige von Benutzereigenschaften |
->| Sites.Read.All | Delegiert | Lesen der in SharePoint gespeicherten Benutzervorlagendateien |
->| GroupMember.Read.All | Delegiert | Aktivieren Teams-Features |
+>| offline_access | Delegiert | Aktivieren der automatischen Anmeldung für ältere Office Hosts |
+>| User.Read | Delegiert | Aktivieren der Anzeige des angemeldeten Benutzers, Aktivieren dynamischer E-Mail-Signaturen mit Benutzereigenschaften |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
