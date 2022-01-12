@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für ASC-Aufzeichnungen Insights von ASC Technologies AG
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/20/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ASC Recording Insights, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 74d343c964765387046099aa34ba873a24421724
-ms.sourcegitcommit: 6ca6b2ad53cf18362b78ed725d295cc2590c6b36
+ms.openlocfilehash: 23028cb70e0d93e3f086e499cd2b6595eeec932f
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61574547"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61785632"
 ---
 # <a name="asc-recording-insights"></a>ASC Recording Insights
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 15, 2021</p>
+<p>Last updated by the developer on: December 21, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/8f79287d-5850-42f1-9af2-48ddf6ef89a8" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000708" target="_blank">Ansicht in AppSource</a>
@@ -60,7 +60,7 @@ Diese Informationen wurden von ASC Technologies AG darüber bereitgestellt, wie 
 | Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | Wir speichern die GUID der Tenats und der Benutzer in Azure CosmosDB. Wir lösen sie bei Bedarf mitHilfe von Microsoft Graph auf. |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Wir speichern die GUID der Tenats und der Benutzer in Azure CosmosDB. Wir lösen sie bei Bedarf mit Microsoft Graph auf. |
 | Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Irland |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
@@ -158,7 +158,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
