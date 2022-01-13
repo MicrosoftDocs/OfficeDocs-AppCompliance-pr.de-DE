@@ -2,17 +2,17 @@
 title: Sicherheit und Compliance von Microsoft SharePoint Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/11/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft SharePoint-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 11bb7ec222b8abefd4ee0d1858d3472da17767cd
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 91ac619baab4b460d046f266af48d7ac9c903ec4
+ms.sourcegitcommit: 19aa86f2bbf281851e555ecc4465c25384ba97d7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61786083"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027834"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft SharePoint Apps
 
@@ -22,15 +22,10 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign für SharePoint](./adobe-inc-sign-for-sharepoint.md) | Adobe Inc. | **✓** |  |
 | [ArcGIS for SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
-| [Angebotsverwaltungssystem](./beyond-technologies-bid-management-system.md) | Beyond Technologies | **✓** |  |
-| [FormMachines Connector für SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | ENTERPRISE DIGITAL MACHINES PTY LTD | **✓** |  |
-| [HelloSign für SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |
 | [iGlobe CRM-Add-Ons](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iGlobe CRM-Office 365 für Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Konnect eMail Parser](./konnect-email-parser.md) | Konnect eMail | **✓** |  |
-| [LifeWorks Viva Connections](./lifeworks-inc-viva-connections.md) | Lifeworks Inc | **✓** |  |
 | [Gewittertools – Blitze](./lightning-tools-conductor.md) | Blitztools | **✓** |  |
-| [officeatwork | Vorlagenauswahl für SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** |  |
 | [Power BI-Zusammenarbeit](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [Intelligentere Ereignisbuchung](./smarter-business-solutions-gmbh-event-booking.md) | Smarter Business Solutions GmbH | **✓** |  |
 | [Taxonomie](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |

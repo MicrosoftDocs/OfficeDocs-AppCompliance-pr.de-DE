@@ -1,18 +1,18 @@
 ---
-title: Microsoft Excel Sicherheit und Compliance von Apps – Alle Apps
+title: sicherheit und Compliance von Microsoft Excel Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/11/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Excel Apps.
 localization_priority: Normal
-ms.openlocfilehash: dd62d497c0071968f52c6d936bcbcf00eeb1fbab
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 17fb073b5bbdf008d5fe83ee400ec8e2b04d81c5
+ms.sourcegitcommit: 19aa86f2bbf281851e555ecc4465c25384ba97d7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61786113"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62028830"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Excel Apps
 
@@ -23,19 +23,12 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Canon EMEA Service Cost Calculator für B2B-Partner](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics für NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
 | [Excel-zu-Word-Dokumentautomatisierung](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
-| [For über sich selbst](./forbury-property.md) | Forbury-Eigenschaft | **✓** |  |
 | [harmon.ie für Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Impression-Signaturen](./impression-signatures.md) | Impression-Signaturen | **✓** |  |
 | [Jira Cloud für Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
-| [MeaningCloud Text Analytics für Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint für Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | Inhaltsauswahl für Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Bildauswahl für Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Vorlagenauswahl für Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |
 | [QuickCells-Diagramme](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [QuickCells Solvers](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Report Builder](./adobe-inc-report-builder.md) | Adobe Inc. | **✓** |  |
-| [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
-| [Supermetrics](./supermetrics.md) | Supermetrics | **✓** |  |
 | [Wunder365 für Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
 | [Eingereichte XBRL-Daten](./xbrl-us-filed-data.md) | XBRL US | **✓** |  |
