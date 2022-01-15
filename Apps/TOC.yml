@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
-        - name: Microsoft 365-Zertifizierungsübermittlungshandbuch
+        - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel Apps
       href: excel/excel-apps.md
@@ -45,7 +45,7 @@
           href: excel/jiji-technologies-private-limited-wunder365-for-office.md
         - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote Apps
+    - name: Microsoft OneNote-Apps
       href: onenote/onenote-apps.md
       items:
         - name: Wunder365 für Office
@@ -77,7 +77,7 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: Jira Cloud for Outlook (Official)
+        - name: Jira Cloud for Outlook (Offiziell)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox Deadline and Matter Management – Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -109,7 +109,7 @@
           href: outlook/xq-message-secure-email.md
         - name: Zoho CRM für E-Mails
           href: outlook/zoho-corporation-private-limited-crm-for-email.md
-    - name: Microsoft PowerPoint Apps
+    - name: Microsoft PowerPoint-Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -726,7 +726,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Teamarbeit
+        - name: Teamwork
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -748,8 +748,6 @@
           href: teams/totara-learning.md
         - name: Tribute
           href: teams/tribute-co.md
-        - name: Trivia
-          href: teams/springworks-hr-tech-trivia.md
         - name: Trivia Engine
           href: teams/enableuc-trivia-engine.md
         - name: Trivie
@@ -826,7 +824,7 @@
           href: teams/zoho-corporation-private-limited-sign.md
         - name: Zoho Sprints
           href: teams/zoho-corporation-private-limited-sprints.md
-    - name: Microsoft Word Apps
+    - name: Microsoft Word-Apps
       href: word/word-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
