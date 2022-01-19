@@ -12,11 +12,11 @@
     - name: Für Entwickler
       expanded: true
       items:
-        - name: Abschließen Publisher Überprüfung
+        - name: Vollständige Publisher Überprüfung
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
-        - name: Microsoft 365-Zertifizierungsübermittlungshandbuch
+        - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel Apps
       href: excel/excel-apps.md
@@ -70,7 +70,7 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: Jira Cloud for Outlook (Offiziell)
+        - name: Jira Cloud for Outlook (Official)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox Deadline and Matter Management – Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -493,8 +493,6 @@
           href: teams/facilis-mybys.md
         - name: Myfone
           href: teams/flexfone-myfone.md
-        - name: MyHub
-          href: teams/avepoint-inc-myhub.md
         - name: MyWorkDrive
           href: teams/myworkdrive.md
         - name: NE
@@ -840,7 +838,7 @@
           href: word/elsevier-limited-mendeley-cite.md
         - name: Office2SharePoint für Office
           href: word/iglobe-office2sharepoint-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: RetMig und Kommaforslag
           href: word/grammarsoft-aps-retmig-and-kommaforslag.md
