@@ -7,16 +7,16 @@ ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Azure App-IDs.
 localization_priority: Normal
-ms.openlocfilehash: 6ee2f96bb1943a1d602c5874d014ea93b46a414c
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 13dc9fb993472dbc4397046a83668982e798d220
+ms.sourcegitcommit: 2aa786d5bf1f93ef63b80f04bff99434d2246d92
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/20/2022
-ms.locfileid: "62145132"
+ms.locfileid: "62157212"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Sicherheit und Compliance von Azure-App-IDs
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über azure-App-IDs und -Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen zu azure-App-IDs und -Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **Azure-App-ID** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:-------------:|
@@ -104,6 +104,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [5b599e19-a609-432b-9074-c9d4457e8766](./5b599e19-a609-432b-9074-c9d4457e8766.md) | **✓** |  |
 | [5be2b320-a5b7-4221-893c-dee506e4e365](./5be2b320-a5b7-4221-893c-dee506e4e365.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [5c1f85d2-d744-4159-8c01-16e9a7b1207b](./5c1f85d2-d744-4159-8c01-16e9a7b1207b.md) | **✓** |  |
+| [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](./5d8eb1a9-2188-4292-86f6-f4964d49e8b3.md) | **✓** |  |
 | [5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9](./5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9.md) | **✓** |  |
 | [5e4dadf5-9f90-449b-9e39-934fd10b7c23](./5e4dadf5-9f90-449b-9e39-934fd10b7c23.md) | **✓** |  |
 | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](./5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) | **✓** |  |

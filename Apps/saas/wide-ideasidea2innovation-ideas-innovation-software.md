@@ -1,0 +1,183 @@
+---
+title: Anwendungsinformationen für breite Ideen – Innovationssoftware von Wide Ideas/Idea2 Ausgründen
+ms.author: elmalova
+author: elenamalova
+ms.date: 12/08/2021
+ms.topic: article
+ms.service: attestation
+certification_type: attested
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für wide Ideas – Innovation Software, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 55c7276aaf212bf8b6dbc2861f47711af0b0ea6b
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62155514"
+---
+# <a name="wide-ideas---innovation-software"></a>Umfassende Ideen – Innovationssoftware
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: December 2, 2021</p>
+
+* <a href="https://appsource.microsoft.com/product/web-apps/wideideaspoweredbyidea2innovaitonswedenab.innovation_cloud_application" target="_blank">Ansicht in AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Allgemeine Informationen
+
+Informationen, die von Wide Ideas/Idea2Element für Microsoft bereitgestellt werden:
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| App-Name | Umfassende Ideen – Innovationssoftware |
+| ID | wideideaspoweredbyidea2innovaitonswedenab.innovation_cloud_application |
+| Name des Partnerunternehmens | Wide Ideas/Idea2Element |
+| Website des Unternehmens | [https://getwideideas.com](https://getwideideas.com) |
+| Nutzungsbedingungen der App | [https://getwideideas.com/eula](https://getwideideas.com/eula) |
+| Kernfunktionen der App | Mit der innovation management software from Wide Ideas embedded in Microsoft 365 and Teams, sharing challenges, customer experiences and ideas of new solutions becomes part of the employee work culture. |
+| Firmenstandort | Schweden |
+| Seite "App-Informationen" | |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
+| Welche Hosting-Cloudanbieter verwendet die App? |  |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
+
+Diese Informationen wurden von Wide Ideas/Idea2 Auserwendung darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
+| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Unterstützt die App TLS 1.1 oder höher? | Ja |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzername und E-Mail-Adresse |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Schweden |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
+| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="security"
+
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Führen Sie jährliche Penetrationstests für die App durch? | Nein |
+| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? | TraditionalAntiMalware, ApplicationControls |
+| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? | Ja |
+| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? | Ja |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? | Ja |
+| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nein |
+| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? | Ja |
+| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? | Ja |
+| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Ja |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | Anmeldeinformationen |
+| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
+| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
+| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Letztes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
+| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
+| Letztes SOC3-Zertifizierungsdatum | |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Ja |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? | Ja |
+| URL der Datenschutzrichtlinie | https://getwideideas.com/privacy-policy/ |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
+| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? | Nein |
+| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
+| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Ja |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Ja |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
+| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Unterstützt Ihre App continuous Access Evaluation (CAE) | Nein |
+| Speichert Ihre App Anmeldeinformationen im Code? | Nein |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
+
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
+>|:------------------------|:--------------------|:------------------------------------|
+>| TeamsAppInstallation.ReadWriteForTeam | Delegiert | ermöglicht dem Wide Ideas Admin Center das Lesen, Installieren, Aktualisieren und Deinstallieren Teams Apps in Teams, auf die der angemeldete Benutzer zugreifen kann.  |
+>| Channel.Create | Delegiert | ermöglicht wide Ideas Admin Center das Erstellen eines Kanals in einem beliebigen Team im Namen des angemeldeten Benutzers.  |
+>| TeamsTab.Create | Delegiert |  ermöglicht dem Wide Ideas Admin Center, Registerkarten in jedem Team in Microsoft Teams im Namen des angemeldeten Benutzers zu erstellen. |
+>| Directory.Read.All | Delegiert | ermöglicht dem Wide Ideas Admin Center das Lesen von Daten im Verzeichnis Ihrer Organisation&#8217;, z. B. Benutzer, Gruppen und Apps. |
+>| Group.Read.All | Delegiert | ermöglicht dem Wide Ideas Admin Center, Gruppen aufzuführen und deren Eigenschaften und alle Gruppenmitgliedschaften im Namen des angemeldeten Benutzers zu lesen. |
+>| User.Read | Delegiert | ermöglicht Benutzern die Anmeldung beim Wide Ideas Admin Center und ermöglicht der App, das Profil der angemeldeten Benutzer zu lesen.  |
+
+>Diese Anwendung verfügt nicht über zusätzliche APIs.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
