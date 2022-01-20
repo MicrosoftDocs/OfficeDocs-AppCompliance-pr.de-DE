@@ -1,18 +1,18 @@
 ---
-title: Microsoft OneNote Sicherheit und Compliance von Apps – Alle Apps
+title: sicherheit und Compliance von Microsoft OneNote Apps – alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/13/2022
+ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft OneNote Apps.
 localization_priority: Normal
-ms.openlocfilehash: b7bc7dbcc140a19e2a574e3186c1886eb684b300
-ms.sourcegitcommit: 19aa86f2bbf281851e555ecc4465c25384ba97d7
+ms.openlocfilehash: ec9be90625e68817748455e0e6a7d29b5bd500f9
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62028277"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62143692"
 ---
 # <a name="microsoft-onenote-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft OneNote Apps
 
@@ -20,4 +20,5 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Wunder365 für Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
+| [officeatwork | Inhaltsauswahl für Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | Bildauswahl für Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
