@@ -2,17 +2,17 @@
 title: Microsoft Excel Sicherheit und Compliance von Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/21/2022
+ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Excel Apps.
 localization_priority: Normal
-ms.openlocfilehash: 759b95f2b1a44b2675484a6c362b50ed11081273
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: 078b0c75b0ff931f717c640fb389ebac17bedfc8
+ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62175948"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62195752"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Excel Apps
 
@@ -23,6 +23,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Canon EMEA Service Cost Calculator für B2B-Partner](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics für NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
 | [Excel-zu-Word-Dokumentautomatisierung](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
+| [For über sich selbst](./forbury-property.md) | Forbury-Eigenschaft | **✓** |  |
 | [harmon.ie für Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Impression-Signaturen](./impression-signatures.md) | Impression-Signaturen | **✓** |  |
 | [Jira Cloud für Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
@@ -32,6 +33,8 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [officeatwork | Bildauswahl für Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Vorlagenauswahl für Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |
 | [QuickCells-Diagramme](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
+| [QuickCells Solvers](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |
 | [Report Builder](./adobe-inc-report-builder.md) | Adobe Inc. | **✓** |  |
 | [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
+| [Supermetrics](./supermetrics.md) | Supermetrics | **✓** |  |
 | [Eingereichte XBRL-Daten](./xbrl-us-filed-data.md) | XBRL US | **✓** |  |
