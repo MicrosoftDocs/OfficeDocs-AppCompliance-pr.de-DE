@@ -1,25 +1,24 @@
 ---
-title: Anwendungsinformationen für Officeatwork-| Bildauswahl für Office von Officeatwork
+title: Anwendungsinformationen für Officeatwork-| Bildauswahl für Office nach Officeatwork
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/07/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Bildauswahl für Office, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+certification_type: certified
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork-| Image Chooser for Office, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 89a1658d35f78feede5f6e58110ab51a51ab29dd
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: e50f68551778ff655ca443bb98e97a746f8434b5
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147700"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62209804"
 ---
 # <a name="officeatwork--image-chooser-for-office"></a>officeatwork | Bildauswahl für Office
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 7. Januar 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Zuletzt aktualisiert vom Entwickler am: 24. Januar 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200002683" target="_blank">Ansicht in AppSource</a>
 
@@ -33,7 +32,7 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – Bildauswahl für Office |
 | ID | WA200002683 |
-| Office 365 unterstützten Clients | Excel auf iPad, Excel 2016 oder höher auf Einem Mac, Excel 2013 Service Pack 1 oder höher auf Windows, Excel im Web, Word auf iPad, Word 2016 oder höher auf Dem Mac, Word im Web, Word 2013 Service Pack 1 oder höher später auf Windows, PowerPoint auf iPad, PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2013 Service Pack 1 oder höher auf Windows, OneNote im Web |
+| Office 365 unterstützten Clients | Excel auf iPad, Excel 2016 oder höher auf dem Mac Excel 2013 Service Pack 1 oder höher auf Windows, Excel im Web, Word auf iPad, Word 2016 oder höher auf dem Mac, Word im Web, Word 2013 Service Pack 1 oder höher später auf Windows, PowerPoint auf iPad, PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2013 Service Pack 1 oder höher auf Windows, OneNote im Web |
 | Name des Partnerunternehmens | officeatwork |
 | Website des Unternehmens | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Nutzungsbedingungen der App | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
@@ -157,7 +156,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
@@ -172,7 +171,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >|:------------------------|:--------------------|:------------------------------------|
 >| openid | Delegiert | Aktivieren der Anmeldung |
 >| Profil | Delegiert | Aktivieren der Anmeldung |
->| offline_access | Delegiert | Aktivieren der automatisierten Anmeldung für ältere Office-Hosts |
+>| offline_access | Delegiert | Aktivieren der automatisierten Anmeldung für ältere Office Hosts |
 >| User.Read | Delegiert | Aktivieren der Anzeige des angemeldeten Benutzers |
 >| Files.ReadWrite.All | Delegiert | Aktivieren des Features "Favoriten und OneDrive" |
 >| Group.ReadWrite.All | Delegiert | Aktivieren Teams-Features |

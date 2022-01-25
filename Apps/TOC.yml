@@ -123,7 +123,7 @@
           href: outlook/chinchilla-software-limited-strategy-ai-for-outlook.md
         - name: XQ Secure Email
           href: outlook/xq-message-secure-email.md
-    - name: Microsoft PowerPoint-Apps
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -138,7 +138,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Schieberegler für Office
+        - name: officeatwork | Folienauswahl für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -146,7 +146,7 @@
           href: powerpoint/cherryware-showmaster-helper-plugin.md
         - name: SlideHub
           href: powerpoint/nomorehours-slidehub.md
-    - name: Microsoft Project-Apps
+    - name: Microsoft Project Apps
       href: project/project-apps.md
       items:
         - name: officeatwork | Vorlagenauswahl für Office
@@ -567,8 +567,6 @@
           href: teams/lifeworks.md
         - name: Link Spotter
           href: teams/communardo-products-link-spotter.md
-        - name: Listy
-          href: teams/information-age-technologies-listy.md
         - name: Live Chat
           href: teams/social-intents-live-chat.md
         - name: LMS365
@@ -1604,6 +1602,8 @@
           href: azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md
         - name: f6f894ce-5b44-4c9b-aff4-253d2fbe8a99
           href: azure/f6f894ce-5b44-4c9b-aff4-253d2fbe8a99.md
+        - name: f9eaef18-fbd1-4045-b417-c26598755298
+          href: azure/f9eaef18-fbd1-4045-b417-c26598755298.md
         - name: fb507a6d-2eaa-4f1f-b43a-140f388c4445
           href: azure/fb507a6d-2eaa-4f1f-b43a-140f388c4445.md
         - name: fb6ddd39-35f2-4110-a45d-d2e73b946cae

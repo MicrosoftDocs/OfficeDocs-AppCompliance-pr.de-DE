@@ -2,24 +2,23 @@
 title: Anwendungsinformationen für den Vorlagenauswahlbrowser nach Officeatwork
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/07/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Vorlagenauswahlbrowser, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+certification_type: certified
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Vorlagenauswahlbrowser, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b6b1fc813472a04a0e2f31e8c58b6f195e02ac67
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: bb256edc42c1749b2003938c4c2c0f795547329b
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155459"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62210234"
 ---
 # <a name="template-chooser-browser"></a>Vorlagenauswahlbrowser
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 5, 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Zuletzt aktualisiert vom Entwickler am: 24. Januar 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/officeatwork-ag.template-chooser-browser" target="_blank">Ansicht in AppSource</a>
 
@@ -156,7 +155,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
@@ -171,7 +170,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >|:------------------------|:--------------------|:------------------------------------|
 >| Sites.Read.All | Delegiert | Lesen der in SharePoint gespeicherten Benutzervorlagendateien |
 >| Profil | Delegiert | Aktivieren der Anmeldung |
->| offline_access | Delegiert | Aktivieren der automatisierten Anmeldung für ältere Office-Hosts |
+>| offline_access | Delegiert | Aktivieren der automatisierten Anmeldung für ältere Office Hosts |
 >| Files.ReadWrite.All | Delegiert | Aktivieren des Features "Favoriten und OneDrive" |
 >| openid | Delegiert | Aktivieren der Anmeldung |
 >| Group.ReadWrite.All | Delegiert | Aktivieren Teams-Features |
