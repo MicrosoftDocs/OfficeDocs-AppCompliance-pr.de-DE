@@ -2,17 +2,17 @@
 title: Sicherheit und Compliance von Microsoft SharePoint Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/25/2022
+ms.date: 01/26/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft SharePoint-Apps.
 localization_priority: Normal
-ms.openlocfilehash: d80c7fa0e410e8315eeeea4ca7e2cd77b22febfd
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: 1c921ee7506028ab72f9df0a175fa64a95e657c0
+ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62205777"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62235011"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft SharePoint Apps
 

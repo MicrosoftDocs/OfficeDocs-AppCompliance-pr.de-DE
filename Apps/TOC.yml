@@ -12,7 +12,7 @@
     - name: Für Entwickler
       expanded: true
       items:
-        - name: Abschließen Publisher Überprüfung
+        - name: Vollständige Publisher Überprüfung
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
@@ -57,7 +57,7 @@
           href: excel/supermetrics.md
         - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote Apps
+    - name: Microsoft OneNote-Apps
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Inhaltsauswahl für Office
@@ -109,7 +109,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail für Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Vertriebsengagement für Outlook
+        - name: Sales Engagement für Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One für Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -138,7 +138,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -151,7 +151,7 @@
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint Apps
+    - name: Microsoft SharePoint-Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Adobe Sign für SharePoint
@@ -186,7 +186,7 @@
           href: sharepoint/accuracy-software-inc-taxonomy.md
         - name: Zynyo Sign for SharePoint Online
           href: sharepoint/zynyo-sign-for-sharepoint-online.md
-    - name: Microsoft Teams-Apps
+    - name: Microsoft Teams Apps
       href: teams/teams-apps.md
       items:
         - name: 10xZiele
@@ -409,6 +409,8 @@
           href: teams/harmonie-email-teammate.md
         - name: email-texting
           href: teams/voice-elements-corporation-email-texting.md
+        - name: Mitarbeiterbindung von DSMN8
+          href: teams/dsmn8-employee-advocacy-by.md
         - name: Employee Referrals
           href: teams/recruitday-inc-employee-referrals.md
         - name: Mitarbeiterschulungsverwaltung
@@ -537,7 +539,7 @@
           href: teams/atlassian-jira-cloud.md
         - name: JobPts
           href: teams/semos-cloud-soultions-jobpts.md
-        - name: KAKEAI
+        - name: Kakeai
           href: teams/kakeai.md
         - name: Kanban Tool
           href: teams/shore-labs-kanban-tool.md
@@ -739,6 +741,8 @@
           href: teams/chitchattr-quicklinks.md
         - name: Quire
           href: teams/potix-corporation-quire.md
+        - name: Quitch
+          href: teams/quitch.md
         - name: Rafiky
           href: teams/global-congress-srl-rafiky.md
         - name: Reach
@@ -1017,7 +1021,7 @@
           href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
-    - name: Microsoft Word-Apps
+    - name: Microsoft Word Apps
       href: word/word-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -1058,7 +1062,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -1109,7 +1113,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: Luware Compliance Recording for Microsoft Teams
+        - name: Luware-Complianceaufzeichnung für Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus für Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
