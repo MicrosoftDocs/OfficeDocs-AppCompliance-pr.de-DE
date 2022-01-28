@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Remind, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c65bd6433972a7014c6fa8853d2f5651891db5f7
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 71d37c38b4cc3bdcc92182b4063061146d34c0dd
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144902"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255031"
 ---
 # <a name="remind"></a>Remind
 
@@ -34,7 +34,7 @@ Von 88 Limited limited für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Remind |
 | ID | WA200001444 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | 88 Ventures Limited |
 | Website des Unternehmens | [https://moonbearapps.com](https://moonbearapps.com) |
 | Nutzungsbedingungen der App | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
@@ -115,7 +115,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
@@ -163,11 +163,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.Read.All | Delegiert | Wird verwendet, wenn ein Administrator nach Benutzern sucht, um sie Lizenzen zuzuweisen. Die Verwendung dieses Features ist völlig optional und während der normalen App-Verwendung nicht erforderlich. |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | Delegiert | Wird verwendet, wenn ein Administrator nach Benutzern sucht, um sie Lizenzen zuzuweisen. Die Verwendung dieses Features ist völlig optional und während der normalen App-Verwendung nicht erforderlich. | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Booking Room Pro, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ffd630b414182f19f35bb7fc9196bc82325d3871
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 20773ef58c582a0c2b4f36cc123573796629fc31
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147724"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257611"
 ---
 # <a name="booking-room-pro"></a>Buchungsraum Pro
 
@@ -34,7 +34,7 @@ Von Witivio für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Buchungsraum Pro |
 | ID | WA200003337 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Witivio |
 | Website des Unternehmens | [https://www.witivio.com](https://www.witivio.com) |
 | Nutzungsbedingungen der App | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
@@ -108,9 +108,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -166,15 +166,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| email | Delegiert | Microsoft Teams SSO |
->| openid | Delegiert | Microsoft Teams SSO |
->| offline_access | Delegiert | Microsoft Teams SSO |
->| User.Read | Delegiert | Microsoft Teams SSO |
->| Profil | Delegiert | Microsoft Teams SSO |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | Delegiert | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| email | Delegiert | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| offline_access | Delegiert | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| openid | Delegiert | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| Profil | Delegiert | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

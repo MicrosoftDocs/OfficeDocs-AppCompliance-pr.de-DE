@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Spitznamen von Flowrish-Spielen, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9c46e306ac4b6aeead6bf54d60a01d0db76956ed
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 6fa9aef7efab58fcb15a1ed05b71b7a9b9b8354a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428217"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257621"
 ---
 # <a name="nickname-by-flowrish-games"></a>Spitzname von Flowrish-Spielen
 
@@ -30,16 +30,18 @@ ms.locfileid: "60428217"
 
 Von Room6 für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Spitzname von Flowrish-Spielen |
 | ID | WA200003202 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Raum6 |
-| URL der Partnerwebsite | [https://www.room6.net](https://www.room6.net) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://nickname-server.azurewebsites.net/help.html](https://nickname-server.azurewebsites.net/help.html) |
-| URL der Datenschutzrichtlinie | [https://www.room6.net/nickname-privacy](https://www.room6.net/nickname-privacy) |
-| URL der Nutzungsbedingungen | [https://www.room6.net/eula](https://www.room6.net/eula) |
+| Website des Unternehmens | [https://www.room6.net](https://www.room6.net) |
+| Nutzungsbedingungen der App | [https://www.room6.net/eula](https://www.room6.net/eula) |
+| Kernfunktionen der App | &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12467;&#12511;&#12517;&#12491;&#12540;&#12465;&#12540;&#12471;&#12519;&#12531;&#27963;&#24615;&#21270;&#12484;&#12540;&#12523;&#12391;&#12377;&#12290; &#21021;&#23550;&#38754;&#12398;&#20154;&#12392;&#12418;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12459;&#12540;&#12489;&#12395;&#26360;&#12363;&#12428;&#12383;&#32937;&#26360;&#12434;&#30456;&#25163;&#12398;&#21517;&#21069;&#12395;&#12388;&#12369;&#12289;&#27442;&#12375;&#12356;&#12459;&#12540;&#12489;&#12434;&#38598;&#12417;&#12390;&#12356;&#12365;&#12414;&#12377;&#12290; &#24859;&#31216;&#12391;&#21628;&#12403;&#12354;&#12358;&#12371;&#12392;&#12391;&#12289;&#20210;&#38291;&#21516;&#22763;&#12398;&#12467;&#12511;&#12517;&#12491;&#12465;&#12540;&#12471;&#12519;&#12531;&#12398;&#27963;&#24615;&#21270;&#12434;&#34892;&#12358;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12484;&#12540;&#12523;&#12392;&#12394;&#12387;&#12390;&#12362;&#12426;&#12414;&#12377;&#12398;&#12391;&#12289; Microsoft Teams&#12391;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#32887;&#22580;&#12398;&#12481;&#12540;&#12512;&#12420;&#25945;&#32946;&#29694;&#22580;&#12394;&#12393;&#27096;&#12293;&#12394;&#12471;&#12540;&#12531;&#12391;&#12372;&#21033;&#29992;&#12391;&#12365;&#12414;&#12377;&#12290; &#12504;&#12523;&#12503; https://nickname-server.azurewebsites.net/help.html |
+| Firmenstandort | Japan |
+| Seite "App-Informationen" | |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,59 +53,120 @@ Von Room6 für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Room6 bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
+| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Sofort gelöscht |
+| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="security"
+
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Führen Sie jährliche Penetrationstests für die App durch? | Nein |
+| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Nein |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? |  |
+| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? |  |
+| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? |  |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? |  |
+| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? |  |
+| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? |  |
+| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? |  |
+| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? |  |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? |  |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? |  |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: |  |
+| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? |  |
+| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
+| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? |  |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nein |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
+| Letztes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
+| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
+| Letztes SOC3-Zertifizierungsdatum | |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nein |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nein |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
+| Entspricht die App NIST 800-171? |  |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? |  |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? |  |
+| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? |  |
+| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? |  |
+| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? |  |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? |  |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? |  |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
+| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Unterstützt Ihre App continuous Access Evaluation (CAE) |  |
+| Speichert Ihre App Anmeldeinformationen im Code? |  |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
-
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
-
-Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
-
->Nicht-Microsoft-Dienste werden nicht verwendet.
-
-#### <a name="data-access-via-bots"></a>Datenzugriff über Bots
-
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
-
->Es wird nicht auf EUII zugegriffen.
-
-
-#### <a name="telemetry-data"></a>Telemetriedaten
-
-Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
-
->In den Telemetrie- oder Protokollen der Anwendungen werden keine OII oder EUII angezeigt.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
-
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
-
->&#29305;&#12395;&#20491;&#20154;&#12434;&#29305;&#23450;&#12391;&#12365;&#12427;&#12487;&#12540;&#12479;&#65288;&#12450;&#12459;&#12454;&#12531;&#12488;&#12394;&#12393;&#65289;&#12399;&#31649;&#29702;&#12375;&#12390;&#12356;&#12394;&#12356;&#12290;&#19968;&#26178;&#30340;&#12395;&#37096;&#23627;-ID&#12392;&#21517;&#21069;&#12289;&#25152;&#25345;&#12459;&#12540;&#12489;&#24773;&#22577;&#12434;SqlServer&#20869;&#12395;&#20445;&#25345;&#12375;&#12390;&#12362;&#12426;&#12289;&#12381;&#12428;&#12425;&#12398;&#12487;&#12540;&#12479;&#12399;&#23481;&#37327;&#22311;&#36843;&#12434;&#36991;&#12369;&#12427;&#12383;&#12417;24&#26178;&#38291;&#20197;&#19978;&#32076;&#36942;&#12375;&#12383;&#12487;&#12540;&#12479;&#12399;&#27598;&#26085;26&#26178;&#12395;&#23450;&#26178;&#12496;&#12483;&#12481;&#12395;&#12424;&#12426;&#33258;&#21205;&#30340;&#12395;&#21066;&#38500;&#12375;&#12390;&#12356;&#12427;&#12290;
-
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
-
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
-
->Nein
+>Diese Anwendung verfügt nicht über zusätzliche APIs.
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Identitätsinformationen
-
-Diese Informationen wurden von Room6 bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
-
-| **Information** | **Antwort** |
-|:----------------|:-------------|
-| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end

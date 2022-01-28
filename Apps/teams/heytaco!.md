@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für HeyTaco!, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3f1b475d0f571986427fe3c7339a70fc056419d0
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 5dcb471219ef00a758b62fd289135169dc865115
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200827"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257781"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -34,7 +34,7 @@ Informationen von HeyTaco! an Microsoft:
 |:----------------|:-------------|
 | App-Name | HeyTaco! |
 | ID | WA200001346 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | HeyTaco! |
 | Website des Unternehmens | [https://www.heytaco.chat](https://www.heytaco.chat) |
 | Nutzungsbedingungen der App | [https://www.heytaco.chat/terms](https://www.heytaco.chat/terms) |
@@ -72,7 +72,7 @@ Diese Informationen wurden von HeyTaco bereitgestellt! Darüber, wie diese App O
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -115,7 +115,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
@@ -155,8 +155,8 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -166,11 +166,11 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | Delegiert | Zulassen, dass sich Personen bei den Registerkarten anmelden |
->| Profil | Delegiert | So speichern Sie Profilinformationen von Benutzern |
->| email | Delegiert | Zum Organisieren von Benutzerdaten |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| email | Delegiert | Zum Organisieren von Benutzerdaten | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| openid | Delegiert | Zulassen, dass sich Personen bei den Registerkarten anmelden | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| Profil | Delegiert | So speichern Sie Profilinformationen von Benutzern | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

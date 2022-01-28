@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MSPBots, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a0a0bee0504d4c3b0e6ea0c9d4464c04b4663252
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 8d4d4c0b27f2f2052a46b8d77107dbc4a320216e
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149093"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257751"
 ---
 # <a name="mspbots"></a>MSPBots
 
@@ -159,20 +159,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | N/V |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App continuous Access Evaluation (CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| ChannelMessage.Send | Anwendung | Nachricht an Kanal senden |
->| ChatMessage.Send | Anwendung | Nachricht an Chat senden |
->| Profil | Anwendung | Informationen zum Verwenden von App-Benutzern abrufen |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ChannelMessage.Send | Anwendung | Nachricht an Kanal senden | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
+>| ChatMessage.Send | Anwendung | Nachricht an Chat senden | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
+>| Profil | Anwendung | Informationen zum Verwenden von App-Benutzern abrufen | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

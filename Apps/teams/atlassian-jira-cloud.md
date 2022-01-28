@@ -6,14 +6,14 @@ ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud, die Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6c0f6a2085f3bca86883f3ce5817cec32973e140
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6f20ca178d988c5f89b03bd1da5b3100d5c552ef
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144172"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62256721"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -34,7 +34,7 @@ Von Atlassian für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Jira Cloud |
 | ID | WA200002140 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Atlassian |
 | Website des Unternehmens | [https://www.atlassian.com](https://www.atlassian.com) |
 | Nutzungsbedingungen der App | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
@@ -165,13 +165,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| offline_access | Delegiert | Stellen Sie den Zugriff auf Ressourcen im Namen des Benutzers für einen längeren Zeitraum bereit, um eine optimale Benutzererfahrung sicherzustellen. |
->| openid | Delegiert | Abrufen des Vornamens, des Nachnamens, des bevorzugten Benutzernamens und der Objekt-ID des Benutzers. |
->| Profil | Delegiert | Abrufen des Vornamens, des Nachnamens, des bevorzugten Benutzernamens und der Objekt-ID des Benutzers. |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| offline_access | Delegiert | Stellen Sie den Zugriff auf Ressourcen im Namen des Benutzers für einen längeren Zeitraum bereit, um eine optimale Benutzererfahrung sicherzustellen. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
+>| openid | Delegiert | Abrufen des Vornamens, des Nachnamens, des bevorzugten Benutzernamens und der Objekt-ID des Benutzers. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
+>| Profil | Delegiert | Abrufen des Vornamens, des Nachnamens, des bevorzugten Benutzernamens und der Objekt-ID des Benutzers. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

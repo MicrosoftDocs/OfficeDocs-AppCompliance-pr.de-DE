@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Cloud Hub, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7e0998c86e38039879a13ee79185732287166619
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6e982e29c1ba09097f3c2415aae5e1f644a87c5a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147924"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259844"
 ---
 # <a name="cloud-hub"></a>Cloud Hub
 
@@ -38,7 +38,7 @@ Informationen, die von atwork GmbH an Microsoft bereitgestellt werden:
 | Name des Partnerunternehmens | atwork GmbH |
 | Website des Unternehmens | [https://www.atwork-it.com](https://www.atwork-it.com) |
 | Nutzungsbedingungen der App | [https://www.atwork-it.com/eula](https://www.atwork-it.com/eula) |
-| Kernfunktionen der App | Cloud Hub ist eine Geschäfts-App für Microsoft Teams. Damit können Benutzer bevorstehende Änderungen nachverfolgen, einschließlich neuer und geänderter Features, geplanter Wartung und anderer wichtiger Ankündigungen aus dem Microsoft Message Center. Sie können die Cloud Hub-App in Microsoft Teams an die App-Leiste anheften. Die App wird derzeit auf Englisch und ohne Kosten unterstützt.  |
+| Kernfunktionen der App | Cloud Hub ist eine Geschäfts-App für Microsoft Teams. Damit können Benutzer bevorstehende Änderungen nachverfolgen, einschließlich neuer und geänderter Features, geplanter Wartung und anderer wichtiger Ankündigungen aus dem Microsoft Message Center. Sie können die Cloud Hub-App an die App-Leiste in Microsoft Teams anheften. Die App wird derzeit auf Englisch und ohne Kosten unterstützt.  |
 | Firmenstandort | Österreich |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -108,25 +108,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -166,14 +166,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | Anwendung | Wird verwendet, um eine Person auszuwählen, an die Sie eine E-Mail senden möchten. |
->| TeamSettings.Read.All | Anwendung | Wird verwendet, um ein Team auszuwählen, in dem Sie eine Nachricht aus dem Nachrichtencenter posten möchten. |
->| Mail.Send | Anwendung | Wird verwendet, um E-Mails direkt aus der App an Kanäle oder einzelne Personen zu senden.  |
->| Channel.ReadBasic.All | Anwendung | Wird zum Auswählen eines Kanals verwendet, in dem Sie eine Nachricht aus dem Nachrichtencenter posten möchten. |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | Anwendung | Wird zum Auswählen eines Kanals verwendet, in dem Sie eine Nachricht aus dem Nachrichtencenter posten möchten. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| Mail.Send | Anwendung | Wird verwendet, um E-Mails direkt aus der App an Kanäle oder einzelne Personen zu senden.  | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| TeamSettings.Read.All | Anwendung | Wird verwendet, um ein Team auszuwählen, in dem Sie eine Nachricht aus dem Nachrichtencenter posten möchten. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| User.Read.All | Anwendung | Wird verwendet, um eine Person auszuwählen, an die Sie eine E-Mail senden möchten. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

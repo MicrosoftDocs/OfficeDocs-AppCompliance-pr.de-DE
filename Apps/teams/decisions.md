@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Entscheidungen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a55735ce15a0708c366622beae9e953928d83104
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 78bb80e67214a26172c6f83f57d8614fb8c9e518
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428622"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259741"
 ---
 # <a name="decisions"></a>Decisions
 
@@ -30,16 +30,19 @@ ms.locfileid: "60428622"
 
 Informationen, die Microsoft von Entscheidungen bereitgestellt werden:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Decisions |
 | ID | WA104381880 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Decisions |
-| URL der Partnerwebsite | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
-| URL der Datenschutzrichtlinie | [https://www.meetingdecisions.com/privacy](https://www.meetingdecisions.com/privacy) |
-| URL der Nutzungsbedingungen | [https://www.meetingdecisions.com/terms-of-service](https://www.meetingdecisions.com/terms-of-service) |
+| Website des Unternehmens | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
+| Nutzungsbedingungen der App | [https://www.meetingdecisions.com/terms-of-service](https://www.meetingdecisions.com/terms-of-service) |
+| Kernfunktionen der App | Sorgen Sie dafür, dass Ihre Besprechungen mit einem Agenda-Generator, Minutenvorlagen und mehr integrierten Teams zählen. |
+| Firmenstandort | Norwegen |
+| Seite "App-Informationen" | |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,91 +54,143 @@ Informationen, die Microsoft von Entscheidungen bereitgestellt werden:
 
 Diese Informationen wurden von Entscheidungen darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert sowie die Kontrolle, über die Ihre Organisation über die von der App gesammelten Daten verfügt.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
-
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
-
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Wird verwendet, um Informationen aus dem Kalender des Benutzers&#8217;zu lesen, um Features wie die Besprechungsliste und die Suche zu aktivieren. Es bietet dem Benutzer auch die Möglichkeit, bestimmte Besprechungen aus dem Kalender zu löschen, wenn das Element aus Entscheidungen gelöscht wird. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Chat.ReadWrite | Delegiert | Wird verwendet, um Entscheidungen für die Abstimmung zu senden und Referentenlisten für einzelne Agendaelemente direkt an den Microsoft Teams Besprechungschat zu erstellen. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Directory.Read.All | Delegiert | Wird verwendet, um grundlegende Informationen zum Office 365 Mandanten bei der Registrierung zu sammeln, z. B. Mandantenname und überprüfte Domänen. Es ist auch erforderlich, um Gruppenmitgliedschaften zu überprüfen. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.Read.All | Delegiert | Wird verwendet, um Dateien zu lesen, die für den Benutzer freigegeben sind, um diese Dateien in das PDF-Besprechungsbuch zusammenzuführen. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.ReadWrite.All | Delegiert | Wird verwendet, um Benutzern Unterstützung für persönliche Dateianmerkungen bereitzustellen. Kommentierte Dateien werden privat im OneDrive for Business des Benutzers&#8217;gespeichert. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Group.ReadWrite.All | Delegiert | Wird zum Erstellen von Ordnerstrukturen in der Office 365 Gruppenwebsite&#8217;SharePoint für Besprechungstermine, zugehörige Dateien und Gruppenunterhaltungen verwendet.   Hinweis: Benutzer von Entscheidungen erhalten nie Zugriff auf Ressourcen (z. B. Gruppen), auf die sie noch nicht im Office 365 Mandanten Ihrer Organisation zugreifen können. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Mail.Send | Delegiert | Wird verwendet, um Benutzern von Entscheidungen das Senden von Besprechungsteilnehmerbenachrichtigungen zu ermöglichen, z. B. Aktualisierungen der Tagesordnung und Links zur Besprechung für Mitautoren. E-Mails werden an Besprechungsteilnehmer oder an die verteilerliste gesendet, die vom Besprechungsbesitzer ausgewählt wurde. Alle gesendeten Benachrichtigungen und E-Mails werden aktiv von den Entscheidungsbenutzern durchgeführt.  Hinweis: Dadurch erhält der Benutzer keinen Zugriff auf seinen Posteingang über Entscheidungen. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| MailboxSettings.Read | Delegiert | Wird verwendet, um die Spracheinstellungen eines Benutzers&#8217;zu identifizieren. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Notes.ReadWrite | Delegiert | Wird verwendet, um private Notizbücher für Besprechungen einzurichten, um Notizen zu machen und Anmerkungen und Fragen vorzubereiten. Außerdem können Gruppenbesprechungsminuten in ihrem freigegebenen OneNote Notizbuch gespeichert werden, wenn die Gruppe OneNote verwenden möchte. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Sites.ReadWrite.All | Delegiert | Dient zum Erstellen von Ordnerstrukturen in privaten Kanälen für Besprechungsinformationen. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Tasks.ReadWrite | Delegiert | Wird verwendet, um Aufgaben und Entscheidungen mit Microsoft Planner zu synchronisieren. Darüber hinaus können Benutzer Aufgaben und Entscheidungen in Excel exportieren. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser | Delegiert | Erforderlich, um die App "Entscheidungen" im Chat programmgesteuert zu installieren. Dies ist erforderlich, bevor die Registerkarte "Entscheidungen" für die Besprechungsoberfläche hinzugefügt wird. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser.All | Delegiert | Erforderlich, um die App "Entscheidungen" im Chat programmgesteuert zu installieren. Dies ist erforderlich, bevor die Registerkarte "Entscheidungen" für die Besprechungsoberfläche hinzugefügt wird. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Create | Delegiert | Sie müssen die Registerkarte "In-Besprechung/Kanal" in Teams hinzufügen. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Read.All | Delegiert | Erforderlich, um zu überprüfen, ob die Registerkarte installiert ist oder nicht. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| User.ReadBasic.All | Delegiert | Wird zum Anzeigen des Vor- und Nachnamens, des Fotos und der E-Mail-Adresse von Gruppenmitgliedern und externen Teilnehmern verwendet. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Profil | Delegiert | Wird verwendet, um sich anzumelden. | Kundendaten werden im Office 365 Mandanten des Kunden&#8217;gespeichert, und alle Kundendaten werden nur auf Kundengeräten verarbeitet. Die Datenbank "Entscheidungen" verwaltet nur Verweise auf Objekte in den Kunden Office 365 Mandanten, nicht auf die tatsächlichen Daten. Weitere Informationen finden Sie https://www.meetingdecisions.com/security-and-privacy unter. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
-
-
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
-
-Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
-
->Nicht-Microsoft-Dienste werden nicht verwendet.
-
-#### <a name="data-access-via-bots"></a>Datenzugriff über Bots
-
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
-
->Es wird nicht auf EUII zugegriffen.
-
-
-#### <a name="telemetry-data"></a>Telemetriedaten
-
-Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
-
->In den Telemetrie- oder Protokollen der Anwendungen werden keine OII oder EUII angezeigt.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
-
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
-
->Die vom Kunden während der Verwendung der Software bereitgestellten Daten sind nur für den Kunden verfügbar.  Der Dienst wird über Microsoft Office 365 Cloud Services und Microsoft Azure bereitgestellt. Alle Kundendaten werden in den Kunden Microsoft Office 365 Mandanten gespeichert. Alle auf dem Dienst gespeicherten oder verarbeiteten Daten sind anonym und für einzelne Personen nicht nachverfolgbar. Daher werden personenbezogene Daten von Entscheidungen nicht im Auftrag des Kunden gespeichert, gesammelt oder verarbeitet.
-
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
-
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
-
->Nein
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
+| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Unterstützt die App TLS 1.1 oder höher? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
+| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb von 3Monthen gelöscht |
+| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-### <a name="identity-information"></a>Identitätsinformationen
-
-Diese Informationen wurden von Entscheidungen darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
-
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
+| Führen Sie jährliche Penetrationstests für die App durch? | Ja |
+| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? |  |
+| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? |  |
+| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? |  |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? |  |
+| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? |  |
+| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? |  |
+| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? |  |
+| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? |  |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? |  |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? |  |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: |  |
+| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? |  |
+| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
+| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? |  |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Letztes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
+| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
+| Letztes SOC3-Zertifizierungsdatum | |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
+| Entspricht die App NIST 800-171? |  |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Ja |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? |  |
+| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? |  |
+| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? |  |
+| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? |  |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? |  |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? |  |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
+| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | Alle |
-| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
-| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
-| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
-| Verfügt Ihre App über einen vertraulichen Client? | Ja |
-| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
-| Macht Ihre App Web-APIs verfügbar? | Ja |
-| Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
-| Verwendet Ihre App Vorschau-APIs? | Nein |
-| Verwendet Ihre App veraltete APIs? | Nein |
+| Unterstützt Ihre App continuous Access Evaluation (CAE) |  |
+| Speichert Ihre App Anmeldeinformationen im Code? |  |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
+
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | Delegiert | Wird verwendet, um Informationen aus dem Kalender des Benutzers&#8217;zu lesen, um Features wie die Besprechungsliste und die Suche zu aktivieren. Es bietet dem Benutzer auch die Möglichkeit, bestimmte Besprechungen aus dem Kalender zu löschen, wenn das Element aus Entscheidungen gelöscht wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Chat.ReadWrite | Delegiert | Wird verwendet, um Entscheidungen für die Abstimmung zu senden und Sprecherlisten für einzelne Agendaelemente direkt an den Microsoft Teams Besprechungschat zu erstellen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Directory.Read.All | Delegiert | Wird verwendet, um grundlegende Informationen zum Office 365 Mandanten bei der Registrierung zu sammeln, z. B. Mandantenname und überprüfte Domänen. Es ist auch erforderlich, um Gruppenmitgliedschaften zu überprüfen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Files.Read.All | Delegiert | Wird verwendet, um Dateien zu lesen, die für den Benutzer freigegeben sind, um diese Dateien in das PDF-Besprechungsbuch zusammenzuführen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Files.ReadWrite.All | Delegiert | Wird verwendet, um Benutzern Unterstützung für persönliche Dateianmerkungen bereitzustellen. Kommentierte Dateien werden privat im OneDrive for Business des Benutzers&#8217;gespeichert. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Group.ReadWrite.All | Delegiert | Wird verwendet, um Ordnerstrukturen in der Office 365&#8217;SharePoint Website für Besprechungskalender, zugehörige Dateien und Gruppenunterhaltungen zu erstellen.   Hinweis: Benutzer von Entscheidungen erhalten nie Zugriff auf Ressourcen (z. B. Gruppen), auf die sie im Office 365 Mandanten Ihrer Organisation noch keinen Zugriff haben. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Mail.Send | Delegiert | Wird verwendet, um Benutzern von Entscheidungen das Senden von Besprechungsteilnehmerbenachrichtigungen zu ermöglichen, z. B. Aktualisierungen der Tagesordnung und Links zur Besprechung für Mitautoren. E-Mails werden an Besprechungsteilnehmer oder an die verteilerliste gesendet, die vom Besprechungsbesitzer ausgewählt wurde. Alle gesendeten Benachrichtigungen und E-Mails werden aktiv von den Entscheidungsbenutzern durchgeführt.  Hinweis: Dadurch erhält der Benutzer keinen Zugriff auf seinen Posteingang über Entscheidungen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| MailboxSettings.Read | Delegiert | Wird verwendet, um einen Benutzer&#8217;Spracheinstellungen zu identifizieren. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Notes.ReadWrite | Delegiert | Wird verwendet, um private Notizbücher für Besprechungen einzurichten, um Notizen zu machen und Anmerkungen und Fragen vorzubereiten. Außerdem können Gruppenbesprechungsminuten in ihrem freigegebenen OneNote Notizbuch gespeichert werden, falls die Gruppe OneNote verwenden möchte. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Sites.ReadWrite.All | Delegiert | Dient zum Erstellen von Ordnerstrukturen in privaten Kanälen für Besprechungsinformationen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Tasks.ReadWrite | Delegiert | Wird verwendet, um Aufgaben und Entscheidungen mit Microsoft Planner zu synchronisieren. Darüber hinaus können Benutzer Aufgaben und Entscheidungen in Excel exportieren. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| TeamsAppInstallation.ReadWriteForUser | Delegiert | Erforderlich, um die App "Entscheidungen" im Chat programmgesteuert zu installieren. Dies ist erforderlich, bevor die Registerkarte "Entscheidungen" für die Besprechungsoberfläche hinzugefügt wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| TeamsAppInstallation.ReadWriteForUser.All | Delegiert | Erforderlich, um die App "Entscheidungen" im Chat programmgesteuert zu installieren. Dies ist erforderlich, bevor die Registerkarte "Entscheidungen" für die Besprechungsoberfläche hinzugefügt wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| TeamsTab.Create | Delegiert | Es ist erforderlich, die Registerkarte "In-Besprechung/Kanal" in Teams hinzuzufügen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| TeamsTab.Read.All | Delegiert | Erforderlich, um zu überprüfen, ob die Registerkarte installiert ist oder nicht. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| User.ReadBasic.All | Delegiert | Wird zum Anzeigen des Vor- und Nachnamens, des Fotos und der E-Mail-Adresse von Gruppenmitgliedern und externen Teilnehmern verwendet. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Profil | Delegiert | Wird verwendet, um sich anzumelden. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+
+>Diese Anwendung verfügt nicht über zusätzliche APIs.
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

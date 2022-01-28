@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Karten-Pro, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 297b7dc54e7d25230a121a08d2d3ab5845110daf
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: f2c2f42e39532b69cfbe3638b9ff6f3064658de4
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147783"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255411"
 ---
 # <a name="map-pro"></a>Map Pro
 
@@ -108,9 +108,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -166,15 +166,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| email | Delegiert | Microsoft Teams SSO |
->| openid | Delegiert | Microsoft Teams SSO |
->| offline_access | Delegiert | Microsoft Teams SSO |
->| User.Read | Delegiert | Microsoft Teams SSO |
->| Profil | Delegiert | Microsoft Teams SSO |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| email | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| offline_access | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| openid | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| Profil | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

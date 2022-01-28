@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für iGlobe CRM für Teams, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6aaeddce93a513ca22b0bf5c0b4fdf8b85a7830d
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 63646b2a2425eeef310ae5534209d015d06896c1
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147748"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257761"
 ---
 # <a name="iglobe-crm-for-teams"></a>iGlobe CRM für Teams
 
@@ -33,11 +33,11 @@ Von iGlobe für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | iGlobe CRM für Teams |
 | ID | WA104381421 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | iGlobe |
 | Website des Unternehmens | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Nutzungsbedingungen der App | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
-| Kernfunktionen der App | iGlobe CRM Office 365 eine SharePoint bereitgestellt, die gehostet wird. iGlobe CRM Office 365 ist ein einfaches und benutzerfreundliches CRM-Add-In für Unternehmen mit Office 365. Mit Outlook-, Excel-, Word-Add-Ins und Teams-App kombiniert mit einer nahtlosen Integration in den Office 365 Planner, SharePoint und Teams das iGlobe SharePoint-Add-In ist eine echte Office 365 Erweiterung. Die iGlobe CRM-Berechtigungsstufe wird basierend auf der Integration aller verwendeten Microsoft 365 Dienste festgelegt.  |
+| Kernfunktionen der App | iGlobe CRM Office 365 eine SharePoint bereitgestellt, die gehostet wird. iGlobe CRM Office 365 ist ein einfaches und benutzerfreundliches CRM-Add-In für Unternehmen mit Office 365. Mit Outlook-, Excel-, Word-Add-Ins und Teams-App in Kombination mit einer nahtlosen Integration in den Office 365 Planner sind SharePoint und Teams das iGlobe-SharePoint-Add-In eine echte Office 365 Erweiterung. Die iGlobe CRM-Berechtigungsstufe wird basierend auf der Integration aller verwendeten Microsoft 365 Dienste festgelegt.  |
 | Firmenstandort | Dänemark |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -89,7 +89,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -121,9 +121,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Ja |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Ja |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Ja |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -164,23 +164,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | Delegiert | Zugriff auf Benutzerkalender haben, wenn Sie einen Besprechungsbericht aus dem Canlendar in iGlobe dreating    |
->| Contacts.ReadWrite | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer.    |
->| Directory.Read.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien.   |
->| Directory.ReadWrite.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer.   |
->| Files.ReadWrite.All | Delegiert | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien und Daten in SharePoint Listen.     |
->| Group.Read.All | Delegiert | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen.   |
->| Group.ReadWrite.All | Delegiert | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. Integration in iGlobe CRM-Office 365     |
->| Mail.ReadWrite | Delegiert | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil    |
->| Sites.Manage.All | Delegiert | Erstellen, Bearbeiten und Löschen von Elementen und Listen in iGlobe CRM     |
->| Sites.Read.All | Delegiert | Lesen von Elementen in iGlobe CRM     |
->| Sites.ReadWrite.All | Delegiert | Bearbeiten und Löschen von Elementen und Listen in iGlobe CRM  |
->| Tasks.ReadWrite | Delegiert | Erstellen einer Planner-Aufgabe aus iGlobe CRM     |
->| User.Read | Delegiert | So erhalten Sie Informationen zum iGlobe CRM für den speficischen Benutzer    |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | Delegiert | Zugriff auf Benutzerkalender haben, wenn Sie einen Besprechungsbericht aus dem Canlendar in iGlobe dreating    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Contacts.ReadWrite | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer.    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.Read.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.ReadWrite.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Files.ReadWrite.All | Delegiert | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien und Daten in SharePoint Listen.     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.Read.All | Delegiert | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.ReadWrite.All | Delegiert | Read, Update, Create Panner Tasks, Read the users recent and Shared files, To get SharePoint list, libraries and files. So speichern Sie Dateien in SharePoint Listen. Integration in iGlobe CRM-Office 365     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Mail.ReadWrite | Delegiert | Svae the eamil to iGlobe CRM and get informatiopn from iGlobe to a new e-amil    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Manage.All | Delegiert | Erstellen, Bearbeiten und Löschen von Elementen und Listen in iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Read.All | Delegiert | Lesen von Elementen in iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.ReadWrite.All | Delegiert | Bearbeiten und Löschen von Elementen und Listen in iGlobe CRM  | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Tasks.ReadWrite | Delegiert | Erstellen einer Planner-Aufgabe aus iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| User.Read | Delegiert | So erhalten Sie Informationen zum iGlobe CRM für den speficischen Benutzer    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

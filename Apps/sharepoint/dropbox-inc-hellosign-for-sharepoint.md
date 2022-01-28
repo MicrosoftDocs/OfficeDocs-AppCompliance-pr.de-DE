@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für HelloSign für SharePoint, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 187d36812dcae346b487d289d1924463610d5050
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 4f35be46f70d1efd5bb0cdbd030f78cc82c67e23
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200887"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62256811"
 ---
 # <a name="hellosign-for-sharepoint"></a>HelloSign für SharePoint
 
@@ -33,11 +33,11 @@ Informationen, die von Dropbox Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | HelloSign für SharePoint |
 | ID | WA200003245 |
-| Office 365 unterstützten Clients | SharePoint 2013 oder höher |
+| unterstützte Office 365-Clients | SharePoint 2013 oder höher |
 | Name des Partnerunternehmens | Dropbox Inc. |
 | Website des Unternehmens | [https://hellosign.com](https://hellosign.com) |
 | Nutzungsbedingungen der App | [https://hellosign.com/terms](https://hellosign.com/terms) |
-| Kernfunktionen der App | Die digitale Workflowplattform von HelloSign&#8217;&#8211;, die eSignature-, digitale Workflow- und elektronische Faxlösungen umfasst &#8212; hilft mehr als 80.000 Kunden und Millionen von Personen, schneller zu arbeiten. Wir helfen unseren Kunden, Angebote schneller zu schließen, Neueinstellungen einfach zu integrieren, Dokumente ohne Fehler zu vervollständigen und vieles mehr. |
+| Kernfunktionen der App | Die digitale Workflowplattform von HelloSign&#8217;&#8211;, die eSignature-, digitale Workflow- und elektronische Faxlösungen umfasst, &#8212; über 80.000 Kunden und Millionen von Personen bei der schnelleren Geschäftstätigkeit unterstützt. Wir helfen unseren Kunden, Angebote schneller zu schließen, Neueinstellungen einfach zu integrieren, Dokumente ohne Fehler zu vervollständigen und vieles mehr. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
@@ -122,8 +122,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Ja |
 | Entspricht die App NIST 800-171? | Nein |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Ja |
@@ -156,7 +156,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nein |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -167,11 +167,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | Delegiert | So rufen Sie die E-Mail-Adresse des Benutzers ab |
->| Sites.ReadWrite.All | Anwendung | So laden Sie elektronisch signierte Dateien zurück in SharePoint |
->| Files.ReadWrite.All | Anwendung | So laden Sie elektronisch signierte Dateien zurück in SharePoint |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite.All | Anwendung | So laden Sie elektronisch signierte Dateien wieder in SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
+>| Sites.ReadWrite.All | Anwendung | So laden Sie elektronisch signierte Dateien wieder in SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
+>| User.Read | Delegiert | So rufen Sie die E-Mail-Adresse des Benutzers ab | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
