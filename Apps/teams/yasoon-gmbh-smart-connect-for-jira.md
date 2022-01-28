@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Smart Verbinden für Jira, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c5dbcb87b2d99c727b01ff903ec9daf83935978
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 2f8db5fc4087ece98bf19f20ff3b91ab96875ed0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430283"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252068"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -30,16 +30,18 @@ ms.locfileid: "60430283"
 
 Von yasoon GmbH für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Smart Connect for Jira |
 | ID | WA200002055 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | yasoon GmbH |
-| URL der Partnerwebsite | [https://www.yasoon.com](https://www.yasoon.com) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://yasoon.com/microsoft-teams-for-jira/](https://yasoon.com/microsoft-teams-for-jira/) |
-| URL der Datenschutzrichtlinie | [https://yasoon.com/privacy-policy-services/](https://yasoon.com/privacy-policy-services/) |
-| URL der Nutzungsbedingungen | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474846970/Product_42949680957/Asset_3f25ec80-eacb-454f-8cc2-eeee583b65c6/170825EULAOfficeaddinEN.doc) |
+| Website des Unternehmens | [https://www.yasoon.com](https://www.yasoon.com) |
+| Nutzungsbedingungen der App | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474846970/Product_42949680957/Asset_3f25ec80-eacb-454f-8cc2-eeee583b65c6/170825EULAOfficeaddinEN.doc) |
+| Kernfunktionen der App | Yasoon konzentriert sich auf die Bereitstellung intelligenter, sicherer &amp; Integrationen zwischen Atlassian und Microsoft-Dienste. Wir bieten Tools, die Outlook und Teams mit Atlassian Jira verbinden. Unsere Jira-App für Microsoft Teams hilft Software- und Geschäftsteams, besser zusammenzuarbeiten, indem Teams Chats und Unterhaltungen mit Jira-Problemen verbunden werden. |
+| Firmenstandort | Deutschland |
+| Seite "App-Informationen" | |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,96 +53,132 @@ Von yasoon GmbH für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von yasoon GmbH zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
-
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
-
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.ReadBasic.All | Delegiert | Die Berechtigung wird verwendet, damit der Benutzer einen dieser verbundenen Kanäle in Jira auswählen kann. | Kanal-ID für Zwischenspeicherungszwecke | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Read.Group | Anwendung | Ermöglicht der App, verknüpfte Kanalnachrichten in Jira anzuzeigen. | Nachrichten-IDs zum Verknüpfen von Nachrichten mit Jira-Problemen | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelMessage.Send | Delegiert | Es werden keine Daten verwendet, diese API wird verwendet, damit der Benutzer auf Kanalnachrichten von Jira antworten kann. | Keine | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| ChannelSettings.Read.Group | Anwendung | Wird zum Nachschlagen von Detailinformationen zu einem Kanal verwendet. | Keine | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Chat.ReadWrite | Delegiert | Wird verwendet, um dem Benutzer das Hinzufügen neuer Antworten zu Chats und das Anzeigen von Chatnachrichten von Jira zu ermöglichen. | Keine | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Member.Read.Group | Anwendung | Wird für Berechtigungsprüfungen verwendet und ermöglicht der App, die Teammitgliedschaft von Benutzern zu überprüfen. | Keine | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Team.ReadBasic.All | Delegiert | Die Berechtigung wird verwendet, damit der Benutzer eines dieser beigetretenen Teams in Jira auswählen kann. | Team-IDs für Zwischenspeicherungszwecke | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| TeamSettings.Read.Group | Anwendung | Ermöglicht der App, Teameinstellungen zu lesen, um bestimmte Standardwerte zu berücksichtigen. | Keine | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| User.ReadBasic.All | Delegiert | Ermöglicht es dem Benutzer, Kollegen auszuwählen, um @-mention in einer Kanalnachricht zu erwähnen | Keine | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
-
-
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
-
-Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
-
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Atlassian Jira und möglicherweise einer unserer Vertragsnehmer sind hier zu sehen: https://go.yasoon.com/contractors | Nachrichtenmetadaten (IDs, Zeitstempel), Benutzer- und Organisationsmetadaten (Benutzer-IDs, Organisations-IDs) und E-Mail-Adressen des Benutzers | Unterstützung der App-Funktionalität (z. B. Abgleichen von Atlassian-Konten mit Office-Konten) und Ermöglichen unserer Unterstützung, Probleme schneller zu beheben. |
-
-#### <a name="data-access-via-bots"></a>Datenzugriff über Bots
-
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
-
->| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Abgleich der Benutzer Teams Konto mit dem Benutzerkonto Atlassian Jira | Nein |  |
-
-
-#### <a name="telemetry-data"></a>Telemetriedaten
-
-Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
-
->Benutzermetadaten (ID)
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
-
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
-
->Wir arbeiten nur mit Diensten, die strenge Datenschutz-Garantien bieten. 
-
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
-
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
-
->Nein
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
+| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb von 3Monthen gelöscht |
+| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36422' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36422" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Identitätsinformationen
-
-Diese Informationen wurden von yasoon GmbH bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
-
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
-| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
-| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
-| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
-| Verfügt Ihre App über einen vertraulichen Client? | Nein |
-| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
-| Macht Ihre App Web-APIs verfügbar? | Nein |
-| Verwendet Ihre App Vorschau-APIs? | Nein |
-| Verwendet Ihre App veraltete APIs? | Nein |
+| Führen Sie jährliche Penetrationstests für die App durch? | Ja |
+| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Nein |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? |  |
+| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? |  |
+| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? |  |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? |  |
+| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? |  |
+| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? |  |
+| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? |  |
+| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? |  |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? |  |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? |  |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: |  |
+| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? |  |
+| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
+| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? |  |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nein |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
+| Letztes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
+| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
+| Letztes SOC3-Zertifizierungsdatum | |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? |  |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? |  |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? |  |
+| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? |  |
+| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? |  |
+| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? |  |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? |  |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? |  |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
+| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Unterstützt Ihre App continuous Access Evaluation (CAE) |  |
+| Speichert Ihre App Anmeldeinformationen im Code? |  |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
+
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | Delegiert | Die Berechtigung wird verwendet, damit der Benutzer einen dieser verbundenen Kanäle in Jira auswählen kann. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| ChannelMessage.Read.Group | Anwendung | Ermöglicht der App, verknüpfte Kanalnachrichten in Jira anzuzeigen. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| ChannelMessage.Send | Delegiert | Es werden keine Daten verwendet, diese API wird verwendet, damit der Benutzer auf Kanalnachrichten von Jira antworten kann. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| ChannelSettings.Read.Group | Anwendung | Wird zum Nachschlagen von Detailinformationen zu einem Kanal verwendet. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Chat.ReadWrite | Delegiert | Wird verwendet, um dem Benutzer das Hinzufügen neuer Antworten zu Chats und das Anzeigen von Chatnachrichten von Jira zu ermöglichen. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Member.Read.Group | Anwendung | Wird für Berechtigungsprüfungen verwendet und ermöglicht der App, die Teammitgliedschaft von Benutzern zu überprüfen. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Team.ReadBasic.All | Delegiert | Die Berechtigung wird verwendet, damit der Benutzer eines dieser beigetretenen Teams in Jira auswählen kann. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| TeamSettings.Read.Group | Anwendung | Ermöglicht der App, Teameinstellungen zu lesen, um bestimmte Standardwerte zu berücksichtigen. | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| User.ReadBasic.All | Delegiert | Ermöglicht es dem Benutzer, Kollegen auszuwählen, um @-mention in einer Kanalnachricht zu erwähnen | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+
+>Diese Anwendung verfügt nicht über zusätzliche APIs.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Luware-Complianceaufzeichnung für Microsoft Teams, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b253e66f445af383eaf7401e128645f1ea9373be
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: ffbb28358351271e0028f0b9deec76e3ca6c6a8c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148002"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251314"
 ---
-# <a name="luware-compliance-recording-for-microsoft-teams"></a>Luware Compliance Recording for Microsoft Teams
+# <a name="luware-compliance-recording-for-microsoft-teams"></a>Luware-Complianceaufzeichnung für Microsoft Teams
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -31,7 +31,7 @@ Von Luware AG für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Luware Compliance Recording for Microsoft Teams |
+| App-Name | Luware-Complianceaufzeichnung für Microsoft Teams |
 | ID | luwareagzurich.recording_azure_marketplace |
 | Name des Partnerunternehmens | Luware AG |
 | Website des Unternehmens | [https://luware.com](https://luware.com) |
@@ -58,7 +58,7 @@ Diese Informationen wurden von Luware AG darüber bereitgestellt, wie diese App 
 | Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | Azure-Objekt-IDs, UPNs, &amp; E-Mail-Chatadresse, Anzeigename, Vorname, Nachname, Ort (optional), Abteilung (optional) |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Azure-Objekt-IDs, UPNs, E-Mail-Chatadresse &amp; , Anzeigename, Vorname, Nachname, Ort (optional), Abteilung (optional) |
 | Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Schweiz |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
@@ -90,7 +90,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Nein |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | Anmeldeinformationen |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -106,24 +106,24 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
 | Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -156,7 +156,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -164,21 +164,21 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calls.Initiate.All | Anwendung | Teams-Aufzeichnung |
->| Calls.InitiateGroupCall.All | Anwendung | Teams-Aufzeichnung |
->| Calls.JoinGroupCall.All | Anwendung | Teams-Aufzeichnung |
->| Calls.JoinGroupCallasGuest.All | Anwendung | Teams-Aufzeichnung |
->| Calls.AccessMedia.All | Anwendung | Teams-Aufzeichnung |
->| OnlineMeetings.Read.All | Anwendung | Teams-Aufzeichnung |
->| OnlineMeetings.ReadWrite.All | Anwendung | Teams-Aufzeichnung |
->| Group.Read.All | Anwendung | Teams-Aufzeichnung |
->| GroupMember.Read.All | Anwendung | Teams-Aufzeichnung |
->| User.Read.All | Anwendung | Teams-Aufzeichnung |
->| User.Read | Delegiert | Einmaliges Anmelden |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calls.AccessMedia.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.Initiate.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.InitiateGroupCall.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.JoinGroupCall.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.JoinGroupCallasGuest.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Group.Read.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| GroupMember.Read.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| OnlineMeetings.Read.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| OnlineMeetings.ReadWrite.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| User.Read | Delegiert | Einmaliges Anmelden | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| User.Read.All | Anwendung | Teams-Aufzeichnung | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

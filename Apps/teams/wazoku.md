@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Wazoku, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c82905cc10dbebbc914b9025cb146d05c4473716
-ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
+ms.openlocfilehash: 1c9aef70ea9958b82698b54fca43ebf2853f5d73
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62222526"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251541"
 ---
 # <a name="wazoku"></a>Wazoku
 
@@ -74,7 +74,7 @@ Diese Informationen wurden von Wazoku bereitgestellt, wie diese App Organisation
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -108,23 +108,23 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? | Nein |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
@@ -168,13 +168,13 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| email | Delegiert | Einmaliges Anmelden |
->| offline_access | Delegiert | Einmaliges Anmelden |
->| openid | Delegiert | Einmaliges Anmelden |
->| Profil | Delegiert | Einmaliges Anmelden |
->| User.Read | Delegiert | Einmaliges Anmelden |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | Delegiert | Einmaliges Anmelden | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| email | Delegiert | Einmaliges Anmelden | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| offline_access | Delegiert | Einmaliges Anmelden | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| openid | Delegiert | Einmaliges Anmelden | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| Profil | Delegiert | Einmaliges Anmelden | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

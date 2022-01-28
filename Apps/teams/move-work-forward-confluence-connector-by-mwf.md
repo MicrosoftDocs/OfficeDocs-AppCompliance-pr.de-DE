@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Confluence Connector von MVF, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f7ac53112ad08bdb90ae3601c13074d541d63428
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 21c6474d5b21537a4ff04705fd16b760d6698b73
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144745"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251031"
 ---
 # <a name="confluence-connector-by-mwf"></a>Zusammenführungskonnektor von MVF
 
@@ -34,7 +34,7 @@ Informationen, die von Move Work Forward an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Zusammenführungskonnektor von MVF |
 | ID | WA200001604 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Move Work Forward |
 | Website des Unternehmens | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
 | Nutzungsbedingungen der App | [https://www.moveworkforward.com/license-agreement/eula](https://www.moveworkforward.com/license-agreement/eula) |
@@ -121,10 +121,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -164,15 +164,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Channel.ReadBasic.All | Delegiert | So rufen Sie die Liste der Kanäle für Konfigurationsseiten zum Senden von Benachrichtigungen an einen Kanal ab. |
->| Teams.ReadBasic.All | Delegiert | So rufen Sie die Liste der Teams für Konfigurationsseiten ab, um Benachrichtigungen an einen Kanal eines Teams zu senden. |
->| email | Delegiert | So verbessern Sie die Kontozuordnung zwischen Microsoft und Atlassian |
->| TeamsAppInstallation.ReadForTeam | Delegiert | So finden Sie die Teams heraus, in denen confluence Connector installiert ist |
->| User.Read | Delegiert | So lesen Sie grundlegende Benutzerinformationen |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | Delegiert | So rufen Sie die Liste der Kanäle für Konfigurationsseiten zum Senden von Benachrichtigungen an einen Kanal ab. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| Teams.ReadBasic.All | Delegiert | So rufen Sie die Liste der Teams für Konfigurationsseiten ab, um Benachrichtigungen an einen Kanal eines Teams zu senden. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| TeamsAppInstallation.ReadForTeam | Delegiert | So finden Sie die Teams heraus, in denen confluence Connector installiert ist | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| User.Read | Delegiert | So lesen Sie grundlegende Benutzerinformationen | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| email | Delegiert | So verbessern Sie die Kontozuordnung zwischen Microsoft und Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

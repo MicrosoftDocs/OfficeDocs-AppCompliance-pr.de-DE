@@ -2,21 +2,21 @@
 title: Sicherheit und Compliance von SaaS-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/27/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle SaaS-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 9ca30ca4f4ffff75b3b0cc7a6a9672c1edea20c0
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 24932c082a24fbd2554c2920a59c0ec1f0f960fc
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235551"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252391"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicherheit und Compliance von SaaS-Apps
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über SaaS-Apps und -Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über SaaS-Apps und -Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|

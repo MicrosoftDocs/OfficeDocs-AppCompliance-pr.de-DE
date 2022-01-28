@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Loop, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d20a28aa9a99833c5e5e4deac16c2fda05ebad1a
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: f8cada6257ed15ad8372eb3acffc53e3c94d2d54
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155505"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250101"
 ---
 # <a name="loop"></a>Loop
 
@@ -74,7 +74,7 @@ Diese Informationen wurden von Friendly Flows bereitgestellt, wie diese App Orga
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -92,7 +92,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, Credential, DNSManagement |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -157,7 +157,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -166,13 +166,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | Delegiert | Authentifizierung |
->| Profil | Delegiert | Authentifizierung |
->| email | Delegiert | Registrierung |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | Delegiert | Authentifizierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
+>| email | Delegiert | Registrierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
+>| Profil | Delegiert | Authentifizierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

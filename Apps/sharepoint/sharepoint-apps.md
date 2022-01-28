@@ -2,21 +2,21 @@
 title: Sicherheit und Compliance von Microsoft SharePoint Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/27/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft SharePoint-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 1c921ee7506028ab72f9df0a175fa64a95e657c0
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 6618e9a9a4f4750136e38ab5fb2c55a17babe09a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235011"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254031"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft SharePoint Apps
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft SharePoint apps und add-ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft SharePoint apps und add-ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für O2S – Office2SharePoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 2c4683f016967df805e4ceb13c4feeb90fbb211e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: df1f13622c1eb320175bb27e59ad7be5d704f6a0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149063"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251111"
 ---
 # <a name="o2s---office2sharepoint"></a>O2S – Office2SharePoint
 
@@ -89,7 +89,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | Credential, CodeRepositories, DNSManagement |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -121,9 +121,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Ja |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Ja |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Ja |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -155,7 +155,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
@@ -164,19 +164,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.AccessAsUser.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. |
->| Directory.Read.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. |
->| Directory.ReadWrite.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. |
->| Group.Read.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. |
->| Group.ReadWrite.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. |
->| Sites.Manage.All | Delegiert | Ermöglicht der Anwendung, Dokumentbibliotheken und Listen in allen Websitesammlungen im Namen des angemeldeten Benutzers zu erstellen oder zu löschen. |
->| Sites.Read.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. |
->| Sites.ReadWrite.All | Delegiert | für Berechtigung und zum Abrufen der Websites und Listen. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. |
->| User.Read | Delegiert | So rufen Sie die Benutzer SharePoint Website-, OneDrive- und Gruppenwebsites ab. |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.Read.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.ReadWrite.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.Read.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.ReadWrite.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.Manage.All | Delegiert | Ermöglicht der Anwendung, Dokumentbibliotheken und Listen in allen Websitesammlungen im Namen des angemeldeten Benutzers zu erstellen oder zu löschen. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.Read.All | Delegiert | Suchen Sie nach Berechtigungen, und rufen Sie die Websites und Listen ab. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.ReadWrite.All | Delegiert | für Berechtigung und zum Abrufen der Websites und Listen. Erstellen Sie Ordner, rufen Sie Dateien ab und speichern Sie Dateien. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| User.Read | Delegiert | Um die Benutzer SharePoint Website, OneDrive und Gruppenwebsites abzurufen. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
@@ -191,30 +191,30 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Control** | **Microsoft 365 Zertifizierungsergebnis** |
 |:------------|:---------------------------------------|
 | [**ANWENDUNGSSICHERHEIT**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfung der Sicherheitsrisikobewertung (DAST/SAST/Penetrationstest) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfung der Sicherheitsrisikobewertung (DAST/SAST/Penetrationstest) | N/V |
 | [**BETRIEBSSICHERHEIT**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Risikobewertung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder entsprechende Technologien) | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Änderungssteuerung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/Bereitstellung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angriffserkennung und -verhinderung (optional) | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollieren von Daten) | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Risikobewertung | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder entsprechende Technologien) | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Änderungssteuerung | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/Bereitstellung | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angriffserkennung und -verhinderung (optional) | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollieren von Daten) | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | N/V |
 | [**DATENSCHUTZ BEI DER DATENVERARBEITUNG &amp;**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhenden Daten | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | N/V |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhenden Daten | N/V |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenaufbewahrung und -entsorgung | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | N/V |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSGVO | – |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

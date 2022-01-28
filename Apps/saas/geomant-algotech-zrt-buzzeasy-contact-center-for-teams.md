@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Contact Center für Teams, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f80ef944b502b1bacb5253f917154747761ee6ae
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b73e059f9b820a1f3f880a4bd4237649121b9c5b
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147749"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251317"
 ---
 # <a name="buzzeasy-contact-center-for-teams"></a>Contact Center für Teams
 
@@ -27,7 +27,7 @@ ms.locfileid: "62147749"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Geomant-Algotech Zrt bereitgestellte Informationen. an Microsoft:
+Informationen, die von Geomant-Algotech Zrt bereitgestellt werden. an Microsoft:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -90,7 +90,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -106,8 +106,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -115,14 +115,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
@@ -156,7 +156,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -164,18 +164,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Mail.ReadWrite | Anwendung | Ermöglicht dem Agent das Lesen/Schreiben eines bestimmten (freigegebenen) Postfachs über die Agent-Benutzeroberfläche. (Kann nach einem bestimmten Postfach gefiltert werden.) |
->| Mail.Send | Anwendung | Senden von E-Mails im Auftrag eines freigegebenen Postfachs. |
->| User.Read | Delegiert | Anmelden und Benutzerprofil lesen |
->| Presence.Read.All | Delegiert | Anzeigen des Agent-/Benutzerstatus für andere Agents, Synchronisierung mit agentstatus. |
->| User.Read.All | Delegiert | Anzeigen von Benutzer- AAD Informationen auf Administrator-/Benutzeroberflächen |
->| User.ReadBasic.All | Delegiert | Anzeigen von Benutzer- AAD Informationen auf Administrator-/Benutzeroberflächen |
->| User.Read | Delegiert | Benutzerliste für Administratoren für die Registrierung anzeigen. |
->| Mail.Send | Anwendung | Senden einer Einladung im Namen eines Dienstbenutzers. |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Mail.Send | Anwendung | Senden einer Einladung im Namen eines Dienstbenutzers. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| Presence.Read.All | Delegiert | Anzeigen des Agent-/Benutzerstatus für andere Agents, Synchronisierung mit agentstatus. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.Read | Delegiert | Benutzerliste für Administratoren für die Registrierung anzeigen. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.Read.All | Delegiert | Anzeigen AAD Benutzerinformationen auf Administrator-/Benutzeroberflächen | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.ReadBasic.All | Delegiert | Anzeigen AAD Benutzerinformationen auf Administrator-/Benutzeroberflächen | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| Mail.ReadWrite | Anwendung | Ermöglicht dem Agent das Lesen/Schreiben eines bestimmten (freigegebenen) Postfachs über die Agent-Benutzeroberfläche. (Kann nach einem bestimmten Postfach gefiltert werden.) | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| Mail.Send | Anwendung | Senden von E-Mails im Auftrag eines freigegebenen Postfachs. | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

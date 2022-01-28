@@ -1,19 +1,19 @@
 ---
-title: Anwendungsinformationen für officeatwork-| E-Mail-Signatur für Outlook von officeatwork
+title: Anwendungsinformationen für Officeatwork-| E-Mail-Signatur für Outlook von officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork-| Mail Signature for Outlook, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Mail Signature for Outlook, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9c2b253c143a1efa249f0e4ea14387664bb68834
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 32899c4a9734ef0afb996e7f609c042cba1172c0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155402"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254181"
 ---
 # <a name="officeatwork--mail-signature-for-outlook"></a>officeatwork | E-Mail-Signatur für Outlook
 
@@ -33,11 +33,11 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – E-Mail-Signatur für Outlook |
 | ID | WA200003062 |
-| unterstützte Office 365-Clients | Outlook 2016 oder höher auf Windows Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2016 oder höher auf Windows, Outlook im Web |
 | Name des Partnerunternehmens | officeatwork |
 | Website des Unternehmens | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Nutzungsbedingungen der App | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Kernfunktionen der App | E-Mail-Signaturen, einfach und sicher, zentral verwaltet, &amp; personalisiert in der gesamten Organisation. |
+| Kernfunktionen der App | E-Mail-Signaturen, einfach und sicher, zentral verwaltet, personalisiert &amp; in der gesamten Organisation. |
 | Firmenstandort | Schweiz |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -91,7 +91,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -107,25 +107,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -157,8 +157,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | N/V |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | Sicherheitsstandards |
@@ -166,14 +166,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | Delegiert | Aktivieren der Anmeldung |
->| Profil | Delegiert | Aktivieren der Anmeldung |
->| offline_access | Delegiert | Aktivieren der automatisierten Anmeldung für ältere Office-Hosts |
->| User.Read | Delegiert | Aktivieren der Anzeige des angemeldeten Benutzers, Aktivieren dynamischer E-Mail-Signaturen mit Benutzereigenschaften |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | Delegiert | Aktivieren der Anzeige des angemeldeten Benutzers, Aktivieren dynamischer E-Mail-Signaturen mit Benutzereigenschaften | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| offline_access | Delegiert | Automatische Anmeldung für ältere Office Hosts aktivieren | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| openid | Delegiert | Aktivieren der Anmeldung | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| Profil | Delegiert | Aktivieren der Anmeldung | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

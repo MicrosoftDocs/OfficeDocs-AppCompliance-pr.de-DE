@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Standuply, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3b9bf9f6051c0b093006c81d21f8c1acf5e3a2bc
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 3b7292e010ad6e244f4d5e6cdddb9b357520ca94
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198028"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252241"
 ---
 # <a name="standuply"></a>Standuply
 
@@ -34,11 +34,11 @@ Informationen, die von Standuply Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Standuply |
 | ID | WA200003001 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Standuply Inc. |
 | Website des Unternehmens | [https://standuply.com](https://standuply.com) |
 | Nutzungsbedingungen der App | [https://standuply.com/terms](https://standuply.com/terms) |
-| Kernfunktionen der App | Stuply automates management processes and provides internal Q &amp; A system to level up productivity of your team. |
+| Kernfunktionen der App | Automatisiert Verwaltungsprozesse und stellt ein internes QA-System&amp; bereit, um die Produktivität Ihres Teams zu steigern. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -109,8 +109,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Ja |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -124,9 +124,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -146,7 +146,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
 | Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
 | Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Ja |
-| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Nicht zutreffend |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | N/V |
 | Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
 | Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
 
@@ -158,8 +158,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
+| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nein |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -167,12 +167,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | Delegiert | So autorisieren Sie Benutzer im Produkt |
->| MailboxSettings.Read | Anwendung | So senden Sie Berichte über einzelne Zeitzonen von Benutzern |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| MailboxSettings.Read | Anwendung | So senden Sie Berichte über einzelne Zeitzonen von Benutzern | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
+>| User.Read | Delegiert | So autorisieren Sie Benutzer im Produkt | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -1,5 +1,5 @@
 ---
-title: Application Information for PA PEOPLE by &#26666;&#24335;&#20250;&#31038;PHONE APPLI
+title: Anwendungsinformationen für PA-Personen durch &#26666;&#24335;&#20250;&#31038;PHONE APPLI
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/10/2022
@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für PA PEOPLE, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: bf559c216aa657d7a14f1c4e099b67dabb8cd1c1
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 0c12acb97dcb14aca0b64531eb044f13b71425ee
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62143922"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253541"
 ---
 # <a name="pa-people"></a>PA PEOPLE
 
@@ -106,8 +106,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -115,15 +115,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
 | Entspricht die App NIST 800-171? | Nein |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -154,7 +154,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -163,11 +163,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | Delegiert | Lesen Sie das Profil des Benutzers, und stimmen Sie dieses Profil (im Wesentlichen userId) mit der Datenbank ab, damit Sie sich bei PEOPLE.&#65288;&#12518;&#12540;&#12470;&#12540;&#12398;&#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#12434;&#35501;&#12415;&#21462;&#12426;&#12289;&#12381;&#12398;&#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#65288;&#22522;&#26412;&#30340;&#12395;&#12399;userId&#65289;&#12434;&#12487;&#12540;&#12479;&#12505;&#12540;&#12473;&#12392;&#29031;&#21512;&#12375;&#12390;&#12289;PEOPLE&#12395;&#12525;&#12464;&#12452;&#12531;&#12391;&#12365;&#12427;&#12424;&#12358;&#12395;&#12375;&#12414;&#12377;&#12290;&#65289; |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | Delegiert | Lesen Sie das Profil des Benutzers, und stimmen Sie dieses Profil (im Wesentlichen userId) mit der Datenbank ab, damit Sie sich bei PEOPLE.&#65288;&#12518;&#12540;&#12470;&#12540;&#12398;&#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#12434;&#35501;&#12415;&#21462;&#12426;&#12289;&#12381;&#12398;&#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#65288;&#22522;&#26412;&#30340;&#12395;&#12399;userId&#65289;&#12434;&#12487;&#12540;&#12479;&#12505;&#12540;&#12473;&#12392;&#29031;&#21512;&#12375;&#12390;&#12289;PEOPLE&#12395;&#12525;&#12464;&#12452;&#12531;&#12391;&#12365;&#12427;&#12424;&#12358;&#12395;&#12375;&#12414;&#12377;&#12290;&#65289; | [894d2c27-987c-4426-ab25-b0d6ea4bd0d6](https://docs.microsoft.com/microsoft-365-app-certification/azure/894d2c27-987c-4426-ab25-b0d6ea4bd0d6) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

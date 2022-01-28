@@ -2,21 +2,21 @@
 title: Sicherheit und Compliance von Microsoft Outlook Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/27/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook Apps.
 localization_priority: Normal
-ms.openlocfilehash: 9f429e2f81a95e0750b6c2df8c55471653ea969c
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 86006b608edc098b9c7e3abbcf49bfde1f89863f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235631"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251341"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Outlook Apps
 
-Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Outlook Apps und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Outlook Apps und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -38,8 +38,8 @@ Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die
 | [MIPA – Ihr eigener persönlicher Assistent](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | Alle blauen Lösungen | **✓** |  |
 | [Office2SharePoint für Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | Inhaltsauswahl für Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | E-Mail-Signatur für Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
+| [officeatwork – Inhaltsauswahl für Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork – E-Mail-Signatur für Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail für Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | OnePlace-Lösungen | **✓** |  |
 | [Vertriebsengagement für Outlook](./outreach-sales-engagement-for-outlook.md) | Reichweite | **✓** |  |
 | [Pexip One für Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |

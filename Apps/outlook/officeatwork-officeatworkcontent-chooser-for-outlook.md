@@ -6,14 +6,14 @@ ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork-| Inhaltsauswahl für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für officeatwork | Inhaltsauswahl für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e8c28d84c71e4e686451048da7556df1eeee2d8d
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: fb31e2cc99a2509abd19b1a1fb3bdcb278b49cfe
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62208994"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250281"
 ---
 # <a name="officeatwork--content-chooser-for-outlook"></a>officeatwork | Inhaltsauswahl für Outlook
 
@@ -32,7 +32,7 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | officeatwork – Inhaltsauswahl für Outlook |
 | ID | WA104380690 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
 | Name des Partnerunternehmens | officeatwork |
 | Website des Unternehmens | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Nutzungsbedingungen der App | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
@@ -90,7 +90,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -106,25 +106,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -155,8 +155,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
@@ -167,17 +167,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| openid | Delegiert | Aktivieren der Anmeldung |
->| Profil | Delegiert | Aktivieren der Anmeldung |
->| offline_access | Delegiert | Aktivieren der automatisierten Anmeldung für ältere Office-Hosts |
->| User.Read | Delegiert | Aktivieren der Anzeige des angemeldeten Benutzers |
->| Files.ReadWrite.All | Delegiert | Aktivieren des Features "Favoriten und OneDrive" |
->| Group.ReadWrite.All | Delegiert | Aktivieren Teams-Features |
->| User.Read.All | Delegiert | Aktivieren der Anzeige von Benutzereigenschaften |
->| Sites.Read.All | Delegiert | Lesen der in SharePoint gespeicherten Benutzervorlagendateien |
->| GroupMember.Read.All | Delegiert | Aktivieren Teams-Features |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite.All | Delegiert | Aktivieren des Features "Favoriten und OneDrive" | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| Group.ReadWrite.All | Delegiert | Aktivieren Teams-Features | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| GroupMember.Read.All | Delegiert | Aktivieren Teams-Features | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| Sites.Read.All | Delegiert | Lesen der in SharePoint gespeicherten Benutzervorlagendateien | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| User.Read | Delegiert | Aktivieren der Anzeige des angemeldeten Benutzers | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| User.Read.All | Delegiert | Aktivieren der Anzeige von Benutzereigenschaften | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| offline_access | Delegiert | Automatische Anmeldung für ältere Office Hosts aktivieren | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| openid | Delegiert | Aktivieren der Anmeldung | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| Profil | Delegiert | Aktivieren der Anmeldung | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

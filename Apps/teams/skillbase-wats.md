@@ -6,14 +6,14 @@ ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Doppelklicks, die Richtlinien für die Datenverarbeitung, Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Doppelklicks, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 87f742ca884060d51b35ea2ba48cae3e4fd89e91
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 49aba56648206ad302a6b078bb28ad3b055bbc5f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200636"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251662"
 ---
 # <a name="wats"></a>Wats
 
@@ -35,7 +35,7 @@ Von Skillbase für Microsoft bereitgestellte Informationen:
 | App-Name | Wats |
 | ID | WA200003597 |
 | Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Qualifikationsbasis |
+| Name des Partnerunternehmens | Skillbase |
 | Website des Unternehmens | [https://wats.ai](https://wats.ai) |
 | Nutzungsbedingungen der App | [https://wats.ai/en/terms-of-use/](https://wats.ai/en/terms-of-use/) |
 | Kernfunktionen der App | Die Lösung für die Zusammenarbeit beim Teilen und Zugreifen auf Wissen. Entfesseln Sie Ihren Willen mit Denkbüchern! |
@@ -108,9 +108,9 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Ja |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -119,14 +119,14 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Letztes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -156,8 +156,8 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
+| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -165,23 +165,23 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Files.Read | Delegiert | Lecture des fichiers sharepoint |
->| Files.Read.All | Delegiert | Lecture des fichiers sharepoint |
->| Group.Read.All | Delegiert | avoir acc&#232;s aux groupes pour le ask for it |
->| offline_access | Delegiert | Mobil |
->| openid | Delegiert | OBO |
->| Organization.Read.All | Delegiert | recup&#233;rer le tenant ID pour bien configurer l'application AUTHENTIFIZIERS et g&#233;rer le textureisonnement des donn&#233;es |
->| Presence.Read | Delegiert | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas |
->| Presence.Read.All | Delegiert | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas |
->| Profil | Delegiert | info sur l'utilisateur |
->| Sites.Read.All | Delegiert | acces aux infos des sharepoints |
->| TeamsActivity.Send | Beide | envoie d'activit&#233;s aux utilisateurs quand un ask for it est cr&#233;&#233; |
->| User.Read | Delegiert | einloggen |
->| User.Read.All | Delegiert | info sur les autres utilisateurs |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.Read | Delegiert | Lecture des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Files.Read.All | Delegiert | Lecture des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Group.Read.All | Delegiert | avoir acc&#232;s aux groupes pour le ask for it | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Organization.Read.All | Delegiert | recup&#233;rer le tenant ID pour bien configurer l'application AUTHENTIFIZIERS et g&#233;rer leisonnement des donn&#233;es | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Presence.Read | Delegiert | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Presence.Read.All | Delegiert | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Sites.Read.All | Delegiert | acces aux infos des sharepoints | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| TeamsActivity.Send | Beide | envoie d'activit&#233;s aux utilisateurs quand un ask for it est cr&#233;&#233; | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| User.Read | Delegiert | einloggen | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| User.Read.All | Delegiert | info sur les autres utilisateurs | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| offline_access | Delegiert | Mobil | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| openid | Delegiert | OBO | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Profil | Delegiert | info sur l'utilisateur | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

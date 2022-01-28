@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Emailgistics, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84228626adf3865be785d8c58c78374db9620a90
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: cea41a85550bd0b2a5d4effda544674d46c06b67
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62177636"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250251"
 ---
 # <a name="emailgistics"></a>Emailgistics
 
@@ -72,7 +72,7 @@ Diese Informationen wurden von Emailgistics Corp. darüber bereitgestellt, wie d
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -106,25 +106,25 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -142,7 +142,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? | Nein |
 | Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
 | Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
-| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Nicht zutreffend |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | N/V |
 | Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Nicht zutreffend |
 | Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Nicht zutreffend |
 | Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Nicht zutreffend |
@@ -155,8 +155,8 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nein |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -166,15 +166,15 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Mail.ReadWrite | Delegiert | Lesezugriff, um Informationen zu Nachrichten im freigegebenen Postfach abzurufen. Nachrichteninformationen sind erforderlich, um kundendefinierte Regeln auszuführen (z. B. an Benutzer A zu verteilen, wenn die Nachricht &#8220;Rechnung&#8221; enthält), um Unterhaltungen korrekt nachzuverfolgen (für aufgezeichnete Unterhaltungen und automatische Zuweisung) und für Berichte (z. B. den Detailbericht "Offene Nachrichten").
-Schreibzugriff req'd zum Senden von Nachrichten aus Regeln (z. B. automatische Antworten) und zum Aktualisieren von Nachrichtensubjekten mit der E-Mailgistics-Unterhaltungs-ID. |
->| Mail.Send | Delegiert | Ermöglicht Emailgistics das Senden von E-Mail-Nachrichten aus dem freigegebenen Postfach. Diese Berechtigung ist erforderlich, um Nachrichten von Regeln (z. B. automatische Antworten) zu senden. |
->| MailboxSettings.ReadWrite | Delegiert | Ermöglicht Emailgistics das Abrufen des freigegebenen Postfachnamens und das Erstellen einer Postfachregel zum Weiterleiten eingehender Nachrichten an den ausgeblendeten Eingehenden Ordner für die erstverarbeitung, die Ausführung von Regeln und die automatische Zuweisung. |
->| User.Read | Delegiert | Ermöglicht Emailgistics, sich als freigegebenes Postfach anzumelden und grundlegende Informationen darüber zu lesen, z. B. die Dienstprinzipal-ID, die E-Mail-Adresse und den Benutzernamen. |
->| User.ReadBasic.All | Delegiert | Ermöglicht Emailgistics, grundlegende Informationen zu Benutzern in Ihrem Mandanten zu lesen. Erforderlich, um Änderungen an den E-Mail-Adressen und Namen von Postfachmitgliedern zu erkennen und diese Informationen, die für Nachverfolgungs- und Berichtszwecke verwendet werden, in Emailgistics automatisch zu aktualisieren. Dies ist die einzige Berechtigung, deren Bereich über das freigegebene Postfach hinausgeht. |
->| offline_access | Delegiert | Ermöglicht Emailgistics die Verwendung als Back-End-Anwendung anstelle einer interaktiven browserbasierten App, bei der sich ein Benutzer bei jeder Arbeit anmelden muss. Mit dieser Berechtigung kann Emailgistics ein Aktualisierungstoken abrufen, das nach Bedarf aktualisiert werden kann, um den konstanten Zugriff aufrechtzuerhalten. |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Mail.ReadWrite | Delegiert | Lesezugriff, um Informationen zu Nachrichten im freigegebenen Postfach abzurufen. Nachrichteninformationen werden benötigt, um kundendefinierte Regeln auszuführen (z. B. an Benutzer A zu verteilen, wenn die Nachricht &#8220;Rechnung&#8221; enthält), um Unterhaltungen korrekt nachzuverfolgen (für aufgezeichnete Unterhaltungen und automatische Zuweisung) und für Berichte (z. B. den Detailbericht zum Öffnen von Nachrichten).
+Schreibzugriff req'd zum Senden von Nachrichten aus Regeln (z. B. automatische Antworten) und zum Aktualisieren von Nachrichtensubjekten mit der E-Mailgistics-Unterhaltungs-ID. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| Mail.Send | Delegiert | Ermöglicht Emailgistics das Senden von E-Mail-Nachrichten aus dem freigegebenen Postfach. Diese Berechtigung ist erforderlich, um Nachrichten von Regeln (z. B. automatische Antworten) zu senden. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| MailboxSettings.ReadWrite | Delegiert | Ermöglicht Emailgistics das Abrufen des freigegebenen Postfachnamens und das Erstellen einer Postfachregel zum Weiterleiten eingehender Nachrichten an den ausgeblendeten Eingehenden Ordner für die erstverarbeitung, die Ausführung von Regeln und die automatische Zuweisung. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.Read | Delegiert | Ermöglicht Emailgistics, sich als freigegebenes Postfach anzumelden und grundlegende Informationen darüber zu lesen, z. B. die Dienstprinzipal-ID, die E-Mail-Adresse und den Benutzernamen. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.ReadBasic.All | Delegiert | Ermöglicht Emailgistics, grundlegende Informationen zu Benutzern in Ihrem Mandanten zu lesen. Erforderlich, um Änderungen an den E-Mail-Adressen und Namen von Postfachmitgliedern zu erkennen und diese Informationen, die für Nachverfolgungs- und Berichtszwecke verwendet werden, in Emailgistics automatisch zu aktualisieren. Dies ist die einzige Berechtigung, deren Bereich über das freigegebene Postfach hinausgeht. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| offline_access | Delegiert | Ermöglicht Emailgistics die Verwendung als Back-End-Anwendung anstelle einer interaktiven browserbasierten App, bei der sich ein Benutzer bei jeder Arbeit anmelden muss. Mit dieser Berechtigung kann Emailgistics ein Aktualisierungstoken abrufen, das nach Bedarf aktualisiert werden kann, um den konstanten Zugriff aufrechtzuerhalten. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

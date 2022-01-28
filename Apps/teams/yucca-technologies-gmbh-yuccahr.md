@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für yuccaHR, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f9a2ad6cf983a58d761c1c97563a9f564c9667d8
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: f5e1475a1db71c51ac58a6bc062ce9e4b17e8ab3
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147636"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251496"
 ---
 # <a name="yuccahr"></a>yuccaHR
 
@@ -38,7 +38,7 @@ Informationen, die Von Yucca Technologies GmbH an Microsoft bereitgestellt werde
 | Name des Partnerunternehmens | Yucca Technologies GmbH |
 | Website des Unternehmens | [https://www.yuccahr.com](https://www.yuccahr.com) |
 | Nutzungsbedingungen der App | [https://www.yuccahr.com/terms-of-use](https://www.yuccahr.com/terms-of-use) |
-| Kernfunktionen der App | Verbinden Sie Ihr Team, integrieren Sie Neueinstellungen, bauen Sie Engagement auf. Direkt in Microsoft Teams. |
+| Kernfunktionen der App | Verbinden Ihres Teams, integrieren Sie Neueinstellungen, bauen Sie Engagement auf. Direkt in Microsoft Teams. |
 | Firmenstandort | Deutschland |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
@@ -108,25 +108,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -158,7 +158,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -166,16 +166,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | Anwendung | So planen Sie ein Kalenderereignis für die übereinstimmenden Parteien |
->| Channel.ReadBasic.All | Anwendung | Anzeigen von Kanalnamen in der Webanwendung |
->| ChannelMember.Read.All | Anwendung | So ordnen Sie Personen innerhalb eines Kanals oder mit anderen Kanälen zu |
->| Group.Read.All | Anwendung | Anzeigen von Teamnamen in der Webanwendung |
->| MailboxSettings.Read | Anwendung | So erhalten Sie beim Senden von Nachrichten die gewünschte Sprache für die Benutzer |
->| User.Read.All | Anwendung | E-Mail ist erforderlich, um adaptive Karten zu generieren, damit Benutzer direkt chatten können |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | Anwendung | So planen Sie ein Kalenderereignis für die übereinstimmenden Parteien | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| Channel.ReadBasic.All | Anwendung | Anzeigen von Kanalnamen in der Webanwendung | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| ChannelMember.Read.All | Anwendung | So ordnen Sie Personen innerhalb eines Kanals oder mit anderen Kanälen zu | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| Group.Read.All | Anwendung | Anzeigen von Teamnamen in der Webanwendung | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| MailboxSettings.Read | Anwendung | So erhalten Sie beim Senden von Nachrichten die gewünschte Sprache für die Benutzer | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| User.Read.All | Anwendung | E-Mail ist erforderlich, um adaptive Karten zu generieren, damit Benutzer direkt chatten können | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

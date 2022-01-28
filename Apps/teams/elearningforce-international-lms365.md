@@ -6,14 +6,14 @@ ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für LMS365, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für LMS365, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1c8291a6756cd28f3ce314052f802ad2722e2496
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: d5bef2d7bb89bc07e47538ad77c84208a10045c3
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61788886"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252361"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -29,11 +29,11 @@ ms.locfileid: "61788886"
 
 Von ELEARNINGFORCE International für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | LMS365 |
 | ID | WA104381467 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ELEARNINGFORCE International |
 | Website des Unternehmens | [https://www.elearningforce.com](https://www.elearningforce.com) |
 | Nutzungsbedingungen der App | [https://www.elearningforce.com/LMS365-SaaS-Terms](https://www.elearningforce.com/LMS365-SaaS-Terms) |
@@ -52,7 +52,7 @@ Von ELEARNINGFORCE International für Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von ELEARNINGFORCE International darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
@@ -72,7 +72,7 @@ Diese Informationen wurden von ELEARNINGFORCE International darüber bereitgeste
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
@@ -102,11 +102,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -115,13 +115,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -131,7 +131,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? |  |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
@@ -150,7 +150,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
@@ -162,7 +162,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
->Diese Anwendung verwendet microsoft Graph nicht.
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| GroupMember.Read.All | Anwendung | Keiner | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| Mail.Send | Delegiert | Keine | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| OnlineMeetings.ReadWrite | Delegiert | Die Berechtigung wird während der Konfiguration des E-Mail-Kontos für Benachrichtigungen dynamisch angefordert. Ermöglicht einer App das Erstellen und Lesen von Onlinebesprechungen | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| RoleManagement.Read.Directory | Anwendung | Keiner | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Invite.All | Delegiert | Keiner | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read | Delegiert | Keiner | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | Delegiert | Keine | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | Anwendung | Ermöglicht der App das Lesen des vollständigen Benutzerprofils. Es&#8217;benötigt, um Benutzer&#8217; Manager zu lesen, um Hierarchieberichte zu erstellen. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| Profil | Delegiert | Keiner | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

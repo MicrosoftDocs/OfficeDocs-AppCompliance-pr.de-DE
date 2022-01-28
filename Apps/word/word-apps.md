@@ -2,21 +2,21 @@
 title: sicherheit und Compliance von Microsoft Word Apps – alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/27/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Word Apps.
 localization_priority: Normal
-ms.openlocfilehash: d552e3c2a780d30e10068ed1fb4e0f573e3d1664
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: a04810a3af241f12683d16f5ab32ee77f3773bf8
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62234201"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254501"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Word Apps
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Word apps und add-ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen werden mit Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security)-App-Katalog und mit vom Entwickler beim Einreichen ihrer Anwendungen zur Verfügung gestellten Informationen ergänzt. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Word apps und add-ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -26,7 +26,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [CocoFax – Einfaches Senden von Fax &amp;](./cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [Excel-zu-Word-Dokumentautomatisierung](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
-| [Fabrikasoft Cloud Office-Add-In](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
+| [Dialogfeldasoft Cloud Office-Add-In](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
 | [harmon.ie für Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Impression-Signaturen](./impression-signatures.md) | Impression-Signaturen | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |

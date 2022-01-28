@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Q, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cb9231ece92308225f95d4764cbfcdf512eba84a
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 221d04494c789505da9d9623e30b377d4e042c1a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60444823"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251051"
 ---
 # <a name="q"></a>Q
 
@@ -30,16 +30,18 @@ ms.locfileid: "60444823"
 
 Von ModuleQ an Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Q |
 | ID | WA104381433 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ModuleQ |
-| URL der Partnerwebsite | [https://moduleq.com](https://moduleq.com) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://moduleq.com/product](https://moduleq.com/product) |
-| URL der Datenschutzrichtlinie | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
-| URL der Nutzungsbedingungen | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
+| Website des Unternehmens | [https://moduleq.com](https://moduleq.com) |
+| Nutzungsbedingungen der App | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
+| Kernfunktionen der App | F funktioniert wie ein vertrauenswürdiger Kollege, verfolgt Ihren Kundenfokus und sendet Ihnen die geschäftlichen Nachrichten, die Sie sehen müssen, bevor Sie fragen müssen. Unterstützt von ModuleQ AI- und Knowledge-Graph von "Reuters". |
+| Firmenstandort | Vereinigte Staaten von Amerika |
+| Seite "App-Informationen" | |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,89 +53,128 @@ Von ModuleQ an Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von ModuleQ bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
-
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
-
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | Anwendung | speichert Besprechungsdaten, mit Ausnahme des Nachrichtentexts und aller Anlagen. | Ermöglicht der Anwendung, die Kalenderereignisse eines Benutzers zu lesen, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| Group.Read.All | Delegiert | Keine | Ermöglicht der App, in einem Team zum Freigeben von Inhalten zu interagieren. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| Mail.Read | Anwendung | speichert E-Mail-Daten, mit Ausnahme des Nachrichtentexts und aller Anlagen | Ermöglicht der Anwendung, die E-Mails eines Benutzers zu lesen, um die geschäftlichen Prioritäten des Benutzers intelligent zu verstehen. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| User.Read | Delegiert | Benutzer-E-Mail- und Authentifizierungstoken | Ermöglicht es dem Benutzer, sich anzumelden und sein Office 365-Konto mit dem ModuleQ-Konto zu verknüpfen. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| User.Read.All | Delegiert | Keine | Zulassen, dass die App die Liste der Teams abruft, zu der der Benutzer gehört. Wird nur für die Freigabe verwendet  | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
-
-
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
-
-Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
-
->Nicht-Microsoft-Dienste werden nicht verwendet.
-
-#### <a name="data-access-via-bots"></a>Datenzugriff über Bots
-
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
-
->Es wird nicht auf EUII zugegriffen.
-
-
-#### <a name="telemetry-data"></a>Telemetriedaten
-
-Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
-
->Wir protokollieren eine interne Benutzer-GUID sowie Organisationsnamen und Domänen. Es gibt derzeit keine Archiv- oder Löschsteuerelemente.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
-
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
-
->Daten werden in der Microsoft Azure Cloud über mehrere Microservices entsprechend ihrer Funktion gespeichert. Alle benutzerbezogenen Daten werden clientseitig mit der AES-256-Verschlüsselung verschlüsselt, bevor sie zur Speicherung übertragen werden. Daten können von Technikern zu Debugzwecken mit Genehmigung unserer Geschäftsleitung angezeigt werden. Der Zugriff auf Daten wird über ein internes VPN gesteuert.
-
-#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
-
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
-
->Ja
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35844' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35844" target="_blank">Ansicht auf einer neuen Registerkarte</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Identitätsinformationen
-
-Diese Informationen wurden von ModuleQ bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
-
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Nein |
-| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Fordert Ihre App berechtigungen mit den geringsten Rechten für Ihr Szenario an? | Ja |
-| Spiegeln die statisch registrierten Berechtigungen Ihrer App genau die Berechtigungen wider, die Ihre App dynamisch und inkrementell anfordert? | Ja |
-| Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
-| Verfügt Ihre App über einen vertraulichen Client? | Nein |
-| Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/><br/> |
-| Macht Ihre App Web-APIs verfügbar? | Ja |
-| Ermöglicht Ihr Berechtigungsmodell nur, dass Aufrufe erfolgreich sind, wenn die Client-App die richtige Zustimmung erhält? | Ja |
-| Verwendet Ihre App Vorschau-APIs? | Nein |
-| Verwendet Ihre App veraltete APIs? | Nein |
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
+| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Sofort gelöscht |
+| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="security"
+
+Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Führen Sie jährliche Penetrationstests für die App durch? | Ja |
+| Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? |  |
+| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? |  |
+| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? |  |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? |  |
+| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? |  |
+| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? |  |
+| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? |  |
+| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? |  |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? |  |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? |  |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: |  |
+| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? |  |
+| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
+| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? |  |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nein |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
+| Letztes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
+| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
+| Letztes SOC3-Zertifizierungsdatum | |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nein |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nein |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
+| Entspricht die App NIST 800-171? |  |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Ja |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? |  |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? |  |
+| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? |  |
+| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? |  |
+| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? |  |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? |  |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? |  |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Response** |
+|:----------------|:-------------|
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
+| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Unterstützt Ihre App continuous Access Evaluation (CAE) |  |
+| Speichert Ihre App Anmeldeinformationen im Code? |  |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
+
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | Anwendung | speichert Besprechungsdaten, mit Ausnahme des Nachrichtentexts und aller Anlagen. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Group.Read.All | Delegiert | Keiner | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Mail.Read | Anwendung | speichert E-Mail-Daten, mit Ausnahme des Nachrichtentexts und aller Anlagen | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read | Delegiert | Benutzer-E-Mail- und Authentifizierungstoken | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read.All | Delegiert | Keiner | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+
+>Diese Anwendung verfügt nicht über zusätzliche APIs.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

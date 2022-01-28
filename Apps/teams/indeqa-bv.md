@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Indeqa, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dfcbbe79fe653ca47dc7600b1737efafb6219283
-ms.sourcegitcommit: 3a357b6131b8459972e1aec73f2f795f9d674981
+ms.openlocfilehash: 055df47b5355222fe92520e940142f84b0b580b1
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61176902"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251702"
 ---
 # <a name="indeqa"></a>Indeqa
 
@@ -30,11 +30,11 @@ ms.locfileid: "61176902"
 
 Von Indeqa B.V. bereitgestellte Informationen an Microsoft:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Indeqa |
 | ID | WA200003277 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| Office 365 unterstützten Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Indeqa B.V. |
 | Website des Unternehmens | [https://www.easy2meet.eu](https://www.easy2meet.eu) |
 | Nutzungsbedingungen der App | [https://www.easy2meet.eu/hubfs/PDF%20contractueel/Easy2Meet...](https://www.easy2meet.eu/hubfs/PDF%20contractueel/Easy2Meet%20General%20Terms%20and%20Conditions%20Sept%202020%20EN.pdf) |
@@ -53,7 +53,7 @@ Von Indeqa B.V. bereitgestellte Informationen an Microsoft:
 
 Diese Informationen wurden von Indeqa B.V. bereitgestellt. Darüber, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
@@ -73,7 +73,7 @@ Diese Informationen wurden von Indeqa B.V. bereitgestellt. Darüber, wie diese A
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
@@ -103,7 +103,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nein |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
@@ -132,7 +132,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? |  |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
@@ -151,10 +151,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -162,7 +162,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
->Diese Anwendung verwendet microsoft Graph nicht.
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | Delegiert | Wir benötigen Benutzerinformationen zum Verwalten von Benutzern und Besprechungen in Easy2Meet | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
+>| email | Delegiert | So zeigen Sie E-Mail-Adres des aktuellen Benutzers an. Wir benötigen die E-Mail-Adres, um Besprechungseinladungen zu senden. | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
+>| openid | Delegiert | wir sammeln hier keine Daten. Wir verwenden dies zum Anmelden des Benutzers | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
+>| Profil | Delegiert | Wir benötigen Benutzerinformationen zum Verwalten von Benutzern und Besprechungen in Easy2Meet | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
