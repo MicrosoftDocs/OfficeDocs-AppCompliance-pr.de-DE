@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Quadra Thankz, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: de7a23b194cc8b947de890d7cf616a67a605213d
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 8109f919461d6c475f2be34a54950ade99ee027c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147984"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260461"
 ---
 # <a name="quadra-thankz"></a>Quadra Thankz
 
@@ -34,11 +34,11 @@ Informationen, die von Quadrasystems.net an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Quadra Thankz |
 | ID | WA200003671 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Quadrasystems.net |
 | Website des Unternehmens | [https://www.quadrasystems.net](https://www.quadrasystems.net) |
 | Nutzungsbedingungen der App | [https://www.quadrasystems.net/tou](https://www.quadrasystems.net/tou) |
-| Kernfunktionen der App | "Thankz" ist der Schlüssel zum Aufbau von Hilfsunternehmen. Basierend auf der vertrauten Microsoft Teams-Schnittstelle ist es eine völlig neue Möglichkeit, sich mit Personen zu verbinden, mit denen Sie täglich zusammenarbeiten.  "Thankz" ist ein Tool, das Menschen dabei hilft, sich auf eine interessante Weise zu erkennen.&#160; Es bietet umfangreiche Endbenutzer- und Unternehmensfeatures, die Funktionen wie Bestenlisten, Budgetierung und Steuerelemente ermöglichen. Vielen Dank hilft Ihren Mitarbeitern, sich verbunden, geschätzt und honoriert zu fühlen. |
+| Kernfunktionen der App | "Thankz" ist der Schlüssel zum Aufbau von Hilfsunternehmen. Basierend auf der vertrauten Microsoft Teams-Schnittstelle ist es eine völlig neue Möglichkeit, sich mit Personen zu verbinden, mit denen Sie täglich zusammenarbeiten.  "Vielen Dank" ist ein Tool, mit dem Benutzer sich auf eine interessante Weise erkennen können.&#160; Es bietet umfangreiche Endbenutzer- und Unternehmensfeatures, die Funktionen wie Bestenlisten, Budgetierung und Steuerelemente ermöglichen. Vielen Dank hilft Ihren Mitarbeitern, sich verbunden, geschätzt und honoriert zu fühlen. |
 | Firmenstandort | Indien |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -90,7 +90,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Nein |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Nein |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Nein |
@@ -106,25 +106,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App NIST 800-171? | N/V |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -164,11 +164,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | Anwendung | So rufen Sie die Managerinformationen eines Benutzers ab  |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read.All | Anwendung | So rufen Sie die Managerinformationen eines Benutzers ab  | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
