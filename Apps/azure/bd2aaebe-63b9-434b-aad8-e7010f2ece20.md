@@ -2,17 +2,17 @@
 title: Informationen zur Azure-App-ID für bd2aaebe-63b9-434b-aad8-e7010f2ece20
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/01/2022
+ms.date: 02/02/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für bd2aaebe-63b9-434b-aad8-e7010f2ece20.
-ms.openlocfilehash: 3e4a9280f58ce50326cc9daae005a9391394831a
-ms.sourcegitcommit: edd55f34c004f0b5c7e4418b92b8ba325b8ab336
+ms.openlocfilehash: ecb607a0ee101171697fd4cd0c877e567b8c91dc
+ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62318291"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62337055"
 ---
 # <a name="azure-app-id-bd2aaebe-63b9-434b-aad8-e7010f2ece20"></a>Azure-App-ID: bd2aaebe-63b9-434b-aad8-e7010f2ece20
 

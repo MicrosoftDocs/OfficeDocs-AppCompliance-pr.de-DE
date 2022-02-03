@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
-        - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
+        - name: Microsoft 365-Zertifizierungsübermittlungshandbuch
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel Apps
       href: excel/excel-apps.md
@@ -57,7 +57,7 @@
           href: excel/supermetrics.md
         - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote Apps
+    - name: Microsoft OneNote-Apps
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Inhaltsauswahl für Office
@@ -138,7 +138,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Folienauswahl für Office
+        - name: officeatwork | Schieberegler für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -153,12 +153,12 @@
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint-Apps
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Adobe Sign für SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: ArcGIS for SharePoint
+        - name: ArcGIS für SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: Angebotsverwaltungssystem
           href: sharepoint/beyond-technologies-bid-management-system.md
@@ -503,8 +503,8 @@
           href: teams/heedify.md
         - name: HelloTeam
           href: teams/helloteam-inc.md
-        - name: HeyTaco!
-          href: teams/heytaco!.md
+        - name: HeyTaco
+          href: teams/heytaco-llc.md
         - name: hi Digital Coach
           href: teams/digital-attitude-srl-hi-coach.md
         - name: Hi5
@@ -561,8 +561,8 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
-        - name: Mehrsprachige KUDO-Besprechungen
-          href: teams/kudo-inc-multilingual-meetings.md
+        - name: KUDO
+          href: teams/kudo-inc.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
@@ -599,6 +599,8 @@
           href: teams/media-interactiva-solutions-measureup.md
         - name: Mediathek+
           href: teams/cemeq-inc-mediathequeplus.md
+        - name: Meetgeek
+          href: teams/aivision-products-srl-meetgeek.md
         - name: Mentimeter
           href: teams/mentimeter.md
         - name: Nachrichterinnerung
@@ -905,7 +907,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Teamarbeit
+        - name: Teamwork
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
