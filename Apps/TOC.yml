@@ -64,7 +64,7 @@
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
-    - name: Microsoft Outlook-Apps
+    - name: Microsoft Outlook Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -109,7 +109,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail für Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Sales Engagement für Outlook
+        - name: Vertriebsengagement für Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One für Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -123,7 +123,7 @@
           href: outlook/chinchilla-software-limited-strategy-ai-for-outlook.md
         - name: XQ Secure Email
           href: outlook/xq-message-secure-email.md
-    - name: Microsoft PowerPoint-Apps
+    - name: Microsoft PowerPoint Apps
       href: powerpoint/powerpoint-apps.md
       items:
         - name: Adobe Sign für Word und PowerPoint
@@ -138,7 +138,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Schieberegler für Office
+        - name: officeatwork | Folienauswahl für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -153,7 +153,7 @@
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint-Apps
+    - name: Microsoft SharePoint Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Adobe Sign für SharePoint
@@ -329,6 +329,8 @@
           href: teams/atwork-gmbh-cloud-hub.md
         - name: CloudLabs
           href: teams/spektra-systems-llc-cloudlabs.md
+        - name: Clypp
+          href: teams/zesavi-gmbh-clypp.md
         - name: COCO
           href: teams/hexaware-technologies-ltd-coco.md
         - name: CodeStream
@@ -457,7 +459,7 @@
           href: teams/storage-made-easy-file-fabric.md
         - name: Fireflies KI
           href: teams/firefliesai-fireflies-ai.md
-        - name: Firewall-Assistent
+        - name: Firewall Assistant
           href: teams/dewmaker-design-inc-firewall-assistant.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
@@ -617,6 +619,8 @@
           href: teams/message-reminder.md
         - name: MetaVisitor
           href: teams/wafer-systems-metavisitor.md
+        - name: MetaWorkspace
+          href: teams/wafer-systems-metaworkspace.md
         - name: MGR360
           href: teams/mgr360.md
         - name: Mia
@@ -803,6 +807,8 @@
           href: teams/sensei-labs-inc-conductor.md
         - name: Senso
           href: teams/senso.md
+        - name: Freigegebener Thread von WNI
+          href: teams/wni-shared-thread-by.md
         - name: SHL
           href: teams/shl.md
         - name: Shortlinks
@@ -897,6 +903,8 @@
           href: teams/ityss-tamplo.md
         - name: Taskworld
           href: teams/taskworld.md
+        - name: Team Central
+          href: teams/atlassian-inc-team-central.md
         - name: Team-Tracker
           href: teams/team-tracker-ltd.md
         - name: Teamble
@@ -1035,8 +1043,6 @@
           href: teams/akmii-yeeflow.md
         - name: yuccaHR
           href: teams/yucca-technologies-gmbh-yuccahr.md
-        - name: Zesavi
-          href: teams/zesavi-gmbh.md
         - name: Zignals
           href: teams/alight-zignals.md
     - name: Microsoft Word Apps
@@ -1080,7 +1086,7 @@
           href: word/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: officeatwork | Uploader für Office
           href: word/officeatwork-officeatworkuploader-for-office.md
-        - name: officeatwork | Prüfer für Office
+        - name: officeatwork | Überprüfen auf Office
           href: word/officeatwork-officeatworkverifier-for-office.md
         - name: officeatwork | Assistent für Office
           href: word/officeatwork-officeatworkwizard-for-office.md
@@ -1133,7 +1139,7 @@
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
           href: saas/elearningforce-international-aps-lms365.md
-        - name: Luware-Complianceaufzeichnung für Microsoft Teams
+        - name: Luware Compliance Recording for Microsoft Teams
           href: saas/luware-ag-compliance-recording-for-microsoft-teams.md
         - name: Luware Nimbus für Microsoft Teams
           href: saas/luware-ag-nimbus-for-microsoft-teams.md
