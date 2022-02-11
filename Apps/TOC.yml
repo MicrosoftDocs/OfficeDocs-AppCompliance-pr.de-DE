@@ -16,7 +16,7 @@
           href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
         - name: Abschließen Microsoft 365 Zertifizierung
           href: docs/certification.md
-        - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
+        - name: Microsoft 365-Zertifizierungsübermittlungshandbuch
           href: docs/certification-submission-guide.md
     - name: Microsoft Excel Apps
       href: excel/excel-apps.md
@@ -64,7 +64,7 @@
           href: onenote/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: onenote/officeatwork-officeatworkimage-chooser-for-office.md
-    - name: Microsoft Outlook Apps
+    - name: Microsoft Outlook-Apps
       href: outlook/outlook-apps.md
       items:
         - name: Adobe Sign-Add-In für Outlook
@@ -109,7 +109,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail für Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Vertriebsengagement für Outlook
+        - name: Sales Engagement für Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One für Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -153,7 +153,7 @@
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint Apps
+    - name: Microsoft SharePoint-Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Adobe Sign für SharePoint
@@ -579,6 +579,8 @@
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
           href: teams/faceboard-pty-ltd-kunjani.md
+        - name: Learnbee
+          href: teams/bsharp-sales-enablers-learnbee.md
         - name: Lexion
           href: teams/lexion.md
         - name: LifeWorks
@@ -807,7 +809,7 @@
           href: teams/sensei-labs-inc-conductor.md
         - name: Senso
           href: teams/senso.md
-        - name: Freigegebener Thread von WNI
+        - name: von WNI freigegebener Thread
           href: teams/wni-shared-thread-by.md
         - name: SHL
           href: teams/shl.md
