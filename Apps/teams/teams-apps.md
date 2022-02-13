@@ -2,17 +2,17 @@
 title: Sicherheit und Compliance von Microsoft Teams-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/10/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Teams-Apps.
 localization_priority: Priority
-ms.openlocfilehash: 8609b858ec61c9d5dc188944fb6b1cacf3e382eb
-ms.sourcegitcommit: 0c7519d574830d48260e4d39dffab3c5f96bc57c
+ms.openlocfilehash: aa1c046fe494ec1fcdd047eae02f823e6dc89b2d
+ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62523616"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62792486"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Teams-Apps
 
@@ -41,6 +41,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [ARGUSnylar](./argus-data-insights-schweiz-ag-argusnylar.md) | ARGUS DATA INSIGHTS Schweiz AG | **✓** |  |
 | [Arrangr](./arrangr-inc.md) | Arrangr, Inc. | **✓** |  |
 | [Asa](./two-app-studio-pte-ltd-asa.md) | Two App Studio Pte Ltd. | **✓** |  |
+| [Asana](./asana.md) | Asana | **✓** |  |
 | [ASC Recording Insights](./asc-technologies-ag-recording-insights.md) | ASC Technologies AG | **✓** |  |
 | [Assembly](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
 | [Aster](./aster.md) | Aster | **✓** |  |
@@ -117,6 +118,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Decisions](./decisions.md) | Decisions | **✓** |  |
 | [Degreed](./degreed.md) | Degreed | **✓** |  |
 | [DELTAoverC](./deltaoverc.md) | DELTAoverC | **✓** |  |
+| [Desk-Reservierungen](./tns-consulting-aps-desk-reservations.md) | TNS Consulting ApS | **✓** |  |
 | [Desk365](./kani-technologies-inc-desk365.md) | Kani Technologies Inc | **✓** |  |
 | [Digiplein](./educatieve-uitgeversgroep-bv-digiplein.md) | Educatieve Uitgeversgroep B.V. | **✓** |  |
 | [Verteilerlisten Pro](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
@@ -210,6 +212,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Keepass Pro](./witivio-keepass-pro.md) | Witivio | **✓** |  |
 | [Kippa](./klippas-technologies-inc-kippa.md) | KLIPPAS Technologies inc. | **✓** |  |
 | [Klaxoon](./klaxoon.md) | Klaxoon | **✓** |  |
+| [Klett](./ernst-klett-verlag-gmbh.md) | Ernst Klett Verlag GmbH | **✓** |  |
 | [Koan](./koan-inc.md) | Koan, Inc. | **✓** |  |
 | [KUDO](./kudo-inc.md) | KUDO, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
