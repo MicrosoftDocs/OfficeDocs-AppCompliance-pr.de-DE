@@ -18,7 +18,7 @@
           href: docs/certification.md
         - name: Leitfaden für Microsoft 365-Zertifizierungsübermittlung
           href: docs/certification-submission-guide.md
-    - name: Microsoft Excel Apps
+    - name: Microsoft Excel-Apps
       href: excel/excel-apps.md
       items:
         - name: Canon EMEA Service Cost Calculator für B2B-Partner
@@ -57,7 +57,7 @@
           href: excel/supermetrics.md
         - name: Eingereichte XBRL-Daten
           href: excel/xbrl-us-filed-data.md
-    - name: Microsoft OneNote-Apps
+    - name: Microsoft OneNote Apps
       href: onenote/onenote-apps.md
       items:
         - name: officeatwork | Inhaltsauswahl für Office
@@ -89,7 +89,7 @@
           href: outlook/iglobe-iplanner-office-365-planner-add-in-for-outlook.md
         - name: iPlanner Pro Office 365
           href: outlook/iglobe-iplanner-pro-office-365.md
-        - name: Jira Cloud for Outlook (Offiziell)
+        - name: Jira Cloud for Outlook (Official)
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox Deadline and Matter Management – Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
@@ -109,7 +109,7 @@
           href: outlook/officeatwork-officeatworkmail-signature-for-outlook.md
         - name: OnePlaceMail für Outlook
           href: outlook/oneplace-solutions-oneplacemail-for-outlook.md
-        - name: Sales Engagement für Outlook
+        - name: Vertriebsengagement für Outlook
           href: outlook/outreach-sales-engagement-for-outlook.md
         - name: Pexip One für Outlook
           href: outlook/pexipas-pexip-one-for-outlook.md
@@ -138,7 +138,7 @@
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
         - name: officeatwork | Bildauswahl für Office
           href: powerpoint/officeatwork-officeatworkimage-chooser-for-office.md
-        - name: officeatwork | Schieberegler für Office
+        - name: officeatwork | Folienauswahl für Office
           href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Vorlagenauswahl für Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
@@ -153,12 +153,12 @@
       items:
         - name: officeatwork | Vorlagenauswahl für Office
           href: project/officeatwork-officeatworktemplate-chooser-for-office.md
-    - name: Microsoft SharePoint Apps
+    - name: Microsoft SharePoint-Apps
       href: sharepoint/sharepoint-apps.md
       items:
         - name: Adobe Sign für SharePoint
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
-        - name: ArcGIS for SharePoint
+        - name: ArcGIS für SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: Angebotsverwaltungssystem
           href: sharepoint/beyond-technologies-bid-management-system.md
@@ -395,6 +395,8 @@
           href: teams/kani-technologies-inc-desk365.md
         - name: Digiplein
           href: teams/educatieve-uitgeversgroep-bv-digiplein.md
+        - name: Boards
+          href: teams/diligent-boards.md
         - name: Verteilerlisten Pro
           href: teams/witivio-distribution-lists-pro.md
         - name: do!book CB
@@ -896,7 +898,7 @@
         - name: SurveySparrow
           href: teams/surveysparrow-inc.md
         - name: Svava für Besprechungen
-          href: teams/svava-ab-for-meetings.md
+          href: teams/svava-for-meetings.md
         - name: SwiftAssess
           href: teams/gamalearn-swiftassess.md
         - name: Switchvox
@@ -949,6 +951,8 @@
           href: teams/ringcentral-inc-telus-business-connect.md
         - name: Template Chooser
           href: teams/officeatwork-template-chooser.md
+        - name: Tendfor
+          href: teams/tendfor.md
         - name: Text
           href: teams/approved-contact-text.md
         - name: The Captivate Hub
@@ -1020,7 +1024,7 @@
         - name: Wellness Coach
           href: teams/meditationlive-inc-wellness-coach.md
         - name: Wide Ideas
-          href: teams/wide-ideas.md
+          href: teams/idea2innovation-wide-ideas.md
         - name: Wired2Perform
           href: teams/wired2perform.md
         - name: Wisembly
@@ -1072,7 +1076,7 @@
           href: word/krevealllc-crosscheck.md
         - name: Excel-zu-Word-Dokumentautomatisierung
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Fabrikasoft Cloud Office-Add-In
+        - name: Dialogfeldasoft Cloud Office-Add-In
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: harmon.ie für Office
           href: word/harmonie-corporation-for-office.md
@@ -1121,6 +1125,8 @@
           href: saas/officeatwork-admin-center.md
         - name: Contact Center für Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
+        - name: CallCabinet Atmos Compliance Recording and Analytics
+          href: saas/callcabinet-corporation-atmos-compliance-recording-and-analytics.md
         - name: CC4Teams
           href: saas/cc4all-cc4teams.md
         - name: Classroom.cloud
@@ -1240,6 +1246,8 @@
           href: azure/15439749-b811-4e89-b777-4fe6ef247801.md
         - name: 170d42a4-4ec0-4f51-bef0-693c589fccfc
           href: azure/170d42a4-4ec0-4f51-bef0-693c589fccfc.md
+        - name: 17bd2add-67cb-4ffe-b69b-10b130558e89
+          href: azure/17bd2add-67cb-4ffe-b69b-10b130558e89.md
         - name: 192ba193-b68c-464c-a920-7eaa93b59a12
           href: azure/192ba193-b68c-464c-a920-7eaa93b59a12.md
         - name: 1ac9e5c6-4850-4864-96c5-b91e4512334e
