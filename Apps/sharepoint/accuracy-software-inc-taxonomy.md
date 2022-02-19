@@ -2,24 +2,24 @@
 title: Anwendungsinformationen für Taxonomie von Accuracy Software Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2022
+ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Taxonomie, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e6ca7066e3ceaf975f3928885ea6cb5533c5e518
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 1106b9e00a94d133c167b04bb31e4bc71c060c73
+ms.sourcegitcommit: 0465c6dd3a2c42fb1fd785548654d5b7f2601adc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146562"
+ms.lasthandoff: 02/19/2022
+ms.locfileid: "62909067"
 ---
 # <a name="taxonomy"></a>Taxonomie
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 26, 2021</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 18. Februar 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003006" target="_blank">Ansicht in AppSource</a>
 
@@ -40,7 +40,7 @@ Von Accuracy Software Inc. für Microsoft bereitgestellte Informationen:
 | Kernfunktionen der App | Taxonomie bietet Ihnen eine effektive Möglichkeit, Ihren Dateiklassifizierungsplan zu verwalten, indem sie die Zusammenarbeit der Chatexperten mit den verschiedenen Projektbeteiligten ermöglicht, den Dateiplan für die gesamte Organisation zu erstellen, zu überprüfen und zu veröffentlichen. Darüber hinaus können Sie mit Taxonomie den M365-Aufbewahrungsbezeichnungsexport generieren, den Sie in das Microsoft Compliance Center importieren können, und Ihren Dateiplan in einem Ausdruckssatzformat exportieren, das Sie in den SharePoint Ausdruck Store importieren können. |
 | Firmenstandort | Kanada |
 | Seite "App-Informationen" | |
-| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Client SharePoint Mandant |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -58,7 +58,7 @@ Diese Informationen wurden von Accuracy Software Inc. darüber bereitgestellt, w
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Dateiplanklassifizierungsdaten |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Kanada |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Nein |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nicht beibehalten |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Nein |
@@ -87,7 +87,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Nein |
 | Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Nein |
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Nein |
-| Mehrstufige Authentifizierung (MFA) aktiviert für: |  |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | NoneOfTheAbove |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Nein |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
@@ -153,8 +153,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
+| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
