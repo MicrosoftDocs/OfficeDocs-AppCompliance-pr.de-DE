@@ -1,24 +1,25 @@
 ---
-title: Application Information for EmailNotes for Outlook by Standss (South Pacific) PTE Limited
+title: Anwendungsinformationen für EmailNotes für Outlook von Ständern (Südpazifik) PTE Limited
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für EmailNotes für Outlook, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für EmailNotes für Outlook, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e3d34f2de39a01c69215aabc529d11e0f5b4bb06
-ms.sourcegitcommit: 0c7519d574830d48260e4d39dffab3c5f96bc57c
+ms.openlocfilehash: d1287dc50181b69c6f1d8f3f31b43c84db569641
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62523636"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63076189"
 ---
 # <a name="emailnotes-for-outlook"></a>EmailNotes for Outlook
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Zuletzt aktualisiert vom Entwickler am: 9. Februar 2022</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: January 17, 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/standsssouthpacificltd1581455821226.emailnotes" target="_blank">Ansicht in AppSource</a>
 
@@ -35,7 +36,7 @@ Informationen von Ständern (Südpazifik) PTE beschränkt auf Microsoft:
 | Name des Partnerunternehmens | Ständer (Südpazifik) PTE Limited |
 | Website des Unternehmens | [https://www.standss.com](https://www.standss.com) |
 | Nutzungsbedingungen der App | [https://www.standss.com/sendguard_m365/terms_conditions.htm](https://www.standss.com/sendguard_m365/terms_conditions.htm) |
-| Kernfunktionen der App | SendGuard für Outlook M365 ist ein Risiko- und Compliance-Tool zum Erkennen, Auffordern, Warnen und Schützen von Benutzern vor E-Mails vertraulicher, vertraulicher oder unangemessener Informationen an unbeabsichtigte Empfänger |
+| Kernfunktionen der App | SendGuard für Outlook M365 ist ein Tool für Risiken und Compliance, mit dem Benutzer vertrauliche, vertrauliche oder unangemessene Informationen an unbeabsichtigte Empfänger erkennen, auffordern, warnen und vor E-Mails schützen können. |
 | Firmenstandort | Fidschi |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -154,7 +155,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |

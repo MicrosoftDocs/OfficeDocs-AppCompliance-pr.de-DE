@@ -6,14 +6,14 @@ ms.date: 08/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für iPlanner Office 365 Planner-Add-In für Outlook, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 131f199cd6143b770c5b1fec9aa7a4afd348e784
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für iPlanner Office 365 Planner-Add-In für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: e5a6c2743408cc498443ea01a7bf548460485b25
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257941"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63075919"
 ---
 # <a name="iplanner-office-365-planner-add-in-for-outlook"></a>iPlanner Office 365 Planner-Add-In für Outlook
 
@@ -119,8 +119,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Ja |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Ja |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Ja |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -161,7 +161,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
@@ -176,43 +176,6 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >| Profil | Delegiert | In Anwendungsdatenbanken werden keine Daten gespeichert. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Zertifizierungsinformationen
-
-| **Control** | **Microsoft 365 Zertifizierungsergebnis** |
-|:------------|:---------------------------------------|
-| [**ANWENDUNGSSICHERHEIT**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfung der Sicherheitsrisikobewertung (DAST/SAST/Penetrationstest) | Nicht zutreffend |
-| [**BETRIEBSSICHERHEIT**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Risikobewertung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | Nicht zutreffend |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder entsprechende Technologien) | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Änderungssteuerung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/Bereitstellung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angriffserkennung und -verhinderung (optional) | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollieren von Daten) | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | Nicht zutreffend |
-| [**DATENSCHUTZ BEI DER DATENVERARBEITUNG &amp;**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/V** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhenden Daten | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenaufbewahrung und -entsorgung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | N/V |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSGVO | – |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
