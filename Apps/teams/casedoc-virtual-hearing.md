@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für casedoc Virtual Hearing von Casedoc
 ms.author: elmalova
 author: elenamalova
+ms.manager: tonybal
 ms.date: 03/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Casedoc Virtual Hearing, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7235bc36a986a6ff254525d130f5fbd77ef7e0ac
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: b9d0b7d3800ad464cc49ab2afc7af483dd0de24b
+ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63078059"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63424643"
 ---
 # <a name="casedoc-virtual-hearing"></a>Casedoc Virtual Hearing
 
@@ -40,7 +41,7 @@ Von Casedoc für Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://casedoc.com/wp-content/uploads/2021/07/Casedoc_Term...](https://casedoc.com/wp-content/uploads/2021/07/Casedoc_Terms_of_Use_2021.pdf) |
 | Kernfunktionen der App | Wandeln Sie eine Microsoft Teams Besprechung in eine Hörfunktion um. Kostenlos für Microsoft Teams Benutzer |
 | Firmenstandort | Island |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://casedoc.com/virtual-hearing-for-microsoft-teams](https://casedoc.com/virtual-hearing-for-microsoft-teams) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von Casedoc bereitgestellt, wie diese App Organisatio
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -167,20 +161,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.ReadWrite.All | Delegiert | So fügen Sie die App aus dem App-Katalog zu einer Besprechung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Calendars.ReadWrite | Delegiert | So können Sie Besprechungsupdates abonnieren | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Calendars.ReadWrite | Anwendung | So können Sie die Besprechung erstellen | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Directory.ReadWrite.All | Anwendung | So können Sie die Gruppe erstellen, die der Besprechung zugeordnet ist | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Files.ReadWrite.All | Delegiert | So ermöglichen Sie Benutzern das Hochladen einer Datei in eine Besprechungsgruppe | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Files.ReadWrite.All | Anwendung | Ermöglicht der Anwendung, Besprechungsdaten in die Besprechungsgruppe hochzuladen | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Group.ReadWrite.All | Anwendung | So aktivieren Sie die Anwendung zum Erstellen einer Gruppe, die einer Besprechung zugeordnet ist | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| MailboxSettings.Read | Anwendung | So aktivieren Sie die Anwendung zum Lesen der Zeitzone von Benutzern | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| OnlineMeetings.ReadWrite | Delegiert | So aktivieren Sie das Markieren des Besprechungstyps | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsAppInstallation.ReadForUser | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsTab.Create | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsTab.ReadWrite.All | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| User.Read.All | Anwendung | Ermöglicht der App, Benutzerprofile ohne angemeldeten Benutzer zu lesen. | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| AppCatalog.ReadWrite.All | Delegiert | So fügen Sie die App aus dem App-Katalog zu einer Besprechung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Calendars.ReadWrite | Delegiert | So können Sie Besprechungsupdates abonnieren | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Calendars.ReadWrite | Anwendung | So können Sie die Besprechung erstellen | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Directory.ReadWrite.All | Anwendung | So können Sie die Gruppe erstellen, die der Besprechung zugeordnet ist | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | Delegiert | So ermöglichen Sie Benutzern das Hochladen einer Datei in eine Besprechungsgruppe | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | Anwendung | Ermöglicht der Anwendung, Besprechungsdaten in die Besprechungsgruppe hochzuladen | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Group.ReadWrite.All | Anwendung | So aktivieren Sie die Anwendung zum Erstellen einer Gruppe, die einer Besprechung zugeordnet ist | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| MailboxSettings.Read | Anwendung | So aktivieren Sie die Anwendung zum Lesen der Zeitzone von Benutzern | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| OnlineMeetings.ReadWrite | Delegiert | So aktivieren Sie das Markieren des Besprechungstyps | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsAppInstallation.ReadForUser | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsTab.Create | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsTab.ReadWrite.All | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| User.Read.All | Anwendung | Ermöglicht der App, Benutzerprofile ohne angemeldeten Benutzer zu lesen. | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Streem, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a46f768877115fc10aec39a683ca630600623f73
-ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
+ms.openlocfilehash: 7a51d9881df2405737276cf50478a70456e0c5ba
+ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62513089"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63421583"
 ---
 # <a name="streem"></a>Streem
 
@@ -57,14 +57,7 @@ Diese Informationen wurden von Streem zur Verfügung gestellt, wie diese App Org
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +148,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
