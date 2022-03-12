@@ -2,21 +2,21 @@
 title: Anwendungsinformationen für Adobe Adobe Systems Inc.
 ms.author: elmalova
 author: elenamalova
-ms.manager: tonybal
+manager: tonybal
 ms.date: 03/09/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Adobe Acrobat, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3a2bf567352c8d039d02314f0a7909be84e28f7f
-ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
+ms.openlocfilehash: b94696ec95be7b58f03aaa048169e7c5b6cd89a0
+ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63425265"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63459318"
 ---
-# <a name="adobe-acrobat"></a>Adobe-Adobe
+# <a name="adobe-acrobat"></a>Adobe Acrobat
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ Von Adobe Systems Inc. für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Adobe-Adobe |
+| App-Name | Adobe Acrobat |
 | ID | WA200002564 |
 | unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Adobe Systems Inc. |

@@ -2,24 +2,25 @@
 title: Anwendungsinformationen für die Kalenderüberlagerung von Cloudwell
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/25/2022
+manager: tonybal
+ms.date: 03/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Kalenderüberlagerung, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: beabfa708d3a10d6bda1ca7df248dc5cd26784ba
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: a623b5e2887f0e08cdf5939e63dabd91ca47033a
+ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081269"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63454273"
 ---
 # <a name="calendar-overlay"></a>Kalenderüberlagerung
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 24. Februar 2022</p>
+<p>Last updated by the developer on: March 10, 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003806" target="_blank">Ansicht in AppSource</a>
 
@@ -39,7 +40,7 @@ Von Cloudwell für Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://cwlicensingprod.blob.core.windows.net/termsofuse/St...](https://cwlicensingprod.blob.core.windows.net/termsofuse/StandardContractMarch2019.pdf) |
 | Kernfunktionen der App | Mit dem Kalenderüberlagerungs-Webpart können Sie alle Ihre Microsoft SharePoint-, Planner- und Exchange-Ereignisse an einem Ort anzeigen! |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://cloudwell.io/products/calendar-overlay](https://cloudwell.io/products/calendar-overlay) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -61,8 +62,8 @@ Diese Informationen wurden von Cloudwell darüber bereitgestellt, wie diese App 
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | E-Mail-Adresse des Benutzers, Benutzermandanten-ID |
 | Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Nein |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
 | Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
