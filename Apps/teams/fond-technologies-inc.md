@@ -2,18 +2,19 @@
 title: Application Information for Fond by Fond Technologies, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Fond, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3c2e40a9b2c35cade0dcb3e3eb551a0de4b541a1
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a161c87d59eb0e920d0bfd4f5b7a88f9d2ef863a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147728"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538153"
 ---
 # <a name="fond"></a>Fond
 
@@ -34,13 +35,13 @@ Informationen, die von Fond Technologies, Inc. an Microsoft bereitgestellt werde
 |:----------------|:-------------|
 | App-Name | Fond |
 | ID | WA200003631 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Fond Technologies, Inc. |
 | Website des Unternehmens | [https://fond.co](https://fond.co) |
 | Nutzungsbedingungen der App | [https://www.fond.co/tos/](https://www.fond.co/tos/) |
 | Kernfunktionen der App | Bejubeln Sie die Erfolge Ihrer Kollegen mit Fond |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://fond.co/products/features/fond-teams-integration/](https://fond.co/products/features/fond-teams-integration/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 

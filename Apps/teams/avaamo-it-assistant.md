@@ -2,18 +2,19 @@
 title: Application Information for Avaamo IT Assistant by Avaamo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den IT-Assistenten von Avaamo, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0f30a4022ffa131170a28a9d9a63f011061f9344
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 32b5b6a92620e7b1dd25f58cde68cf68e5669028
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149003"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538283"
 ---
 # <a name="avaamo-it-assistant"></a>Avaamo IT-Assistant
 
@@ -34,13 +35,13 @@ Von Avaamo für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Avaamo IT-Assistant |
 | ID | WA200003362 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Avaamo |
 | Website des Unternehmens | [https://avaamo.ai](https://avaamo.ai) |
 | Nutzungsbedingungen der App | [https://avaamo.ai/tos/](https://avaamo.ai/tos/) |
 | Kernfunktionen der App | Intelligenter Unterhaltungsassistent, der Microsoft Office 365 Supportabfragen sofort auflöst. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.avaamo.ai/who-is-avaamo/](https://www.avaamo.ai/who-is-avaamo/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 

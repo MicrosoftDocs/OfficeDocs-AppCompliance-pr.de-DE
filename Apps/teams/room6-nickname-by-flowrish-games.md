@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Spitznamen nach Flowrish-Spielen nach Room6
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Spitznamen von Flowrish-Spielen, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Spitznamen von Flowrish-Spielen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6fa9aef7efab58fcb15a1ed05b71b7a9b9b8354a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f5f320c63c17f9743081300c7a01c4f6551346a2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257621"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553294"
 ---
 # <a name="nickname-by-flowrish-games"></a>Spitzname von Flowrish-Spielen
 
@@ -34,14 +35,15 @@ Von Room6 für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Spitzname von Flowrish-Spielen |
 | ID | WA200003202 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Raum6 |
 | Website des Unternehmens | [https://www.room6.net](https://www.room6.net) |
 | Nutzungsbedingungen der App | [https://www.room6.net/eula](https://www.room6.net/eula) |
 | Kernfunktionen der App | &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12467;&#12511;&#12517;&#12491;&#12540;&#12465;&#12540;&#12471;&#12519;&#12531;&#27963;&#24615;&#21270;&#12484;&#12540;&#12523;&#12391;&#12377;&#12290; &#21021;&#23550;&#38754;&#12398;&#20154;&#12392;&#12418;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12459;&#12540;&#12489;&#12395;&#26360;&#12363;&#12428;&#12383;&#32937;&#26360;&#12434;&#30456;&#25163;&#12398;&#21517;&#21069;&#12395;&#12388;&#12369;&#12289;&#27442;&#12375;&#12356;&#12459;&#12540;&#12489;&#12434;&#38598;&#12417;&#12390;&#12356;&#12365;&#12414;&#12377;&#12290; &#24859;&#31216;&#12391;&#21628;&#12403;&#12354;&#12358;&#12371;&#12392;&#12391;&#12289;&#20210;&#38291;&#21516;&#22763;&#12398;&#12467;&#12511;&#12517;&#12491;&#12465;&#12540;&#12471;&#12519;&#12531;&#12398;&#27963;&#24615;&#21270;&#12434;&#34892;&#12358;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12484;&#12540;&#12523;&#12392;&#12394;&#12387;&#12390;&#12362;&#12426;&#12414;&#12377;&#12398;&#12391;&#12289; Microsoft Teams&#12391;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#32887;&#22580;&#12398;&#12481;&#12540;&#12512;&#12420;&#25945;&#32946;&#29694;&#22580;&#12394;&#12393;&#27096;&#12293;&#12394;&#12471;&#12540;&#12531;&#12391;&#12372;&#21033;&#29992;&#12391;&#12365;&#12414;&#12377;&#12290; &#12504;&#12523;&#12503; https://nickname-server.azurewebsites.net/help.html |
 | Firmenstandort | Japan |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://nickname-server.azurewebsites.net/help.html](https://nickname-server.azurewebsites.net/help.html) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Room6 bereitgestellt, wie diese App Organisations
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Sofort gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

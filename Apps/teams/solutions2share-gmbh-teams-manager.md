@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Teams Manager von Solutions2Share GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Teams Manager, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 75bea5ebb9ea83d682f56cc4c4027f23409d932c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3b4327e14c30c6a9be465574e947d5c23a07b021
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253421"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540443"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -34,14 +35,15 @@ Von Solutions2Share GmbH für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Teams Manager |
 | ID | WA200000764 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Solutions2Share GmbH |
 | Website des Unternehmens | [https://teams-manager.com](https://teams-manager.com) |
 | Nutzungsbedingungen der App | [https://www.teams-manager.com/terms-of-use/](https://www.teams-manager.com/terms-of-use/) |
-| Kernfunktionen der App | Erstellen Sie neue Teams basierend auf komplexen, anpassbaren Vorlagen mit Genehmigungsworkflow. Teams Manager hilft Unternehmen dabei, die Kontrolle über ihre Microsoft Teams zu behalten und das unkontrollierte Wachstum mit Governance-Features zu stoppen, während Benutzer weiterhin neue Teams erstellen können. |
+| Kernfunktionen der App | Erstellen Sie neue Teams basierend auf komplexen, anpassbaren Vorlagen mit Genehmigungsworkflow. Teams Manager hilft Unternehmen dabei, die Kontrolle über ihre Microsoft Teams zu behalten und das unkontrollierte Wachstum mit Governance-Features zu beenden, und ermöglicht es Benutzern gleichzeitig, neue Teams zu erstellen. |
 | Firmenstandort | Deutschland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://teams-manager.com](https://teams-manager.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Solutions2Share GmbH bereitgestellt, wie diese Ap
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -162,15 +157,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | Beide | Wir speichern die TenantID und TeamId, um die Vorlagen zuzuordnen.  | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| Notes.ReadWrite.All | Anwendung | Keiner | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.Read | Delegiert | Keiner | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.Read.All | Beide | Wir speichern die ID des Benutzers, der im Abschnitt "Genehmigende Person/Administrator" eingegeben wird. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.ReadBasic.All | Delegiert | Keiner | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| Group.ReadWrite.All | Beide | Wir speichern die TenantID und TeamId, um die Vorlagen zuzuordnen.  | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| Notes.ReadWrite.All | Anwendung | Keine | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.Read | Delegiert | Keine | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.Read.All | Beide | Wir speichern die ID des Benutzers, der im Abschnitt "Genehmigende Person/Administrator" eingegeben wird. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.ReadBasic.All | Delegiert | Keine | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

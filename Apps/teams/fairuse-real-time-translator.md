@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Echtzeit-Translator von Fairuse
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Echtzeit-Translator, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c86fb7cb8edd0c9a118d3572b3716a7c703ee829
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9073f2034568bb4a38734af095418ef7cf4dd8e1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259491"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553233"
 ---
 # <a name="real-time-translator"></a>Echtzeitübersetzung
 
@@ -34,14 +35,15 @@ Von Fairuse für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Echtzeitübersetzung |
 | ID | WA200002171 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Fairuse |
 | Website des Unternehmens | [https://fairuse.jp](https://fairuse.jp) |
 | Nutzungsbedingungen der App | [https://fairuse.jp/real_time_translator/term_of_use_RTT_Tea...](https://fairuse.jp/real_time_translator/term_of_use_RTT_Teams_Browser.pdf) |
 | Kernfunktionen der App | Echtzeit-Translator ist ein Tool, mit dem Textübersetzungen in Echtzeit in die vom Benutzer angegebene Sprache ausgeführt werden können. Sie können mit diesem Produkt problemlos kommunizieren, auch wenn Sie die Sprache anderer Parteien nicht sprechen können. |
 | Firmenstandort | Japan |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual...](https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual_JP.pdf) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Fairuse bereitgestellt, wie diese App Organisatio
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Sofort gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,23 +101,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -154,7 +149,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -162,13 +157,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | Delegiert | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; E-Mail- &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
->| openid | Delegiert | &#35469;&#35388;&#12398;&#12383;&#12417;&#12395;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
->| Profil | Delegiert | &#12518;&#12540;&#12470;&#12540;&#12398;&#21517;&#21069;&#12420;&#12518;&#12540;&#12470;&#12540;&#12503;&#12522;&#12531;&#12471;&#12497;&#12523;&#21517;&#12434;&#12518;&#12540;&#12470;&#12540;&#29305;&#23450;&#12377;&#12427;&#12383;&#12417;&#12395;&#21462;&#24471;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
+>| email | Delegiert | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; E-Mail- &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
+>| openid | Delegiert | &#35469;&#35388;&#12398;&#12383;&#12417;&#12395;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
+>| profile | Delegiert | &#12518;&#12540;&#12470;&#12540;&#12398;&#21517;&#21069;&#12420;&#12518;&#12540;&#12470;&#12540;&#12503;&#12522;&#12531;&#12471;&#12497;&#12523;&#21517;&#12434;&#12518;&#12540;&#12470;&#12540;&#29305;&#23450;&#12377;&#12427;&#12383;&#12417;&#12395;&#21462;&#24471;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

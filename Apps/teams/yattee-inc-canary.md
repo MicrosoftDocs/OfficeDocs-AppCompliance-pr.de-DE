@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Canary von YATTEE Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Canary, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9702c280c874437826c4fd760f22b27359e1006
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a53e32f6826c21c73432e2c0bac40671ca14714d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261201"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540403"
 ---
 # <a name="canary"></a>Canary
 
@@ -34,13 +35,13 @@ Von YATTEE Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Canary |
 | ID | WA200003193 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | YATTEE Inc. |
 | Website des Unternehmens | [https://www.yattee.co.jp](https://www.yattee.co.jp) |
 | Nutzungsbedingungen der App | [https://www.yattee.co.jp/company/term-of-use/](https://www.yattee.co.jp/company/term-of-use/) |
 | Kernfunktionen der App | &#12459;&#12524;&#12531;&#12480;&#12540;&#22411;&#12473;&#12465;&#12472;&#12517;&#12540;&#12523;&#31649;&#29702;&#12450;&#12503;&#12522;&#12391;&#12377;&#12290;&#20104;&#23450;&#12398;&#26178;&#38291;&#12364;&#36817;&#12367;&#12394;&#12427;&#12392;&#12289;&#12473;&#12510;&#12540;&#12488;&#12501;&#12457;&#12531;&#12408;&#12398;&#38899;&#22768;&#36890;&#30693;&#12394;&#12393;&#12289;&#12354;&#12425;&#12422;&#12427;&#12450;&#12521;&#12540;&#12488;&#12364;&#35373;&#23450;&#12391;&#12365;&#12427;&#12398;&#12391;&#12289;&#12358;&#12387;&#12363;&#12426;&#24536;&#12428;&#12434;&#38450;&#12366;&#12414;&#12377;&#12290; |
 | Firmenstandort | Japan |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.yattee.co.jp/canary-signin/](https://www.yattee.co.jp/canary-signin/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure, Aws |
 
@@ -92,7 +93,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Nein |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | DNSManagement |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -165,11 +166,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calls.JoinGroupCallasGuest.All | Anwendung | &#12518;&#12540;&#12470;&#12540;&#12408;&#12398;&#36890;&#35441;&#12434;&#34892;&#12358;&#12383;&#12417; | [626ce0a3-4620-483d-953d-53b106b9ffad](https://docs.microsoft.com/microsoft-365-app-certification/azure/626ce0a3-4620-483d-953d-53b106b9ffad) |
+>| Calls.JoinGroupCallasGuest.All | Anwendung | &#12518;&#12540;&#12470;&#12540;&#12408;&#12398;&#36890;&#35441;&#12434;&#34892;&#12358;&#12383;&#12417; | [626ce0a3-4620-483d-953d-53b106b9ffad](../azure/626ce0a3-4620-483d-953d-53b106b9ffad.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

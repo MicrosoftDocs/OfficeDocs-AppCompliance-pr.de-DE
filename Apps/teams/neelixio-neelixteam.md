@@ -1,19 +1,20 @@
 ---
-title: Anwendungsinformationen für Nee csv.Team von Neelix.IO
+title: Anwendungsinformationen für Nee csv.Team nach Neelix.IO
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Neeali.Team, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Neeimeter.Team, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ca9cdd0cbf9cd6c3a431e5b3864fcaf1170c8346
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1af40c59e7c72991a3e127cb37996155f2c67499
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253591"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553174"
 ---
 # <a name="neelixteam"></a>Neelix.Team
 
@@ -34,14 +35,15 @@ Informationen, die von Neelix.IO an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Neelix.Team |
 | ID | WA200003047 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Neelix.IO |
 | Website des Unternehmens | [https://www.neelix.team](https://www.neelix.team) |
 | Nutzungsbedingungen der App | [https://www.neelix.io/terms-of-use-en](https://www.neelix.io/terms-of-use-en) |
 | Kernfunktionen der App | Die Nee explorer-Plattform verwaltet die Feedbackschleife als vollständigen Zyklus. Benutzer können fortlaufende Erfahrungen kanalieren, Feedback und Gesinnung in das Journal ihres Teams einbinden. |
 | Firmenstandort | Australien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.neelix.team](https://www.neelix.team) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Neelix.IO darüber bereitgestellt, wie diese App 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Sofort gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,8 +100,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -114,15 +109,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -154,7 +149,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -162,16 +157,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | Delegiert | Die App verwendet Kanal-IDs und -Namen, um Benutzern die Verwaltung ihrer Standardeinstellungen beim Senden von Feedback von MS Treams zu ermöglichen. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| Team.ReadBasic.All | Delegiert | Die App verwendet Team-IDs und -Namen, um Benutzern die Verwaltung ihrer Standardeinstellungen beim Senden von Feedback von MS Treams zu ermöglichen. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| email | Delegiert | E-Mail wird als Teil der Benutzerregistrierung in Needrossel verwendet. Nach der ersten Registrierung wird E-Mail für Benachrichtigungen verwendet.  | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| offline_access | Delegiert | Dies wird zum Abrufen des Aktualisierungstokens verwendet | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| Profil | Delegiert | Der Benutzername wird zum Erstellen eines Benutzerkontos bei der Registrierung bei Needrossel verwendet.  | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
->| User.Read | Delegiert | Die Bot-App verwendet user.read, um Informationen senden zu können, sodass die Nee contoso-Kernplattform den Benutzer identifizieren kann. | [bed170ee-dbd7-4efa-b48e-b0937ded1689](https://docs.microsoft.com/microsoft-365-app-certification/azure/bed170ee-dbd7-4efa-b48e-b0937ded1689) |
+>| Channel.ReadBasic.All | Delegiert | Die App verwendet Kanal-IDs und -Namen, um Benutzern die Verwaltung ihrer Standardeinstellungen beim Senden von Feedback von MS Treams zu ermöglichen. | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| Team.ReadBasic.All | Delegiert | Die App verwendet Team-IDs und -Namen, um Benutzern die Verwaltung ihrer Standardeinstellungen beim Senden von Feedback von MS Treams zu ermöglichen. | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| email | Delegiert | E-Mail wird als Teil der Benutzerregistrierung in Needrossel verwendet. Nach der ersten Registrierung wird E-Mail für Benachrichtigungen verwendet.  | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| offline_access | Delegiert | Dies wird zum Abrufen des Aktualisierungstokens verwendet | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| profile | Delegiert | Der Benutzername wird zum Erstellen eines Benutzerkontos bei der Registrierung bei Needrossel verwendet.  | [6996cad6-a969-487a-9182-f4dc4c6c8803](../azure/6996cad6-a969-487a-9182-f4dc4c6c8803.md) |
+>| User.Read | Delegiert | Die Bot-App verwendet user.read, um Informationen senden zu können, sodass die Nee contoso-Kernplattform den Benutzer identifizieren kann. | [bed170ee-dbd7-4efa-b48e-b0937ded1689](../azure/bed170ee-dbd7-4efa-b48e-b0937ded1689.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

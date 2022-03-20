@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für OnePlaceMail für Outlook von OnePlace-Lösungen
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für OnePlaceMail für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 97716d5548180d2e1a4f59ecd9dfeaeb36ee99bf
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 16141496ee26fd338485f09b24004e866854be82
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250296"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553044"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail für Outlook
 
@@ -39,8 +40,9 @@ Informationen, die von OnePlace-Lösungen für Microsoft bereitgestellt werden:
 | Nutzungsbedingungen der App | [https://www.oneplacesolutions.com/eula.html](https://www.oneplacesolutions.com/eula.html) |
 | Kernfunktionen der App | OnePlaceMail ermöglicht das Speichern von E-Mails und Anlagen in SharePoint, OneDrive und Teams. Außerdem können Inhalte aus SharePoint, OneDrive und Teams beim Verfassen von E-Mails verwendet werden. |
 | Firmenstandort | Australien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.oneplacesolutions.com/oneplacemail-sharepoint-a...](https://www.oneplacesolutions.com/oneplacemail-sharepoint-app-for-outlook.html) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Diese Informationen wurden von OnePlace Solutions bereitgestellt, wie diese App 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb von 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -104,9 +99,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -115,13 +110,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -153,7 +148,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -161,18 +156,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | Delegiert | Erforderlich, um zu bestimmen, Teams der aktuelle Benutzer Mitglied ist. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| Mail.ReadWrite.Shared | Delegiert | Erforderlich, um auf E-Mail-Eigenschaften zuzugreifen, um SharePoint Spalten festzulegen und die Kategorie "Übertragen zu SharePoint" des E-Mail-Elements hinzuzufügen. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| MailboxSettings.ReadWrite | Delegiert | Es werden keine Daten erfasst oder verwendet, die zum Hinzufügen einer Kategorie zur Hauptkategorienliste in einem Benutzerpostfach verwendet werden. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| Sites.ReadWrite.All | Delegiert | Erforderlich, um Eigenschaften für Elemente festzulegen, die die App in SharePoint hochgeladen hat. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.Read | Delegiert | Erforderlich für die Authentifizierung beim Microsoft Graph. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadBasic.All | Delegiert | Erforderlich, um das Benutzerprofilbild im Personenauswahlfeld anzuzeigen. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadBasic.All | Delegiert | Erforderlich, um das Benutzerprofilbild im Personenauswahlfeld anzuzeigen. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadWrite.All | Delegiert | Erforderlich, um festzustellen, ob der Teams Dienst innerhalb der Benutzer Office 365 Mandanten aktiviert ist. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Group.ReadWrite.All | Delegiert | Erforderlich, um zu bestimmen, Teams der aktuelle Benutzer Mitglied ist. | [44a72516-136f-4a55-ae26-ef09977230be](../azure/44a72516-136f-4a55-ae26-ef09977230be.md) |
+>| Mail.ReadWrite.Shared | Delegiert | Erforderlich, um auf E-Mail-Eigenschaften zuzugreifen, um SharePoint Spalten festzulegen und die Kategorie "Übertragen zu SharePoint" des E-Mail-Elements hinzuzufügen. | [44a72516-136f-4a55-ae26-ef09977230be](../azure/44a72516-136f-4a55-ae26-ef09977230be.md) |
+>| MailboxSettings.ReadWrite | Delegiert | Es werden keine Daten erfasst oder verwendet, die zum Hinzufügen einer Kategorie zur Hauptkategorienliste in einem Benutzerpostfach verwendet werden. | [44a72516-136f-4a55-ae26-ef09977230be](../azure/44a72516-136f-4a55-ae26-ef09977230be.md) |
+>| Sites.ReadWrite.All | Delegiert | Erforderlich, um Eigenschaften für Elemente festzulegen, die die App in SharePoint hochgeladen hat. | [44a72516-136f-4a55-ae26-ef09977230be](../azure/44a72516-136f-4a55-ae26-ef09977230be.md) |
+>| User.Read | Delegiert | Erforderlich für die Authentifizierung beim Microsoft Graph. | [44a72516-136f-4a55-ae26-ef09977230be](../azure/44a72516-136f-4a55-ae26-ef09977230be.md) |
+>| User.ReadBasic.All | Delegiert | Erforderlich, um das Benutzerprofilbild im Personenauswahlfeld anzuzeigen. | [44a72516-136f-4a55-ae26-ef09977230be](../azure/44a72516-136f-4a55-ae26-ef09977230be.md) |
+>| User.ReadBasic.All | Delegiert | Erforderlich, um das Benutzerprofilbild im Personenauswahlfeld anzuzeigen. | [44a72516-136f-4a55-ae26-ef09977230be](../azure/44a72516-136f-4a55-ae26-ef09977230be.md) |
+>| User.ReadWrite.All | Delegiert | Erforderlich, um festzustellen, ob der Teams Dienst innerhalb der Benutzer Office 365 Mandanten aktiviert ist. | [44a72516-136f-4a55-ae26-ef09977230be](../azure/44a72516-136f-4a55-ae26-ef09977230be.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

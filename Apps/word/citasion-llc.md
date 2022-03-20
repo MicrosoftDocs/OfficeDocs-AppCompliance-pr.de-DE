@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Citasion von Citasion LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Citasion, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 17bd4600bec0112b1c528d0530ca540d5216ba7e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a8214179d3ae5929f2ee4aa4456b2172a8486289
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147584"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63537933"
 ---
 # <a name="citasion"></a>Citasion
 
@@ -33,13 +34,13 @@ Von Citasion LLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Citasion |
 | ID | WA200003530 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | Citasion LLC |
 | Website des Unternehmens | [https://citasion.com](https://citasion.com) |
 | Nutzungsbedingungen der App | [https://citasion.com/legal/terms](https://citasion.com/legal/terms) |
 | Kernfunktionen der App | Verwalten Sie Ihre Verweise ganz einfach, wenn Sie schreiben und zitaten. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://citasion.com/docs/write-with-citasion](https://citasion.com/docs/write-with-citasion) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | GCP |
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Plumm von Plumm Health LTD
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Plumm, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6ba4a1853102f77129d740418b81f9de67146da0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f46060403be7542e485ca78cbbd3022bef51506e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255594"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538033"
 ---
 # <a name="plumm"></a>Plumm
 
@@ -34,14 +35,15 @@ Informationen, die von Plumm Health LTD an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Plumm |
 | ID | WA200003326 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Plumm Health LTD |
 | Website des Unternehmens | [https://www.plummhealth.com](https://www.plummhealth.com) |
 | Nutzungsbedingungen der App | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
-| Kernfunktionen der App | Plumm bietet Mitarbeitern die Unterstützung, die sie für ihr mentales Wohlbefinden benötigen. Jedes Mitglied von Plumm hat Zugriff auf qualitativ hochwertige Unterstützung für die mentale Gesundheit mit einem globalen Netzwerk von mehr als 150 akkreditierten Mitarbeitern, einer digitalen Bibliothek mit von Einem geleiteten Wohlbefindenkursen, Chat- und geführten Mediationen &#8211; alles an einem Ort. Benutzer können sich mit 1:1-Onlinevideos verbinden oder privat mit ihnen über ihre Anforderungen chatten. Durch Die Spiegelung geleitete Onlinekurse und -käufe bieten Unterstützung für die Selbsthilfe. |
+| Kernfunktionen der App | Plumm bietet Mitarbeitern die Unterstützung, die sie für ihr mentales Wohlbefinden benötigen. Jedes Mitglied von Plumm hat Zugriff auf qualitativ hochwertige Unterstützung für die mentale Gesundheit mit einem globalen Netzwerk von mehr als 150 akkreditierten Mitarbeitern, einer digitalen Bibliothek mit von Menschen geleiteten Wohlbefinden-Kursen, Chat- und geführten Mediationen &#8211; alles an einem Ort. Benutzer können sich mit 1:1-Onlinevideos verbinden oder privat mit ihnen über ihre Anforderungen chatten. Durch Die Spiegelung geleitete Onlinekurse und -käufe bieten Unterstützung für die Selbsthilfe. |
 | Firmenstandort | Vereinigtes Königreich Großbritannien und Nordirland (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Plumm Health LTD darüber bereitgestellt, wie die
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +102,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Ja |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -116,13 +111,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Ja |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,17 +157,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | Anwendung | Wir verwenden die userID in dieser Berechtigung. Dies wird verwendet, um erforderliche Benachrichtigungen basierend auf der Nutzung unseres Diensts an den Benutzer zu senden. Dies ist wichtig, damit der Benutzer entsprechende Benachrichtigungen für sein Konto in unserer App erhält. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Wir erhalten die Installations-ID mithilfe dieser Berechtigung. Dies ist für uns wichtig, um die entsprechende und richtige Benachrichtigung für jeden einzelnen Benutzer senden zu können. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read | Delegiert | Wir erfassen Namen, Bilder und E-Mails für unsere Benutzer über diese Berechtigung. Dies ist erforderlich, damit wir einzelne Benutzer identifizieren können, und diese Datenpunkte werden überall dort angezeigt, wo dies erforderlich ist, z. B. auf einer einzelnen Profilseite und in der E-Mail-/Benachrichtigungskommunikation. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read.All | Anwendung | Mit dieser Berechtigung kann unsere App Benutzerprofile lesen, ohne dass ein Benutzer angemeldet ist. Hier erfassen wir derzeit nur Namen, Profilbilder und E-Mails. Dies ist erforderlich, damit wir einzelne Benutzer identifizieren können, und diese Datenpunkte werden überall dort angezeigt, wo dies erforderlich ist, z. B. auf einer einzelnen Profilseite und in der E-Mail-/Benachrichtigungskommunikation. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| email | Delegiert | Die E-Mail-ID des Benutzers wird erfasst. Wir benötigen diese Daten, um dem Benutzer Zugriff auf unsere Dienste zu gewähren und uns bei unserer App anzumelden und Benachrichtigungen zu ihren Konten und unseren Diensten über diese E-Mail-ID zu erhalten.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| openid | Delegiert | Für diese Berechtigung sammeln wir keine Daten.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| Profil | Delegiert | Wir erfassen Namen, Bilder und E-Mails für unsere Benutzer über diese Berechtigung. Dies ist erforderlich, damit wir einzelne Benutzer identifizieren können, und diese Datenpunkte werden überall dort angezeigt, wo dies erforderlich ist, z. B. auf einer einzelnen Profilseite und in der E-Mail-/Benachrichtigungskommunikation. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| TeamsActivity.Send | Anwendung | Wir verwenden die userID in dieser Berechtigung. Dies wird verwendet, um erforderliche Benachrichtigungen basierend auf der Nutzung unseres Diensts an den Benutzer zu senden. Dies ist wichtig, damit der Benutzer entsprechende Benachrichtigungen für sein Konto in unserer App erhält. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Wir erhalten die Installations-ID mithilfe dieser Berechtigung. Dies ist für uns wichtig, um die entsprechende und richtige Benachrichtigung für jeden einzelnen Benutzer senden zu können. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read | Delegiert | Wir erfassen Namen, Bilder und E-Mails für unsere Benutzer über diese Berechtigung. Dies ist erforderlich, damit wir einzelne Benutzer identifizieren können, und diese Datenpunkte werden überall dort angezeigt, wo dies erforderlich ist, z. B. auf einer einzelnen Profilseite und in der E-Mail-/Benachrichtigungskommunikation. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read.All | Anwendung | Mit dieser Berechtigung kann unsere App Benutzerprofile lesen, ohne dass ein Benutzer angemeldet ist. Hier erfassen wir derzeit nur Namen, Profilbilder und E-Mails. Dies ist erforderlich, damit wir einzelne Benutzer identifizieren können, und diese Datenpunkte werden überall dort angezeigt, wo dies erforderlich ist, z. B. auf einer einzelnen Profilseite und in der E-Mail-/Benachrichtigungskommunikation. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| email | Delegiert | Die E-Mail-ID des Benutzers wird erfasst. Wir benötigen diese Daten, um dem Benutzer Zugriff auf unsere Dienste zu gewähren und uns bei unserer App anzumelden und Benachrichtigungen zu ihren Konten und unseren Diensten über diese E-Mail-ID zu erhalten.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| openid | Delegiert | Für diese Berechtigung sammeln wir keine Daten.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| profile | Delegiert | Wir erfassen Namen, Bilder und E-Mails für unsere Benutzer über diese Berechtigung. Dies ist erforderlich, damit wir einzelne Benutzer identifizieren können, und diese Datenpunkte werden überall dort angezeigt, wo dies erforderlich ist, z. B. auf einer einzelnen Profilseite und in der E-Mail-/Benachrichtigungskommunikation. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

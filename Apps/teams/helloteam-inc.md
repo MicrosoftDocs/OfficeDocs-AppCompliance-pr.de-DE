@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für HelloTeam von HelloTeam Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für HelloTeam, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: da408ae7b34101c612e7fceae7dfd3979f413e14
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 9d4bd95d64371c44110310d5328691a483489afd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144878"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538143"
 ---
 # <a name="helloteam"></a>HelloTeam
 
@@ -34,7 +35,7 @@ Von HelloTeam Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | HelloTeam |
 | ID | WA200003448 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | HelloTeam Inc. |
 | Website des Unternehmens | [https://www.helloteam.com](https://www.helloteam.com) |
 | Nutzungsbedingungen der App | [https://www.helloteam.com/index.php/terms-and-conditions/](https://www.helloteam.com/index.php/terms-and-conditions/) |
@@ -57,14 +58,7 @@ Diese Informationen wurden von HelloTeam Inc. zur Verfügung gestellt, wie diese
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

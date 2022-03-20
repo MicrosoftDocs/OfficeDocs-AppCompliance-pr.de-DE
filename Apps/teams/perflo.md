@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Perflo von Perflo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Perflo, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 851efa60442588759acde6ac3e4aad300283583e
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 91e4adc3b416836af149a59fa1e205d7c2e7ffd2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081453"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553304"
 ---
 # <a name="perflo"></a>Perflo
 
@@ -40,7 +41,7 @@ Von Perflo für Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://www.perflo.co/terms](https://www.perflo.co/terms) |
 | Kernfunktionen der App | Senden von Mikroumfragen an Teams und Erstellen von Berichten für Manager. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.perflo.co](https://www.perflo.co) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Hybrid |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws, Azure |
 
@@ -61,7 +62,7 @@ Diese Informationen wurden von Perflo bereitgestellt, wie diese App Organisation
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Kanäle, Teams, Benutzerprofilname, Profilbilder, MS Teams-ID |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Irland |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |

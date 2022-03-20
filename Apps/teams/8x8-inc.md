@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für 8 x 8 x 8 x 8, Inc
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für 8 x 8, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für 8 x 8, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c734e665ab9fd05b9d94ddd3d8518cac55db62fb
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: fa0367d69b08f92094794f924182c3be1ad58a16
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264262"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536563"
 ---
 # <a name="8x8"></a>8x8
 
@@ -34,14 +35,15 @@ Informationen, die von 8x8, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | 8x8 |
 | ID | WA200002665 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | 8x8, Inc |
 | Website des Unternehmens | [https://www.8x8.com](https://www.8x8.com) |
 | Nutzungsbedingungen der App | [https://www.8x8.com/terms-and-conditions](https://www.8x8.com/terms-and-conditions) |
-| Kernfunktionen der App | 8x8 Voice ist ein cloudbasierter Direct Routing-Dienst zum Tätigen/Empfangen von PSTN-Anrufen. Eine systemeigene Erfahrung mit Telefonie- und Contact Center-Funktionen auf Unternehmensniveau. Unbegrenzte Anrufpläne in 47 Ländern + PSTN-Ersatzdienst in 43 Ländern, Analysen, SMS, MMS und Fax. Rufen Sie detaillierte Anrufpläne lokal oder international ab und erweitern Sie PSTN-Anrufe auf Länder, in denen&#8217;Microsoft noch keine Pläne anbietet, um die Microsoft 365 optimal zu nutzen. |
+| Kernfunktionen der App | 8x8 Voice ist ein cloudbasierter Direct Routing-Dienst zum Tätigen/Empfangen von PSTN-Anrufen. Eine systemeigene Erfahrung mit Telefonie- und Contact Center-Funktionen auf Unternehmensniveau. Unbegrenzte Anrufpläne in 47 Ländern + PSTN-Ersatzdienst in 43 Ländern, Analysen, SMS, MMS und Fax. Rufen Sie detaillierte Anrufpläne lokal oder international ab und erweitern Sie PSTN-Anrufe auf Länder, in denen Microsoft noch keine Pläne anbieten&#8217;, um die Microsoft 365 optimal zu nutzen. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.8x8.com/products/integrations/8x8-voice-for-mic...](https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS, OracleCloud |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von 8x8, Inc. bereitgestellt, wie diese App Organisat
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb eines Monats gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +102,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Ja |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Ja |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Ja |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? |   |

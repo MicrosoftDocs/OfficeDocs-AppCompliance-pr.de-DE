@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Stapel von Crowd Cast, Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Stapel, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7bd998858872f838e12e10b4b1e6aef2a0cc61b2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: fa799418e4943907303d516fe75de9ccf0ab3a1e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260641"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538183"
 ---
 # <a name="staple"></a>Heftklammer
 
@@ -34,14 +35,15 @@ Informationen, die von Crowd Cast, Ltd. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Heftklammer |
 | ID | WA200003281 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Crowd Cast, Ltd. |
 | Website des Unternehmens | [https://crowdcast.jp/ja/](https://crowdcast.jp/ja/) |
 | Nutzungsbedingungen der App | [https://go.microsoft.com](https://go.microsoft.com) |
 | Kernfunktionen der App | Ändern Sie Ihren Arbeitsstil mit der Echtzeit-Spesenverwaltung. Das Heften ermöglicht eine einfache Kostenübermittlung, Genehmigung und Nachverfolgung für Ihr Unternehmen. Verknüpfen Sie mit Microsoft-Dienste, um problemlos mit unserem Produkt zu interagieren. |
 | Firmenstandort | Japan |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://intercom.help/staple/ja](https://intercom.help/staple/ja) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS, Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Crowd Cast, Ltd. bereitgestellt. Darüber, wie di
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Sofort gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,23 +101,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,15 +157,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Organization.Read.All | Anwendung | Wird zum Sammeln der Mandanten-ID verwendet. Wird verwendet, um sicherzustellen, dass Benutzer, die sich bei unserer Plattform authentifizieren, Mitglied eines bestimmten Mandanten sind. | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
->| TeamsAppInstallation.ReadWriteSelfForUser.All | Anwendung | Teams App installiert sich selbst im Team des Benutzers | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
->| AppCatalog.Read.All | Delegiert | Liest den App-Katalog eines Benutzers, um festzustellen, ob die Teams-App installiert ist. | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
->| User.Read | Delegiert | Wird verwendet, um die ID eines Benutzers zu lesen, um sicherzustellen, dass Nachrichten an den richtigen Benutzer gesendet werden. | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
->| openid | Delegiert | Anmelden eines Benutzers, um seine grundlegenden Profilinformationen zu lesen | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
+>| Organization.Read.All | Anwendung | Wird zum Sammeln der Mandanten-ID verwendet. Wird verwendet, um sicherzustellen, dass Benutzer, die sich bei unserer Plattform authentifizieren, Mitglied eines bestimmten Mandanten sind. | [ac9ca94a-e666-4f61-959a-12c063e13e69](../azure/ac9ca94a-e666-4f61-959a-12c063e13e69.md) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | Anwendung | Teams App installiert sich selbst im Team des Benutzers | [ac9ca94a-e666-4f61-959a-12c063e13e69](../azure/ac9ca94a-e666-4f61-959a-12c063e13e69.md) |
+>| AppCatalog.Read.All | Delegiert | Liest den App-Katalog eines Benutzers, um festzustellen, ob die Teams-App installiert ist. | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
+>| User.Read | Delegiert | Wird verwendet, um die ID eines Benutzers zu lesen, um sicherzustellen, dass Nachrichten an den richtigen Benutzer gesendet werden. | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
+>| openid | Delegiert | Anmelden eines Benutzers, um seine grundlegenden Profilinformationen zu lesen | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

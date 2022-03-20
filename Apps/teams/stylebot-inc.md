@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Stylebot von Stylebot Inc
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Stylebot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5eff7abbbc192857a30177c2579e6c145b798609
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 056f90e5714801cf63b0c405613c425ee7c4aa2a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146212"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540453"
 ---
 # <a name="stylebot"></a>Stylebot
 
@@ -34,13 +35,13 @@ Informationen, die Von Stylebot Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Stylebot |
 | ID | WA200003177 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Stylebot, Inc. |
 | Website des Unternehmens | [https://www.stylebot.app](https://www.stylebot.app) |
 | Nutzungsbedingungen der App | [https://www.stylebot.app/apptermsofservice](https://www.stylebot.app/apptermsofservice) |
 | Kernfunktionen der App | Stylebot verbessert Ihre Schreibweise, indem Sie eine moderne Sprache und ein manuelles Style-Handbuch zur Hand legen. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.stylebot.app/msteamshelp](https://www.stylebot.app/msteamshelp) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure, GCP |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von Stylebot Inc. zur Verfügung gestellt, wie diese 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
