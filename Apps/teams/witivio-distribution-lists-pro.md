@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Verteilerlisten Pro von Witivio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Verteilerlisten Pro, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Verteilerlisten Pro, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7b9e7dfb19e16df4388dde7664cb71724df963de
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 478b0fd266bebf07e809b2e2957bec5d89a15509
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259231"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543323"
 ---
 # <a name="distribution-lists-pro"></a>Verteilerlisten Pro
 
@@ -34,7 +35,7 @@ Von Witivio für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Verteilerlisten Pro |
 | ID | WA200002977 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Witivio |
 | Website des Unternehmens | [https://www.witivio.com](https://www.witivio.com) |
 | Nutzungsbedingungen der App | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
@@ -108,9 +109,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -166,17 +167,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | Delegiert | Verteilerliste auflisten | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| Presence.Read.All | Delegiert | CHecking der Anwesenheit von Personen in einer Liste | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| User.Read | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| email | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| offline_access | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| openid | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| Profil | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| Group.Read.All | Delegiert | Verteilerliste auflisten | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| Presence.Read.All | Delegiert | CHecking der Anwesenheit von Personen in einer Liste | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| User.Read | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| email | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| offline_access | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| openid | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| profile | Delegiert | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

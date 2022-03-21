@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für WorkplaceBuddy von WorkplaceBuddy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für WorkplaceBuddy, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ba96ce620f58ccc26067da6fee9b2e3b68c5667d
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ef5a4cc2333c4e9ec434733306606661caa10c4a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264081"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543333"
 ---
 # <a name="workplacebuddy"></a>WorkplaceBuddy
 
@@ -34,14 +35,15 @@ Von WorkplaceBuddy für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | WorkplaceBuddy |
 | ID | WA200001238 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | WorkplaceBuddy |
 | Website des Unternehmens | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
 | Nutzungsbedingungen der App | [https://www.workplacebuddy.com/terms-of-use.pdf](https://www.workplacebuddy.com/terms-of-use.pdf) |
 | Kernfunktionen der App | WorkplaceBuddy hilft Ihnen, produktiver zu werden |
 | Firmenstandort | Niederlande (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von WorkplaceBuddy darüber bereitgestellt, wie diese
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb von 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -114,15 +109,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,14 +157,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | Delegiert | Wir synchronisieren diese Daten, um WorkplaceBuddy-Registerkarten bei Teams funktionieren zu lassen und bestimmte Benutzer mit dem Chatbot anzusprechen. | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| Group.Read.All | Delegiert | Wir synchronisieren diese Daten, um WorkplaceBuddy-Registerkarten bei Teams funktionieren zu lassen und bestimmte Benutzer mit dem Chatbot anzusprechen. | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| User.Read | Delegiert | Wir synchronisieren diese Daten, um Benutzern die Anmeldung zu ermöglichen | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| User.ReadBasic.All | Delegiert | Wir synchronisieren diese Daten, um Benutzern die Anmeldung zu ermöglichen | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
+>| Directory.Read.All | Delegiert | Wir synchronisieren diese Daten, um WorkplaceBuddy-Registerkarten bei Teams funktionieren zu lassen und bestimmte Benutzer mit dem Chatbot anzusprechen. | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| Group.Read.All | Delegiert | Wir synchronisieren diese Daten, um WorkplaceBuddy-Registerkarten bei Teams funktionieren zu lassen und bestimmte Benutzer mit dem Chatbot anzusprechen. | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| User.Read | Delegiert | Wir synchronisieren diese Daten, um Benutzern die Anmeldung zu ermöglichen | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| User.ReadBasic.All | Delegiert | Wir synchronisieren diese Daten, um Benutzern die Anmeldung zu ermöglichen | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für PlayQuiz – Aprende &amp; Juega von TeamsProxy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für PlayQuiz – Aprende &amp; Juega, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für PlayQuiz – Aprende &amp; Juega, seine Datenverarbeitungsrichtlinien, die Kataloginformationen der Microsoft Cloud App Security-App und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fea130e082035ef73446a9b6d6c895de06d6925a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d0cb64bd87dc5dca816ece1520a0991a14ebf630
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252161"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542743"
 ---
 # <a name="playquiz---aprende-amp-juega"></a>PlayQuiz – Aprende &amp; Juega
 
@@ -21,7 +22,7 @@ ms.locfileid: "62252161"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 11, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d36eac22-ff28-4392-9ba7-6e32151b9894" target="_blank">Anzeigen im Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/d36eac22-ff28-4392-9ba7-6e32151b9894" target="_blank">Anzeigen im Teams-Store</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002820" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,14 +35,15 @@ Von Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | PlayQuiz – Aprende &amp; Juega |
 | ID | WA200002820 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| Unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | TeamsChamp |
 | Website des Unternehmens | [https://www.encamina.com](https://www.encamina.com) |
 | Nutzungsbedingungen der App | [https://www.teamsquiz.com/en/terms/](https://www.teamsquiz.com/en/terms/) |
-| Kernfunktionen der App | PlayQuiz ist eine Gifification-Anwendung, bei der der Benutzer 3 Fragen täglich aus Microsoft 365 Ökosystem beantworten kann, um &#8220;&#8221; digitale Wissenspunkte zu verdienen. Der Benutzer kann sich die Unternehmens-Bestenliste ansehen, um zu ermitteln, wer die besten M365-Experten des Unternehmens ist. Durch die Einbindung der Spielerverstärkung in das Unternehmen erhalten Die Benutzer Einblicke in bewährte Methoden für die Verwendung Microsoft 365 Tools. Außerdem kann der Administrator dem System seine benutzerdefinierten Fragen zum Erstellen von Kampagnen hinzufügen, die sich auf ein bestimmtes Thema konzentrieren. |
+| Kernfunktionen der App | PlayQuiz ist eine Gifification-Anwendung, bei der der Benutzer 3 Fragen täglich vom Microsoft 365-Ökosystem beantworten kann, um &#8220;&#8221; digitalen Wissenspunkten zu verdienen. Der Benutzer kann sich die Unternehmens-Bestenliste ansehen, um zu ermitteln, wer die besten M365-Experten des Unternehmens ist. Durch die Einbindung der Spielerei in das Unternehmen erhalten Benutzer Einblicke in bewährte Methoden für die Verwendung von Microsoft 365-Tools. Außerdem kann der Administrator dem System seine benutzerdefinierten Fragen zum Erstellen von Kampagnen hinzufügen, die sich auf ein bestimmtes Thema konzentrieren. |
 | Firmenstandort | Spanien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.teamsquiz.com](https://www.teamsquiz.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von TeamsSerie darüber bereitgestellt, wie diese App
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Diese Informationen wurden von TeamsSerie darüber bereitgestellt, wie diese App
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -105,8 +100,8 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -116,13 +111,13 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Letztes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -153,7 +148,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -162,14 +157,14 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegiert | Name, E-Mail und Profilbild des Benutzers | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
->| User.ReadBasic.All | Delegiert | Name, E-Mail und Profilbild | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
->| openid | Delegiert | Anzeigen des grundlegenden Profils des Benutzers | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
->| Profil | Delegiert | Lesen des grundlegenden Benutzerprofils | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| User.Read | Delegiert | Name, E-Mail und Profilbild des Benutzers | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| User.ReadBasic.All | Delegiert | Name, E-Mail und Profilbild | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| openid | Delegiert | Anzeigen des grundlegenden Profils des Benutzers | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| profile | Delegiert | Lesen des grundlegenden Benutzerprofils | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

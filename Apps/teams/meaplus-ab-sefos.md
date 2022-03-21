@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für SEFOS von Meaplus AB
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SEFOS, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cc937876c3c714ba07587691d4a0e88f458d994c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f54e6aefaf7a820e0c6bdad991fe9643d6bfba8b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256501"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541243"
 ---
 # <a name="sefos"></a>SEFOS
 
@@ -34,14 +35,15 @@ Von Meaplus AB für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SEFOS |
 | ID | WA200003219 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Meaplus AB |
 | Website des Unternehmens | [https://www.meaplus.com](https://www.meaplus.com) |
 | Nutzungsbedingungen der App | [https://www.meaplus.com/wp-content/uploads/2020/02/Meaplus-...](https://www.meaplus.com/wp-content/uploads/2020/02/Meaplus-end_user_agreement.pdf) |
 | Kernfunktionen der App | Senden Sie verschlüsselte Informationen an jeden! Sie entscheiden, wie sich der Empfänger identifizieren soll. |
 | Firmenstandort | Schweden |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://sefos.se/en/sefos-i-teams/](https://sefos.se/en/sefos-i-teams/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Meaplus AB darüber bereitgestellt, wie diese App
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nach 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,9 +100,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -122,7 +117,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nein |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nein |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,18 +157,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Besprechung im Auftrag des Benutzers erstellen | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| Mail.Send | Delegiert | Senden von Besprechungseinladungen | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| MailboxSettings.Read | Delegiert | Erfassen der Zeitzone für den authentifizierten Benutzer | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| People.Read | Delegiert | Suchen im authentifizierten Benutzer-Adressbuch | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| email | Delegiert | E-Mail-Adresse zum Identifizieren des Benutzers in SEFOS. | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| openid | Delegiert | Benutzer anmelden | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
->| Profil | Delegiert | Lesen des Benutzerprofils | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](https://docs.microsoft.com/microsoft-365-app-certification/azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3) |
+>| Calendars.ReadWrite | Delegiert | Besprechung im Auftrag des Benutzers erstellen | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| Mail.Send | Delegiert | Senden von Besprechungseinladungen | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| MailboxSettings.Read | Delegiert | Erfassen der Zeitzone für den authentifizierten Benutzer | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| People.Read | Delegiert | Suchen im authentifizierten Benutzer-Adressbuch | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| email | Delegiert | E-Mail-Adresse zum Identifizieren des Benutzers in SEFOS. | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| openid | Delegiert | Benutzer anmelden | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
+>| profile | Delegiert | Lesen des Benutzerprofils | [23b236c3-685d-49f0-a7bf-012ef3dc9ec3](../azure/23b236c3-685d-49f0-a7bf-012ef3dc9ec3.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

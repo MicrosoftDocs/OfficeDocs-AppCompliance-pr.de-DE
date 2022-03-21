@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für HitHorizons von FinStat s.r.o.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für HitHorizons, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: da7a27a1ff6410931c5694bb4abefe5add31ab52
-ms.sourcegitcommit: 2e7d3c3ce21db674e9964db4a0b5b8794e74142f
+ms.openlocfilehash: 9d02dc0133d4d880b7f8953f0ee378048d0abda5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62831945"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541753"
 ---
 # <a name="hithorizons"></a>HitHorizons
 
@@ -34,13 +35,13 @@ Von FinStat s.r.o. bereitgestellte Informationen an Microsoft:
 |:----------------|:-------------|
 | App-Name | HitHorizons |
 | ID | WA200001411 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | FinStat s.r.o. |
 | Website des Unternehmens | [https://www.hithorizons.com](https://www.hithorizons.com) |
 | Nutzungsbedingungen der App | [https://www.hithorizons.com/legal/terms-and-conditions](https://www.hithorizons.com/legal/terms-and-conditions) |
 | Kernfunktionen der App | Zugriff auf die HitHorizons-Datenbank von mehr als 75M+ Unternehmen aus Europa und darüber hinaus innerhalb Microsoft Teams |
 | Firmenstandort | Slowakei |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.hithorizons.com/services/microsoft/teams](https://www.hithorizons.com/services/microsoft/teams) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von FinStat s.r.o. bereitgestellt. Darüber, wie dies
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

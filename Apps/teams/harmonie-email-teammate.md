@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für E-Mail-TeamMate von harmon.ie
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Email TeamMate, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7e076f074f670c64726c2f7304da8956de976a56
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7224ee3e7a964ceff6b4edce02634bef6e3716c0
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264432"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541663"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -34,14 +35,15 @@ Informationen, die von harmon.ie an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Email TeamMate |
 | ID | WA200002338 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | harmon.ie |
 | Website des Unternehmens | [https://harmon.ie](https://harmon.ie) |
 | Nutzungsbedingungen der App | [https://harmon.ie/legal/teammate-eula](https://harmon.ie/legal/teammate-eula) |
 | Kernfunktionen der App | Hinzufügen von E-Mails zu Microsoft Teams Unterhaltungen mit Email TeamMate  |
 | Firmenstandort | Israel |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://harmon.ie](https://harmon.ie) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von harmon.ie darüber bereitgestellt, wie diese App 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,8 +100,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -116,13 +111,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nein |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nein |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -154,7 +149,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -162,16 +157,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.Read | Delegiert | Von TeamMate erforderlich, um Chatmitglieder einer bestimmten Unterhaltung abzurufen, um Dateien freizugeben, die in SharePoint/One-Laufwerk mit den Chatmitgliedern der Unterhaltung gespeichert sind. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Files.ReadWrite.All | Delegiert | Von TeamMate zum Speichern von E-Mail-Anlagen &amp; in SharePoint/Teams/OneDrive erforderlich | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Mail.ReadWrite | Delegiert | TeamMate muss die E-Mails des Benutzers anzeigen und auf in Teams gespeicherte E-Mails antworten | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| People.Read | Delegiert | TeamMate muss nach E-Mails von Personen suchen und Personen vorschlagen, mit denen Sie häufig Kontakt aufnehmen. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.Read | Delegiert | ermöglicht Benutzern die Anmeldung bei TeamMate mit ihrem Konto und ermöglicht TeamMate, grundlegende Benutzerprofilinformationen anzuzeigen. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.ReadBasic.All | Delegiert | TeamMate muss E-Mail-Adressen von Chatmitgliedern auflösen, damit die in OneDrive gespeicherten Freigabedateien aufgelöst werden.  | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Chat.Read | Delegiert | Von TeamMate erforderlich, um Chatmitglieder einer bestimmten Unterhaltung abzurufen, um Dateien freizugeben, die in SharePoint/One-Laufwerk mit den Chatmitgliedern der Unterhaltung gespeichert sind. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| Files.ReadWrite.All | Delegiert | Von TeamMate zum Speichern von E-Mail-Anlagen &amp; in SharePoint/Teams/OneDrive erforderlich | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| Mail.ReadWrite | Delegiert | TeamMate muss die E-Mails des Benutzers anzeigen und auf in Teams gespeicherte E-Mails antworten | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| People.Read | Delegiert | TeamMate muss nach E-Mails von Personen suchen und Personen vorschlagen, mit denen Sie häufig Kontakt aufnehmen. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| User.Read | Delegiert | ermöglicht Benutzern die Anmeldung bei TeamMate mit ihrem Konto und ermöglicht TeamMate, grundlegende Benutzerprofilinformationen anzuzeigen. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| User.ReadBasic.All | Delegiert | Von TeamMate erforderlich, um E-Mail-Adressen von Chatmitgliedern aufzulösen, in der Reihenfolge, in der die in OneDrive gespeicherten Freigabedateien mit ihnen gespeichert sind  | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

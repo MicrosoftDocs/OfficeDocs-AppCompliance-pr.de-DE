@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für WorkInSync von MoveInSync
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für WorkInSync, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: aa528136089b1ff6e54f24a82a0184bef58ee233
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e8620c57d74d71649ed418f08fd8e634c7de47d6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255651"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543593"
 ---
 # <a name="workinsync"></a>WorkInSync
 
@@ -34,14 +35,15 @@ Informationen, die von MoveInSync an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | WorkInSync |
 | ID | WA200002974 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | MoveInSync |
 | Website des Unternehmens | [https://www.workinsync.io](https://www.workinsync.io) |
 | Nutzungsbedingungen der App | [https://www.workinsync.io/terms-and-condition/](https://www.workinsync.io/terms-and-condition/) |
 | Kernfunktionen der App | WorkInSync ermöglicht Organisationen die einfache Planung &amp; der Ausführung eines flexiblen Desk Booking-Modells für Ihr Büro.  Als Mitarbeiter können Sie: - Erstellen und Verwalten von Schreibtischbuchungen - Einchecken bei der Arbeit von zu Hause &amp; aus am Ende des Tages als Manager - Sie werden über Ihre Teammitglieder benachrichtigt, wenn Sie Pläne für "Clockin/Clockouts" &amp; auf der Registerkarte "Teamaktivität" erstellen, die Sie in einem Kanalkontext installieren können. Sie können - Sehen Sie, wo das gesamte Team von ihrer Anwesenheit aus &amp; arbeitet - Suchen Sie in der gesamten Organisation nach einem bestimmten Kollegen. |
 | Firmenstandort | Indien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.workinsync.io/teams-app-for-workinsync/](https://www.workinsync.io/teams-app-for-workinsync/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von MoveInSync darüber bereitgestellt, wie diese App
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb von 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,24 +100,24 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -163,20 +158,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | Delegiert | 1. So rufen Sie Details zu transitiven Gruppenmitgliedern ab. Sie werden auf der Registerkarte "Teamaktivität" verwendet, wenn sie im Kanalkontext installiert werden. 2. So rufen Sie die Benutzerprofildetails &amp;  der Benutzer in der Organisation ab. Diese werden verwendet, wenn die Registerkarte "Teamaktivität" im persönlichen Kontext installiert wird, als Fallback, um die Vorschau von Teamkameraden anzuzeigen, falls die Personen-API fehlschlägt (nicht outlook-Benutzer). | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| People.Read | Delegiert | Um Personen zu erhalten, die sich am häufigsten auf den angemeldeten Benutzer beziehen, um sie auf der Registerkarte "Teamaktivität" anzuzeigen, wird im persönlichen Kontext installiert. | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Presence.Read | Delegiert | So erhalten Sie Anwesenheitsinformationen einer Liste von Benutzern auf der Registerkarte "Teamaktivität" sowohl im persönlichen als auch im Kanalkontext | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Presence.Read.All | Delegiert | So erhalten Sie Anwesenheitsinformationen einer Liste von Benutzern auf der Registerkarte "Teamaktivität" sowohl im persönlichen als auch im Kanalkontext | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.Read.All | Anwendung | Wird verwendet, um Berichterstellungs-Manager-Informationen eines beliebigen Benutzers abzurufen, um Buchungs- und Check-In-/Checkout-Benachrichtigungen an den Vorgesetzten zu senden. | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.ReadBasic.All | Delegiert | Wird zum Lesen des Profilfotos eines Mitarbeiters verwendet | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| email | Delegiert | Erforderlich, um SSO-Token mit Teams Clientbibliothek abzurufen | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| offline_access | Delegiert | Erforderlich, um SSO-Token mit Teams Clientbibliothek abzurufen | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| openid | Delegiert | Erforderlich, um SSO-Token mit Teams Clientbibliothek abzurufen | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| Profil | Delegiert | Erforderlich, um SSO-Token mit Teams Clientbibliothek abzurufen | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Directory.Read.All | Delegiert | 1. So rufen Sie Details zu transitiven Gruppenmitgliedern ab. Sie werden auf der Registerkarte "Teamaktivität" verwendet, wenn sie im Kanalkontext installiert werden. 2. So rufen Sie die Benutzerprofildetails &amp;  der Benutzer in der Organisation ab. Diese werden verwendet, wenn die Registerkarte "Teamaktivität" im persönlichen Kontext installiert wird, als Fallback, um die Vorschau von Teamkameraden anzuzeigen, falls die Personen-API fehlschlägt (nicht outlook-Benutzer). | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| People.Read | Delegiert | Um Personen zu erhalten, die sich am häufigsten auf den angemeldeten Benutzer beziehen, um sie auf der Registerkarte "Teamaktivität" anzuzeigen, wird im persönlichen Kontext installiert. | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| Presence.Read | Delegiert | So erhalten Sie Anwesenheitsinformationen einer Liste von Benutzern auf der Registerkarte "Teamaktivität" sowohl im persönlichen als auch im Kanalkontext | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| Presence.Read.All | Delegiert | So erhalten Sie Anwesenheitsinformationen einer Liste von Benutzern auf der Registerkarte "Teamaktivität" sowohl im persönlichen als auch im Kanalkontext | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| User.Read.All | Anwendung | Wird verwendet, um Berichterstellungs-Manager-Informationen eines beliebigen Benutzers abzurufen, um Buchungs- und Check-In-/Checkout-Benachrichtigungen an den Vorgesetzten zu senden. | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| User.ReadBasic.All | Delegiert | Wird zum Lesen des Profilfotos eines Mitarbeiters verwendet | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| email | Delegiert | Erforderlich zum Abrufen des SSO-Tokens mit Teams Clientbibliothek | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| offline_access | Delegiert | Erforderlich zum Abrufen des SSO-Tokens mit Teams Clientbibliothek | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| openid | Delegiert | Erforderlich zum Abrufen des SSO-Tokens mit Teams Clientbibliothek | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
+>| profile | Delegiert | Erforderlich zum Abrufen des SSO-Tokens mit Teams Clientbibliothek | [dcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc](../azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

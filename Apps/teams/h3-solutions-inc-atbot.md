@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für AtBot von H3 Solutions, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für AtBot, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a071dc503aa4fa2871c4ff5ef296976fa565fa06
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 2edcd4455796ebaa14dd3806a0454e022fd4e20d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256656"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544743"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -34,14 +35,15 @@ Informationen, die von H3 Solutions, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | AtBot |
 | ID | WA104381219 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | H3 Solutions, Inc. |
 | Website des Unternehmens | [https://atbot.io](https://atbot.io) |
 | Nutzungsbedingungen der App | [https://admin.atbot.io/terms](https://admin.atbot.io/terms) |
 | Kernfunktionen der App | Erstellen Sie unterhaltungsbezogene Benutzeroberflächen schnell, keine Codierungserfahrung erforderlich! |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://admin.atbot.io/Docs/GettingStarted](https://admin.atbot.io/Docs/GettingStarted) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von H3 Solutions, Inc. zur Verfügung gestellt, wie d
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -162,18 +157,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | Anwendung | AAD Gruppenname, AAD Gruppen-GUID, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| Directory.Read.All | Delegiert | AAD Gruppenname, AAD Gruppen-GUID, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| People.Read | Delegiert | Nein | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| User.Read | Delegiert | Mandanten-ID, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| email | Delegiert | E-Mail-Adressen werden verwendet, um den Support über unser Supportsystem zu kontaktieren. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| offline_access | Delegiert | Zugriffs-/Aktualisierungstoken. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| openid | Delegiert | UPN, identifiziert den Benutzer innerhalb unseres Systems | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| Profil | Delegiert | UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | Anwendung | AAD Gruppenname, AAD Gruppen-GUID, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| Directory.Read.All | Delegiert | AAD Gruppenname, AAD Gruppen-GUID, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| People.Read | Delegiert | Nein | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| User.Read | Delegiert | Mandanten-ID, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| email | Delegiert | E-Mail-Adressen werden verwendet, um den Support über unser Supportsystem zu kontaktieren. | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| offline_access | Delegiert | Zugriffs-/Aktualisierungstoken. | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| openid | Delegiert | UPN, identifiziert den Benutzer innerhalb unseres Systems | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| profile | Delegiert | UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

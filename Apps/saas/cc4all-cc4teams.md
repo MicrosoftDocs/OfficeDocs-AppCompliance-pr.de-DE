@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für CC4Teams von CC4ALL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CC4Teams, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 85d5b411929f2bd0c1c0610a6e4950cf2d5e6809
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7e4cbddad8f0e26efd3657fc36d86575c7a521dd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255911"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544083"
 ---
 # <a name="cc4teams"></a>CC4Teams
 
@@ -36,9 +37,9 @@ Von CC4ALL für Microsoft bereitgestellte Informationen:
 | Name des Partnerunternehmens | CC4ALL |
 | Website des Unternehmens | [https://contactcenter4all.com](https://contactcenter4all.com) |
 | Nutzungsbedingungen der App | [https://contactcenter4all.com/contactcenter4all-saas-agreem...](https://contactcenter4all.com/contactcenter4all-saas-agreement/) |
-| Kernfunktionen der App | CC4Teams fügt Funktionen wie Routing, warmer Transfer, Anrufaufzeichnung und Berichterstellung zu Teams |
+| Kernfunktionen der App | CC4Teams fügt Funktionen wie Routing, Warmdurchstellung, Anrufaufzeichnung und Berichterstellung zu Teams |
 | Firmenstandort | Niederlande (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://contactcenter4all.com/cc4teams/](https://contactcenter4all.com/cc4teams/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -106,25 +107,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
-| Entspricht die App NIST 800-171? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -164,18 +165,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| CallRecords.Read.All | Anwendung | wird für Aufzeichnungen verwendet | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.AccessMedia.All | Anwendung | Wird für den Zugriff auf Medien verwendet | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.Initiate.All | Anwendung | wird verwendet, um Anrufe im Kontaktcenter zu initiieren | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.InitiateGroupCall.All | Anwendung | wird verwendet, um Anrufe im Kontaktcenter zu initiieren | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.JoinGroupCall.All | Anwendung | wird verwendet, um Anrufe im Kontaktcenter zu initiieren | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.JoinGroupCallasGuest.All | Anwendung | wird verwendet, um Anrufe im Kontaktcenter zu initiieren | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Presence.Read | Delegiert | Wird verwendet, um den Status von Agents im Contact Center zu überprüfen | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Presence.Read.All | Delegiert | Wird verwendet, um den Status von Agents im Contact Center zu überprüfen | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| CallRecords.Read.All | Anwendung | wird für Aufzeichnungen verwendet | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.AccessMedia.All | Anwendung | Wird für den Zugriff auf Medien verwendet | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.Initiate.All | Anwendung | wird verwendet, um Anrufe im Kontaktcenter zu initiieren | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.InitiateGroupCall.All | Anwendung | wird verwendet, um Anrufe im Kontaktcenter zu initiieren | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.JoinGroupCall.All | Anwendung | wird verwendet, um Anrufe im Kontaktcenter zu initiieren | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.JoinGroupCallasGuest.All | Anwendung | wird verwendet, um Anrufe im Kontaktcenter zu initiieren | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Presence.Read | Delegiert | Wird verwendet, um den Status von Agents im Contact Center zu überprüfen | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Presence.Read.All | Delegiert | Wird verwendet, um den Status von Agents im Contact Center zu überprüfen | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

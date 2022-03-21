@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Quitch von Quitch
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Quitch, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6de959937655902f2b569e42a4cbdce30561079d
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 5b7aa8cfefd8b7a41443ad7bb82c3aeab50269e1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235790"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541233"
 ---
 # <a name="quitch"></a>Quitch
 
@@ -34,13 +35,13 @@ Von Quitch für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Quitch |
 | ID | WA200003683 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Quitch |
 | Website des Unternehmens | [https://quitch.com](https://quitch.com) |
 | Nutzungsbedingungen der App | [https://quitch.com/user-terms-of-service/](https://quitch.com/user-terms-of-service/) |
 | Kernfunktionen der App | Interaktive Quizfragen für Ihre Microsoft Teams Besprechungen |
 | Firmenstandort | Australien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://quitch.com/microsoft-teams/](https://quitch.com/microsoft-teams/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
@@ -158,7 +159,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |

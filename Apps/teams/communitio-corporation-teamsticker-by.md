@@ -2,12 +2,19 @@
 title: Anwendungsinformationen für TeamSticker von Communitio by Communitio Corporation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für TeamSticker von Communitio, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für TeamSticker von Communitio, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 5b9b32b4cb3b7967fb747eb3a813b3680bdb57da
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540573"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker by Communitio
 
@@ -28,13 +35,13 @@ Informationen, die von der Communitio Corporation an Microsoft bereitgestellt we
 |:----------------|:-------------|
 | App-Name | TeamSticker by Communitio |
 | ID | WA200000894 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Communitio Corporation |
 | Website des Unternehmens | [https://communitio.jp](https://communitio.jp) |
 | Nutzungsbedingungen der App | [https://teamsuite.biz/terms](https://teamsuite.biz/terms) |
 | Kernfunktionen der App | Dies ist eine digitale Dankkarte, die von einer Unterhaltung gesendet werden kann. |
 | Firmenstandort | Japan |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://teamsuite.biz/teamsticker](https://teamsuite.biz/teamsticker) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -152,7 +159,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -164,13 +171,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamMember.Read.All | Anwendung |  So wählen Sie die Person aus, an die Sie die Karte senden möchten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| TeamMember.Read.All | Delegiert |  So wählen Sie die Person aus, an die Sie die Karte senden möchten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| User.Read | Delegiert | So rufen Sie die Profilinformationen des angemeldeten Benutzers ab. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| User.Read.All | Anwendung |  So wählen Sie die Person aus, an die Sie die Karte senden möchten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| User.Read.All | Delegiert |  So wählen Sie die Person aus, an die Sie die Karte senden möchten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| openid | Delegiert |  So melden Sie sich an. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| Profil | Delegiert | So rufen Sie die Profilinformationen des angemeldeten Benutzers ab. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| TeamMember.Read.All | Anwendung |  So wählen Sie die Person aus, an die Sie die Karte senden möchten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| TeamMember.Read.All | Delegiert |  So wählen Sie die Person aus, an die Sie die Karte senden möchten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| User.Read | Delegiert | So rufen Sie die Profilinformationen des angemeldeten Benutzers ab. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| User.Read.All | Anwendung |  So wählen Sie die Person aus, an die Sie die Karte senden möchten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| User.Read.All | Delegiert |  So wählen Sie die Person aus, an die Sie die Karte senden möchten. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| openid | Delegiert |  So melden Sie sich an. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| profile | Delegiert | So rufen Sie die Profilinformationen des angemeldeten Benutzers ab. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

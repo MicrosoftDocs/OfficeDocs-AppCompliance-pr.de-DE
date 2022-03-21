@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Klett von Ernst KlettByte GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Klett, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e1a5e3b691fb1face8b122f028146bb34e92a705
-ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
+ms.openlocfilehash: 3a9842883f221d7a51af14ea7db73ef0ea47e273
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62795783"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541313"
 ---
 # <a name="klett"></a>Klett
 
@@ -34,15 +35,14 @@ Informationen, die von Ernst Klett Kw GmbH an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Klett |
 | ID | WA200003716 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Ernst KlettByte GmbH |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Ernst Klett Verlag GmbH |
 | Website des Unternehmens | [https://www.klett.de/index/](https://www.klett.de/index/) |
 | Nutzungsbedingungen der App | [https://www.klett.de/inhalt/rechtliches/nutzungsbedingungen...](https://www.klett.de/inhalt/rechtliches/nutzungsbedingungen-fuer-digitale-inhalte-und-online-services/6931) |
 | Kernfunktionen der App | Bequemer Zugriff auf die digitalen Produkte passend zum Schulbuch |
 | Firmenstandort | Deutschland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.klett.de/inhalt/217167](https://www.klett.de/inhalt/217167) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,14 +57,7 @@ Diese Informationen wurden von Ernst Klett Kw GmbH bereitgestellt, wie diese App
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

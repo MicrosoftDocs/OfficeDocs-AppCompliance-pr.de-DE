@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für neocity von neocity GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für neocity, die Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für neocity, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 523bfae98742757ae12b6fd4f340c18c1f8f5f17
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: ef89b548aae7084dc975b03fb5fef1df1f893527
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147942"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541543"
 ---
 # <a name="neopolis"></a>neopol
 
@@ -33,13 +34,13 @@ Informationen, die von neorena GmbH an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | neopol |
 | ID | WA200002920 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | neorena GmbH |
 | Website des Unternehmens | [https://neopol.is](https://neopol.is) |
 | Nutzungsbedingungen der App | [https://app.termly.io/document/terms-of-use-for-saas/655330...](https://app.termly.io/document/terms-of-use-for-saas/655330e8-5787-47b4-8957-90006db46c80) |
 | Kernfunktionen der App | Professionelle Textdokumente parallel schreiben, &#252;berarbeiten und versionieren. Wir wenden das in der Softwareentwicklung etablierte Git-Prinzip auf die kollaborative Bearbeitung professioneller Textdokumente an. Unser Word Plug-In erm&#246;glicht parallele und kontrollierte Zusammenarbeit, ohne dass bestehende Prozesse oder Software umgestellt werden m&#252;ssen. |
 | Firmenstandort | Deutschland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://neopol.is](https://neopol.is) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -56,14 +57,7 @@ Diese Informationen wurden von neorena GmbH bereitgestellt, wie diese App Organi
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Heedify von Heedify
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Heedify, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 692b53d85d3d4e9e2984147575fdff0a702d193a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d45ae00313e1b138b72fff8647931a6062955d61
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257801"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543693"
 ---
 # <a name="heedify"></a>Heedify
 
@@ -34,7 +35,7 @@ Von Heedify für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Heedify |
 | ID | WA200003512 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Heedify |
 | Website des Unternehmens | [https://heedify.io](https://heedify.io) |
 | Nutzungsbedingungen der App | [https://heedify.io/terms](https://heedify.io/terms) |
@@ -92,7 +93,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -108,25 +109,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | N/V |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -166,15 +167,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | Delegiert | Empfangsteilnehmer müssen den Kalender der Benutzer überprüfen, bevor sie einen Anruf übertragen oder die Informationen mit dem Kunden auf dem Telefon teilen können. | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Contacts.ReadWrite | Delegiert | Die Anwendung muss in der Lage sein, Kontakte zu User(Agent) hinzuzufügen und ihre Kontakte auch zu lesen.  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Contacts.ReadWrite.Shared | Delegiert | Die Anwendung muss in der Lage sein, einen Freigabekontakt mit einem anderen Benutzer (Agent) hinzuzufügen und auch die freigegebenen Kontakte zu lesen.  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Presence.Read.All | Delegiert | Die Anwesenheitsinformationen werden für den Contact Center-Agent benötigt, um Anrufe und Kontakte besser verwalten zu können, insbesondere bei der Anrufübertragung.  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| User.Read.All | Delegiert | zum Verwalten des Kontakts muss der protokollierte Benutzer in der Lage sein, Benutzer zu durchsuchen und deren Informationen zu lesen, einschließlich deren Mitarbeitern und Vorgesetzten (im Falle einer Empfangsperson).  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Calendars.Read | Delegiert | Empfangsteilnehmer müssen den Kalender der Benutzer überprüfen, bevor sie einen Anruf übertragen oder die Informationen mit dem Kunden auf dem Telefon teilen können. | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Contacts.ReadWrite | Delegiert | Die Anwendung muss in der Lage sein, Kontakte zu User(Agent) hinzuzufügen und ihre Kontakte auch zu lesen.  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Contacts.ReadWrite.Shared | Delegiert | Die Anwendung muss in der Lage sein, einen Freigabekontakt mit einem anderen Benutzer (Agent) hinzuzufügen und auch die freigegebenen Kontakte zu lesen.  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Presence.Read.All | Delegiert | Die Anwesenheitsinformationen werden für den Contact Center-Agent benötigt, um Anrufe und Kontakte besser verwalten zu können, insbesondere bei der Anrufübertragung.  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| User.Read.All | Delegiert | zum Verwalten des Kontakts muss der protokollierte Benutzer in der Lage sein, Benutzer zu durchsuchen und deren Informationen zu lesen, einschließlich deren Mitarbeitern und Vorgesetzten (im Falle einer Empfangsperson).  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

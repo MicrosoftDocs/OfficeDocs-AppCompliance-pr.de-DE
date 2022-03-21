@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Jetdocs von Jetdocs
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jetdocs, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fadc71dc93834478199183da85b01df210776328
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 8143b96ac361b21e74d4408e8daf324b2f29acf4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63076829"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543953"
 ---
 # <a name="jetdocs"></a>Jetdocs
 
@@ -40,7 +41,7 @@ Von Jetdocs für Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://jetdocs.io/terms](https://jetdocs.io/terms) |
 | Kernfunktionen der App | Jetdocs ist Ihre einheitliche Mitarbeitererfahrung, mit der Sie interne Anforderungen, Tickets, Probleme und Genehmigungen bearbeiten und sie zur einfachen Lösung an den entsprechenden Experten in Ihrer Organisation weiterleiten können. Die meisten Organisationen haben Schwierigkeiten, interne Workflows miteinander zu verwenden und sind auf lange Messagingthreads und Gruppen-Postfächer angewiesen. Bizops teams, IT, operations, legal, HR, finance and office management are a few of the service teams that benefit from Jetdocs and allow your organization to scale. |
 | Firmenstandort | Kanada |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://jetdocs.io/jetdocs-teams-requests-and-ticketing/](https://jetdocs.io/jetdocs-teams-requests-and-ticketing/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws, Azure |
 
@@ -61,7 +62,7 @@ Diese Informationen wurden von Jetdocs darüber bereitgestellt, wie diese App Or
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | E-Mail, Vorname, Nachname |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |

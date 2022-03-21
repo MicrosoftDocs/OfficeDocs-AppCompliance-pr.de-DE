@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Schulungsassistenten von der Bot-Plattform
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Schulungsassistenten, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e644d66f69da228ff7de892d309d09de0e6a4a41
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: bf18fbe8cbd5d492378f873901293088c11c7b2c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147951"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541563"
 ---
 # <a name="training-assistant"></a>Schulungsassistent
 
@@ -34,11 +35,11 @@ Informationen, die von der Bot-Plattform für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Schulungsassistent |
 | ID | WA200003547 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Die Bot-Plattform |
 | Website des Unternehmens | [https://thebotplatform.com](https://thebotplatform.com) |
 | Nutzungsbedingungen der App | [https://thebotplatform.com/wp-content/uploads/2021/11/TBP-T...](https://thebotplatform.com/wp-content/uploads/2021/11/TBP-Training-Assistant-Customer-Terms-of-Use.pdf) |
-| Kernfunktionen der App | Dieser digitale Assistent führt Sie in eine Reihe von Schulungsmodulen, die alles abdecken, was Sie wissen müssen, um sich einzurichten und an Teams zu arbeiten. Jedes Modul enthält spezifische Lernprogrammvideos und Schulungsinhalte, um sicherzustellen, dass Ihre Mitarbeiter die Breite der auf Microsoft Teams verfügbaren Features und deren Verwendung vollständig kennen. |
+| Kernfunktionen der App | Dieser digitale Assistent führt Sie in eine Reihe von Schulungsmodulen ein, die alles abdecken, was Sie wissen müssen, um sich einzurichten und an Teams zu arbeiten. Jedes Modul enthält spezifische Lernvideos und Schulungsinhalte, um sicherzustellen, dass Ihre Mitarbeiter die Breite der auf Microsoft Teams verfügbaren Features und deren Verwendung vollständig kennen. |
 | Firmenstandort | Vereinigtes Königreich Großbritannien und Nordirland (die) |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |

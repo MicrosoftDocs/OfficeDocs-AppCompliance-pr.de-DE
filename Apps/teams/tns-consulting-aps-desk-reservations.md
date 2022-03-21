@@ -2,20 +2,21 @@
 title: Anwendungsinformationen für Desk Reservations von TNS Consulting ApS
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Desk Reservations, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 035dae1da20fbef01d60b29b88f3eae5032e9939
-ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
+ms.openlocfilehash: 05e91d98155dd60b6ebe6027f310cc17fc7a1d0b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62795797"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541223"
 ---
-# <a name="desk-reservations"></a>Desk Reservations
+# <a name="desk-reservations"></a>Desk-Reservierungen
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +33,10 @@ Informationen, die von TNS Consulting ApS an Microsoft bereitgestellt werden:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Desk Reservations |
+| App-Name | Desk-Reservierungen |
 | ID | WA200003532 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | TNS Consulting ApS |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | TNS Consulting ApS |
 | Website des Unternehmens | [https://www.meetingroommap.net](https://www.meetingroommap.net) |
 | Nutzungsbedingungen der App | [https://www.meetingroommap.net/home/TermsAndConditions](https://www.meetingroommap.net/home/TermsAndConditions) |
 | Kernfunktionen der App | Reservieren Sie Schreibtische oder andere zugeordnete Elemente. |
@@ -61,7 +62,7 @@ Diese Informationen wurden von TNS Consulting ApS darüber bereitgestellt, wie d
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | E-Mail für Registrierungsreservierungen. |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Niederlande (die) |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -166,13 +167,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite | Delegiert | Lesen und Schreiben der Anwendungskonfigurationsdatei (Standard-Floorplan + Locattion speichern) | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa) |
->| TeamMember.Read.All | Delegiert | Anzeigen von Reservierungen anderer Mitglieder desselben Teams. | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa) |
->| User.Read | Delegiert | Anmelden und Lesen von E-Mails für die Registrierung einer Reservierung | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa) |
+>| Files.ReadWrite | Delegiert | Lesen und Schreiben der Anwendungskonfigurationsdatei (Standard-Floorplan + Locattion speichern) | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](../azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa.md) |
+>| TeamMember.Read.All | Delegiert | Anzeigen von Reservierungen anderer Mitglieder desselben Teams. | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](../azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa.md) |
+>| User.Read | Delegiert | Anmelden und Lesen von E-Mails für die Registrierung einer Reservierung | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](../azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

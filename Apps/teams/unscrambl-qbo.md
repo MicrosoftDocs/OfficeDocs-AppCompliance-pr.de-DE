@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für qbo von Unscrambl
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für qbo, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f48255e8f29512bfc18a9d9c1a3d079829d31769
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a02dec60c2eb9ab25fce28ac45271629b4700011
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147684"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542683"
 ---
 # <a name="qbo"></a>qbo
 
@@ -34,13 +35,13 @@ Von Unscrambl für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | qbo |
 | ID | WA200001708 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Unscrambl |
 | Website des Unternehmens | [https://unscrambl.com](https://unscrambl.com) |
 | Nutzungsbedingungen der App | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
 | Kernfunktionen der App | qbo, powered by Unscrambl qbo insights, makes analytics conversational using best-in-class NLP. Benutzer geben eine Frage ein, und qbo oberflächen die relevantesten Einblicke und Visualisierungen in einem Snap. Benutzer können aktiv mit Kollegen zusammenarbeiten, Entscheidungen treffen und Ergebnisse in präsentationsbereiten Boards erfassen. qbo ermöglicht es jedem in der Organisation, datengesteuerte Entscheidungen zu treffen. qbo stellt eine direkte Verbindung mit einer Reihe von Cloudquellen oder lokalen Quellen her und kann über Microsoft Teams oder einen Browser aufgerufen werden. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://qbo.ai](https://qbo.ai) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 

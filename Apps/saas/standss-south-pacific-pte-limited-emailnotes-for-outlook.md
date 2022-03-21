@@ -2,24 +2,25 @@
 title: Anwendungsinformationen für EmailNotes für Outlook von Ständern (Südpazifik) PTE Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/10/2022
+manager: tonybal
+ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für EmailNotes für Outlook, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d1287dc50181b69c6f1d8f3f31b43c84db569641
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4bd54849249220757f9c657380716ea27e7ac499
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63076189"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541383"
 ---
 # <a name="emailnotes-for-outlook"></a>EmailNotes for Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 17, 2022</p>
+<p>Last updated by the developer on: November 28, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/standsssouthpacificltd1581455821226.emailnotes" target="_blank">Ansicht in AppSource</a>
 
@@ -38,7 +39,7 @@ Informationen von Ständern (Südpazifik) PTE beschränkt auf Microsoft:
 | Nutzungsbedingungen der App | [https://www.standss.com/sendguard_m365/terms_conditions.htm](https://www.standss.com/sendguard_m365/terms_conditions.htm) |
 | Kernfunktionen der App | SendGuard für Outlook M365 ist ein Tool für Risiken und Compliance, mit dem Benutzer vertrauliche, vertrauliche oder unangemessene Informationen an unbeabsichtigte Empfänger erkennen, auffordern, warnen und vor E-Mails schützen können. |
 | Firmenstandort | Fidschi |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.standss.com/sendguard_m365/default.htm](https://www.standss.com/sendguard_m365/default.htm) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von Stand (Südpazifik) PTE Limited darüber bereitge
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
 | Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -169,11 +163,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | So lesen Sie Inhalte aus Betreff, Text, Inhalten von Anlagen, die an die Besprechungsanfrage angefügt sind  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| Mail.ReadWrite | Delegiert | So lesen Sie Inhalte des Betreffs, des Textkörpers, des Inhalts von Anlagen, die dem E-Mail-Element angefügt sind  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| User.Read | Delegiert | Dies ist das Lesen von Benutzerdaten, um Lizenzierungsinformationen für ihre Domäne/ihr Benutzerkonto zu überprüfen. | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| openid | Delegiert | Anforderung für die Berechtigung für einmaliges Anmelden (Single Sign-On, SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
->| Profil | Delegiert | Anforderung für die Berechtigung für einmaliges Anmelden (Single Sign-On, SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| Calendars.ReadWrite | Delegiert | So lesen Sie Inhalte aus Betreff, Text, Inhalten von Anlagen, die an die Besprechungsanfrage angefügt sind  | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| Mail.ReadWrite | Delegiert | So lesen Sie Inhalte des Betreffs, des Textkörpers, des Inhalts von Anlagen, die dem E-Mail-Element angefügt sind  | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| User.Read | Delegiert | Dies ist das Lesen von Benutzerdaten, um Lizenzierungsinformationen für ihre Domäne/ihr Benutzerkonto zu überprüfen. | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| openid | Delegiert | Anforderung für die Berechtigung für einmaliges Anmelden (Single Sign-On, SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
+>| profile | Delegiert | Anforderung für die Berechtigung für einmaliges Anmelden (Single Sign-On, SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](../azure/471294e9-96d6-475b-b503-e02acd9ed2cd.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

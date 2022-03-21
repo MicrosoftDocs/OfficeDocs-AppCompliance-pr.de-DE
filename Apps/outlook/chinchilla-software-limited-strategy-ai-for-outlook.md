@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Strategie-KI für Outlook von Chinchilla Software Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Strategy-AI für Outlook, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Strategy-AI für Outlook, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 34324aa7c379a3135bb3e3a5d74900fb75306f74
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 1deccb947e44affdda53806f1dce4b96a578b6a4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155410"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544633"
 ---
 # <a name="strategy-ai-for-outlook"></a>Strategie-KI für Outlook
 
@@ -33,7 +34,7 @@ Informationen, die von Chinchilla Software Limited to Microsoft bereitgestellt w
 |:----------------|:-------------|
 | App-Name | Strategie-KI für Outlook |
 | ID | WA200003576 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
 | Name des Partnerunternehmens | Chinchilla Software Limited |
 | Website des Unternehmens | [https://www.strategy-ai.com](https://www.strategy-ai.com) |
 | Nutzungsbedingungen der App | [https://www.strategy-ai.com/terms](https://www.strategy-ai.com/terms) |
@@ -56,14 +57,7 @@ Diese Informationen wurden von Chinchilla Software Limited darüber bereitgestel
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

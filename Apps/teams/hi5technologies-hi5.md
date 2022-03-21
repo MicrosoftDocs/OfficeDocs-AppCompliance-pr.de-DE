@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Hi5 von Hi5Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Hi5, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 534732a91e12817bcdce28524b3ecf4c8f179128
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a279eee6fac65e3df53e2884618babc658bf45fe
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255761"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542233"
 ---
 # <a name="hi5"></a>Hi5
 
@@ -34,14 +35,15 @@ Von Hi5Technologies für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Hi5 |
 | ID | WA200001610 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Hi5 Technologies |
 | Website des Unternehmens | [https://www.get5.io](https://www.get5.io) |
 | Nutzungsbedingungen der App | [https://www.get5.io/terms](https://www.get5.io/terms) |
-| Kernfunktionen der App | Entsperren Sie die Kultur mit fortlaufender Erkennung und Feedback. Hi5 ist eine super einfache, spaßiges App für Manager und Peers, die &amp; erkennungshalber empfangen können. Jemand&#8217;einen hervorragenden Job erledigt? Es&#8217;einfach – geben Sie ihnen einen Hi5 und teilen Sie die Erfolgserlebnisse! Teammitglieder können Peer-to-Peer- oder Teamerkennung bereitstellen, die Hi5-Bestenliste anzeigen und vieles mehr |
+| Kernfunktionen der App | Entsperren Sie die Kultur mit fortlaufender Erkennung und Feedback. Hi5 ist eine super einfache, spaßiges App für Manager und Peers, die &amp; erkennungshalber empfangen können. Jemand&#8217;hat einen hervorragenden Job gemacht? Es&#8217;einfach – geben Sie ihnen einen Hi5 und teilen Sie die Erfolgserlebnisse! Teammitglieder können Peer-to-Peer- oder Teamerkennung bereitstellen, die Hi5-Bestenliste anzeigen und vieles mehr |
 | Firmenstandort | Südafrika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://help.get5.io](https://help.get5.io) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Hi5Technologies zur Verfügung gestellt, wie dies
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Sofort gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -162,15 +157,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| email | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| offline_access | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| openid | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| Profil | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| User.Read | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| email | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| offline_access | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| openid | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| profile | Delegiert | Wir speichern nur die Sitzungsinformationen der Benutzer aus Teams, und der Benutzer muss dies durch Hinzufügen von Benachrichtigungen genehmigen (er kann dies jederzeit entfernen). Es werden keine weiteren Informationen gespeichert. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

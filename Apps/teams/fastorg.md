@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für FastOrg nach &#38182;&#33909;&#26032;&#38451;&#65288;&#22825;&#27941;&#65289;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für FastOrg, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 59fef5c8e9a5013bf7fea045fdc0e759b66950fc
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 2c31f6db2caf41880f93cc702fa4b9ee713fbb4c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200867"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542983"
 ---
 # <a name="fastorg"></a>FastOrg
 
@@ -34,15 +35,14 @@ Informationen, die von &#38182;&#33909;&#26032;&#38451;&#65288;&#22825;&#27941;&
 |:----------------|:-------------|
 | App-Name | FastOrg |
 | ID | WA200003643 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | &#38182;&#33909;&#26032;&#38451;&#65288;&#22825;&#27941;&#65289;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; |
 | Website des Unternehmens | [https://www.dynamics365.cn/fastorgs](https://www.dynamics365.cn/fastorgs) |
 | Nutzungsbedingungen der App | [https://www.dynamics365.cn/termofuse](https://www.dynamics365.cn/termofuse) |
 | Kernfunktionen der App | &#33258;&#23450;&#20041;&#21019;&#24314;&#20225;&#19994;&#32452;&#32455;&#26550;&#26500;&#32479;&#19968;&#31649;&#29702;&#65292;&#24555;&#36895;&#22312;Microsoft Teams&#25214;&#21040;&#21516;&#20107;&#65292;&#20449;&#24687;&#20934;&#30830;&#12289;&#26041;&#20415;&#26597;&#38405;&#12290;&#23454;&#29616;&#32452;&#32455;&#26550;&#26500;&#25153;&#24179;&#21270;&#12289;&#21487;&#35270;&#21270;&#12290; |
 | Firmenstandort | China |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.dynamics365.cn/fastorgs](https://www.dynamics365.cn/fastorgs) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,7 +74,7 @@ Diese Informationen wurden von &#38182;&#33909;&#26032;&#38451;&#65288;&#22825;&
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -157,7 +157,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für SmartDraw von SmartDraw Software, LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SmartDraw, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6e7316127bd80d571c9120a377bf81c58b48d450
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 15376717a03fae834d5612afcb09639388391e91
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62143912"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543373"
 ---
 # <a name="smartdraw"></a>SmartDraw
 
@@ -34,13 +35,13 @@ Von SmartDraw Software, LLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SmartDraw |
 | ID | WA200003505 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SmartDraw Software, LLC |
 | Website des Unternehmens | [https://www.smartdraw.com](https://www.smartdraw.com) |
 | Nutzungsbedingungen der App | [https://www.smartdraw.com/support/terms-of-service.pdf](https://www.smartdraw.com/support/terms-of-service.pdf) |
 | Kernfunktionen der App | Einfaches &amp; leistungsstarkes Tool zum Erstellen von Flussdiagrammen, UML, ERD, technischen Diagrammen und mehr. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.smartdraw.com/features](https://www.smartdraw.com/features) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Hybrid |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -59,14 +60,7 @@ Diese Informationen wurden von SmartDraw Software, LLC zur Verfügung gestellt, 
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
 | Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

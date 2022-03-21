@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Powow von Powow AI
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Powow, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f7c17510645c2c7b2fc25014e328b1dcefe0f06f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: cd622100438c6006083e38e65e83e1c986ebf358
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254751"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541613"
 ---
 # <a name="powow"></a>Powow
 
@@ -34,13 +35,13 @@ Informationen, die von Powow AI für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Powow |
 | ID | WA200002952 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Powow AI |
 | Website des Unternehmens | [https://www.powow.ai](https://www.powow.ai) |
 | Nutzungsbedingungen der App | [https://www.powow.ai/legal/tos.pdf](https://www.powow.ai/legal/tos.pdf) |
 | Kernfunktionen der App | Powow ist eine SaaS-Plattform, die die Leistungsfähigkeit von KI in Geschäftsbesprechungen entfesselt. Es verwendet proprietäre KI-Algorithmen, um Besprechungen zu transkribieren und zu analysieren und in umsetzbare Einblicke umzuwandeln. Durch die Suche nach Besprechungen, Analysen und zusammenarbeiten können Organisationsmitarbeiter an weniger Besprechungen teilnehmen und gleichzeitig Produktivität steigern. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://powow-ai.zendesk.com/hc/en-us](https://powow-ai.zendesk.com/hc/en-us) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure, GCP |
 
@@ -108,8 +109,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -117,15 +118,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -166,17 +167,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ExternalItem.ReadWrite.All | Anwendung | Wird für den Suchconnector verwendet (Feature zum Pushen von Powow-Daten in die Microsoft-Indizes für die Suche über Microsoft-Dienste) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| User.Read | Delegiert | Anmelden und Lesen des Benutzerprofils für Registrierung und Anmeldung | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| User.Read.All | Anwendung | Wird für den Suchconnector verwendet (Feature zum Pushen von Powow-Daten in die Microsoft-Indizes für die Suche über Microsoft-Dienste) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| email | Delegiert | Anzeigen der E-Mail-Adresse der Benutzer für Registrierung und Anmeldung | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| offline_access | Delegiert | So greifen Sie innerhalb der Anwendung auf Benutzerdaten zu (Kalenderupdates nachverfolgen) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| openid | Delegiert | Benutzer anmelden | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| Profil | Delegiert | So greifen Sie auf die grundlegenden Profilinformationen der Benutzer für die Registrierung zu | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| ExternalItem.ReadWrite.All | Anwendung | Wird für den Suchconnector verwendet (Feature zum Übertragen von Powow-Daten in die Microsoft-Indizes für die Suche über Microsoft-Dienste) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| User.Read | Delegiert | Anmelden und Lesen des Benutzerprofils für Registrierung und Anmeldung | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| User.Read.All | Anwendung | Wird für den Suchconnector verwendet (Feature zum Übertragen von Powow-Daten in die Microsoft-Indizes für die Suche über Microsoft-Dienste) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| email | Delegiert | Anzeigen der E-Mail-Adresse der Benutzer für Registrierung und Anmeldung | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| offline_access | Delegiert | So greifen Sie innerhalb der Anwendung auf Benutzerdaten zu (Kalenderupdates nachverfolgen) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| openid | Delegiert | Benutzer anmelden | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| profile | Delegiert | So greifen Sie auf die grundlegenden Profilinformationen der Benutzer für die Registrierung zu | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Q nach ModulQ
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Q, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3cdacc2f1ad638dd13bad6af4434a816eb419bb7
-ms.sourcegitcommit: edd55f34c004f0b5c7e4418b92b8ba325b8ab336
+ms.openlocfilehash: 88e9d369057d62e1c5588380b79731637964ae5c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62317011"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544343"
 ---
 # <a name="q"></a>Q
 
@@ -34,15 +35,14 @@ Von ModuleQ an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Q |
 | ID | WA104381433 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ModuleQ |
 | Website des Unternehmens | [https://moduleq.com](https://moduleq.com) |
 | Nutzungsbedingungen der App | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
 | Kernfunktionen der App | F funktioniert wie ein vertrauenswürdiger Kollege, verfolgt Ihren Kundenfokus und sendet Ihnen die geschäftlichen Nachrichten, die Sie sehen müssen, bevor Sie fragen müssen. Unterstützt von ModuleQ AI und Wissen Graph von Mof Reuters. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://moduleq.com/product](https://moduleq.com/product) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -157,7 +157,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nein |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -169,11 +169,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | Anwendung | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| Group.Read.All | Delegiert | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| Mail.Read | Anwendung | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| User.Read | Delegiert | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
->| User.Read.All | Delegiert | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Calendars.Read | Anwendung | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
+>| Group.Read.All | Delegiert | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
+>| Mail.Read | Anwendung | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
+>| User.Read | Delegiert | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
+>| User.Read.All | Delegiert | Erforderlich für die Produktfunktionalität. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](../azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

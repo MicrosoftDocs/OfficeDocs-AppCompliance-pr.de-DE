@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Telemetrys Cloud CX Teams Integration durch Telemetrys Cloud Services, Inc
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Die Cloud CX Teams Integration, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 673c8bbc637288ae5c92c3367445893586523af9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 81ddd4b2bcaaf688b5a95d6351673d3cad19a352
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081434"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541823"
 ---
 # <a name="genesys-cloud-cx-teams-integration"></a>Telemetrys Cloud CX Teams Integration
 
@@ -38,7 +39,7 @@ Informationen, die von Telemetrys Cloud Services, Inc. an Microsoft bereitgestel
 | Nutzungsbedingungen der App | [https://help.mypurecloud.com/articles/global-genesys-cloud-...](https://help.mypurecloud.com/articles/global-genesys-cloud-service-terms-and-conditions/) |
 | Kernfunktionen der App | Telemetrys Cloud CX&#8482; Integration für Microsoft Teams |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://appsource.microsoft.com/en-us/product/web-apps/gene...](https://appsource.microsoft.com/en-us/product/web-apps/genesyslabs.genesys-cloud_teams_integration) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
@@ -59,7 +60,7 @@ Diese Informationen wurden von Telemetrys Cloud Services, Inc. bereitgestellt, w
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofildaten |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -169,7 +170,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Presence.Read.All | Beide | Der Contact Center-Agent muss in der Lage sein, die Anwesenheit eines Kollegen zu sehen, bevor er einen Telefonanruf überträgt. | [728ece5a-0f26-4c43-9705-cea9debe3fb5](https://docs.microsoft.com/microsoft-365-app-certification/azure/728ece5a-0f26-4c43-9705-cea9debe3fb5) |
+>| Presence.Read.All | Beide | Der Contact Center-Agent muss in der Lage sein, die Anwesenheit eines Kollegen zu sehen, bevor er einen Telefonanruf überträgt. | [728ece5a-0f26-4c43-9705-cea9debe3fb5](../azure/728ece5a-0f26-4c43-9705-cea9debe3fb5.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Application Information for Loop by Friendly Flows
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Loop, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f8cada6257ed15ad8372eb3acffc53e3c94d2d54
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d0afe53f65cba8d0045f8b3506f7d20421e15dec
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250101"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541723"
 ---
 # <a name="loop"></a>Loop
 
@@ -34,13 +35,13 @@ Informationen, die von freundlichen Flüssen für Microsoft bereitgestellt werde
 |:----------------|:-------------|
 | App-Name | Loop |
 | ID | WA200003480 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Benutzerfreundliche Flows |
 | Website des Unternehmens | [https://friendlyflows.com](https://friendlyflows.com) |
 | Nutzungsbedingungen der App | [https://friendlyflows.com/terms-of-use/](https://friendlyflows.com/terms-of-use/) |
 | Kernfunktionen der App | Zusammenbringen von Personen zum richtigen Zeitpunkt für die Arbeit an Projekten. |
 | Firmenstandort | Niederlande (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://friendlyflows.com/loop/](https://friendlyflows.com/loop/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -74,7 +75,7 @@ Diese Informationen wurden von Friendly Flows bereitgestellt, wie diese App Orga
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -92,7 +93,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, Credential, DNSManagement |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -157,7 +158,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -166,13 +167,13 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegiert | Authentifizierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
->| email | Delegiert | Registrierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
->| Profil | Delegiert | Authentifizierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
+>| User.Read | Delegiert | Authentifizierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](../azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76.md) |
+>| email | Delegiert | Registrierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](../azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76.md) |
+>| profile | Delegiert | Authentifizierung | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](../azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

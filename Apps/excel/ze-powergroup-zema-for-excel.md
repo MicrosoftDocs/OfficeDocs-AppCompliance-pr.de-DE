@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für ZEMA für Excel von ZE PowerGroup
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für ZEMA für Excel, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für ZEMA für Excel, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 545ac6fb928e59a13b04ef2c299ca6973b8a22d6
-ms.sourcegitcommit: 8af0be0295356438dbaa1dad225cfb390785b15c
+ms.openlocfilehash: 5b923588a8b5a7b8c1747f21d46f995335347bb3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62884732"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543493"
 ---
 # <a name="zema-for-excel"></a>ZEMA für Excel
 
@@ -33,7 +34,7 @@ Von ZE PowerGroup für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | ZEMA für Excel |
 | ID | WA200002229 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows Excel im Web |
+| unterstützte Office 365-Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows Excel im Web |
 | Name des Partnerunternehmens | ZE PowerGroup |
 | Website des Unternehmens | [https://www.ze.com](https://www.ze.com) |
 | Nutzungsbedingungen der App | [https://www.ze.com/terms-of-use/](https://www.ze.com/terms-of-use/) |
@@ -41,7 +42,6 @@ Von ZE PowerGroup für Microsoft bereitgestellte Informationen:
 | Firmenstandort | Kanada |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +56,7 @@ Diese Informationen wurden von ZE PowerGroup bereitgestellt, wie diese App Organ
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für HeyTaco von HeyTaco, LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für HeyTaco, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 43fa80b9334baaeb92d699ae6993e29fe44944e4
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
+ms.openlocfilehash: 1d409065a274e91d20b61fcd4e913bbaddd70f27
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62337995"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543673"
 ---
 # <a name="heytaco"></a>HeyTaco
 
@@ -21,7 +22,7 @@ ms.locfileid: "62337995"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 26, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/be8d11cf-265a-4974-9912-4ff28c29fc21" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/be8d11cf-265a-4974-9912-4ff28c29fc21" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001346" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +35,7 @@ Von HeyTaco, LLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | HeyTaco |
 | ID | WA200001346 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | HeyTaco, LLC |
 | Website des Unternehmens | [https://www.heytaco.chat](https://www.heytaco.chat) |
 | Nutzungsbedingungen der App | [https://www.heytaco.chat/terms](https://www.heytaco.chat/terms) |
@@ -115,7 +116,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
@@ -124,7 +125,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nein |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nein |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
-| Entspricht die App NIST 800-171? | N/V |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -156,7 +157,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und befolgt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -168,9 +169,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | Delegiert | Zum Organisieren von Benutzerdaten | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
->| openid | Delegiert | Zulassen, dass sich Personen bei den Registerkarten anmelden | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
->| profile | Delegiert | So speichern Sie Profilinformationen von Benutzern | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| email | Delegiert | Zum Organisieren von Benutzerdaten | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
+>| openid | Delegiert | Zulassen, dass sich Personen bei den Registerkarten anmelden | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
+>| profile | Delegiert | So speichern Sie Profilinformationen von Benutzern | [be8d11cf-265a-4974-9912-4ff28c29fc21](../azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

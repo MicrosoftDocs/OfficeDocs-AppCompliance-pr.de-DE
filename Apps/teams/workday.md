@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Workday by Workday
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workday, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6f8f8c4a1abeb514268797956b110f2a53fcd1e7
-ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
+ms.openlocfilehash: 5d9ac08e26f620dd2dcdb0e7ceb5d5cc51c066a5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62795746"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542063"
 ---
 # <a name="workday"></a>Workday
 
@@ -34,13 +35,13 @@ Von Workday für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Workday |
 | ID | WA200001555 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Workday |
 | Website des Unternehmens | [https://www.workday.com/en-us/homepage.html](https://www.workday.com/en-us/homepage.html) |
 | Nutzungsbedingungen der App | [https://nw.myworkday.com/microsoftteams/post-license/](https://nw.myworkday.com/microsoftteams/post-license/) |
-| Kernfunktionen der App | Fügen Sie Workday zu Ihrem Teams für einfache und reibungslose Hr- und Finanzaufgaben hinzu!  Ausführlichere Informationen zur App-Sicherheit und zum Datenschutz finden Workday-Kunden unter "Natural Workspaces Innovation Service Description" und in der Benutzergruppe "Natürliche Arbeitsbereiche" auf workday Community. |
+| Kernfunktionen der App | Fügen Sie Workday zu Ihrem Teams für einfache und reibungslose Hr- und Finanzaufgaben hinzu!  Ausführlichere Informationen zur App-Sicherheit und zum Datenschutz finden Workday-Kunden unter "Natural Workspaces Innovation Service Description" und in der Benutzergruppe "Natürliche Arbeitsbereiche" am Workday Community. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://nw.myworkday.com/microsoftteams/](https://nw.myworkday.com/microsoftteams/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Hybrid |
 | Welche Hosting-Cloudanbieter verwendet die App? | Andere |
 
@@ -61,7 +62,7 @@ Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Or
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Microsoft-Mandanten-ID, Benutzer-AAD-Objekt-ID, Unterhaltungs-ID |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |

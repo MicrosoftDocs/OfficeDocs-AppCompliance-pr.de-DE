@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für fireflies AI von Fireflies.ai
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Fireflies AI, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: adee5bd0237d8ff81f22cee03a7e505943df83be
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: adb01db25dd012daa05e231121cc98cd2d97bc2e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155442"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541743"
 ---
 # <a name="fireflies-ai"></a>Fireflies KI
 
@@ -34,13 +35,13 @@ Informationen, die von Fireflies.ai an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Fireflies KI |
 | ID | WA200002618 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Fireflies.ai |
 | Website des Unternehmens | [https://fireflies.ai](https://fireflies.ai) |
 | Nutzungsbedingungen der App | [https://fireflies.ai/terms-of-service.pdf](https://fireflies.ai/terms-of-service.pdf) |
 | Kernfunktionen der App | Fireflies ist ein Besprechungsassistent, der Notizen aus Ihren Besprechungen erfasst, transkribiert und nimmt.
 
- | | Firmenstandort | Vereinigte Staaten von Amerika | | Seite "App-Informationen" | | | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas | | Welche Hosting-Cloudanbieter verwendet die App? | GCP-|
+ | | Firmenstandort | Vereinigte Staaten von Amerika | | Seite "App-Informationen" | [https://app.fireflies.ai/integrations/collaboration/microso...](https://app.fireflies.ai/integrations/collaboration/microsoft-teams) | | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas | | Welche Hosting-Cloudanbieter verwendet die App? | GCP-|
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -1,18 +1,19 @@
 ---
-title: sicherheit und Compliance von Microsoft Project Apps – alle Apps
+title: Microsoft Project Sicherheit und Compliance von Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/27/2022
+manager: tonybal
+ms.date: 03/17/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Project Apps.
 localization_priority: Normal
-ms.openlocfilehash: 6be165756577da7da385038620fa60cc0b8898f3
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 43d3cee5881b9f7c8e010611c015e228c6f8a2b1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260961"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542523"
 ---
 # <a name="microsoft-project-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Project Apps
 

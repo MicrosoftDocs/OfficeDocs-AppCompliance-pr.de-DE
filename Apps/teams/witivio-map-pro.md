@@ -1,19 +1,20 @@
 ---
-title: Anwendungsinformationen für Karten-Pro von Witivio
+title: Application Information for Map Pro by Witivio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Karten-Pro, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f2c2f42e39532b69cfbe3638b9ff6f3064658de4
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 45c418313420adbda7d9105383157a64025465bb
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255411"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541553"
 ---
 # <a name="map-pro"></a>Map Pro
 
@@ -34,13 +35,13 @@ Von Witivio für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Map Pro |
 | ID | WA200003434 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Witivio |
 | Website des Unternehmens | [https://www.witivio.com](https://www.witivio.com) |
 | Nutzungsbedingungen der App | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
 | Kernfunktionen der App | Map Pro ist eine Anwendung für Microsoft Teams, die eine Karte in einem Ihrer Kanäle anzeigt. |
 | Firmenstandort | Frankreich |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.teams-pro.com/en/browse-apps/map-pro/](https://www.teams-pro.com/en/browse-apps/map-pro/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -108,9 +109,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -166,15 +167,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
->| email | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
->| offline_access | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
->| openid | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
->| Profil | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](https://docs.microsoft.com/microsoft-365-app-certification/azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175) |
+>| User.Read | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
+>| email | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
+>| offline_access | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
+>| openid | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
+>| profile | Delegiert | Microsoft Teams SSO | [d44d071f-a9e5-4f99-b72e-5ab38cd7b175](../azure/d44d071f-a9e5-4f99-b72e-5ab38cd7b175.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

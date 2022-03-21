@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Classroom.cloud von NETSUPPORT LTD.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Classroom.cloud, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Classroom.cloud, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4e7fce8118f65a9fb01153baa2ccef8a1282df3c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0c3ea969681ec5139ed762346729bcf444d2f4b7
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260825"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540663"
 ---
 # <a name="classroomcloud"></a>Classroom.cloud
 
@@ -38,9 +39,8 @@ Von NETSUPPORT LTD bereitgestellte Informationen. an Microsoft:
 | Nutzungsbedingungen der App | [https://classroom.cloud/terms-of-service/](https://classroom.cloud/terms-of-service/) |
 | Kernfunktionen der App | Low cost cloud based classroom management, instruction and online safety for schools and classroom.  |
 | Firmenstandort | Vereinigtes Königreich Großbritannien und Nordirland (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.classroom.cloud](https://www.classroom.cloud) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,24 +106,24 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Ja |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Ja |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -157,8 +157,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | N/V |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | MFA, Nach IP/Gerät einschränken, Zugriff nur auf registrierte Geräte  |
@@ -166,16 +166,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| ChannelMessage.Read.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| ChannelSettings.Read.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| Chat.Read.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| Directory.Read.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
->| Team.ReadBasic.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| Channel.ReadBasic.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| ChannelMessage.Read.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| ChannelSettings.Read.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| Chat.Read.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| Directory.Read.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
+>| Team.ReadBasic.All | Anwendung | Wird für Teams Integration von classroom.cloud verwendet, um die Onlinesicherheitsüberwachung von Schüler-Chats bereitzustellen. | [99455ec0-6207-4889-9c8c-96216a274a6b](../azure/99455ec0-6207-4889-9c8c-96216a274a6b.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

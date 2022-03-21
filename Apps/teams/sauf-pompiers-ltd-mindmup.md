@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für MindMup von Sauf Pomiers Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MindMup, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 444684a90c21789306ab4efcfddeb7c40e5dbef1
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 45b9d14a0a5c1098769bbf456d793f01c47ca33b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256483"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543393"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -34,14 +35,15 @@ Informationen, die von Sauf Holdingiers Ltd an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | MindMup |
 | ID | WA200001759 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Sauf Pompiers Ltd |
 | Website des Unternehmens | [https://www.mindmup.com](https://www.mindmup.com) |
 | Nutzungsbedingungen der App | [https://www.mindmup.com/resources/terms_mindmup.html](https://www.mindmup.com/resources/terms_mindmup.html) |
 | Kernfunktionen der App | MindMup ermöglicht Benutzern die einfache Visualisierung von Ideen mitHilfe von Mindmaps, Diagrammen, Konzeptkarten, Argumentvisualisierungen und hierarchischen Diagrammen. |
 | Firmenstandort | Vereinigtes Königreich Großbritannien und Nordirland (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.mindmup.com/tutorials/microsoft-teams.html](https://www.mindmup.com/tutorials/microsoft-teams.html) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Sauf Holdingiers Ltd bereitgestellt, wie diese Ap
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nach 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -162,12 +157,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Teams.ReadBasic.All | Delegiert | Teambezeichner und Teamnamen für Benutzer | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
->| User.Read | Delegiert | Benutzer-ID, E-Mail-Adresse, die nach der Authentifizierung angezeigt werden soll | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
+>| Teams.ReadBasic.All | Delegiert | Teambezeichner und Teamnamen für Benutzer | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](../azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2.md) |
+>| User.Read | Delegiert | Benutzer-ID, E-Mail-Adresse, die nach der Authentifizierung angezeigt werden soll | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](../azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

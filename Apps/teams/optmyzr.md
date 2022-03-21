@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Optmyzr von Optmyzr
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Optmyzr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Optmyzr, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2148921184a437b4abedc7c68ff257389df6c1d0
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 9db6120ea0f998f2875f9f30686079bd4f752af9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148994"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542163"
 ---
 # <a name="optmyzr"></a>Optmyzr
 
@@ -34,13 +35,13 @@ Von Optmyzr für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Optmyzr |
 | ID | WA200003395 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Optmyzr |
 | Website des Unternehmens | [https://www.optmyzr.com](https://www.optmyzr.com) |
 | Nutzungsbedingungen der App | [https://www.optmyzr.com/information/terms-of-use/](https://www.optmyzr.com/information/terms-of-use/) |
 | Kernfunktionen der App | https://www.optmyzr.com/information/terms-of-use/ |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.optmyzr.com/capabilities/reporting/](https://www.optmyzr.com/capabilities/reporting/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 

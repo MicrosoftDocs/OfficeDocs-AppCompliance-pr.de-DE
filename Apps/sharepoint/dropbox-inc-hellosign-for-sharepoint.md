@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für HelloSign für SharePoint von Dropbox Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für HelloSign für SharePoint, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für HelloSign für SharePoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4f35be46f70d1efd5bb0cdbd030f78cc82c67e23
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: df22a223c5f19a022abff6559d7b0a9fc69dae5a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256811"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541803"
 ---
 # <a name="hellosign-for-sharepoint"></a>HelloSign für SharePoint
 
@@ -39,7 +40,7 @@ Informationen, die von Dropbox Inc. an Microsoft bereitgestellt werden:
 | Nutzungsbedingungen der App | [https://hellosign.com/terms](https://hellosign.com/terms) |
 | Kernfunktionen der App | Die digitale Workflowplattform von HelloSign&#8217;&#8211;, die eSignature-, digitale Workflow- und elektronische Faxlösungen umfasst, &#8212; über 80.000 Kunden und Millionen von Personen bei der schnelleren Geschäftstätigkeit unterstützt. Wir helfen unseren Kunden, Angebote schneller zu schließen, Neueinstellungen einfach zu integrieren, Dokumente ohne Fehler zu vervollständigen und vieles mehr. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.hellosign.com/integrations](https://www.hellosign.com/integrations) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
@@ -122,8 +123,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Ja |
 | Entspricht die App NIST 800-171? | Nein |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Ja |
@@ -165,13 +166,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | Anwendung | So laden Sie elektronisch signierte Dateien wieder in SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
->| Sites.ReadWrite.All | Anwendung | So laden Sie elektronisch signierte Dateien wieder in SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
->| User.Read | Delegiert | So rufen Sie die E-Mail-Adresse des Benutzers ab | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
+>| Files.ReadWrite.All | Anwendung | So laden Sie elektronisch signierte Dateien zurück in SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](../azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6.md) |
+>| Sites.ReadWrite.All | Anwendung | So laden Sie elektronisch signierte Dateien zurück in SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](../azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6.md) |
+>| User.Read | Delegiert | So rufen Sie die E-Mail-Adresse des Benutzers ab | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](../azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

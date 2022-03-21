@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Arrangr von Arrangr, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Arrangr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1f1798cd6741c6cafdd33defe8b8e713ac58eab5
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 01efc28d2ed0fc6c4510124d7a040beff7fe4c4e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155338"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540613"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -34,13 +35,13 @@ Von Arrangr, Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Arrangr |
 | ID | WA200002975 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Arrangr, Inc. |
 | Website des Unternehmens | [https://arrangr.com](https://arrangr.com) |
 | Nutzungsbedingungen der App | [https://arrangr.com/terms_of_use](https://arrangr.com/terms_of_use) |
 | Kernfunktionen der App | Arrangr ist ein intelligenter integrierter Planer für jede Besprechung. Ob persönlich oder remote, 1:1 oder mit einer Gruppe– Arrangr ist einfach und schnell. Arrangr lässt sich in Microsoft-Kalender integrieren, um Ihre gebuchten Zeiten einfach und schnell zu blockieren, Ihren Zeitplan zu visualisieren und sicherzustellen, dass Ihre Besprechungen in Ihren Kalender eingefügt werden. Darüber hinaus können Sie mit unserer Teams-Integration ganz einfach Einladungen mit Teamkameraden teilen, neue Besprechungen innerhalb Teams initiieren und Ihre Arrangr-Besprechungen auf einer Teams Registerkarte nachverfolgen. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://arrangr.com/welcome](https://arrangr.com/welcome) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | GCP |
 

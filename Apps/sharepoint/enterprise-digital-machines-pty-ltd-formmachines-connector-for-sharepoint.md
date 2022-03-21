@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für FormMachines Connector für SharePoint von ENTERPRISE DIGITAL MACHINES PTY LTD
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für FormMachines Connector für SharePoint, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für FormMachines Connector für SharePoint, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 783077ad6e5fdef936068d0b8224fd9516b8c1f2
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: 96e0b86891d8e94ecbd007e1e58510fd6314fcdb
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209590"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544513"
 ---
 # <a name="formmachines-connector-for-sharepoint"></a>FormMachines Connector für SharePoint
 
@@ -32,13 +33,13 @@ Von ENTERPRISE DIGITAL MACHINES PTY LTD an Microsoft bereitgestellte Information
 |:----------------|:-------------|
 | App-Name | FormMachines Connector für SharePoint |
 | ID | WA200000357 |
-| Office 365 unterstützten Clients | SharePoint 2016 oder höher |
+| unterstützte Office 365-Clients | SharePoint 2016 oder höher |
 | Name des Partnerunternehmens | ENTERPRISE DIGITAL MACHINES PTY LTD |
 | Website des Unternehmens | [https://www.formmachines.com](https://www.formmachines.com) |
 | Nutzungsbedingungen der App | [https://www.formmachines.com/dist/docs#/statements_and_agre...](https://www.formmachines.com/dist/docs#/statements_and_agreements/terms_of_service) |
 | Kernfunktionen der App | Stellt FormMachines für Teams die Möglichkeit zum Lesen und Schreiben in SharePoint Listen bereit. |
 | Firmenstandort | Australien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.formmachines.com](https://www.formmachines.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -72,7 +73,7 @@ Diese Informationen wurden von ENTERPRISE DIGITAL MACHINES PTY LTD darüber bere
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -155,7 +156,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |

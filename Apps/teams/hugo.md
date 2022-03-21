@@ -2,18 +2,19 @@
 title: Application Information for Wiesn by Aufschluss
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/10/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Denz, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 408d46c4352292e2c5ad4320675f0283fc65dc16
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d05c1839ed59c6308ab621f6e3114e262e6f4e4a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147963"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542973"
 ---
 # <a name="hugo"></a>Hugo
 
@@ -34,15 +35,14 @@ Informationen, die von Einer für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Hugo |
 | ID | WA200003616 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Hugo |
 | Website des Unternehmens | [https://www.hugo.team](https://www.hugo.team) |
 | Nutzungsbedingungen der App | [https://www.hugo.team/terms](https://www.hugo.team/terms) |
-| Kernfunktionen der App | Einer der Orte für Besprechungen, Notizen und Aufgaben &#8211; für Teams entwickelt, die Microsoft Teams verwenden. Die kalenderorientierte Notizenplattform von Maustasten bietet Ihnen und Ihrem Team einen zentralen Ort für Besprechungstermine und Notizen, Aufgaben und Aktionen &#8211; alle automatisch von den Kontakten und Unternehmen organisiert werden, die Sie treffen und mit den über 20 Apps verbunden sind, die Sie täglich verwenden. |
+| Kernfunktionen der App | Dies ist ein Ort für Besprechungen, Notizen und Aufgaben, &#8211; für Teams entwickelt wurden, die Microsoft Teams verwenden. Mit der kalenderzentrierten Notizenplattform von Maustaste erhalten Sie und Ihr Team einen zentralen Ort für Besprechungs-Agenden und Notizen, Aufgaben und Aktionen &#8211; alle automatisch von den Kontakten und Unternehmen organisiert werden, die Sie treffen und mit den über 20 Apps verbunden sind, die Sie täglich verwenden. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.hugo.team/teams](https://www.hugo.team/teams) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

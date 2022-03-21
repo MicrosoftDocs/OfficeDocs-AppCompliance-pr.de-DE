@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Salesforce nach salesforce.com
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Salesforce, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fced2d4e5d9587512aa05d94dec3b04d68f332e3
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a25d57beea2c55251723aaf26c2e11be5662ac8c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250295"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544573"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -37,10 +38,11 @@ Informationen, die von salesforce.com an Microsoft bereitgestellt werden:
 | Name des Partnerunternehmens | salesforce.com |
 | Website des Unternehmens | [https://www.salesforce.com](https://www.salesforce.com) |
 | Nutzungsbedingungen der App | [https://www.salesforce.com/content/dam/web/en_us/www/docume...](https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/software-order-form-supplements/Salesforce_Outlook_TOU_Order_Form_Addendum.pdf) |
-| Kernfunktionen der App | Ermöglicht Ihnen, Salesforce direkt in Outlook zu erleben. Die Integration erfolgt zu 100 % cloudbasiert ohne Software zum Pushen, Installieren oder Warten. Zeigen Sie alle Kontakte, Leads, Konten, Verkaufschancen und Fälle im Zusammenhang mit E-Mails und Terminen an, ohne zwischen Salesforce und Outlook zu wechseln. Ihre Salesforce-Daten werden direkt in Outlook angezeigt. Erstellen Sie neue Salesforce-Datensätze, einschließlich benutzerdefinierter Objekteinträge, direkt in Outlook. Hinzufügen von E-Mails und Terminen zu Salesforce-Datensätzen mit einem Klick, auch beim Verfassen |
+| Kernfunktionen der App | Ermöglicht Es Ihnen, Salesforce direkt in Outlook zu erleben. Die Integration erfolgt zu 100 % cloudbasiert ohne Software zum Pushen, Installieren oder Warten. Zeigen Sie alle Kontakte, Leads, Konten, Verkaufschancen und Fälle im Zusammenhang mit E-Mails und Terminen an, ohne zwischen Salesforce und Outlook zu wechseln. Ihre Salesforce-Daten werden direkt in Outlook angezeigt. Erstellen Sie neue Salesforce-Datensätze, einschließlich benutzerdefinierter Objekteinträge, direkt in Outlook. Hinzufügen von E-Mails und Terminen zu Salesforce-Datensätzen mit einem Klick, auch beim Verfassen |
 | Firmenstandort | Vereinigte Staaten von Amerika |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Diese Informationen wurden von salesforce.com darüber bereitgestellt, wie diese
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -152,7 +147,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Mailbutler von Mailbutler
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mailbutler, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a2ddc871a1be8a15f2f1de222349b8a80f224ddd
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 9b3ff23c3e8a8f27c53101116930f73f456f1d34
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200623"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540923"
 ---
 # <a name="mailbutler"></a>Mailbutler
 
@@ -33,13 +34,13 @@ Von Mailbutler an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Mailbutler |
 | ID | WA200001031 |
-| Office 365 unterstützten Clients | Outlook 2016 oder höher auf Windows, Outlook 2016 oder höher auf Dem Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2016 oder höher auf Windows, Outlook 2016 oder höher auf Dem Mac Outlook im Web |
 | Name des Partnerunternehmens | Mailbutler |
 | Website des Unternehmens | [https://www.mailbutler.io](https://www.mailbutler.io) |
 | Nutzungsbedingungen der App | [https://www.mailbutler.io/terms-and-conditions](https://www.mailbutler.io/terms-and-conditions) |
 | Kernfunktionen der App | Mailbutler ist das E-Mail-Plug-In, das Ihnen alles bietet, was Sie benötigen, um Ihre Produktivität zu maximieren und Ihre E-Mails auf dem laufenden zu halten. Mailbutler bietet eine Vielzahl nützlicher Features zur Steigerung der Produktivität, auf die Sie direkt in Ihrem Posteingang zugreifen können. Die Features helfen Ihnen dabei, die Kundenkommunikation zu verbessern, auf dem Laufenden zu bleiben, Ihr E-Mail-Spiel zu optimieren und vieles mehr. |
 | Firmenstandort | Deutschland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.mailbutler.io](https://www.mailbutler.io) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
@@ -156,7 +157,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |

@@ -1,19 +1,20 @@
 ---
-title: Anwendungsinformationen für Webanwendungen für Die Cloud Office Add-In von Maustasteasoft Austria GmbH
+title: Anwendungsinformationen für Labsasoft Cloud Office-Add-In von Maustasteasoft Austria GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Das Microsoft Cloud Office Add-In, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Das Microsoft Cloud Office Add-In, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ebd7a4f5bc9b99a84178204862d6be573d962365
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: ffa37aebbe02e7583b967712fc1ce6ca96dc36e9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200999"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541203"
 ---
 # <a name="fabasoft-cloud-office-add-in"></a>Fabrikasoft Cloud Office-Add-In
 
@@ -33,15 +34,14 @@ Informationen, die von Derasoft Austria GmbH an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Fabrikasoft Cloud Office-Add-In |
 | ID | WA200002917 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | Fabasoft Austria GmbH |
 | Website des Unternehmens | [https://www.fabasoft.com](https://www.fabasoft.com) |
 | Nutzungsbedingungen der App | [https://www.fabasoft.com/terms-of-use](https://www.fabasoft.com/terms-of-use) |
 | Kernfunktionen der App | Freigeben Ihrer Geschäftsdaten aus der Labsasoft Business Process Cloud |
 | Firmenstandort | Österreich |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.fabasoft.com/fabasoft-business-process-cloud](https://www.fabasoft.com/fabasoft-business-process-cloud) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +56,7 @@ Diese Informationen wurden von Derssoft Austria GmbH bereitgestellt, wie diese A
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +147,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |

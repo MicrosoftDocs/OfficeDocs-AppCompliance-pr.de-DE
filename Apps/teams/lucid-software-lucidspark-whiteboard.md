@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Lucidspark Whiteboard von Lucid Software
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Lucidspark Whiteboard, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c8ce523115fff2910606ea519118d6b2e14131e9
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 58fdab0102f3a7498e3631472f6ad9a22ea11c2e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253641"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544383"
 ---
 # <a name="lucidspark-whiteboard"></a>Lucidspark Whiteboard
 
@@ -34,14 +35,15 @@ Von Lucid Software für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Lucidspark Whiteboard |
 | ID | WA200002583 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Lucid Software |
 | Website des Unternehmens | [https://lucid.co](https://lucid.co) |
 | Nutzungsbedingungen der App | [https://lucid.co/tos](https://lucid.co/tos) |
-| Kernfunktionen der App | Lucidspark ist ein cloudbasiertes virtuelles Whiteboard, in dem Teams ihre besten Ideen ans Licht bringen können. Brainstorming und Zusammenarbeit als Team in Echtzeit, unabhängig davon, ob Sie remote oder persönlich arbeiten&#8217;. Lucidspark hilft Personen beim Organisieren von Notizen und Scribbles und zum Umwandeln in präsentationsfähige Konzepte. Wenn es&#8217;Zeit für die nächsten Schritte ist, können Teams Workflows entwickeln und Dokumente verarbeiten, um Ideen zu realisieren. |
+| Kernfunktionen der App | Lucidspark ist ein cloudbasiertes virtuelles Whiteboard, in dem Teams ihre besten Ideen ans Licht bringen können. Brainstorming und Zusammenarbeit als Team in Echtzeit, unabhängig davon, ob Sie remote oder persönlich arbeiten&#8217;. Lucidspark hilft Personen beim Organisieren von Notizen und Scribbles und zum Umwandeln in präsentationsfähige Konzepte. Wenn es zeit für die nächsten Schritte&#8217;, können Teams Workflows entwickeln und Dokumente verarbeiten, um Ideen zu realisieren. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://lucidchart.zendesk.com](https://lucidchart.zendesk.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Lucid Software dazu bereitgestellt, wie diese App
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nach 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +66,7 @@ Diese Informationen wurden von Lucid Software dazu bereitgestellt, wie diese App
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -122,7 +117,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Ja |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Ja |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,13 +157,13 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | Delegiert | Name und E-Mail-Adresse. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
->| openid | Delegiert | Name und E-Mail-Adresse. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
->| Profil | Delegiert | Name und E-Mail-Adresse. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| email | Delegiert | Name und E-Mail-Adresse. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](../azure/3557d5c0-bcab-410b-8a03-f7045aa48de0.md) |
+>| openid | Delegiert | Name und E-Mail-Adresse. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](../azure/3557d5c0-bcab-410b-8a03-f7045aa48de0.md) |
+>| profile | Delegiert | Name und E-Mail-Adresse. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](../azure/3557d5c0-bcab-410b-8a03-f7045aa48de0.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
