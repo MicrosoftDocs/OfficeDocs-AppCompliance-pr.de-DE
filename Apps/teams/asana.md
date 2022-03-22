@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Diess von (
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mof, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7584452f5246862ee1e3f38c3c4a6dca619a1f7a
-ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
+ms.openlocfilehash: 0efa564d96cce27cd315969fea46d4ce34427cc3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62795809"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545503"
 ---
 # <a name="asana"></a>Asana
 
@@ -34,13 +35,13 @@ Informationen, die von Ihnen an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Asana |
 | ID | WA200001727 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Asana |
 | Website des Unternehmens | [https://asana.com](https://asana.com) |
 | Nutzungsbedingungen der App | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
-| Kernfunktionen der App | Halten Sie die Arbeit auf dem Laufenden, indem Sie Teams Unterhaltungen in Aktionselemente wie Besprechungen übersetzen. |
+| Kernfunktionen der App | Halten Sie die Arbeit im Blick, indem Sie Teams Unterhaltungen in Aktionselemente wie Besprechungen übersetzen. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://asana.com/apps/microsoft](https://asana.com/apps/microsoft) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von Wiesn bereitgestellt, wie diese App Organisations
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

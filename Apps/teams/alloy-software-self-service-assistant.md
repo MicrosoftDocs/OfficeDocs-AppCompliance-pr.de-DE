@@ -1,19 +1,20 @@
 ---
-title: Application Information for Aufsteigen Self-Service Assistant von Der Software
+title: Application Information for Self-Service Assistant by Durchstellungssoftware
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Assistenten für die Behandlung von Self-Service, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Assistenten für die Behandlung von Self-Service, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 601a3252b342cd64d01d0bc95c1105d06d6cd415
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 43f94e5fc6e97a7a8691089d8fa2b5a1ef498a3c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148944"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545523"
 ---
 # <a name="alloy-self-service-assistant"></a>Alloy Self-Service Assistant
 
@@ -34,13 +35,13 @@ Informationen, die von Der Software für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Alloy Self-Service Assistant |
 | ID | WA200003492 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Alloy Software |
 | Website des Unternehmens | [https://alloysoftware.com](https://alloysoftware.com) |
 | Nutzungsbedingungen der App | [https://www.alloysoftware.com/resources/eula/](https://www.alloysoftware.com/resources/eula/) |
 | Kernfunktionen der App | Erstellen Sie Service Desk-Tickets, durchsuchen Sie die Wissensdatenbank, und genehmigen Sie Anforderungen. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://docs.alloysoftware.com/alloynavigator/2021/docs/int...](https://docs.alloysoftware.com/alloynavigator/2021/docs/integrations/topics/microsoft-teams-bot.htm) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 

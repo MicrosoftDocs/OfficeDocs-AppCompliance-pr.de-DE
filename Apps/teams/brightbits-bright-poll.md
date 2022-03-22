@@ -2,18 +2,19 @@
 title: Application Information for Bright Poll by BrightBits
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Bright Poll, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 46f5ce9f928771544547f4b22e08d650e594c559
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4a6f122940de3dcf5a42f810cf813a0a3050fff1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081104"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545473"
 ---
 # <a name="bright-poll"></a>Bright Poll
 
@@ -40,7 +41,7 @@ Von BrightBits für Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://brightbits.app/terms/](https://brightbits.app/terms/) |
 | Kernfunktionen der App | Sammeln Sie Feedback von Teamkameraden über In-Chat-Umfragen. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://brightbits.app/bright-poll/](https://brightbits.app/bright-poll/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws, Heroku |
 
@@ -61,7 +62,7 @@ Diese Informationen wurden von BrightBits darüber bereitgestellt, wie diese App
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofildaten |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Nein |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nicht beibehalten |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |

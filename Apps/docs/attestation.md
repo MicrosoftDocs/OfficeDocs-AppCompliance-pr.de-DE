@@ -1,26 +1,27 @@
 ---
-title: Vollständige Publisher Nachweis
+title: Abschließen des Herausgebernachweises
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: Weitere Informationen zum Publisher Attestation-Programm
 keywords: App-Nachweiszertifizierung 365 Fragebogen appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 286d14e580bdb9f24ccf1754685ebeeaef6d0c11
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d702fbf27a326f916ee5bd5f89a0b0b7f2ae6c17
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282236"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63692647"
 ---
-# <a name="complete-publisher-attestation"></a>Vollständige Publisher Nachweis
+# <a name="complete-publisher-attestation"></a>Abschließen des Herausgebernachweises
 
-Publisher Der Nachweis ist ein freiwilligen Programm, bei dem Sie eine Selbstbewertung der Sicherheits-, Datenverarbeitungs- und Compliancepraktiken Ihrer App durchführen. Die von Ihnen bereitgestellten Informationen werden Ihren Kunden angezeigt, damit sie Ihre App besser bewerten können, bevor sie für ihre Organisation aktiviert wird. 
+Publisher Nachweis ist ein freiwilligen Programm, bei dem Sie eine Selbstbewertung der Sicherheits-, Datenverarbeitungs- und Compliance-Praktiken Ihrer App durchführen. Die von Ihnen bereitgestellten Informationen werden Ihren Kunden angezeigt, damit sie Ihre App besser bewerten können, bevor sie für ihre Organisation aktiviert wird. 
 
 > [!IMPORTANT]
 > Microsoft überprüft die zur Verfügung gestellten Informationen nicht. Der Entwickler ist allein für die Informationen verantwortlich, die er in der Selbstbewertung bereitstellt. 
 
-Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden). SaaS-Apps befinden sich derzeit in einer privaten Vorschau, wenn Sie daran teilnehmen möchten, füllen Sie dieses [Formular](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)aus. Der Nachweis umfasst auch alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
+Publisher Nachweis gilt für Web Apps (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden). SaaS-Apps befinden sich derzeit in einer privaten Vorschau, wenn Sie daran teilnehmen möchten, füllen Sie dieses [Formular](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu) aus. Der Nachweis umfasst auch alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
 - Microsoft Teams
 - Word
 - Excel
@@ -42,9 +43,9 @@ Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerzielle
 
 ## <a name="publisher-attestation-process"></a>Publisher Nachweisprozess
 
-1. **Teilnehmen** – Der Publisher Nachweis ist jetzt in [Partner Center](https://partner.microsoft.com)integriert. Sie können den Nachweis in einem benutzerfreundlichen Fragebogen innerhalb des Partner Centers ausfüllen. Den schrittweisen Prozess finden Sie in unseren [Office Store-](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide) und Commercial Marketplace-Benutzerhandbüchern. [](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide)
+1. **Teilnehmen** – Der Publisher Attestation ist jetzt in [Partner Center](https://partner.microsoft.com) integriert. Sie können den Nachweis in einem benutzerfreundlichen Fragebogen innerhalb des Partner Centers ausfüllen. Den schrittweisen Prozess finden Sie in unseren [Office Store](../docs/userguide.md) [und Commercial Marketplace-Benutzerhandbüchern](../docs/saasuserguide.md).
 
-2. **Warten Sie auf Feedback und Ergebnisse** der Rezension . Wenn Analysten während der Konsistenzüberprüfung Blockierungsprobleme wie etwa fehlerhafte Antwortdaten finden, werden Sie für weitere Informationen kontaktiert. Analysten führen während des gesamten Prozesses ein App-Aktivitätsprotokoll mit Detaillierten Überprüfungsergebnissen und Ihren Nachverfolgungsübermittlungen. Nachdem festgestellt wurde, dass Ihr Nachweisbericht abgeschlossen ist und Ihre Antworten akzeptabel sind, wird Ihre Übermittlung genehmigt. Ihr Genehmigungsstatus ist ab dem Zeitpunkt der Übermittlung ein Jahr lang gültig.
+2. **Warten Sie auf Feedback und Ergebnisse der Rezension** . Wenn Analysten während der Konsistenzüberprüfung Blockierungsprobleme wie etwa fehlerhafte Antwortdaten finden, werden Sie für weitere Informationen kontaktiert. Analysten führen während des gesamten Prozesses ein App-Aktivitätsprotokoll mit Detaillierten Überprüfungsergebnissen und Ihren Nachverfolgungsübermittlungen. Nachdem festgestellt wurde, dass Ihr Nachweisbericht abgeschlossen ist und Ihre Antworten akzeptabel sind, wird Ihre Übermittlung genehmigt. Ihr Genehmigungsstatus ist ab dem Zeitpunkt der Übermittlung ein Jahr lang gültig.
 
 > [!NOTE]
 > Wenn Sie innerhalb des Vorläufigen Genehmigungsstatus Ihre App aktualisieren oder ändern oder eine Benachrichtigung über gemeldete Falschinformationen zur Übermittlung von Nachweisübermittlungen erhalten, müssen Sie Ihre Dokumentation überarbeiten und erneut übermitteln.
@@ -55,18 +56,18 @@ Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerzielle
    - Links zu einer detaillierten Kopie Ihrer übermittelten Informationen.
    - Eine Deklaration, dass die bereitgestellten Informationen auf Ihrem übermittelten Nachweisbericht basieren.
 
-*Siehe* z. [B. Microsoft Teams App Security and Compliance](../teams/teams-apps.md)
+Siehe z. B *.* [Microsoft Teams App Security and Compliance](../teams/teams-apps.md)
 
 4. **Überprüfung und erneute Übermittlung** – Ihr Publisher Nachweis muss jährlich erneut übermittelt werden. Wenn sich Ihr Nachweis der Ein-Jahres-Marke nähert, erhalten Sie eine Benachrichtigung über Partner Center, die zu einer erneuten Übermittlung Ihres Attests auffordert. 
 
-   Wenn Ihr Publisher Attestation nicht vor dem Ablaufdatum verlängert wird, wird der Status des App-Nachweiss widerrufen, und Ihr Publisher Attestation wird aus den Microsoft-Dokumentenseiten entfernt. 
+   Wenn Ihr Publisher Attestation nicht vor dem Ablaufdatum verlängert wird, wird der App-Nachweisstatus widerrufen, und Ihr Publisher Nachweis wird aus den Microsoft-Dokumentenseiten entfernt. 
 
 >[!IMPORTANT]
 >Durch die Teilnahme am Publisher Attestation-Programm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle Begleitdokumentationen ein, die für Ihre Teilnahme am Publisher Attestation-Programm bei der Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für den Publisher Nachweis im Namen von sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder beenden. Ihre fortgesetzte Teilnahme am Publisher Attestation-Programm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bedingungen nicht zustimmen oder wenn wir diese Bedingungen kündigen, müssen Sie die Teilnahme am Publisher Attestation-Programm beenden.
 
 ## <a name="learn-more"></a>Weitere Informationen
 
-* [Microsoft 365 Übersicht über das App-Complianceprogramm](~/overview.md)  
-* [Abschließen Publisher Überprüfung](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
+* [Übersicht über das Microsoft 365 App Compliance-Programm](~/overview.md)  
+* [Abschließen der Herausgeberüberprüfung](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
 * [Was ist Publisher Nachweis?](~/docs/enterprise-app-attestation-guide.md)  
-* [Abschließen Microsoft 365 Zertifizierung](~/docs/certification.md)
+* [Durchführen einer Microsoft 365-Zertifizierung](~/docs/certification.md)

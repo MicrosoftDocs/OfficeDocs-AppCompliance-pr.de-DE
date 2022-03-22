@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für BlackBerry AtHoc von BlackBerry
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für BlackBerry AtHoc, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b464dadfb27569abc0760555464fe646c3e51730
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1da987ba517d6e4f6dc3b4d487c441e2ccd50d79
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251721"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545493"
 ---
 # <a name="blackberry-athoc"></a>BlackBerry AtHoc
 
@@ -34,14 +35,15 @@ Von BlackBerry für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | BlackBerry AtHoc |
 | ID | WA200003065 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | BlackBerry |
 | Website des Unternehmens | [https://www.blackberry.com](https://www.blackberry.com) |
 | Nutzungsbedingungen der App | [https://www.athoc.com/pss/terms.html#](https://www.athoc.com/pss/terms.html#) |
-| Kernfunktionen der App | Die Integration von BlackBerry AtHoc in Teams bietet nahtlose kritische Ereignisverwaltung in Ihrer Organisation &#8211; alle von einer vertrauten Benutzeroberfläche, auf der Sie sich bereits authentifiziert&#8217;. Ohne Teams verlassen zu müssen, ermöglicht die BlackBerry AtHoc-Integration Notfall- und Vorfallmanagern: &#8226; Warnungen mit einem Klick auf jedem Gerät veröffentlichen, &#8226; vordefinierte Verteilergruppen in Teams &#8226; zusammenarbeiten innerhalb Teams, um Vorfälle in Echtzeit zu verwalten |
+| Kernfunktionen der App | Die Integration von BlackBerry AtHoc in Teams bietet eine nahtlose, kritische Ereignisverwaltung in Ihrer Organisation &#8211; alle von einer vertrauten Benutzeroberfläche, auf der Sie bereits authentifiziert&#8217;. Ohne Teams zu bleiben, ermöglicht die BlackBerry AtHoc-Integration Notfall- und Vorfallmanagern, mit einem Klick Warnungen auf jedem Gerät &#8226; veröffentlichen, &#8226; vordefinierte Verteilergruppen in Teams &#8226; zusammenarbeiten, um Vorfälle in Echtzeit in Teams zu verwalten. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.blackberry.com/us/en/products/blackberry-athoc](https://www.blackberry.com/us/en/products/blackberry-athoc) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure, AWS, SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von BlackBerry darüber bereitgestellt, wie diese App
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb eines Monats gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,9 +100,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -120,9 +115,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Ja |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,16 +157,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMessage.Send | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| Group.Read.All | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| User.Read | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| email | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| openid | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| Profil | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| ChannelMessage.Send | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| Group.Read.All | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| User.Read | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| email | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| openid | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| profile | Delegiert | Wir greifen auf die grundlegenden Details des Benutzers&#8217;zu, z. B. den Prinzipalnamen und den Link zum allgemeinen Kanal für Teams (für den der angemeldete Benutzer autorisiert ist), um die Benachrichtigungskarte an die Teams zu senden. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,19 +2,19 @@
 title: Anwendungsinformationen für casedoc Virtual Hearing von Casedoc
 ms.author: elmalova
 author: elenamalova
-ms.manager: tonybal
+manager: tonybal
 ms.date: 03/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Casedoc Virtual Hearing, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9d0b7d3800ad464cc49ab2afc7af483dd0de24b
-ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
+ms.openlocfilehash: 1baabac739db8e5bd286386eec6835d443de181b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63424643"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546103"
 ---
 # <a name="casedoc-virtual-hearing"></a>Casedoc Virtual Hearing
 
@@ -161,20 +161,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.ReadWrite.All | Delegiert | So fügen Sie die App aus dem App-Katalog zu einer Besprechung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Calendars.ReadWrite | Delegiert | So können Sie Besprechungsupdates abonnieren | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Calendars.ReadWrite | Anwendung | So können Sie die Besprechung erstellen | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Directory.ReadWrite.All | Anwendung | So können Sie die Gruppe erstellen, die der Besprechung zugeordnet ist | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Files.ReadWrite.All | Delegiert | So ermöglichen Sie Benutzern das Hochladen einer Datei in eine Besprechungsgruppe | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Files.ReadWrite.All | Anwendung | Ermöglicht der Anwendung, Besprechungsdaten in die Besprechungsgruppe hochzuladen | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| Group.ReadWrite.All | Anwendung | So aktivieren Sie die Anwendung zum Erstellen einer Gruppe, die einer Besprechung zugeordnet ist | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| MailboxSettings.Read | Anwendung | So aktivieren Sie die Anwendung zum Lesen der Zeitzone von Benutzern | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| OnlineMeetings.ReadWrite | Delegiert | So aktivieren Sie das Markieren des Besprechungstyps | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsAppInstallation.ReadForUser | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsTab.Create | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| TeamsTab.ReadWrite.All | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
->| User.Read.All | Anwendung | Ermöglicht der App, Benutzerprofile ohne angemeldeten Benutzer zu lesen. | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| AppCatalog.ReadWrite.All | Delegiert | So fügen Sie die App aus dem App-Katalog zu einer Besprechung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| Calendars.ReadWrite | Delegiert | So können Sie Besprechungsupdates abonnieren | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| Calendars.ReadWrite | Anwendung | So können Sie die Besprechung erstellen | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| Directory.ReadWrite.All | Anwendung | So können Sie die Gruppe erstellen, die der Besprechung zugeordnet ist | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| Files.ReadWrite.All | Delegiert | So ermöglichen Sie Benutzern das Hochladen einer Datei in eine Besprechungsgruppe | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| Files.ReadWrite.All | Anwendung | Ermöglicht der Anwendung, Besprechungsdaten in die Besprechungsgruppe hochzuladen | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| Group.ReadWrite.All | Anwendung | So aktivieren Sie die Anwendung zum Erstellen einer Gruppe, die einer Besprechung zugeordnet ist | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| MailboxSettings.Read | Anwendung | So aktivieren Sie die Anwendung zum Lesen der Zeitzone von Benutzern | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| OnlineMeetings.ReadWrite | Delegiert | So aktivieren Sie das Markieren des Besprechungstyps | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| TeamsAppInstallation.ReadForUser | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| TeamsAppInstallation.ReadWriteSelfForUser | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| TeamsTab.Create | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| TeamsTab.ReadWrite.All | Delegiert | So fügen Sie der Besprechung die Anwendung hinzu | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
+>| User.Read.All | Anwendung | Ermöglicht der App, Benutzerprofile ohne angemeldeten Benutzer zu lesen. | [3e701664-cc46-49e4-b356-1a7ac6500998](../azure/3e701664-cc46-49e4-b356-1a7ac6500998.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

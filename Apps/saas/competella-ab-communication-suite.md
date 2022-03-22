@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Competella Communication Suite von Competella AB
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Competella Communication Suite, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Competella Communication Suite, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8e45f390c1fc34999d5810880ad45d69386598db
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 5e6f806bd57ccb503f7d8052b56e632aea2ff321
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148017"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546133"
 ---
 # <a name="competella-communication-suite"></a>Competella Communication Suite
 
@@ -38,7 +39,7 @@ Von Competella AB für Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://www.competella.com](https://www.competella.com) |
 | Kernfunktionen der App | Eine Contact Center- und Attendant Console-Lösung für hervorragenden Kundendienst mit Microsoft Teams. |
 | Firmenstandort | Schweden |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://competella.com/Solutions%20for%20Teams/overview](https://competella.com/Solutions%20for%20Teams/overview) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 

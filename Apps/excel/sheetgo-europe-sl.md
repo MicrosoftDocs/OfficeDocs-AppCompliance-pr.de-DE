@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Sheetgo von SHEETGO EUROPE SL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sheetgo, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 96f6d9645f7cc2ad601e0d366b5a73e7119e0aee
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 625079885956c18847f3fb1b0032b7dc57b0134c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147807"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546913"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -33,13 +34,13 @@ Von SHEETGO EUROPE SL für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Sheetgo |
 | ID | WA200002128 |
-| Office 365 unterstützten Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows Excel im Web |
+| unterstützte Office 365-Clients | Excel 2016 oder höher auf dem Mac, Excel 2016 oder höher auf Windows Excel im Web |
 | Name des Partnerunternehmens | SHEETGO EUROPE SL |
 | Website des Unternehmens | [https://www.sheetgo.com](https://www.sheetgo.com) |
 | Nutzungsbedingungen der App | [https://www.sheetgo.com/legal/terms/](https://www.sheetgo.com/legal/terms/) |
-| Kernfunktionen der App | Sheetgo ist eine Workflowautomatisierungsplattform, mit der Benutzer Online-Kalkulationstabellen verbinden und automatisierte Datenverwaltungssysteme erstellen können. Die Sheetgo-Web-App bietet eine Plattform zum Erstellen und Verwalten von Workflows sowie eine Reihe von Vorlagen. Das Sheetgo-Add-In für Excel und das Add-On für Google Sheets ermöglichen Benutzern die direkte Verbindung und Automatisierung innerhalb einer Tabelle, und die Teams-App ermöglicht Workflowerstellern, ihre verbundenen Dateien für Kollegen in Kanälen und Gruppenchats freizugeben. |
+| Kernfunktionen der App | Sheetgo ist eine Workflowautomatisierungsplattform, mit der Benutzer Online-Kalkulationstabellen verbinden und automatisierte Datenverwaltungssysteme erstellen können. Die Sheetgo-Web-App bietet eine Plattform zum Erstellen und Verwalten von Workflows sowie eine Reihe von Vorlagen. Das Sheetgo-Add-In für Excel und das Add-On für Google Sheets ermöglichen Benutzern die direkte Verbindung und Automatisierung innerhalb eines Arbeitsblatts, und die Teams-App ermöglicht Es Workflowerstellern, ihre verbundenen Dateien für Kollegen in Kanälen und Gruppenchats freizugeben. |
 | Firmenstandort | Spanien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.sheetgo.com](https://www.sheetgo.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | GCP |
 

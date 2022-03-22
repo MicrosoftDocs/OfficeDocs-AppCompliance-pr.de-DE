@@ -2,18 +2,19 @@
 title: Application Information for School Day by School Day Modal Oy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für den School Day, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für School Day, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 07027fd6d02c61c6301851cdb58fbab6f1928bb1
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ade87441027d2b9693f0b6340a6a54b60a66507f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264032"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546683"
 ---
 # <a name="school-day"></a>School Day
 
@@ -34,14 +35,15 @@ Informationen, die Von School Day Modal Oy an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | School Day |
 | ID | WA200001430 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | School Day Helsinki Oy |
 | Website des Unternehmens | [https://www.schoolday.com](https://www.schoolday.com) |
 | Nutzungsbedingungen der App | [https://www.schoolday.com/eula](https://www.schoolday.com/eula) |
 | Kernfunktionen der App | Verbessern Sie das Wohlbefinden von Schülern und Social-Emotional Learning (SEL) mit School Day am Microsoft Teams! |
 | Firmenstandort | Finnland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.schoolday.com/en/resources/faq](https://www.schoolday.com/en/resources/faq) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von School Day Modal Oy zur Verfügung gestellt, wie 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb eines Monats gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,15 +101,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
@@ -122,7 +117,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Ja |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Ja |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,18 +157,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| GroupMember.Read.All | Delegiert | Gruppenname und Gruppenmitgliedschaften. Benutzer, der Lehrer ist, kann Schüler aus ihren Gruppen zum Schultag hinzufügen. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| Team.ReadBasic.All | Delegiert | Der Name des Teams wird verwendet, wenn lehrerbenutzer Schüler aus ihren Teams und Gruppen hinzufügen möchten. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| User.Read | Delegiert | Benutzer-E-Mail, Name und ID-Token werden für die Benutzerverwaltung und -authentifizierung verwendet. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| User.ReadBasic.All | Delegiert | Benutzerprofilbilder, die in Benutzer-Avataren verwendet werden sollen. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| email | Delegiert | Benutzer-E-Mails werden für die Kontoauthentifizierung gesammelt. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| offline_access | Delegiert | Authentifizierung – Aktualisieren des Zugriffstokens. Reibungsloserer Benutzerfreundlichkeit. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| openid | Delegiert | Der eindeutige Bezeichner des Benutzers für die OpenID-Anmeldung.  | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
->| Profil | Delegiert | Bevorzugter Benutzername und Objekt-ID für Benutzerverwaltungs- und Authentifizierungszwecke. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](https://docs.microsoft.com/microsoft-365-app-certification/azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f) |
+>| GroupMember.Read.All | Delegiert | Gruppenname und Gruppenmitgliedschaften. Benutzer, der Lehrer ist, kann Schüler aus ihren Gruppen zum Schultag hinzufügen. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| Team.ReadBasic.All | Delegiert | Der Name des Teams wird verwendet, wenn lehrerbenutzer Schüler aus ihren Teams und Gruppen hinzufügen möchten. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| User.Read | Delegiert | Benutzer-E-Mail, Name und ID-Token werden für die Benutzerverwaltung und -authentifizierung verwendet. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| User.ReadBasic.All | Delegiert | Benutzerprofilbilder, die in Benutzer-Avataren verwendet werden sollen. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| email | Delegiert | Benutzer-E-Mails werden für die Kontoauthentifizierung gesammelt. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| offline_access | Delegiert | Authentifizierung – Aktualisieren des Zugriffstokens. Reibungsloserer Benutzerfreundlichkeit. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| openid | Delegiert | Der eindeutige Bezeichner des Benutzers für die OpenID-Anmeldung.  | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
+>| profile | Delegiert | Bevorzugter Benutzername und Objekt-ID für Benutzerverwaltungs- und Authentifizierungszwecke. | [61dc5e28-775a-4dd0-8990-aaabe3be9e2f](../azure/61dc5e28-775a-4dd0-8990-aaabe3be9e2f.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -1,19 +1,20 @@
 ---
-title: Anwendungsinformationen für Verbinden Verbinden von Verbinden
+title: Anwendungsinformationen für Verbinden von Verbinden
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Verbinden, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1ec9f10e4958bea43e19bc84ee3eedf09ab1218e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 36364c336439fe99002781fdf25706de0be8eee9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252429"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544973"
 ---
 # <a name="cultr-connect"></a>Cultr Connect
 
@@ -34,14 +35,15 @@ Informationen, die von Angeber an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Cultr Connect |
 | ID | WA200003008 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cultr |
 | Website des Unternehmens | [https://cultr.works](https://cultr.works) |
 | Nutzungsbedingungen der App | [https://cultr.works/terms-of-use/](https://cultr.works/terms-of-use/) |
 | Kernfunktionen der App | Sehen Sie sich an, was Ihre Kollegen mit "Selbsterzieher" tun. |
 | Firmenstandort | Luxemburg |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://cultr.works/how-it-works/](https://cultr.works/how-it-works/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Ihnen bereitgestellt, wie diese App Organisations
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb eines Monats gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,8 +100,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -114,15 +109,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -154,7 +149,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -162,18 +157,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| GroupMember.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| Organization.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| TeamMember.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| User.Read | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| User.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| User.ReadBasic.All | Anwendung | Identifizieren Sie den Benutzer, der relevante Daten senden soll. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
->| openid | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](https://docs.microsoft.com/microsoft-365-app-certification/azure/3b1655d0-505a-4b03-a01f-519a91f77625) |
+>| Group.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| GroupMember.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| Organization.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| TeamMember.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| User.Read | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| User.Read.All | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| User.ReadBasic.All | Anwendung | Identifizieren Sie den Benutzer, der relevante Daten senden soll. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
+>| openid | Anwendung | Identifizieren Sie den Benutzer, um Benutzerinformationen zu aktualisieren und relevante Daten zu senden. | [3b1655d0-505a-4b03-a01f-519a91f77625](../azure/3b1655d0-505a-4b03-a01f-519a91f77625.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

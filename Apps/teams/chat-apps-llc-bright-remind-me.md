@@ -2,18 +2,19 @@
 title: Application Information for Bright Remind Me by Chat Apps, LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Bright Remind Me, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Bright Remind Me, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5c5495382e68a3bbb0823c76e38511adeb54506e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d0ac061a03a958c397b2044d583ba0365165e393
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146235"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545443"
 ---
 # <a name="bright-remind-me"></a>Bright Remind Me
 
@@ -34,13 +35,13 @@ Informationen, die von Chat Apps, LLC für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Bright Remind Me |
 | ID | WA200003002 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Chat Apps, LLC |
 | Website des Unternehmens | [https://brightbits.app](https://brightbits.app) |
 | Nutzungsbedingungen der App | [https://brightbits.app/terms/](https://brightbits.app/terms/) |
 | Kernfunktionen der App | Erhalten Sie Erinnerungen an wichtige Nachrichten, wenn es für Sie praktisch ist, zu antworten. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://brightbits.app/bright-remind-me/](https://brightbits.app/bright-remind-me/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws, Heroku |
 

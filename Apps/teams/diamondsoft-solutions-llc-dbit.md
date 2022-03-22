@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für DBit von Diamondsoft Solutions, LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für DBit, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0f7feee247fa2bf840219f61d2d1dcdee0f2fa42
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 20cf9d6f387f8269bf58e38198fdb4339624539e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144472"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546092"
 ---
 # <a name="dbit"></a>DBit
 
@@ -34,7 +35,7 @@ Von Diamondsoft Solutions, LLC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | DBit |
 | ID | WA200001536 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Diamondsoft Solutions, LLC |
 | Website des Unternehmens | [https://www.diamondsoftsolutions.com](https://www.diamondsoftsolutions.com) |
 | Nutzungsbedingungen der App | [https://www.dbit.io/termsofuse.html](https://www.dbit.io/termsofuse.html) |

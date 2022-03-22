@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für cloudbasierte Sicherung für Microsoft Office 365 von AvePoint Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Cloudsicherung für Microsoft Office 365, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6fc3b2c5bc0fb54b4075f71e21ef1c2d14ace0f7
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a053ad5e60924f5d45fb8b99f91fe87b6dfe844e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260941"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546563"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>Cloudsicherung für Microsoft Office 365
 
@@ -36,7 +37,7 @@ Von AvePoint Inc. für Microsoft bereitgestellte Informationen:
 | Website des Unternehmens | [https://www.avepoint.com](https://www.avepoint.com) |
 | Nutzungsbedingungen der App | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | Kernfunktionen der App | AvePoint Cloud Backup ist die branchenweit&#8217;umfassendste Cloud-zu-Cloud-Sicherungslösung für Microsoft 365. ersetzen durch
-Unbegrenzte, automatisierte Sicherungen und sicherer Speicher in AvePoint&#8217;Azure-Speicher oder Ihrer eigenen Cloud– Sie entscheiden nur, wie viel wiederhergestellt werden soll und wann. Bei Bedarf und granulare Wiederherstellung auf Elementebene bietet jederzeit Zugriff auf Ihre geschäftskritischen E-Mails, Dateien, Unterhaltungen, Aufzeichnungen, Projekte, Aufgaben, Gruppen, Teams, Planner und Websites. | | Firmenstandort | Vereinigte Staaten von Amerika | | Seite "App-Informationen" | | | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas | | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
+Unbegrenzte, automatisierte Sicherungen und sicherer Speicher in AvePoint&#8217;Azure-Speicher oder Ihrer eigenen Cloud– Sie entscheiden einfach, wie viel wiederhergestellt werden soll und wann. Bei Bedarf und präzise Wiederherstellung auf Elementebene bietet jederzeit Zugriff auf Ihre geschäftskritischen E-Mails, Dateien, Unterhaltungen, Aufzeichnungen, Projekte, Aufgaben, Gruppen, Teams, Planner und Websites. | | Firmenstandort | Vereinigte Staaten von Amerika | | Seite "App-Informationen" | [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) | | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas | | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -102,25 +103,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Ja |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? |  Typ2 |
 | Letztes SOC2-Zertifizierungsdatum |  2/19/2021 |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Ja |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Ja |
-| Entspricht die App NIST 800-171? | N/V |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -163,19 +164,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.ReadWrite.All | Anwendung | Hinzufügen und Entfernen von Mitgliedern aus allen Kanälen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| ChannelMessage.Read.All | Anwendung | Alle Kanalnachrichten lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| ChannelSettings.ReadWrite.All | Anwendung | Lesen und Schreiben der Namen, Beschreibungen und Einstellungen aller Kanäle | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Directory.Read.All | Anwendung | Verzeichnisdaten lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Files.Read.All | Anwendung | Lesen von Dateien in allen Websitesammlungen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Group.ReadWrite.All | Anwendung | Schreib-/Lesezugriff auf alle Gruppen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Reports.Read.All | Anwendung | Alle Verwendungsberichte lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Sites.ReadWrite.All | Anwendung | Lese-/Schreibzugriff auf Elemente in allen Websitesammlungen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelMember.ReadWrite.All | Anwendung | Hinzufügen und Entfernen von Mitgliedern aus allen Kanälen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| ChannelMessage.Read.All | Anwendung | Alle Kanalnachrichten lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| ChannelSettings.ReadWrite.All | Anwendung | Lesen und Schreiben der Namen, Beschreibungen und Einstellungen aller Kanäle | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Directory.Read.All | Anwendung | Verzeichnisdaten lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Files.Read.All | Anwendung | Lesen von Dateien in allen Websitesammlungen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Group.ReadWrite.All | Anwendung | Schreib-/Lesezugriff auf alle Gruppen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Reports.Read.All | Anwendung | Alle Verwendungsberichte lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| Sites.ReadWrite.All | Anwendung | Lese-/Schreibzugriff auf Elemente in allen Websitesammlungen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
+>| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](../azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für LawVu APAC by LawVu
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für LawVu APAC, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 13067a989948468c3cfef21c486e93d52ae38e4a
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 84bc836f026ce2b45f58adb58567e5950cff20ac
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081319"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545973"
 ---
 # <a name="lawvu-apac"></a>LawVu APAC
 
@@ -40,7 +41,7 @@ Von LawVu an Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://lawvu.com/wp-content/uploads/Std-Saas-Agreement-202...](https://lawvu.com/wp-content/uploads/Std-Saas-Agreement-2021.pdf) |
 | Kernfunktionen der App | Geschäftsbenutzer können rechtliche Anforderungen direkt von Teams aus stellen.  Die Integration erfasst alle relevanten Felder, einschließlich des Inhalts und aller Anlagen aus der ursprünglichen Nachricht, und erstellt die Frage in LawVu, sodass sie Teil des Rechtsteams&#8217;Datensatzsystems&#8217;. |
 | Firmenstandort | Neuseeland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://help.lawvu.com/en/articles/5953276-microsoft-teams-...](https://help.lawvu.com/en/articles/5953276-microsoft-teams-integration-coming-soon) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -61,7 +62,7 @@ Diese Informationen wurden von LawVu darüber bereitgestellt, wie diese App Orga
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Die Anlagendatei in MS-Teams wird in unseren Datenspeicher gezogen. |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Australien |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für EngageWith von SpringRole
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für EngageWith, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 25de0a8d054e8f806d398a96d9780837fee93da8
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: 2a493f3b6349dd0e46d88aa039e9935d8f84e6c9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62175608"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547253"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -34,15 +35,14 @@ Von SpringRole für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | EngageWith |
 | ID | WA200001915 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SpringRole |
 | Website des Unternehmens | [https://www.springworks.in](https://www.springworks.in) |
 | Nutzungsbedingungen der App | [https://engagewith.springworks.in/terms-and-conditions](https://engagewith.springworks.in/terms-and-conditions) |
 | Kernfunktionen der App | EngageWith ist eine Peer-to-Peer-Plattform für Mitarbeiterbegnungen und -erkennung, die eine Kultur der Erkennung fördert, das Engagement der Mitarbeiter verbessert und der Organisation hilft, erfolge – groß und klein – zu bejubeln. Mitarbeiter können Kollegen, Verwalter oder Vorgesetzte erkennen, indem sie ihnen Kudos oder Schimpouts für eine gut erledigte Arbeit geben. Kudos und S shapesouts weisen jeweils eine Reihe von Punkten auf, die sich im Laufe der Zeit zu sinnvollen Vorteilen zusammensetzen.  |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,7 +156,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |

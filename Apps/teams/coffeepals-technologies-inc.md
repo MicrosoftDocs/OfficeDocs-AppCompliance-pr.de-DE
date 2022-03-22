@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für CoffeePals von CoffeePals Technologies Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CoffeePals, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0e3a60a4cf08eccad2811f1f2737432a667f9ba9
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 2863be05be41765c8100f8742f955eca2e8ff122
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081357"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546493"
 ---
 # <a name="coffeepals"></a>CoffeePals
 
@@ -35,13 +36,14 @@ Informationen, die von CoffeePals Technologies Inc. an Microsoft bereitgestellt 
 | App-Name | CoffeePals |
 | ID | WA200003040 |
 | unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | CoffeePals Technologies Inc. |
+| Name des Partnerunternehmens | CoffeePals Technologies Inc. |
 | Website des Unternehmens | [https://coffeepals.co](https://coffeepals.co) |
 | Nutzungsbedingungen der App | [https://coffeepals.co/terms-of-service](https://coffeepals.co/terms-of-service) |
 | Kernfunktionen der App | CoffeePals paart Personen zufällig, um sich zu treffen und zu chatten, um persönliche Verbindungen zu bilden. Es enthält weitere Features, mit denen Mitarbeiter eine bessere Verbindung herstellen können. |
 | Firmenstandort | Kanada |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://coffeepals.co/product](https://coffeepals.co/product) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von CoffeePals Technologies Inc. darüber bereitgeste
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

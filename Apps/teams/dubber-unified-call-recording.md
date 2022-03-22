@@ -1,21 +1,22 @@
 ---
-title: Anwendungsinformationen für Die einheitliche Anrufaufzeichnung von Kate Kate
+title: Anwendungsinformationen für Die einheitliche Anrufaufzeichnung von Stereotypeber
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für die einheitliche Aufzeichnung von Anrufen, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Die einheitliche Aufzeichnung von Anrufen, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: eec69f5594f642432bbb79830b69428f5c6d16f3
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 4c80e50a43abe71a1ca67d93ec9039a3c3357d22
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147918"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544953"
 ---
-# <a name="dubber-unified-call-recording"></a>Einheitliche Anrufaufzeichnung
+# <a name="dubber-unified-call-recording"></a>Dubber Unified Call Recording
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,17 +33,16 @@ Informationen, die von Derber an Microsoft bereitgestellt werden:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Einheitliche Anrufaufzeichnung |
+| App-Name | Dubber Unified Call Recording |
 | ID | WA200003570 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Dubber |
 | Website des Unternehmens | [https://www.dubber.net](https://www.dubber.net) |
 | Nutzungsbedingungen der App | [https://www.dubber.net/terms](https://www.dubber.net/terms) |
-| Kernfunktionen der App | Unified Cloud Call Recording &amp; Voice AI für Compliance, Leistung des &amp; Vertriebsdiensts |
+| Kernfunktionen der App | Unified Cloud Call Recording &amp; Voice AI für Compliance, Leistung des Vertriebsdiensts &amp; |
 | Firmenstandort | Australien |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

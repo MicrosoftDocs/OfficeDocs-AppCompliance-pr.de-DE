@@ -2,18 +2,19 @@
 title: Application Information for In Case of Crisis by RockDove Solutions, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für "Im Falle einer Krise", die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für "Im Falle einer Krise", die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f8dde14386683816f9a1dcd7f4f9d1365aa3a4d4
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5add607e4c0c1d78c2ed214fd15ec549d2bf70dd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254736"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547273"
 ---
 # <a name="in-case-of-crisis"></a>Im Falle einer Krise
 
@@ -34,14 +35,15 @@ Informationen, die von RockDove Solutions, Inc. an Microsoft bereitgestellt werd
 |:----------------|:-------------|
 | App-Name | Im Falle einer Krise |
 | ID | WA200003194 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | RockDove Solutions, Inc. |
 | Website des Unternehmens | [https://www.rockdovesolutions.com](https://www.rockdovesolutions.com) |
 | Nutzungsbedingungen der App | [https://www.rockdovesolutions.com/terms-of-use](https://www.rockdovesolutions.com/terms-of-use) |
 | Kernfunktionen der App | Im Falle einer Krise ist die zweckorientierte Plattform für den Lebenszyklus dynamischer Probleme und des Risikomanagements. Unsere App ermöglicht es Organisationen, playbooks mit Aktionen, die Ihre Antwortprotokolle und bewährten Methoden enthalten, einfach freizugeben und zu aktivieren, da sich eine Situation entwickelt.  Sie können auch den gesamten Lebenszyklus der Probleme verwalten und erfassen, die sich auf Ihr Unternehmen auswirken, von der ersten Berichterstellung bis zur Lösung.   |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.rockdovesolutions.com/in-case-of-crisis/in-case...](https://www.rockdovesolutions.com/in-case-of-crisis/in-case-of-crisis-platform) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von RockDove Solutions, Inc. zur Verfügung gestellt,
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb eines Monats gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -114,15 +109,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,19 +157,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Dadurch wird voll auf den Kalender eines Benutzers zugegriffen. Unsere App zeigt die Beschreibung, den Konferenzlink sowie das Start- und Enddatum an. Unsere App ermöglicht es einem Benutzer auch, ein Ereignis im Outlook-Kalender zu erstellen. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Channel.ReadBasic.All | Delegiert | Ermöglicht den Zugriff auf einen Benutzerkanal.  Die Benutzerliste der Kanäle wird zum Auswählen eines Kanals verwendet, in den eine Datei hochgeladen werden soll. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Files.ReadWrite | Delegiert | N/V | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Files.ReadWrite.All | Delegiert | Wir ermöglichen Benutzern das Hochladen von Dateien aus der Problemverwaltung auf Teams | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Sites.ReadWrite.All | Delegiert | Dies ist erforderlich, um in einen privaten Kanal hochzuladen. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| Team.ReadBasic.All | Delegiert | Die Liste der Teams ist erforderlich, um die Liste der Kanäle abzurufen, zu denen der Benutzer gehört. Dadurch können wir die Liste der verfügbaren Uploadkanäle anzeigen. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| email | Delegiert | Sie müssen die E-Mails des Benutzers nach der Authentifizierung abrufen, um sie mit E-Mails in unserer Datenbank zu vergleichen. Wenn der Benutzer kein Konto in unserem System hat, erstellen wir ein Konto. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| offline_access | Delegiert | Dadurch können wir das Graph-Zugriffstoken aktualisieren. | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
->| openid | Delegiert | Erforderliche Berechtigung zur Authentifizierung über openid | [6b4a2fee-5642-41a7-b452-d555fac690b0](https://docs.microsoft.com/microsoft-365-app-certification/azure/6b4a2fee-5642-41a7-b452-d555fac690b0) |
+>| Calendars.ReadWrite | Delegiert | Dadurch wird voll auf den Kalender eines Benutzers zugegriffen. Unsere App zeigt die Beschreibung, den Konferenzlink sowie das Start- und Enddatum an. Unsere App ermöglicht es einem Benutzer auch, ein Ereignis im Outlook-Kalender zu erstellen. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Channel.ReadBasic.All | Delegiert | Ermöglicht den Zugriff auf einen Benutzerkanal.  Die Benutzerliste der Kanäle wird zum Auswählen eines Kanals verwendet, in den eine Datei hochgeladen werden soll. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Files.ReadWrite | Delegiert | Nicht zutreffend | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Files.ReadWrite.All | Delegiert | Wir ermöglichen Benutzern das Hochladen von Dateien aus der Problemverwaltung in Teams | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Sites.ReadWrite.All | Delegiert | Dies ist erforderlich, um in einen privaten Kanal hochzuladen. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| Team.ReadBasic.All | Delegiert | Die Liste der Teams ist erforderlich, um die Liste der Kanäle abzurufen, zu denen der Benutzer gehört. Dadurch können wir die Liste der verfügbaren Uploadkanäle anzeigen. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| email | Delegiert | Sie müssen die E-Mails des Benutzers nach der Authentifizierung abrufen, um sie mit E-Mails in unserer Datenbank zu vergleichen. Wenn der Benutzer kein Konto in unserem System hat, erstellen wir ein Konto. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| offline_access | Delegiert | Dadurch können wir das Graph-Zugriffstoken aktualisieren. | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
+>| openid | Delegiert | Erforderliche Berechtigung zur Authentifizierung über openid | [6b4a2fee-5642-41a7-b452-d555fac690b0](../azure/6b4a2fee-5642-41a7-b452-d555fac690b0.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

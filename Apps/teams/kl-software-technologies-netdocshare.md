@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für netDocShare von KL Software Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für netDocShare, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d7043aacd0a64a0ed3d15027529f4a116f231987
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 37522a0312a3ab66fd509da52798300395c1b6cb
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147849"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545353"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -34,13 +35,13 @@ Von KL Software Technologies für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | netDocShare |
 | ID | WA200001619 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | KL Software Technologies |
 | Website des Unternehmens | [https://www.netdocshare.com](https://www.netdocshare.com) |
 | Nutzungsbedingungen der App | [https://www.netdocshare.com/eula](https://www.netdocshare.com/eula) |
-| Kernfunktionen der App | netDocShare Teams App ermöglicht Benutzern das Anzeigen und Bearbeiten von &amp; NetDocuments-Inhalten innerhalb Microsoft Teams |
+| Kernfunktionen der App | netDocShare Teams-App ermöglicht Benutzern das Anzeigen und Bearbeiten &amp; von NetDocuments-Inhalten innerhalb Microsoft Teams |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.netdocshare.com](https://www.netdocshare.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -59,14 +60,7 @@ Diese Informationen wurden von KL Software Technologies dazu bereitgestellt, wie
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
 | Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

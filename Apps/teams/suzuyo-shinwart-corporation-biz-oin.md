@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Biz-Oin von SUZUYO Shinwart Corporation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/12/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Biz-Oin, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2c551dc467d6c4e5934daa14c50f840d3b6c697e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b9210678cad1309290d70101499a92b2f9ae7ac2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144092"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545925"
 ---
 # <a name="biz-oin"></a>Biz-Oin
 
@@ -34,7 +35,7 @@ Informationen, die von SUZUYO Shinwart Corporation an Microsoft bereitgestellt w
 |:----------------|:-------------|
 | App-Name | Biz-Oin |
 | ID | WA200003662 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SUZUYO Shinwart Corporation |
 | Website des Unternehmens | [https://www.shinwart.co.jp](https://www.shinwart.co.jp) |
 | Nutzungsbedingungen der App | [https://www.biz-oin.com/terms/tou](https://www.biz-oin.com/terms/tou) |
@@ -60,7 +61,7 @@ Diese Informationen wurden von SUZUYO Shinwart Corporation darüber bereitgestel
 | Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | &quot;id &quot; , mail , &quot; &quot; &quot; displayName , &quot; &quot; userPrincipalName&quot; |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | &quot;id&quot;, &quot;mail&quot;, &quot;displayName&quot;, &quot;userPrincipalName&quot; |
 | Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Japan |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Nein |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für CodeTwo-E-Mail-Signaturen für Office 365 von CodeTwo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für CodeTwo-E-Mail-Signaturen für Office 365, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84b557eb3ae79dcc747bb4d3d1492e2963a13da1
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4662ec055aa9c74c091d8a2dffc648215bd5e676
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080073"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546143"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>CodeTwo-E-Mail-Signaturen für Office 365
 
@@ -38,7 +39,7 @@ Von CodeTwo für Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://www.codetwo.com/license-agreement](https://www.codetwo.com/license-agreement) |
 | Kernfunktionen der App | CodeTwo-E-Mail-Signaturen für Office 365 ist ein Azure-basierter Clouddienst, der automatische E-Mail-Signaturen, rechtliche Haftungsausschlüsse und Branding zu Nachrichten hinzufügt, die von jedem E-Mail-Clientgerät &amp; gesendet werden. Sie ermöglicht es einer Person (einem Administrator oder einem delegierten Benutzer) oder einem Team, E-Mail-Signaturen in einer Microsoft 365 (Office 365)-Organisation zentral zu verwalten. Signaturen können in der Cloud (nach dem Senden von E-Mails) oder direkt in Outlook während der Benutzer eingeben hinzugefügt werden. |
 | Firmenstandort | Polen |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.codetwo.com/email-signatures/](https://www.codetwo.com/email-signatures/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -59,7 +60,7 @@ Diese Informationen wurden von CodeTwo darüber bereitgestellt, wie diese App Or
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofildaten |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -168,16 +169,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegiert | Damit können Benutzer sich bei der App anmelden, und die App kann das Profil von angemeldeten Benutzern lesen. Die App kann auch grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. | [2a93620e-4345-4e3b-9bae-0195f08aab69](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a93620e-4345-4e3b-9bae-0195f08aab69) |
->| User.Read | Delegiert | Damit können Benutzer sich bei der App anmelden, und die App kann das Profil von angemeldeten Benutzern lesen. Die App kann auch grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. | [7afd058a-f568-4496-96b1-28d06ab3500f](https://docs.microsoft.com/microsoft-365-app-certification/azure/7afd058a-f568-4496-96b1-28d06ab3500f) |
->| Directory.AccessAsUser.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| Directory.Read.All | Beide | Ermöglicht der App, Daten in Ihrem&#8217;Verzeichnis zu lesen, z. B. Benutzer, Gruppen und Apps. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.ReadBasic.All | Delegiert | Ermöglicht der App, einen grundlegenden Satz von Profileigenschaften anderer Benutzer in Ihrer Organisation im Namen des angemeldeten Benutzers zu lesen. Dazu gehören Anzeigename, Vor- und Nachname, E-Mail-Adresse und Foto. Informationen werden verwendet, um E-Mail-Signaturen für Benutzer automatisch zu personalisieren. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.Read | Delegiert | Allows users to sign-in to the app, and allows the app to read the profile of signed-in users. Außerdem kann die App grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| email | Delegiert | Ermöglicht der App, die primäre E-Mail-Adresse Ihrer Benutzer zu lesen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| offline_access | Delegiert | Ermöglicht der App, die Daten anzuzeigen und zu aktualisieren, auf die Sie zugriffen, auch wenn Benutzer die App derzeit nicht verwenden. Dadurch wird der App keine zusätzlichen Berechtigungen erteilt. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| openid | Delegiert | Damit können Benutzer sich mit Ihren Geschäfts- oder Schulkonten bei der App anmelden, und die App kann grundlegende Benutzerprofilinformationen lesen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| Profil | Delegiert | Ermöglicht der App, das grundlegende Profil Ihrer Benutzer (Name, Bild, Benutzername) anzuzeigen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
+>| User.Read | Delegiert | Damit können Benutzer sich bei der App anmelden, und die App kann das Profil von angemeldeten Benutzern lesen. Die App kann auch grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. | [2a93620e-4345-4e3b-9bae-0195f08aab69](../azure/2a93620e-4345-4e3b-9bae-0195f08aab69.md) |
+>| User.Read | Delegiert | Damit können Benutzer sich bei der App anmelden, und die App kann das Profil von angemeldeten Benutzern lesen. Die App kann auch grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. | [7afd058a-f568-4496-96b1-28d06ab3500f](../azure/7afd058a-f568-4496-96b1-28d06ab3500f.md) |
+>| Directory.AccessAsUser.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| Directory.Read.All | Beide | Ermöglicht der App, Daten in Ihrem&#8217;Verzeichnis zu lesen, z. B. Benutzer, Gruppen und Apps. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| User.ReadBasic.All | Delegiert | Ermöglicht der App, einen grundlegenden Satz von Profileigenschaften anderer Benutzer in Ihrer Organisation im Namen des angemeldeten Benutzers zu lesen. Dazu gehören Anzeigename, Vor- und Nachname, E-Mail-Adresse und Foto. Informationen werden verwendet, um E-Mail-Signaturen für Benutzer automatisch zu personalisieren. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| User.Read | Delegiert | Allows users to sign-in to the app, and allows the app to read the profile of signed-in users. Außerdem kann die App grundlegende Unternehmensinformationen von angemeldeten Benutzern lesen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| email | Delegiert | Ermöglicht der App, die primäre E-Mail-Adresse Ihrer Benutzer zu lesen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| offline_access | Delegiert | Ermöglicht der App, die Daten anzuzeigen und zu aktualisieren, auf die Sie zugriffen, auch wenn Benutzer die App derzeit nicht verwenden. Dadurch wird der App keine zusätzlichen Berechtigungen erteilt. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| openid | Delegiert | Damit können Benutzer sich mit Ihren Geschäfts- oder Schulkonten bei der App anmelden, und die App kann grundlegende Benutzerprofilinformationen lesen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| profile | Delegiert | Ermöglicht der App, das grundlegende Profil Ihrer Benutzer (Name, Bild, Benutzername) anzuzeigen. Wird verwendet, um den Benutzer beim CodeTwo-Dienst zu registrieren. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

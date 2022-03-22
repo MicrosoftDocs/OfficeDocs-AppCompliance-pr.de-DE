@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Abwesenheit, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 73642d7ff02b79175b19cb4141098917e500ad29
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: 0bf3b44455bd598b532f0708654252f6620c60c6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470209"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546113"
 ---
-# <a name="absentify"></a>nicht vorhanden
+# <a name="absentify"></a>abwesend
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ Informationen von BrainCore Solutions GmbH an Microsoft:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | nicht vorhanden |
+| App-Name | abwesend |
 | ID | WA200003833 |
 | unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | BrainCore Solutions GmbH |
@@ -62,7 +62,7 @@ Diese Informationen wurden von BrainCore Solutions GmbH zur Verfügung gestellt,
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Microsoft-Benutzer-ID, E-Mail, DisplayName |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Deutschland |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -171,10 +171,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | Anwendung | Optional. So senden Sie Benachrichtigungen an Microsoft Teams. | [0f5eabc0-89bf-4cc6-80d1-10094b5919d2](../azure/0f5eabc0-89bf-4cc6-80d1-10094b5919d2) |
->| Calendars.ReadWrite | Delegiert | Optional: So erstellen Sie automatisch einen Outlook Kalendereintrag für Abwesenheiten. | [3dbcb38b-8d2f-4e97-9bd1-975fb770b31c](../azure/3dbcb38b-8d2f-4e97-9bd1-975fb770b31c) |
->| User.Read | Delegiert | Für Die Anmeldung | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886) |
->| User.ReadBasic.All | Delegiert | Optional: So zeigen Sie die Microsoft-Profilbilder der Benutzer an. | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886) |
+>| TeamsActivity.Send | Anwendung | Optional. So senden Sie Benachrichtigungen an Microsoft Teams. | [0f5eabc0-89bf-4cc6-80d1-10094b5919d2](../azure/0f5eabc0-89bf-4cc6-80d1-10094b5919d2.md) |
+>| Calendars.ReadWrite | Delegiert | Optional: So erstellen Sie automatisch einen Outlook Kalendereintrag für Abwesenheiten. | [3dbcb38b-8d2f-4e97-9bd1-975fb770b31c](../azure/3dbcb38b-8d2f-4e97-9bd1-975fb770b31c.md) |
+>| User.Read | Delegiert | Für Die Anmeldung | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886.md) |
+>| User.ReadBasic.All | Delegiert | Optional: So zeigen Sie die Microsoft-Profilbilder der Benutzer an. | [4dce2abf-3f8e-4281-9f7a-d602fc391886](../azure/4dce2abf-3f8e-4281-9f7a-d602fc391886.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

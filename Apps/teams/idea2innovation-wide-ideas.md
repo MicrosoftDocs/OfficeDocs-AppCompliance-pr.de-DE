@@ -2,18 +2,19 @@
 title: Application Information for Wide Ideas by Idea2Proxy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für wide Ideas, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 69e417f81896c284406c5408d20f9aff32ac09a2
-ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
+ms.openlocfilehash: c744df41324bd82a299fbee58b7d724f9fef1033
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62877882"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546033"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -34,14 +35,15 @@ Informationen, die von Idea2Element für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Wide Ideas |
 | ID | WA200000819 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Idea2Element |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Idea2Innovation |
 | Website des Unternehmens | [https://getwideideas.com](https://getwideideas.com) |
 | Nutzungsbedingungen der App | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474849364/Product_42949683744/Asset_0831a14b-e5df-4f0b-8385-3c06edaeceeb/GENERALTERMSANDCONDITIONSWideI.pdf) |
-| Kernfunktionen der App | Wide Ideas ist eine flexible Ideenverwaltungslösung, die auf Microsoft 365 Clouddiensten basiert. Vollständig in Microsoft Teams integriert, mit offenen Innovationsfunktionen, ermöglicht es Unternehmen, zusammenzuarbeiten, um die besten Ideen für alltägliche Herausforderungen zu finden. Wide Ideas ist die einzige Ideenverwaltungssoftware auf dem Markt, die flexibel genug ist, damit jede Abteilung oder Geschäftseinheit innerhalb einer Unternehmensgruppe eigene benutzerdefinierte Prozesse ausführen und weiterhin Ideen und bewährte Methoden organisationsübergreifend austauschen kann. |
+| Kernfunktionen der App | Wide Ideas ist eine flexible Ideenverwaltungslösung, die auf Microsoft 365 Clouddiensten basiert. Vollständig in Microsoft Teams integriert, mit offenen Innovationsfunktionen, ermöglicht es Unternehmen, zusammenzuarbeiten, um die besten Ideen für tägliche Herausforderungen zu finden. Wide Ideas ist die einzige Ideenverwaltungssoftware auf dem Markt, die flexibel genug ist, damit jede Abteilung oder Geschäftseinheit innerhalb einer Unternehmensgruppe eigene benutzerdefinierte Prozesse ausführen und weiterhin Ideen und bewährte Methoden organisationsübergreifend austauschen kann. |
 | Firmenstandort | Schweden |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Idea2Definition bereitgestellt, wie diese App Org
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb von 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -167,12 +162,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | Delegiert | So erstellen Sie einen Kanal in einem Team.  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| Directory.Read.All | Delegiert | Wir verwenden dies zum Auflisten von Benutzern aus dem Kundenverzeichnis  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| Group.Read.All | Delegiert | Wir verwenden dies, um Teams aus Microsoft Teams zu lesen und zu synchronisieren. | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| TeamsAppInstallation.ReadWriteForTeam | Delegiert | Dies wird verwendet, um die App automatisch in Teams zu installieren.  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| TeamsTab.Create | Delegiert | Wir verwenden dies, um Anwendungsregisterkarten (Abfrage-/Suchideen) automatisch in Kanälen zu erstellen, die von Wide Ideas erstellt wurden. | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
->| User.Read | Delegiert | Wird verwendet, um Benutzer über SSO zu authentifizieren und Benutzerdaten zu synchronisieren | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
+>| Channel.Create | Delegiert | So erstellen Sie einen Kanal in einem Team.  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| Directory.Read.All | Delegiert | Wir verwenden dies zum Auflisten von Benutzern aus dem Kundenverzeichnis  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| Group.Read.All | Delegiert | Wir verwenden dies, um Teams aus Microsoft Teams zu lesen und zu synchronisieren. | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| TeamsAppInstallation.ReadWriteForTeam | Delegiert | Dies wird verwendet, um die App automatisch in Teams zu installieren.  | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| TeamsTab.Create | Delegiert | Wir verwenden dies, um Anwendungsregisterkarten (Abfrage-/Suchideen) automatisch in Kanälen zu erstellen, die von Wide Ideas erstellt wurden. | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
+>| User.Read | Delegiert | Wird verwendet, um Benutzer über SSO zu authentifizieren und Benutzerdaten zu synchronisieren | [b0656c15-44aa-4aab-8956-bb97e3016535](../azure/b0656c15-44aa-4aab-8956-bb97e3016535.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

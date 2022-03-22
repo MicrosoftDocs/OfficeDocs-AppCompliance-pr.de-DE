@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Showmaster (Hilfsprogramm-Plug-In) von "rehware"
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Showmaster (Hilfsprogramm-Plug-In), seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Showmaster (Hilfsprogramm-Plug-In), seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: da8aec255ecc6f8b779850fe862233b376a5f6df
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: 709af640b1be36d8f36d3a2ec5cf06982100b53e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62177654"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545243"
 ---
 # <a name="showmaster-helper-plugin"></a>Showmaster (Hilfsprogramm-Plug-In)
 
@@ -33,13 +34,13 @@ Informationen, die von Derware an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Showmaster (Hilfsprogramm-Plug-In) |
 | ID | WA200003676 |
-| Office 365 unterstützten Clients | PowerPoint 2016 oder höher auf mac, PowerPoint im Web, PowerPoint 2013 oder höher auf Windows |
+| unterstützte Office 365-Clients | PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | ware |
 | Website des Unternehmens | [https://www.cherryware.com](https://www.cherryware.com) |
 | Nutzungsbedingungen der App | [https://showmaster.app/terms/](https://showmaster.app/terms/) |
 | Kernfunktionen der App | Showmaster ist ein PowerPoint-Add-In, das während der Wartezeit und Pausen mit Überschriften, Countdown, Musik und mehr einen spannenden Rahmen um Ihren Talk erstellt. |
 | Firmenstandort | Deutschland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://showmaster.app](https://showmaster.app) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -56,14 +57,7 @@ Diese Informationen wurden von Derware bereitgestellt, wie diese App Organisatio
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +147,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |

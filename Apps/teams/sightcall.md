@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für SightCall von SightCall
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SightCall, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6f084e207026800e63b61c56d9211f23510d8f7e
-ms.sourcegitcommit: 8af0be0295356438dbaa1dad225cfb390785b15c
+ms.openlocfilehash: 513b177c5aed2a84e6b6b8c22b17c6dbab2c75cc
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62889453"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545323"
 ---
 # <a name="sightcall"></a>SightCall
 
@@ -34,15 +35,14 @@ Von SightCall für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | SightCall |
 | ID | WA200003675 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SightCall |
 | Website des Unternehmens | [https://sightcall.com](https://sightcall.com) |
 | Nutzungsbedingungen der App | [https://sightcall.com/terms-conditions](https://sightcall.com/terms-conditions) |
 | Kernfunktionen der App | SightCall ist eine Videocloudplattform auf Unternehmensniveau |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://sightcall.com](https://sightcall.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -59,14 +59,7 @@ Diese Informationen wurden von SightCall darüber bereitgestellt, wie diese App 
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
 | Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Ja |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? | Ja |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -157,7 +150,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -169,10 +162,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| email | Delegiert | erforderlich für die Anmeldung | [c5312ffd-d146-4515-89e0-b43fa5282368](https://docs.microsoft.com/microsoft-365-app-certification/azure/c5312ffd-d146-4515-89e0-b43fa5282368) |
->| Profil | Delegiert | erforderlich für die Anmeldung | [c5312ffd-d146-4515-89e0-b43fa5282368](https://docs.microsoft.com/microsoft-365-app-certification/azure/c5312ffd-d146-4515-89e0-b43fa5282368) |
+>| email | Delegiert | erforderlich für die Anmeldung | [c5312ffd-d146-4515-89e0-b43fa5282368](../azure/c5312ffd-d146-4515-89e0-b43fa5282368.md) |
+>| profile | Delegiert | erforderlich für die Anmeldung | [c5312ffd-d146-4515-89e0-b43fa5282368](../azure/c5312ffd-d146-4515-89e0-b43fa5282368.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für MyHub von AvePoint, inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MyHub, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7086ba2566e0b3d44b8a30edcd43e4dce7eb9963
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0620429641e4e7b9669d48ec07af70eafe3accd3
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260785"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546823"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -34,13 +35,13 @@ Informationen von AvePoint, inc. für Microsoft:
 |:----------------|:-------------|
 | App-Name | MyHub |
 | ID | WA200000726 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | AvePoint, inc. |
 | Website des Unternehmens | [https://www.avepoint.com](https://www.avepoint.com) |
 | Nutzungsbedingungen der App | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | Kernfunktionen der App | Meet MyHub, a one-stop-shop for requesting new Office 365 workspaces &amp; managing existing ones. MyHub bietet einfach zu verwendende Bereitstellungs-, Rezertifizierungs- und Lifecycle-Dienste, &amp; ohne Ihr IT-Team zu belasten. Benutzer können skalieren, sichere Arbeitsbereiche &amp; automatisieren&amp;, werden benachrichtigt, wenn sie Maßnahmen ergreifen müssen, wodurch es einfacher ist, ihre Aufgabenliste zu vervollständigen. Das sichere &amp; Framework von MyHub&#65533;wird von AvePoint&#65533;Cloud Governance unterstützt. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -106,8 +107,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Ja |
@@ -115,16 +116,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC2-Zertifizierungsdatum |  2/9/2021 |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Ja |
-| Entspricht die App NIST 800-171? | N/V |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -165,22 +166,22 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | Beide | Dient zum Abrufen einer Liste von Gruppeneinstellungsobjekten. Z. B. classicfication für externe Freigaben, enableCreateGroup(application) usw. | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Group.ReadWrite.All | Beide | Gruppenmitgliedschaft erstellen, abrufen, hinzufügen oder entfernen | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Mail.Send | Delegiert | Wenn der aktuelle Benutzer einer privaten Gruppe beitreten möchte, senden wir eine Benachrichtigung an die Gruppenbesitzer. | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Reports.Read.All | Anwendung | Abrufen des Website-/Gruppennutzungsberichts | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.FullControl.All | Anwendung | Erstellen oder Löschen von Websites | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.Read.All | Anwendung | Abrufen von grundlegenden Informationen zur Website | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Sites.ReadWrite.All | Delegiert | Folgen/Entfernen von Websites | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| User.Read.All | Beide | Delegiert: Benutzerfoto abrufen; Anwendung: Suchen/Auflösen von Benutzern | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| email | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| offline_access | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| openid | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
->| Profil | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Directory.Read.All | Beide | Dient zum Abrufen einer Liste von Gruppeneinstellungsobjekten. Z. B. classicfication für externe Freigaben, enableCreateGroup(application) usw. | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Group.ReadWrite.All | Beide | Gruppenmitgliedschaft erstellen, abrufen, hinzufügen oder entfernen | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Mail.Send | Delegiert | Wenn der aktuelle Benutzer einer privaten Gruppe beitreten möchte, senden wir eine Benachrichtigung an die Gruppenbesitzer. | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Reports.Read.All | Anwendung | Abrufen des Website-/Gruppennutzungsberichts | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.FullControl.All | Anwendung | Erstellen oder Löschen von Websites | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.Read.All | Anwendung | Abrufen von grundlegenden Informationen zur Website | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Sites.ReadWrite.All | Delegiert | Folgen/Entfernen von Websites | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| User.Read.All | Beide | Delegiert: Benutzerfoto abrufen; Anwendung: Suchen/Auflösen von Benutzern | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| email | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| offline_access | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| openid | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| profile | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Entscheidungen nach Entscheidungen
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Entscheidungen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 78bb80e67214a26172c6f83f57d8614fb8c9e518
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0353886df853f0916252e41e8829214ce1e0a4d5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259741"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544943"
 ---
 # <a name="decisions"></a>Decisions
 
@@ -34,13 +35,13 @@ Informationen, die Microsoft von Entscheidungen bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Decisions |
 | ID | WA104381880 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Decisions |
 | Website des Unternehmens | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
 | Nutzungsbedingungen der App | [https://www.meetingdecisions.com/terms-of-service](https://www.meetingdecisions.com/terms-of-service) |
 | Kernfunktionen der App | Sorgen Sie dafür, dass Ihre Besprechungen mit einem Agenda-Generator, Minutenvorlagen und mehr integrierten Teams zählen. |
 | Firmenstandort | Norwegen |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -108,9 +109,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -123,8 +124,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
@@ -157,7 +158,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
@@ -166,27 +167,27 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Wird verwendet, um Informationen aus dem Kalender des Benutzers&#8217;zu lesen, um Features wie die Besprechungsliste und die Suche zu aktivieren. Es bietet dem Benutzer auch die Möglichkeit, bestimmte Besprechungen aus dem Kalender zu löschen, wenn das Element aus Entscheidungen gelöscht wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Chat.ReadWrite | Delegiert | Wird verwendet, um Entscheidungen für die Abstimmung zu senden und Sprecherlisten für einzelne Agendaelemente direkt an den Microsoft Teams Besprechungschat zu erstellen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Directory.Read.All | Delegiert | Wird verwendet, um grundlegende Informationen zum Office 365 Mandanten bei der Registrierung zu sammeln, z. B. Mandantenname und überprüfte Domänen. Es ist auch erforderlich, um Gruppenmitgliedschaften zu überprüfen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.Read.All | Delegiert | Wird verwendet, um Dateien zu lesen, die für den Benutzer freigegeben sind, um diese Dateien in das PDF-Besprechungsbuch zusammenzuführen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.ReadWrite.All | Delegiert | Wird verwendet, um Benutzern Unterstützung für persönliche Dateianmerkungen bereitzustellen. Kommentierte Dateien werden privat im OneDrive for Business des Benutzers&#8217;gespeichert. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Group.ReadWrite.All | Delegiert | Wird verwendet, um Ordnerstrukturen in der Office 365&#8217;SharePoint Website für Besprechungskalender, zugehörige Dateien und Gruppenunterhaltungen zu erstellen.   Hinweis: Benutzer von Entscheidungen erhalten nie Zugriff auf Ressourcen (z. B. Gruppen), auf die sie im Office 365 Mandanten Ihrer Organisation noch keinen Zugriff haben. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Mail.Send | Delegiert | Wird verwendet, um Benutzern von Entscheidungen das Senden von Besprechungsteilnehmerbenachrichtigungen zu ermöglichen, z. B. Aktualisierungen der Tagesordnung und Links zur Besprechung für Mitautoren. E-Mails werden an Besprechungsteilnehmer oder an die verteilerliste gesendet, die vom Besprechungsbesitzer ausgewählt wurde. Alle gesendeten Benachrichtigungen und E-Mails werden aktiv von den Entscheidungsbenutzern durchgeführt.  Hinweis: Dadurch erhält der Benutzer keinen Zugriff auf seinen Posteingang über Entscheidungen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| MailboxSettings.Read | Delegiert | Wird verwendet, um einen Benutzer&#8217;Spracheinstellungen zu identifizieren. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Notes.ReadWrite | Delegiert | Wird verwendet, um private Notizbücher für Besprechungen einzurichten, um Notizen zu machen und Anmerkungen und Fragen vorzubereiten. Außerdem können Gruppenbesprechungsminuten in ihrem freigegebenen OneNote Notizbuch gespeichert werden, falls die Gruppe OneNote verwenden möchte. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Sites.ReadWrite.All | Delegiert | Dient zum Erstellen von Ordnerstrukturen in privaten Kanälen für Besprechungsinformationen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Tasks.ReadWrite | Delegiert | Wird verwendet, um Aufgaben und Entscheidungen mit Microsoft Planner zu synchronisieren. Darüber hinaus können Benutzer Aufgaben und Entscheidungen in Excel exportieren. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser | Delegiert | Erforderlich, um die App "Entscheidungen" im Chat programmgesteuert zu installieren. Dies ist erforderlich, bevor die Registerkarte "Entscheidungen" für die Besprechungsoberfläche hinzugefügt wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser.All | Delegiert | Erforderlich, um die App "Entscheidungen" im Chat programmgesteuert zu installieren. Dies ist erforderlich, bevor die Registerkarte "Entscheidungen" für die Besprechungsoberfläche hinzugefügt wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Create | Delegiert | Es ist erforderlich, die Registerkarte "In-Besprechung/Kanal" in Teams hinzuzufügen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Read.All | Delegiert | Erforderlich, um zu überprüfen, ob die Registerkarte installiert ist oder nicht. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| User.ReadBasic.All | Delegiert | Wird zum Anzeigen des Vor- und Nachnamens, des Fotos und der E-Mail-Adresse von Gruppenmitgliedern und externen Teilnehmern verwendet. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Profil | Delegiert | Wird verwendet, um sich anzumelden. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Calendars.ReadWrite | Delegiert | Wird verwendet, um Informationen aus dem Kalender des Benutzers&#8217;zu lesen, um Features wie die Besprechungsliste und die Suche zu aktivieren. Es bietet dem Benutzer auch die Möglichkeit, bestimmte Besprechungen aus dem Kalender zu löschen, wenn das Element aus Entscheidungen gelöscht wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Chat.ReadWrite | Delegiert | Wird verwendet, um Entscheidungen für die Abstimmung zu senden und Referentenlisten für einzelne Agendaelemente direkt an den Microsoft Teams Besprechungschat zu erstellen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Directory.Read.All | Delegiert | Wird verwendet, um grundlegende Informationen zum Office 365 Mandanten bei der Registrierung zu sammeln, z. B. Mandantenname und überprüfte Domänen. Es ist auch erforderlich, um Gruppenmitgliedschaften zu überprüfen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Files.Read.All | Delegiert | Wird verwendet, um Dateien zu lesen, die für den Benutzer freigegeben sind, um diese Dateien in das PDF-Besprechungsbuch zusammenzuführen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Files.ReadWrite.All | Delegiert | Wird verwendet, um Benutzern Unterstützung für persönliche Dateianmerkungen bereitzustellen. Kommentierte Dateien werden privat im OneDrive for Business des Benutzers&#8217;gespeichert. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Group.ReadWrite.All | Delegiert | Wird verwendet, um Ordnerstrukturen in der Office 365 Gruppenwebsite&#8217;SharePoint für Besprechungstermine, verwandte Dateien und Gruppenunterhaltungen zu erstellen.   Hinweis: Benutzer von Entscheidungen erhalten nie Zugriff auf Ressourcen (z. B. Gruppen), auf die sie im Office 365 Mandanten Ihrer Organisation noch keinen Zugriff haben. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Mail.Send | Delegiert | Wird verwendet, um Benutzern von Entscheidungen das Senden von Besprechungsteilnehmerbenachrichtigungen zu ermöglichen, z. B. Aktualisierungen der Tagesordnung und Links zur Besprechung für Mitautoren. E-Mails werden an Besprechungsteilnehmer oder an die verteilerliste gesendet, die vom Besprechungsbesitzer ausgewählt wurde. Alle gesendeten Benachrichtigungen und E-Mails werden aktiv von den Entscheidungsbenutzern durchgeführt.  Hinweis: Dadurch erhält der Benutzer keinen Zugriff auf seinen Posteingang über Entscheidungen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| MailboxSettings.Read | Delegiert | Wird verwendet, um die Spracheinstellungen eines Benutzers&#8217;zu identifizieren. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Notes.ReadWrite | Delegiert | Wird verwendet, um private Notizbücher für Besprechungen einzurichten, um Notizen zu machen und Anmerkungen und Fragen vorzubereiten. Außerdem können Gruppenbesprechungsminuten in ihrem freigegebenen OneNote Notizbuch gespeichert werden, wenn die Gruppe OneNote verwenden möchte. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Sites.ReadWrite.All | Delegiert | Dient zum Erstellen von Ordnerstrukturen in privaten Kanälen für Besprechungsinformationen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Tasks.ReadWrite | Delegiert | Wird verwendet, um Aufgaben und Entscheidungen mit Microsoft Planner zu synchronisieren. Darüber hinaus können Benutzer Aufgaben und Entscheidungen in Excel exportieren. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsAppInstallation.ReadWriteForUser | Delegiert | Erforderlich, um die App "Entscheidungen" im Chat programmgesteuert zu installieren. Dies ist erforderlich, bevor die Registerkarte "Entscheidungen" für die Besprechungsoberfläche hinzugefügt wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | Delegiert | Erforderlich, um die App "Entscheidungen" im Chat programmgesteuert zu installieren. Dies ist erforderlich, bevor die Registerkarte "Entscheidungen" für die Besprechungsoberfläche hinzugefügt wird. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsTab.Create | Delegiert | Sie müssen die Registerkarte "In-Besprechung/Kanal" in Teams hinzufügen. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsTab.Read.All | Delegiert | Erforderlich, um zu überprüfen, ob die Registerkarte installiert ist oder nicht. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| User.ReadBasic.All | Delegiert | Wird zum Anzeigen des Vor- und Nachnamens, des Fotos und der E-Mail-Adresse von Gruppenmitgliedern und externen Teilnehmern verwendet. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| profile | Delegiert | Wird verwendet, um sich anzumelden. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
