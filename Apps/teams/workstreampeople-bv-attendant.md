@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für die Telefonzentrale von WORKSTREAMPEOPLE BOR
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für attendant, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fab44be866bc1afe6c54a0b96678a5c105c2328a
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: d208575f7eed4778e38e855d4042eb1cdbaf1b54
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081397"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549123"
 ---
 # <a name="attendant"></a>Attendant
 
@@ -35,12 +36,12 @@ Informationen, die von WORKSTREAMPEOPLE BOR an Microsoft bereitgestellt werden:
 | App-Name | Attendant |
 | ID | WA200003780 |
 | unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | WORKSTREAMPEOPLE BOR |
+| Name des Partnerunternehmens | WORKSTREAMPEOPLE BV |
 | Website des Unternehmens | [https://anywhere365.io](https://anywhere365.io) |
 | Nutzungsbedingungen der App | [https://anywhere365.io/terms-conditions/](https://anywhere365.io/terms-conditions/) |
 | Kernfunktionen der App | Die Telefonzentrale von Anywhere365 ist die Konsole eines leistungsstarken, aktuellen Telefonanbieters. |
 | Firmenstandort | Niederlande (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://anywhere365.io/attendant-console-for-microsoft-team...](https://anywhere365.io/attendant-console-for-microsoft-teams/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -61,7 +62,7 @@ Diese Informationen wurden von WORKSTREAMPEOPLE BV darüber bereitgestellt, wie 
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | TenantId |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Niederlande (die) |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -170,14 +171,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read.Shared | Delegiert | Wir möchten die Kalender von Kollegen anzeigen, auf die der Benutzer Zugriff hat | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| People.Read | Delegiert | Wir möchten die Details der Kollegen des Benutzers anzeigen, um sie erreichen zu können. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| Presence.Read.All | Delegiert | Wir möchten die Anwesenheit aller Benutzer in der Kontaktliste anzeigen. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| User.Read.All | Delegiert | Wir möchten in der Lage sein, alle Informationen der Kollegen anzuzeigen. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| email | Delegiert | Wir möchten in der Lage sein, E-Mails an den Benutzer zu senden und in Rückrufnachrichten zu verwenden. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| offline_access | Delegiert | Wir möchten in der Lage sein, unsere Daten auf dem neuesten Stand zu halten. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| openid | Delegiert | So identifizieren Sie den Benutzer auf der Plattform | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
->| Profil | Delegiert | Wir benötigen die Profildaten, um den Benutzer zu identifizieren und die Benutzeroberfläche zu personalisieren. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465) |
+>| Calendars.Read.Shared | Delegiert | Wir möchten die Kalender von Kollegen anzeigen, auf die der Benutzer Zugriff hat | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| People.Read | Delegiert | Wir möchten die Details der Kollegen des Benutzers anzeigen, um sie erreichen zu können. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| Presence.Read.All | Delegiert | Wir möchten die Anwesenheit aller Benutzer in der Kontaktliste anzeigen. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| User.Read.All | Delegiert | Wir möchten in der Lage sein, alle Informationen der Kollegen anzuzeigen. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| email | Delegiert | Wir möchten in der Lage sein, E-Mails an den Benutzer zu senden und in Rückrufnachrichten zu verwenden. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| offline_access | Delegiert | Wir möchten in der Lage sein, unsere Daten auf dem neuesten Stand zu halten. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| openid | Delegiert | So identifizieren Sie den Benutzer auf der Plattform | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
+>| profile | Delegiert | Wir benötigen die Profildaten, um den Benutzer zu identifizieren und die Benutzeroberfläche zu personalisieren. | [a7bdb4c6-23d0-4e4a-958a-168b50d67465](../azure/a7bdb4c6-23d0-4e4a-958a-168b50d67465.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Application Information for Workbench Intelligence by Temporall
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workbench Intelligence, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9a560adc52e8125118e24e6c57810a0a7e5d7027
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 948712fb4c4db715f8c464a8645f06d75c774c27
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264113"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548683"
 ---
 # <a name="workbench-intelligence"></a>Workbench Intelligence
 
@@ -34,14 +35,15 @@ Von Temporall für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Workbench Intelligence |
 | ID | WA200002705 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Temporall |
 | Website des Unternehmens | [https://www.temporall.com](https://www.temporall.com) |
 | Nutzungsbedingungen der App | [https://www.temporall.com/eula](https://www.temporall.com/eula) |
 | Kernfunktionen der App | Workbench Intelligence bietet Echtzeiteinblicke, die Ihnen helfen, schnellere und bessere Entscheidungen zu treffen. |
 | Firmenstandort | Vereinigtes Königreich Großbritannien und Nordirland (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.temporall.com/teams_intelligence/](https://www.temporall.com/teams_intelligence/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Temporall bereitgestellt, wie diese App Organisat
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nach 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -120,8 +115,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
@@ -162,19 +157,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.Read.All | Delegiert | Ruft eine Liste der installierten Teams-Apps ab, um die lokale App-ID für die bekannte externe ID abzurufen. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Channel.ReadBasic.All | Anwendung | Name der Kanal-ID &amp; . Begründung: Zulassen, dass der Kanal beitreten/verlassen wird, um Nachrichtenaktivitäten zu synchronisieren.  | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| ChannelMessage.Read.All | Anwendung | Der Nachrichtenaktivitätstyp &amp; zusammen mit dem Absenderziel &amp; . Von diesen Routen empfangene Daten: /teams/${teamId}/channels/${channelId}/messages /teams/${teamId}/channels/${channelId}/messages/${messageId}. Begründung: Um Metriken &amp; für nachrichtenaktivitäten berechnen zu können. Dies bildet den Kern unseres Organisationsnetzwerkanalysemoduls, um ein Diagramm der Aktivitäten zwischen Benutzerteams &amp; zeichnen zu können. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Directory.Read.All | Anwendung | ClientId, Liste der Benutzer, Liste der Organisationen und Unterkanäle. Begründung: Zum Lesen &amp; von Synchronisierungsbenutzern in der Temporall Workbench erforderlich | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| Group.ReadWrite.All | Anwendung | Name der Gruppen-ID &amp; . Begründung: So installieren Sie die App für jede Gruppe/jeden Kanal | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamMember.Read.All | Anwendung | Benutzermitgliedschaft im Team. Begründung: Ermöglicht die Synchronisierung aller Benutzer in Teams mit der Temporall Workbench | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamsAppInstallation.ReadWriteForTeam.All | Anwendung | Liste der für Team installierten Apps lesen. Begründung: Überprüfen Sie, ob unsere App bereits installiert ist, andernfalls installiert sie, um Nachrichtenaktivitäten über die Graph-API abzurufen. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Liste der installierten Apps lesen. Überprüfen Sie, ob unsere App bereits installiert ist, andernfalls wird sie installiert, um über einen Fragebogen mit dem Benutzer in Kontakt zu treten. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
->| User.Read | Delegiert | Grundlegende Unternehmensinformationen für Benutzer &amp; . Begründung: Wird verwendet, um Nachrichtenaktivitäten nach Benutzer zu kategorisieren, ermöglicht es dem Bot, an proaktiven Nachrichten teilzunehmen. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
+>| AppCatalog.Read.All | Delegiert | Ruft eine Liste der installierten Teams-Apps ab, um die lokale App-ID für die bekannte externe ID abzurufen. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Channel.ReadBasic.All | Anwendung | Name der Kanal-ID &amp; . Begründung: Zulassen, dass der Kanal beitreten/verlassen wird, um Nachrichtenaktivitäten zu synchronisieren.  | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| ChannelMessage.Read.All | Anwendung | Der Nachrichtenaktivitätstyp &amp; zusammen mit dem Absenderziel &amp; . Von diesen Routen empfangene Daten: /teams/${teamId}/channels/${channelId}/messages /teams/${teamId}/channels/${channelId}/messages/${messageId}. Begründung: Um Metriken &amp; für nachrichtenaktivitäten berechnen zu können. Dies bildet den Kern unseres Organisationsnetzwerkanalysemoduls, um ein Diagramm der Aktivitäten zwischen Benutzerteams &amp; zeichnen zu können. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Directory.Read.All | Anwendung | ClientId, Liste der Benutzer, Liste der Organisationen und Unterkanäle. Begründung: Zum Lesen &amp; von Synchronisierungsbenutzern in der Temporall Workbench erforderlich | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| Group.ReadWrite.All | Anwendung | Name der Gruppen-ID &amp; . Begründung: So installieren Sie die App für jede Gruppe/jeden Kanal | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamMember.Read.All | Anwendung | Benutzermitgliedschaft im Team. Begründung: Ermöglicht die Synchronisierung aller Benutzer in Teams mit der Temporall Workbench | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamsAppInstallation.ReadWriteForTeam.All | Anwendung | Liste der für Team installierten Apps lesen. Begründung: Überprüfen Sie, ob unsere App bereits installiert ist, andernfalls installiert sie, um Nachrichtenaktivitäten über die Graph-API abzurufen. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Liste der installierten Apps lesen. Überprüfen Sie, ob unsere App bereits installiert ist, andernfalls wird sie installiert, um über einen Fragebogen mit dem Benutzer in Kontakt zu treten. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
+>| User.Read | Delegiert | Grundlegende Unternehmensinformationen für Benutzer &amp; . Begründung: Wird verwendet, um Nachrichtenaktivitäten nach Benutzer zu kategorisieren, ermöglicht es dem Bot, an proaktiven Nachrichten teilzunehmen. | [d5630318-189a-4912-abae-99b1f8f82cce](../azure/d5630318-189a-4912-abae-99b1f8f82cce.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

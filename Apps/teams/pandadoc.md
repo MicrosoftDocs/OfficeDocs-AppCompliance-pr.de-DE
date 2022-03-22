@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Diesdoc vonDoc
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für DoppelklickDoc, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3ab026ee7c8a3277dc4865e514637a609ce3133b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7cfd701c52bfc076fb1352bac439479426bc8475
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251021"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549673"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -34,14 +35,15 @@ Informationen, die von DerDoc an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | PandaDoc |
 | ID | WA200002927 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | PandaDoc |
 | Website des Unternehmens | [https://www.pandadoc.com](https://www.pandadoc.com) |
 | Nutzungsbedingungen der App | [https://www.pandadoc.com/terms-of-use/](https://www.pandadoc.com/terms-of-use/) |
-| Kernfunktionen der App | Teams Mithilfe von Teams Mithilfe von MofDoc können Sie Workflows, Einblicke und Geschwindigkeit von Dokumenten verbessern und gleichzeitig eine beeindruckende Erfahrung für ihre Kunden bereitstellen. Unternehmen vertrauen auf die gesamte Dokumentautomatisierungssoftware von&#8217;, um den Prozess zum Erstellen, Genehmigen und Zuweisen von Vorschlägen, Anführungszeichen, Verträgen und mehr zu optimieren. Mit leistungsstarken Dokumenterstellungs- und Workflowfunktionen können Teams ihren Kunden eine professionellere, aktuellere und ansprechendere Erfahrung bieten. |
+| Kernfunktionen der App | Teams Mithilfe von Teams Mithilfe vondDoc können Sie Workflows, Einblicke und Geschwindigkeit von Dokumenten verbessern und gleichzeitig eine beeindruckende Erfahrung für ihre Kunden bereitstellen. Unternehmen vertrauen der Vollständig-in-One-Dokumentautomatisierungssoftware von&#8217;, um den Prozess zum Erstellen, Genehmigen und Zuweisen von Vorschlägen, Anführungszeichen, Verträgen und mehr zu optimieren. Mit leistungsstarken Dokumenterstellungs- und Workflowfunktionen können Teams ihren Kunden eine professionellere, aktuellere und ansprechendere Erfahrung bieten. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.pandadoc.com](https://www.pandadoc.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Ihnen bereitgestellt, wie diese App Organisations
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,14 +102,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Ja |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Ja |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? |   |
 | Letztes SOC2-Zertifizierungsdatum |  2020-06-10 |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
@@ -154,7 +149,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -162,32 +157,32 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| ChannelSettings.Read.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal.  | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| ChannelSettings.ReadWrite.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Directory.Read.All | Beide | Um IDs für die Teams in Microsoft Teams abzurufen, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Directory.ReadWrite.All | Beide | Um IDs für die Teams in Microsoft Teams abzurufen, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read.All | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Files.Read.Selected | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Group.Read.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal. Dokumentation – https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Group.ReadWrite.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal. Dokumentation – https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Team.ReadBasic.All | Beide | um IDs für die Teams in Microsoft Teams abzurufen, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamSettings.Read.All | Beide | Um IDs für die Teams in Microsoft Teams abzurufen, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamSettings.ReadWrite.All | Beide | oder rufen Sie IDs der Teams in Microsoft Teams, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamsAppInstallation.ReadWriteSelfForTeam.All | Beide | erforderlich, um die Anwendung auf einem Benutzer im Team zu installieren und den Bot im Chat zu installieren. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| TeamsAppInstallation.ReadWriteSelfForUser.All | Beide | erforderlich, um die Anwendung auf einem Benutzer im Team zu installieren und den Bot im Chat zu installieren. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.Read | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.Read.All | Beide |  zum Abrufen von IDs, bei denen die Teams in Microsoft Teams, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| User.ReadWrite.All | Beide |  zum Abrufen von IDs, bei denen die Teams in Microsoft Teams, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| email | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| offline_access | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| openid | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
->| Profil | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](https://docs.microsoft.com/microsoft-365-app-certification/azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b) |
+>| Channel.ReadBasic.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| ChannelSettings.Read.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal.  | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| ChannelSettings.ReadWrite.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Directory.Read.All | Beide | So rufen Sie die IDs der Teams in Microsoft Teams ab, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Directory.ReadWrite.All | Beide | So rufen Sie die IDs der Teams in Microsoft Teams ab, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Files.Read | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Files.Read.All | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Files.Read.Selected | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.Read.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal. Dokumentation – https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.ReadWrite.All | Beide | zum Abrufen einer Listen-IDs von Kanälen für jeden zuvor empfangenen Befehl und zum Abrufen der Dateilaufwerk-IDs für jeden Kanal. Dokumentation – https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Team.ReadBasic.All | Beide | um IDs für die Teams in Microsoft Teams abzurufen, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| TeamSettings.Read.All | Beide | So rufen Sie die IDs der Teams in Microsoft Teams ab, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| TeamSettings.ReadWrite.All | Beide | oder rufen Sie IDs der Teams in Microsoft Teams ab, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| TeamsAppInstallation.ReadWriteSelfForTeam.All | Beide | erforderlich, um die Anwendung auf einem Benutzer im Team zu installieren und den Bot im Chat zu installieren. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | Beide | erforderlich, um die Anwendung auf einem Benutzer im Team zu installieren und den Bot im Chat zu installieren. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| User.Read | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| User.Read.All | Beide |  zum Abrufen von IDs, bei denen die Teams in Microsoft Teams, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| User.ReadWrite.All | Beide |  zum Abrufen von IDs, bei denen die Teams in Microsoft Teams, bei denen der Benutzer ein direktes Mitglied ist. Danach empfangen Sie Kanäle für jeden Befehlsbezeichner. Um die Dateitresor-IDs abzurufen, müssen Sie zuerst eine Liste der Teams abrufen, die der Benutzer eingegeben hat. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| email | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| offline_access | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| openid | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| profile | Beide | für SSO-Benutzer von Tab (Beispiel - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Erforderlich, um ein Benutzertoken mit Zugriff auf Microsoft Graph und weitere Benutzerdateien abzurufen. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

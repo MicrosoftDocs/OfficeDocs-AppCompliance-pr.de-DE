@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Team Tracker von Team Tracker Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Team Tracker, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cdb4c7dea2bfc330ddccbe58ad1f8405a9a419ef
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3901bf255ee6086a1d28ebb6135782236cafd0ef
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252207"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548703"
 ---
 # <a name="team-tracker"></a>Team-Tracker
 
@@ -34,7 +35,7 @@ Von Team Tracker Ltd an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Team-Tracker |
 | ID | WA200003572 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Team Tracker Ltd |
 | Website des Unternehmens | [https://team-tracker.com](https://team-tracker.com) |
 | Nutzungsbedingungen der App | [https://team-tracker.com/terms-and-conditions.html](https://team-tracker.com/terms-and-conditions.html) |
@@ -59,14 +60,7 @@ Diese Informationen wurden von Team Tracker Ltd zur Verfügung gestellt, wie die
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
 | Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,7 +68,7 @@ Diese Informationen wurden von Team Tracker Ltd zur Verfügung gestellt, wie die
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -108,9 +102,9 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -123,10 +117,10 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
-| Entspricht die App NIST 800-171? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -156,7 +150,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -165,16 +159,16 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Nachdem ein Benutzer seine Aktivitäten für die kommenden Wochen festgelegt hat, aktualisiert Team Tracker den Benutzerkalender und seine Verfügbarkeit basierend auf seiner Auswahl.  | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| MailboxSettings.Read | Delegiert | Wird verwendet, um die Zeitzone zum Erstellen von Kalenderereignissen abzurufen | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| User.Read | Delegiert | Überprüft die Benutzerinformationen anhand ihres Profils. | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| email | Delegiert | Wird verwendet, um die E-Mails der Benutzer zu überprüfen. | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| openid | Delegiert | Ermöglicht Benutzern, sich mit ihrem Office 365 Konto anzumelden. | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
->| Profil | Delegiert | Überprüft die grundlegenden Informationen der Benutzer anhand ihres Profils. | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| Calendars.ReadWrite | Delegiert | Nachdem ein Benutzer seine Aktivitäten für die kommenden Wochen festgelegt hat, aktualisiert Team Tracker den Benutzerkalender und seine Verfügbarkeit basierend auf seiner Auswahl.  | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| MailboxSettings.Read | Delegiert | Wird verwendet, um die Zeitzone zum Erstellen von Kalenderereignissen abzurufen | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| User.Read | Delegiert | Überprüft die Benutzerinformationen anhand ihres Profils. | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| email | Delegiert | Wird verwendet, um die E-Mails der Benutzer zu überprüfen. | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| openid | Delegiert | Ermöglicht Benutzern die Anmeldung mit ihrem Office 365 Konto | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
+>| profile | Delegiert | Überprüft die grundlegenden Informationen der Benutzer anhand ihres Profils. | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](../azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für die Assembly von CarrotHR Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für assembly, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6015c68e34f9d1f1a08685968281d563de08088f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8271fa02cf76c7747a2a4f24f699484c02e7a5c8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257954"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547963"
 ---
 # <a name="assembly"></a>Assembly
 
@@ -34,14 +35,15 @@ Von CarrotHR Inc. für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Assembly |
 | ID | WA200002271 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | CarrotHR Inc. |
 | Website des Unternehmens | [https://www.joinassembly.com](https://www.joinassembly.com) |
 | Nutzungsbedingungen der App | [https://joinassembly.com/terms-of-service](https://joinassembly.com/terms-of-service) |
 | Kernfunktionen der App | Assembly ist eine Plattform für die Mitarbeitermotivation und -erkennung. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.joinassembly.com/about](https://www.joinassembly.com/about) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von CarrotHR Inc. zur Verfügung gestellt, wie diese 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb von 2 Wochen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,8 +100,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Ja |
 | Letztes SOC1-Zertifizierungsdatum |  2020-09-01 |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Ja |
@@ -120,9 +115,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -162,17 +157,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | Delegiert | Zulassen, dass benutzer app zu einem neu erstellten Kanal aus unserer App zuweisen | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Directory.Read.All | Anwendung | Halten Sie unsere Profile synchron, damit Mitglieder in der Assembly ordnungsgemäß durchsuchbar sind | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Group.Read.All | Delegiert | Wir beobachten die Daten, um sicherzustellen, dass sie unsere App der richtigen Gruppe zuweisen können. | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Teams.ReadBasic.All | Anwendung | Möglichkeit, unsere App der richtigen Teamregisterkarte zuzuweisen | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| TeamsTab.Create | Anwendung | Wir verwenden dies, um zu ermöglichen, dass unsere App ordnungsgemäß an einen Kanal/ein Team angefügt wird. | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| email | Delegiert | Die E-Mail-Adresse des Benutzers, damit wir ihm Zugriff auf sein spezifisches Konto gewähren können | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
->| Profil | Delegiert | Benutzername zum automatischen Auffüllen der Assembly und zur Synchronisierung mit Änderungen in Microsoft Teams | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Channel.Create | Delegiert | Zulassen, dass benutzer app zu einem neu erstellten Kanal aus unserer App zuweisen | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Directory.Read.All | Anwendung | Halten Sie unsere Profile synchron, damit Mitglieder in der Assembly ordnungsgemäß durchsuchbar sind | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Group.Read.All | Delegiert | Wir beobachten die Daten, um sicherzustellen, dass sie unsere App der richtigen Gruppe zuweisen können. | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| Teams.ReadBasic.All | Anwendung | Möglichkeit, unsere App der richtigen Teamregisterkarte zuzuweisen | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| TeamsTab.Create | Anwendung | Wir verwenden dies, um zu ermöglichen, dass unsere App ordnungsgemäß an einen Kanal/ein Team angefügt wird. | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| email | Delegiert | Die E-Mail-Adresse des Benutzers, damit wir ihm Zugriff auf sein spezifisches Konto gewähren können | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
+>| profile | Delegiert | Benutzername zum automatischen Auffüllen der Assembly und zur Synchronisierung mit Änderungen in Microsoft Teams | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](../azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Bizagi-Webparts von Bizagi Team
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Bizagi-Webparts, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Bizagi Webparts, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b135f1fa51d2341d97accef7eff310247a3ba199
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 12b5bd80b98398d81bc0d6b7aaae56fbaaf37301
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147744"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548553"
 ---
 # <a name="bizagi-webparts"></a>Bizagi-Webparts
 
@@ -33,13 +34,13 @@ Informationen, die vom Bizagi-Team an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Bizagi-Webparts |
 | ID | WA200003652 |
-| Office 365 unterstützten Clients | SharePoint 2016 oder höher |
+| unterstützte Office 365-Clients | SharePoint 2016 oder höher |
 | Name des Partnerunternehmens | Bizagi-Team |
 | Website des Unternehmens | [https://www.bizagi.com](https://www.bizagi.com) |
 | Nutzungsbedingungen der App | [https://www.bizagi.com/en/buy/eula](https://www.bizagi.com/en/buy/eula) |
 | Kernfunktionen der App | Erstellen und Verwalten Ihrer Fälle auf Bizagi aus Sharepoint Online |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.bizagi.com/en/resources/help](https://www.bizagi.com/en/resources/help) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -56,14 +57,7 @@ Diese Informationen wurden vom Bizagi-Team bereitgestellt, wie diese App Organis
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

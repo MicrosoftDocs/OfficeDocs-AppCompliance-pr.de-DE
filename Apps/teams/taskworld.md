@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Taskworld nach Taskworld
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Taskworld, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a13c7e6501557c4d08f0c5b11ebe2a7b2abc2a4a
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 7ba550b15e813ace1f89bae292c64bf56b0474ef
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155434"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549253"
 ---
 # <a name="taskworld"></a>Taskworld
 
@@ -34,7 +35,7 @@ Informationen, die Von Taskworld an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Taskworld |
 | ID | WA200003441 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Taskworld |
 | Website des Unternehmens | [https://taskworld.com](https://taskworld.com) |
 | Nutzungsbedingungen der App | [https://taskworld.com/terms-privacy-security/customer-terms...](https://taskworld.com/terms-privacy-security/customer-terms-of-service/) |
@@ -57,14 +58,7 @@ Diese Informationen wurden von Taskworld darüber bereitgestellt, wie diese App 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

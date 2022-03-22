@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Evocom von Evocom Informationssysteme GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Evocom, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 26aa34b7e3c8bfc167a771a7e6f630f24dbf9487
-ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.openlocfilehash: 980a6217bd5967af64dd2cb6f3d47cc3eb2dab42
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62477148"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547893"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -34,13 +35,13 @@ Informationen, die von Evocom Informationssysteme GmbH an Microsoft bereitgestel
 |:----------------|:-------------|
 | App-Name | Evocom |
 | ID | WA200002050 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Evocom Informationssysteme GmbH |
 | Website des Unternehmens | [https://evocom.de](https://evocom.de) |
 | Nutzungsbedingungen der App | [https://evocom.de/termsofuse](https://evocom.de/termsofuse) |
 | Kernfunktionen der App | Evocom&#180;s USP = Einfachheit. Evocom ist eine intuitive Lösung für die Zusammenarbeit von Workflows, Projekt- und Aufgabenverwaltung. Informationworker entwerfen Prozesse und erwecken sie sofort zum Leben. Mitarbeiter in Abteilungen verwenden Evocom, um Mikroprozesse zu digitalisieren, die die interne Arbeit koordinieren. Prozessspezialisten orchestrieren abteilungsübergreifende Prozesse mithilfe von Mikroprozessen aus Abteilungen und nutzen vorhandene Integrationen in Branchensysteme wie CRM, ERP und andere. |
 | Firmenstandort | Deutschland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://evocom.de/microsoft365](https://evocom.de/microsoft365) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -167,12 +168,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegiert | Profilbild anzeigen | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
->| User.ReadBasic.All | Delegiert | PeoplePicker, Benutzerverwaltung | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
+>| User.Read | Delegiert | Profilbild anzeigen | [3e745135-a761-48a7-ab54-5c0277b2e642](../azure/3e745135-a761-48a7-ab54-5c0277b2e642.md) |
+>| User.ReadBasic.All | Delegiert | PeoplePicker, Benutzerverwaltung | [3e745135-a761-48a7-ab54-5c0277b2e642](../azure/3e745135-a761-48a7-ab54-5c0277b2e642.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

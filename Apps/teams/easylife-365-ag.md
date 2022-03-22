@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für EasyLife 365 von EasyLife 365 AG
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für EasyLife 365, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für EasyLife 365, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 489c314ca81a9701d1e8304ca5c278f20f270d97
-ms.sourcegitcommit: dd610febc885b7c5766014e7364ed43c4bd942ac
+ms.openlocfilehash: cf7a3b8b77e915f42d1a8d3d1573ca23fcf1cf78
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "62449448"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548493"
 ---
 # <a name="easylife-365"></a>EasyLife 365
 
@@ -34,15 +35,14 @@ Von EasyLife 365 AG für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | EasyLife 365 |
 | ID | WA200003697 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | EasyLife 365 AG |
 | Website des Unternehmens | [https://www.easylife365.cloud](https://www.easylife365.cloud) |
 | Nutzungsbedingungen der App | [https://www.easylife365.cloud/terms](https://www.easylife365.cloud/terms) |
 | Kernfunktionen der App | Gestalten Sie governance einfach! |
 | Firmenstandort | Schweiz |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.easylife365.cloud/governance/features](https://www.easylife365.cloud/governance/features) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -92,7 +92,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | DNSManagement, Credential, CodeRepositories |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -166,30 +166,30 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | Delegiert | Ermöglicht die Verwaltung Microsoft 365 Gruppen in der App | [192ba193-b68c-464c-a920-7eaa93b59a12](https://docs.microsoft.com/microsoft-365-app-certification/azure/192ba193-b68c-464c-a920-7eaa93b59a12) |
->| User.Read.All | Delegiert | Wird zum Abrufen von Benutzerinformationen in der Anwendung verwendet. Wird in Personenauswahlen verwendet | [192ba193-b68c-464c-a920-7eaa93b59a12](https://docs.microsoft.com/microsoft-365-app-certification/azure/192ba193-b68c-464c-a920-7eaa93b59a12) |
->| ChannelMember.ReadWrite.All | Anwendung | Wird zum Lesen und Bearbeiten von Kanalmitgliedern in der Back-End-App verwendet | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| Directory.ReadWrite.All | Beide | Wird verwendet, um zu überprüfen, ob die App-Berechtigungen im Mandanten für EasyLife 365 vorhanden sind. Wird verwendet, um den Gastzugriff auf eine Microsoft 365 Gruppe im Back-End zu deaktivieren/zu aktivieren. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| Group.ReadWrite.All | Anwendung | Wird verwendet, um Microsoft 365 Gruppen bereitzustellen, die Besitzer einer Gruppe zu überprüfen, Teams zu archivieren, Gruppen im Back-End-Dienst zu löschen. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| Mail.Send | Anwendung | Ermöglicht das Senden der E-Mail-Benachrichtigungen an Benutzer mit einem beliebigen Postfach in der Umgebung. Dies wird von Administratoren so konfiguriert, dass E-Mails von einem freigegebenen Postfach oder Benutzer gesendet werden. Administratoren beschränken in der Regel die Berechtigungen dieser App auf die App-ID. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| MailboxSettings.Read | Anwendung | Wird verwendet, um die Spracheinstellungen eines Benutzerpostfachs zu lesen, bevor Benachrichtigungen in dieser bestimmten Sprache gesendet werden. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| Reports.Read.All | Anwendung | Wird verwendet, um die Verwendung von Microsoft 365-Gruppen im Back-End zu überprüfen. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| Sites.Read.All | Anwendung | Wird zum Aufzählen der SharePoint Onlinewebsites in einem Mandanten verwendet. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| User.Read.All | Anwendung | Wird verwendet, um Benutzer zu suchen und grundlegende Informationen zum Senden von Benachrichtigungen abzurufen. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| User.ReadWrite.All | Anwendung | Wird verwendet, um Gastkonten einzuladen, Gastkontometadaten zu ändern und Gastkonten zu löschen, wenn dies in der Back-End-Anwendung erforderlich ist. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](https://docs.microsoft.com/microsoft-365-app-certification/azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a) |
->| ChannelMember.ReadWrite.All | Delegiert | Wird von Benutzern verwendet, um die Kanalmitgliedschaft eines Teams zu bearbeiten | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
->| Group.ReadWrite.All | Delegiert | Wird verwendet, um die Metadaten für Microsoft 365 Gruppen und Teams zu bearbeiten. Wird verwendet, um in Ihrer Umgebung nach Gruppen zu suchen | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
->| TeamsActivity.Send | Anwendung | Wird verwendet, um Teams Benachrichtigungen im Back-End zu senden | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
->| TeamsAppInstallation.ReadForUser.All | Anwendung | Überprüfen Sie, ob der Benutzer die EasyLife-App installiert hat, bevor Sie Benachrichtigungen über Teams senden. | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
->| User.Read.All | Delegiert | Wird von der Personenauswahl verwendet, um Benutzer in einer Organisation zu durchsuchen; Wird zum Aufzählen von Gastkonten verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
->| email | Delegiert | Wird von der SSO-Authentifizierung verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
->| offline_access | Delegiert | Wird von der SSO-Authentifizierung verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
->| openid | Delegiert | Wird von der SSO-Authentifizierung verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
->| Profil | Delegiert | Wird von der SSO-Authentifizierung verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](https://docs.microsoft.com/microsoft-365-app-certification/azure/716a0b19-6f38-4909-a80a-ffaac7957316) |
+>| Group.Read.All | Delegiert | Ermöglicht die Verwaltung Microsoft 365 Gruppen in der App. | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| User.Read.All | Delegiert | Wird zum Abrufen von Benutzerinformationen in der Anwendung verwendet. Wird in Personenauswahlen verwendet | [192ba193-b68c-464c-a920-7eaa93b59a12](../azure/192ba193-b68c-464c-a920-7eaa93b59a12.md) |
+>| ChannelMember.ReadWrite.All | Anwendung | Wird zum Lesen und Bearbeiten von Kanalmitgliedern in der Back-End-App verwendet | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Directory.ReadWrite.All | Beide | Wird verwendet, um zu überprüfen, ob die App-Berechtigungen im Mandanten für EasyLife 365 vorhanden sind. Wird verwendet, um den Gastzugriff auf eine Microsoft 365 Gruppe im Back-End zu deaktivieren/zu aktivieren. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Group.ReadWrite.All | Anwendung | Wird verwendet, um Microsoft 365 Gruppen bereitzustellen, die Besitzer einer Gruppe zu überprüfen, Teams zu archivieren, Gruppen im Back-End-Dienst zu löschen. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Mail.Send | Anwendung | Ermöglicht das Senden der E-Mail-Benachrichtigungen an Benutzer mit einem beliebigen Postfach in der Umgebung. Dies wird von Administratoren so konfiguriert, dass E-Mails von einem freigegebenen Postfach oder Benutzer gesendet werden. Administratoren beschränken in der Regel die Berechtigungen dieser App auf die App-ID. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| MailboxSettings.Read | Anwendung | Wird verwendet, um die Spracheinstellungen eines Benutzerpostfachs zu lesen, bevor Benachrichtigungen in dieser bestimmten Sprache gesendet werden. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Reports.Read.All | Anwendung | Wird verwendet, um die Verwendung von Microsoft 365-Gruppen im Back-End zu überprüfen. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| Sites.Read.All | Anwendung | Wird zum Aufzählen der SharePoint Onlinewebsites in einem Mandanten verwendet. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| User.Read.All | Anwendung | Wird verwendet, um Benutzer zu suchen und grundlegende Informationen zum Senden von Benachrichtigungen abzurufen. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| User.ReadWrite.All | Anwendung | Wird verwendet, um Gastkonten einzuladen, Gastkontometadaten zu ändern und Gastkonten zu löschen, wenn dies in der Back-End-Anwendung erforderlich ist. | [2e8b6192-7ea3-44a7-921e-86e0afd8cd0a](../azure/2e8b6192-7ea3-44a7-921e-86e0afd8cd0a.md) |
+>| ChannelMember.ReadWrite.All | Delegiert | Wird von Benutzern verwendet, um die Kanalmitgliedschaft eines Teams zu bearbeiten | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| Group.ReadWrite.All | Delegiert | Wird verwendet, um die Metadaten für Microsoft 365 Gruppen und Teams zu bearbeiten. Wird verwendet, um in Ihrer Umgebung nach Gruppen zu suchen | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| TeamsActivity.Send | Anwendung | Wird verwendet, um Teams Benachrichtigungen im Back-End zu senden | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| TeamsAppInstallation.ReadForUser.All | Anwendung | Überprüfen Sie, ob der Benutzer die EasyLife-App installiert hat, bevor Sie Benachrichtigungen über Teams senden. | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| User.Read.All | Delegiert | Wird von der Personenauswahl verwendet, um Benutzer in einer Organisation zu durchsuchen; Wird zum Aufzählen von Gastkonten verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| email | Delegiert | Wird von der SSO-Authentifizierung verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| offline_access | Delegiert | Wird von der SSO-Authentifizierung verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| openid | Delegiert | Wird von der SSO-Authentifizierung verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
+>| profile | Delegiert | Wird von der SSO-Authentifizierung verwendet | [716a0b19-6f38-4909-a80a-ffaac7957316](../azure/716a0b19-6f38-4909-a80a-ffaac7957316.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

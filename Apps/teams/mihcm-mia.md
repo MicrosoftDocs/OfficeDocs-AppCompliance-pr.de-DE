@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Mia von MiHCM
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mia, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1e8fa45f92c45f54d50ce94397eeb5a9adba49ca
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 780b2ad28c44c486eeba73569fbe1448461bda25
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63079719"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548853"
 ---
 # <a name="mia"></a>Mia
 
@@ -40,7 +41,7 @@ Von MiHCM für Microsoft bereitgestellte Informationen:
 | Nutzungsbedingungen der App | [https://mia.work/terms-of-use](https://mia.work/terms-of-use) |
 | Kernfunktionen der App | Mia Workplace Virtual Assistant ermöglicht Es Ihrer Organisation, einen personalisierten virtuellen Assistenten für alle Ihre Microsoft Teams Benutzer bereitzustellen. Dieser Arbeitsplatzassistent auf Microsoft Teams hilft Ihrer Organisation, die Produktivität zu steigern, das Mitarbeiterengagement zu verbessern, eine Vielzahl von HR-Anfragen, arbeitsbezogene Serviceanfragen, Fitness &amp; und vieles mehr auszuführen. Mia vertraut auf Mitarbeiterbindung, nahtlose Mitarbeitererfahrung für profane HR-Dienste/Interaktionen. |
 | Firmenstandort | Sri Lanka |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://mia.work](https://mia.work) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -61,7 +62,7 @@ Diese Informationen wurden von MiHCM zur Verfügung gestellt, wie diese App Orga
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerkalenderereignisse, Benutzerzeitzone |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Singapur |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -171,10 +172,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | Anwendung | So lesen Sie die geplanten Kalenderereignisse des Benutzers | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| Group.Read.All | Delegiert | So lesen Sie die Microsoft Planner-Aufgaben des Benutzers | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| MailboxSettings.Read | Anwendung | So lesen Sie die Zeitzone des Benutzers | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
->| User.Read | Delegiert | So identifizieren Sie einen Benutzer eindeutig | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| Calendars.Read | Anwendung | So lesen Sie die geplanten Kalenderereignisse des Benutzers | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| Group.Read.All | Delegiert | So lesen Sie die Microsoft Planner-Aufgaben des Benutzers | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| MailboxSettings.Read | Anwendung | So lesen Sie die Zeitzone des Benutzers | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
+>| User.Read | Delegiert | So identifizieren Sie einen Benutzer eindeutig | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](../azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für InCaseIT von Pilotech AS
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für InCaseIT, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 80a18e37b4a1954751ee133e86861b628431c8dc
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d498d45a76d68f7b8a064bc2101a77aa3ddfb5b6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251001"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548343"
 ---
 # <a name="incaseit"></a>InCaseIT
 
@@ -34,14 +35,15 @@ Von Pilotech AS für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | InCaseIT |
 | ID | WA200003265 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Pilotech AS |
 | Website des Unternehmens | [https://incaseit.com](https://incaseit.com) |
 | Nutzungsbedingungen der App | [https://www.manula.com/manuals/pilotech-as/incaseit2/1/en/t...](https://www.manula.com/manuals/pilotech-as/incaseit2/1/en/topic/1-4-terms-of-use) |
 | Kernfunktionen der App | Risikomanagementsystem. System zur Vorbereitung und Behandlung von Krise und Vorfällen. |
 | Firmenstandort | Norwegen |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.manula.com/manuals/pilotech-as/incaseit2/1/en/t...](https://www.manula.com/manuals/pilotech-as/incaseit2/1/en/topic/introduction-to-incaseit-version-2-0) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Pilotech AS darüber bereitgestellt, wie diese Ap
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Sofort gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -153,7 +148,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
@@ -162,13 +157,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Die einzigen verwendeten Daten sind die explizite Bestätigung durch die Benutzer, der Anwendung die Verwendung eines Zugriffstokens zum Aufrufen der Graph-API zu erlauben. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
->| OnlineMeetings.ReadWrite | Delegiert | Die einzigen verwendeten Daten sind die explizite Bestätigung durch die Benutzer, der Anwendung die Verwendung eines Zugriffstokens zum Aufrufen der Graph-API zu erlauben. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
->| User.Read | Delegiert | Die einzigen verwendeten Daten sind die explizite Bestätigung durch die Benutzer, der Anwendung die Verwendung eines Zugriffstokens zum Aufrufen der Graph-API zu erlauben. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
+>| Calendars.ReadWrite | Delegiert | Die einzigen verwendeten Daten sind die explizite Bestätigung durch die Benutzer, der Anwendung die Verwendung eines Zugriffstokens zum Aufrufen der Graph-API zu erlauben. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](../azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md) |
+>| OnlineMeetings.ReadWrite | Delegiert | Die einzigen verwendeten Daten sind die explizite Bestätigung durch die Benutzer, der Anwendung die Verwendung eines Zugriffstokens zum Aufrufen der Graph-API zu erlauben. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](../azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md) |
+>| User.Read | Delegiert | Die einzigen verwendeten Daten sind die explizite Bestätigung durch die Benutzer, der Anwendung die Verwendung eines Zugriffstokens zum Aufrufen der Graph-API zu erlauben. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](../azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

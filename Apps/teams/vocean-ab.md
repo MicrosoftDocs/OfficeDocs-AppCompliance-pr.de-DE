@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Vocean von Vocean AB
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Vocean, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c75f8e2f63ea3ec4f5e6a47a63aa2403a70106ea
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: dee980812732f1e2335287af6ec2b7e3a9751991
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147975"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549213"
 ---
 # <a name="vocean"></a>Vocean
 
@@ -34,13 +35,13 @@ Von Vocean AB für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Vocean |
 | ID | WA200003276 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Vocean AB |
 | Website des Unternehmens | [https://www.vocean.com](https://www.vocean.com) |
 | Nutzungsbedingungen der App | [https://vocean.com/wp-content/uploads/2021/01/terms-and-con...](https://vocean.com/wp-content/uploads/2021/01/terms-and-conditions.pdf) |
 | Kernfunktionen der App | Ideenplattform, die mit neuen Tools starke Ideen generiert und unternehmenskritische Probleme löst |
 | Firmenstandort | Schweden |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.vocean.com](https://www.vocean.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von Vocean AB darüber bereitgestellt, wie diese App 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

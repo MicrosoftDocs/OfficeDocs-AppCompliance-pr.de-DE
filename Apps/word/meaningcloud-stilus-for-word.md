@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Stilus für Word von MeaningCloud
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Stilus für Word, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Stilus für Word, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a0ccf941e36c641befe03362a3bd40361bd22123
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: bd143ebb1aa41c5bae083a3ac8af1fea16fb7287
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147604"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549903"
 ---
 # <a name="stilus-for-word"></a>Stilus für Word
 
@@ -33,13 +34,13 @@ Von MeaningCloud für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Stilus für Word |
 | ID | WA200003400 |
-| Office 365 unterstützten Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| unterstützte Office 365-Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
 | Name des Partnerunternehmens | MeaningCloud |
 | Website des Unternehmens | [https://www.mystilus.com/en](https://www.mystilus.com/en) |
 | Nutzungsbedingungen der App | [https://www.mystilus.com/en/about-stilus/license-agreements](https://www.mystilus.com/en/about-stilus/license-agreements) |
 | Kernfunktionen der App | Rechtschreib-, Grammatik- und Stilprüfung für Spanisch |
 | Firmenstandort | Spanien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.mystilus.com/en/plugins/stilus-for-word-365](https://www.mystilus.com/en/plugins/stilus-for-word-365) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
@@ -56,14 +57,7 @@ Diese Informationen wurden von MeaningCloud darüber bereitgestellt, wie diese A
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

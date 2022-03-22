@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Go1 by Go1
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Go1, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 16b9ca111589743d114dc3fedbee1bdc3ec0a34e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 816a6b8ba29fc0e96f56afe35acf3b3403dc645a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256671"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548443"
 ---
 # <a name="go1"></a>Go1
 
@@ -34,14 +35,15 @@ Von Go1 an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Go1 |
 | ID | WA200001484 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Go1 |
 | Website des Unternehmens | [https://www.go1.com/user/login](https://www.go1.com/user/login) |
 | Nutzungsbedingungen der App | [https://www.go1.com/en-au/terms/user-terms](https://www.go1.com/en-au/terms/user-terms) |
-| Kernfunktionen der App | GO1 Teams App hilft bei der Suche, Nutzung, Freigabe und Diskussion von Lernressourcen aus Microsoft Teams |
+| Kernfunktionen der App | GO1 Teams-App hilft bei der Suche, Nutzung, Freigabe und Diskussion von Lernressourcen aus Microsoft Teams |
 | Firmenstandort | Australien |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Go1 dazu bereitgestellt, wie diese App Organisati
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nach 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -162,13 +157,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | Anwendung | App speichert keine Dateidaten | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
->| Group.ReadWrite.All | Anwendung | Teams und Kanalname und eindeutige IDs werden gespeichert, um die App zu unterstützen, die die Lernumgebung verwaltet. | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
->| User.Read.All | Anwendung | Benutzername und E-Mail und UPN gespeichert, um direkte persönliche Erfahrung zu ermöglichen | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
+>| Files.ReadWrite.All | Anwendung | App speichert keine Dateidaten | [c859de61-8a6b-42e6-ba88-f639df33bc72](../azure/c859de61-8a6b-42e6-ba88-f639df33bc72.md) |
+>| Group.ReadWrite.All | Anwendung | Teams und Kanalname sowie eindeutige IDs zur Unterstützung der App, die die Lernumgebung verwaltet | [c859de61-8a6b-42e6-ba88-f639df33bc72](../azure/c859de61-8a6b-42e6-ba88-f639df33bc72.md) |
+>| User.Read.All | Anwendung | Benutzername und E-Mail und UPN gespeichert, um direkte persönliche Erfahrung zu ermöglichen | [c859de61-8a6b-42e6-ba88-f639df33bc72](../azure/c859de61-8a6b-42e6-ba88-f639df33bc72.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
