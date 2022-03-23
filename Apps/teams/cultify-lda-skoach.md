@@ -2,18 +2,19 @@
 title: Application Information for Skoach byIfy, Lda
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Skoach, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: da5dd2805900893dd514849838996b1ab5777f68
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 8e471faa729bbb0ab38ce08a1a6fe162ef20360a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147921"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552184"
 ---
 # <a name="skoach"></a>Skoach
 
@@ -34,15 +35,14 @@ Informationen, die von Dereify, Lda für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Skoach |
 | ID | WA200003455 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cultify, Lda |
 | Website des Unternehmens | [https://skoach.com](https://skoach.com) |
 | Nutzungsbedingungen der App | [https://www.skoach.com/terms-of-service](https://www.skoach.com/terms-of-service) |
-| Kernfunktionen der App | Skoach ist ein virtueller Coach bei der Arbeit, um Teams zusammen zu halten, ausgerichtet und produktiv zu halten, die Menschen dazu animieren, neue Verhaltensweisen basierend auf wiederkehrenden Umfrageergebnissen zu übernehmen. Skoach erhöht nicht nur den Kommunikationsfluss von Teams, was zu Zusammengehörigkeit und Ausrichtung führt, sondern hilft den Menschen auch, sich selbst zu kümmern, um sich den neuen Herausforderungen zu stellen, die mit hybrider Arbeit verbunden sind, wodurch die Produktivität der Aufbewahrung gesteigert &amp; wird. |
+| Kernfunktionen der App | Skoach ist ein virtueller Coach bei der Arbeit, um Teams zusammen zu halten, ausgerichtet und produktiv zu halten, die Menschen dazu animieren, neue Verhaltensweisen basierend auf wiederkehrenden Umfrageergebnissen zu übernehmen. Skoach erhöht nicht nur den Kommunikationsfluss von Teams, was zu Zusammengehörigkeit und Ausrichtung führt, sondern hilft den Menschen auch, sich selbst zu kümmern, um sich den neuen Herausforderungen zu stellen, die mit hybrider Arbeit verbunden sind, wodurch die Produktivität der Aufbewahrung &amp; gesteigert wird. |
 | Firmenstandort | Portugal |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

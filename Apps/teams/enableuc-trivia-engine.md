@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für das Trivia-Modul von EnableUC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Trivia Engine, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d824c8bb63dafed0377ab64ef5255370bb8a9afb
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 389f9d7ec3b265d8ccfe285e8f4383b6f7cb465a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144876"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552634"
 ---
 # <a name="trivia-engine"></a>Trivia Engine
 
@@ -34,13 +35,13 @@ Von EnableUC für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Trivia Engine |
 | ID | WA200003412 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | EnableUC |
 | Website des Unternehmens | [https://www.triviaengine.com](https://www.triviaengine.com) |
 | Nutzungsbedingungen der App | [https://www.triviaengine.com/termsofuse.html](https://www.triviaengine.com/termsofuse.html) |
 | Kernfunktionen der App | Verbessern Sie vorhandene Schulungen und verbessern Sie die Wissensaufbewahrung mit &#8220;&#8221;. |
 | Firmenstandort | Kanada |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.triviaengine.com](https://www.triviaengine.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 

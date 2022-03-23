@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für 365-QA von Advantive
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für 365-QA, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für 365-QA, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a0150c10a05a04039a8d7c9132caea0a63068b4d
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 58553b5a12cc0c6d17710bce98179385582fc8d9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62200624"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551654"
 ---
 # <a name="365-qa"></a>365-QA
 
@@ -34,13 +35,13 @@ Von Advantive für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | 365-QA |
 | ID | WA200001394 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Advantiv |
 | Website des Unternehmens | [https://www.advantive.be](https://www.advantive.be) |
 | Nutzungsbedingungen der App | [https://www.advantive.be/terms-of-service-en/](https://www.advantive.be/terms-of-service-en/) |
-| Kernfunktionen der App | Advantive ist ein engagiertes Team von ICT-Experten, die die Technologie von Microsoft verwenden, um innovative ICT-Lösungen zu entwickeln und zu implementieren. Wir bieten qualitativ hochwertige Ratschläge, Produkte und Dienstleistungen basierend auf standardmäßigen Microsoft-Funktionen. Auf diese Weise können kunden&#8217;ihre Effizienz steigern und die sich schnell ändernden Umstände nutzen. Unser Hauptgeschäft besteht darin, Dienstleistungen bereitzustellen, die Beratung, Entwicklung, Implementierung, Projektunterstützung und Wartung umfassen. |
+| Kernfunktionen der App | Advantive ist ein engagiertes Team von ICT-Experten, die die Technologie von Microsoft verwenden, um innovative ICT-Lösungen zu entwickeln und zu implementieren. Wir bieten qualitativ hochwertige Ratschläge, Produkte und Dienstleistungen basierend auf standardmäßigen Microsoft-Funktionen. Auf diese Weise können Kunden von&#8217;ihre Effizienz steigern und die sich schnell ändernden Umstände nutzen. Unser Hauptgeschäft besteht darin, Dienstleistungen bereitzustellen, die Beratung, Entwicklung, Implementierung, Projektunterstützung und Wartung umfassen. |
 | Firmenstandort | Belgien |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.advantive.be/365-qa-how-to/](https://www.advantive.be/365-qa-how-to/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von Advantive darüber bereitgestellt, wie diese App 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,7 +66,7 @@ Diese Informationen wurden von Advantive darüber bereitgestellt, wie diese App 
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -154,7 +148,7 @@ Informationen aus dem [Microsoft Cloud App Security Katalog](https://www.microso
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Asa von Two App Studio Pte Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Asa, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8f013b62a43dac2f47db54a436cdd9ada14271ab
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: cec09e7d578d5e8a8033725b5470d1cc67d0bed4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147664"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551284"
 ---
 # <a name="asa"></a>Asa
 
@@ -34,13 +35,13 @@ Informationen, die von Two App Studio Pte Ltd. an Microsoft bereitgestellt werde
 |:----------------|:-------------|
 | App-Name | Asa |
 | ID | WA200003449 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Two App Studio Pte Ltd. |
 | Website des Unternehmens | [https://asa.team](https://asa.team) |
 | Nutzungsbedingungen der App | [https://asa.team/terms](https://asa.team/terms) |
 | Kernfunktionen der App | Verwaltungstool für Remotearbeitsbereiche |
 | Firmenstandort | Singapur |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://asa.team](https://asa.team) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | GCP |
 

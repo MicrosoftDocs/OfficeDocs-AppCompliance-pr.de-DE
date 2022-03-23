@@ -7,12 +7,12 @@ keywords: Microsoft 365 m365-App Herausgebernachweis-Zertifizierung
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: e36bee4289de320d264a8a5e55c7bc20a4ea803b
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60545767"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63697067"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 Compliance-Programm
 
@@ -38,7 +38,7 @@ Der Microsoft 365-Zertifizierungsprozess besteht aus zwei Phasen: **Nachweis** 
 1.  Die **Zertifizierung** umfasst eine sorgfältige Prüfung einer App anhand einer Reihe von Kontrollen, die aus führenden Branchen-Standardframeworks abgeleitet sind. ISVs werden aufgefordert, Nachweise zu liefern, um zu beweisen, dass sie die einzelnen Kontrollen erfüllen, bevor sie eine Zertifizierung erhalten. Das Ziel besteht darin, Kunden die Sicherheit zu geben, dass sie der App vertrauen können, dass Apps, die eine Microsoft 365-Zertifizierung erhalten haben, starke Sicherheits- und Compliancepraktiken bieten, um ihre Datensicherheit und den Datenschutz zu gewährleisten.
 
 
-Die Microsoft 365-Zertifizierung gilt für WebApps und alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
+Die Microsoft 365-Zertifizierung gilt für alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
 -   Microsoft Teams
 -   Word
 -   Excel
@@ -47,8 +47,9 @@ Die Microsoft 365-Zertifizierung gilt für WebApps und alle Apps, die in die fo
 - SharePoint
 - Project
 - OneNote
+- **Webapps** (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden, befinden sich derzeit in einer privaten Vorschau. Wenn Sie an einer Teilnahme interessiert sind, füllen Sie bitte dieses [Formular](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u) aus.
 
 ### <a name="get-started"></a>Erste Schritte
-- [So schließen Sie die Publisher-Überprüfung ab](https://docs.microsoft.com/en-us/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [So schließen Sie die Microsoft 365-Zertifizierung ab](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification)
+- [So schließen Sie die Publisher-Überprüfung ab](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [So schließen Sie die Microsoft 365-Zertifizierung ab](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification)
 

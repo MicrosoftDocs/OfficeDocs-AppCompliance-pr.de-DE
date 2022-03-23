@@ -1,28 +1,28 @@
 ---
-title: Anwendungsinformationen für LawToolBox Deadline &amp; Matter Management – Outlook von LawToolBox.com Inc.
+title: Anwendungsinformationen für LawToolBox Deadline and Matter Management – Outlook von LawToolBox.com Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/11/2022
+ms.date: 03/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für LawToolBox Deadline &amp; Matter Management – Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für LawToolBox Deadline and Matter Management – Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c15a934f25c3f7650d2fd7ac927029f8a08e2b56
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: b1bf6d736341aef40ae0087ef005f490a37db23f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459188"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552424"
 ---
-# <a name="lawtoolbox-deadlines-amp-matter-management---outlook"></a>Verwaltung von LawToolBox-Stichtagen &amp; – Outlook
+# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox Deadline and Matter Management – Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 7. März 2022</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 15. März 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104120953" target="_blank">Ansicht in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -32,8 +32,8 @@ Informationen, die von LawToolBox.com Inc. an Microsoft bereitgestellt werden:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Verwaltung von LawToolBox-Stichtagen &amp; – Outlook |
-| ID | WA104120953 |
+| App-Name | LawToolBox Deadline and Matter Management – Outlook |
+| ID | WA200003103 |
 | unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
 | Name des Partnerunternehmens | LawToolBox.com Inc. |
 | Website des Unternehmens | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
@@ -61,7 +61,7 @@ Diese Informationen wurden von LawToolBox.com Inc. bereitgestellt, wie diese App
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | E-Mail, UPN, Name, Gruppen-ID, Gruppen-E-Mail, Mandanten-ID, Benutzerobjekt-ID |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -171,22 +171,38 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | Anwendung | Diese Berechtigung wird verwendet, damit normale Benutzer nicht auf mehr als 250 Gruppen beschränkt sind und diese einrichten können. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa) |
->| User.ReadWrite.All | Anwendung | Diese Berechtigung wird verwendet, um benutzerbezogene Informationen aus dem Verzeichnis zu lesen und Endbenutzern den Zugriff auf das LawToolBox-Verwaltungsportal zu ermöglichen, Personen zu Gruppen hinzuzufügen, denen sie nicht angehören. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa) |
->| Calendars.ReadWrite | Delegiert | Mit dieser Berechtigung können Benutzer ihre eigenen Kalenderinformationen abrufen.  Der Endbenutzer hat nur Zugriff auf die App, um seine eigenen Kalenderinformationen abzurufen (die gleichen Informationen, die er durch Öffnen des Outlook Kalenders abrufen könnte) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Contacts.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um es Benutzern zu ermöglichen, Microsoft 365 Outlook Kontakte zu durchsuchen und dem Kontaktverwaltungssystem hinzuzufügen, &#8211; Kontakte nie automatisch hinzugefügt werden | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Contacts.ReadWrite.Shared | Delegiert | Diese Berechtigung wird verwendet, damit Benutzer freigegebene M365-Kontakte durchsuchen und als Kontakt zu unserem Kontaktverwaltungssystem hinzufügen können&#8211; Kontakte nie automatisch hinzugefügt werden | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Files.ReadWrite | Delegiert | LawToolBox liest und schreibt Dateien aus Teams, Gruppen und OneDrive für Besprechungen (wenn Endbenutzer diese Berechtigung widerrufen, verhindert dies, dass LTB Ordner und Dateien aus Vorlagen erstellt und Dateien in unseren Apps auflistet). | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Group.ReadWrite.All | Delegiert | Diese Berechtigung ist erforderlich, um die Teams-API zu lesen, Teams zu erstellen, Kalenderereignisse zu erstellen, Kanäle zu erstellen, und es ist für unser Feature für die externe Dateifreigabe mit einem Klick erforderlich.  ERFORDERLICH ZUM VERWALTEN VON GRUPPEN. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Mail.Read | Delegiert | Diese Berechtigung wird verwendet, um PACER-E-Mails in Outlook-Add-Ins zu lesen, um diese Frage automatisch zu öffnen und um Kontakte aus E-Mails zu lesen.  Wenn Endbenutzer diese Berechtigung widerrufen, kann er keine E-Mail-Kontakte aus E-Mails in ihrem Posteingang zu unserem Kontaktsystem hinzufügen. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Mail.Send | Delegiert | Diese Berechtigung wird verwendet, um E-Mails als Benutzer zu senden – beispielsweise kann sich der Benutzer selbst ein Stichtagsdiagramm von sich selbst senden. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| MailboxSettings.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um eine E-Mail mit einer Bezeichnung zu stempeln, die angibt, dass sie mithilfe der App im Gruppenordner gespeichert wurde. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Notes.ReadWrite.All | Delegiert | Mit dieser Berechtigung können Benutzer ausgewählte Daten – z. B. Fallnotizen, Stichtagsdiagramme oder Kontakte – in einem OneNote speichern, der der Frage zugeordnet ist. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| OnlineMeetings.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um das Erstellen und Verwalten von Besprechungen zu optimieren und Teilnehmern die Verwendung von Teilnehmerrollen vorzuschlagen. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| People.Read | Delegiert | Diese Berechtigung wird verwendet, damit Benutzer Microsoft AI verwenden können, um freigegebene M365-Kontakte zu durchsuchen und dem LawToolBox-Kontaktverwaltungssystem hinzuzufügen und Personen vorzuschlagen, die dem App-Kontaktverwaltungssystem hinzugefügt werden sollen, &#8211; wir keine Kontakte automatisch hinzufügen | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| User.Read | Delegiert | Diese Berechtigung ist erforderlich, um grundlegende Informationen des Benutzers (z. B. Name, E-Mail, Zeitzone) zu lesen, damit ein Administrator dem System genaue Benutzer hinzufügen kann. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| email | Delegiert | Mit dieser Berechtigung kann die App E-Mails lesen, damit endbenutzer E-Mail-Kontaktinformationen aus E-Mails in ihrem Posteingang sammeln können. Mit dieser Berechtigung kann die App auch E-Mails mit PACER-Informationen lesen, damit die App den entsprechenden Fall standardmäßig mithilfe der PACER-Docketnummer öffnen kann. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Profil | Delegiert | Dies ist für die SSO-Authentifizierung erforderlich (LawToolBox fordert keine Berechtigung zum Schreiben in Ihr Profil an). DIESE BERECHTIGUNG IST ERFORDERLICH, DAMIT SICH BENUTZER MIT DER SINGLE SIGN ON AUTHORIZATION BEI LAWTOOLBOX-APPS ANMELDEN KÖNNEN. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
+>| Calendars.ReadWrite | Delegiert | Mit dieser Berechtigung können Benutzer ihre eigenen Kalenderinformationen abrufen.  Der Endbenutzer hat nur Zugriff auf die App, um seine eigenen Kalenderinformationen abzurufen (die gleichen Informationen, die er durch Öffnen des Outlook Kalenders abrufen könnte) | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Contacts.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um es Benutzern zu ermöglichen, Microsoft 365 Outlook Kontakte zu durchsuchen und dem Kontaktverwaltungssystem hinzuzufügen, &#8211; Kontakte nie automatisch hinzugefügt werden | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Contacts.ReadWrite.Shared | Delegiert | Diese Berechtigung wird verwendet, damit Benutzer freigegebene M365-Kontakte durchsuchen und als Kontakt zu unserem Kontaktverwaltungssystem hinzufügen können&#8211; Kontakte nie automatisch hinzugefügt werden | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Files.ReadWrite | Delegiert | LawToolBox liest und schreibt Dateien aus Teams, Gruppen und OneDrive für Besprechungen (wenn Endbenutzer diese Berechtigung widerrufen, verhindert dies, dass LTB Ordner und Dateien aus Vorlagen erstellt und Dateien in unseren Apps auflistet). | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Group.ReadWrite.All | Delegiert | Diese Berechtigung ist erforderlich, um die Teams-API zu lesen, Teams zu erstellen, Kalenderereignisse zu erstellen, Kanäle zu erstellen, und es ist für unser Feature für die externe Dateifreigabe mit einem Klick erforderlich.  ERFORDERLICH ZUM VERWALTEN VON GRUPPEN. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Group.ReadWrite.All | Anwendung | Diese Berechtigung wird verwendet, damit normale Benutzer nicht auf mehr als 250 Gruppen beschränkt sind und diese einrichten können. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Mail.Read | Delegiert | Diese Berechtigung wird verwendet, um PACER-E-Mails in Outlook-Add-Ins zu lesen, um diese Frage automatisch zu öffnen und um Kontakte aus E-Mails zu lesen.  Wenn Endbenutzer diese Berechtigung widerrufen, kann er keine E-Mail-Kontakte aus E-Mails in ihrem Posteingang zu unserem Kontaktsystem hinzufügen. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Mail.Send | Delegiert | Diese Berechtigung wird verwendet, um E-Mails als Benutzer zu senden – beispielsweise kann sich der Benutzer selbst ein Stichtagsdiagramm von sich selbst senden. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| MailboxSettings.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um eine E-Mail mit einer Bezeichnung zu stempeln, die angibt, dass sie mithilfe der App im Gruppenordner gespeichert wurde. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Notes.ReadWrite.All | Delegiert | Mit dieser Berechtigung können Benutzer ausgewählte Daten – z. B. Fallnotizen, Stichtagsdiagramme oder Kontakte – in einem OneNote speichern, der der Frage zugeordnet ist. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| OnlineMeetings.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um das Erstellen und Verwalten von Besprechungen zu optimieren und Teilnehmern die Verwendung von Teilnehmerrollen vorzuschlagen. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| People.Read | Delegiert | Diese Berechtigung wird verwendet, damit Benutzer Microsoft AI verwenden können, um freigegebene M365-Kontakte zu durchsuchen und dem LawToolBox-Kontaktverwaltungssystem hinzuzufügen und Personen vorzuschlagen, die dem App-Kontaktverwaltungssystem hinzugefügt werden sollen, &#8211; wir keine Kontakte automatisch hinzufügen | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| User.Read | Delegiert | Diese Berechtigung ist erforderlich, um grundlegende Informationen des Benutzers (z. B. Name, E-Mail, Zeitzone) zu lesen, damit ein Administrator dem System genaue Benutzer hinzufügen kann. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| User.ReadWrite.All | Anwendung | Diese Berechtigung wird verwendet, um benutzerbezogene Informationen aus dem Verzeichnis zu lesen und Endbenutzern den Zugriff auf das LawToolBox-Verwaltungsportal zu ermöglichen, Personen zu Gruppen hinzuzufügen, denen sie nicht angehören. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| email | Delegiert | Mit dieser Berechtigung kann die App E-Mails lesen, damit endbenutzer E-Mail-Kontaktinformationen aus E-Mails in ihrem Posteingang sammeln können. Mit dieser Berechtigung kann die App auch E-Mails mit PACER-Informationen lesen, damit die App den entsprechenden Fall standardmäßig mithilfe der PACER-Docketnummer öffnen kann. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| profile | Delegiert | Dies ist für die SSO-Authentifizierung erforderlich (LawToolBox fordert keine Berechtigung zum Schreiben in Ihr Profil an). DIESE BERECHTIGUNG IST ERFORDERLICH, DAMIT SICH BENUTZER MIT DER SINGLE SIGN ON AUTHORIZATION BEI LAWTOOLBOX-APPS ANMELDEN KÖNNEN. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Calendars.ReadWrite | Delegiert | Mit dieser Berechtigung können Benutzer ihre eigenen Kalenderinformationen abrufen.  Der Endbenutzer hat nur Zugriff auf die App, um seine eigenen Kalenderinformationen abzurufen (die gleichen Informationen, die er durch Öffnen des Outlook Kalenders abrufen könnte) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Contacts.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um es Benutzern zu ermöglichen, Microsoft 365 Outlook Kontakte zu durchsuchen und dem Kontaktverwaltungssystem hinzuzufügen, &#8211; Kontakte nie automatisch hinzugefügt werden | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Contacts.ReadWrite.Shared | Delegiert | Diese Berechtigung wird verwendet, damit Benutzer freigegebene M365-Kontakte durchsuchen und als Kontakt zu unserem Kontaktverwaltungssystem hinzufügen können&#8211; Kontakte nie automatisch hinzugefügt werden | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Files.ReadWrite | Delegiert | LawToolBox liest und schreibt Dateien aus Teams, Gruppen und OneDrive für Besprechungen (wenn Endbenutzer diese Berechtigung widerrufen, verhindert dies, dass LTB Ordner und Dateien aus Vorlagen erstellt und Dateien in unseren Apps auflistet). | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Group.ReadWrite.All | Delegiert | Diese Berechtigung ist erforderlich, um die Teams-API zu lesen, Teams zu erstellen, Kalenderereignisse zu erstellen, Kanäle zu erstellen, und es ist für unser Feature für die externe Dateifreigabe mit einem Klick erforderlich.  ERFORDERLICH ZUM VERWALTEN VON GRUPPEN. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Group.ReadWrite.All | Anwendung | Diese Berechtigung wird verwendet, damit normale Benutzer nicht auf mehr als 250 Gruppen beschränkt sind und diese einrichten können. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Mail.Read | Delegiert | Diese Berechtigung wird verwendet, um PACER-E-Mails in Outlook-Add-Ins zu lesen, um diese Frage automatisch zu öffnen und um Kontakte aus E-Mails zu lesen.  Wenn Endbenutzer diese Berechtigung widerrufen, kann er keine E-Mail-Kontakte aus E-Mails in ihrem Posteingang zu unserem Kontaktsystem hinzufügen. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Mail.Send | Delegiert | Diese Berechtigung wird verwendet, um E-Mails als Benutzer zu senden – beispielsweise kann sich der Benutzer selbst ein Stichtagsdiagramm von sich selbst senden. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| MailboxSettings.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um eine E-Mail mit einer Bezeichnung zu stempeln, die angibt, dass sie mithilfe der App im Gruppenordner gespeichert wurde. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Notes.ReadWrite.All | Delegiert | Mit dieser Berechtigung können Benutzer ausgewählte Daten – z. B. Fallnotizen, Stichtagsdiagramme oder Kontakte – in einem OneNote speichern, der der Frage zugeordnet ist. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| OnlineMeetings.ReadWrite | Delegiert | Diese Berechtigung wird verwendet, um das Erstellen und Verwalten von Besprechungen zu optimieren und Teilnehmern die Verwendung von Teilnehmerrollen vorzuschlagen. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| People.Read | Delegiert | Diese Berechtigung wird verwendet, damit Benutzer Microsoft AI verwenden können, um freigegebene M365-Kontakte zu durchsuchen und dem LawToolBox-Kontaktverwaltungssystem hinzuzufügen und Personen vorzuschlagen, die dem App-Kontaktverwaltungssystem hinzugefügt werden sollen, &#8211; wir keine Kontakte automatisch hinzufügen | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| User.Read | Delegiert | Diese Berechtigung ist erforderlich, um grundlegende Informationen des Benutzers (z. B. Name, E-Mail, Zeitzone) zu lesen, damit ein Administrator dem System genaue Benutzer hinzufügen kann. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| User.ReadWrite.All | Anwendung | Diese Berechtigung wird verwendet, um benutzerbezogene Informationen aus dem Verzeichnis zu lesen und Endbenutzern den Zugriff auf das LawToolBox-Verwaltungsportal zu ermöglichen, Personen zu Gruppen hinzuzufügen, denen sie nicht angehören. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| email | Delegiert | Mit dieser Berechtigung kann die App E-Mails lesen, damit endbenutzer E-Mail-Kontaktinformationen aus E-Mails in ihrem Posteingang sammeln können. Mit dieser Berechtigung kann die App auch E-Mails mit PACER-Informationen lesen, damit die App den entsprechenden Fall standardmäßig mithilfe der PACER-Docketnummer öffnen kann. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| profile | Delegiert | Dies ist für die SSO-Authentifizierung erforderlich (LawToolBox fordert keine Berechtigung zum Schreiben in Ihr Profil an). DIESE BERECHTIGUNG IST ERFORDERLICH, DAMIT SICH BENUTZER MIT DER SINGLE SIGN ON AUTHORIZATION BEI LAWTOOLBOX-APPS ANMELDEN KÖNNEN. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

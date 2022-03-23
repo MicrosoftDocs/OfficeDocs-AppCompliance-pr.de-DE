@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Luware Nimbus für Microsoft Teams von Luware AG
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Luware Nimbus für Microsoft Teams, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Luware Nimbus für Microsoft Teams, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1d64355be961a730caf60af7fd12bcb0326ade34
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f5fbd82c09e9560a600191a9d5001f148b93f685
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252430"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550403"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus für Microsoft Teams
 
@@ -36,9 +37,9 @@ Von Luware AG für Microsoft bereitgestellte Informationen:
 | Name des Partnerunternehmens | Luware AG |
 | Website des Unternehmens | [https://luware.com](https://luware.com) |
 | Nutzungsbedingungen der App | [https://luware.com/en/agreements/saas/](https://luware.com/en/agreements/saas/) |
-| Kernfunktionen der App | Nimbus fügt Anrufwarteschleifen, anwesenheitsbasiertes Routing, Berichtsfunktionen und eine Switchboard zu Teams |
+| Kernfunktionen der App | Nimbus fügt Teams Anrufwarteschleifen, anwesenheitsbasiertes Routing, Berichtsfunktionen und eine Switchboard hinzu. |
 | Firmenstandort | Schweiz |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://luware.com/en/solution/advanced-routing-for-microso...](https://luware.com/en/solution/advanced-routing-for-microsoft-teams/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -106,8 +107,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
@@ -121,9 +122,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | N/V |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -155,7 +156,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
@@ -164,23 +165,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | Delegiert | Telefonzentralenkonsole: Lesen des Kalenders des angemeldeten Benutzers anzeigen Kalender mit Terminen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Calendars.Read.Shared | Delegiert | Telefonzentralenkonsole: Lesen von freigegebenen Kalendern zum Anzeigen von Kalendern mit Terminen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read | Delegiert | Telefonzentralenkonsole: Suchen in den Exchange Kontakten des angemeldeten Benutzers | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Contacts.Read.Shared | Delegiert | Telefonzentralenkonsole: Suchen in den freigegebenen Exchange-Kontakten | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| GroupMember.Read.All | Anwendung | Abrufen von Teammitgliedern, Lesen von Sicherheitsgruppen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Presence.Read.All | Delegiert | Anzeigen der Anwesenheit in der Kontaktsuche auf der Telefonzentralen-Konsolenseite | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.Read | Delegiert | Abrufen von UserInformation (vom angemeldeten Benutzer) | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.Read.All | Beide | Nimbus-App – Rufen Sie CallerInformation ab. Bei einem internen Anruf an das Contact Center führen wir einen Reverse-Lookup dazu durch, wer es sein könnte, damit wir diese Informationen dem Agent anzeigen können. In der Attendant Console (mit delegierter Berechtigung) durchsuchen wir das gesamte interne Verzeichnis nach Übertragungszielen. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.ReadBasic.All | Delegiert | Eingeschränkte Benutzersuche | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Calls.AccessMedia.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Abonnieren Sie DTMF-Töne, in denen der Kunde tatsächlich seine Position in der IVR auswählen kann. | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.Initiate.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Tätigen eines Anrufs an den Agent  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.InitiateGroupCall.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Tätigen eines Anrufs an den Agent  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
->| Calls.JoinGroupCall.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Nehmen Sie an einem eskalierten Anruf teil, um Ankündigungen wiederzugeben | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
+>| Calendars.Read | Delegiert | Telefonzentralenkonsole: Lesen des Kalenders des angemeldeten Benutzers anzeigen Kalender mit Terminen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Calendars.Read.Shared | Delegiert | Telefonzentralenkonsole: Lesen von freigegebenen Kalendern zum Anzeigen von Kalendern mit Terminen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read | Delegiert | Telefonzentralenkonsole: Suchen in den Exchange Kontakten des angemeldeten Benutzers | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read.Shared | Delegiert | Telefonzentralenkonsole: Suchen in den freigegebenen Exchange-Kontakten | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| GroupMember.Read.All | Anwendung | Abrufen von Teammitgliedern, Lesen von Sicherheitsgruppen | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Presence.Read.All | Delegiert | Anzeigen der Anwesenheit in der Kontaktsuche auf der Telefonzentralen-Konsolenseite | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| User.Read | Delegiert | Abrufen von UserInformation (vom angemeldeten Benutzer) | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| User.Read.All | Beide | Nimbus-App – Rufen Sie CallerInformation ab. Bei einem internen Anruf an das Contact Center führen wir einen Reverse-Lookup dazu durch, wer es sein könnte, damit wir diese Informationen dem Agent anzeigen können. In der Attendant Console (mit delegierter Berechtigung) durchsuchen wir das gesamte interne Verzeichnis nach Übertragungszielen. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| User.ReadBasic.All | Delegiert | Eingeschränkte Benutzersuche | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Calls.AccessMedia.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Abonnieren Sie DTMF-Töne, in denen der Kunde tatsächlich seine Position in der IVR auswählen kann. | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
+>| Calls.Initiate.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Tätigen eines Anrufs an den Agent  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
+>| Calls.InitiateGroupCall.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Tätigen eines Anrufs an den Agent  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
+>| Calls.JoinGroupCall.All | Anwendung | Viele dieser Apps/Bots (eine pro Contact Center-Warteschlange): Nehmen Sie an einem eskalierten Anruf teil, um Ankündigungen wiederzugeben | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

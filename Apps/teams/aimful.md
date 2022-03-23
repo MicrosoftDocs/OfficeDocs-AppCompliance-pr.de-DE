@@ -2,26 +2,27 @@
 title: Application Information for Aimful by Aimful
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Aimful, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Aimful, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ec08bb1f91c332cd0cde36d199566a4b06cc4816
-ms.sourcegitcommit: 58f40775dd4adee3a6037a74e4ccd98823f4832c
+ms.openlocfilehash: ec3fbf394e219d7d7b3b108e70186510bd6d6a31
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62306064"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551634"
 ---
-# <a name="aimful"></a>Ziel
+# <a name="aimful"></a>Aimful
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 28, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/7da7691c-e47a-479e-9bb2-cda07cffd0e5" target="_blank">Anzeigen in Teams Speicher</a>
+* <a href="https://teams.microsoft.com/l/app/7da7691c-e47a-479e-9bb2-cda07cffd0e5" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003698" target="_blank">Ansicht in AppSource</a>
 
 ::: zone pivot="general"
@@ -32,15 +33,15 @@ Von "Aimful" für Microsoft bereitgestellte Informationen:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Ziel |
+| App-Name | Aimful |
 | ID | WA200003698 |
-| Office 365 unterstützten Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Ziel |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Aimful |
 | Website des Unternehmens | [https://aimful.io](https://aimful.io) |
 | Nutzungsbedingungen der App | [https://aimful.io/terms-and-conditions/](https://aimful.io/terms-and-conditions/) |
 | Kernfunktionen der App | Fördern sie die Transformation der Besprechungskultur in Ihrem Team oder in Ihrem Unternehmen  |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://aimful.io/how-it-works/](https://aimful.io/how-it-works/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
@@ -157,8 +158,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und befolgt? | Ja |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -168,10 +169,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Zugriff auf Kalenderereignisse | [93544582-de9c-42a0-baa5-df3d25e9bd48](https://docs.microsoft.com/microsoft-365-app-certification/azure/93544582-de9c-42a0-baa5-df3d25e9bd48) |
->| MailboxSettings.Read | Delegiert | Zugreifen auf die Zeitzone des Benutzers | [93544582-de9c-42a0-baa5-df3d25e9bd48](https://docs.microsoft.com/microsoft-365-app-certification/azure/93544582-de9c-42a0-baa5-df3d25e9bd48) |
+>| Calendars.ReadWrite | Delegiert | Zugriff auf Kalenderereignisse | [93544582-de9c-42a0-baa5-df3d25e9bd48](../azure/93544582-de9c-42a0-baa5-df3d25e9bd48.md) |
+>| MailboxSettings.Read | Delegiert | Zugreifen auf die Zeitzone des Benutzers | [93544582-de9c-42a0-baa5-df3d25e9bd48](../azure/93544582-de9c-42a0-baa5-df3d25e9bd48.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

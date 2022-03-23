@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Vonage Business Communications von Vonage
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Vonage Business Communications, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Vonage Business Communications, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f6775604258cb5451fab8a4b6bc1d66891753b6c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0085d65b56faf05a1520d2a26fd1ca3daa56bd41
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260341"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551254"
 ---
 # <a name="vonage-business-communications"></a>Vonage Business Communications
 
@@ -34,14 +35,15 @@ Informationen, die von Vonage an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Vonage Business Communications |
 | ID | WA200002988 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Vonage |
 | Website des Unternehmens | [https://www.vonage.com](https://www.vonage.com) |
 | Nutzungsbedingungen der App | [https://www.vonage.com/legal/unified-communications/tos/glo...](https://www.vonage.com/legal/unified-communications/tos/global-vbc-tos/) |
-| Kernfunktionen der App | Vonage Business Communications for Teams ermöglicht Anrufe, SMS und MMS mit Vonage Direct Routing. |
+| Kernfunktionen der App | Vonage Business Communications für Teams ermöglicht Anrufe, SMS und MMS mit Vonage Direct Routing. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.vonage.com/unified-communications/](https://www.vonage.com/unified-communications/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von Vonage darüber bereitgestellt, wie diese App Org
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb von 3Monthen gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -162,12 +157,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | Anwendung | Mit dieser Berechtigung werden keine Daten gespeichert. | [1d8a304e-ea67-4aa2-9345-2793419cf83f](https://docs.microsoft.com/microsoft-365-app-certification/azure/1d8a304e-ea67-4aa2-9345-2793419cf83f) |
->| User.Read | Delegiert | Abrufen der Azure-Benutzer-ID und mandanten-ID, damit wir später Benachrichtigungen an diesen Benutzer senden können. | [1d8a304e-ea67-4aa2-9345-2793419cf83f](https://docs.microsoft.com/microsoft-365-app-certification/azure/1d8a304e-ea67-4aa2-9345-2793419cf83f) |
+>| TeamsActivity.Send | Anwendung | Mit dieser Berechtigung werden keine Daten gespeichert. | [1d8a304e-ea67-4aa2-9345-2793419cf83f](../azure/1d8a304e-ea67-4aa2-9345-2793419cf83f.md) |
+>| User.Read | Delegiert | Abrufen der Azure-Benutzer-ID und mandanten-ID, damit wir später Benachrichtigungen an diesen Benutzer senden können. | [1d8a304e-ea67-4aa2-9345-2793419cf83f](../azure/1d8a304e-ea67-4aa2-9345-2793419cf83f.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Text nach genehmigtem Kontakt
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Text, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6e52da48911785c7f4869090d8a8499fe0d859b4
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ed718d83c309d973c449337d573ac7fd56806cf6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260826"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552784"
 ---
 # <a name="text"></a>Text
 
@@ -34,7 +35,7 @@ Informationen, die von einem genehmigten Kontakt an Microsoft bereitgestellt wer
 |:----------------|:-------------|
 | App-Name | Text |
 | ID | WA200000383 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Approved Contact |
 | Website des Unternehmens | [https://www.approvedcontact.com](https://www.approvedcontact.com) |
 | Nutzungsbedingungen der App | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
@@ -42,6 +43,7 @@ Informationen, die von einem genehmigten Kontakt an Microsoft bereitgestellt wer
 | Firmenstandort | Vereinigte Staaten von Amerika |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Diese Informationen wurden von genehmigten Kontakten darüber bereitgestellt, wi
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Innerhalb eines Monats gelöscht |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? |  |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +149,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind, überprüft und berücksichtigt? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | true |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
@@ -162,15 +157,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | Delegiert | Für den Text-BOT erfassen wir den Teambezeichner zum Erstellen zukünftiger Kanäle für eingehende Textnachrichten. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
->| email | Delegiert | E-Mail-Adressen | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
->| offline_access | Delegiert | Aktualisierungstoken werden in unserer Datenbank gespeichert. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
->| openid | Delegiert | Anmeldeinformationen | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
->| Profil | Delegiert | E-Mail-Adressen | [a622ceb4-b6e2-4557-8218-e22e80975ba4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a622ceb4-b6e2-4557-8218-e22e80975ba4) |
+>| Group.ReadWrite.All | Delegiert | Für den Text-BOT erfassen wir den Teambezeichner zum Erstellen zukünftiger Kanäle für eingehende Textnachrichten. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](../azure/a622ceb4-b6e2-4557-8218-e22e80975ba4.md) |
+>| email | Delegiert | E-Mail-Adressen | [a622ceb4-b6e2-4557-8218-e22e80975ba4](../azure/a622ceb4-b6e2-4557-8218-e22e80975ba4.md) |
+>| offline_access | Delegiert | Aktualisierungstoken werden in unserer Datenbank gespeichert. | [a622ceb4-b6e2-4557-8218-e22e80975ba4](../azure/a622ceb4-b6e2-4557-8218-e22e80975ba4.md) |
+>| openid | Delegiert | Anmeldeinformationen | [a622ceb4-b6e2-4557-8218-e22e80975ba4](../azure/a622ceb4-b6e2-4557-8218-e22e80975ba4.md) |
+>| profile | Delegiert | E-Mail-Adressen | [a622ceb4-b6e2-4557-8218-e22e80975ba4](../azure/a622ceb4-b6e2-4557-8218-e22e80975ba4.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

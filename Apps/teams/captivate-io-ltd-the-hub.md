@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für den Umschlaghub von Io Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Den Hub für Unternehmen, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b6e6f108456dff5759d7b7b0505fd9d33fd97a56
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b809799dd2d5f20b347005d164218055462318dc
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155472"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551624"
 ---
 # <a name="the-captivate-hub"></a>The Captivate Hub
 
@@ -34,13 +35,13 @@ Informationen, die von Der Io Ltd. für Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | The Captivate Hub |
 | ID | WA200003575 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Captivate IO Ltd |
 | Website des Unternehmens | [https://captivat.io](https://captivat.io) |
 | Nutzungsbedingungen der App | [https://captivat.io/tos](https://captivat.io/tos) |
 | Kernfunktionen der App | Der Aushilfenhub ist ein codefreies erweiterbares System, das für die Unterstützung von Unterhaltungen zwischen Menschen und Computern über mehrere Kanäle hinweg konzipiert ist. Es unterstützt digitale Assistenten mehrerer Anbieter sowie zahlreiche Live-Chat-Lösungen. |
 | Firmenstandort | Vereinigtes Königreich Großbritannien und Nordirland (die) |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://manual.captivat.io/docs/teams](https://manual.captivat.io/docs/teams) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | IBMCloud |
 

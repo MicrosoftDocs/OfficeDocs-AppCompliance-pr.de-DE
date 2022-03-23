@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Tikit von Cireson
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tikit, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 69551224968b55d4e3731f02b0578157a15bd038
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ae9c1f81ddd6caf63faf498bb8691fcf2f638328
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259842"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552194"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -34,13 +35,13 @@ Informationen, die Von Grapheson an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Tikit |
 | ID | WA200002602 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Cireson |
 | Website des Unternehmens | [https://tikit.ai](https://tikit.ai) |
 | Nutzungsbedingungen der App | [https://tikit.ai/terms-service/](https://tikit.ai/terms-service/) |
 | Kernfunktionen der App | Microsoft-First Ticketing, das exklusiv für Teams erstellt wurde |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://tikit.ai](https://tikit.ai) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
@@ -92,7 +93,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, Credential, DNSManagement |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | N/V |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -108,9 +109,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -119,13 +120,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Letztes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | N/V |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | N/V |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | N/V |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
@@ -167,19 +168,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | Delegiert | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Directory.Read.All | Delegiert | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Group.Read.All | Beide | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read | Delegiert | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read.All | Anwendung | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.ReadBasic.All | Delegiert | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| email | Delegiert | Anmeldeberechtigungen | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| openid | Delegiert | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Profil | Delegiert | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Directory.AccessAsUser.All | Delegiert | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| Directory.Read.All | Delegiert | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| Group.Read.All | Beide | Wird zum Lesen von Rollenzuweisungen für RBAC innerhalb der Anwendung verwendet | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| User.Read | Delegiert | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| User.Read.All | Anwendung | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| User.ReadBasic.All | Delegiert | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| email | Delegiert | Anmeldeberechtigungen | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| openid | Delegiert | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| profile | Delegiert | Anmeldung | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

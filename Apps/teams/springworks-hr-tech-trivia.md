@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Trivia von Springworks HR Tech
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/13/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Trivia, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d6cb39b076b113828b5018eb557a1c2ee54c4004
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b16a3197e930934e927b55e67d4a5ee98e33182a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148943"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551413"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -34,15 +35,14 @@ Informationen von Springworks HR Tech an Microsoft:
 |:----------------|:-------------|
 | App-Name | Trivia |
 | ID | WA200001956 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Springworks HR Tech |
 | Website des Unternehmens | [https://www.springworks.in](https://www.springworks.in) |
 | Nutzungsbedingungen der App | [https://trivia.springworks.in/tnc](https://trivia.springworks.in/tnc) |
-| Kernfunktionen der App | Ein Team, das zusammen spielt, besser läuft. Spielen Sie mit Trivia Quizfragen und Puzzles in Echtzeit mit Ihren Teamkameraden, setzen Sie sich mit ihnen auseinander und setzen Sie sich über soziale Pausen bei der Arbeit ein. Trivia&#8217;s Suite of Features: Quizzes – Konkurrieren Sie mit Ihren Teamkameraden im MCQ-Format Quizfragen, Word-Puzzles – Lösen Sie Puzzles, indem Sie einfach Buchstaben neu anordnen, um aussagekräftige Wörter zu bilden, und (un)beliebte Meinungsstimmen - Sorgen Sie in Ihrem Team mit interessanten Umfragen für Einiges an Verwirrung. |
+| Kernfunktionen der App | Ein Team, das zusammen spielt, besser läuft. Spielen Sie mit Trivia Quizfragen und Puzzles in Echtzeit mit Ihren Teamkameraden, setzen Sie sich mit ihnen auseinander und setzen Sie sich über soziale Pausen bei der Arbeit ein. Trivia&#8217;s Suite of Features: Quizzes – Konkurrieren Sie mit Ihren Teamkameraden im MCQ-Format Quizfragen, Word-Puzzles – Lösen Sie Puzzles, indem Sie einfach Buchstaben neu anordnen, um aussagekräftige Wörter zu bilden, und (un)beliebte Meinungskommentäten - Verunsichern Sie in Ihrem Team mit interessanten Umfragen einiges an Verwirrung. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.springworks.in/trivia](https://www.springworks.in/trivia) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

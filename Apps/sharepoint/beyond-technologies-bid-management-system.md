@@ -2,18 +2,19 @@
 title: Application Information for Bid Management System by Beyond Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Angebotsverwaltungssystem, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7089e7f666dd8c601c5d585f0cec7ce20a613b3e
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: e8209c8ebf341b736bad0e7d8c4143139db6a151
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155306"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550694"
 ---
 # <a name="bid-management-system"></a>Angebotsverwaltungssystem
 
@@ -33,15 +34,14 @@ Von Beyond Technologies für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Angebotsverwaltungssystem |
 | ID | WA200001787 |
-| Office 365 unterstützten Clients | SharePoint 2013 oder höher |
+| unterstützte Office 365-Clients | SharePoint 2013 oder höher |
 | Name des Partnerunternehmens | Beyond Technologies |
 | Website des Unternehmens | [https://www.beyondintranet.com](https://www.beyondintranet.com) |
 | Nutzungsbedingungen der App | [https://www.beyondintranet.com/eula](https://www.beyondintranet.com/eula) |
-| Kernfunktionen der App | Eine SharePoint unterstützten Vorschlagsmanagement-/Angebotsverwaltungssoftware, um Angebotsaktivitäten zu digitalisieren. |
+| Kernfunktionen der App | Eine SharePoint unterstützte Vorschlagsmanagement-/Angebotsverwaltungssoftware, um Angebotsaktivitäten zu digitalisieren. |
 | Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.beyondintranet.com/bid-management-software](https://www.beyondintranet.com/bid-management-software) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
-| Welche Hosting-Cloudanbieter verwendet die App? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

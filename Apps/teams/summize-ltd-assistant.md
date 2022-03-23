@@ -2,18 +2,19 @@
 title: Application Information for Summize Assistant by Summize (Ltd)
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Summize-Assistenten, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7a886aeb6df7bf971fc1c4b79ff27b3c0ca4e87f
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 5b1537da99739171f0240ce2debebb007e9d7d3f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147701"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551344"
 ---
 # <a name="summize-assistant"></a>Summize Assistant
 
@@ -34,7 +35,7 @@ Von Summize (Ltd) an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Summize Assistant |
 | ID | WA200003577 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Summize (Ltd) |
 | Website des Unternehmens | [https://www.summize.com](https://www.summize.com) |
 | Nutzungsbedingungen der App | [https://www.summize.com/terms-and-conditions](https://www.summize.com/terms-and-conditions) |

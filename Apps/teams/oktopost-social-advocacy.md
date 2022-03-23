@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für soziale Netzwerke von Oktopost
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Soziales, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d2512c15493639790c1853f00dfe005ae32cfbb7
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: c4715e95265d4edd96b51fa8b59e5535eef892d4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155441"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552014"
 ---
 # <a name="social-advocacy"></a>Social Advocacy
 
@@ -34,13 +35,13 @@ Von Oktopost für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Social Advocacy |
 | ID | WA200002598 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Oktopost |
 | Website des Unternehmens | [https://www.oktopost.com](https://www.oktopost.com) |
 | Nutzungsbedingungen der App | [https://www.oktopost.com/terms](https://www.oktopost.com/terms) |
 | Kernfunktionen der App | Oktopost ist eine Social Media Management- und Mitarbeiter-Plattform für B2B. Mit Oktopost können Sie alle Ihre Social Media-Aktivitäten an einem zentralen Ort verwalten, überwachen und messen. Oktopost verfügt über zwei Kernlösungen: 1) Social Media Management, einschließlich Veröffentlichung, Überwachung, Analyse, Engagement und 2) Mitarbeiterarbeit, die es Vermarktern ermöglicht, Social Sharing-Programme für Mitarbeiter zu verwalten. Oktopost unique value proposition also enables marketers to integrate social data with the marketing stack. |
 | Firmenstandort | Israel |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://www.oktopost.com](https://www.oktopost.com) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von Oktopost darüber bereitgestellt, wie diese App O
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

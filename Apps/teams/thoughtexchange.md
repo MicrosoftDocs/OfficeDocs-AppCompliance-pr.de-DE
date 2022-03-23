@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für ThoughtExchange von ThoughtExchange
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ThoughtExchange, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a749ad83fe14ccff790deaf88721ff1b29b04ea4
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: c0839129e2fbfee94d154a1a3d893126092e196e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62147585"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551294"
 ---
 # <a name="thoughtexchange"></a>ThoughtExchange
 
@@ -34,13 +35,13 @@ Von ThoughtExchange für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | ThoughtExchange |
 | ID | WA200003378 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ThoughtExchange |
 | Website des Unternehmens | [https://thoughtexchange.com](https://thoughtexchange.com) |
 | Nutzungsbedingungen der App | [https://www.thoughtexchange.com/participant-leader-terms-of...](https://www.thoughtexchange.com/participant-leader-terms-of-use/) |
 | Kernfunktionen der App | &#8220;ThoughtExchange hilft Führungskräften dabei, unabhängig von ihrem Standort unabhängig von ihrem Standort von allen Mitarbeitern oder der Community freizugebende und unvoreingenommene Eingaben zu erhalten. Unabhängig davon, ob es sich um gruppen von zehn oder 10.000&#8217;, erleichtert ThoughtExchange wichtige Diskussionen und Entscheidungen im großen Maßstab.&#8221; |
 | Firmenstandort | Kanada |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://get.thoughtexchange.help/hc/en-us/articles/15000107...](https://get.thoughtexchange.help/hc/en-us/articles/1500010779682) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure, Aws |
 
@@ -57,14 +58,7 @@ Diese Informationen wurden von ThoughtExchange darüber bereitgestellt, wie dies
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? |  |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? |  |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? |  |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? |  |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? |  |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Ja |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? | Ja |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
