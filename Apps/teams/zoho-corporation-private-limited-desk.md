@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Zoho Desk von Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoho Desk, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8b934d980843f06ad78ca65ceb5782ce951fa41b
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: ee371d3cd431fae46b5f97d434ff9acb0fbcbe1e
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430273"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63751083"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -30,11 +31,11 @@ ms.locfileid: "60430273"
 
 Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Zoho Desk |
 | ID | WA104382044 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.zoho.com/desk](https://www.zoho.com/desk) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://help.zoho.com/portal/kb/zoho-desk](https://help.zoho.com/portal/kb/zoho-desk) |
@@ -55,18 +56,18 @@ Diese Informationen wurden von Zoho Corporation Private Limited zur Verfügung g
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Files.Read | Delegiert |  | Benutzerdateien lesen. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Files.Read.All | Delegiert |  | Lesen Sie alle Dateien, auf die der Benutzer zugreifen kann. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| User.Read | Delegiert |  | Melden Sie sich an, und lesen Sie das Benutzerprofil. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| User.ReadBasic.All | Delegiert |  | Lesen sie die grundlegenden Profile aller Benutzer. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| email | Delegiert |  | Zeigen Sie die E-Mail-Adresse des Benutzers an. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| offline_access | Delegiert |  | Behalten Sie den Zugriff auf Daten bei, auf die Sie ihr Zugriff gewährt haben. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Profil | Delegiert |  | Zeigen Sie das grundlegende Profil des Benutzers an. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.Read | Delegiert |  | Benutzerdateien lesen. |  |
+>| Files.Read.All | Delegiert |  | Lesen Sie alle Dateien, auf die der Benutzer zugreifen kann. |  |
+>| User.Read | Delegiert |  | Melden Sie sich an, und lesen Sie das Benutzerprofil. |  |
+>| User.ReadBasic.All | Delegiert |  | Lesen sie die grundlegenden Profile aller Benutzer. |  |
+>| email | Delegiert |  | Zeigen Sie die E-Mail-Adresse des Benutzers an. |  |
+>| offline_access | Delegiert |  | Behalten Sie den Zugriff auf Daten bei, auf die Sie ihr Zugriff gewährt haben. |  |
+>| profile | Delegiert |  | Zeigen Sie das grundlegende Profil des Benutzers an. |  |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -74,7 +75,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -89,7 +90,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->1) Auf der Benutzeroberfläche gibt es eine Option zum Löschen der Entitäten, Administratoren und Agents innerhalb des Zoho Desks, die Löschoptionen haben, können dies ausführen. 2) Wir haben auch Optionen zum Exportieren, mit denen der Administrator exportieren und für seine Zwecke erreichen kann.  3) Wir führen die Überwachung im Back-End durch, wenn der Kunde diese Informationen anfordern kann.
+>1) Auf der Benutzeroberfläche gibt es eine Option zum Löschen der Entitäten, Administratoren und Agents innerhalb des Zoho Desks, die Löschoptionen haben, können dies ausführen. 2) Wir haben auch Optionen zum Exportieren, mit denen der Administrator exportieren und für ihren Zweck erreichen kann.  3) Wir führen die Überwachung im Back-End durch, wenn der Kunde diese Informationen anfordern kann.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

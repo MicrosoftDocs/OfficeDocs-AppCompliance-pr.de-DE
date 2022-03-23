@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Innovative von Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mofa, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Mofa, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2697126a901dde102be0ee29c153b69d0021acf5
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: a0fbc5fb17729e2551e65c170ea2c59c4cf866f3
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60437149"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63748276"
 ---
 # <a name="guru"></a>Guru
 
@@ -30,11 +31,11 @@ ms.locfileid: "60437149"
 
 Informationen, die Von Technologies an Microsoft bereitgestellt werden:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Guru |
 | ID | WA200001719 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Guru Technologies |
 | URL der Partnerwebsite | [https://www.getguru.com](https://www.getguru.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
@@ -53,7 +54,7 @@ Diese Informationen wurden von Denktechnologien darüber bereitgestellt, wie die
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -64,11 +65,11 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 >| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Endbenutzeranwendung und interne Datenbanken | Wenn ein Benutzer oder ein Unternehmen die App "Portrait" für Teams einrichte, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit dem Benutzerprofil verknüpft sind, aufgezeichnet und von Von Portrait zugänglich sein. | Da ein Benutzer sowohl über ein Teams- als auch über ein Helpdesk-Konto verfügen muss, um die Integration zu verwenden, verfolgen und verfolgen wir, welche Benutzer die Integration ermöglichen, um diesen Benutzern Unterstützung und Verwaltung bereitzustellen. |
+>| Endbenutzeranwendung und interne Datenbanken | Wenn ein Benutzer oder ein Unternehmen die App "Portrait" für Teams einrichte, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit dem Benutzerprofil verknüpft sind, aufgezeichnet und von Von Portrait zugänglich sein. | Da ein Benutzer sowohl über ein Teams- als auch über ein Helpdesk-Konto verfügen muss, um die Integration nutzen zu können, verfolgen und verfolgen wir, welche Benutzer die Integration ermöglichen, um diesen Benutzern Unterstützung und Verwaltung bereitzustellen. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -77,13 +78,13 @@ Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf 
 
 Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
 
->wenn ein Benutzer oder ein Unternehmen die App "Album" für Teams einrichte, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit dem Benutzerprofil verknüpft sind, aufgezeichnet und von Portrait zugänglich sein. Nach Beendigung eines Kontos werden die Daten 90 Tage lang aufbewahrt und dann entfernt. 
+>Wenn ein Benutzer oder ein Unternehmen die App "Portrait" für Teams einrichte, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit dem Benutzerprofil verknüpft sind, aufgezeichnet und von Portrait zugänglich sein. Nach Beendigung eines Kontos werden die Daten 90 Tage lang aufbewahrt und dann entfernt. 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Das Team Einstellungen Administratoren in einem Team erlauben, zu bestimmen, welche Gruppen und Zugriffs-/Rollensteuerelemente pro Sammlung bereitgestellt werden sollen, mit der Möglichkeit, Karten zu alternativen Personen hinzuzufügen, zu entfernen und erneut zuzuweisen. Enterprise Kunden, die SSO bereitgestellt haben, profitieren auch von der SSO-Anbieterkonsole zum Onboarding/Offboarden und Einrichten von Gruppen über SCIM.
+>Das Team Einstellungen Administratoren in einem Team ermöglichen, zu bestimmen, welche Gruppen und Zugriffs-/Rollensteuerelemente pro Sammlung bereitgestellt werden sollen, mit der Möglichkeit, Karten zu alternativen Personen hinzuzufügen, zu entfernen und erneut zuzuweisen. Enterprise Kunden, die SSO bereitgestellt haben, profitieren auch von der SSO-Anbieterkonsole zum Onboarding/Offboarden und Einrichten von Gruppen über SCIM.
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -113,7 +114,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Namespace Technologies darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 
