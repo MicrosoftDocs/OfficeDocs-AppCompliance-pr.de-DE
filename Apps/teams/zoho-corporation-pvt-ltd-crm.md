@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Zoho CRM von Zoho Corporation Pvt Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Zoho CRM, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7228520de3cc4a7e77880a5d2a4a556f2082f99e
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 1543739d4c304a4527c878d6214c06a1426314b3
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428458"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753618"
 ---
 # <a name="zoho-crm"></a>Zoho CRM
 
@@ -30,11 +31,11 @@ ms.locfileid: "60428458"
 
 Informationen, die von Zoho Corporation Pvt Ltd an Microsoft bereitgestellt werden:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Zoho CRM |
 | ID | WA104382094 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Zoho Corporation Pvt Ltd |
 | URL der Partnerwebsite | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.zoho.com/crm/help/microsoft-teams-integration.h...](https://www.zoho.com/crm/help/microsoft-teams-integration.html) |
@@ -51,24 +52,24 @@ Informationen, die von Zoho Corporation Pvt Ltd an Microsoft bereitgestellt werd
 
 Diese Informationen wurden von der Zoho Corporation Pvt Ltd bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | Delegiert | Die Kalenderordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kalenderinformationen wie event_name, event_location und participant_details werden gespeichert. | Ermöglicht es dem Benutzer, Office365-Ereignisse mit Zoho CRM zu synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Contacts.ReadWrite | Delegiert | Die Kontaktordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kontaktinformationen wie first_name, last_name und E-Mail-Adresse werden gespeichert. | Ermöglicht es dem Benutzer, Office365-Kontakte mit Zoho CRM zu synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read | Delegiert |  | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read.All | Delegiert |  | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read.Selected | Delegiert | UserPrincipalName wird zur Benutzeridentifikation gespeichert. | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.ReadBasic.All | Delegiert | Benutzereigenschaften wie first_name, last_name, E-Mail-Adresse. | Grundlegende Profile aller Benutzer lesen | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| email | Delegiert | UserPrincipaName wird für die Einrückung des Benutzers gespeichert. | Anzeigen der E-Mail-Adresse des Benutzers | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| offline_access | Delegiert |  | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Profil | Delegiert |  | Anzeigen des grundlegenden Profils des Benutzers | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Calendars.ReadWrite | Delegiert | Die Kalenderordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kalenderinformationen wie event_name, event_location und participant_details werden gespeichert. | Ermöglicht es dem Benutzer, Office365-Ereignisse mit Zoho CRM zu synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| Contacts.ReadWrite | Delegiert | Die Kontaktordner-ID wird gespeichert, um die Kontakte von Zoho CRM mit Microsoft &amp; zu synchronisieren. Kontaktinformationen wie first_name, last_name und E-Mail-Adressen werden gespeichert. | Ermöglicht es dem Benutzer, Office365-Kontakte mit Zoho CRM zu synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| Files.Read | Delegiert |  | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| Files.Read.All | Delegiert |  | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| Files.Read.Selected | Delegiert | UserPrincipalName wird zur Benutzeridentifikation gespeichert. | Ermöglicht dem Benutzer, die Office365-Datei in Zoho CRM zu importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| User.ReadBasic.All | Delegiert | Benutzereigenschaften wie first_name, last_name, E-Mail-Adresse. | Grundlegende Profile aller Benutzer lesen | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| email | Delegiert | UserPrincipaName wird für die Einrückung des Benutzers gespeichert. | Anzeigen der E-Mail-Adresse des Benutzers | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| offline_access | Delegiert |  | Den Zugriff auf Daten beibehalten, auf die Sie ihr Zugriff gewährt haben | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
+>| profile | Delegiert |  | Anzeigen des grundlegenden Profils des Benutzers | [f6d7187a-b437-4eca-bc5-c1331609fe07](../azure/f6d7187a-b437-4eca-bbc5-c1331609fe07.md) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -76,7 +77,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -91,7 +92,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Der Kunde kann die Daten auswählen, die über EAR (Encryption At Rest) mit Certaat-Einschränkungen verschlüsselt werden müssen. Kennwörter werden standardmäßig mit einem Hash versehen. Der logische Zugriff auf die Server wird über ein isoliertes dediziertes Netzwerk bereitgestellt &amp; und ist hochgradig gesichert und
+>Der Kunde kann die Daten auswählen, die über EAR (Encryption At Rest) mit Certaat-Einschränkungen verschlüsselt werden müssen. Kennwörter werden standardmäßig mit einem Hash versehen. Der logische Zugriff auf die Server wird über ein isoliertes &amp; dediziertes Netzwerk bereitgestellt und ist hochgradig gesichert und
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

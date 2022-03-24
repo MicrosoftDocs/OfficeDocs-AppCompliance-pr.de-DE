@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Officevibe von Officevibe
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Officevibe, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c347c1de602d889829ac22aaad650871959be6be
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: c96f4bc23b5f1201567276c64de7ff411746c105
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430787"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753734"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -30,11 +31,11 @@ ms.locfileid: "60430787"
 
 Von Officevibe für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Officevibe |
 | ID | WA200002508 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Officevibe |
 | URL der Partnerwebsite | [https://officevibe.com](https://officevibe.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://officevibe-portal.zendesk.com/hc/en-us/articles/360...](https://officevibe-portal.zendesk.com/hc/en-us/articles/360048865311-Officevibe-Communications-via-Microsoft-Teams-Coming-soon-) |
@@ -53,15 +54,15 @@ Diese Informationen wurden von Officevibe darüber bereitgestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
->| Group.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
->| TeamsAppInstallation.ReadWriteForUser | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
->| User.Read | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
->| User.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. &amp;Mandanten-ID-Mandantenname: So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| Directory.AccessAsUser.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
+>| Group.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
+>| TeamsAppInstallation.ReadWriteForUser | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
+>| User.Read | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
+>| User.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -74,7 +75,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -117,9 +118,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Officevibe dazu bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Officevibe darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Nein |
 

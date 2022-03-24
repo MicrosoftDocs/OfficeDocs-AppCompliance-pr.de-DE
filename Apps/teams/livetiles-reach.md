@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für die Reichweite von LiveTiles
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Reach, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 882e5bdff55a1217c39b8f97761a28eba92d0036
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: c58462500079df7f7b8b2736eec9289443df4a4c
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430817"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753737"
 ---
 # <a name="reach"></a>Reach
 
@@ -30,11 +31,11 @@ ms.locfileid: "60430817"
 
 Von LiveTiles für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Reach |
 | ID | WA200002045 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | LiveTiles |
 | URL der Partnerwebsite | [https://livetilesglobal.com](https://livetilesglobal.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://livetilesglobal.com/products/livetiles-reach/](https://livetilesglobal.com/products/livetiles-reach/) |
@@ -53,15 +54,15 @@ Diese Informationen wurden von LiveTiles darüber bereitgestellt, wie diese App 
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf,](https://docs.microsoft.com/graph/permissions-reference) die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| TeamsActivity.Send | Anwendung | keine | Keine | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7c1920d-3ac0-42db-9757-078a2b321fd8 ) |
->| User.Read | Delegiert | User DisplayName, User Email Address, UPN. Erforderlich, damit sich Benutzer bei der App anmelden und grundlegende Informationen des angemeldeten Benutzers abrufen können, z. B. den Anzeigenamen. Die E-Mail-Adresse wird zum Senden von E-Mail-Benachrichtigungen verwendet.  | User DisplayName, User Email Address, UPN. Erforderlich, damit sich Benutzer bei der App anmelden und grundlegende Informationen des angemeldeten Benutzers abrufen können, z. B. den Anzeigenamen. Die E-Mail-Adresse wird zum Senden von E-Mail-Benachrichtigungen verwendet.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
->| User.ReadBasic.All | Delegiert | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefon Number, User Business Telefon Number, User Office Location. Erforderlich, damit Benutzer in der App nach anderen Benutzern suchen (Phonebook) und die grundlegenden Profil- und Kontaktinformationen anderer Benutzer anzeigen können.  | Keine | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
->| Directory.Read.All | Anwendung | Gruppenmitgliedschaft, AD-Gruppen im Verzeichnis. Die Gruppenmitgliedschaft von Benutzern wird in einem Cache gespeichert, um Aufrufe der Microsoft Graph-API zu minimieren. Erforderlich, damit Benutzer nach Active Directory-Gruppen suchen können. Darüber hinaus ist diese Berechtigung erforderlich, damit die Anwendung die AD-Gruppenmitgliedschaft von Benutzern in Webaufträgen des Back-Ends auflösen kann. | Gruppenmitgliedschaft von Benutzern. Die Gruppenmitgliedschaft von Benutzern wird in einem Cache gespeichert, um Aufrufe der Microsoft Graph-API zu minimieren. Erforderlich, damit Benutzer nach Active Directory-Gruppen suchen können. Darüber hinaus ist diese Berechtigung erforderlich, damit die Anwendung die AD-Gruppenmitgliedschaft von Benutzern in Webaufträgen des Back-Ends auflösen kann.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
->| User.Read.All | Anwendung | Die aus dem Benutzerprofil abgerufenen Daten hängen von der in der App angegebenen Konfiguration des Zielgruppenadressierungsfeatures ab. Erforderlich, damit die App Benutzerprofile ohne einen angemeldeten Benutzer lesen kann. Das Lesen von Profildaten ist für das Feature für die Informationsadressierung innerhalb der Anwendung erforderlich, damit die Informationen basierend auf einem bestimmten Profileigenschaftenwert für bestimmte Benutzer angezeigt werden.  | Keine | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
+>| TeamsActivity.Send | Anwendung | keine | Keine | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](../azure/a7c1920d-3ac0-42db-9757-078a2b321fd8.md ) |
+>| User.Read | Delegiert | User DisplayName, User Email Address, UPN. Erforderlich, damit sich Benutzer bei der App anmelden und grundlegende Informationen des angemeldeten Benutzers abrufen können, z. B. den Anzeigenamen. Die E-Mail-Adresse wird zum Senden von E-Mail-Benachrichtigungen verwendet.  | User DisplayName, User Email Address, UPN. Erforderlich, damit sich Benutzer bei der App anmelden und grundlegende Informationen des angemeldeten Benutzers abrufen können, z. B. den Anzeigenamen. Die E-Mail-Adresse wird zum Senden von E-Mail-Benachrichtigungen verwendet.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md) |
+>| User.ReadBasic.All | Delegiert | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Telefon Number, User Business Telefon Number, User Office Location. Erforderlich, damit Benutzer in der App nach anderen Benutzern suchen (Phonebook) und die grundlegenden Profil- und Kontaktinformationen anderer Benutzer anzeigen können.  | Keine | [d492530a-8cff-481c-90da-9c3c3f1be7da](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md) |
+>| Directory.Read.All | Anwendung | Gruppenmitgliedschaft, AD-Gruppen im Verzeichnis. Die Gruppenmitgliedschaft von Benutzern wird in einem Cache gespeichert, um Aufrufe von Microsoft Graph-API zu minimieren. Erforderlich, damit Benutzer nach Active Directory-Gruppen suchen können. Darüber hinaus ist diese Berechtigung erforderlich, damit die Anwendung die AD-Gruppenmitgliedschaft von Benutzern in Webaufträgen des Back-Ends auflösen kann. | Gruppenmitgliedschaft von Benutzern. Die Gruppenmitgliedschaft von Benutzern wird in einem Cache gespeichert, um Aufrufe von Microsoft Graph-API zu minimieren. Erforderlich, damit Benutzer nach Active Directory-Gruppen suchen können. Darüber hinaus ist diese Berechtigung erforderlich, damit die Anwendung die AD-Gruppenmitgliedschaft von Benutzern in Webaufträgen des Back-Ends auflösen kann.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md ) |
+>| User.Read.All | Anwendung | Die aus dem Benutzerprofil abgerufenen Daten hängen von der in der App angegebenen Konfiguration des Zielgruppenadressierungsfeatures ab. Erforderlich, damit die App Benutzerprofile ohne angemeldeten Benutzer lesen kann. Das Lesen von Profildaten ist für das Feature für die Informationsadressierung innerhalb der Anwendung erforderlich, damit die Informationen basierend auf einem bestimmten Profileigenschaftenwert für bestimmte Benutzer angezeigt werden.  | keine | [d492530a-8cff-481c-90da-9c3c3f1be7da ](../azure/d492530a-8cff-481c-90da-9c3c3f1be7da.md ) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -74,7 +75,7 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >Es wird nicht auf EUII zugegriffen.
 
@@ -119,10 +120,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von LiveTiles darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden in der Checkliste für die Microsoft Identity Platform Integration überprüft und berücksichtigt?  | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Nein |
 | Verwendet Ihre App MSAL (Microsoft-Authentifizierungsbibliothek) für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung, Einschränken von Benutzerspeicherorten und IP-Bereichen |

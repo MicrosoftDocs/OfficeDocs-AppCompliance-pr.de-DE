@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für researcHR von KBE&#26666;&#24335;&#20250;&#31038;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für researcHR, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b57d492945766c8d65417cf2f1d642ea4ecb8aae
-ms.sourcegitcommit: 64333f4e583bacd85f1b47af6e1eaee266658924
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 5def12e783d15c3cbcaf02ec128301dd9f75bd01
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58422632"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753781"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -28,7 +29,7 @@ ms.locfileid: "58422632"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von KBE&#26666;&#24335;&#20250;&#31038; für Microsoft bereitgestellt werden:
+Informationen, die von KBE&#26666;&#24335;&#20250;&#31038; an Microsoft bereitgestellt werden:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -51,22 +52,22 @@ Informationen, die von KBE&#26666;&#24335;&#20250;&#31038; für Microsoft bereit
 
 Diese Informationen wurden von KBE&#26666;&#24335;&#20250;&#31038; darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen](https://docs.microsoft.com/graph/permissions-reference) auf, die diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.Create | Anwendung | Wir verwenden diesen Bereich, um es unserem Bot zu ermöglichen, einen neuen Kanal auf dem Teams-Client zu erstellen. Siehe: https://docs.microsoft.com/en-us/graph/api/channel-post | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| Directory.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/en-us/graph/api/channel-list | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| Group.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/en-us/graph/api/channel-list | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| Team.ReadBasic.All | Anwendung | Wir verwenden diesen Bereich, um die Mitglieder des Teams abzurufen, damit Benutzer ihre Teammitglieder auf unserer Website sehen können. Siehe: https://docs.microsoft.com/en-us/graph/api/group-list-members | Wir speichern diese Daten nicht in der Out-Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| User.Read.All | Anwendung | Wir verwenden diesen Bereich, um die verbundenen Kanäle des Benutzers abzurufen, damit die Benutzer ihre beigetretenen Teams auf unserer Website sehen können. Siehe: https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| User.ReadBasic.All | Delegiert | Wir verwenden diesen Bereich, um die OAuth-Anmeldung zu aktivieren und die AAD-ID, das Zugriffstoken und das Aktualisierungstoken des Benutzers zu erfassen. Siehe: https://docs.microsoft.com/en-us/graph/auth-v2-user | Wir speichern die AAD-ID, das Zugriffstoken und das Aktualisierungstoken des Benutzers in unserer Datenbank, damit sich der Benutzer mit OAuth bei unserer Website anmelden kann. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| offline_access | Delegiert | Wir verwenden diesen Bereich, um das Aktualisierungstoken abzurufen, damit das Zugriffstoken der authentifizierten Benutzer ohne Benutzerinteraktionen aktualisiert werden kann. Siehe: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | Wir speichern das Aktualisierungstoken in unserer Datenbank, damit wir das Zugriffstoken ohne Benutzerinteraktionen aktualisieren können. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
+>| Channel.Create | Anwendung | Wir verwenden diesen Bereich, um es unserem Bot zu ermöglichen, einen neuen Kanal auf dem Teams-Client zu erstellen. Siehe: https://docs.microsoft.com/graph/api/channel-post | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Directory.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/graph/api/channel-list | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Group.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/graph/api/channel-list | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Team.ReadBasic.All | Anwendung | Wir verwenden diesen Bereich, um die Mitglieder des Teams abzurufen, damit Benutzer ihre Teammitglieder auf unserer Website sehen können. Siehe: https://docs.microsoft.com/graph/api/group-list-members | Wir speichern diese Daten nicht in der Out-Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.Read.All | Anwendung | Wir verwenden diesen Bereich, um die verbundenen Kanäle des Benutzers abzurufen, damit die Benutzer ihre beigetretenen Teams auf unserer Website sehen können. Siehe: https://docs.microsoft.com/graph/api/user-list-joinedteams | Wir speichern diese Daten nicht in unserer Datenbank. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.ReadBasic.All | Delegiert | Wir verwenden diesen Bereich, um die OAuth-Anmeldung zu aktivieren und die AAD-ID, das Zugriffstoken und das Aktualisierungstoken des Benutzers zu erfassen. Siehe: https://docs.microsoft.com/graph/auth-v2-user | Wir speichern die AAD-ID, das Zugriffstoken und das Aktualisierungstoken des Benutzers in unserer Datenbank, damit sich der Benutzer mit OAuth bei unserer Website anmelden kann. | [82df726e-0de2-46af-b4f1-0645fd95fc97].. /azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| offline_access | Delegiert | Wir verwenden diesen Bereich, um das Aktualisierungstoken abzurufen, damit das Zugriffstoken der authentifizierten Benutzer ohne Benutzerinteraktionen aktualisiert werden kann. Siehe: https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access | Wir speichern das Aktualisierungstoken in unserer Datenbank, damit wir das Zugriffstoken ohne Benutzerinteraktionen aktualisieren können. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 

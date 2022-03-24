@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für TeamMate by ChitChattr by ChitChattr
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für TeamMate von ChitChattr, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für TeamMate von ChitChattr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9e12f758f81980d155f769e14323556e73c67fab
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 64d99813e4c76f06a776f5882fac52d9eea8285a
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430857"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753549"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -30,11 +31,11 @@ ms.locfileid: "60430857"
 
 Von ChitChattr für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | TeamMate by ChitChattr |
 | ID | WA200002530 |
-| Office 365 unterstützten Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | ChitChattr |
 | URL der Partnerwebsite | [https://www.chitchattr.com](https://www.chitchattr.com) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://www.chitchattr.com/teammate/](https://www.chitchattr.com/teammate/) |
@@ -55,12 +56,12 @@ Diese Informationen wurden von ChitChattr darüber bereitgestellt, wie diese App
 
 Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | Delegiert | Die App ermöglicht Es Administratoren, Benutzer auszuwählen, auf die bestimmte Benutzeroberflächen ausgerichtet werden sollen. Daher muss sie den Namen, die E-Mail-Adresse und Azure AD Objekt-ID des Benutzers speichern. | Die App ermöglicht Es Administratoren, Benutzer auszuwählen, auf die bestimmte Benutzeroberflächen ausgerichtet werden sollen. Daher muss sie den Namen, die E-Mail-Adresse und Azure AD Objekt-ID des Benutzers speichern. | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
+>| People.Read | Delegiert | Die App ermöglicht Es Administratoren, Benutzer auszuwählen, auf die bestimmte Benutzeroberflächen ausgerichtet werden sollen. Daher müssen name, E-Mail und Azure AD Objekt-ID des Benutzers gespeichert werden. | Die App ermöglicht Es Administratoren, Benutzer auszuwählen, auf die bestimmte Benutzeroberflächen ausgerichtet werden sollen. Daher müssen name, E-Mail und Azure AD Objekt-ID des Benutzers gespeichert werden. | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](../azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md) |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -68,11 +69,11 @@ Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt ode
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Identifizierbare Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
 
 >| **Begründung für den Zugriff auf EUII?**  | **Wird EUII in Datenbanken gespeichert?** | **Begründung für die Speicherung von EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Bei Problemen wird der Bot nachschlagen und dem Benutzer die Namen und Kontaktdetails der Benutzer anzeigen, die als Administratoren in der App registriert sind (wenden Sie sich im Wesentlichen &quot; an Ihren Administrator , d. gt. &quot; | Name, E-Mail | Wie in den vorherigen Abschnitten beschrieben, um Benutzer für gezielte Erfahrungen identifizieren zu können (basierend auf der Konfiguration durch den Administrator) und Benutzern zu ermöglichen, zu sehen, wer ihre internen Unternehmensadministratoren für die App sind. |
+>| Im Falle von Problemen wird der Bot nachschlagen und dem Benutzer die Namen und Kontaktdaten der Benutzer anzeigen, die als Administratoren in der App registriert sind (wenden Sie sich im Wesentlichen &quot;an Ihren Administrator, d. b. an die Person, die er ist&quot;). | Name, E-Mail | Wie in den vorherigen Abschnitten beschrieben, um Benutzer für gezielte Erfahrungen identifizieren zu können (basierend auf der Konfiguration durch den Administrator) und Benutzern zu ermöglichen, zu sehen, wer ihre internen Unternehmensadministratoren für die App sind. |
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
@@ -115,7 +116,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von ChitChattr darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |

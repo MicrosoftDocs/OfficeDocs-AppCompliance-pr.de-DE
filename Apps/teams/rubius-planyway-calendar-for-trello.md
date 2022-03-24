@@ -2,18 +2,19 @@
 title: Application Information for Planyway Calendar for Trello by Modalus
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Planyway Calendar für Trello, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1f7f0b736cbe100b0131d4064c2702cb28e9ea35
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 5936b0c382642d1e614803928111e14a38ab1a5e
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61354637"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753770"
 ---
 # <a name="planyway-calendar-for-trello"></a>Planyway-Kalender für Trello
 
@@ -30,7 +31,7 @@ ms.locfileid: "61354637"
 
 Informationen, die von Demons an Microsoft bereitgestellt werden:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Planyway-Kalender für Trello |
 | ID | WA200002712 |
@@ -53,7 +54,7 @@ Informationen, die von Demons an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Ihnen bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
@@ -73,9 +74,9 @@ Diese Informationen wurden von Ihnen bereitgestellt, wie diese App Organisations
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Führen Sie jährliche Penetrationstests für die App durch? | Nr. |
+| Führen Sie jährliche Penetrationstests für die App durch? | Nein |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Nein |
 | Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? |  |
 | Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? |  |
@@ -103,12 +104,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | {
-  &quot;CMP08_complianceSOC_1 : &quot; &quot; Na &quot; } | | Letztes SOC1-Zertifizierungsdatum |   | | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Keine | | Welche SOC 2-Zertifizierung haben Sie erreicht? | | | Letztes SOC2-Zertifizierungsdatum | | | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Keine | | Letztes SOC3-Zertifizierungsdatum | | | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Keine | | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Keine | | Entspricht die App der International Organization for Standardization (ISO 27018)? | { &quot; CMP16_complianceISO_27018 : Na } &quot; &quot; &quot; | | Entspricht die App der International Organization for Standardization (ISO 27017)? | Keine | | Entspricht die App der International Organization for Standardization (ISO 27002)? | Keine | | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Keine | | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht-A-| | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht-A-| | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht-A-| | Entspricht die App NIST 800-171? |  | | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Keine |
+  &quot;&quot;CMP08_complianceSOC_1: &quot;Na&quot; } | | Letztes SOC1-Zertifizierungsdatum |   | | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Keine | | Welche SOC 2-Zertifizierung haben Sie erreicht? | | | Letztes SOC2-Zertifizierungsdatum | | | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Keine | | Letztes SOC3-Zertifizierungsdatum | | | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Keine | | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Keine | | Entspricht die App der International Organization for Standardization (ISO 27018)? | { &quot;CMP16_complianceISO_27018&quot;: &quot;Na&quot; } | | Entspricht die App der International Organization for Standardization (ISO 27017)? | Keine | | Entspricht die App der International Organization for Standardization (ISO 27002)? | Keine | | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Keine | | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht-A-| | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht-A-| | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht-A-| | Entspricht die App NIST 800-171? |  | | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Keine |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,7 +117,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? |  |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
@@ -135,13 +136,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nr. |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und berücksichtigt? | Nr. |
+| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
-| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nr. |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App continuous Access Evaluation (CAE) |  |
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
