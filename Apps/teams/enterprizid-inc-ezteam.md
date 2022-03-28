@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ezTeam, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ff6cde9fda8939e2be6d45025f0c1b9e173340e6
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: bf4e7019e7c963ae475548b766fbe0427ac01744
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63752599"
+ms.locfileid: "63772116"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -54,34 +54,34 @@ Diese Informationen wurden von EnterprizID Inc. bereitgestellt, wie diese App Or
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| AppCatalog.Read.All | Delegiert | Liste der unter Teams verfügbaren Apps, sodass sie auf Teams Anforderungserstellungsprozess angezeigt werden kann | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Application.Read.All | Delegiert | Ermöglicht der App das Lesen von Anwendungen und Dienstprinzipalen im Auftrag des angemeldeten Benutzers. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.AccessAsUser.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.Read.All | Delegiert | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation zu lesen, z. B. Benutzer, Gruppen und Apps. | Teams Besitzer- und Mitgliedschaftsinformationen  | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.Read.All | Anwendung | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation ohne einen angemeldeten Benutzer zu lesen, z. B. Benutzer, Gruppen und Apps. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.ReadWrite.All | Delegiert | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation zu lesen und zu schreiben, z. B. Benutzer und Gruppen | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Directory.ReadWrite.All | Anwendung | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation ohne angemeldeten Benutzer zu lesen und zu schreiben, z. B. Benutzer und Gruppen. Ermöglicht nicht das Löschen eines Benutzers oder einer Gruppe. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Files.Read.All | Anwendung | Die App kann alle Dateien in allen Websitesammlungen ohne angemeldeten Benutzer lesen. | Datenmenge unter Endbenutzergovernance in GB | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Group.Create | Anwendung | Ermöglicht der App, Gruppen ohne angemeldeten Benutzer zu erstellen. | Details zu neuen Gruppeneigenschaften. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
->| Group.Read.All | Delegiert | Die App kann Gruppen aufführen und deren Eigenschaften sowie alle Gruppenmitgliedschaften im Namen des angemeldeten Benutzers lesen. Wird verwendet, um "My Teams" zu ermitteln.  | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Group.Read.All | Anwendung | Ermöglicht der App das Lesen von Gruppeneigenschaften und Mitgliedschaften sowie das Lesen des Kalenders und der Unterhaltungen für alle Gruppen, ohne dass ein Benutzer angemeldet ist. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Group.ReadWrite.All | Delegiert | Die App kann Gruppen erstellen und alle Gruppeneigenschaften und -mitgliedschaften im Namen des angemeldeten Benutzers lesen.  | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Group.ReadWrite.All | Anwendung | Ermöglicht der App, Gruppen zu erstellen, alle Gruppeneigenschaften und Mitgliedschaften zu lesen, Gruppeneigenschaften und Mitgliedschaften zu aktualisieren und Gruppen zu löschen. Ermöglicht der App auch das Lesen und Schreiben von Gruppenkalendern und Unterhaltungen.  | Letzte Aktivität des Teams. | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| GroupMember.Read.All | Anwendung | Ermöglicht der App das Lesen von Mitgliedschaften und grundlegender Gruppeneigenschaften für alle Gruppen ohne angemeldeten Benutzer. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| GroupMember.ReadWrite.All | Anwendung | Ermöglicht der App das Auflisten von Gruppen, das Lesen grundlegender Eigenschaften sowie das Lesen und Aktualisieren der Mitgliedschaft derjenigen Gruppen, auf die diese App ohne angemeldeten Benutzer Zugriff hat. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| People.Read.All | Anwendung | Ermöglicht der App, die bewertete Liste relevanter Personen eines beliebigen Benutzers ohne angemeldeten Benutzer zu lesen. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Reports.Read.All | Delegiert | Die App kann alle Dienstverwendungsberichte im Namen des angemeldeten Benutzers lesen. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Reports.Read.All | Anwendung | Die App kann alle Dienstverwendungsberichte ohne angemeldeten Benutzer lesen. | Letzte Benutzeraktivität pro Gruppe | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| Sites.ReadWrite.All | Anwendung | Die App kann Dokumente und Listenelemente in allen Websitesammlungen ohne angemeldeten Benutzer erstellen, lesen, aktualisieren und löschen. | Die 10 wichtigsten Websites nach Größe für jeden Benutzer | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| User.Read | Delegiert | Allows users to sign-in to the app, and allows the app to read the profile of signed-in users. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| User.Read.All | Anwendung | Ermöglicht der App, Benutzerprofile ohne angemeldeten Benutzer zu lesen. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| offline_access | Delegiert | Ermöglicht der App, die Daten anzuzeigen und zu aktualisieren, auf die Sie zugriffen, auch wenn Benutzer die App derzeit nicht verwenden.  | Bot-Benachrichtigungen | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| openid | Delegiert | Damit können Benutzer sich mit Ihren Geschäfts- oder Schulkonten bei der App anmelden, und die App kann grundlegende Benutzerprofilinformationen lesen. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
->| profile | Delegiert | Ermöglicht der App, das grundlegende Profil Ihrer Benutzer (Name, Bild, Benutzername) anzuzeigen. | Nicht zutreffend | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](../azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b.md) |
+>| AppCatalog.Read.All | Delegiert | Liste der unter Teams verfügbaren Apps, sodass sie auf Teams Anforderungserstellungsprozess angezeigt werden kann | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Application.Read.All | Delegiert | Ermöglicht der App das Lesen von Anwendungen und Dienstprinzipalen im Auftrag des angemeldeten Benutzers. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.AccessAsUser.All | Delegiert | Ermöglicht der App den gleichen Zugriff auf Informationen im Verzeichnis wie dem angemeldeten Benutzer. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.Read.All | Delegiert | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation zu lesen, z. B. Benutzer, Gruppen und Apps. | Teams Besitzer- und Mitgliedschaftsinformationen  | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.Read.All | Anwendung | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation ohne einen angemeldeten Benutzer zu lesen, z. B. Benutzer, Gruppen und Apps. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.ReadWrite.All | Delegiert | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation zu lesen und zu schreiben, z. B. Benutzer und Gruppen | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Directory.ReadWrite.All | Anwendung | Ermöglicht der App, Daten im Verzeichnis Ihrer Organisation ohne angemeldeten Benutzer zu lesen und zu schreiben, z. B. Benutzer und Gruppen. Ermöglicht nicht das Löschen eines Benutzers oder einer Gruppe. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Files.Read.All | Anwendung | Die App kann alle Dateien in allen Websitesammlungen ohne angemeldeten Benutzer lesen. | Datenmenge unter Endbenutzergovernance in GB | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.Create | Anwendung | Ermöglicht der App, Gruppen ohne angemeldeten Benutzer zu erstellen. | Details zu neuen Gruppeneigenschaften. | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.Read.All | Delegiert | Die App kann Gruppen aufführen und deren Eigenschaften sowie alle Gruppenmitgliedschaften im Namen des angemeldeten Benutzers lesen. Wird verwendet, um "My Teams" zu ermitteln.  | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.Read.All | Anwendung | Ermöglicht der App das Lesen von Gruppeneigenschaften und Mitgliedschaften sowie das Lesen des Kalenders und der Unterhaltungen für alle Gruppen, ohne dass ein Benutzer angemeldet ist. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.ReadWrite.All | Delegiert | Die App kann Gruppen erstellen und alle Gruppeneigenschaften und -mitgliedschaften im Namen des angemeldeten Benutzers lesen.  | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Group.ReadWrite.All | Anwendung | Ermöglicht der App, Gruppen zu erstellen, alle Gruppeneigenschaften und Mitgliedschaften zu lesen, Gruppeneigenschaften und Mitgliedschaften zu aktualisieren und Gruppen zu löschen. Ermöglicht der App auch das Lesen und Schreiben von Gruppenkalendern und Unterhaltungen.  | Letzte Aktivität des Teams. | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| GroupMember.Read.All | Anwendung | Ermöglicht der App das Lesen von Mitgliedschaften und grundlegender Gruppeneigenschaften für alle Gruppen ohne angemeldeten Benutzer. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| GroupMember.ReadWrite.All | Anwendung | Ermöglicht der App das Auflisten von Gruppen, das Lesen grundlegender Eigenschaften sowie das Lesen und Aktualisieren der Mitgliedschaft derjenigen Gruppen, auf die diese App ohne angemeldeten Benutzer Zugriff hat. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| People.Read.All | Anwendung | Ermöglicht der App, die bewertete Liste relevanter Personen eines beliebigen Benutzers ohne angemeldeten Benutzer zu lesen. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Reports.Read.All | Delegiert | Die App kann alle Dienstverwendungsberichte im Namen des angemeldeten Benutzers lesen. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Reports.Read.All | Anwendung | Die App kann alle Dienstverwendungsberichte ohne angemeldeten Benutzer lesen. | Letzte Benutzeraktivität pro Gruppe | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| Sites.ReadWrite.All | Anwendung | Die App kann Dokumente und Listenelemente in allen Websitesammlungen ohne angemeldeten Benutzer erstellen, lesen, aktualisieren und löschen. | Die 10 wichtigsten Websites nach Größe für jeden Benutzer | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| User.Read | Delegiert | Allows users to sign-in to the app, and allows the app to read the profile of signed-in users. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| User.Read.All | Anwendung | Ermöglicht der App, Benutzerprofile ohne angemeldeten Benutzer zu lesen. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| offline_access | Delegiert | Ermöglicht der App, die Daten anzuzeigen und zu aktualisieren, auf die Sie zugriffen, auch wenn Benutzer die App derzeit nicht verwenden.  | Bot-Benachrichtigungen | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| openid | Delegiert | Damit können Benutzer sich mit Ihren Geschäfts- oder Schulkonten bei der App anmelden, und die App kann grundlegende Benutzerprofilinformationen lesen. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
+>| profile | Delegiert | Ermöglicht der App, das grundlegende Profil Ihrer Benutzer (Name, Bild, Benutzername) anzuzeigen. | Nicht zutreffend | 2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -125,7 +125,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36552' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36552' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36552" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 

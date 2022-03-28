@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Talview Interviews, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 19dc757e6bd95c434999f7f2228f8cb757addd28
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: c4465b676ea2b85e8f2d6fcbffaf1f00c2a5d349
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753156"
+ms.locfileid: "63773546"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -54,14 +54,14 @@ Diese Informationen wurden von Talview Inc. darüber bereitgestellt, wie diese A
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| email | Delegiert | Anzeigen der E-Mail-Adresse von Benutzern für die Zuordnung von Benutzerkonten | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| openid | Delegiert | Anmelden von Benutzern: So melden Sie sich bei der Plattform an | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| profile | Delegiert | Grundlegendes Profil von Benutzern anzeigen | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
+>| User.Read | Delegiert | Anmelden und Benutzerprofil lesen | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| email | Delegiert | Anzeigen der E-Mail-Adresse von Benutzern für die Zuordnung von Benutzerkonten | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| openid | Delegiert | Anmelden von Benutzern: So melden Sie sich bei der Plattform an | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| profile | Delegiert | Grundlegendes Profil von Benutzern anzeigen | E-Mail-Adresse/Benutzernamen für Benachrichtigungen und Authentifizierung | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -103,7 +103,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Officevibe, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c96f4bc23b5f1201567276c64de7ff411746c105
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: fffda2392deb49081516387a0987d9ff711f327d
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753734"
+ms.locfileid: "63773506"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -54,15 +54,15 @@ Diese Informationen wurden von Officevibe darüber bereitgestellt, wie diese App
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
->| Group.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
->| TeamsAppInstallation.ReadWriteForUser | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
->| User.Read | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
->| User.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | [3e500164-df82-4d1e-9db8-0901e07d374d ](../azure/3e500164-df82-4d1e-9db8-0901e07d374d.md ) |
+>| Directory.AccessAsUser.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | 3e500164-df82-4d1e-9db8-0901e07d374d |
+>| Group.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | 3e500164-df82-4d1e-9db8-0901e07d374d |
+>| TeamsAppInstallation.ReadWriteForUser | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | 3e500164-df82-4d1e-9db8-0901e07d374d |
+>| User.Read | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | 3e500164-df82-4d1e-9db8-0901e07d374d |
+>| User.Read.All | Delegiert | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | E-Mail, Name, Bild: So erstellen Sie den Benutzer in Officevibe. Gruppe, die mit allen Benutzern verknüpft ist: Um eine Übersicht über die Organisation zu erhalten. Mandanten-ID-Mandantenname &amp; : So richten Sie die Organisation in Officevibe ein | 3e500164-df82-4d1e-9db8-0901e07d374d |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
@@ -106,7 +106,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35160' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35160' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35160" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 

@@ -2,25 +2,26 @@
 title: Was ist Publisher Nachweis?
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: Weitere Informationen zum Publisher Attestation-Programm
 keywords: App-Nachweiszertifizierung 365 Fragebogen appSource-Herausgeber
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c49279c827ed0ac39e49b07aabd01baaab9f8e5e
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59282620"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457208"
 ---
 # <a name="what-is-publisher-attestation"></a>Was ist Publisher Nachweis?
 
-Publisher Der Nachweis ist die nächste Ebene im Microsoft 365 App Compliance-Programm. Der App-Entwickler wird aufgefordert, eine Selbstbewertung durchzuführen, die häufig von Kunden oder IT-Administratoren gestellte Fragen enthält, wenn sie die Sicherheit und Compliance einer App bewerten. Microsoft veröffentlicht diese Informationen dann für eine einfachere und aktuellere Auswertung.
+Publisher Nachweis ist die nächste Ebene im Microsoft 365 App Compliance-Programm. Der App-Entwickler wird aufgefordert, eine Selbstbewertung durchzuführen, die häufig von Kunden oder IT-Administratoren gestellte Fragen enthält, wenn sie die Sicherheit und Compliance einer App bewerten. Microsoft veröffentlicht diese Informationen dann für eine einfachere und aktuellere Auswertung.
 
 > [!IMPORTANT]
 > Microsoft überprüft nicht alle bereitgestellten Informationen. Der App-Entwickler ist allein für die Informationen verantwortlich, die er im Herausgebernachweis bereitstellt. 
 
-Publisher Der Nachweis gilt für Web-Apps (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden). SaaS-Apps befinden sich derzeit in einer privaten Vorschau, wenn Sie daran teilnehmen möchten, füllen Sie dieses [Formular](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)aus. Der Nachweis umfasst auch alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
+Publisher Nachweis gilt für Web Apps (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden). SaaS-Apps befinden sich derzeit in einer privaten Vorschau, wenn Sie daran teilnehmen möchten, füllen Sie dieses [Formular](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu) aus. Der Nachweis umfasst auch alle Apps, die in die folgenden Microsoft-Produkte integriert sind:
 
 - Microsoft Teams
 - Word
@@ -37,7 +38,7 @@ Die Vorteile der Durchführung des Publisher Attestation für IT-Administratoren
 -   Verkürzte Zeit zum Überprüfen des Sicherheits- und Compliancestatus einer App
 
 ### <a name="benefits-for-app-developers"></a>Vorteile für App-Entwickler 
-Die Vorteile der Publisher Attestation für Entwickler umfassen: 
+Die Vorteile der Durchführung des Publisher Attestation für Entwickler umfassen: 
 -   Zeit sparen. Auf der Microsoft Docs-Seite der App finden Sie Informationen zu häufig gestellten Fragen.
 -   Beschleunigen der internen Überprüfungszeitachse für Sicherheit und Compliance eines Unternehmens
 -   Erhöhte Transparenz
@@ -58,7 +59,7 @@ Der Nachweisprozess konzentriert sich auf einen umfangreichen Fragebogen, der di
 
 ### <a name="confirmation-criteria"></a>Bestätigungskriterien
 
-Der Nachweis spiegelt die Sicherheits-, Datenverarbeitungs- und Compliancepraktiken einer App für mehr als 80 von [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security)identifizierte Risikofaktoren wider. Wenn die Übermittlung der anfänglichen Nachweisdokumentation die grundlegenden Kriterien für Konsistenztests nicht erfüllt, wird der Nachweis nicht genehmigt. Wenn nach der Genehmigung Falschinformationen in der Dokumentationsübermittlung oder ein App-Fehler gemeldet oder erkannt werden, wird der Bestätigungsstatus für den Nachweis aufgehoben. In beiden Fällen erhält der Entwickler relevante und detaillierte Informationen, um den Korrekturprozess zu unterstützen.
+Der Nachweis spiegelt die Sicherheits-, Datenverarbeitungs- und Compliancepraktiken einer App für mehr als 80 von [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) identifizierte Risikofaktoren wider. Wenn die Übermittlung der anfänglichen Nachweisdokumentation die grundlegenden Kriterien für Konsistenztests nicht erfüllt, wird der Nachweis nicht genehmigt. Wenn nach der Genehmigung Falschinformationen in der Dokumentationsübermittlung oder ein App-Fehler gemeldet oder erkannt werden, wird der Bestätigungsstatus für den Nachweis aufgehoben. In beiden Fällen erhält der Entwickler relevante und detaillierte Informationen, um den Korrekturprozess zu unterstützen.
 
 ### <a name="confirmation-time-frame"></a>Bestätigungszeitrahmen
 
@@ -68,11 +69,11 @@ Der Nachweis ist ab dem Zeitpunkt der Übermittlung ein Jahr lang gültig. Wenn 
 
 Der Entwickler kann detaillierte Informationen zu den Ergebnissen des Publisher Attestation einer App auf der Microsoft-Dokumentseite überprüfen, die für seine App erstellt wurde. Alle Apps, die entweder Publisher Nachweis oder Microsoft 365 Zertifizierung abgeschlossen haben, werden aufgeführt, und jeder Eintrag zeigt deutlich an, welche Stufe im Complianceprogramm erreicht wurde.
 
-**Ein Beispiel für eine App, die den Publisher Attestation abgeschlossen hat, finden Sie im [MIPA-Eintrag.](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas)** 
+**Ein Beispiel für eine App, die den Publisher Attestation abgeschlossen hat, finden Sie im [MIPA-Eintrag](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas).** 
 
 ## <a name="learn-more"></a>Weitere Informationen
 
-* [Microsoft 365 Übersicht über das App-Complianceprogramm](~/overview.md)
+* [Übersicht über das Microsoft 365 App Compliance-Programm](~/overview.md)
 * [Was ist Publisher Überprüfung?](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
-* [Vollständige Publisher Nachweis](~/docs/attestation.md)  
+* [Abschließen des Herausgebernachweises](~/docs/attestation.md)  
 * [Was ist Microsoft 365 Zertifizierung?](~/docs/enterprise-app-certification-guide.md)
