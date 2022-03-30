@@ -8,13 +8,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für C.AI Adoption Bot, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f6d3bb6be48681db6e0e710d150457d4fd95caec
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 750a7eda8df6fd17b2e8ebea6f1595fb188a4af9
+ms.sourcegitcommit: 2cada3fb44667dce080d5cb4ca93b113e8ec57c1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63698285"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64487826"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -174,3 +174,39 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Zertifizierungsinformationen
+
+| **Control** | **Microsoft 365 Zertifizierungsergebnis** |
+|:------------|:---------------------------------------|
+| [**ANWENDUNGSSICHERHEIT**](../docs/certification-submission-guide.md#application-security) | **BESTEHEN** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfung der Sicherheitsrisikobewertung (DAST/SAST/Penetrationstest) | Im Bereich |
+| [**BETRIEBSSICHERHEIT**](../docs/certification-submission-guide.md#operational-security) | **BESTEHEN** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Risikobewertung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder entsprechende Technologien) | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Änderungssteuerung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/Bereitstellung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angriffserkennung und -verhinderung (optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollieren von Daten) | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | Im Bereich |
+| [**DATENSCHUTZ BEI DER DATENVERARBEITUNG &amp;**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **BESTEHEN** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhenden Daten | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenaufbewahrung und -entsorgung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSGVO | Im Bereich |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
