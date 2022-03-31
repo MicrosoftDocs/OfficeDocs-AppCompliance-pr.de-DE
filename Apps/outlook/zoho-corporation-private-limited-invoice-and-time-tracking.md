@@ -2,18 +2,19 @@
 title: Anwendungsinformationen für Rechnungs- und Zeitverfolgung – Zoho Invoice by Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Rechnung und Zeitverfolgung – Zoho Invoice, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Rechnung und Zeitverfolgung – Zoho Invoice, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cc7454e5f1181637f2ecacbf510c8191d51da0e7
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 65d71d027c2101c5332a9070e641300e77a39081
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428187"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461368"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>Rechnungs- und Zeitverfolgung – Zoho Invoice
 
@@ -29,11 +30,11 @@ ms.locfileid: "60428187"
 
 Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Rechnungs- und Zeitverfolgung – Zoho Invoice |
 | ID | WA104381067 |
-| Office 365 unterstützten Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
+| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
 | Name des Partnerunternehmens | Zoho Corporation Private Limited |
 | URL der Partnerwebsite | [https://www.zoho.com/](https://www.zoho.com/) |
 | URL der Datenschutzrichtlinie | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
@@ -49,23 +50,23 @@ Von Zoho Corporation Private Limited für Microsoft bereitgestellte Informatione
 
 Diese Informationen wurden von Zoho Corporation Private Limited zur Verfügung gestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](/graph/permissions-reference) diese App benötigt.
 
->| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
+>| **Berechtigung**  | **Typ der Berechtigung (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Contacts.Read | Delegiert |  |  Zulassen, dass Benutzer Office365-Kontakte mit Zoho Invoice synchronisieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Mail.Read | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Mail.Send | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Export.All | Delegiert |  | Zulassen, dass der Benutzer alle benutzerbezogenen Informationen exportiert. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Read.All | Delegiert |  | Benutzern das Anmelden und Lesen des Benutzerprofils gestatten. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.ReadBasic.All | Delegiert |  | Zulassen, dass Benutzer Office365-Benutzer in Zoho importieren. | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| email | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Profil | Delegiert |  |  | [f6d7187a-b437-4eca-bc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.Read | Delegiert |  |  Zulassen, dass Benutzer Office365-Kontakte mit Zoho Invoice synchronisieren. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| Mail.Read | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| Mail.Send | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| User.Export.All | Delegiert |  | Zulassen, dass der Benutzer alle benutzerbezogenen Informationen exportiert. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| User.Read.All | Delegiert |  | Benutzern das Anmelden und Lesen des Benutzerprofils gestatten. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| User.ReadBasic.All | Delegiert |  | Zulassen, dass Benutzer Office365-Benutzer in Zoho importieren. | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| email | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
+>| profile | Delegiert |  |  | f6d7187a-b437-4eca-bc5-c1331609fe07 |
 
 
-#### <a name="non-microsoft-services-used"></a>Nicht-Microsoft-Dienste verwendet
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
@@ -83,7 +84,7 @@ Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen 
 
 Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Die Daten werden erst nach Zustimmung des Benutzers abgerufen. Der logische Zugriff auf die Server wird über ein isoliertes dediziertes Netzwerk bereitgestellt &amp; und streng gesichert und überwacht. Dieses Netzwerk ist durch Firewall, 2-Faktor-Authentifizierung und Kerberos-Authentifizierung geschützt.
+>Die Daten werden erst nach Zustimmung des Benutzers abgerufen. Der logische Zugriff auf die Server wird über ein isoliertes &amp; dediziertes Netzwerk bereitgestellt und streng gesichert und überwacht. Dieses Netzwerk ist durch Firewall, 2-Faktor-Authentifizierung und Kerberos-Authentifizierung geschützt.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -94,7 +95,7 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 

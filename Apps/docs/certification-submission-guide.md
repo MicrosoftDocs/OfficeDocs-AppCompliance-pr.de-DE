@@ -2,16 +2,17 @@
 ms.author: oromalle
 title: Microsoft 365-Zertifizierungsübermittlungshandbuch
 author: orionomalley
-description: detaillierte Ansicht der Microsoft 365-Zertifizierungs-Übermittlungshandbuchs
+manager: tonybal
+description: detaillierte Ansicht der Microsoft 365-Zertifizierungsübermittlungsanleitung
 keywords: App-Zertifizierungsteams Microsoft 365 Security Compliance m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 212d6a708b59a71de3d88a58d61ced4af99432a7
-ms.sourcegitcommit: 86ba435037ea3277239530c33b5c5950cd61e66e
+ms.openlocfilehash: 7cd345151494175e77398ba02371639e82b5b349
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61268005"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461728"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365-Zertifizierungsübermittlungshandbuch
 
@@ -29,7 +30,7 @@ ms.locfileid: "61268005"
 - [Sicherheit und Datenschutz bei der Datenverarbeitung](#data-handling-security-and-privacy)
 - [Optionale Überprüfung externer Compliance-Frameworks](#optional-external-compliance-frameworks-review)
 - [Anhang A](#appendix-a)
-- [Anhang B](#appendix-b) 
+- [Anhang B](#appendix-b) 
 - [Anhang C](#appendix-c) 
 - [Anhang D](#appendix-d) 
 - [Anhang E](#appendix-e) 
@@ -41,11 +42,11 @@ ms.locfileid: "61268005"
 
 ## <a name="introduction"></a>Einführung
 
-Als Teil des Microsoft 365 App Compliance-Programms bietet die Microsoft 365-Zertifizierung Unternehmen Sicherheit und Vertrauen, dass Daten und Datenschutz bei der Integration von Entwickler-Apps/Add-Ins von Drittanbietern in die Microsoft 365-Plattform angemessen geschützt und geschützt sind. Anwendungen und Add-Ins, die die Validierung bestehen, werden im gesamten Microsoft 365 Ökosystem **Microsoft 365 zertifiziert.** 
+Als Teil des Microsoft 365 App Compliance-Programms bietet die Microsoft 365-Zertifizierung Unternehmen die Gewissheit und das Vertrauen, dass Daten und Datenschutz bei der Integration von Drittanbieter-Entwickler-Apps/-Add-Ins in die Microsoft 365-Plattform angemessen geschützt und geschützt sind. Anwendungen und Add-Ins, die die Validierung bestehen, werden im gesamten Microsoft 365 Ökosystem **Microsoft 365 zertifiziert**. 
 
-Durch die Teilnahme am Microsoft 365 Zertifizierungsprogramm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und stimmen jeder Begleitdokumentation zu, die für Ihre Teilnahme am Microsoft 365 Zertifizierungsprogramm bei der Microsoft Corporation gilt ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen für die Microsoft 365 Zertifizierung im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder beenden. Ihre fortgesetzte Teilnahme am Microsoft 365 Zertifizierungsprogramm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bestimmungen nicht zustimmen oder diese ergänzenden Bedingungen kündigen, müssen Sie die Teilnahme am Microsoft 365 Zertifizierungsprogramm beenden.
+Durch die Teilnahme am Microsoft 365 Zertifizierungsprogramm erklären Sie sich mit diesen ergänzenden Bestimmungen einverstanden und halten alle Begleitdokumentationen ein, die für Ihre Teilnahme am Microsoft 365 Zertifizierungsprogramm bei der Microsoft Corporation gelten ("Microsoft", "wir", "uns" oder "unser"). Sie erklären und garantieren uns, dass Sie berechtigt sind, diese ergänzenden Bedingungen Microsoft 365 Zertifizierung im Namen von Sich selbst, eines Unternehmens und/oder einer anderen Entität zu akzeptieren, sofern zutreffend. Wir können diese ergänzenden Bestimmungen jederzeit ändern, ändern oder beenden. Ihre fortgesetzte Teilnahme am Microsoft 365 Zertifizierungsprogramm nach jeder Änderung oder Änderung bedeutet, dass Sie den neuen ergänzenden Bedingungen zustimmen. Wenn Sie den neuen ergänzenden Bestimmungen nicht zustimmen oder wenn wir diese ergänzenden Bedingungen kündigen, müssen Sie die Teilnahme am Microsoft 365 Zertifizierungsprogramm beenden.
 
-Dieses Dokument richtet sich an ISVs (Unabhängige Softwareanbieter), um Informationen zum Microsoft 365 Zertifizierungsprozess, die Voraussetzungen zum Starten des Prozesses und Details zu bestimmten Sicherheitskontrollen bereitzustellen, über die ISVs verfügen müssen.  Allgemeine Informationen zum Microsoft 365 App Compliance-Programm finden Sie auf der [Seite](https://docs.microsoft.com/microsoft-365-app-certification/overview)Microsoft 365 App-Compliance-Programm. 
+Dieses Dokument richtet sich an ISVs (Unabhängige Softwareanbieter), um Informationen zum Microsoft 365 Zertifizierungsprozess, voraussetzungen für den Beginn des Prozesses und Details zu bestimmten Sicherheitskontrollen bereitzustellen, die ISVs haben müssen.  Allgemeine Informationen zum Microsoft 365 App Compliance-Programm finden Sie auf der [Seite](../overview.md) Microsoft 365 App-Compliance-Programm. 
 
 > [!IMPORTANT]
 > Derzeit gilt Microsoft 365 Zertifizierung für alle:
@@ -58,7 +59,7 @@ Dieses Dokument richtet sich an ISVs (Unabhängige Softwareanbieter), um Informa
 
 ### <a name="publisher-attestation"></a>Herausgebernachweis
 
-Bevor Sie den Microsoft 365 Zertifizierungsprozess erhalten haben, müssen Sie Publisher Nachweis abgeschlossen haben. Sie können jedoch den Microsoft 365 Zertifizierungsprozess starten, bevor Sie Publisher Attestation abschließen.  
+Bevor Sie den Microsoft 365 Zertifizierungsprozess erhalten haben, müssen Sie Publisher Attestation abgeschlossen haben. Sie können jedoch den Microsoft 365 Zertifizierungsprozess starten, bevor Sie Publisher Attestation abschließen.  
 
 ### <a name="read-the-microsoft-365-certification-specification"></a>Lesen sie die Spezifikation der Microsoft 365-Zertifizierung
 
@@ -68,14 +69,14 @@ Microsoft empfiehlt allen ISVs (Unabhängiger Softwareanbieter), diese Microsoft
 
 Aktualisierungen der Spezifikation Microsoft 365 Zertifizierung werden ungefähr alle sechs bis zwölf Monate erwartet. Diese Updates können neue Zielsicherheitsdomänen und/oder Sicherheitskontrollen einführen. Updates basieren auf Entwicklerfeedback, Änderungen an der Bedrohungslandschaft und zur Erhöhung der Sicherheitsgrundwerte des Programms, sobald es reift. 
 
-ISVs, die bereits mit der Microsoft 365 Zertifizierungsbewertung begonnen haben, können die Bewertung mit der Version der Microsoft 365 Zertifizierungsspezifikation fortsetzen, die beim Starten der Bewertung gültig war. Alle neuen Übermittlungen, einschließlich der jährlichen Rezertifizierung, müssen anhand der veröffentlichten Version bewertet werden.
+ISVs, die bereits mit der Microsoft 365 Zertifizierungsbewertung begonnen haben, können die Bewertung mit der Version der Microsoft 365-Zertifizierungsspezifikation fortsetzen, die beim Starten der Bewertung gültig war. Alle neuen Übermittlungen, einschließlich der jährlichen Rezertifizierung, müssen anhand der veröffentlichten Version bewertet werden.
 
 > [!NOTE]
-> Sie müssen nicht alle Steuerelemente in dieser Microsoft 365 Zertifizierungsspezifikation einhalten, um eine Zertifizierung zu erhalten. Das Überschreiten von Schwellenwerten (die nicht offengelegt werden) ist jedoch für jede der Sicherheitsdomänen vorhanden, die in dieser Microsoft 365 Zertifizierungsspezifikation behandelt werden. Einige Steuerelemente werden als **"Hard Fail"** klassifiziert, was bedeutet, dass das Fehlen dieser Sicherheitskontrollen zu einer fehlgeschlagenen Bewertung führt. 
+> Sie müssen nicht alle Steuerelemente in dieser Microsoft 365 Zertifizierungsspezifikation einhalten, um eine Zertifizierung zu erhalten. Für jede der sicherheitsdomänen, die in dieser Microsoft 365 Zertifizierungsspezifikation erläutert werden, gelten jedoch Übergabeschwellenwerte (die nicht offengelegt werden). Einige Steuerelemente werden als "**Hard Fail**" klassifiziert, was bedeutet, dass das Fehlen dieser Sicherheitskontrollen zu einer fehlgeschlagenen Bewertung führt. 
 
 ## <a name="certification-scope"></a>Zertifizierungsbereich
 
-Die **Bereichsumgebung** ist die Umgebung, die die Bereitstellung des App-/Add-In-Codes und alle Back-End-Systeme unterstützt, mit denen die App/das Add-In kommunizieren kann. Alle zusätzlichen verbundenen Umgebungen werden ebenfalls in den Bereich einbezogen, es sei denn, eine angemessene Segmentierung ist vorhanden, und die verbundenen Umgebungen können sich nicht auf die Sicherheit der Bereichsumgebung auswirken. Alle Notfallwiederherstellungsumgebungen müssen ebenfalls in den Umfang der Bewertung einbezogen werden, da diese Umgebungen erforderlich sind, um den Dienst zu erfüllen, wenn etwas mit der primären Umgebung geschieht.  Der Begriff  **"Systemkomponenten im Bereich"**   verweist auf **ALLE** Geräte und Systeme, die innerhalb der Bereichsumgebung verwendet werden. In-Scope-Komponenten umfassen, sind aber nicht beschränkt auf:
+Die **Bereichsumgebung** ist die Umgebung, die die Bereitstellung des App-/Add-In-Codes und alle Back-End-Systeme unterstützt, mit denen die App/das Add-In kommunizieren kann. Alle zusätzlichen verbundenen Umgebungen werden ebenfalls in den Bereich einbezogen, es sei denn, eine angemessene Segmentierung ist vorhanden, und die verbundenen Umgebungen können sich nicht auf die Sicherheit der Bereichsumgebung auswirken. Alle Notfallwiederherstellungsumgebungen müssen ebenfalls in den Umfang der Bewertung einbezogen werden, da diese Umgebungen erforderlich sind, um den Dienst zu erfüllen, wenn etwas mit der primären Umgebung geschieht.  Die  **termin-scope system componentsreference**  **ALL** devices and systems that are used within the in-scope environment. In-Scope-Komponenten umfassen, sind aber nicht beschränkt auf:
 * Die Webanwendung(en).
 * Server.
 * Firewalls (oder gleichwertig).
@@ -88,7 +89,7 @@ Die **Bereichsumgebung** ist die Umgebung, die die Bereitstellung des App-/Add-I
 > Die In-Scope-Umgebung muss über eine DMZ verfügen, und die unterstützende Umgebung der App/des Add-Ins muss aus den internen Geschäftssystemen und Unternehmensumgebungen segmentiert werden, wodurch der Umfang der Bewertungsaktivitäten auf die in-Scope-Systeme beschränkt wird. Zertifizierungsanalysten überprüfen die Segmentierungstechniken während der Bewertung zusammen mit der Überprüfung von Penetrationstestberichten, die Tests enthalten sollten, um die Effektivität der verwendeten Segmentierungstechniken zu überprüfen.
 
 ### <a name="infrastructure-as-a-service-iaas-platform-as-a-service-paas-and-software-as-a-service-saas"></a>Infrastructure as a Service (IaaS), Platform as a Service (PaaS) und Software as a Service (SaaS) 
-Wenn IaaS und/oder PaaS verwendet werden, um die Infrastruktur der zu überprüfenden Anwendungs- oder Add-In-Codebereitstellung zu unterstützen, ist der Cloudplattformanbieter für einige der Sicherheitskontrollen verantwortlich, die während des gesamten Zertifizierungsprozesses bewertet werden. Daher müssen Zertifizierungsanalysten über externe Complianceberichte wie [PCI DSS](bookmark://pci-dss)   Attestation of Compliance (AOC), ISO27001 oder [SOC 2](bookmark://soc-2)Type II eine unabhängige externe Überprüfung bewährter Sicherheitsmethoden durch den Cloudplattformanbieter   erhalten. 
+Wenn IaaS und/oder PaaS verwendet werden, um die Infrastruktur der zu überprüfenden Anwendungs- oder Add-In-Codebereitstellung zu unterstützen, ist der Cloudplattformanbieter für einige der Sicherheitskontrollen verantwortlich, die während des gesamten Zertifizierungsprozesses bewertet werden. Daher müssen Zertifizierungsanalysten eine unabhängige externe Überprüfung bewährter Sicherheitsmethoden durch den Cloud-Plattformanbieter über externe Complianceberichte wie  [DSSAttestation](bookmark://pci-dss)  of Compliance (AOC), ISO27001- oder  [SOC 2Type](bookmark://soc-2)  II-Berichte erhalten. 
 
 Anhang F enthält Details dazu, welche Sicherheitskontrollen wahrscheinlich basierend auf den folgenden Bereitstellungstypen und basierend darauf anwendbar sind, ob die App/das Add-In M365-Daten exfiltriert oder nicht: 
 * ISV Hosted 
@@ -118,24 +119,24 @@ Anträge auf Nachweise zur Unterstützung der Zertifizierungsbewertung sollten a
 Bevor Sie mit dem Zertifizierungsprozess beginnen, müssen Sie Ihren Publisher Attestation erfolgreich abgeschlossen haben. Nach Abschluss dieses Vorgangs wird ihr Microsoft 365 Zertifizierungsprozess wie folgt fortgesetzt:
 
 ### <a name="preparation"></a>Vorbereitung
-1. Navigieren Sie zum Partner Center, und überprüfen Sie Die ausgefüllte [Publisher Nachweisdokumentation.]( https://docs.microsoft.com/microsoft-365-app-certification/docs/attestation) Bei Bedarf können Sie Ihre Antworten bearbeiten und aktualisieren. Wenn Sie dies jedoch tun, müssen Sie Ihre Nachweisdokumentation zur Genehmigung erneut übermitteln. Wenn Ihre Übermittlung älter als drei Monate ist, müssen Sie Publisher Nachweis zur Überprüfung und Überprüfung erneut übermitteln. 
-1. Lesen Sie sich sorgfältig den [Microsoft 365 Leitfaden zur Zertifizierungsübermittlung](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide) durch, um zu verstehen, was von Ihnen benötigt wird. Stellen Sie sicher, dass Sie die Im Microsoft 365 Zertifizierungsübermittlungshandbuch angegebenen [Kontrollanforderungen]( https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#app-certification-criteria) erfüllen können.
-1. Klicken Sie im Partner Center auf "Zertifizierung starten". Dadurch gelangen Sie zu Ihrem anfänglichen Dokumentübermittlungsportal. Übermitteln Sie Ihre [ursprüngliche Dokumentübermittlung.](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#initial-document-submission) Dies hilft uns zu bestimmen, was für Ihre Bewertung gilt, basierend auf der Architektur Ihrer App und der Behandlung von Kundendaten. Überprüfen Sie diese Seite häufig, um festzustellen, ob Ihre Übermittlung akzeptiert wurde.
+1. Navigieren Sie zum Partner Center, und überprüfen Sie ihre vollständige [Publisher Nachweisdokumentation](../docs/attestation.md). Bei Bedarf können Sie Ihre Antworten bearbeiten und aktualisieren. Wenn Sie dies jedoch tun, müssen Sie Ihre Nachweisdokumentation zur Genehmigung erneut übermitteln. Wenn Ihre Übermittlung älter als drei Monate ist, müssen Sie Publisher Nachweis zur Überprüfung und Überprüfung erneut übermitteln. 
+1. Lesen Sie sich sorgfältig den [Microsoft 365 Leitfaden zur Zertifizierungsübermittlung](../docs/certification-submission-guide.md) durch, um zu verstehen, was von Ihnen benötigt wird. Stellen Sie sicher, dass Sie die Im Microsoft 365 Zertifizierungsübermittlungshandbuch angegebenen [Kontrollanforderungen](../docs/certification-submission-guide.md#app-certification-criteria) erfüllen können.
+1. Klicken Sie im Partner Center auf "Zertifizierung starten". Dadurch gelangen Sie zu Ihrem anfänglichen Dokumentübermittlungsportal. Übermitteln Sie Ihre [ursprüngliche Dokumentübermittlung](../docs/certification-submission-guide.md#initial-document-submission). Dies hilft uns zu bestimmen, was für Ihre Bewertung gilt, basierend auf der Architektur Ihrer App und der Behandlung von Kundendaten. Überprüfen Sie diese Seite häufig, um festzustellen, ob Ihre Übermittlung akzeptiert wurde.
 
 >[!NOTE]
->Für alle Office-Apps können Sie auf unsere [Office Apps-Benutzerhandbuch](https://docs.microsoft.com/microsoft-365-app-certification/docs/userguide)verweisen. Für alle WebApps können Sie auf unser [SaaS-App-Benutzerhandbuch](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/saasuserguide)verweisen.
+>Für alle Office-Apps können Sie auf unser [benutzerhandbuch für Office Apps](../docs/userguide.md) verweisen. Für alle WebApps können Sie auf unser [SaaS-App-Benutzerhandbuch](../docs/saasuserguide.md) verweisen.
 
 ### <a name="assessment"></a>Bewertung
 1. Nachdem Ihre anfängliche Dokumentübermittlung akzeptiert wurde, werden die für Ihre App erforderlichen Sicherheitskontrollen automatisch im Portal angezeigt. Anschließend müssen Sie für jedes Steuerelement Nachweise übermitteln, die belegen, dass das Steuerelement vorhanden ist. Denken Sie daran, dass Ihnen **60 Tage** zeit werden, um alle Nachweise zu übermitteln. Ein Analyst überprüft Ihre Nachweise und genehmigt entweder das Steuerelement oder fordert neue oder zusätzliche Nachweise an. Überprüfen Sie diese Seite häufig, um festzustellen, ob Ihre Nachweise akzeptiert wurden.
 ### <a name="certification"></a>Zertifizierung
-1. Nachdem Ihre Übermittlung von einem Analysten überprüft wurde, werden Sie über Ihre Zertifizierungsentscheidung benachrichtigt. Apps, die eine Zertifizierung erhalten, erhalten ein Badge auf ihrer Anwendung auf **AppSource-** und **Microsoft-Dokumentseiten.** Sie können [hier](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide#program-benefits)die vorteile der Zertifizierung in vollem Umfang lesen.
+1. Nachdem Ihre Übermittlung von einem Analysten überprüft wurde, werden Sie über Ihre Zertifizierungsentscheidung benachrichtigt. Apps, die eine Zertifizierung erhalten, erhalten ein Badge für ihre Anwendung auf **AppSource**- und **Microsoft-Dokumentseiten** . Hier erfahren Sie mehr über die Vorteile [der Zertifizierung.](../docs/enterprise-app-certification-guide.md#program-benefits)
 
 ## <a name="review-and-re-certification"></a>Überprüfen und erneute Zertifizierung
-Für den Fall, dass Ihre Anwendung zu einem beliebigen Zeitpunkt [erhebliche Änderungen](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#significant-changes) durchläuft, müssen Sie uns benachrichtigen.
+Für den Fall, dass Ihre Anwendung zu einem beliebigen Zeitpunkt [erhebliche Änderungen](../docs/certification-submission-guide.md#significant-changes) durchläuft, müssen Sie uns benachrichtigen.
 
 Außerdem müssen Sie die erneute Zertifizierung auf jährlicher Basis durchlaufen. Dies erfordert die erneute Überprüfung der im Bereich enthaltenen Steuerelemente für Ihre aktuelle Umgebung. Dieser Prozess kann bis zu 90 Tage vor Ablauf Ihrer Zertifizierung beginnen. Ihre vorhandene Zertifizierung läuft während des Zeitraums der erneuten Zertifizierung nicht ab. Die erneute Zertifizierung in allen Programmen läuft am einjährigen Jahrestag Ihrer Microsoft 365-Zertifizierung ab.
 
-Wenn Ihre Zertifizierung nicht vor dem Ablaufdatum verlängert wird, wird ihr App-Zertifizierungsstatus widerrufen. Alle Fehlerhaften, Symbole und zugehörigen Zertifizierungsbrandings werden aus Ihrer App entfernt, und Es ist ihnen nicht gestattet, Ihre App als Microsoft 365 zertifiziert zu kennzeichnen.
+Wenn Ihre Zertifizierung nicht vor dem Ablaufdatum verlängert wird, wird ihr App-Zertifizierungsstatus widerrufen. Alle Fehlerhaften, Symbole und zugehörigen Zertifizierungsbrandings werden aus Ihrer App entfernt, und Es ist Ihnen nicht gestattet, Ihre App als Microsoft 365 zertifiziert zu kennzeichnen.
 
 
 > [!IMPORTANT]
@@ -145,18 +146,18 @@ Wenn Ihre Zertifizierung nicht vor dem Ablaufdatum verlängert wird, wird ihr Ap
 ## <a name="initial-document-submission"></a>Ursprüngliche Dokumentübermittlung
 
 
-Die anfängliche Dokumentübermittlung hilft Zertifizierungsanalysten bei der Durchführung von Bereichsdefinitionen und bei der Bestimmung des Umfangs Ihrer Bewertung. Danach müssen Sie unterstützende Dokumentationen und Nachweise übermitteln, die zur Durchführung der Bewertung verwendet werden. Ihre ursprüngliche Übermittlung muss die unten angegebenen Informationen enthalten. Weitere Anleitungen finden Sie im [Initital Document Subnmission Guide](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/initialdocumentsubguide).
+Die anfängliche Dokumentübermittlung hilft Zertifizierungsanalysten bei der Durchführung von Bereichsdefinitionen und bei der Bestimmung des Umfangs Ihrer Bewertung. Danach müssen Sie unterstützende Dokumentationen und Nachweise übermitteln, die zur Durchführung der Bewertung verwendet werden. Ihre ursprüngliche Übermittlung muss die unten angegebenen Informationen enthalten. Weitere Anleitungen finden Sie im [Initital Document Subnmission Guide](../docs/initialdocumentsubguide.md).
 
-| **&nbsp;Dokumentationsübersicht**     |   **Dokumentationsdetails**  |
+| **DocumentationOverview&nbsp;**     |   **Dokumentationsdetails**  |
 | -------------------------| -----------------------------|
 |**App-/Add-In-Beschreibung** | Eine Beschreibung des Zwecks und der Funktionalität der App/des Add-Ins. Dies sollte dem Zertifizierungsanalysten ein gutes Verständnis darüber vermitteln, wie die App/das Add-In funktioniert und was sie verwenden soll.
 |**Penetrationstestbericht** |Ein Penetrationstestbericht, der innerhalb der letzten 12 Monate abgeschlossen wurde. Dieser Bericht muss die Umgebung enthalten, die die Bereitstellung der App/des Add-Ins unterstützt, sowie alle zusätzlichen Umgebungen, die den Betrieb der App/des Add-Ins unterstützen. **Hinweis:** Wenn Sie keine jährlichen Penetrationstests durchführen, können Sie entscheiden, ob sie über den Zertifizierungsprozess durchgeführt werden sollen.|
 |**Architekturdiagramme**|Ein logisches Architekturdiagramm, das eine allgemeine Übersicht über die unterstützende Infrastruktur Ihrer App/Ihres Add-Ins darstellt. Dies muss **alle** Hostingumgebungen und unterstützende Infrastruktur umfassen, die die App/das Add-In unterstützt. Dieses Diagramm MUSS alle verschiedenen unterstützenden Systemkomponenten innerhalb der Umgebung darstellen, damit Zertifizierungsanalysten die Systeme im Umfang verstehen und bei der Bestimmung des Samplings helfen können. Geben Sie außerdem an, welcher Hostingumgebungstyp verwendet wird. ISV hosted, IaaS, PaaS oder Hybrid. **Hinweis:** Wo SaaS verwendet wird, geben Sie bitte die verschiedenen SaaS-Dienste an, die verwendet werden, um die unterstützenden Dienste innerhalb der Umgebung bereitzustellen.|
 |**Öffentlicher Speicherbedarf** | Ausführliche Informationen **zu allen** öffentlichen IP-Adressen und URLs, die von der unterstützenden Infrastruktur verwendet werden. Dies muss den vollständigen routingfähigen IP-Bereich enthalten, der der Umgebung zugeordnet ist, es sei denn, eine angemessene Segmentierung wurde implementiert, um den verwendeten Bereich aufzuteilen (es sind angemessene Nachweise für die Segmentierung erforderlich).|
 |**Datenflussdiagramme** |Flow Diagramme, die Folgendes detailliert darstellen:
-||&#x2713; M365-Daten fließt zu und aus der App/dem Add-In (einschließlich [EUII](#euii) und [OII).](#oii)|
+||&#x2713; M365-Daten fließt zu und aus der App/dem Add-In (einschließlich [EUII](#euii) und [OII](#oii) ).|
 ||&#x2713; M365-Datenflüsse innerhalb der unterstützenden Infrastruktur (sofern zutreffend)|
-||&#x2713; Diagramme, in denen hervorgehoben wird, wo und welche Daten gespeichert werden, wie Daten an externe Dritte übergeben werden (einschließlich Details zu Dritten) und wie Daten während der Übertragung über offene/öffentliche Netzwerke und im Ruhezustand geschützt werden.|
+||&#x2713; Diagramme, in denen hervorgehoben wird, wo und welche Daten gespeichert werden, wie Daten an externe Dritte übergeben werden (einschließlich Details zu dritten Parteien) und wie Daten während der Übertragung über offene/öffentliche Netzwerke und im Ruhezustand geschützt werden.|
 |**API-Endpunktdetails**| Eine vollständige Liste aller API-Endpunkte, die von Ihrer App verwendet werden. Um den Umgebungsbereich besser verstehen zu können, stellen Sie API-Endpunktspeicherorte in Ihrer Umgebung bereit.                                
 |**Microsoft-API-Berechtigungen**| Bereitstellen einer Dokumentation, in der **alle** Microsoft-APIs aufgeführt sind, die zusammen mit den berechtigungen verwendet werden, die für die Funktion der App/des Add-Ins angefordert werden, zusammen mit einer Begründung für die angeforderten Berechtigungen|
 |**Datenspeichertypen** |Datenspeicherung und Umgang mit Dokumenten, die:|
@@ -164,10 +165,10 @@ Die anfängliche Dokumentübermittlung hilft Zertifizierungsanalysten bei der Du
 ||&#x2713; Der Datenaufbewahrungszeitraum.|
 ||&#x2713;, warum die M365-Daten des Kunden erfasst werden.|
 ||&#x2713; Wo Kunden-M365-Daten gespeichert werden (sollten in den oben angegebenen Datenflussdiagrammen enthalten sein).|
-|**Bestätigung der Compliance**|Unterstützende Dokumentation für externe Sicherheitsframeworks, die in der übermittlung des Publisher Attestation enthalten sind oder bei der Überprüfung Microsoft 365 Zertifizierungskontrollen berücksichtigt werden müssen. Derzeit werden die folgenden drei unterstützt:|
-||&#x2713; PCI [DSS](#pci-dss) Attestation of Compliance (AOC).|
+|**Bestätigung der Compliance**|Unterstützende Dokumentation für externe Sicherheitsframeworks, die in der übermittlung Publisher Nachweis enthalten sind oder bei der Überprüfung Microsoft 365 Zertifizierungskontrollen berücksichtigt werden sollen. Derzeit werden die folgenden drei unterstützt:|
+||&#x2713; [PCI DSS](#pci-dss) Attestation of Compliance (AOC).|
 ||&#x2713; [SOC 2-Berichte](#soc-2) vom Typ I/Typ II.|
-||&#x2713; [ISMS](#isms)  /  [IEC](#iec) - 1S0/IEC 27001 Statement of Applicability (SoA) and Certification.|
+||&#x2713; [ISMSIEC](#isms) /  - 1S0/IEC 27001 Statement of Applicability (SoA) and Certification.[](#iec)|
 |**Webabhängigkeiten**|Dokumentation, in der alle Abhängigkeiten aufgeführt sind, die von der App/dem Add-In mit den aktuell ausgeführten Versionen verwendet werden.|
 |**Softwareinventar**|Ein aktuelles Softwareinventar, das alle in der In-Scope-Umgebung verwendeten Software zusammen mit den Versionen enthält.|
 |**Hardwareinventur**| Eine aktuelle Hardwareinventur, die von der unterstützenden Infrastruktur verwendet wird. Dies wird verwendet, um beim Sampling bei der Durchführung der Bewertungsphase zu helfen. Wenn Ihre Umgebung PaaS umfasst, stellen Sie Details zu den genutzten Diensten bereit.|
@@ -178,7 +179,7 @@ Zertifizierungsanalysten müssen Nachweise für alle Systemkomponenten innerhalb
 
 **Beweissammlung**
 
-* Ursprüngliche Dokumentation, hervorgehoben im Abschnitt "Übermittlung der [ersten Dokumentation"](#initial-document-submission) oben 
+* Ursprüngliche Dokumentation, hervorgehoben im Abschnitt ["Übermittlung der ersten Dokumentation](#initial-document-submission) " oben 
 * Richtliniendokumente 
 * Verarbeiten von Dokumenten 
 * Systemkonfigurationseinstellungen 
@@ -192,13 +193,13 @@ Es werden verschiedene Methoden verwendet, um die für den Abschluss des Bewertu
 * Interviews 
 * Screensharing 
 
-Die verwendeten Techniken für die Beweissammlung werden während des Bewertungsprozesses bestimmt. Konkrete Beispiele für die Art von Nachweisen, die in Ihrer Übermittlung erforderlich sind, finden Sie im [Beispielbeweishandbuch.](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-sample-evidence-guide)
+Die verwendeten Techniken für die Beweissammlung werden während des Bewertungsprozesses bestimmt. Konkrete Beispiele für die Art von Nachweisen, die in Ihrer Übermittlung erforderlich sind, finden Sie im [Beispielbeweishandbuch](../docs/certification-sample-evidence-guide.md).
 
 **Bewertungsaktivitäten**
 
-Zertifizierungsanalysten überprüfen die von Ihnen bereitgestellten Nachweise, um festzustellen, ob Sie die Kontrollen in dieser Microsoft 365 Zertifizierungsspezifikation ausreichend erfüllt haben. 
+Zertifizierungsanalysten überprüfen die von Ihnen bereitgestellten Nachweise, um festzustellen, ob Sie die Steuerelemente in dieser Microsoft 365 Zertifizierungsspezifikation ausreichend erfüllt haben. 
 
-Wenn möglich, und um den Zeitaufwand für den Abschluss der Bewertung zu verringern, sollte eine oder alle der in der übermittlung der [ursprünglichen Dokumentation](#initial-document-submission)aufgeführten   Dokumentationen vorab bereitgestellt werden.
+Wenn möglich, und um den Zeitaufwand für den Abschluss der Bewertung zu verringern, sollte eine oder alle in den Übermittlungen   [derInitialdokumentation](#initial-document-submission) aufgeführten Dokumentationen vorab bereitgestellt werden.
 
 Zertifizierungsanalysten überprüfen zunächst die Nachweise aus der ersten Übermittlung der Dokumentation und die Publisher Nachweisinformationen, um geeignete Untersuchungslinien, Stichprobengröße und die Notwendigkeit weiterer Nachweise zu identifizieren, wie oben beschrieben.  Zertifizierungsanalysten analysieren alle gesammelten Informationen, um Schlussfolgerungen darüber zu ziehen, wie und ob Sie die Steuerelemente in dieser Microsoft 365 Zertifizierungsspezifikation erfüllen. 
 
@@ -217,7 +218,7 @@ Jede dieser Sicherheitsdomänen enthält bestimmte Schlüsselsteuerelemente, die
 - Keine Antischadsoftware-Abwehr
 - Mehrstufige Authentifizierung wird nicht zum Schutz des Administrativen Zugriffs verwendet.  
 - Keine Patchingprozesse.  
-- Kein geeigneter [DSGVO-Datenschutzhinweis.](#gdpr)  
+- Kein geeigneter [DSGVO-Datenschutzhinweis](#gdpr) .  
 
 ## <a name="application-security"></a>Application Security
 
@@ -228,7 +229,7 @@ Die Anwendungssicherheitsdomäne konzentriert sich auf die folgenden drei Bereic
 
 ### <a name="graphapi-permission-validation"></a>GraphAPI-Berechtigungsüberprüfung
 
-Die GraphAPI-Berechtigungsüberprüfung wird durchgeführt, um zu überprüfen, ob die App/das Add-In nicht übermäßig eingeschränkte Berechtigungen anfordert. Dazu wird manuell überprüft, welche Berechtigungen angefordert werden. Zertifizierungsanalysten verweisen auf diese Überprüfungen mit der übermittlung Publisher Nachweis und bewerten die Zugriffsebene, die angefordert wird, um sicherzustellen, dass die Praktiken mit den geringsten Rechten erfüllt werden. Wenn Zertifizierungsanalysten der Meinung sind, dass diese "geringsten Rechte" nicht erfüllt werden, werden Zertifizierungsanalysten eine offene Diskussion mit Ihnen führen, um die geschäftliche Begründung für die angeforderten Berechtigungen zu überprüfen. Alle Abweichungen zu Ihrer Publisher Nachweisübermittlung, die während dieser Überprüfung gefunden wurden, erhalten auch Feedback, damit Ihre Publisher Nachweis aktualisiert werden kann. 
+Die GraphAPI-Berechtigungsüberprüfung wird durchgeführt, um zu überprüfen, ob die App/das Add-In nicht übermäßig eingeschränkte Berechtigungen anfordert. Dazu wird manuell überprüft, welche Berechtigungen angefordert werden. Zertifizierungsanalysten verweisen auf diese Prüfungen mit der übermittlung Publisher Nachweis und bewerten die Zugriffsebene, die angefordert wird, um sicherzustellen, dass die Praktiken mit den geringsten Rechten erfüllt werden. Wenn Zertifizierungsanalysten der Meinung sind, dass diese "geringsten Rechte" nicht erfüllt werden, werden Zertifizierungsanalysten eine offene Diskussion mit Ihnen führen, um die geschäftliche Begründung für die angeforderten Berechtigungen zu überprüfen. Alle Abweichungen zu Ihrer Publisher Nachweisübermittlung, die sie während dieser Überprüfung gefunden haben, erhalten ebenfalls Feedback, damit Ihre Publisher Nachweis aktualisiert werden kann. 
 
 ### <a name="external-connectivity-checks"></a>Externe Konnektivitätsprüfungen
 
@@ -241,11 +242,11 @@ Eine angemessene Überprüfung der mit Ihrer App/Ihrem Add-In verbundenen Risike
 
 **Penetrationstests – Bereich**
 
-Penetrationstestaktivitäten **MÜSSEN** in der Live-Produktionsumgebung durchgeführt werden, die die Bereitstellung der App/des Add-Ins unterstützt (z. B. wo der App-/Add-In-Code gehostet wird, der in der Regel die Ressource in der Manifestdatei ist) zusammen mit jeder zusätzlichen Umgebung, die den Betrieb der App/des Add-Ins unterstützt (z. B. wenn die App/das Add-In mit anderen Webanwendungen außerhalb von Microsoft 365 spricht).  Bei der Definition des Bereichs muss darauf geachtet werden, dass alle "verbundenen" Systeme oder Umgebungen, die sich auf die Sicherheit der bereichsbezogenen Umgebung auswirken können, auch in alle Penetrationstestaktivitäten einbezogen werden. 
+Penetrationstestaktivitäten **MÜSSEN** in der Live-Produktionsumgebung durchgeführt werden, die die Bereitstellung der App/des Add-Ins unterstützt (z. B. wo der App-/Add-In-Code gehostet wird, der in der Regel die Ressource in der Manifestdatei ist) sowie alle zusätzlichen Umgebungen, die den Betrieb der App/des Add-Ins unterstützen (z. B. wenn die App/das Add-In mit anderen Webanwendungen außerhalb von Microsoft 365 spricht).  Bei der Definition des Bereichs muss darauf geachtet werden, dass alle "verbundenen" Systeme oder Umgebungen, die sich auf die Sicherheit der bereichsbezogenen Umgebung auswirken können, auch in alle Penetrationstestaktivitäten einbezogen werden. 
 
 Wo Techniken verwendet werden, um die in-Scope-Umgebungen aus anderen Umgebungen zu segmentieren, MÜSSEN Penetrationstestaktivitäten die Effektivität dieser Segmentierungstechniken überprüfen. Dies muss im Penetrationstestbericht detailliert sein. 
 
-Penetrationstestberichte werden überprüft, um sicherzustellen, dass keine Sicherheitsrisiken vorhanden sind, die die folgenden kriterien für **automatische Fehler** erfüllen, die in den folgenden Steuerelementen beschrieben sind.
+Penetrationstestberichte werden überprüft, um sicherzustellen, dass keine Sicherheitsrisiken vorhanden sind, die die folgenden  **automatischen Fehlerkriterien** erfüllen, die in den folgenden Steuerelementen beschrieben sind.
  
 **Anforderungen für Penetrationstests**
 
@@ -256,15 +257,15 @@ Penetrationstestberichte werden überprüft, um sicherzustellen, dass keine Sich
 || Die Behebung von identifizierten kritischen und risikoreichen Sicherheitsrisiken **MUSS** innerhalb eines Monats nach Abschluss der Penetrationstests abgeschlossen sein, oder je nach dokumentierten Patchingprozess früher. |
 || Der vollständige externe Speicherbedarf (IP-Adressen, URLs, API-Endpunkte usw.) MUSS in den Umfang der Penetrationstests einbezogen werden und muss im Penetrationstestbericht dokumentiert werden. |
 || Penetrationstests für Webanwendungen MÜSSEN alle Sicherheitsrisikoklassen enthalten. Beispielsweise die aktuelle OWASP Top 10 oder SANS Top 25 CWE. |
-|| Eine erneute Überprüfung der identifizierten Sicherheitsrisiken durch das Penetrationstestunternehmen ist nicht erforderlich . Korrektur und Selbstüberprüfung sind jedoch ausreichend, um zu belegen, dass während der Bewertung ausreichend **Abhilfe** erforderlich ist.|
+|| Eine erneute Überprüfung der identifizierten Sicherheitsrisiken durch das Penetrationstestunternehmen ist nicht erforderlich . Korrektur und Selbstüberprüfung sind jedoch ausreichend, um zu belegen, dass während der Bewertung **ausreichend Abhilfe erforderlich** ist.|
 |**Kriterien für automatische Fehler:**|**Controls**|
 || Vorhandensein eines nicht unterstützten Betriebssystems. |
 || Vorhandensein von standardmäßigen, aufzählbaren oder erratenen Administratorkonten.|
-|| Vorhandensein von SQL Einfügungsrisiken.|
+|| Vorhandensein SQL Risiken bei der Einschleusung.|
 || Vorhandensein von websiteübergreifendem Skripting.|
 || Vorhandensein von Verzeichnisdurchquerungsrisiken (Dateipfad).|
 || Vorhandensein von HTTP-Sicherheitsrisiken, z. B. Header-Antwortteilung, Anforderungsaussetzung und Desync-Angriffe.|
-|| Vorhandensein der Offenlegung des Quellcodes (einschließlich [LFI).](#lfi)|
+|| Vorhandensein der Offenlegung des Quellcodes ( [einschließlichLFI](#lfi)).|
 || Alle kritischen oder hohen Bewertungen gemäß den CVSS-Patchverwaltungsrichtlinien.|
 || Jede erhebliche technische Sicherheitslücke, die leicht ausgenutzt werden kann, um eine große Menge von EUII oder OUI zu kompromittieren.|
 
@@ -312,7 +313,7 @@ Diese Domäne misst die Ausrichtung der unterstützenden Infrastruktur und Berei
 ||Liefern Sie demonstratablen Nachweis, dass Antivirensignaturen in allen Umgebungen (innerhalb von 1 Tag) auf dem neuesten Stand sind.|
 ||Stellen Sie demonstratable Nachweise dafür bereit, dass Antivirensoftware so konfiguriert ist, dass Bei-Zugriff-Scans oder regelmäßige Überprüfungen in allen beispielierten Systemkomponenten durchgeführt werden. Hinweis: Wenn die Überprüfung bei Zugriff nicht aktiviert ist, muss mindestens die tägliche Überprüfung und Warnung aktiviert sein.|
 ||Stellen Sie demonstratable Nachweise dafür bereit, dass Antivirensoftware so konfiguriert ist, dass Schadsoftware automatisch blockiert oder isoliert wird und warnungsübergreifend in allen beispielierten Systemkomponenten angezeigt wird.|
-|**Anwendungssteuerelemente:** NUR erforderlich, wenn herkömmliche Antischadsoftware nicht verwendet wird|Stellen Sie demonstratable Nachweise dafür bereit, dass Anwendungen vor der Bereitstellung genehmigt werden.|
+|**Anwendungssteuerelemente**: NUR erforderlich, wenn herkömmliche Antischadsoftware nicht verwendet wird|Stellen Sie demonstratable Nachweise dafür bereit, dass Anwendungen vor der Bereitstellung genehmigt werden.|
 ||Stellen Sie demonstratable Nachweise dafür bereit, dass eine vollständige Liste genehmigter Anwendungen mit geschäftlicher Begründung vorhanden ist und beibehalten wird.|
 ||Stellen Sie unterstützende Dokumentation bereit, in der angegeben wird, dass die Anwendungsteuerungssoftware so konfiguriert ist, dass sie bestimmten Anwendungssteuerungsmechanismen entspricht. (Beispiel: Zugelassene Auflistung: Sample1, Sample3, Codesignatur)|
 ||Stellen Sie demonstratable Nachweise dafür bereit, dass die Anwendungssteuerung als dokumentiert von allen beispielierten Systemkomponenten konfiguriert ist.|
@@ -386,17 +387,17 @@ Diese Domäne misst die Ausrichtung der unterstützenden Infrastruktur und Berei
 
 ## <a name="data-handling-security-and-privacy"></a>Sicherheit und Datenschutz bei der Datenverarbeitung
 
-Daten, die sich während der Übertragung zwischen dem Anwendungsbenutzer, zwischengeschalteten Diensten und ISV-Systemen befinden, müssen durch Verschlüsselung über eine TLS-Verbindung geschützt werden, die mindestens TLS v1.1 unterstützt. *Siehe* [**Anhang A.**](#appendix-a)
+Daten, die sich während der Übertragung zwischen dem Anwendungsbenutzer, zwischengeschalteten Diensten und ISV-Systemen befinden, müssen durch Verschlüsselung über eine TLS-Verbindung geschützt werden, die mindestens TLS v1.1 unterstützt. *Siehe* [**Anhang A**](#appendix-a).
 
-Wo Ihre Anwendung M365-Daten abruft und speichert, müssen Sie ein Verschlüsselungsschema für den Datenspeicher implementieren, das der Spezifikation gemäß [**Anhang B**](#appendix-a)folgt.
+Wenn Ihre Anwendung M365-Daten abruft und speichert, müssen Sie ein Verschlüsselungsschema für den Datenspeicher implementieren, das der Spezifikation gemäß [**Anhang B**](#appendix-a) folgt.
 
 ### <a name="controls"></a>Steuerelemente
 
 |**Steuerelementfamilie**| **Controls** |
 | -----------------------|-------------------------------- |
-|**Daten während der Übertragung**| Bereitstellen von demonstratablen Nachweisen, dass die TLS-Konfiguration die Verschlüsselungsanforderungen innerhalb der [TLS-Profilkonfigurationsanforderungen](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#appendix-a) erfüllt oder überschreitet|
+|**Daten während der Übertragung**| Bereitstellen von demonstratablen Nachweisen, dass die TLS-Konfiguration die Verschlüsselungsanforderungen innerhalb der [TLS-Profilkonfigurationsanforderungen](../docs/certification-submission-guide.md#appendix-a) erfüllt oder überschreitet|
 ||Stellen Sie demonstratable Nachweise dafür bereit, dass die TLS-Komprimierung für alle öffentlich zugänglichen Dienste deaktiviert ist, die Webanforderungen verarbeiten.|
-||Stellen Sie demonstratable Nachweise dafür bereit, dass tls http strict transport security aktiviert und für >= 15552000 für alle Standorte konfiguriert ist.|
+||Stellen Sie demonstratable Nachweise dafür bereit, dass tls http strict transport security aktiviert und auf >= 15552000 für alle Standorte konfiguriert ist.|
 |**Daten im Ruhezustand**| Stellen Sie demonstratable Nachweise dafür bereit, dass ruhenden Daten inLine mit den Anforderungen an das Verschlüsselungsprofil verschlüsselt werden, indem Sie Verschlüsselungsalgorithmen wie AES, Auslöschung, TDES und Verschlüsselungsschlüsselgrößen von 128-Bit und 256-Bit verwenden.|
 ||Stellen Sie demonstratable Nachweise dafür bereit, dass die Hashfunktion oder Nachrichtenauthentifizierung (HMAC-SHA1) nur verwendet wird, um ruhenden Daten inLine mit den Anforderungen des Verschlüsselungsprofils zu schützen.|
 ||Bereitstellen eines Inventars mit allen gespeicherten Daten, einschließlich Speicherort und Verschlüsselung, die zum Schutz der Daten verwendet werden.|
@@ -418,7 +419,7 @@ Wo Ihre Anwendung M365-Daten abruft und speichert, müssen Sie ein Verschlüssel
 
 ## <a name="optional-external-compliance-frameworks-review"></a>Optionale Überprüfung externer Compliance-Frameworks
 
-Obwohl dies nicht erforderlich ist, können Sie, wenn Sie derzeit iso 27001, PCI DSS oder SOC2 entsprechen, diese Zertifizierungen verwenden, um einige der Microsoft 365 Zertifizierungssteuerelemente zu erfüllen. Zertifizierungsanalysten werden versuchen, vorhandene externe Sicherheitsframeworks an die Spezifikation Microsoft 365 Zertifizierung anzupassen. Wenn die unterstützende Dokumentation jedoch nicht sicherstellen kann, dass Microsoft 365 Zertifizierungskontrollen im Rahmen der Prüfung/Bewertung der externen Sicherheitsframeworks bewertet wurden, müssen Sie zusätzliche Nachweise dafür bereitstellen, dass diese Steuerelemente vorhanden sind.
+Obwohl dies nicht erforderlich ist, können Sie, wenn Sie derzeit iso 27001, PCI DSS oder SOC2 entsprechen, diese Zertifizierungen verwenden, um einige der Microsoft 365 Zertifizierungssteuerelemente zu erfüllen. Zertifizierungsanalysten werden versuchen, vorhandene externe Sicherheitsframeworks an die Spezifikation Microsoft 365 Zertifizierung anzupassen. Wenn die unterstützende Dokumentation jedoch nicht sicherstellen kann, dass Microsoft 365 Zertifizierungskontrollen im Rahmen der Prüfung/Bewertung der externen Sicherheitsframeworks bewertet wurden, müssen Sie zusätzliche Nachweise dafür bereitstellen, dass die genannten Steuerelemente vorhanden sind.
 
 Die Dokumentation muss angemessen nachweisen, dass die bereichsbezogene Umgebung für die Microsoft 365 Zertifizierung in den Bereich dieser externen Sicherheitsframeworks einbezogen wurde. Die Validierung dieser Sicherheitsframeworks wird erfüllt, indem der Nachweis gültiger Zertifizierungen durch seriöse externe Drittanbieter akzeptiert wird. Diese seriösen Unternehmen müssen Mitglieder internationaler Akkreditierungsstellen für relevante Complianceprogramme sein. Siehe ISO-Zertifizierungs- und -Konformitätsstandards für ISO 27001 und Qualified Security Assessors (QSA) für PCI DSS.
 
@@ -426,25 +427,25 @@ In der folgenden Tabelle werden die externen Frameworks und dokumentationen herv
 
 | **Standard** | **Anforderungen** |
 | ----- | ----- |
-| **[ISO 27001](#iso-27001)** | Eine öffentlich zugängliche Version der Erklärung zur Anwendbarkeit (Statement **of Applicability,** SOA) und eine Kopie des ausgestellten ISO 27001-Zertifikats sind erforderlich.  Das SOA fasst Ihre Position zu den einzelnen 114 Informationssicherheitssteuerelementen zusammen und wird verwendet, um festzustellen, ob ein Ausschluss von Steuerelementen, die nicht zufriedenstellend im ISO 27001-Zertifikat aufgeführt sind, ausgeschlossen wird. Wenn dies nicht durch Überprüfen der öffentlich zugänglichen Version des SOA bestimmt werden kann, benötigt der Analyst möglicherweise Zugriff auf das vollständige SOA, wenn ISO 27001 verwendet wird, um einige der steuerelemente Microsoft 365 Zertifizierungsspezifikation zu überprüfen.  Zusätzlich zur Überprüfung des Umfangs der ISO 27001-Bewertungsaktivitäten bestätigen die Analysten auch die Gültigkeit des Prüfungsunternehmens, wie oben beschrieben.|
-|**[PCI/DSS](#pci-dss)**| Es muss ein gültiges AOC-Dokument **(Attestation of Compliance)** der Stufe 1 bereitgestellt werden, in dem die bereichsbezogenen Anwendungs- und Systemkomponenten eindeutig identifiziert werden.  Ein Selbstbewertungs-AOC **wird nicht** als Nachweis für bewährte Methoden für die Sicherheit akzeptiert. Der AOC wird verwendet, um zu bestimmen, welche der Microsoft 365 Zertifizierungsspezifikationssteuerelemente im Rahmen der PCI DSS-Bewertung ausgewertet und bestätigt wurden.|
-|**[SOC 2](#soc-2)**|Der **BERICHT SOC 2 (Typ I oder Typ II)** muss aktuell sein (innerhalb der letzten 15 Monate ausgestellt und der deklarierte Zeitraum, der innerhalb der letzten 27 Monate begonnen wurde), um als Nachweis für die Übereinstimmung mit den Bewertungssteuerelementen in dieser Microsoft 365 Zertifizierungsspezifikation verwendet zu werden.|
+| **[ISO 27001](#iso-27001)** | Eine öffentlich zugängliche Version der **Erklärung zur Anwendbarkeit (Statement of Applicability** , SOA) und eine Kopie des ausgestellten ISO 27001-Zertifikats sind erforderlich.  Das SOA fasst Ihre Position zu den einzelnen 114 Informationssicherheitssteuerelementen zusammen und wird verwendet, um festzustellen, ob ein Ausschluss von Steuerelementen, die nicht zufriedenstellend im ISO 27001-Zertifikat aufgeführt sind, ausgeschlossen wird. Wenn dies nicht durch Überprüfen der öffentlich zugänglichen Version des SOA ermittelt werden kann, benötigt der Analyst möglicherweise Zugriff auf das vollständige SOA, wenn ISO 27001 verwendet wird, um einige der steuerelemente Microsoft 365 Zertifizierungsspezifikation zu überprüfen.  Zusätzlich zur Überprüfung des Umfangs der ISO 27001-Bewertungsaktivitäten bestätigen die Analysten auch die Gültigkeit des Prüfungsunternehmens, wie oben beschrieben.|
+|**[PCI/DSS](#pci-dss)**| Es muss ein gültiges AOC-Dokument ( **Attestation of Compliance) der Stufe 1** bereitgestellt werden, in dem die bereichsbezogenen Anwendungs- und Systemkomponenten eindeutig identifiziert werden.  Ein Selbstbewertungs-AOC **wird nicht** als Nachweis für bewährte Methoden für die Sicherheit akzeptiert. Der AOC wird verwendet, um zu bestimmen, welche der Microsoft 365 Zertifizierungsspezifikations-Steuerelemente im Rahmen der PCI DSS-Bewertung ausgewertet und bestätigt wurden.|
+|**[SOC 2](#soc-2)**|Der **BERICHT SOC 2 (Typ I oder Typ II)** muss aktuell sein (innerhalb der letzten 15 Monate ausgestellt und der deklarierte Zeitraum, der innerhalb der letzten 27 Monate begonnen wurde), um als Nachweis für die Übereinstimmung mit den Bewertungssteuerelementen innerhalb dieser Microsoft 365 Zertifizierungsspezifikation verwendet zu werden.|
 
 Wenn externe Sicherheitsframeworks in den Publisher Attestation aufgenommen wurden, müssen Zertifizierungsanalysten die Gültigkeit dieser Sicherheitscompliance-Frameworks im Rahmen der Microsoft 365 Zertifizierungsbewertung überprüfen.
 
 |**Framework** | **Zusätzliche Überlegungen** |
 |-------------- | --------------------|
-|ISO 27001| [**Anhang C:**](#appendix-c)Nachweissammlung – Deltas für ISO 27001.|
-|PCI/DSS | [**Anhang D:**](#appendix-d)Nachweissammlung – Deltas für PCI DSS.|
-|SOC 2| [**Anhang E:**](#appendix-e)Nachweissammlung – Deltas für SOC 2.|
+|ISO 27001| [**Anhang C**](#appendix-c): Nachweissammlung – Deltas für ISO 27001.|
+|PCI/DSS | [**Anhang D**](#appendix-d): Beweissammlung – Deltas für PCI DSS.|
+|SOC 2| [**Anhang E**](#appendix-e): Beweissammlung – Deltas für SOC 2.|
 
 > [!NOTE]
-> Obwohl die oben genannten externen Sicherheitsstandards/-frameworks als Nachweis übermittelt werden können, um einige der Microsoft 365 Zertifizierungskontrollen zu erfüllen, bedeutet das Bestehen der Microsoft 365 Zertifizierung nicht, dass Sie eine Prüfung für diese Standards/Frameworks erfolgreich bestehen. Die Microsoft 365-Zertifizierungsspezifikation ist nur eine kleine Teilmenge dieser Sicherheitsstandards/-frameworks, die es Microsoft ermöglichen, ein Maß an Sicherheit in Bezug auf Ihren Sicherheitsstatus zu erhalten.
+> Obwohl die oben genannten externen Sicherheitsstandards/-frameworks als Nachweis übermittelt werden können, um einige der Microsoft 365 Zertifizierungssteuerelemente zu erfüllen, bedeutet das Bestehen der Microsoft 365 Zertifizierung nicht, dass Sie eine Prüfung für diese Standards/Frameworks erfolgreich bestehen. Die Microsoft 365-Zertifizierungsspezifikation ist nur eine kleine Teilmenge dieser Sicherheitsstandards/-frameworks, die es Microsoft ermöglichen, ein Maß an Sicherheit in Bezug auf Ihren Sicherheitsstatus zu erhalten.
 
 
 ### <a name="requirements-to-use-external-compliance-frameworks"></a>Anforderungen für die Verwendung externer Compliance-Frameworks
 
-&#x2713; Die unterstützende App-/Add-In-Umgebung **und** alle unterstützenden Geschäftsprozesse **MÜSSEN** in den Bereich der unterstützten externen Sicherheitscomplianceframeworks einbezogen werden und müssen in der bereitgestellten Dokumentation deutlich angegeben werden.
+&#x2713; Die unterstützende App/Add-In-Umgebung **und** alle unterstützenden Geschäftsprozesse **MÜSSEN** in den Bereich der unterstützten externen Sicherheitscompliance-Frameworks einbezogen werden und müssen in der bereitgestellten Dokumentation eindeutig angegeben werden.
 
 &#x2713; Unterstützte externe Sicherheitscompliance-Frameworks **MÜSSEN** aktuell sein, d. h. innerhalb der letzten 12 Monate (oder innerhalb von 15 Monaten, wenn die erneute Bewertung derzeit durchgeführt wird und Nachweise bereitgestellt werden können).
 
@@ -457,13 +458,13 @@ Wenn externe Sicherheitsframeworks in den Publisher Attestation aufgenommen wurd
 Der gesamte Netzwerkdatenverkehr, sei es innerhalb eines virtuellen Netzwerks, Clouddiensts oder Rechenzentrums, muss mit mindestens TLS v1.1 (TLS v1.2+ wird empfohlen) oder einem anderen anwendbaren Protokoll geschützt werden. Ausnahmen von dieser Anforderung sind:
 
 * **HTTP-to-HTTPS-Umleitung**. Ihre App kann über HTTP antworten, um Clients zu HTTPS umzuleiten, aber die Antwort darf keine vertraulichen Daten (Cookies, Header, Inhalte) enthalten. Außer Umleitungen zu HTTPS und Antworten auf Integritätsteste sind keine anderen HTTP-Antworten zulässig. Siehe unten.
-* **Integritätstests**. Ihre App kann nur dann auf Integritätsprüfungen über HTTP **reagieren, wenn** HTTPS-Integritätstests von der Überprüfungspartei nicht unterstützt werden.
+* **Integritätsuntersuchung.** Ihre App kann nur dann auf Integritätsprüfungen über HTTP reagieren **, wenn** HTTPS-Integritätstests von der Überprüfungspartei nicht unterstützt werden.
 * **Zertifikatzugriff**. Der Zugriff auf CRL-, OCSP- und AIA-Endpunkte zum Zweck der Zertifikatüberprüfung und Sperrüberprüfung ist über HTTP zulässig.
 * **Lokale Kommunikation**. Ihre App kann HTTP (oder andere nicht geschützte Protokolle) für Kommunikationen verwenden, die das Betriebssystem nicht verlassen, z. B. g. Herstellen einer Verbindung mit einem Webserverendpunkt, der auf localhost verfügbar gemacht wird.
 
 TLS-Komprimierung **MUSS** deaktiviert sein.
 
-## <a name="appendix-b"></a>Anhang B
+## <a name="appendix-b"></a>Anhang B
 
 ### <a name="encryption-profile-configuration-requirements"></a>Konfigurationsanforderungen für Verschlüsselungsprofile
 
@@ -493,7 +494,7 @@ Nur kryptografische Grundtypen und Parameter sind wie folgt zulässig:
 
 &emsp;&#x2713; HMAC-SHA1 kann nur aus Kompatibilitätsgründen verwendet werden.
 
-&emsp;&#x2713; HMAC-Taste muss mindestens 128 Bit sein. Es werden 256-Bit-Schlüssel empfohlen.
+&emsp;&#x2713; HMAC-Taste MUSS mindestens 128 Bit sein. Es werden 256-Bit-Schlüssel empfohlen.
 
 ### <a name="asymmetric-algorithms"></a>Asymmetrische Algorithmen
 
@@ -517,10 +518,10 @@ Nur kryptografische Grundtypen und Parameter sind wie folgt zulässig:
 
 ### <a name="evidence-collection--delta-for-iso-27001"></a>Nachweissammlung – Delta für ISO 27001
 
-Wenn Sie die ISO27001-Compliance bereits erreicht haben, müssen die folgenden Deltas (Lücken), die nicht vollständig von ISO 27001 abgedeckt werden, mindestens im Rahmen dieser Microsoft 365-Zertifizierung überprüft werden.
+Wenn Sie die ISO27001-Compliance bereits abgeschlossen haben, müssen die folgenden Deltas (Lücken), die nicht vollständig von ISO 27001 abgedeckt werden, mindestens im Rahmen dieser Microsoft 365 Zertifizierung überprüft werden.
 
 > [!NOTE]
-> Im Rahmen Ihrer Microsoft 365 Zertifizierungsbewertung ermittelt der Zertifizierungsanalyst, ob eines der zugeordneten ISO 27001-Steuerelemente nicht in der ISO 27001-Bewertung enthalten war, und kann auch entscheiden, Beispielsteuerelemente einzuschließen, die gefunden wurden, um weitere Zusicherungen zu bieten. Alle Anforderungen, die in iso 27001 fehlen, müssen in Ihre Microsoft 365 Zertifizierungsbewertungsaktivitäten einbezogen werden.
+> Im Rahmen Ihrer Microsoft 365 Zertifizierungsbewertung ermittelt der Zertifizierungsanalyst, ob eines der zugeordneten ISO 27001-Steuerelemente nicht teil der ISO 27001-Bewertung war, und entscheidet sich möglicherweise auch für Beispielsteuerelemente, die als eingeschlossen eingestuft wurden, um weitere Zusicherungen zu bieten. Alle Anforderungen, die in der ISO 27001 fehlen, müssen in Ihre Microsoft 365 Zertifizierungsbewertungsaktivitäten einbezogen werden.
 
 **Schutz vor Schadsoftware – Virenschutz**
 
@@ -528,7 +529,7 @@ Wenn der Schutz vor Schadsoftware mithilfe der Anwendungssteuerung eingerichtet 
 
 * Demonstrieren Sie, dass Antivirensoftware in allen beispielweisen Systemkomponenten ausgeführt wird.
 
-* Demonstrieren Sie, dass Antivirensoftware für alle beispielbasierten Systemkomponenten konfiguriert ist, um Schadsoftware automatisch zu blockieren, & Warnung unter Quarantäne zu stellen oder zu warnen.
+* Demonstrieren Sie, dass Antivirensoftware in allen beispielbasierten Systemkomponenten konfiguriert ist, um Schadsoftware automatisch zu blockieren, & Warnung unter Quarantäne zu stellen oder zu warnen.
 
 * Antivirensoftware **MUSS** so konfiguriert sein, dass alle Aktivitäten protokolliert werden.
 
@@ -536,7 +537,7 @@ Wenn der Schutz vor Schadsoftware mithilfe der Anwendungssteuerung eingerichtet 
 
 Da ISO 27001-Audits diese Kategorie nicht spezifisch bewerten, müssen Sie dazu Folgendes tun:
 
-* Softwarekomponenten und Betriebssysteme, die vom Anbieter nicht mehr unterstützt **werden, DÜRFEN** in der Umgebung nicht mehr verwendet werden. Unterstützende Richtlinien MÜSSEN vorhanden sein, um sicherzustellen, dass nicht unterstützte Softwarekomponenten/Betriebssysteme aus der Umgebung entfernt werden, und ein Prozess zur Identifizierung, wann Softwarekomponenten enden, muss vorhanden sein.
+* Softwarekomponenten und Betriebssysteme, die vom Anbieter nicht mehr unterstützt werden **, DÜRFEN** in der Umgebung nicht mehr verwendet werden. Unterstützende Richtlinien MÜSSEN vorhanden sein, um sicherzustellen, dass nicht unterstützte Softwarekomponenten/Betriebssysteme aus der Umgebung entfernt werden, und ein Prozess zur Identifizierung, wann Softwarekomponenten enden, muss vorhanden sein.
 
 **Prüfung auf Schwachstellen**  
 
@@ -596,7 +597,7 @@ Zusätzliche Gutschriften werden bereitgestellt, wenn ein WAF bereitgestellt wir
 
 &#x2713; PHP-Einschleusungsangriffe.
 
-&#x2713; websiteübergreifende Skriptingangriffe.
+&#x2713; Websiteübergreifende Skriptingangriffe.
 
 &#x2713; SQL-Injection-Angriffe.
 
@@ -612,7 +613,7 @@ Da iso 27001-Audits einige Elemente von Change Request-Prozessen nicht spezifisc
 
 &#x2713; Details dazu, welche Funktionalitätstests durchgeführt werden sollen.
 
-&#x2713; Details aller Back-Out-Verfahren.
+&#x2713; Details zu allen Back-Out-Verfahren.
 
 * Demonstrieren Sie, dass Funktionstests durchgeführt werden, nachdem die Änderungen abgeschlossen wurden.
 
@@ -622,7 +623,7 @@ Da iso 27001-Audits einige Elemente von Change Request-Prozessen nicht spezifisc
 
 Da bei ISO 27001-Audits einige Elemente von Kontoverwaltungsprozessen nicht speziell bewertet werden, müssen Sie folgende Aufgaben ausführen:
 
-*   Vorführen, wie &#x2713;implementiert werden, um Replay-Angriffe (z. B. MFA, Kerberos) zu mindern.
+*   Veranschaulichen Sie, wie &#x2713;implementiert werden, um Replay-Angriffe zu minimieren (z. B. MFA, Kerberos).
 *   Demonstrieren, wie Konten, die in 3 Monaten nicht verwendet wurden, entweder deaktiviert oder gelöscht werden.
 *   &#x2713; oder andere geeignete Gegenmaßnahmen müssen konfiguriert werden, um Benutzeranmeldeinformationen zu schützen. Die folgende Mindestkennwortrichtlinie sollte als Richtlinie verwendet werden:
 
@@ -692,7 +693,7 @@ Da iso 27001-Audits einige Elemente von Richtlinien und Prozessen zur Behandlung
 
 &#x2713; Funktionen für die Behandlung von Sicherheitsvorfällen, die dem NIST Cybersecurity Framework (Identifizieren, Schützen, Erkennen, Reagieren, Wiederherstellen) entsprechen.
  
-&#x2713; Das IRP deckt die In-Scope-Systeme ab.
+&#x2713; Die IRP deckt die im Umfang enthaltenen Systeme ab.
  
 &#x2713; jährliche Schulung für das Vorfallreaktionsteam.
 
@@ -703,7 +704,7 @@ Da iso 27001-Audits einige Elemente von Richtlinien und Prozessen zur Behandlung
 Wenn Sie die PCI DSS-Compliance bereits erreicht haben, müssen die folgenden Deltas (Lücken), die nicht vollständig von PCI DSS abgedeckt werden, mindestens im Rahmen dieser Microsoft 365-Zertifizierung überprüft werden.
 
 > [!NOTE]
-> Im Rahmen der Microsoft 365 Zertifizierungsbewertung ermittelt der Zertifizierungsanalyst, ob eine der zugeordneten PCI DSS-Steuerelemente nicht in die PCI DSS-Bewertung einbezogen wurde, und entscheidet sich möglicherweise auch für Beispielsteuerelemente, die als eingeschlossen eingestuft wurden, um weitere Zusicherungen zu bieten. Alle Anforderungen, die im PCI DSS fehlen, müssen in die Microsoft 365 Zertifizierungsaktivitäten einbezogen werden.
+> Im Rahmen der Microsoft 365 Zertifizierungsbewertung ermittelt der Zertifizierungsanalyst, ob eine der zugeordneten PCI DSS-Steuerelemente nicht in die PCI DSS-Bewertung einbezogen wurde, und kann auch entscheiden, Beispielsteuerelemente zu verwenden, die als eingeschlossen eingestuft wurden, um weitere Zusicherungen zu bieten. Alle Anforderungen, die im PCI DSS fehlen, müssen in die Microsoft 365 Zertifizierungsbewertungsaktivitäten einbezogen werden.
 
 **Schutz vor Schadsoftware – Anwendungssteuerung**
 
@@ -880,11 +881,11 @@ Zusätzliche Gutschriften werden bereitgestellt, wenn eine Webanwendungsfirewall
 
 &emsp;&#x2713; PHP-Einschleusungsangriffe.
 
-&emsp;&#x2713; websiteübergreifende Skriptingangriffe.
+&emsp;&#x2713; Websiteübergreifende Skriptingangriffe.
 
 &emsp;&#x2713; SQL-Injection-Angriffe.
 
-&emsp;&#x2713; Session-Fixation-Angriffe.
+&emsp;&#x2713; Sitzungskorrekturangriffe.
 
 **Änderungssteuerung**
 
@@ -920,7 +921,7 @@ Da bei SOC2-Audits einige Elemente von Kontoverwaltungsprozessen nicht speziell 
 
 *   Richtlinien für sichere Kennwörter oder andere geeignete Gegenmaßnahmen müssen konfiguriert werden, um Benutzeranmeldeinformationen zu schützen. Die folgende Mindestkennwortrichtlinie sollte als Richtlinie verwendet werden:
 
-&emsp;&#x2713; Mindestlänge des Kennworts von 8 Zeichen.
+&emsp;&#x2713; mindeste Kennwortlänge von 8 Zeichen.
 
 &emsp;&#x2713; Kontosperrschwellenwert von höchstens 10 Versuchen.
 
@@ -1001,9 +1002,9 @@ Microsoft bestätigt, dass Sie Anwendungen bereitstellen und App-/Add-In-Code in
 |Hostingtypen  |Beschreibung  |
 |-----|------|
 |**ISV Hosted**|Isv hosted types can be defined as where you are responsible for the infrastructure used to support the app/add-in environment. Dies kann sich physisch in Ihren eigenen Rechenzentren oder in Rechenzentren von Drittanbietern mit einem Co-Location-Dienst befinden. Letztendlich haben Sie die vollständige Kontrolle über die unterstützende Infrastruktur und die Betriebsumgebung.|
-|**Infrastructure as a Service (IaaS)** (https://azure.microsoft.com/en-gb/overview/what-is-iaas/)|Infrastructure as a Service ist ein Dienst, der bereitgestellt wird, wobei die physische unterstützende Infrastruktur vom Clouddienstanbieter (CSP) in ihrem Auftrag verwaltet und verwaltet wird. In der Regel liegt die Verantwortung für Netzwerk, Speicher, physische Server und die Virtualisierungsinfrastruktur beim CSP. Das Betriebssystem, Middleware, Laufzeit, Daten und Anwendungen liegen in Ihrer Verantwortung. Firewallfunktionen würden auch vom Drittanbieter verwaltet und verwaltet, die Wartung der Firewallregelbasis würde jedoch in der Regel weiterhin in der Verantwortung der Verbraucher bleiben.|
-|**Platform as a Service/Serverless (PaaS)** (https://azure.microsoft.com/en-gb/overview/what-is-paas/)| Mit Platform as a Service erhalten Sie eine verwaltete Plattform, die einen Dienst darstellt, der genutzt werden kann. Sie müssen keine sysadmin-Funktionen ausführen, da das Betriebssystem und die unterstützende Infrastruktur vom CSP verwaltet werden. Dies wird in der Regel verwendet, wenn Organisationen sich nicht mit der Darstellung eines Webdiensts befassen möchten und sich stattdessen auf das Erstellen des Webanwendungsquellcodes und das Veröffentlichen der Webanwendung in den von der Cloud verwalteten Webdiensten konzentrieren können.  Ein weiteres Beispiel kann ein Datenbankdienst sein, bei dem eine Verbindung mit einer Datenbank besteht, die unterstützende Infrastruktur und Datenbankanwendung jedoch vom Consumer abstrahiert wird.   **Hinweis: Serverless und PaaS sind ähnlich, sodass für den Zweck des Microsoft 365 Hosting-Bereitstellungstyps "Serverless" und "PasS" als identisch gelten.**|
-|**Hybrid gehostet**|Mit dem hybrid gehosteten Typ können Sie mehrere gehostete Typen verwenden, um verschiedene Teile der unterstützenden Umgebung zu unterstützen. Dies kann eher der Fall sein, wenn Apps/Add-Ins über mehrere M365-Stapel hinweg verwendet werden. Obwohl die Microsoft 365-Zertifizierung unterstützt, wo Apps/Add-Ons über mehrere M365-Dienste hinweg entwickelt werden, müsste eine Bewertung der gesamten unterstützenden Umgebung (app-/add-ins) in Übereinstimmung mit den entsprechenden "Gehosteten Typzuordnungen" bewertet werden. Gelegentlich können Sie unterschiedliche gehostete Typen für ein einzelnes Add-In verwenden, in dem dies ausgeführt wird. Die Anwendbarkeit von Kriterien muss dennoch den Kriterien "Gehostete Typzuordnungen" für die verschiedenen gehosteten Typen entsprechen.|
+|**Infrastructure as a Service (IaaS)** (https://azure.microsoft.com/overview/what-is-iaas/)|Infrastructure as a Service ist ein Dienst, der bereitgestellt wird, wobei die physische unterstützende Infrastruktur vom Clouddienstanbieter (CSP) in ihrem Auftrag verwaltet und verwaltet wird. In der Regel liegt die Verantwortung für Netzwerk, Speicher, physische Server und die Virtualisierungsinfrastruktur beim CSP. Das Betriebssystem, Middleware, Laufzeit, Daten und Anwendungen liegen in Ihrer Verantwortung. Firewallfunktionen würden auch vom Drittanbieter verwaltet und verwaltet, die Wartung der Firewallregelbasis würde jedoch in der Regel weiterhin in der Verantwortung der Verbraucher bleiben.|
+|**Platform as a Service/Serverless (PaaS)** (https://azure.microsoft.com/overview/what-is-paas/)| Mit Platform as a Service erhalten Sie eine verwaltete Plattform, die einen Dienst darstellt, der genutzt werden kann. Sie müssen keine sysadmin-Funktionen ausführen, da das Betriebssystem und die unterstützende Infrastruktur vom CSP verwaltet werden. Dies wird in der Regel verwendet, wenn Organisationen sich nicht mit der Darstellung eines Webdiensts befassen möchten und sich stattdessen auf das Erstellen des Webanwendungsquellcodes und das Veröffentlichen der Webanwendung in den von der Cloud verwalteten Webdiensten konzentrieren können.  Ein weiteres Beispiel kann ein Datenbankdienst sein, bei dem eine Verbindung mit einer Datenbank besteht, die unterstützende Infrastruktur und Datenbankanwendung jedoch vom Consumer abstrahiert wird.   **Hinweis: Serverless und PaaS sind ähnlich, sodass für den Zweck der Microsoft 365 Serverless und PasS des Zertifizierungshosting-Bereitstellungstyps gleich sind.**|
+|**Hybrid gehostet**|Mit dem hybrid gehosteten Typ können Sie mehrere gehostete Typen verwenden, um verschiedene Teile der unterstützenden Umgebung zu unterstützen. Dies kann eher der Fall sein, wenn Apps/Add-Ins über mehrere M365-Stapel hinweg verwendet werden. Obwohl die Microsoft 365 Zertifizierung unterstützt, wo Apps/Add-Ons über mehrere M365-Dienste hinweg entwickelt werden, müsste eine Bewertung der gesamten unterstützenden Umgebung (app-/add-ins) in Übereinstimmung mit den entsprechenden "Gehosteten Typzuordnungen" bewertet werden. Gelegentlich können Sie unterschiedliche gehostete Typen für ein einzelnes Add-In verwenden, in dem dies ausgeführt wird. Die Anwendbarkeit von Kriterien muss dennoch den Kriterien "Gehostete Typzuordnungen" für die verschiedenen gehosteten Typen entsprechen.|
 |**Freigegebenes Hosting**|Beim freigegebenen Hosting hosten Sie die Umgebung auf einer Plattform, die von mehreren einzelnen Consumern gemeinsam genutzt wird. Die Microsoft 365 Zertifizierungsspezifikation wurde aufgrund der Einführung der Cloud nicht zur Berücksichtigung geschrieben, freigegebenes Hosting ist nicht üblich. Wenn Sie der Meinung sind, dass dies verwendet wird, wenden Sie sich an Microsoft, da zusätzliche Anforderungen erstellt werden müssen, um die zusätzlichen Risiken unter diesem Hostingtyp zu berücksichtigen.|
 
 
@@ -1042,7 +1043,7 @@ Microsoft bestätigt, dass Sie Anwendungen bereitstellen und App-/Add-In-Code in
 
 ### <a name="euii"></a>EUII
 
-*Informationen zur Identifizierung durch Endbenutzer.*
+*Informationen zur Identifizierung durch Endbenutzer*.
 
 ### <a name="gdpr"></a>DSGVO
 
@@ -1088,11 +1089,11 @@ Das *Onlinezertifikatstatusprotokoll* wird verwendet, um den Sperrstatus digital
 
 ### <a name="oii"></a>OII
 
-*Organisationsbezogenen Informationen.*
+*Organisationsbezogenen Informationen*.
 
 ### <a name="owasp"></a>OWASP
 
-*Öffnen* Sie web Application Security Project .
+*Öffnen Sie die Project webanwendungssicherheit*.
 
 ### <a name="pci-dss"></a>PCI/DSS
 

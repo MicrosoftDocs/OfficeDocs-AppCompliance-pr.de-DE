@@ -2,20 +2,21 @@
 title: Benutzerhandbuch
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: ISV-Benutzerhandbuch für Microsoft 365 App Compliance-Programm
 keywords: ISV-Benutzerhandbuch für Microsoft 365 App Compliance-Programm
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 2b2b84cec3be5167d67733a89ba13fa411a0e781
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: e76655384acfe0ae65721c11c6f1e789a598bc3e
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61787858"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461508"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Benutzerhandbuch des Partners für Microsoft 365 App Compliance-Programm
 
-|Phase|Titel|
+|Phase|Position|
 |---|---|
 |Phase 1| Herausgebernachweis|
 |Phase 2| Microsoft 365-Zertifizierung|
@@ -35,23 +36,23 @@ Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die im Mic
 
 ## <a name="3---publisher-attestation-workflow"></a>3. Publisher Nachweisworkflow
 
-**Startseite:** Dies ist die Zielseite, sobald sich ein Partner beim Partner Center anmeldet.
+**Startseite** : Dies ist die Zielseite, sobald sich ein Partner beim Partner Center anmeldet.
 
-**Schritt 1:** Wählen Sie Marketplace-Angebote aus. 
+**Schritt 1** : Wählen Sie Marketplace-Angebote aus. 
 
 ![Commercial Marketplace im Partner Center](../media/NewPChomepage.png)
   
-**Schritt 2:** Nachdem Sie "Marketplace-Angebote" ausgewählt haben, wechseln Sie zu "Office Store". Wählen Sie eine App aus der Liste aus, um den Publisher Nachweisprozess zu starten.
+**Schritt 2**: Nachdem Sie "Marketplace-Angebote" ausgewählt haben, wechseln Sie zu "Office Store". Wählen Sie eine App aus der Liste aus, um mit dem Publisher Nachweisprozess zu beginnen.
 
 ![Auswählen einer App im commercial Marketplace](../media/NewPCoffersComm.png)
 
 Beim Auswählen einer App wird eine weitere Navigationsleiste mit der Option "Zusätzliche Zertifizierungsinformationen" angezeigt, und klicken Sie dann auf "App-Compliance".
   
-**Schritt 3:** Wählen Sie "App-Compliance" aus.
+**Schritt 3**: Wählen Sie "App-Compliance" aus.
 
 ![Auswählen der App-Kompatibilität](../media/PCappcompliance3.png)
 
-**Schritt 4:** Ausfüllen des Selbstbewertungsfragebogens für Publisher Nachweis
+**Schritt 4**: Ausfüllen des Selbstbewertungsfragebogens für Publisher Nachweis
 
 ![Herausgebernachweis](../media/UserGuidePhotos/5.5.png)
 
@@ -63,7 +64,7 @@ Sie können auch das feature Import/Export verwenden, um das Formular offline au
 
 ![Import Export Feature](../media/UserGuidePhotos/06.png)
 
-**Schritt 5:** Wenn Sie abgeschlossen sind, klicken Sie auf "Übermitteln", die Bewertung wird jetzt "Überprüft" angezeigt.
+**Schritt 5**: Klicken Sie nach Abschluss auf "Übermitteln", die Bewertung wird jetzt "Überprüft" angezeigt.
 
 ![Klicken Sie auf "Sumbit".](../media/UserGuidePhotos/07.png)
 
@@ -105,8 +106,8 @@ Ein Partner kann den Zertifizierungsprozess starten, indem er das Kontrollkästc
 
 **Schritt 1:** Ursprüngliche Dokumentübermittlung Füllen Sie alle Details aus, laden Sie relevante Dokumente hoch, und klicken Sie auf "Übermitteln".
 
-![](../media/UserGuidePhotos/14.png)
- ![ Anfängliche Übermittlung 2](../media/UserGuidePhotos/15.png)
+![Initial SubmissionInitial](../media/UserGuidePhotos/14.png)
+![ Submission 2](../media/UserGuidePhotos/15.png)
 
 Wenn Sie auf "Absenden" klicken, wird die Übermittlung des Nachweises überprüft. 
 
@@ -120,9 +121,9 @@ Nachdem der Analyst die ursprüngliche Dokumentübermittlung genehmigt hat, muss
 
 **Schritt 2:** Anforderungsübermittlung steuern: Füllen Sie alle Details aus, laden Sie relevante Dokumente hoch, und klicken Sie auf "Übermitteln". 
 
-![Vollständige Kontrollanforderungen ](../media/UserGuidePhotos/18.png)
- ![ Hochladen Die ](../media/UserGuidePhotos/19.png)
- ![ Nachweissicherungs-Kontrollanforderungen sind erfüllt](../media/UserGuidePhotos/20.png)
+![Vollständige Kontrollanforderungen](../media/UserGuidePhotos/18.png)
+![ Hochladen Nachweissicherungsanforderungen](../media/UserGuidePhotos/19.png)
+![ sind erfüllt](../media/UserGuidePhotos/20.png)
 
 Wenn Sie auf "Absenden" klicken, wird die Zertifizierungsübermittlung überprüft. 
 
@@ -130,9 +131,9 @@ Wenn Sie auf "Absenden" klicken, wird die Zertifizierungsübermittlung überprü
 
 Ein Analyst fordert eine Überarbeitung für den Fall an, dass die Kontrollanforderungsdokumente nicht ausreichend oder relevant sind. Der Analyst arbeitet mit dem Partner zusammen, um die richtigen Dokumente zur Genehmigung zu erhalten. 
 
-![Nachweis muss aktualisiert ](../media/UserGuidePhotos/22.png)
- ![ werden. Verstehen Sie, welche Nachweise aktualisiert werden ](../media/UserGuidePhotos/23.png)
- ![ müssen.](../media/UserGuidePhotos/24.png)
+![Der Nachweis muss aktualisiert](../media/UserGuidePhotos/22.png)
+![ werden. Der Nachweis muss aktualisiert](../media/UserGuidePhotos/23.png)
+![ werden.](../media/UserGuidePhotos/24.png)
 
 Falls die Übermittlung die Genehmigungsstandards nicht erfüllt, lehnt der Analyst die Übermittlung ab. Der Partner kann mit dem Analysten zusammenarbeiten, um die relevanten Informationen und Dokumente bereitzustellen. 
 
@@ -162,11 +163,11 @@ Der Verlängerungsprozess ist im [Partner Center](https://partner.microsoft.com/
 
 Der neue Verlängerungsprozess ist im [Partner Center](https://partner.microsoft.com/dashboard/home) verfügbar, um eine nahtlose Erfahrung zu bieten. Eine Erinnerung zur Verlängerung wird ab 90 Tagen vor dem Ablaufdatum im Partner Center angezeigt. Regelmäßige Erinnerungen werden auch 90, 60 und 30 Tage vor Ablauf per E-Mail gesendet. 
 
-**Schritt 1:** Wählen Sie **"Verlängern"** aus, um den Publisher Nachweis zu verlängern. 
+**Schritt 1**: Wählen Sie **"Verlängern**" aus, um den Publisher Nachweis zu verlängern. 
 
 ![Microsoft 365Publisher Nachweis- und Zertifizierungsverlängerungsworkflow ](../media/UserGuidePhotos/28.png)
 
-**Schritt 2:** Überprüfen Sie die vorherigen Publisher Antworten auf den Nachweis, und aktualisieren Sie nach Bedarf die neuesten Informationen. Übermitteln Sie Publisher Nachweis zur Verlängerung, wenn sie bereit ist. Sie wird von einem Microsoft 365 App-Compliance-Analysten überprüft.
+**Schritt 2**: Überprüfen Sie die vorherigen Publisher Antworten auf den Nachweis, und aktualisieren Sie nach Bedarf die neuesten Informationen. Übermitteln Sie Publisher Nachweis zur Verlängerung, wenn sie bereit ist. Sie wird von einem Microsoft 365 App-Compliance-Analysten überprüft.
 
 ![Aktualisieren des Publisher Attestation](../media/UserGuidePhotos/29.png)
 
@@ -174,11 +175,11 @@ Der neue Verlängerungsprozess ist im [Partner Center](https://partner.microsoft
 
 ![Publisher Nachweis erneuert](../media/UserGuidePhotos/30.png)
 
-**Publisher Nachweis abgelaufen:** Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die Seite Publisher Nachweis der App in den Microsoft-Dokumenten zu verwalten. Eine rechtzeitige Verlängerung stellt außerdem eine fortlaufende Bereinigung und Symbole für die App in AppSource, Teams Store, Office Store und anderen Storefronts sicher.
+**Publisher Nachweis abgelaufen:** Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die Seite Publisher Nachweis der App in den Microsoft-Dokumenten beizubehalten. Eine rechtzeitige Verlängerung stellt außerdem eine fortlaufende Bereinigung und Symbole für die App in AppSource, Teams Store, Office Store und anderen Storefronts sicher.
 
-![Publisher Nachweis ist abgelaufen](../media/UserGuidePhotos/31.png)
+![Publisher Nachweis abgelaufen](../media/UserGuidePhotos/31.png)
 
-Hinweis: Nach Ablauf des Vorgangs kann Publisher Verlängerungsnachweis jederzeit durch Klicken auf "Verlängern" gestartet werden. 
+Hinweis: Nach Ablauf des Vorgangs kann Publisher Verlängerungsvorgang für den Nachweis jederzeit durch Klicken auf "Verlängern" gestartet werden. 
 
 **Phase 2: Microsoft 365 Zertifizierungsverlängerung** 
 
@@ -219,5 +220,5 @@ Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die
 
 ![Zertifizierungsverlängerung abgelaufen](../media/UserGuidePhotos/36.png)
     
-**Hinweis:** Nach Ablauf des Vorgangs kann Publisher Nachweis- und Zertifizierungsprozess jederzeit durch Klicken auf "Verlängern" gestartet werden. 
+**Hinweis**: Nach Ablauf kann Publisher Nachweis- und Zertifizierungsprozess jederzeit durch Klicken auf "Verlängern" gestartet werden. 
 

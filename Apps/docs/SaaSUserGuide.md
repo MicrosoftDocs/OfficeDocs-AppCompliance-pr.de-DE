@@ -2,20 +2,21 @@
 title: Benutzerhandbuch für SaaS-Apps
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: ISV-Benutzerhandbuch für Microsoft 365 App Compliance Program SaaS
 keywords: ISV-Benutzerhandbuch für Microsoft 365 App Compliance Program SaaS
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5f12c95e413ab069b1f8849a09be50251660fbb1
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: e59d02bf364d13363ef1b9b5f82917213781af0b
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60545837"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461848"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Benutzerhandbuch des Partners für Microsoft 365 App Compliance-Programm – SaaS
 
-|Phase|Titel|
+|Phase|Position|
 |---|---|
 |Phase 1| Herausgebernachweis|
 |Phase 2| Microsoft 365-Zertifizierung|
@@ -34,27 +35,27 @@ Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die für M
 
 ## <a name="3-publisher-attestation-workflow"></a>3. Publisher Nachweisworkflow
 
-**Startseite:** Dies ist die Zielseite, sobald sich ein Partner beim Partner Center anmeldet.
+**Startseite**: Dies ist die Zielseite, sobald sich ein Partner beim Partner Center anmeldet.
 
   
-**Schritt 1:** Auswählen von Marketplace-Angeboten
+**Schritt 1** : Auswählen von Marketplace-Angeboten
 
 ![Commercial Marketplace im Partner Center](../media/NewPChomepage.png)
 
   
-**Schritt 2:** Nachdem Sie "Marketplace-Angebote" ausgewählt haben, wechseln Sie zu "Commercial Marketplace".
+**Schritt 2**: Nachdem Sie "Marketplace-Angebote" ausgewählt haben, wechseln Sie zu "Commercial Marketplace".
 
 ![Auswählen einer App im commercial Marketplace](../media/NewPCOffersOffice.png)
 
 Wählen Sie eine App aus der Liste aus, und eine andere Navigationsleiste wird mit der Option "App-Kompatibilität" angezeigt.
   
-**Schritt 3:** Wählen Sie "App-Compliance" aus.
+**Schritt 3**: Wählen Sie "App-Compliance" aus.
   
 ![App-Compliance im Commercial Marketplace](../media/PCappcompliance3.png)
   
-**Schritt 4:** Füllen Sie den Fragebogen zur Selbstbewertung für Publisher Nachweis aus.
+**Schritt 4**: Füllen Sie den Selbstbewertungsfragebogen für Publisher Attestation aus.
 
-![Vollständige Publisher Nachweis](../media/UserGuidePhotos/5.5.png)
+![Abschließen des Herausgebernachweises](../media/UserGuidePhotos/5.5.png)
   
 **HINWEIS Wenn Sie zurückkehren, um Ihre Anwendung zu aktualisieren/erneut zu übermitteln, klicken Sie auf dropdown für "Produkt auswählen", wählen Sie die App aus, und klicken Sie auf "Klonen".**
 
@@ -64,9 +65,9 @@ Wählen Sie eine App aus der Liste aus, und eine andere Navigationsleiste wird m
 
 ![Import Export Feature](../media/UserGuidePhotos/06.png)
  
-**Schritt 5:** Wenn Sie abgeschlossen sind, klicken Sie auf "Absenden", die Bewertung wird jetzt "Überprüft" angezeigt.
+**Schritt 5**: Klicken Sie nach Abschluss auf "Übermitteln", die Bewertung wird jetzt "Überprüft" angezeigt.
  
- ![Übermitteln Publisher Bestätigung der ](../media/UserGuidePhotos/07.png) ![ Übermittlung](../media/UserGuidePhotos/08.png)
+ ![Übermitteln Publisher](../media/UserGuidePhotos/07.png) ![Bestätigung der Übermittlung](../media/UserGuidePhotos/08.png)
   
 **Genehmigen/Ablehnen von Szenarien:**
   
@@ -78,10 +79,10 @@ A. Publisher Ablehnung des Nachweiss
         
 ![Publisher Nachweis abgelehnt](../media/UserGuidePhotos/09.png)
 
-B.  Publisher Nachweisgenehmigung
+B.  Publisher Attestation Approval
 - Nach genehmigung kann der Partner:
      - Aktualisieren und erneutes Übermitteln des Attests
-     - Abgeschlossene Publisher Nachweis anzeigen
+     - Abgeschlossene Publisher Attestation anzeigen
      - Starten des Microsoft 365 Zertifizierungsprozesses
         
  ![Publisher Nachweis abgeschlossen](../media/UserGuidePhotos/10.png)       
@@ -96,14 +97,14 @@ B.  Publisher Nachweisgenehmigung
   
 Ein Partner kann den Zertifizierungsprozess starten, indem er das Kontrollkästchen aktiviert und auf "Absenden" klickt.
   
-![Starten Microsoft 365 Zertifizierung](../media/UserGuidePhotos/13.png) 
+![Zertifizierung Microsoft 365 starten](../media/UserGuidePhotos/13.png) 
   
-**Schritt 1:** Ursprüngliche Dokumentübermittlung
+**Schritt 1** : Ursprüngliche Dokumentübermittlung
 
 Füllen Sie alle Details aus, laden Sie relevante Dokumente hoch, und klicken Sie auf "Übermitteln".
   
-![Ursprüngliche ](../media/UserGuidePhotos/14.png) 
- ![ Dokumentübermittlung– Übermittlung der ersten Dokumentübermittlung](../media/UserGuidePhotos/15.png)
+![Ursprüngliche DokumentübermittlungSubmit](../media/UserGuidePhotos/14.png) 
+![ der ersten Dokumentübermittlung](../media/UserGuidePhotos/15.png)
   
 Wenn Sie auf "Absenden" klicken, wird die ursprüngliche Dokumentübermittlung überprüft.
 
@@ -115,13 +116,13 @@ Ein Analyst fordert eine Überarbeitung für den Fall an, dass die ersten Dokume
 
 Nachdem der Analyst die ursprüngliche Dokumentübermittlung genehmigt hat, muss der Partner die Steuerungsanforderungen übermitteln.
   
-**Schritt 2:** Steuern der Anforderungsübermittlung
+**Schritt 2**: Steuern der Anforderungsübermittlung
   
 Füllen Sie alle Details aus, laden Sie relevante Dokumente hoch, und klicken Sie auf "Absenden".
 
 ![Anforderungen an die vollständige Steuerung](../media/UserGuidePhotos/18.png)
   
-![Hochladen Steuerungsanforderungen](../media/UserGuidePhotos/19.png)
+![Hochladen-Steuerelementanforderungen](../media/UserGuidePhotos/19.png)
 
 ![Kontrollanforderungen erfüllt](../media/UserGuidePhotos/20.png)
  
@@ -137,7 +138,7 @@ Ein Analyst fordert eine Überarbeitung für den Fall an, dass die Kontrollanfor
   
 ![Überprüfung in Bearbeitung](../media/UserGuidePhotos/24.png) 
  
-Falls die Übermittlung die Genehmigungsstandards nicht erfüllt, wird der Analyst die Übermittlung ablehnen.
+Falls die Übermittlung die Genehmigungsstandards nicht erfüllt, lehnt der Analyst die Übermittlung ab.
   
 Der Partner kann mit dem Analysten zusammenarbeiten, um die relevanten Informationen und Dokumente bereitzustellen.
 
@@ -155,7 +156,7 @@ Sobald alle Sicherheitsstandards erfüllt sind, genehmigt der Analyst die Überm
   
 **Microsoft 365Publisher Nachweis- und Zertifizierungsverlängerungsworkflow:**  
 
-Microsoft 365 Das App Compliance-Programm bietet jetzt einen jährlichen Verlängerungsprozess. Während dieses Vorgangs können App-Entwickler ihren vorhandenen Publisher Attestation-Fragebogen und dokumente aktualisieren, die für Microsoft 365 Zertifizierung erforderlich sind. 
+Microsoft 365 App Compliance-Programm bietet jetzt einen jährlichen Verlängerungsprozess. Während dieses Vorgangs können App-Entwickler ihren vorhandenen Publisher Attestation-Fragebogen und dokumente aktualisieren, die für Microsoft 365 Zertifizierung erforderlich sind. 
  
 **Vorteile:** 
 
@@ -169,27 +170,27 @@ Der neue Verlängerungsprozess ist im [Partner Center](https://partner.microsoft
   
 Die Publisher Attestation-Antworten der App müssen jährlich erneut übermittelt werden. Wenn sich der Nachweis der 1-Jahres-Marke nähert, wird eine E-Mail-Erinnerung gesendet, die zu einer erneuten Übermittlung des Nachweises auffordert. 
  
-**Schritt 1:** Wählen Sie **"Verlängern"** aus, um den Publisher Nachweis zu verlängern.
+**Schritt 1**: Wählen Sie **"Verlängern**" aus, um den Publisher Nachweis zu verlängern.
   
 ![Renewel genehmigt](../media/UserGuidePhotos/31.png)
   
-**Schritt 2:** Überprüfen Sie die vorherigen Publisher Antworten auf den Nachweis, und aktualisieren Sie nach Bedarf die neuesten Informationen. 
+**Schritt 2**: Überprüfen Sie die vorherigen Publisher Antworten auf den Nachweis, und aktualisieren Sie nach Bedarf die neuesten Informationen. 
   
 Übermitteln Sie Publisher Nachweis zur Verlängerung, wenn sie bereit ist. Sie wird von einem M365 App Compliance-Analysten überprüft.
 
 ![Verlängern bis zum Nachweis](../media/UserGuidePhotos/29.png)
   
-**Publisher Attestation Renewal Approved:**
+**Publisher Verlängerung des Nachweiss genehmigt:**
   
 ![Zur Verlängerung übermitteln](../media/UserGuidePhotos/30.png)
   
-**Publisher Nachweis abgelaufen:**
+**Publisher Nachweis ist abgelaufen:**
   
-Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die Seite Publisher Nachweis der App in den Microsoft-Dokumenten zu verwalten. Eine rechtzeitige Verlängerung stellt außerdem eine fortlaufende Bereinigung und Symbole für die App in verschiedenen Storefronts sicher. 
+Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die Seite Publisher Nachweis der App in den Microsoft-Dokumenten zu verwalten. Eine rechtzeitige Verlängerung sorgt außerdem für eine fortlaufende Bereinigung und Symbole für die App in verschiedenen Storefronts. 
  
 ![Renewel genehmigt](../media/UserGuidePhotos/31.png)
 
-**Hinweis:** Nach Ablauf des Vorgangs kann Publisher Verlängerungsvorgang für den Nachweis jederzeit durch Klicken auf "Verlängern" gestartet werden.
+**Hinweis**: Nach Ablauf des Vorgangs kann Publisher Verlängerungsnachweis jederzeit durch Klicken auf "Verlängern" gestartet werden.
  
 **Phase 2: Microsoft 365 Zertifizierungsverlängerung**
   
@@ -226,4 +227,4 @@ Die Informationen der App müssen vor dem Ablaufdatum verlängert werden, um die
 
 ![Zertifizierungserneuerungsgenehmigung](../media/UserGuidePhotos/36.png)
   
-Hinweis: Nach Ablauf kann Publisher Nachweis- und Zertifizierungsprozess jederzeit durch Klicken auf "Verlängern" gestartet werden. 
+Hinweis: Nach Ablauf des Vorgangs kann Publisher Nachweis- und Zertifizierungsprozess jederzeit durch Klicken auf "Verlängern" gestartet werden. 

@@ -1,19 +1,20 @@
 ---
-title: Publisher Häufig gestellte Fragen zum Nachweis
+title: häufig gestellte Fragen zum Publisher Nachweis
 author: LGerrard
 ms.author: Legerrar
-description: Publisher Häufig gestellte Fragen zum Nachweis
+manager: tonybal
+description: häufig gestellte Fragen zum Publisher Nachweis
 keywords: App-Nachweiszertifizierung 365 Fragebogen appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 44898296bede4b34837ee18726164a636cc05824aa1710f273a4cc822b448953
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: ee18e15e802b87f069ebe8390931a52e497813e0
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54747695"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461758"
 ---
-# <a name="publisher-attestation-faq"></a>Publisher Häufig gestellte Fragen zum Nachweis
+# <a name="publisher-attestation-faq"></a>häufig gestellte Fragen zum Publisher Nachweis
 
 |Frage                                       |Erweiterte Definition                          |
 |----------------------------------------       |---------------------------------------------|
@@ -21,26 +22,26 @@ ms.locfileid: "54747695"
 |Was ist die Unternehmenswebsite-URL?   |Die URL zu einer Startseite für das Unternehmen oder die Anwendung|
 |Was ist die URL für die Infoseite der App? |Die URL zu einer Seite mit weiteren Informationen zur Anwendung. Wo kann der Benutzer weitere Informationen über die Anwendung erfahren? Wenn Sie diese Seite nicht haben, markieren Sie "N/A". |
 |App-Kategorie? |Klassifizierung der App gemäß dem Feld, zu dem sie gehört |
-|Wie würden Sie die Kerndienste Ihrer Apps in 500 Zeichen oder weniger beschreiben?|Beschreiben Sie die App in maximal 500 Zeichen, einschließlich aller Integrationen in der App-Familie. Bsp. Wenn Sie über eine Teams und eine Outlook Integration verfügen, geben Sie keine spezifische Beschreibung der Teams-App, sondern eine Beschreibung, die für beide Apps gilt. Dies sollte eine sehr allgemeine Beschreibung und keine Workload-spezifisch sein, wenn das Unternehmen über mehr als eine Integration für eine beliebige Plattform verfügt. Slack, Outlook, Teams, Web App, Mobile App. |
+|Wie würden Sie die Kerndienste Ihrer Apps in 500 Zeichen oder weniger beschreiben?|Beschreiben Sie die App in maximal 500 Zeichen, einschließlich aller Integrationen in der App-Familie. Bsp. Wenn Sie über eine Teams und eine Outlook Integration verfügen, geben Sie keine spezifische Beschreibung der Teams-App, sondern geben Sie stattdessen eine Beschreibung, die für beide Apps gilt. Dies sollte eine sehr allgemeine Beschreibung und keine Workload-spezifisch sein, wenn das Unternehmen über mehr als eine Integration für eine beliebige Plattform verfügt. Slack, Outlook, Teams, Web App, Mobile App. |
 |Welches Land ist das Unternehmen des Entwicklers?|Dies ist erforderlich, da es sich auf die Praktiken und Vorschriften für die Datenverarbeitung für verschiedene Länder/Regionen bezieht. |
 |Welches Jahr wurde Ihr Unternehmen gründen?|Wenn Sie nicht integriert sind, markieren Sie dies als "N/A".|
 |Welche eindeutigen Domänen werden von der App verwendet?|Die Identifikationszeichenfolge des Anbieters, die den Bereich der administrativen Eigenständigkeit, Autorität oder Kontrolle im Internet definiert. Die Antwort sollte Webadressen enthalten. Bei mehreren Teilen trennen Sie sich bitte durch ein Komma.|
 |Welche URL wird für die Anmeldung verwendet?|Geben Sie eine Anmeldeseite an, die ggf. die URL eines Popouts enthalten kann. Eine eindeutige URL, unter der sich ein Abonnent bei der Anwendung anmelden kann. Wenn Sie dies nicht haben, markieren Sie "N/A".|
 |Wie lautet der Name des Hosting-Clouddienstanbieters?|Beispiele: Microsoft Azure, Amazon AWS, Google... Dies kann auch eindeutige Lösungen für Ihr Unternehmen umfassen. |
-|Verwendet die App Microsoft Graph Berechtigungen? |Azure AD weist Ihrer App eine eindeutige Anwendungs- oder Client-ID zu. Das Portal öffnet die Übersichtsseite Ihrer Anwendung. Um Ihrer Anwendung Funktionen hinzuzufügen, können Sie andere Konfigurationsoptionen auswählen, z. B. Branding, Zertifikate und Geheimnisse, API-Berechtigungen und vieles mehr. Link zur Seite.|
+|Verwendet die App Microsoft Graph Berechtigungen? |Azure AD Ihrer App eine eindeutige Anwendungs- oder Client-ID zuweist. Das Portal öffnet die Übersichtsseite Ihrer Anwendung. Um Ihrer Anwendung Funktionen hinzuzufügen, können Sie andere Konfigurationsoptionen auswählen, z. B. Branding, Zertifikate und Geheimnisse, API-Berechtigungen und vieles mehr. Link zur Seite.|
 |Microsoft Graph-Berechtigung|Hier ist die Liste der zulässigen Berechtigungen. https://docs.microsoft.com/graph/permissions-reference#directory-permissions |
-|Welche Azure-Anwendungs-IDs werden von dieser App verwendet?|Azure AD weist Ihrer App eine eindeutige Anwendungs- oder Client-ID zu. Das Portal öffnet die https://portal.azure.com/ Übersichtsseite Ihrer Anwendung. Um Ihrer Anwendung Funktionen hinzuzufügen, können Sie andere Konfigurationsoptionen auswählen, z. B. Branding, Zertifikate und Geheimnisse, API-Berechtigungen und vieles mehr. |
+|Welche Azure-Anwendungs-IDs werden von dieser App verwendet?|Azure AD Ihrer App eine eindeutige Anwendungs- oder Client-ID zuweist. Das Portal https://portal.azure.com/ öffnet die Übersichtsseite Ihrer Anwendung. Um Ihrer Anwendung Funktionen hinzuzufügen, können Sie andere Konfigurationsoptionen auswählen, z. B. Branding, Zertifikate und Geheimnisse, API-Berechtigungen und vieles mehr. |
 |Was ist der Berechtigungstyp?|"Delegierte Berechtigungen werden von Apps verwendet, bei denen ein angemeldeter Benutzer vorhanden ist. Bei diesen Apps stimmt der Benutzer oder ein Administrator den von der App angeforderten Berechtigungen zu, und die App kann als angemeldeter Benutzer agieren, wenn sie Aufrufe an Microsoft Graph sendet. Einigen delegierten Berechtigungen kann von Benutzern zugestimmt werden, die kein Administrator sind, aber einige höhere Rechte erfordern Administratorzustimmung.                                Anwendungsberechtigungen werden von Apps verwendet, die keinen angemeldeten Benutzer erfordern, z. B. Apps, die als Hintergrunddienste oder Daemons ausgeführt werden. Für Anwendungsberechtigungen ist immer die Einwilligung eines Administrators erforderlich.                                                                           https://docs.microsoft.com/graph/auth/auth-concepts#microsoft-graph-permissions"|
-|Welche Daten werden gesammelt oder verwendet?  Fügen Sie eine Begründung für die Erfassung oder Verwendung der Daten hinzu.|Beispiele finden Sie auf unserer Dokumentationsseite, https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps klicken Sie auf eine App, klicken Sie auf "Datenverarbeitung". Beispiele für andere Begründungen werden angezeigt. |
+|Welche Daten werden gesammelt oder verwendet?  Fügen Sie eine Begründung für die Erfassung oder Verwendung der Daten hinzu.|Beispiele finden Sie auf unserer Dokumentationsseite, https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-appsklicken Sie auf eine App, klicken Sie auf "Datenverarbeitung". Beispiele für andere Begründungen werden angezeigt. |
 |Welche Daten speichert die App in ihren Datenbanken?  Fügen Sie eine Begründung für das Speichern von Daten hinzu, einschließlich Szenarien und Beispielen, falls zutreffend. |Ist dies ein Nachweis für eine Teams-App mit einer Bot-Funktion?https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots|
 |Kann der Bot auf personenbezogene Informationen (PII) zugreifen?|Personenbezogene Informationen sind alle Daten, die verwendet werden können, um eine bestimmte Person zu identifizieren. Bsp. Name, E-Mail-Adresse.|
-|Fügen Sie eine Begründung für den Zugriff auf personenbezogene Informationen hinzu.|Beispiele finden Sie auf unserer Dokumentationsseite, https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps klicken Sie auf eine App, klicken Sie auf "Datenverarbeitung", und Sie können Beispiele für andere Begründungen für den Datenzugriff über Bots anzeigen.|
+|Fügen Sie eine Begründung für den Zugriff auf personenbezogene Informationen hinzu.|Beispiele finden Sie auf unserer Dokumentationsseite, https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-appsklicken Sie auf eine App, klicken Sie auf "Datenverarbeitung", und Sie können Beispiele für andere Begründungen für den Datenzugriff über Bots anzeigen.|
 |Welche personenbezogenen Informationen werden gespeichert?|Personenbezogene Informationen (PII) sind alle Daten, die verwendet werden können, um eine bestimmte Person zu identifizieren. Bsp. Name, E-Mail-Adresse.|
 |Fügen Sie eine Begründung für das Speichern von personenbezogenen Informationen hinzu.|Warum müssen personenbezogene Informationen gespeichert werden? |
 |Listen Sie alle organisationsbezogenen Informationen (OII) auf, die die App über diese APIs sammelt. |OII sind alle Daten, die verwendet werden können, um eine Organisation/einen Mandanten zu identifizieren. Bsp. Mandanten-ID oder IP-Adresse, Mandantennutzungsdaten, Mandantendomänenname in E-Mail-Adresse (joe@contoso.com).|
 |Welche Arten von OII speichert die App?|Organiaztional identifiable information (OII) is any data that can be used to identify an organization/tenant. Bsp. Mandanten-ID oder IP-Adresse, Mandantennutzungsdaten, Mandantendomänenname in E-Mail-Adresse (joe@contoso.com).|
 |Fügen Sie eine Begründung für das Speichern von OII hinzu.|Warum müssen Organisationsinformationen gespeichert werden? |
-|Übertragen oder teilen Sie Endbenutzer-Informationen (EUII) oder OII mit nicht-Microsoft-Dienste?|EUII sind alle Daten, die zur Identifizierung von Kundendaten verwendet werden können. Bsp. Benutzername oder ID des Mitarbeiters, Standortinformationen einer Person, benutzerspezifische IP-Adresse. |
+|Übertragen oder teilen Sie endbenutzerbezogene Informationen (EUII) oder OII mit nicht Microsoft-Dienste?|EUII sind alle Daten, die zur Identifizierung von Kundendaten verwendet werden können. Bsp. Benutzername oder ID des Mitarbeiters, Standortinformationen einer Person, benutzerspezifische IP-Adresse. |
 |Listet alle Nicht-Microsoft-Dienste auf, an die Sie OII übertragen.|Bsp. Google Cloud, AWS|
 |Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können?|Bsp. Verschlüsselung, 2FA|
 |Können Benutzer Daten innerhalb der App klassifizieren? |Bsp. Restricted, Confidential, Interal, Public |
@@ -51,12 +52,12 @@ ms.locfileid: "54747695"
 |Datenüberwachungsprotokolle in der App|Der Datenüberwachungspfad enthält Aktivitäten von Änderungen in Datenbanken, z. B. wann ein Attribut zuletzt geändert wurde, was der vorherige Wert des Datensatzes war und wer ihn geändert hat usw.|
 |Verfügen Sie über Kennwortrichtlinien für Ihre App? |Bsp. Mindestlänge des Kennworts, Zeichenkombination, Wiederverwendung alter Kennwörter nicht zulässig, Verwendung von persönlichen Informationen (z. B. Name, E-Mail usw.), Erneutes Verlängern von Kennwörtern nach einem bestimmten Zeitraum|
 |Unterstützung des SAML-Standards (Security Assertion Markup Language) für den Austausch der Authentifizierung?|Saml (Security Assertion Markup Language) ist ein offener Standard für den Austausch von Authentifizierungs- und Autorisierungsdaten zwischen Parteien, insbesondere zwischen einem Identitätsanbieter und einem Dienstanbieter.|
-|Führen Sie Penetrationstests durch, um Netzwerkrisiken für Ihre App und die zugehörigen Dienste zu erkennen und zu bewerten?|Penetrationstests, auch als Stifttests bezeichnet, sind die Methoden zum Testen eines Computersystems, netzwerks oder einer Webanwendung, um Sicherheitsrisiken zu finden, die ein Angreifer ausnutzen könnte.|
+|Führen Sie Penetrationstests durch, um Netzwerkrisiken für Ihre App und die zugehörigen Dienste zu erkennen und zu bewerten?|Penetrationstests, auch als Stifttests bezeichnet, werden zum Testen eines Computersystems, netzwerks oder einer Webanwendung verwendet, um Sicherheitsrisiken zu finden, die ein Angreifer ausnutzen könnte.|
 |Entspricht die App der Financial Industry Regulatory Authority (FINRA)? FINRA ist ein Standard, der von einer non-profit-Organisation festgelegt wird, die vom US-Amerikanischen Kongerat autorisiert wurde und die Verbesserung der Sicherheitsmaßnahmen und der Marktintegrität regelt und erzwingt.|Wenn Sie nicht mit Kunden in der Finanzbranche zusammenarbeiten oder sich nicht sicher sind, markieren Sie dies als nicht sicher. |
 |Entspricht die App dem Federal Information Security Management Act (FISMA)? FISMA ist eine US-Amerikanische Richtlinie, die einen umfassenden Rahmen zum Schutz von Informationen, Operationen und Ressourcen von Behörden innerhalb von Bundesbehörden vor Bedrohungen definiert. |FISMA ist eine Verordnung, die sich auf die Sicherheit von Behördendaten bezieht. Wenn Ihre Organisation keine Regierungsvertragsverträge besitzt, markieren Sie dies bitte als nicht n/a. |
 |Entspricht das Unternehmen, das die App erstellt, den GAAP (Generally Accepted Accounting Principals)? GAAP ist eine Sammlung häufig befolgter Buchhaltungsregeln und -standards für die Finanzberichterstattung.|Dies ist sowohl für IN- als auch nicht in den USA ansässigen Unternehmen mit Apps erforderlich, die sich auf Finanzdienstleistungen beziehen oder Dienstleistungen für Finanzinstitute bereitstellen.|
 |Entspricht die App dem Health Insurance Portability and Accounting Act (INTUNEA)? MIT DEN GESETZLICHEN VORSCHRIFTEN (US-Rechtsvorschriften) werden Standards für den Schutz der Vertraulichkeit und Sicherheit von individuell identifizierbaren Gesundheitsinformationen festgelegt.|Dies ist sowohl für IN- als auch nicht in den USA ansässigen Unternehmen mit Apps erforderlich, die sich auf Gesundheitswesen beziehen oder Dienstleistungen für Helthcare-Dienste bereitstellen.|
-|Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? HITRUST CSF ist eine Reihe von Steuerelementen, die die Anforderungen von Vorschriften und Standards für die Informationssicherheit regelt.|Dies ist für Apps erforderlich, die sich auf Gesundheitsdienste beziehen oder Dienstleistungen für Helthcare-Dienste bereitstellen.|
+|Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? HITRUST CSF ist eine Reihe von Steuerelementen, die die Anforderungen von Vorschriften und Standards für die Informationssicherheit regelt.|Dies ist für Apps erforderlich, die sich auf Dienstleistungen im Gesundheitswesen beziehen oder Dienste für Helthcare-Dienste bereitstellen.|
 |Entspricht die App dem International Standard on Assurance Engagements (ISAE 3402)? ISAE 3402 ist der globale Standard, der zusichert, dass eine Dienstorganisation über geeignete Kontrollen verfügt.|Dies ist für Organisationen erforderlich, die Dienstleistungen für andere Organisationen bereitstellen, z. B. Asset Manager, Webdienste, SaaS-Anbieter (Software as a Service), IaaS-Anbieter (Infrastructure As A Service), PaaS-Anbieter (Platform As A Service) und Anbieter von Rechenzentren (Service).|
 |Entspricht die App der International Traffic in Arms Regulation (ITAR)? ITAR sind Vorschriften, die den Export und Import von Verteidigungsartikeln und -diensten in der US-Munitionsliste steuern.|Dies ist sowohl für IN- als auch nicht in den USA ansässigen Unternehmen mit Apps erforderlich, die Dienste für die US DOD bereitstellen.|
 |Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? Berichterstattung über Steuerelemente in einer Dienstorganisation, die für die interne Kontrolle der Benutzereinheiten über die Finanzberichterstattung relevant sind.| Dies ist sowohl für IN- als auch nicht in den USA ansässigen Unternehmen mit Apps erforderlich, die sich auf Finanzdienstleistungen beziehen oder Dienstleistungen für Finanzinstitute bereitstellen.|
@@ -85,9 +86,9 @@ ms.locfileid: "54747695"
 |Entspricht die App dem Digial Copyright Act (DMCA)? DMCA unterminiert jeden Versuch, unrechtmäßig auf urheberrechtlich geschütztes Material zuzugreifen.|DMCA unterminiert die Produktion und Verbreitung von Technologien, Geräten oder Diensten, mit denen Maßnahmen umgangen werden sollen, die den Zugriff auf urheberrechtlich geschützte Arbeiten kontrollieren.|
 |Wählen Sie die App-Richtlinie für die Aufbewahrung von Benutzerdaten nach der Beendigung des Kontos aus.|DSGVO – Datenaufbewahrungsrichtlinie|
 
-## <a name="learn-more"></a>Mehr erfahren
+## <a name="learn-more"></a>Weitere Informationen
 
-* [Microsoft 365 Übersicht über das App-Complianceprogramm](~/overview.md)  
-* [Abschließen Publisher Überprüfung](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
+* [Übersicht über das Microsoft 365 App Compliance-Programm](~/overview.md)  
+* [Abschließen der Herausgeberüberprüfung](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
 * [Was ist Publisher Nachweis?](~/docs/enterprise-app-attestation-guide.md)  
-* [Abschließen Microsoft 365 Zertifizierung](~/docs/certification.md)
+* [Durchführen einer Microsoft 365-Zertifizierung](~/docs/certification.md)
