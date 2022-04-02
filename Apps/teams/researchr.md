@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für researcHR, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d9190b5c268a2ff73f204e3c81015532b1b3e4df
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: ec1149c58d7c7b5c77243af43b529fa6434e5520
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63543423"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463598"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -35,7 +35,7 @@ Informationen, die von KBE&#26666;&#24335;&#20250;&#31038; an Microsoft bereitge
 |:----------------|:-------------|
 | App-Name | researcHR |
 | ID | WA200002557 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | KBE&#26666;&#24335;&#20250;&#31038; |
 | Website des Unternehmens | [https://app.researchr.work/corporate](https://app.researchr.work/corporate) |
 | Nutzungsbedingungen der App | [https://app.researchr.work/tos](https://app.researchr.work/tos) |
@@ -161,13 +161,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | Anwendung | Wir verwenden diesen Bereich, um es unserem Bot zu ermöglichen, einen neuen Kanal auf dem Teams-Client zu erstellen. Siehe: https://docs.microsoft.com/en-us/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Directory.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Group.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/en-us/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| Team.ReadBasic.All | Anwendung | Wir verwenden diesen Bereich, um die Mitglieder des Teams abzurufen, damit Benutzer ihre Teammitglieder auf unserer Website sehen können. Siehe: https://docs.microsoft.com/en-us/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.Read.All | Anwendung | Wir verwenden diesen Bereich, um die verbundenen Kanäle des Benutzers abzurufen, damit die Benutzer ihre beigetretenen Teams auf unserer Website sehen können. Siehe: https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| User.ReadBasic.All | Delegiert | Wir verwenden diesen Bereich, um die OAuth-Anmeldung zu aktivieren und die AAD-ID, das Zugriffstoken und das Aktualisierungstoken des Benutzers zu erfassen. Siehe: https://docs.microsoft.com/en-us/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
->| offline_access | Delegiert | Wir verwenden diesen Bereich, um das Aktualisierungstoken abzurufen, damit das Zugriffstoken der authentifizierten Benutzer ohne Benutzerinteraktionen aktualisiert werden kann. Siehe: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Channel.Create | Anwendung | Wir verwenden diesen Bereich, um es unserem Bot zu ermöglichen, einen neuen Kanal auf dem Teams-Client zu erstellen. Siehe: https://docs.microsoft.com/graph/api/channel-post | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Directory.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Group.Read.All | Anwendung | Wir verwenden diesen Bereich, um die Kanal-IDs und Namen abzurufen, um diese Daten auf unserer Website anzuzeigen. Siehe: https://docs.microsoft.com/graph/api/channel-list | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Team.ReadBasic.All | Anwendung | Wir verwenden diesen Bereich, um die Mitglieder des Teams abzurufen, damit Benutzer ihre Teammitglieder auf unserer Website sehen können. Siehe: https://docs.microsoft.com/graph/api/group-list-members | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.Read.All | Anwendung | Wir verwenden diesen Bereich, um die verbundenen Kanäle des Benutzers abzurufen, damit die Benutzer ihre beigetretenen Teams auf unserer Website sehen können. Siehe: https://docs.microsoft.com/graph/api/user-list-joinedteams | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.ReadBasic.All | Delegiert | Wir verwenden diesen Bereich, um die OAuth-Anmeldung zu aktivieren und die AAD-ID, das Zugriffstoken und das Aktualisierungstoken des Benutzers zu erfassen. Siehe: https://docs.microsoft.com/graph/auth-v2-user | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| offline_access | Delegiert | Wir verwenden diesen Bereich, um das Aktualisierungstoken abzurufen, damit das Zugriffstoken der authentifizierten Benutzer ohne Benutzerinteraktionen aktualisiert werden kann. Siehe: https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

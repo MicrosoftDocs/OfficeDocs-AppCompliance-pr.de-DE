@@ -2,18 +2,19 @@
 ms.author: oromalle
 title: Microsoft 365-Zertifizierung – Leitfaden für die ursprüngliche Dokumentübermittlung
 author: orionomalley
-description: detaillierte Ansicht des Microsoft 365-Zertifizierungsübermittlungshandbuchs
-keywords: App-Zertifizierungsteams Microsoft 365 M365-Erstübermittlung von Dokumenten zur Sicherheitscompliance
+manager: tonybal
+description: detaillierte Ansicht der Microsoft 365-Zertifizierungsübermittlungsanleitung
+keywords: App-Zertifizierungsteams Microsoft 365 der ersten Übermittlung von M365-Dokumenten zur Sicherheitscompliance
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 0f879ce6b02fb469b0210500e4706d468ccb4011
-ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
+ms.openlocfilehash: 66afcbd482ee1269ce21e2af6fdeea5026b294ee
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61261677"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463278"
 ---
-# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification – Leitfaden für die ursprüngliche Dokumentübermittlung
+# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification – Leitfaden für die anfängliche Dokumentübermittlung
 
 Die anfängliche Dokumentübermittlung ist Teil der Phase vor der Bewertung der Zertifizierung. Anhand der bereitgestellten Informationen erhalten Zertifizierungsanalysten den Hintergrund, der erforderlich ist, um zu ermitteln, welche Steuerelemente und Systemkomponenten für Ihre Bewertung im Umfang sind. Dieses Dokument dient nur als Beispiel für das, was von Ihrer anfänglichen Dokumentübermittlung erwartet wird. Die von Ihnen bereitgestellte Dokumentation hängt davon ab, wie Ihre Lösung erstellt, implementiert und verwaltet wird.
 
@@ -95,7 +96,7 @@ Ausführliche Informationen zu allen öffentlichen IP-Adressen und URLs, die von
 
 ## <a name="resource-endpoints"></a>Ressourcenendpunkte
 
-API-Name Endpunktadresse Contoso Customer API    https://customerapi.contoso.com Contoso Bot Service Contoso Files https://bot.contoso.com API   https://filesapi.contoso.com
+API-Name Endpunktadresse Contoso Customer API    https://customerapi.contoso.com Contoso Bot Service https://bot.contoso.com Contoso Files API   https://filesapi.contoso.com
 
 Eine vollständige Liste aller API-Endpunkte, die von Ihrer App verwendet werden, einschließlich intern entwickelter und externer Ressourcenendpunkte. Um den Umgebungsbereich besser verstehen zu können, stellen Sie API-Endpunktspeicherorte in Ihrer Umgebung bereit.
 
