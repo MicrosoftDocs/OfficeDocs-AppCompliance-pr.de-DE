@@ -1,19 +1,19 @@
 ---
-title: Informationen zur Azure-App-ID für affadfb6-f17b-428f-97f9-9aae3b6175bc
+title: Azure-App ID-Informationen für affadfb6-f17b-428f-97f9-9aae3b6175bc
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/25/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für affadfb6-f17b-428f-97f9-9aae3b6175bc.
-ms.openlocfilehash: afde3a9624d2bbc522d59505e6dd7d08407d8b28
-ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
+ms.openlocfilehash: 6223a22b50b0f16a2191971bc72f45c0851f4342
+ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64461518"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64597264"
 ---
 # <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>Azure-App-ID: affadfb6-f17b-428f-97f9-9aae3b6175bc
 

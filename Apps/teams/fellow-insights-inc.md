@@ -3,24 +3,24 @@ title: Application Information for Fellow by Fellow Insights Inc
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/16/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für "Fellow", seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d1860bcfddfdc3de17b409014ff6a1a68cdf6286
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 0beb3f9d0e428650da4c7c9abbeeca87b75704c4
+ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63552884"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64598034"
 ---
 # <a name="fellow"></a>Fellow
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: May 21, 2021</p>
+<p>Last updated by the developer on: March 30, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/f6671df0-1909-428c-91f7-1c42df04d3e4" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002576" target="_blank">Ansicht in AppSource</a>
@@ -39,11 +39,11 @@ Informationen, die von "Fellow Insights Inc" an Microsoft bereitgestellt werden:
 | Name des Partnerunternehmens | Fellow Insights Inc |
 | Website des Unternehmens | [https://fellow.app](https://fellow.app) |
 | Nutzungsbedingungen der App | [https://fellow.app/terms-of-use/](https://fellow.app/terms-of-use/) |
-| Kernfunktionen der App | Wo Sich Teams treffen, um Besprechungskalender für die Zusammenarbeit zu erstellen und sich gegenseitig rechenschaftsfähig zu halten |
+| Kernfunktionen der App | Hier treffen sich Teams, um produktive Teambesprechungen und sinnvolle 1:1-Sitzungen durchzuführen, Besprechungs-Agenden für die Zusammenarbeit zu erstellen, Entscheidungen zu erfassen und sich gegenseitig rechenschaftsfähig zu halten. |
 | Firmenstandort | Kanada |
-| Seite "App-Informationen" | |
-| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
-| Welche Hosting-Cloudanbieter verwendet die App? | AWS |
+| Seite "App-Informationen" | [https://fellow.app/integrations/microsoft-teams/](https://fellow.app/integrations/microsoft-teams/) |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
+| Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,8 +57,17 @@ Diese Informationen wurden von Kollegen Insights Inc. bereitgestellt, wie diese 
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
+| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Unterstützt die App TLS 1.1 oder höher? | Ja |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofildaten (Name, E-Mail, Avatar usw.), Kalenderdaten (Kalenderliste, Ereignisse, Teilnehmer usw.), Teams-Daten (Teamnamen, Teammitgliedschaften).. |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Kanada |
+| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
+| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Ja |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,23 +81,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
-| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? |  |
-| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? |  |
-| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? |  |
-| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? |  |
-| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? |  |
-| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? |  |
-| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? |  |
-| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? |  |
-| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? |  |
-| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? |  |
-| Mehrstufige Authentifizierung (MFA) aktiviert für: |  |
-| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? |  |
-| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
-| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
-| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? |  |
+| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? | ApplicationControls, TraditionalAntiMalware |
+| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? | Ja |
+| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? | Ja |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? | Ja |
+| Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nein |
+| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? | Ja |
+| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? | Ja |
+| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Ja |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
+| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
+| Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
+| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
 | Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
 | Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
 
@@ -105,11 +114,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Ja |
-| Welche SOC 2-Zertifizierung haben Sie erreicht? |   |
-| Letztes SOC2-Zertifizierungsdatum |  2020-10-01 |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? |  Typ1 |
+| Letztes SOC2-Zertifizierungsdatum |  2022-02-28 |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
 | Letztes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Ja |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
@@ -118,7 +127,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
 | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? |  |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -129,16 +138,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? |  |
-| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
-| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? |  |
-| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? |  |
-| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? |  |
-| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? |  |
-| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? |  |
-| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? |  |
-| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
-| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
+| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Ja |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? | Ja |
+| URL der Datenschutzrichtlinie | https://fellow.app/privacy-policy/ |
+| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
+| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? | Nein |
+| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
+| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
+| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Ja |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Ja |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -150,27 +160,27 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | Nein |
 | Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Unterstützt Ihre App continuous Access Evaluation (CAE) |  |
-| Speichert Ihre App Anmeldeinformationen im Code? |  |
+| Unterstützt Ihre App continuous Access Evaluation (CAE) | Nein |
+| Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Beide | Mitmenschen stellen eine Verbindung mit den Kalendern des Benutzers her, um ihnen die Möglichkeit zu bieten, Notizen zu den Daten zu machen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Channel.ReadBasic.All | Delegiert | Wir erfassen die Namen von Kanälen, bei denen ein Benutzer Mitglied ist, um eine Liste der Kanäle anzuzeigen, an die er Notizen senden kann. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Directory.Read.All | Anwendung | Diese Daten werden nur gesammelt, wenn eine Administratorinstallation für die gesamte Organisation erfolgt. Wir verwenden die Verzeichnisdaten, um eine Liste von Benutzern zu synchronisieren und Automatisch Konten bereitzustellen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Group.Read.All | Anwendung | Diese Daten werden nur gesammelt, wenn eine Administratorinstallation für die gesamte Organisation erfolgt. Wir verwenden die Verzeichnisdaten, um eine Liste von Benutzern zu synchronisieren und Automatisch Konten bereitzustellen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| People.Read | Delegiert | Die Kontakte des Benutzers werden in bestimmten Kontaktanzeigenamen und E-Mail-Adressen gesammelt. Dies wird in Fellow verwendet, um eine Liste der Benutzer bereitzustellen, die zur Einladung zu einer Notiz/zum Freigeben einer Notiz einladen können. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| People.Read.All | Anwendung | Diese Daten werden nur gesammelt, wenn eine Administratorinstallation für die gesamte Organisation erfolgt. Die Kontakte des Benutzers werden in bestimmten Kontaktanzeigenamen und E-Mail-Adressen gesammelt. Dies wird in Fellow verwendet, um eine Liste der Benutzer bereitzustellen, die zur Einladung zu einer Notiz/zum Freigeben einer Notiz einladen können. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Team.ReadBasic.All | Delegiert | Eine Liste der Teams, zu der der Benutzer gehört, wird gesammelt. Dies wird innerhalb von Mitmenschen verwendet, um es dem Benutzer zu ermöglichen, Notizen von Einem Anderen an ein Team zu senden. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| User.Read | Delegiert | Grundlegende Benutzerinformationen werden gesammelt. Benutzername, E-Mail, Position. Diese Informationen werden innerhalb von Fellow zum Erstellen von Benutzerkonten und Unternehmenskonten verwendet. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| User.Read.All | Anwendung | Diese Daten werden nur gesammelt, wenn eine Administratorinstallation für die gesamte Organisation erfolgt. Wir verwenden die Verzeichnisdaten, um eine Liste von Benutzern zu synchronisieren und Automatisch Konten bereitzustellen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| offline_access | Delegiert | Das Aktualisierungstoken des Benutzers, um den Zugriff auf Daten aufrechtzuerhalten, die über andere Bereiche gesammelt werden. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Calendars.ReadWrite | Beide | Bei "Mitmenschen" handelt es sich um eine Besprechungsverwaltungs-App. Um effektiv arbeiten zu können, benötigt sie Zugriff auf lese- und schreibgeschützte Kalender des Benutzers. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Channel.ReadBasic.All | Delegiert | Ermöglicht Es Benutzern, Besprechungsnotizen in einem bestimmten Kanal zu posten, der in Komma aufgeführt ist. Beachten Sie, dass wir dadurch nur sehen können, welche Kanäle vorhanden sind. Es bietet nicht die Möglichkeit, Nachrichten zu lesen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Directory.Read.All | Anwendung | (Nur für Anwendungserwilligung) Ermöglicht Es Kollegen, Benutzerverzeichnisinformationen zu synchronisieren, einschließlich aller Benutzer. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Group.Read.All | Anwendung | (Nur für Anwendungserwilligung) Ermöglicht "Komma", Benutzer und Gruppen zu synchronisieren. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| People.Read | Delegiert | Zulassen, dass Benutzer Microsoft Teams Benutzer finden, an die Notizen gesendet werden sollen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| People.Read.All | Anwendung | (Nur für Anwendungserwilligung) Ermöglicht den Zugriff auf Profilinformationen für alle Benutzer. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| Team.ReadBasic.All | Delegiert | Erlauben Sie Kollegen, grundlegende Informationen zu einem Team zu erhalten, um Notizen senden und die Registerkarte "Komma" hinzufügen zu können. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| User.Read | Delegiert | Ermöglichen Sie Benutzern, sich bei "Kollegen" anzumelden und grundlegende Profilinformationen abzurufen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| User.Read.All | Anwendung | (Nur für Anwendungserwilligung) Ermöglicht den Zugriff auf Profilinformationen für alle Benutzer. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>| offline_access | Delegiert | Für die Hintergrundsynchronisierung ist Offlinezugriff&quot; auf Kalenderdaten erforderlich&quot;. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
