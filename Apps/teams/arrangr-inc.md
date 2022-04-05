@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für Arrangr von Arrangr, Inc.
+title: 'Anwendungsinformationen für Arrangr von Arrangr, Inc.'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,14 +7,8 @@ ms.date: 11/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Arrangr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Arrangr, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 01efc28d2ed0fc6c4510124d7a040beff7fe4c4e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63540613"
 ---
 # <a name="arrangr"></a>Arrangr
 
@@ -40,7 +34,7 @@ Von Arrangr, Inc. für Microsoft bereitgestellte Informationen:
 | Website des Unternehmens | [https://arrangr.com](https://arrangr.com) |
 | Nutzungsbedingungen der App | [https://arrangr.com/terms_of_use](https://arrangr.com/terms_of_use) |
 | Kernfunktionen der App | Arrangr ist ein intelligenter integrierter Planer für jede Besprechung. Ob persönlich oder remote, 1:1 oder mit einer Gruppe– Arrangr ist einfach und schnell. Arrangr lässt sich in Microsoft-Kalender integrieren, um Ihre gebuchten Zeiten einfach und schnell zu blockieren, Ihren Zeitplan zu visualisieren und sicherzustellen, dass Ihre Besprechungen in Ihren Kalender eingefügt werden. Darüber hinaus können Sie mit unserer Teams-Integration ganz einfach Einladungen mit Teamkameraden teilen, neue Besprechungen innerhalb Teams initiieren und Ihre Arrangr-Besprechungen auf einer Teams Registerkarte nachverfolgen. |
-| Firmenstandort | Vereinigte Staaten von Amerika |
+| Firmenstandort | USA von Amerika |
 | Seite "App-Informationen" | [https://arrangr.com/welcome](https://arrangr.com/welcome) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | GCP |
@@ -58,16 +52,15 @@ Diese Informationen wurden von Arrangr, Inc. bereitgestellt, wie diese App Organ
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Welche Daten werden von Ihrer App verarbeitet? | Benutzername, E-Mail-Adresse, Kalendernamen, Details zu Kalenderereignissen, Namen und E-Mails von Teamkameraden. |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzername und E-Mail, Namen ihrer Kalender, Kalenderkonferenzlinks, Namen von Teams. |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | USA von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -95,11 +88,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nein |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Nein |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Nein |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -7,16 +7,10 @@ ms.date: 03/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für attender, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für attender, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1e240874d8ce8a1e4ce0b05a5e2883ecbae96983
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63553494"
 ---
-# <a name="attender"></a>Attender
+# <a name="attender"></a>Teilnehmer
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +27,7 @@ Informationen, die von Aros Cloud ApS für Microsoft bereitgestellt werden:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Attender |
+| App-Name | Teilnehmer |
 | ID | WA200003856 |
 | unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Aros Cloud ApS |
@@ -58,7 +52,7 @@ Diese Informationen wurden von Aros Cloud ApS bereitgestellt, wie diese App Orga
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Welche Daten werden von Ihrer App verarbeitet? | Benutzer-UPN-Name, Anzeigename der Benutzer, Anwesenheitsdaten für Schüler/Studenten, Schülerprofilbilder, Lehrer und Schüler/Studenten- und Studentendaten |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzer-UPN-Name, Anzeigename der Benutzer, Anwesenheitsdaten für Schüler/Studenten, Schülerprofilbilder, Lehrer und Schüler/Studenten- und Studentendaten |
@@ -67,7 +61,6 @@ Diese Informationen wurden von Aros Cloud ApS bereitgestellt, wie diese App Orga
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -95,11 +88,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Nein |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -179,7 +172,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >| User.Read | Delegiert | Anmelden | [3741153e-2490-463c-aff7-5283fb1bd1b4](../azure/3741153e-2490-463c-aff7-5283fb1bd1b4.md) |
 >| email | Delegiert | Rufen Sie den Anmeldenamen der Benutzer ab. | [3741153e-2490-463c-aff7-5283fb1bd1b4](../azure/3741153e-2490-463c-aff7-5283fb1bd1b4.md) |
 >| openid | Delegiert | Einmaliges Anmelden | [3741153e-2490-463c-aff7-5283fb1bd1b4](../azure/3741153e-2490-463c-aff7-5283fb1bd1b4.md) |
->| profile | Delegiert | Benutzerinformationen | [3741153e-2490-463c-aff7-5283fb1bd1b4](../azure/3741153e-2490-463c-aff7-5283fb1bd1b4.md) |
+>| Profil | Delegiert | Benutzerinformationen | [3741153e-2490-463c-aff7-5283fb1bd1b4](../azure/3741153e-2490-463c-aff7-5283fb1bd1b4.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

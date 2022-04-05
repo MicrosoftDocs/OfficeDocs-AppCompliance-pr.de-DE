@@ -7,14 +7,8 @@ ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Confluence Cloud, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Confluence Cloud, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0ce3c1464a4933de72d1a69a49432c986f1679cd
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63547463"
 ---
 # <a name="confluence-cloud"></a>Confluence Cloud
 
@@ -39,8 +33,7 @@ Von Atlassian für Microsoft bereitgestellte Informationen:
 | Name des Partnerunternehmens | Atlassian |
 | Website des Unternehmens | [https://www.atlassian.com](https://www.atlassian.com) |
 | Nutzungsbedingungen der App | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
-| Kernfunktionen der App | Nehmen Sie besprechungsnotizen, teilen Sie Seiten, und bleiben Sie mit Confluence Cloud für Teams auf dem neuesten Stand.
- |
+| Kernfunktionen der App | Nehmen Sie besprechungsnotizen, teilen Sie Seiten, und bleiben Sie mit Confluence Cloud für Teams auf dem neuesten Stand.  |
 | Firmenstandort | Australien |
 | Seite "App-Informationen" | |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
@@ -87,11 +80,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? |  |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? |  |
 | Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -168,7 +159,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >| email | Delegiert | - Wir lesen die Liste der Chatmitglieder in einer Besprechung, damit wir die Liste der eingeladenen Personen zur Besprechung kennen.   – Wir lesen die Benutzer&#8217; Namen und E-Mail-Adressen, die wir bedingt in unserer Besprechungs-App anzeigen. Zeigen Sie beispielsweise den Namen des aktuellen Benutzers an, der Besprechungsnotizen nimmt.   – Unsere App liest den Benutzer&#8217;Kalenderereignis, bei dem unsere App zu einer Besprechung hinzugefügt wurde, damit wir grundlegende Informationen über die Besprechung haben, z. B. den Besprechungstitel. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
 >| offline_access | Delegiert | - Wir lesen die Liste der Chatmitglieder in einer Besprechung, damit wir die Liste der eingeladenen Personen zur Besprechung kennen.   – Wir lesen die Benutzer&#8217; Namen und E-Mail-Adressen, die wir bedingt in unserer Besprechungs-App anzeigen. Zeigen Sie beispielsweise den Namen des aktuellen Benutzers an, der Besprechungsnotizen nimmt.   – Unsere App liest den Benutzer&#8217;Kalenderereignis, bei dem unsere App zu einer Besprechung hinzugefügt wurde, damit wir grundlegende Informationen über die Besprechung haben, z. B. den Besprechungstitel. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
 >| openid | Delegiert |  - Wir lesen die Liste der Chatmitglieder in einer Besprechung, damit wir die Liste der eingeladenen Personen zur Besprechung kennen.   – Wir lesen die Benutzer&#8217; Namen und E-Mail-Adressen, die wir bedingt in unserer Besprechungs-App anzeigen. Zeigen Sie beispielsweise den Namen des aktuellen Benutzers an, der Besprechungsnotizen nimmt.   – Unsere App liest den Benutzer&#8217;Kalenderereignis, bei dem unsere App zu einer Besprechung hinzugefügt wurde, damit wir grundlegende Informationen über die Besprechung haben, z. B. den Besprechungstitel. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
->| profile | Delegiert |  - Wir lesen die Liste der Chatmitglieder in einer Besprechung, damit wir die Liste der eingeladenen Personen zur Besprechung kennen.   – Wir lesen die Benutzer&#8217; Namen und E-Mail-Adressen, die wir bedingt in unserer Besprechungs-App anzeigen. Zeigen Sie beispielsweise den Namen des aktuellen Benutzers an, der Besprechungsnotizen nimmt.   – Unsere App liest den Benutzer&#8217;Kalenderereignis, bei dem unsere App zu einer Besprechung hinzugefügt wurde, damit wir grundlegende Informationen über die Besprechung haben, z. B. den Besprechungstitel. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
+>| Profil | Delegiert |  - Wir lesen die Liste der Chatmitglieder in einer Besprechung, damit wir die Liste der eingeladenen Personen zur Besprechung kennen.   – Wir lesen die Benutzer&#8217; Namen und E-Mail-Adressen, die wir bedingt in unserer Besprechungs-App anzeigen. Zeigen Sie beispielsweise den Namen des aktuellen Benutzers an, der Besprechungsnotizen nimmt.   – Unsere App liest den Benutzer&#8217;Kalenderereignis, bei dem unsere App zu einer Besprechung hinzugefügt wurde, damit wir grundlegende Informationen über die Besprechung haben, z. B. den Besprechungstitel. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

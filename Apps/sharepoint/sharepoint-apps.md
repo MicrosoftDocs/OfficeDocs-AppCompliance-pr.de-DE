@@ -3,17 +3,11 @@ title: Sicherheit und Compliance von Microsoft SharePoint Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/23/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft SharePoint-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 887651563cf6fdb420768a623ce9618b9c7b8c78
-ms.sourcegitcommit: 7c03de919310456c10f7cc3685f83d40cac504de
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63778279"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft SharePoint Apps
 
@@ -21,7 +15,7 @@ Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Acrobat Sign für SharePoint](./adobe-inc-acrobat-sign-for-sharepoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Acrobat Sign für Microsoft Office SharePoint Online](./adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ArcGIS für SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
 | [Angebotsverwaltungssystem](./beyond-technologies-bid-management-system.md) | Beyond Technologies | **✓** |  |
 | [Bizagi-Webparts](./bizagi-team-webparts.md) | Bizagi-Team | **✓** |  |
@@ -38,6 +32,7 @@ Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die
 | [Power BI-Zusammenarbeit](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [SharePoint-sapiens Employee Training Management](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
 | [SharePoint-sapiens-Ereignisverwaltung](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
+| [moderne Benutzeroberfläche von SharePoint-sapiens](./sharepointsapiens-modern-user-interface.md) | SharePointSapiens | **✓** |  |
 | [Intelligentere Ereignisbuchung](./smarter-business-solutions-gmbh-event-booking.md) | Smarter Business Solutions GmbH | **✓** |  |
 | [Diskussionsforen für soziale Netzwerke](./lightning-tools-social-squared-discussion-forums.md) | Blitztools | **✓** |  |
 | [Taxonomie](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |

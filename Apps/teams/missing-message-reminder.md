@@ -7,14 +7,8 @@ ms.date: 07/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Nachrichtenerinnerung, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c95ef8bab0d735eb35c89ed1e910428407d1d5eb
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753539"
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für die Nachrichtenerinnerung, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
+zone_pivot_groups: app-info-data-identity
 ---
 # <a name="message-reminder"></a>Nachrichterinnerung
 
@@ -35,7 +29,7 @@ Von &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1
 |:----------------|:-------------|
 | App-Name | Nachrichterinnerung |
 | ID | WA200001875 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; |
 | URL der Partnerwebsite | [https://systemz.io](https://systemz.io) |
 | URL der Seite mit Teams Anwendungsinformationen | [https://systemz.io/product/message-reminder](https://systemz.io/product/message-reminder) |
@@ -54,7 +48,7 @@ Diese Informationen wurden von &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#108
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](/graph/permissions-reference) diese App benötigt.
 
 >Diese Anwendung verwendet microsoft Graph nicht.
 
@@ -89,18 +83,6 @@ Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partne
 Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Nein
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="mcas"
-
-Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
-
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

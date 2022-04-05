@@ -7,14 +7,8 @@ ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für 365Projects, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für 365Projects, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6a55ea670ee4fa1a1aed5c0968d477245e2a5712
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63541343"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -39,8 +33,7 @@ Von 365Apps für Microsoft bereitgestellte Informationen:
 | Name des Partnerunternehmens | 365Apps |
 | Website des Unternehmens | [https://365apps.com.au](https://365apps.com.au) |
 | Nutzungsbedingungen der App | [https://365projects.app/eula](https://365projects.app/eula) |
-| Kernfunktionen der App | Bringen Sie Ihre Projekte &amp; Microsoft Teams zusammen
-Erstellen Project, Verbinden mit einem vorhandenen/neuen Kanal |
+| Kernfunktionen der App | Zusammenführen Ihrer Projekte &amp; Microsoft Teams Erstellen Project, Verbinden mit vorhandenem/neuem Kanal |
 | Firmenstandort | Australien |
 | Seite "App-Informationen" | [https://365projects.app](https://365projects.app) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
@@ -66,7 +59,6 @@ Diese Informationen wurden von 365Apps zur Verfügung gestellt, wie diese App Or
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nicht beibehalten |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -94,11 +86,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Nein |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Nein |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Nein |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

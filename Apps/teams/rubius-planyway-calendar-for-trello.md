@@ -7,14 +7,8 @@ ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Planyway Calendar für Trello, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Planyway Calendar für Trello, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5936b0c382642d1e614803928111e14a38ab1a5e
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753770"
 ---
 # <a name="planyway-calendar-for-trello"></a>Planyway-Kalender für Trello
 
@@ -35,7 +29,7 @@ Informationen, die von Demons an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Planyway-Kalender für Trello |
 | ID | WA200002712 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Rubius |
 | Website des Unternehmens | [https://rubius.com](https://rubius.com) |
 | Nutzungsbedingungen der App | [https://planyway.com/legal/terms-of-use](https://planyway.com/legal/terms-of-use) |
@@ -108,8 +102,24 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | {
-  &quot;&quot;CMP08_complianceSOC_1: &quot;Na&quot; } | | Letztes SOC1-Zertifizierungsdatum |   | | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Keine | | Welche SOC 2-Zertifizierung haben Sie erreicht? | | | Letztes SOC2-Zertifizierungsdatum | | | Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Keine | | Letztes SOC3-Zertifizierungsdatum | | | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Keine | | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Keine | | Entspricht die App der International Organization for Standardization (ISO 27018)? | { &quot;CMP16_complianceISO_27018&quot;: &quot;Na&quot; } | | Entspricht die App der International Organization for Standardization (ISO 27017)? | Keine | | Entspricht die App der International Organization for Standardization (ISO 27002)? | Keine | | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Keine | | Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht-A-| | Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht-A-| | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht-A-| | Entspricht die App NIST 800-171? |  | | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Keine |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Na |
+| Letztes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
+| Letztes SOC2-Zertifizierungsdatum | |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
+| Letztes SOC3-Zertifizierungsdatum | |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Na |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
+| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? |  |
+| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

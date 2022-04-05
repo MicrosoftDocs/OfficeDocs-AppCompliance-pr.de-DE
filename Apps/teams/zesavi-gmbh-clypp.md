@@ -3,24 +3,18 @@ title: Anwendungsinformationen für Clypp von Zesavi GmbH
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/03/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Clypp, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Clypp, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e51dcf98573c2dc259438e8ec8926cc14e55a2eb
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63551844"
 ---
 # <a name="clypp"></a>Clypp
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 17, 2021</p>
+<p>Last updated by the developer on: March 30, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/34ed2c1e-bccf-463d-8fbc-0403e72e89fc" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003621" target="_blank">Ansicht in AppSource</a>
@@ -37,11 +31,11 @@ Von Zesavi GmbH für Microsoft bereitgestellte Informationen:
 | ID | WA200003621 |
 | unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Zesavi GmbH |
-| Website des Unternehmens | [https://zesavi.com](https://zesavi.com) |
-| Nutzungsbedingungen der App | [https://zesavi.com/en/impressum/](https://zesavi.com/en/impressum/) |
-| Kernfunktionen der App | Mit Zesavi können alle Personen in einem Unternehmen kurze Videodokumentationen direkt in ihrem Internetbrowser erstellen und freigeben &amp; . |
+| Website des Unternehmens | [https://getclypp.com](https://getclypp.com) |
+| Nutzungsbedingungen der App | [https://getclypp.com/en/terms-of-use/](https://getclypp.com/en/terms-of-use/) |
+| Kernfunktionen der App | Clypp ermöglicht es allen Benutzern in Ihrem Unternehmen, kurze Videodokumentationen direkt in ihrem Internetbrowser zu erstellen und zu bearbeiten &amp; . |
 | Firmenstandort | Deutschland |
-| Seite "App-Informationen" | |
+| Seite "App-Informationen" | [https://getclypp.com/en/](https://getclypp.com/en/) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Andere |
 
@@ -138,7 +132,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Ja |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? | Ja |
-| URL der Datenschutzrichtlinie | https://zesavi.com/en/datenschutz/ |
+| URL der Datenschutzrichtlinie | https://getclypp.com/en/privacy-policy/ |
 | Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
 | Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? | Nein |
 | Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |

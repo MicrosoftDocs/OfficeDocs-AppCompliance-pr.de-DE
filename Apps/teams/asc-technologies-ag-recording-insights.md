@@ -7,14 +7,8 @@ ms.date: 01/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für ASC Recording Insights, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für ASC Recording Insights, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0fdd446a6508545e412e43fa4efb4ec2091e0bb9
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63548023"
 ---
 # <a name="asc-recording-insights"></a>ASC Recording Insights
 
@@ -58,7 +52,7 @@ Diese Informationen wurden von ASC Technologies AG darüber bereitgestellt, wie 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Welche Daten werden von Ihrer App verarbeitet? | Aufzeichnen Microsoft Teams Anrufe des Kunden |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Wir speichern die GUID der Tenats und der Benutzer in Azure CosmosDB. Wir lösen sie bei Bedarf mitHilfe von Microsoft Graph auf. |
@@ -67,7 +61,6 @@ Diese Informationen wurden von ASC Technologies AG darüber bereitgestellt, wie 
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -95,11 +88,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -185,7 +178,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >| User.Read.All | Anwendung | Vollständiges Profil aller Benutzer lesen | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
 >| User.ReadBasic.All | Delegiert | Grundlegende Profile aller Benutzer lesen | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
 >| openid | Delegiert | Benutzer anmelden | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
->| profile | Delegiert | Grundlegendes Profil der Benutzer anzeigen | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
+>| Profil | Delegiert | Grundlegendes Profil der Benutzer anzeigen | [a22e0150-3615-46aa-b0a7-086c87a9f38d](../azure/a22e0150-3615-46aa-b0a7-086c87a9f38d.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

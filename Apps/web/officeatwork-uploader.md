@@ -6,14 +6,8 @@ ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Uploader, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Uploader, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c42d6784cea1a1ce867c2935b91f30fc3ac2a1f8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59280553"
 ---
 # <a name="uploader"></a>Uploader
 
@@ -29,7 +23,7 @@ ms.locfileid: "59280553"
 
 Von officeatwork an Microsoft bereitgestellte Informationen:
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Uploader |
 | ID | officeatwork-ag.uploader |
@@ -48,15 +42,15 @@ Von officeatwork an Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Office-Mitarbeitern darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Listet alle [Microsoft Graph Berechtigungen auf, die](/graph/permissions-reference) diese App benötigt.
 
 >| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten gesammelt? Begründung für die Erfassung?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | OneDrive: Um Daten im OneDrive des Benutzers lesen und schreiben zu können. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
+>| Files.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | OneDrive: Um Daten in die OneDrive des Benutzers lesen und schreiben zu können. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
 >| Group.ReadWrite.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Zum Lesen und Schreiben von Daten in eine Gruppe. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
->| GroupMember.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online – Unterstützung für Sicherheitsgruppen: zulassen, dass die App Gruppen auflistet, grundlegende Gruppeneigenschaften liest und die Mitgliedschaften aller Gruppen liest, auf die der angemeldete Benutzer Zugriff hat. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
+>| GroupMember.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online – Unterstützung für Sicherheitsgruppen: Die App kann Gruppen auflisten, grundlegende Gruppeneigenschaften lesen und die Mitgliedschaften aller Gruppen lesen, auf die der angemeldete Benutzer Zugriff hat. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
 >| Sites.Read.All | Delegiert | Es werden keine Daten gespeichert. | SharePoint Online: Um das Lesen von Daten in SharePoint Online zu aktivieren, hat der angemeldete Benutzer Zugriff darauf. So aktivieren Sie das Hochladen von Daten in SharePoint Online | f5c9f179-b9a5-4364-8f99-18d203b902ad |
 >| User.Read | Delegiert | Es werden keine Daten gespeichert. | Sing-In: So aktivieren Sie die Officeatwork-App, um die grundlegenden Eigenschaften des Benutzers zu lesen. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
 >| User.Read.All | Delegiert | Es werden keine Daten gespeichert. | Teams: Um herauszufinden, zu welchen Gruppen ein Benutzer gehört. | f5c9f179-b9a5-4364-8f99-18d203b902ad |
@@ -66,7 +60,7 @@ Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Datenzugriff mit anderen Microsoft-APIs
 
-Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Andere Microsoft-APIs als Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
+Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zusätzliche Microsoft-APIs außer Microsoft Graph, um organisationsspezifische Informationen (OII) zu sammeln oder zu verarbeiten. Listen Sie alle anderen Microsoft-APIs als Microsoft auf, Graph diese App verwendet.
 
 >| **API** |  **Wird OII erfasst?** |  **Welche OII wird erfasst?** | **Begründung für die Erfassung von OII?** | **Wird OII gespeichert?** | **Begründung für das Speichern von OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
@@ -76,7 +70,7 @@ Apps und Add-Ins, die auf Microsoft 365 basieren, verwenden möglicherweise zus�
 
 Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->Nicht Microsoft-Dienste werden nicht verwendet.
+>Nicht-Microsoft-Dienste werden nicht verwendet.
 
 
 
@@ -106,7 +100,7 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35750" target="_blank">Ansicht auf einer neuen Registerkarte</a>
 
@@ -120,7 +114,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 Diese Informationen wurden von Officeatwork darüber bereitgestellt, wie diese App Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
-| **Information** | **Antwort** |
+| **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt?  | Ja |
@@ -132,7 +126,7 @@ Diese Informationen wurden von Officeatwork darüber bereitgestellt, wie diese A
 | Unterstützt Ihre App Mehrmandantenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Ja |
 | Besitzen Sie alle Umleitungs-URI (Unified Resource Identifier), die für Ihre App registriert sind? | Ja |
-| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
+| Was vermeiden Sie für Ihre App? | – URIs für Platzhalterumleitung,<br/>– Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
 | Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |

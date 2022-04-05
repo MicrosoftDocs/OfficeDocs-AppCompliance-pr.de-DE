@@ -3,24 +3,18 @@ title: Anwendungsinformationen für Auzzo Interpretation durch Aandao Technologi
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/25/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Ayano Interpretation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Ayano Interpretation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ec5ee0309542ca3a04d61084862b773cb55ce0b0
-ms.sourcegitcommit: c0192e544acac1e5b80a80fca21bf271cbcd0a28
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480607"
 ---
-# <a name="akouo-interpretation"></a>Aosoo Interpretation
+# <a name="akouo-interpretation"></a>Akouo Interpretation
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 8, 2022</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 26. März 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/d863a24b-7cdd-46c9-8309-a15878f4f7bf" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003814" target="_blank">Ansicht in AppSource</a>
@@ -33,14 +27,14 @@ Informationen, die von Aosoo Technologies Inc. an Microsoft bereitgestellt werde
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Aosoo Interpretation |
+| App-Name | Akouo Interpretation |
 | ID | WA200003814 |
-| unterstützte Office 365-Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Aosoo Technologies Inc. |
+| unterstützte Office 365-Clients | Microsoft Teams |
+| Name des Partnerunternehmens | Akouo Technologies Inc. |
 | Website des Unternehmens | [https://akouo.io](https://akouo.io) |
 | Nutzungsbedingungen der App | [https://akouo.io/terms](https://akouo.io/terms) |
 | Kernfunktionen der App | Gestalten Sie Ihre Besprechungen mit gleichzeitiger Interpretation mehrsprachiger. |
-| Firmenstandort | Vereinigte Arabische Emirate (die) |
+| Firmenstandort | Vereinigtes Königreich Großbritannien und Nordirland (die) |
 | Seite "App-Informationen" | [https://akouo.io](https://akouo.io) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
@@ -58,16 +52,15 @@ Diese Informationen wurden von Aandao Technologies Inc. darüber bereitgestellt,
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Welche Daten werden von Ihrer App verarbeitet? | Benutzerprofildaten, Bilder und Audiodaten, die in MS Teams verwendet werden. |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | E-Mail-Adresse des Benutzers. |
 | Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Deutschland |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
+| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -91,15 +84,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
 | Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Ja |
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
-| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, Anmeldeinformationen |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, Credential, DNSManagement |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nein |
+| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Nein|
-| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Nein |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,7 +104,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nein |
+| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
 | Letztes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
 | Welche SOC 2-Zertifizierung haben Sie erreicht? | |
@@ -146,9 +139,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
 | Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
 | Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? | Ja |
-| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Nein |
+| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? | Ja |
 | Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
-| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Nein |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -172,7 +165,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| OnlineMeetings.Read | Delegiert | Wird verwendet, um Besprechungsdetails wie Start-End-Zeit usw. abzurufen. Nur für die Besprechung angefordert. | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
->| offline_access | Anwendung | Wird automatisch vom Single Sign-On-Framework von Microsoft&#8217;benötigt. https://docs.microsoft.com/en-us/graph/permissions-reference#remarks-15  | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
+>| offline_access | Anwendung | Wird automatisch vom Single Sign-On-Framework von Microsoft&#8217;benötigt. https://docs.microsoft.com/graph/permissions-reference#remarks-15  | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
 >| openid | Anwendung | Authentifizieren von Benutzern mit ihrer Microsoft/Azure-Anmeldesitzung | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.

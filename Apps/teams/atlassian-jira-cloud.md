@@ -7,14 +7,8 @@ ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Jira Cloud, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security Informationen zum App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 00db003bebffb2ae33cb768263afb20ebad872f4
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63549013"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -58,16 +52,15 @@ Diese Informationen wurden von Atlassian bereitgestellt, wie diese App Organisat
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Welche Daten werden von Ihrer App verarbeitet? | Benutzerprofildaten, Mandanteninformationen |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Mandanten-ID und Benutzer-ID |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | USA von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nicht beibehalten |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -95,11 +88,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -172,7 +165,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| offline_access | Delegiert | Stellen Sie den Zugriff auf Ressourcen im Namen des Benutzers für einen längeren Zeitraum bereit, um eine optimale Benutzererfahrung sicherzustellen. | [512b84d2-5840-45d6-8d01-5f073836d039](../azure/512b84d2-5840-45d6-8d01-5f073836d039.md) |
 >| openid | Delegiert | Abrufen des Vornamens, des Nachnamens, des bevorzugten Benutzernamens und der Objekt-ID des Benutzers. | [512b84d2-5840-45d6-8d01-5f073836d039](../azure/512b84d2-5840-45d6-8d01-5f073836d039.md) |
->| profile | Delegiert | Abrufen des Vornamens, des Nachnamens, des bevorzugten Benutzernamens und der Objekt-ID des Benutzers. | [512b84d2-5840-45d6-8d01-5f073836d039](../azure/512b84d2-5840-45d6-8d01-5f073836d039.md) |
+>| Profil | Delegiert | Abrufen des Vornamens, des Nachnamens, des bevorzugten Benutzernamens und der Objekt-ID des Benutzers. | [512b84d2-5840-45d6-8d01-5f073836d039](../azure/512b84d2-5840-45d6-8d01-5f073836d039.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

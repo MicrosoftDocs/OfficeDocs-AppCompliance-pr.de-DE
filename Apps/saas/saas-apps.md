@@ -3,17 +3,11 @@ title: Sicherheit und Compliance von SaaS-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/25/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle SaaS-Apps.
 localization_priority: Normal
-ms.openlocfilehash: b5b1f05808de23f5b5985d2188cdf3c9f6777887
-ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64463618"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicherheit und Compliance von SaaS-Apps
 
@@ -23,6 +17,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 |:--------|:------------|:----------------------:|:-------------:|
 | [Admin Center](./officeatwork-admin-center.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Anywhere365 Attendant Console für Microsoft Teams](./workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md) | WORKSTREAMPEOPLE BV | **✓** |  |
+| [Anywhere365 Contact Center für Teams](./workstreampeople-bv-anywhere365-contact-center-for-teams.md) | WORKSTREAMPEOPLE BV | **✓** |  |
 | [Contact Center für Teams](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt. | **✓** |  |
 | [CallCabinet Atmos Compliance Recording and Analytics](./callcabinet-corporation-atmos-compliance-recording-and-analytics.md) | CallCabinet Corporation | **✓** |  |
 | [CC4Teams](./cc4all-cc4teams.md) | CC4ALL | **✓** |  |

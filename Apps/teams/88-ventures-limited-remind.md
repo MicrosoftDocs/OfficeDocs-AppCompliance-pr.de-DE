@@ -3,24 +3,18 @@ title: Application Information for Remind by 88 Ventures Limited
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/27/2021
+ms.date: 03/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Remind, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Remind, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 17592dc196ffc2e17e62af60708c718dc68ee523
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63550684"
 ---
 # <a name="remind"></a>Remind
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 27, 2021</p>
+<p>Zuletzt aktualisiert vom Entwickler am: 28. März 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Anzeigen im Teams Speicher</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001444" target="_blank">Ansicht in AppSource</a>
@@ -35,7 +29,7 @@ Von 88 Limited limited für Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Remind |
 | ID | WA200001444 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365-Clients | Microsoft Teams |
 | Name des Partnerunternehmens | 88 Ventures Limited |
 | Website des Unternehmens | [https://moonbearapps.com](https://moonbearapps.com) |
 | Nutzungsbedingungen der App | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
@@ -43,7 +37,7 @@ Von 88 Limited limited für Microsoft bereitgestellte Informationen:
 | Firmenstandort | Hongkong |
 | Seite "App-Informationen" | [https://teamsreminder.app](https://teamsreminder.app) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
-| Welche Hosting-Cloudanbieter verwendet die App? | Andere |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -60,7 +54,7 @@ Diese Informationen wurden von 88 Limited Limited bereitgestellt, wie diese App 
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzer-GUID und Benutzernamen beim Erinnern anderer Benutzer |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Deutschland |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Niederlande (die) |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nicht beibehalten |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -87,7 +81,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? | Ja |
 | Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? | Ja |
 | Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
-| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Ja |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Nein |
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
@@ -122,10 +116,10 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nein |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nein |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
-| Entspricht die App NIST 800-171? | Nein |
+| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
+| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -169,6 +163,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Directory.Read.All | Delegiert | Wird verwendet, wenn ein Administrator nach Benutzern sucht, um sie Lizenzen zuzuweisen. Die Verwendung dieses Features ist völlig optional und während der normalen App-Verwendung nicht erforderlich. | [88546d4f-9973-4716-98e4-cd181c04bc2d](../azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md) |
+>| People.Read.All | Delegiert | Wird verwendet, wenn ein Benutzer einer Lizenz Benutzer zuweisen möchte | [88546d4f-9973-4716-98e4-cd181c04bc2d](../azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
