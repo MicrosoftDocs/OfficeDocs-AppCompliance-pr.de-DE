@@ -7,8 +7,14 @@ ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Alle verfügbaren Sicherheits- und Complianceinformationen für Ayano Interpretation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.'
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Ayano Interpretation, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: daa18e2cff1ff0a0865ca519dd3a7a49da2dbfca
+ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64602304"
 ---
 # <a name="akouo-interpretation"></a>Akouo Interpretation
 
@@ -52,7 +58,7 @@ Diese Informationen wurden von Aandao Technologies Inc. darüber bereitgestellt,
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Benutzerprofildaten, Bilder und Audiodaten, die in MS Teams verwendet werden. |
+| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | E-Mail-Adresse des Benutzers. |
@@ -61,6 +67,7 @@ Diese Informationen wurden von Aandao Technologies Inc. darüber bereitgestellt,
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 90 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
+| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -88,11 +95,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,7 +172,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| OnlineMeetings.Read | Delegiert | Wird verwendet, um Besprechungsdetails wie Start-End-Zeit usw. abzurufen. Nur für die Besprechung angefordert. | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
->| offline_access | Anwendung | Wird automatisch vom Single Sign-On-Framework von Microsoft&#8217;benötigt. https://docs.microsoft.com/graph/permissions-reference#remarks-15  | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
+>| offline_access | Anwendung | Wird automatisch vom Single Sign-On-Framework von Microsoft&#8217;benötigt. https://docs.microsoft.com/en-us/graph/permissions-reference#remarks-15  | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
 >| openid | Anwendung | Authentifizieren von Benutzern mit ihrer Microsoft/Azure-Anmeldesitzung | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
