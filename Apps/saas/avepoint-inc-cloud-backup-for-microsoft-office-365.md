@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Cloudsicherung für Microsoft Office 365, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a053ad5e60924f5d45fb8b99f91fe87b6dfe844e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: dca13bf8ef2d0ab2147e7457ab617196edae7fd6
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63546563"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64623207"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>Cloudsicherung für Microsoft Office 365
 
@@ -36,8 +36,11 @@ Von AvePoint Inc. für Microsoft bereitgestellte Informationen:
 | Name des Partnerunternehmens | AvePoint Inc. |
 | Website des Unternehmens | [https://www.avepoint.com](https://www.avepoint.com) |
 | Nutzungsbedingungen der App | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Kernfunktionen der App | AvePoint Cloud Backup ist die branchenweit&#8217;umfassendste Cloud-zu-Cloud-Sicherungslösung für Microsoft 365. ersetzen durch
-Unbegrenzte, automatisierte Sicherungen und sicherer Speicher in AvePoint&#8217;Azure-Speicher oder Ihrer eigenen Cloud– Sie entscheiden einfach, wie viel wiederhergestellt werden soll und wann. Bei Bedarf und präzise Wiederherstellung auf Elementebene bietet jederzeit Zugriff auf Ihre geschäftskritischen E-Mails, Dateien, Unterhaltungen, Aufzeichnungen, Projekte, Aufgaben, Gruppen, Teams, Planner und Websites. | | Firmenstandort | Vereinigte Staaten von Amerika | | Seite "App-Informationen" | [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) | | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas | | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
+| Kernfunktionen der App | AvePoint Cloud Backup ist die branchenweit&#8217;umfassendste Cloud-zu-Cloud-Sicherungslösung für Microsoft 365. Mit unbegrenzten, automatisierten Sicherungen und sicherem Speicher in AvePoint&#8217;Azure-Speicher oder Ihrer eigenen Cloud entscheiden Sie nur, wie viel wiederhergestellt werden soll und wann. Bei Bedarf und präzise Wiederherstellung auf Elementebene bietet jederzeit Zugriff auf Ihre geschäftskritischen E-Mails, Dateien, Unterhaltungen, Aufzeichnungen, Projekte, Aufgaben, Gruppen, Teams, Planner und Websites. |
+| Firmenstandort | USA von Amerika |
+| Seite "App-Informationen" | [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) |
+| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
+| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,7 +59,7 @@ Diese Informationen wurden von AvePoint Inc. darüber bereitgestellt, wie diese 
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | SharePoint Website/ODFB-Website/Microsoft 365 Gruppe/Team-ID, Name, URL; |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | USA von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
