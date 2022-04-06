@@ -3,23 +3,23 @@ title: Azure-App ID-Informationen für dae2eacf-3eb5-4440-baff-984fbd5cae68
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/30/2022
+ms.date: 04/02/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für dae2eacf-3eb5-4440-baff-984fbd5cae68.
-ms.openlocfilehash: ad24e2706ae7ab176d1ca45677c25c8d5a35bddf
-ms.sourcegitcommit: 0b61e3c35f05a7f7926b2ccd6049be4fc2a149c9
+description: Alle verfügbaren Informationen zu Sicherheit und Compliance für dae2eacf-3eb5-4440-baff-984fbd5cae68.
+ms.openlocfilehash: 4789bd33db83a1beecea2ed202430473c46c0887
+ms.sourcegitcommit: 1ec89e36ca96efb9704a11b904ab84f4030b3578
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64555248"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64658178"
 ---
-# <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>Azure-App-ID: dae2eacf-3eb5-4440-baff-984fbd5cae68
+# <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>Azure-App ID: dae2eacf-3eb5-4440-baff-984fbd5cae68
 
 
 ### <a name="apps-associated-with-this-id"></a>Apps, die dieser ID zugeordnet sind:
-| **App-Name** | **Zertifiziert** | **Ansicht in AppSource** |
+| **App-Name** | **Zertifiziert** | **Anzeigen in AppSource** |
 |--------------|---------------|-----------------------|
 | [Template Chooser](../forward/officeatwork-ag.template-chooser.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser](https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser) |
 | [Vorlagenauswahlbrowser](../forward/officeatwork-ag.template-chooser-browser.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser-browser](https://appsource.microsoft.com/product/office/officeatwork-ag.template-chooser-browser) |
@@ -27,6 +27,6 @@ ms.locfileid: "64555248"
 | [officeatwork – Vorlagenauswahl für Office](../forward/WA104380050.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA104380050](https://appsource.microsoft.com/product/office/WA104380050) |
 | [officeatwork – Vorlagenauswahl für SharePoint](../forward/WA200001923.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA200001923](https://appsource.microsoft.com/product/office/WA200001923) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 App-Kompatibilitätsstatus
-- Publisher Attestaton Status: Completed
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 App-Compliancestatus
+- Publisher Attestaton-Status: Abgeschlossen
 - Microsoft 365 Zertifizierung: Genehmigt (25.01.2022)
