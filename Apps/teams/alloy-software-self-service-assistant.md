@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Assistenten für die Behandlung von Self-Service, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 43f94e5fc6e97a7a8691089d8fa2b5a1ef498a3c
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: d4a1a93efe1ed21f47fc16eda0c1ba0115448aaf
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63545523"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645896"
 ---
 # <a name="alloy-self-service-assistant"></a>Alloy Self-Service Assistant
 
@@ -40,7 +40,7 @@ Informationen, die von Der Software für Microsoft bereitgestellt werden:
 | Website des Unternehmens | [https://alloysoftware.com](https://alloysoftware.com) |
 | Nutzungsbedingungen der App | [https://www.alloysoftware.com/resources/eula/](https://www.alloysoftware.com/resources/eula/) |
 | Kernfunktionen der App | Erstellen Sie Service Desk-Tickets, durchsuchen Sie die Wissensdatenbank, und genehmigen Sie Anforderungen. |
-| Firmenstandort | Vereinigte Staaten von Amerika |
+| Firmenstandort | USA von Amerika |
 | Seite "App-Informationen" | [https://docs.alloysoftware.com/alloynavigator/2021/docs/int...](https://docs.alloysoftware.com/alloynavigator/2021/docs/integrations/topics/microsoft-teams-bot.htm) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Iaas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
@@ -58,16 +58,15 @@ Diese Informationen wurden von Der Software zur Verfügung gestellt, wie diese A
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| Welche Daten werden von Ihrer App verarbeitet? | E-Mail-Adressen des Benutzers, Kundenmandanten |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Kundenmandanten |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | USA von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 30 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -95,11 +94,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

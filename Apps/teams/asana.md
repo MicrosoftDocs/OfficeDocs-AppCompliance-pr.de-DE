@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Mof, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0efa564d96cce27cd315969fea46d4ce34427cc3
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 0630fc7ab1755cc41d8ac3615519f71c6bcf3dfb
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63545503"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645900"
 ---
 # <a name="asana"></a>Asana
 
@@ -40,7 +40,7 @@ Informationen, die von Ihnen an Microsoft bereitgestellt werden:
 | Website des Unternehmens | [https://asana.com](https://asana.com) |
 | Nutzungsbedingungen der App | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
 | Kernfunktionen der App | Halten Sie die Arbeit im Blick, indem Sie Teams Unterhaltungen in Aktionselemente wie Besprechungen übersetzen. |
-| Firmenstandort | Vereinigte Staaten von Amerika |
+| Firmenstandort | USA von Amerika |
 | Seite "App-Informationen" | [https://asana.com/apps/microsoft](https://asana.com/apps/microsoft) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
@@ -86,11 +86,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

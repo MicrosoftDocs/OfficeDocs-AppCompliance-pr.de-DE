@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für AmTrav Business Travel, seine Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 784a5b98fc56414a8921387d37a56c534348640d
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: c73e4dfa325fd6b4146a8e70cf2b0be3e6ad1227
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63545133"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645899"
 ---
 # <a name="amtrav-business-travel"></a>AmTrav Business Travel
 
@@ -40,7 +40,7 @@ Von AmTrav für Microsoft bereitgestellte Informationen:
 | Website des Unternehmens | [https://www.Amtrav.com](https://www.Amtrav.com) |
 | Nutzungsbedingungen der App | [https://www.amtrav.com/user-agreement](https://www.amtrav.com/user-agreement) |
 | Kernfunktionen der App | Chatanwendung, die Clients mit einem Reiseratgeber verbindet. |
-| Firmenstandort | Vereinigte Staaten von Amerika |
+| Firmenstandort | USA von Amerika |
 | Seite "App-Informationen" | [https://www.amtrav.com/our-story](https://www.amtrav.com/our-story) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | IsvHosted |
 
@@ -85,11 +85,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

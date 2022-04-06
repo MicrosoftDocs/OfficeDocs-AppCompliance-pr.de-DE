@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MyHub, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0620429641e4e7b9669d48ec07af70eafe3accd3
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 483147bf1dbde67aa105e245012cdc3938227e01
+ms.sourcegitcommit: 2c06ca843da2f9359a834b1479d2b9b7eee1f68d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63546823"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64645882"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -40,7 +40,7 @@ Informationen von AvePoint, inc. für Microsoft:
 | Website des Unternehmens | [https://www.avepoint.com](https://www.avepoint.com) |
 | Nutzungsbedingungen der App | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | Kernfunktionen der App | Meet MyHub, a one-stop-shop for requesting new Office 365 workspaces &amp; managing existing ones. MyHub bietet einfach zu verwendende Bereitstellungs-, Rezertifizierungs- und Lifecycle-Dienste, &amp; ohne Ihr IT-Team zu belasten. Benutzer können skalieren, sichere Arbeitsbereiche &amp; automatisieren&amp;, werden benachrichtigt, wenn sie Maßnahmen ergreifen müssen, wodurch es einfacher ist, ihre Aufgabenliste zu vervollständigen. Das sichere &amp; Framework von MyHub&#65533;wird von AvePoint&#65533;Cloud Governance unterstützt. |
-| Firmenstandort | Vereinigte Staaten von Amerika |
+| Firmenstandort | USA von Amerika |
 | Seite "App-Informationen" | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
@@ -60,12 +60,11 @@ Diese Informationen wurden von AvePoint, inc. bereitgestellt, wie diese App Orga
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Websitesammlung/O365-Gruppe/Teams grundlegende Metadaten; Benutzer-ID, E-Mail, Name |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Vereinigte Staaten von Amerika |
+| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | USA von Amerika |
 | Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Ja |
 | Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Weniger als 60 Tage |
 | Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -93,11 +92,11 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
 | Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Ja |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -181,7 +180,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >| email | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 >| offline_access | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 >| openid | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
->| profile | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
+>| Profil | Delegiert | Teams-App SSO | [478c769e-maustaste3-4049-9cfc-302d08a232bf](../azure/478c769e-bab3-4049-9cfc-302d08a232bf.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
