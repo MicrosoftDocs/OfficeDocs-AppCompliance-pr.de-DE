@@ -1,13 +1,19 @@
 ---
-title: Informationen zur Azure-App-ID für "foodbfc71-2cf8-42f0-bcdd-83e5f4acfdcc"
+title: Azure-App ID-Informationen für "foodbfc71-2cf8-42f0-bcdd-83e5f4acfdcc"
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/25/2022
+ms.date: 03/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für die bcbfc71-2cf8-42f0-bcdd-83e5f4acfdcc.
+ms.openlocfilehash: 010b19bd831769e8c5aa3a83dfc09a20d18af1ae
+ms.sourcegitcommit: 64860967a2baa3b08445ad7e186e46ce529efb13
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64530846"
 ---
 # <a name="azure-app-id-fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc"></a>Azure-App-ID: fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc
 
