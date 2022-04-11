@@ -7,12 +7,12 @@ description: Details zur Microsoft 365 Zertifizierungsübermittlung
 keywords: App-Zertifizierungsteams Microsoft 365 Sicherheitscompliance m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 753b40f63b293fea83705ae8124f5f22cbebe394
-ms.sourcegitcommit: 9cc3fe8502a6f21f3f6abb4dd23b99b116c51b8e
+ms.openlocfilehash: 5081e187615400b038795215ad0d5dcc934e1a87
+ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64720979"
+ms.lasthandoff: 04/10/2022
+ms.locfileid: "64751824"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Zertifizierungsübermittlungshandbuch
 
@@ -90,6 +90,7 @@ Die **Bereichsumgebung** ist die Umgebung, die die Bereitstellung des App-/Add-I
 
 ### <a name="infrastructure-as-a-service-iaas-platform-as-a-service-paas-and-software-as-a-service-saas"></a>Infrastructure as a Service (IaaS), Platform as a Service (PaaS) und Software as a Service (SaaS) 
 Wenn IaaS und/oder PaaS verwendet werden, um die Infrastruktur der zu überprüfenden Bereitstellung von Anwendungs- oder Add-In-Code zu unterstützen, ist der Cloudplattformanbieter für einige der während des Zertifizierungsprozesses bewerteten Sicherheitskontrollen verantwortlich. Daher müssen Zertifizierungsanalysten durch externe Complianceberichte wie PCI DSS-Konformitätsnachweis (AOC), ISO27001 oder SOC 2 Typ II eine unabhängige externe Überprüfung der bewährten Sicherheitsmethoden durch den Cloudplattformanbieter erhalten. 
+
 
 Anhang F enthält Details dazu, welche Sicherheitskontrollen wahrscheinlich anwendbar sind, basierend auf den folgenden Bereitstellungstypen und basierend darauf, ob die App/das Add-In M365-Daten exfiltriert oder nicht: 
 * ISV Hosted 
@@ -249,6 +250,7 @@ Wenn Techniken verwendet werden, um die umgebungsbezogenen Umgebungen aus andere
 Penetrationstestberichte werden überprüft, um sicherzustellen, dass keine Sicherheitsrisiken vorhanden sind, die die  **folgendenautomatischen Fehlerkriterien** erfüllen, die in den folgenden Steuerelementen beschrieben sind.
  
 **Anforderungen für Penetrationstests**
+
 
 |**Kriterientyp**|**Penetrationstest-Steuerelemente**|
 | -------------------------|-----------------------------|
