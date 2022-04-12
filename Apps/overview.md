@@ -2,17 +2,18 @@
 title: Microsoft 365 Compliance-Programm
 author: LGerrard
 ms.author: Legerrar
+manager: tonybal
 description: Programmeinführung und -Übersicht
 keywords: Microsoft 365 m365-App Herausgebernachweis-Zertifizierung
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+ms.openlocfilehash: fec13172c98d6ec63b3ba4160eb04c9b345acb8d
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63697067"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784354"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 Compliance-Programm
 
@@ -24,7 +25,7 @@ Unsere Mission: Microsoft-Kunden eine Möglichkeit geben, den Anwendungen, mit d
 
 ## <a name="publisher-verification"></a>Herausgeberüberprüfung
 
-Die [Herausgeberüberprüfung](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview) hilft Administratoren und Anwendern, die Authentizität von App-Entwicklern zu verstehen, die sich in die Microsoft-Identitätsplattform integrieren. Wenn eine App als „vom Herausgeber überprüft“ gekennzeichnet ist, bedeutet dies, dass der Herausgeber seine Identität mithilfe eines Microsoft Partner Network-Kontos überprüft hat, das den Überprüfungsprozess abgeschlossen und dieses MPN-Konto mit seiner Anwendungsregistrierung verknüpft hat.
+Die [Herausgeberüberprüfung](/azure/active-directory/develop/publisher-verification-overview) hilft Administratoren und Anwendern, die Authentizität von App-Entwicklern zu verstehen, die sich in die Microsoft-Identitätsplattform integrieren. Wenn eine App als „vom Herausgeber überprüft“ gekennzeichnet ist, bedeutet dies, dass der Herausgeber seine Identität mithilfe eines Microsoft Partner Network-Kontos überprüft hat, das den Überprüfungsprozess abgeschlossen und dieses MPN-Konto mit seiner Anwendungsregistrierung verknüpft hat.
 Die Herausgeberüberprüfung gilt für Apps, die folgende Bedingungen erfüllen:  
 - Verwenden von OAuth 2.0 und OpenID Connect, um Benutzer anzumelden und den Zugriff auf Daten mithilfe dienstseitiger APIs wie Microsoft Graph anzufordern. 
 - Registriert in Azure AD als Mehrfachmandant.  
@@ -50,6 +51,6 @@ Die Microsoft 365-Zertifizierung gilt für alle Apps, die in die folgenden Micr
 - **Webapps** (SaaS-Apps, die über den kommerziellen Marketplace im Partner Center veröffentlicht werden, befinden sich derzeit in einer privaten Vorschau. Wenn Sie an einer Teilnahme interessiert sind, füllen Sie bitte dieses [Formular](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u) aus.
 
 ### <a name="get-started"></a>Erste Schritte
-- [So schließen Sie die Publisher-Überprüfung ab](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [So schließen Sie die Microsoft 365-Zertifizierung ab](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification)
+- [So schließen Sie die Publisher-Überprüfung ab](/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [So schließen Sie die Microsoft 365-Zertifizierung ab](/microsoft-365-app-certification/docs/certification)
 
