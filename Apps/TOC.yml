@@ -869,6 +869,8 @@
           href: teams/price-monitor.md
         - name: Priority Matrix
           href: teams/appfluence-inc-priority-matrix.md
+        - name: Prozessstraße
+          href: teams/process-street.md
         - name: Proconnect für Sitecore
           href: teams/subramanian-ramanathan-proconnect-for-sitecore.md
         - name: ProdBot
@@ -1091,7 +1093,7 @@
           href: teams/thoughtwire-corp-ews.md
         - name: ti8m-Stellen
           href: teams/tim-ag-ti8m-places.md
-        - name: Ticketing
+        - name: Kartenverkauf
           href: teams/kitameraki-limited-ticketing.md
         - name: Tikit
           href: teams/cireson-tikit.md
@@ -1289,6 +1291,8 @@
           href: saas/officeatwork-content-chooser-browser.md
         - name: Designer
           href: saas/officeatwork-designer.md
+        - name: Einheitliche Synchronanrufaufzeichnung für Microsoft Teams
+          href: saas/dubber-corp-unified-call-recording-for-microsoft-teams.md
         - name: E-Mail-Raffinessen
           href: saas/emailgistics-corp.md
         - name: EmailNotes für Outlook
