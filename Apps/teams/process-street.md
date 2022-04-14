@@ -1,5 +1,5 @@
 ---
-title: Application Information for Fellow von Fellow Insights Inc
+title: Anwendungsinformationen für Process Street by Process Street
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,42 +7,42 @@ ms.date: 04/13/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Fellow, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Process Street, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fbe620884ef1db92f8f6bbb40732d8ede740dd02
+ms.openlocfilehash: bb37e1621b5c67fb374d0b9036cbfb9ae934d888
 ms.sourcegitcommit: 10b79d3f6a6d9d89c3b288789a14eafdfcc42d7a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838784"
+ms.locfileid: "64838808"
 ---
-# <a name="fellow"></a>Fellow
+# <a name="process-street"></a>Prozessstraße
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 12. April 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 4. März 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/f6671df0-1909-428c-91f7-1c42df04d3e4" target="_blank">Anzeigen im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002576" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/6910821c-1244-4a0b-9d64-f0fc396b8e7c" target="_blank">Anzeigen im Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003933" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die Von Fellow Insights Inc. an Microsoft bereitgestellt werden:
+Informationen, die von Process Street an Microsoft bereitgestellt werden:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Fellow |
-| ID | WA200002576 |
+| App-Name | Prozessstraße |
+| ID | WA200003933 |
 | unterstützte Office 365 Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Fellow Insights Inc |
-| Website des Unternehmens | [https://fellow.app](https://fellow.app) |
-| Nutzungsbedingungen der App | [https://fellow.app/terms-of-use/](https://fellow.app/terms-of-use/) |
-| Kernfunktionen der App | Fellow ist der Ort, an dem sich Teams treffen, um produktive Teambesprechungen und aussagekräftige 1:1s zu führen, Tagesordnungen für Besprechungen für die Zusammenarbeit zu erstellen, Entscheidungen aufzuzeichnen und sich gegenseitig rechenschaftspflichtig zu halten. |
-| Hauptsitz des Unternehmens | Kanada |
-| App-Infoseite | [https://fellow.app/integrations/microsoft-teams/](https://fellow.app/integrations/microsoft-teams/) |
-| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Iaas |
+| Name des Partnerunternehmens | Prozessstraße |
+| Website des Unternehmens | [https://www.process.st](https://www.process.st) |
+| Nutzungsbedingungen der App | [https://www.process.st/terms/](https://www.process.st/terms/) |
+| Kernfunktionen der App | Eine moderne Prozessmanagement-Plattform zum Erstellen, Teilen und Automatisieren Ihrer Kernprozesse. |
+| Hauptsitz des Unternehmens | USA Amerikas |
+| App-Infoseite | |
+| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Hybrid |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -53,21 +53,12 @@ Informationen, die Von Fellow Insights Inc. an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Fellow Insights Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Process Street darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Benutzerprofildaten (Name, E-Mail, Avatar usw....), Kalenderdaten (Kalenderliste, Ereignisse, Teilnehmer usw....), Teams Daten (Teamnamen, Teammitgliedschaften), &amp; direkte Kommunikation mit dem @Fellow Bot. |
-| Unterstützt die App TLS 1.1 oder höher? | Ja |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofildaten (Name, E-Mail, Avatar usw....), Kalenderdaten (Kalenderliste, Ereignisse, Teilnehmer usw....), Teams Daten (Teamnamen, Teammitgliedschaften),. |
-| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Kanada |
-| Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Weniger als 30 Tage |
-| Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Ja |
-| Verfügen Sie über Vereinbarungen zur Datenfreigabe mit einem Drittanbieterdienst, für den Sie Microsoft-Kundendaten freigeben? | Ja |
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -81,7 +72,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
-| Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | ApplicationControls, TraditionalAntiMalware |
+| Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | TraditionalAntiMalware, ApplicationControls |
 | Haben Sie einen etablierten Prozess zum Einrücken und Zurverfolgen von Sicherheitsrisiken? | Ja |
 | Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Ja |
 | Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Ja |
@@ -109,23 +100,21 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nein |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
-| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Ja |
-| Welche SOC 2-Zertifizierung haben Sie erreicht? | Typ 1 |
-| Neuestes SOC2-Zertifizierungsdatum | 2022-04-08 |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nein |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
-| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
-| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Nicht zutreffend |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nein |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nein |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
+| Entspricht die App NIST 800-171? | Nein |
 | Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -138,7 +127,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Ja |
-| URL der Datenschutzrichtlinie | https://fellow.app/privacy-policy/ |
+| URL der Datenschutzrichtlinie | https://www.process.st/help/docs/gdpr-statement/ |
 | Führt die App automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
 | Verarbeitet die App Kundendaten zu einem sekundären Zweck, der nicht in der Datenschutzerklärung beschrieben ist (z. B. Marketing, Analysen)? | Nein |
 | Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? | Nein |
@@ -156,29 +145,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Nein |
+| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Nein |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? |  |
 | Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
-
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Beide | Fellow ist eine Besprechungsverwaltungs-App, sodass sie für eine effektive Arbeit Zugriff auf das Lesen und Schreiben in die Kalender des Benutzers benötigt. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Channel.ReadBasic.All | Delegiert | Ermöglicht Benutzern das Posten von Besprechungsnotizen in einem bestimmten Kanal, der in Fellow aufgeführt ist. Beachten Sie, dass wir nur sehen können, welche Kanäle vorhanden sind. Es bietet keine Möglichkeit zum Lesen von Nachrichten. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Directory.Read.All | Anwendung | (Nur für Bewerbungsstipendien) Ermöglicht Fellow die Synchronisierung von Benutzerverzeichnisinformationen, einschließlich aller Benutzer. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Group.Read.All | Anwendung | (Nur für Bewerbungsstipendien) Ermöglicht Fellow die Synchronisierung von Benutzern und Gruppen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| People.Read | Delegiert | Ermöglichen Sie Benutzern, Microsoft Teams Benutzer zu finden, an die Notizen gesendet werden können. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| People.Read.All | Anwendung | (Nur für Bewerbungsstipendien) Ermöglicht den Zugriff auf Profilinformationen für alle Benutzer. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Team.ReadBasic.All | Delegiert | Erlauben Sie Kollegen, grundlegende Informationen zu einem Team zu erhalten, um Notizen senden und die Registerkarte "Fellow" hinzufügen zu können. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| User.Read | Delegiert | Benutzern erlauben, sich bei Fellow anzumelden und grundlegende Profilinformationen abzurufen. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| User.Read.All | Anwendung | (Nur für Bewerbungsstipendien) Ermöglicht den Zugriff auf Profilinformationen für alle Benutzer. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| offline_access | Delegiert | Fellow benötigt &quot;Offlinezugriff&quot; auf Kalenderdaten für die Hintergrundsynchronisierung. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>Diese Anwendung verwendet keine Microsoft Graph.
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
