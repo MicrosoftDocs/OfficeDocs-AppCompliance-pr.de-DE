@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Axis, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 37145512d8f38cdaaa261a3fc1243d71813b370e
-ms.sourcegitcommit: 60344676a860c837b8a727c43d6cec430044c3f4
+ms.openlocfilehash: 002f00abdfdc4aa12bd022be7d903fcd3dbdae12
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64769119"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64867063"
 ---
 # <a name="axis"></a>Achse
 
@@ -35,7 +35,7 @@ Von Axis Workshops Ltd. an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Achse |
 | ID | WA200003932 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Axis Workshops Ltd |
 | Website des Unternehmens | [https://www.getaxis.co](https://www.getaxis.co) |
 | Nutzungsbedingungen der App | [https://www.getaxis.co/security/terms-conditions](https://www.getaxis.co/security/terms-conditions) |
@@ -109,12 +109,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
@@ -155,17 +155,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle in der Checkliste für die Integration von Microsoft Identity Platform aufgeführten bewährten Methoden überprüft und eingehalten? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Nein |
-| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
+| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? | AzureAd als IDP, Auth0 zum Verwalten der Authentifizierung über die bereitgestellte Integration |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
-| Apps und Add-Ins für Microsoft 365 können zusätzliche Microsoft-APIs außerhalb von Microsoft Graph verwenden. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| AppCatalog.Read.All | Delegiert | Um die installierte Anwendung auf dem Clientmandanten abzurufen, um die interne appId zu ermitteln | [12c3ee39-9735-4cca-8006-94650d19f770](../azure/12c3ee39-9735-4cca-8006-94650d19f770.md) |
 >| Directory.Read.All | Delegiert | Zum Abrufen verfügbarer Benutzer innerhalb des Mandanten. | [12c3ee39-9735-4cca-8006-94650d19f770](../azure/12c3ee39-9735-4cca-8006-94650d19f770.md) |

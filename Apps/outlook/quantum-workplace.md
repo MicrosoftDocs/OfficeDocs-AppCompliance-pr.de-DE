@@ -7,41 +7,41 @@ ms.date: 08/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Quantum Workplace, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Quantum Workplace, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 32c49eaeaa71e2c1d3fa589a53712182d6d64c49
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 4abbc35898a445df9f2ad5cf821fa2cffdd34612
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63543143"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64871037"
 ---
-# <a name="quantum-workplace"></a>Quantum Workplace
+# <a name="quantum-workplace"></a>Quantenarbeitsplatz
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 14, 2021</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 14. Juni 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104381747" target="_blank">Ansicht in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381747" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Quantum Workplace für Microsoft bereitgestellte Informationen:
+Informationen, die Von Quantum Workplace an Microsoft bereitgestellt werden:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Quantum Workplace |
+| App-Name | Quantenarbeitsplatz |
 | ID | WA104381747 |
-| unterstützte Office 365-Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher für Mac Outlook im Web |
-| Name des Partnerunternehmens | Quantum Workplace |
+| unterstützte Office 365 Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac, Outlook im Web |
+| Name des Partnerunternehmens | Quantenarbeitsplatz |
 | Website des Unternehmens | [https://www.quantumworkplace.com](https://www.quantumworkplace.com) |
 | Nutzungsbedingungen der App | [https://www.quantumworkplace.com/terms-of-use](https://www.quantumworkplace.com/terms-of-use) |
 | Kernfunktionen der App | Helfen Sie Mitarbeitern, mit Quantum Workplace-Warnungen und -Benachrichtigungen erfolgreich zu sein. |
-| Firmenstandort | Vereinigte Staaten von Amerika |
-| Seite "App-Informationen" | [https://www.quantumworkplace.com/product/employee-engagemen...](https://www.quantumworkplace.com/product/employee-engagement-software) |
-| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? |  |
+| Hauptsitz des Unternehmens | USA Amerikas |
+| App-Infoseite | [https://www.quantumworkplace.com/product/employee-engagemen...](https://www.quantumworkplace.com/product/employee-engagement-software) |
+| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? |  |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -71,25 +71,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
-| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? |  |
-| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? |  |
-| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? |  |
-| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? |  |
+| Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? |  |
+| Haben Sie einen etablierten Prozess zum Einrücken und Zurverfolgen von Sicherheitsrisiken? |  |
+| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? |  |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? |  |
 | Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? |  |
-| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? |  |
-| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? |  |
-| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? |  |
-| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? |  |
-| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? |  |
+| Führen Sie vierteljährliche Überprüfungen von Sicherheitsrisiken in Ihrer App und deren Unterstützung durch? |  |
+| Haben Sie eine Firewall an Der Grenze des externen Netzwerks installiert? |  |
+| Verfügen Sie über einen etablierten Änderungsverwaltungsprozess, der verwendet wird, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? |  |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion gesendet werden? |  |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikenklassen wie OWASP Top 10? |  |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: |  |
-| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? |  |
+| Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
+| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? |  |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
-| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
-| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? |  |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
+| Haben Sie einen formalen Risikomanagementprozess für die Informationssicherheit eingerichtet? |  |
 | Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -100,25 +98,22 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
-| Letztes SOC1-Zertifizierungsdatum |   |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Ja |
-| Welche SOC 2-Zertifizierung haben Sie erreicht? |   |
-| Letztes SOC2-Zertifizierungsdatum |  2021-06-30 |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
-| Letztes SOC3-Zertifizierungsdatum | |
+| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Ja |
+| Neuestes SOC2-Zertifizierungsdatum | 2021-06-30 |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
-| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? |  |
-| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
+| Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -128,16 +123,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? |  |
-| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? |  |
-| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? |  |
-| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? |  |
-| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? |  |
-| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? |  |
-| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? |  |
-| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? |  |
-| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
-| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
+| Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -147,22 +133,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? | false |
-| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
+| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Nein |
+| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | MFA (mehrstufige Authentifizierung) |
-| Unterstützt Ihre App continuous Access Evaluation (CAE) |  |
+| Fordert Ihre App Berechtigungen mit den geringsten Berechtigungen für Ihr Szenario an? | Ja |
+| Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) |  |
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | Anwendung | ChatId wird verwendet. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](../azure/be93046b-63ab-4216-9bcc-78faa55eeaa7.md) |
->| User.Read.All | Anwendung | User.Id (Gespeichert) – wird verwendet, um Benutzer zu korrelieren, die an unseren Bot-Endpunkt gesendet werden; User.UserPrincipalName (nicht gespeichert) – derzeit nicht verwendet; User.Mail (Not Stored) – Wird verwendet, um Benutzer in unserem System mit ihrer AzureAD-ID zuzuordnen, die wir speichern. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](../azure/be93046b-63ab-4216-9bcc-78faa55eeaa7.md) |
+>| User.Read.All | Anwendung | User.Id (Gespeichert) – Wird verwendet, um Benutzer zu korrelieren, die an unseren Bot-Endpunkt gesendet wurden; User.UserPrincipalName (Nicht gespeichert) – derzeit nicht verwendet; User.Mail (Nicht gespeichert) – Wird verwendet, um Benutzer in unserem System mit ihrer gespeicherten AzureAD-ID abzugleichen. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](../azure/be93046b-63ab-4216-9bcc-78faa55eeaa7.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

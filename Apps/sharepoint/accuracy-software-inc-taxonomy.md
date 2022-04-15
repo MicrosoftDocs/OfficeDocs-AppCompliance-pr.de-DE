@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für Taxonomie von Accuracy Software Inc.
+title: Anwendungsinformationen für taxonomie von Accuracy Software Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,41 +7,41 @@ ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Taxonomie, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für taxonomie, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3adb6387e276e8f6a9827262227bb759514eebde
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 2eb238b17167a043b33530bab6827298f64297d2
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63543743"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64870953"
 ---
 # <a name="taxonomy"></a>Taxonomie
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 18. Februar 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 18. Februar 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200003006" target="_blank">Ansicht in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003006" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Accuracy Software Inc. für Microsoft bereitgestellte Informationen:
+Informationen, die von Accuracy Software Inc. an Microsoft bereitgestellt werden:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Taxonomie |
 | ID | WA200003006 |
-| unterstützte Office 365-Clients | SharePoint 2016 oder höher |
+| unterstützte Office 365 Clients | SharePoint 2016 oder höher |
 | Name des Partnerunternehmens | Accuracy Software Inc. |
 | Website des Unternehmens | [https://accuracysoftware.ca](https://accuracysoftware.ca) |
 | Nutzungsbedingungen der App | [https://accuracysoftware.ca/taxonomy-terms-of-service](https://accuracysoftware.ca/taxonomy-terms-of-service) |
-| Kernfunktionen der App | Taxonomie bietet Ihnen eine effektive Möglichkeit, Ihren Dateiklassifizierungsplan zu verwalten, indem sie die Zusammenarbeit der Chatexperten mit den verschiedenen Projektbeteiligten ermöglicht, den Dateiplan für die gesamte Organisation zu erstellen, zu überprüfen und zu veröffentlichen. Darüber hinaus können Sie mit Taxonomie den M365-Aufbewahrungsbezeichnungsexport generieren, den Sie in das Microsoft Compliance Center importieren können, und Ihren Dateiplan in einem Ausdruckssatzformat exportieren, das Sie in den SharePoint Begriff Store importieren können. |
-| Firmenstandort | Kanada |
-| Seite "App-Informationen" | [https://www.accuracysoftware.ca/taxonomy-sharepoint-webpart/](https://www.accuracysoftware.ca/taxonomy-sharepoint-webpart/) |
-| Welche Hostingumgebung oder welches Dienstmodell wird zum Ausführen Ihrer App verwendet? | Paas |
+| Kernfunktionen der App | Taxonomie bietet Ihnen eine effektive Möglichkeit zum Verwalten Ihres Dateiklassifizierungsplans, indem die Zusammenarbeit der Chatexperten mit den verschiedenen Projektbeteiligten ermöglicht wird, um den Dateiplan für die gesamte Organisation zu erstellen, zu überprüfen und zu veröffentlichen. Darüber hinaus können Sie mithilfe der Taxonomie den Export von M365-Aufbewahrungsbezeichnungen generieren, den Sie in das Microsoft Compliance Center importieren können, und Ihren Dateiplan in einem Ausdruckssatzformat exportieren, das Sie in die SharePoint Term Store importieren können. |
+| Hauptsitz des Unternehmens | Kanada |
+| App-Infoseite | [https://www.accuracysoftware.ca/taxonomy-sharepoint-webpart/](https://www.accuracysoftware.ca/taxonomy-sharepoint-webpart/) |
+| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Client SharePoint Mandant |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -59,12 +59,11 @@ Diese Informationen wurden von Accuracy Software Inc. darüber bereitgestellt, w
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Dateiplanklassifizierungsdaten |
-| Wo werden diese Daten geografisch gespeichert, wenn zugrunde liegende Unstruktur Microsoft-Kundendaten verarbeitet oder speichert? | Kanada |
-| Verfügen Sie über einen etablierten Daten- und Entsorgungsprozess? | Nein |
-| Wie lange werden Daten nach der Beendigung des Kontos aufbewahrt? | Nicht beibehalten |
-| Verfügen Sie über einen etablierten Datenzugriffsverwaltungsprozess? | Nein |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterverarbeiter? | Nein |
-| Verfügen Sie über Datenfreigabevereinbarungen mit Einem Drittanbieterdienst, mit dem Sie Microsoft-Kundendaten teilen? |  |
+| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Kanada |
+| Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Nein |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Nicht beibehalten |
+| Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Nein |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -78,25 +77,24 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Nein |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Nein |
-| Verwendet Ihre Umgebung herkömmliche Anti-Malware-Schutz- oder Anwendungssteuerelemente? | ApplicationControls |
-| Verfügen Sie über einen etablierten Prozess für die Einrückung und Risikobewertung von Sicherheitsrisiken? | Ja |
-| Verfügen Sie über eine Richtlinie, die Ihren Service Level Agreement (SLA) für das Anwenden von Patches regelt? | Nein |
-| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchrichtlinien-SLAs aus? | Nein |
+| Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | ApplicationControls |
+| Haben Sie einen etablierten Prozess zum Einrücken und Zurverfolgen von Sicherheitsrisiken? | Ja |
+| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Nein |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Nein |
 | Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nein |
-| Führen Sie vierteljährliche Sicherheitsrisikoüberprüfungen für Ihre App und die Struktur durch, die sie unterstützt? | Nein |
-| Haben Sie eine Firewall an Der Grenze für das externe Netzwerk installiert? | Nein |
-| Haben Sie einen eingerichteten Change Management-Prozess verwendet, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Nein |
-| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Nein |
-| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikoklassen wie OWASP Top 10? | Nein |
+| Führen Sie vierteljährliche Überprüfungen von Sicherheitsrisiken in Ihrer App und deren Unterstützung durch? | Nein |
+| Haben Sie eine Firewall an Der Grenze des externen Netzwerks installiert? | Nein |
+| Verfügen Sie über einen etablierten Änderungsverwaltungsprozess, der verwendet wird, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Nein |
+| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion gesendet werden? | Nein |
+| Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikenklassen wie OWASP Top 10? | Nein |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | NoneOfTheAbove |
-| Verfügen Sie über einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Nein |
-| Haben Sie Software zur Erkennung und Verhinderung von Eindringversuchen (Intrusion Detection and Prevention, IDPS) am Umkreis der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Nicht zutreffend |
+| Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Nein |
+| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja|
-| Wenn ein Sicherheitsereignis erkannt wird, werden Warnungen automatisch zur Triage an einen Mitarbeiter gesendet? | Nein |
-| Haben Sie einen formalen Informationssicherheits-Risikomanagementprozess eingerichtet? | Nein |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie App- oder Dienstdatenverstöße innerhalb von 72 Stunden nach der Erkennung an Aufsichtsbehörden und Einzelpersonen, die von der Verletzung betroffen sind?| |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? | Nein |
+| Haben Sie einen formalen Risikomanagementprozess für die Informationssicherheit eingerichtet? | Nein |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,25 +105,21 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Kontrollen der Serviceorganisation (SOC 1)? | Nicht zutreffend |
-| Letztes SOC1-Zertifizierungsdatum |   |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 2)? | Nein |
-| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
-| Letztes SOC2-Zertifizierungsdatum | |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 3)? | Nein |
-| Letztes SOC3-Zertifizierungsdatum | |
+| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
-| Ist die App FedRAMP (Federal Risk and Authorization Management Program) konform? | Nein |
-| Entspricht die App dem FERPA (Family Educational Rights and Privacy Act)? | Nicht zutreffend |
-| Entspricht die App dem Children's Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
 | Entspricht die App NIST 800-171? | Nicht zutreffend |
-| Wurde die App von der Cloud Security Alliance (CSA Star) zertifiziert? | Nein |
+| Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -135,16 +129,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Haben Sie die DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -verpflichtungen (z. B. CCPA)? | Nein |
-| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigaben und gespeichert werden? | Nein |
-| Führt die App eine automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
-| Verarbeitet die App Kundendaten für einen sekundären Zweck, der nicht in der Datenschutzerklärung (d. h. Marketing, Analyse) beschrieben ist? | Nein |
-| Verarbeiten Sie besondere Kategorien vertraulicher Daten (z. B. ethnische Herkunft, politische Meinung, religiöse oder religiöse Überzeugungen, genetischen oder biometrischen Daten, Gesundheitsdaten) oder Kategorien von Daten, die gegen Benachrichtigungsgesetze verstoßen? | Nein |
-| Erfasst oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
-| Verfügt die App über Funktionen zum Löschen der personenbezogenen Daten einer Person auf Anfrage? |  |
-| Verfügt die App über Funktionen zum Einschränken oder Einschränken der Verarbeitung personenbezogener Daten einer Person auf Anfrage? |  |
-| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
-| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
+| Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,16 +139,16 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Ist Ihre Anwendung in die Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
-| Haben Sie alle anwendbaren bewährten Methoden, die in der Checkliste für die Microsoft Identity Platform Integration beschrieben sind, überprüft und befolgt? | Nein |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft-Authentifizierungsbibliothek) oder Microsoft Identity Web für die Authentifizierung? |  |
-| Welche Authentifizierungsbibliotheken werden von Ihrer App verwendet, wenn sie keine der oben genannten Bibliotheken verwendet? |  |
+| Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
+| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Nein |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? |  |
+| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Unterstützt Ihre App continuous Access Evaluation (CAE) | Nein |
+| Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Ja |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
->Diese Anwendung verwendet microsoft Graph nicht.
+>Diese Anwendung verwendet keine Microsoft Graph.
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

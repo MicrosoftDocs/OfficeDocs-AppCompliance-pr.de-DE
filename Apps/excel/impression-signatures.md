@@ -1,5 +1,5 @@
 ---
-title: Impression Signatures Overview
+title: Anwendungsinformationen für Impression signaturen nach Impression Signaturen
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Impression Signaturen, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a73081d68782829e2b4f91901f2315c7d0d7e380
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: e6104557c9c1294fac7d830697f766a3b0e0d8f5
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784215"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64871041"
 ---
-# <a name="impression-signatures-overview"></a>Impression Signatures Overview
+# <a name="impression-signatures"></a>Impressionsignaturen
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -85,11 +85,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
 | Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? |  |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
 | Haben Sie einen formalen Risikomanagementprozess für die Informationssicherheit eingerichtet? |  |
 | Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie Verletzungen von App- oder Dienstdaten innerhalb von 72 Stunden nach Erkennung an Aufsichtsbehörden und personen, die von der Verletzung betroffen sind?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,23 +97,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | N/V |
-| Neuestes SOC1-Zertifizierungsdatum |   |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Ja |
-| Welche SOC 2-Zertifizierung haben Sie erreicht? |   |
-| Neuestes SOC2-Zertifizierungsdatum |  2021-06-09 |
+| Neuestes SOC2-Zertifizierungsdatum | 2021-06-09 |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
-| Neuestes SOC3-Zertifizierungsdatum | |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Ja |
 | Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
-| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | N/V |
-| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | N/V |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Ja |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
@@ -129,15 +124,6 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? |  |
-| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? |  |
-| Führt die App automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? |  |
-| Verarbeitet die App Kundendaten zu einem sekundären Zweck, der nicht in der Datenschutzerklärung beschrieben ist (z. B. Marketing, Analysen)? |  |
-| Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? |  |
-| Sammelt oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? |  |
-| Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? |  |
-| Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? |  |
-| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
-| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

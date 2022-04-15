@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Die Teams, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f6c39ee1825b4a0ebcfde303336aff7d18e97d1b
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 7136ca19eae434a61de556e7b0ecfe0032d35f78
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784210"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866824"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -35,11 +35,11 @@ Informationen, die Von Popup Software an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Powell Teams |
 | ID | WA200001585 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Powell Software |
 | Website des Unternehmens | [https://www.powell-software.com](https://www.powell-software.com) |
 | Nutzungsbedingungen der App | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
-| Kernfunktionen der App | Die Teams App bietet ein intelligentes Dashboard für alle Mitarbeiter des Unternehmens, hilft ihnen bei der einfachen Organisation &amp; von Tags für alle Teams, um die wichtigsten höher gestuften Unternehmensteams zu entdecken und schließlich vordefinierte rollenbasierte Teamvorlagen zu verwenden, um Zeit zu sparen. Eine API steht auch zum Abrufen und Arbeiten mit Datensätzen in der Teams-Datenbank [https://docapiteams.powell-software.com](https://docapiteams.powell-software.com) zur Verfügung Schließlich ist auch ein Connector für Logic Apps und Power Automate verfügbar.[https://docs.microsoft.com/connectors/powellteams](/connectors/powellteams) |
+| Kernfunktionen der App | Die Teams App bietet ein intelligentes Dashboard für alle Mitarbeiter des Unternehmens, hilft ihnen bei der einfachen Organisation &amp; von Tags für alle Teams, um die wichtigsten höher gestuften Unternehmensteams zu entdecken und schließlich vordefinierte rollenbasierte Teamvorlagen zu verwenden, um Zeit zu sparen. Eine API ist auch zum Abrufen und Arbeiten mit Datensätzen in der Teams-Datenbank verfügbar (https://docapiteams.powell-software.com) Schließlich ist auch ein Connector für Logic Apps und Power Automate verfügbar (https://docs.microsoft.com/en-us/connectors/powellteams) |
 | Hauptsitz des Unternehmens | Frankreich |
 | App-Infoseite | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? |  |
@@ -86,11 +86,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? |  |
 | Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? |  |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? |  |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? |  |
 | Haben Sie einen formalen Risikomanagementprozess für die Informationssicherheit eingerichtet? |  |
 | Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? |  |
-| Melden Sie Verletzungen von App- oder Dienstdaten innerhalb von 72 Stunden nach Erkennung an Aufsichtsbehörden und personen, die von der Verletzung betroffen sind?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +101,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nein |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
 | Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nein |
-| Neuestes SOC1-Zertifizierungsdatum |   |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
-| Welche SOC 2-Zertifizierung haben Sie erreicht? | |
-| Neuestes SOC2-Zertifizierungsdatum | |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
-| Neuestes SOC3-Zertifizierungsdatum | |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
@@ -130,15 +124,6 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? |  |
-| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? |  |
-| Führt die App automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? |  |
-| Verarbeitet die App Kundendaten zu einem sekundären Zweck, der nicht in der Datenschutzerklärung beschrieben ist (z. B. Marketing, Analysen)? |  |
-| Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? |  |
-| Sammelt oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? |  |
-| Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? |  |
-| Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? |  |
-| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? |  |
-| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,6 +138,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | true |
 | Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
+| Fordert Ihre App Berechtigungen mit den geringsten Berechtigungen für Ihr Szenario an? | Ja |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) |  |
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
