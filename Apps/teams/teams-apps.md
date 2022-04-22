@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von Microsoft Teams-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/20/2022
+ms.date: 04/21/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Teams-Apps.
 localization_priority: Priority
-ms.openlocfilehash: f2dc2838fee398ed2185038d8a804dc73a659229
-ms.sourcegitcommit: 3f7acf13ff182026b75f58baa2290a68c8281b46
+ms.openlocfilehash: b5259da912f013d18afb3dc71fa5768d21d1d079
+ms.sourcegitcommit: 6a86cfad0d14b309aa1e990c124ed1c0cc85fbeb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64969774"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65029112"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Teams-Apps
 
@@ -150,6 +150,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [DocuSign eSignature](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
 | [Dubber Unified Call Recording](./dubber-unified-call-recording.md) | Dubber | **✓** |  |
+| [DZ-Benachrichtigungs-Bot](./dz-notification-bot.md) | &#36948;&#26131;&#26234;&#36896;&#32929;&#20221;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Easy Projects](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  |
 | [EasyLife 365](./easylife-365-ag.md) | EasyLife 365 AG | **✓** |  |
 | [eCademy Lernplattform](./cornelsen-ecademyinside-gmbh-ecademy-lernplattform.md) | Cornelsen eCademy &amp; inside GmbH | **✓** |  |
