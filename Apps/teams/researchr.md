@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für researcHR von KBE&#26666;&#24335;&#20250;&#31038;
+title: Anwendungsinformationen für researcHR
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für researcHR, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 11d6640b20388c99facf61d5d1a35bd36eadb415
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 44fc42a889181c0337bf6d39c00665fa1b97bd15
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64879644"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226511"
 ---
-# <a name="researchr"></a>researcHR
+# <a name="application-information-for-researchr"></a>Anwendungsinformationen für researcHR
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -98,20 +98,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
-| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | – |
+| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | – |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | – |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | – |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | – |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
-| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
-| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | – |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | – |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | – |
 | Entspricht die App NIST 800-171? |  |
 | Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
 

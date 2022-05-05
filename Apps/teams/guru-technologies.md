@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für Innovative von Technologies
+title: Anwendungsinformationen für Guru von Guru Technologies
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,38 +7,38 @@ ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Compliance-Informationen für Mofa, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Guru, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0fbc5fb17729e2551e65c170ea2c59c4cf866f3
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: b623d0d92400219e5ad31d58ade4d98409aced98
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63748276"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226559"
 ---
 # <a name="guru"></a>Guru
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Zuletzt aktualisiert vom Entwickler am: 1. März 2021</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 1. März 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/094bf90e-e413-4740-b2dc-68d624d0e40e" target="_blank">Anzeigen im Teams Speicher</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001719" target="_blank">Ansicht in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/094bf90e-e413-4740-b2dc-68d624d0e40e" target="_blank">Anzeigen im Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001719" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die Von Technologies an Microsoft bereitgestellt werden:
+Von Guru Technologies an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | App-Name | Guru |
 | ID | WA200001719 |
-| unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Guru Technologies |
 | URL der Partnerwebsite | [https://www.getguru.com](https://www.getguru.com) |
-| URL der Seite mit Teams Anwendungsinformationen | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
+| URL der Teams Anwendungsinformationsseite | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
 | URL der Datenschutzrichtlinie | [https://www.getguru.com/privacy/](https://www.getguru.com/privacy/) |
 | URL der Nutzungsbedingungen | [https://www.getguru.com/terms-of-service](https://www.getguru.com/terms-of-service) |
 
@@ -50,45 +50,45 @@ Informationen, die Von Technologies an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Denktechnologien darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Guru Technologies darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
-Listet alle [Microsoft Graph Berechtigungen auf, die](https://docs.microsoft.com/graph/permissions-reference) diese App benötigt.
+Auflisten aller [Microsoft Graph Berechtigungen](/graph/permissions-reference), die diese App benötigt.
 
->Diese Anwendung verwendet microsoft Graph nicht.
+>Diese Anwendung verwendet keine Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
 
-Wenn die App Organisationsdaten mit einem Nicht-Microsoft-Dienst überträgt oder teilt, listen Sie den von der App verwendeten Nicht-Microsoft-Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder freigibt, listen Sie den von der App nicht von Microsoft stammenden Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
 
->| **Alle nicht Microsoft-Dienste OII werden an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
+>| **Alle nicht Microsoft-Dienste OII wird übertragen an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Endbenutzeranwendung und interne Datenbanken | Wenn ein Benutzer oder ein Unternehmen die App "Portrait" für Teams einrichte, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit dem Benutzerprofil verknüpft sind, aufgezeichnet und von Von Portrait zugänglich sein. | Da ein Benutzer sowohl über ein Teams- als auch über ein Helpdesk-Konto verfügen muss, um die Integration nutzen zu können, verfolgen und verfolgen wir, welche Benutzer die Integration ermöglichen, um diesen Benutzern Unterstützung und Verwaltung bereitzustellen. |
+>| Gurus Endbenutzeranwendung und interne Datenbanken | wenn ein Benutzer oder ein Unternehmen die Guru-App für Teams einrichtet, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit ihrem Benutzerprofil verknüpft sind, aufgezeichnet und von Guru zugänglich. | Da ein Benutzer sowohl über ein Teams- als auch ein Guru-Konto verfügen muss, um die Integration nutzen zu können, verfolgen und verfolgen wir, welche Benutzer die Integration ermöglichen, um diesen Benutzern Unterstützung und Verwaltung bereitzustellen. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
-Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Personenbezogene Endbenutzerinformationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines beliebigen Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wird. Nutzt diese App diese Funktion?
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Endbenutzer-identifizierbare Informationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wurde. Nutzt diese App diese Funktion?
 
->Es wird nicht auf EUII zugegriffen.
+>Es wird kein EUII-Zugriff erfolgt.
 
 
 #### <a name="telemetry-data"></a>Telemetriedaten
 
-Werden organisationsbezogene Informationen (OII) oder Endbenutzer-Informationen (EUII) in den Telemetrie- oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und was sind die Aufbewahrungs- und Entfernungsrichtlinien?
+Werden organisationsidentifizierbare Informationen (OII) oder Endbenutzer-identifizierbare Informationen (EUII) in den Telemetriedaten oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Aufbewahrungs- und Entfernungsrichtlinien gelten?
 
->Wenn ein Benutzer oder ein Unternehmen die App "Portrait" für Teams einrichte, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit dem Benutzerprofil verknüpft sind, aufgezeichnet und von Portrait zugänglich sein. Nach Beendigung eines Kontos werden die Daten 90 Tage lang aufbewahrt und dann entfernt. 
+>wenn ein Benutzer oder ein Unternehmen die Guru-App für Teams einrichtet, werden allgemeine Informationen wie Benutzername, E-Mail und Firmenname, die mit ihrem Benutzerprofil verknüpft sind, aufgezeichnet und von Guru zugänglich. Nach der Kündigung eines Kontos werden die Daten 90 Tage lang aufbewahrt und dann entfernt. 
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerungen für vom Partner gespeicherte Daten
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
 
-Beschreiben, wie Administratoren ihrer Organisation ihre Informationen in Partnersystemen steuern können? z. B. Löschen, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+Beschreiben, wie Administratoren der Organisation ihre Informationen in Partnersystemen steuern können? z.B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Das Team Einstellungen Administratoren in einem Team ermöglichen, zu bestimmen, welche Gruppen und Zugriffs-/Rollensteuerelemente pro Sammlung bereitgestellt werden sollen, mit der Möglichkeit, Karten zu alternativen Personen hinzuzufügen, zu entfernen und erneut zuzuweisen. Enterprise Kunden, die SSO bereitgestellt haben, profitieren auch von der SSO-Anbieterkonsole zum Onboarding/Offboarden und Einrichten von Gruppen über SCIM.
+>Gurus Team Einstellungen es Administratoren in einem Team ermöglichen, zu bestimmen, welche Gruppen- und Zugriffs-/Rollensteuerelemente pro Sammlung bereitgestellt werden sollen, mit der Möglichkeit, Karten zu alternativen Personen hinzuzufügen, zu entfernen und neu zuzuweisen. Enterprise Kunden, die SSO bereitgestellt haben, profitieren auch von der SSO-Anbieterkonsole zum Onboarding/Offboarden und Einrichten von Gruppen über SCIM
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
-Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational Identifiable Information) beteiligt, die von dieser App gesammelt oder gespeichert werden?
 
 >Nein
 
@@ -100,9 +100,9 @@ Sind Menschen an der Überprüfung oder Analyse von Organisationsdaten (OII) bet
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912" target="_blank">Ansicht auf einer neuen Registerkarte</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36912" target="_blank">Auf einer neuen Registerkarte anzeigen</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,7 +112,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von Namespace Technologies darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von Guru Technologies darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|

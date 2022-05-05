@@ -1,46 +1,46 @@
 ---
-title: Anwendungsinformationen für EdMill von My-Serious-Game
+title: Anwendungsinformationen für TINYpulse von TINYpulse
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/19/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für EdMill, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für TINYpulse, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b319843ed7e991c67fbe2c425f84eaa05adbde45
+ms.openlocfilehash: cb382f9ca989cd97f57d9ad72b8d60da1d245634
 ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/05/2022
-ms.locfileid: "65225579"
+ms.locfileid: "65222476"
 ---
-# <a name="edmill"></a>EdMill
+# <a name="tinypulse"></a>TINYpulse
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 24. Februar 2021</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 10. März 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/484aa99e-4b6b-4182-8c89-3ae4f85f0cd6" target="_blank">Anzeigen im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002622" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1950b3dc-66fc-4c5f-bbbe-e411ad91a49f" target="_blank">Anzeigen im Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381729" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von My-Serious-Game an Microsoft bereitgestellt werden:
+Informationen von TINYpulse an Microsoft:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | EdMill |
-| ID | WA200002622 |
+| App-Name | TINYpulse |
+| ID | WA104381729 |
 | unterstützte Office 365 Clients | Microsoft Teams |
-| Name des Partnerunternehmens | My-Serious-Game |
-| URL der Partnerwebsite | [https://www.my-serious-game.com](https://www.my-serious-game.com) |
-| URL der Teams Anwendungsinformationsseite | [https://www.edmill.com](https://www.edmill.com) |
-| URL der Datenschutzrichtlinie | [https://app.edmill.com/privacy-policy](https://app.edmill.com/privacy-policy) |
-| URL der Nutzungsbedingungen | [https://app.edmill.com/static/cgv.pdf](https://app.edmill.com/static/cgv.pdf) |
+| Name des Partnerunternehmens | TINYpulse |
+| URL der Partnerwebsite | [https://www.tinypulse.com](https://www.tinypulse.com) |
+| URL der Teams Anwendungsinformationsseite | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
+| URL der Datenschutzrichtlinie | [https://www.tinypulse.com/privacy-policy](https://www.tinypulse.com/privacy-policy) |
+| URL der Nutzungsbedingungen | [https://www.tinypulse.com/terms-and-conditions](https://www.tinypulse.com/terms-and-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,7 +50,7 @@ Informationen, die von My-Serious-Game an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von My-Serious-Game darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von TINYpulse darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 #### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
@@ -82,7 +82,7 @@ Werden organisationsidentifizierbare Informationen (OII) oder Endbenutzer-identi
 
 Beschreiben, wie Administratoren der Organisation ihre Informationen in Partnersystemen steuern können? z.B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->Kein Partnersystem. 
+>wir geben unsere Daten nicht an das System des Partners weiter
 
 #### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
 
@@ -98,9 +98,9 @@ Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational Id
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36913' frameborder='no'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36913" target="_blank">Auf einer neuen Registerkarte anzeigen</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569" target="_blank">Auf einer neuen Registerkarte anzeigen</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -110,23 +110,21 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ### <a name="identity-information"></a>Identitätsinformationen
 
-Diese Informationen wurden von My-Serious-Game darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
+Diese Informationen wurden von TINYpulse darüber bereitgestellt, wie diese App die Authentifizierung, Autorisierung, bewährte Methoden für die Anwendungsregistrierung und andere Identitätskriterien behandelt.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Integrieren Sie die Microsoft Identify Platform (Azure AD)?  | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind?  | Ja |
-| Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Ja |
-| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
-| Auflisten der unterstützten Richtlinientypen | Oauth2 |
+| Verwendet Ihre App MSAL (Microsoft Authentication Library) für die Authentifizierung? | Nein |
+| Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Fordert Ihre App Berechtigungen mit den geringsten Berechtigungen für Ihr Szenario an? | Ja |
 | Entsprechen die statisch registrierten Berechtigungen Ihrer App genau den Berechtigungen, die ihre App dynamisch und inkrementell anfordert? | Ja |
 | Unterstützt Ihre App Mehrinstanzenfähigkeit? | Ja |
 | Verfügt Ihre App über einen vertraulichen Client? | Nein |
 | Besitzen Sie den gesamten umleitenden Unified Resource Identifier (URI), der für Ihre App registriert ist? | Ja |
 | Was vermeiden Sie für Ihre App? | - Platzhalter-Umleitungs-URIs,<br/>- Implizite OAuth2-Flow, es sei denn, dies ist für eine SPA erforderlich<br/>- ROPC-Fluss (Resource Owner Password Credential) |
-| Macht Ihre App Web-APIs verfügbar? | Ja |
-| Lässt Ihr Berechtigungsmodell nur den Erfolg von Aufrufen zu, wenn die Client-App die richtige Zustimmung erhält? | Ja |
+| Macht Ihre App Web-APIs verfügbar? | Nein |
 | Verwendet Ihre App Vorschau-APIs? | Nein |
 | Verwendet Ihre App veraltete APIs? | Nein |
 

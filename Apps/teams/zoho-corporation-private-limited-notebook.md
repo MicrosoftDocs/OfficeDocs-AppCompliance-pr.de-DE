@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das Zoho-Notizbuch, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: abe1c4fb7308fb3db0ae594f73e89713b7d66362
-ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
+ms.openlocfilehash: 771b6e3d00dfe74b33699c584f79e18ad9aa8f58
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64770052"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65221050"
 ---
 # <a name="zoho-notebook"></a>Zoho Notebook
 
@@ -35,7 +35,7 @@ Informationen, die von Zoho Corporation Private Limited an Microsoft bereitgeste
 |:----------------|:-------------|
 | App-Name | Zoho Notebook |
 | ID | WA200001616 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Zoho Corporation Private Limited |
 | Website des Unternehmens | [https://www.zoho.com](https://www.zoho.com) |
 | Nutzungsbedingungen der App | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
@@ -54,6 +54,43 @@ Informationen, die von Zoho Corporation Private Limited an Microsoft bereitgeste
 
 Diese Informationen wurden von Zoho Corporation Private Limited darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+
+Auflisten aller [Microsoft Graph Berechtigungen](/graph/permissions-reference), die diese App benötigt.
+
+>Diese Anwendung verwendet keine Microsoft Graph.
+
+
+#### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
+
+Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder freigibt, listen Sie den von der App nicht von Microsoft stammenden Dienst auf, welche Daten übertragen werden, und geben Sie eine Begründung dafür an, warum die App diese Informationen übertragen muss.
+
+>Nicht Microsoft-Dienste werden nicht verwendet.
+
+#### <a name="data-access-via-bots"></a>Datenzugriff über Bots
+
+Wenn diese App einen Bot oder eine Messaging-Erweiterung enthält, kann sie auf Endbenutzer-identifizierbare Informationen (EUII) zugreifen: die Liste (Vorname, Nachname, Anzeigename, E-Mail-Adresse) eines Teammitglieds in einem Team oder Chat, dem sie hinzugefügt wurde. Nutzt diese App diese Funktion?
+
+>Es wird kein EUII-Zugriff erfolgt.
+
+
+#### <a name="telemetry-data"></a>Telemetriedaten
+
+Werden organisationsidentifizierbare Informationen (OII) oder Endbenutzer-identifizierbare Informationen (EUII) in den Telemetriedaten oder Protokollen dieser Anwendung angezeigt? Wenn ja, beschreiben Sie, welche Daten gespeichert werden und welche Aufbewahrungs- und Entfernungsrichtlinien gelten?
+
+>Diese App sammelt und speichert keine Organisationsdaten, einschließlich EUII und OII.
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Organisationssteuerelemente für vom Partner gespeicherte Daten
+
+Beschreiben, wie Administratoren der Organisation ihre Informationen in Partnersystemen steuern können? z.B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
+
+>Alle mit dieser App erfassten Daten werden sicher auf Zoho-Notizbuchservern gespeichert. Alle Daten sind EAR. Daher kann niemand außer dem Benutzer die Daten sehen.
+
+#### <a name="human-review-of-organizational-information"></a>Menschliche Überprüfung von Organisationsinformationen
+
+Sind Menschen an der Überprüfung oder Analyse von OII-Daten (Organizational Identifiable Information) beteiligt, die von dieser App gesammelt oder gespeichert werden?
+
+>Nein
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
@@ -75,23 +112,26 @@ Diese Informationen wurden von Zoho Corporation Private Limited darüber bereitg
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Response** |
+<iframe height='1020' title='Microsoft Cloud App Security Informationen' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/21298' frameborder='no'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/21298" target="_blank">In einer neuen Registerkarte</a> 
+| **anzeigenInformationsantwort** | **** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
 | Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | TraditionalAntiMalware, ApplicationControls |
-| Haben Sie einen etablierten Prozess zum Einrücken und Zurverfolgen von Sicherheitsrisiken? | Ja |
-| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Ja |
+| Haben Sie einen etablierten Prozess zum Einrücken und Risk Ranking von Sicherheitsrisiken? | Ja |
+| Haben Sie eine Richtlinie, die Ihren Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Ja |
 | Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Ja |
 | Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nein |
 | Führen Sie vierteljährliche Überprüfungen von Sicherheitsrisiken in Ihrer App und deren Unterstützung durch? | Ja |
-| Haben Sie eine Firewall an Der Grenze des externen Netzwerks installiert? | Ja |
-| Verfügen Sie über einen etablierten Änderungsverwaltungsprozess, der verwendet wird, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
-| Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion gesendet werden? | Ja |
+| Haben Sie eine Firewall an der Grenze des externen Netzwerks installiert? | Ja |
+| Haben Sie einen etablierten Änderungsverwaltungsprozess, der zum Überprüfen und Genehmigen von Änderungsanforderungen verwendet wird, bevor sie in der Produktion bereitgestellt werden? | Ja |
+| Ist eine zusätzliche Person, die alle Codeänderungsanforderungen überprüft und genehmigt, die vom ursprünglichen Entwickler an die Produktion übermittelt wurden? | Ja |
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikenklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | Ja |
+| Haben Sie IdPS-Software (Intrusion Detection and Prevention) am Rand der Netzwerkgrenze bereitgestellt, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -155,18 +195,18 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle in der Checkliste für die Integration von Microsoft Identity Platform aufgeführten bewährten Methoden überprüft und eingehalten? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung, Erfordern von durch die Organisation verwalteten Geräten für bestimmte Anwendungen, Blockieren riskanter Anmeldeverhalten, Einschränken des Zugriffs für andere Personen als die Administrativen Rollen  |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Ja |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
-| Apps und Add-Ins für Microsoft 365 können zusätzliche Microsoft-APIs außerhalb von Microsoft Graph verwenden. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
 
->|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | Delegiert | Lesen der Namen und Beschreibungen von Kanälen | [9944c8e1-fc22-4546-8023-9459b75c472a](../azure/9944c8e1-fc22-4546-8023-9459b75c472a.md) |
 >| ChannelMessage.Send | Delegiert | Kanalnachrichten senden | [9944c8e1-fc22-4546-8023-9459b75c472a](../azure/9944c8e1-fc22-4546-8023-9459b75c472a.md) |
