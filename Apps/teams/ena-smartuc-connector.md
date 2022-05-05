@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für ENA SmartUC Connector, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3f2f49283d559d7d1392339969884fb50ba2a777
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 35216e57d20e4893f3d349809568c89df0b60032
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876402"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226159"
 ---
 # <a name="ena-smartuc-connector"></a>ENA SmartUC-Connector
 
@@ -113,8 +113,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
-| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
-| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | – |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | – |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
 | Entspricht die App NIST 800-171? | Nein |
 | Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
@@ -150,13 +150,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | Delegiert | Benutzer-IDs und Anzeigenamen von Mitgliedern des aktuellen Kanals/Chats. Die App verwendet dies, um dem Benutzer eine Liste der Kanal-/Chatmitglieder zu präsentieren, die angerufen werden sollen. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| Chat.ReadBasic | Delegiert | Benutzer-IDs und Anzeigenamen von Mitgliedern des aktuellen Chats. Die App verwendet dies, um dem Benutzer eine Liste der Chatmitglieder zu präsentieren, die angerufen werden sollen. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| People.Read.All | Delegiert | Benutzer-IDs und Anzeigenamen von Mitgliedern des aktuellen Teams. Die App verwendet dies, um dem Benutzer eine Liste der Teammitglieder zu präsentieren, die angerufen werden sollen. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| User.Read.All | Delegiert | Die Geschäftlichen und Mobiltelefonnummern der Benutzer. Dies ist erforderlich, damit Telefonanrufe an diese Nummern initiiert werden können. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| offline_access | Delegiert | Ein Autorisierungstoken für den Benutzer, das die App für den Zugriff auf die anderen Graph-API Endpunkte autorisiert, die in ihrem Namen aufgeführt sind. Diese Zugriffsberechtigungen sind erforderlich, damit Microsoft Identity-Plattformanwendungen funktionieren. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| openid | Delegiert | Ein Autorisierungstoken für den Benutzer, das die App für den Zugriff auf die anderen Graph-API Endpunkte autorisiert, die in ihrem Namen aufgeführt sind. Diese Zugriffsberechtigungen sind erforderlich, damit Microsoft Identity-Plattformanwendungen funktionieren. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
->| Profil | Delegiert | Ein Autorisierungstoken für den Benutzer, das die App für den Zugriff auf die anderen Graph-API Endpunkte autorisiert, die in ihrem Namen aufgeführt sind. Diese Zugriffsberechtigungen sind erforderlich, damit Microsoft Identity-Plattformanwendungen funktionieren. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](../azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md) |
+>| ChannelMember.Read.All | Delegiert | Benutzer-IDs und Anzeigenamen von Mitgliedern des aktuellen Kanals/Chats. Die App verwendet dies, um dem Benutzer eine Liste der Kanal-/Chatmitglieder zu präsentieren, die angerufen werden sollen. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| Chat.ReadBasic | Delegiert | Benutzer-IDs und Anzeigenamen von Mitgliedern des aktuellen Chats. Die App verwendet dies, um dem Benutzer eine Liste der Chatmitglieder zu präsentieren, die angerufen werden sollen. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| People.Read.All | Delegiert | Benutzer-IDs und Anzeigenamen von Mitgliedern des aktuellen Teams. Die App verwendet dies, um dem Benutzer eine Liste der Teammitglieder zu präsentieren, die angerufen werden sollen. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| User.Read.All | Delegiert | Die Geschäftlichen und Mobiltelefonnummern der Benutzer. Dies ist erforderlich, damit Telefonanrufe an diese Nummern initiiert werden können. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| offline_access | Delegiert | Ein Autorisierungstoken für den Benutzer, das die App für den Zugriff auf die anderen Graph-API Endpunkte autorisiert, die in ihrem Namen aufgeführt sind. Diese Zugriffsberechtigungen sind erforderlich, damit Microsoft Identity-Plattformanwendungen funktionieren. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| openid | Delegiert | Ein Autorisierungstoken für den Benutzer, das die App für den Zugriff auf die anderen Graph-API Endpunkte autorisiert, die in ihrem Namen aufgeführt sind. Diese Zugriffsberechtigungen sind erforderlich, damit Microsoft Identity-Plattformanwendungen funktionieren. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
+>| Profil | Delegiert | Ein Autorisierungstoken für den Benutzer, das die App für den Zugriff auf die anderen Graph-API Endpunkte autorisiert, die in ihrem Namen aufgeführt sind. Diese Zugriffsberechtigungen sind erforderlich, damit Microsoft Identity-Plattformanwendungen funktionieren. | [029cfd5a-4413-499d-bda6-a2a0a3f5e70e](/microsoft-365-app-certification/azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
