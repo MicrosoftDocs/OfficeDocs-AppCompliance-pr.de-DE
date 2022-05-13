@@ -7,12 +7,12 @@ description: Microsoft 365 Beispielhandbuch für die Übermittlung von Zertifizi
 keywords: App-Zertifizierungsnachweis Microsoft 365 Beispiel für appSource-Richtlinien für die Übermittlung von Nachweisen
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: b45ec7c0c8d549d944ab0ad400518785f18a9941
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: f1b4fddddbe9e55ba0a60c313b85e7088d10ca1c
+ms.sourcegitcommit: e7d5b928692a072b066cdd957aeabad64cfee931
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784054"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65383517"
 ---
 # <a name="microsoft-365-certification---sample-evidence-guide"></a>Microsoft 365 Zertifizierung – Beispielnachweishandbuch
 
@@ -49,7 +49,9 @@ Die Sicherheitsdomäne "Operational Security / Secure Development" wurde entwick
 
 #### <a name="malware-protection---anti-virus"></a>Schutz vor Schadsoftware – Virenschutz
 
-**Steuerelement Nr. 1:** Stellen Sie Eine Richtliniendokumentation bereit, die die Praktiken und Verfahren von Antivirensoftware regelt.
+<a id="control-1"></a>[Steuerelement Nr. 1](#control-1): Stellen Sie Richtliniendokumentation bereit, die die Vorgehensweisen und Verfahren von Antivirensoftware regelt.
+
+
 - Absicht: Die Absicht dieses Steuerelements besteht darin, das Verständnis eines ISV über die Probleme zu bewerten, mit denen sie konfrontiert sind, wenn die Bedrohung durch Computerviren betrachtet wird. Durch die Einrichtung und Verwendung von branchenweit bewährten Methoden bei der Entwicklung einer Antivirenrichtlinie und -prozesse stellt ein ISV eine Ressource bereit, die auf die Fähigkeit ihrer Organisation zugeschnitten ist, die Risiken von Schadsoftware zu mindern, indem bewährte Methoden für die Virenerkennung und -beseitigung aufgeführt werden, und belegt, dass die dokumentierte Richtlinie vorgeschlagene Sicherheitsleitlinien für die Organisation und ihre Mitarbeiter bereitstellt. Durch die Dokumentation einer Richtlinie und eines Verfahrens, wie der ISV Antischadsoftware-Deklassien bereitstellt, stellt dies die konsistente Einführung und Wartung dieser Technologie sicher, um das Risiko von Schadsoftware für die Umgebung zu verringern.
 
 - Beispielrichtlinien für Nachweise: Stellen Sie eine Kopie Ihrer Antivirus-/Antischadsoftwarerichtlinie bereit, die die in Ihrer Infrastruktur implementierten Prozesse und Verfahren enthält, um bewährte Methoden für Antivirus/Schadsoftware zu fördern.
@@ -61,7 +63,7 @@ Beispielbeweis
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 2:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Antivirensoftware auf allen getesteten Systemkomponenten ausgeführt wird.
+<a id="control-2"></a>[Steuerelement Nr. 2](#control-2): Stellen Sie nachweisbare Beweise dafür bereit, dass Antivirensoftware auf allen beispielbasierten Systemkomponenten ausgeführt wird.
 
 - Absicht: Es ist wichtig, dass Anti-Virus (AV) (oder Antischadsoftwareschutz) in Ihrer Umgebung ausgeführt wird, um vor Cybersicherheitsrisiken zu schützen, die Sie möglicherweise oder möglicherweise nicht kennen, da potenziell schädliche Angriffe zunehmen, sowohl in Raffinesse als auch Zahlen. Wenn AV für alle Systemkomponenten bereitgestellt wird, die seine Verwendung unterstützen, können Einige der Risiken der Einführung von Antischadsoftware in die Umgebung verringert werden. Es dauert nur einen einzelnen Endpunkt, um ungeschützt zu sein, um potenziell einen Angriffsvektor für einen Bedrohungsakteur bereitzustellen, um in der Umgebung Fuß zu fassen. AV sollte daher als eine von mehreren Verteidigungsebenen zum Schutz vor dieser Art von Bedrohung verwendet werden.
 
@@ -77,7 +79,7 @@ Der folgende Screenshot wurde von einem Windows 10-Geräten übernommen und zeig
 
 ![Screenshot von Windows 10 Geräten, der zeigt, dass "Echtzeitschutz" aktiviert ist](../media/UserGuidePhotos/Control-No-2-1.png)
 
-**Steuerelement Nr. 3:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Antivirensignaturen in allen Umgebungen (innerhalb von 1 Tag) auf dem neuesten Stand sind.
+<a id="control-3"></a>[Kontrolle Nr. 3](#control-3): Stellen Sie nachweisbare Nachweise bereit, dass Antivirensignaturen in allen Umgebungen (innerhalb von 1 Tag) auf dem neuesten Stand sind.
 
 - Absicht: Hunderttausende neue Schadsoftware und potenziell unerwünschte Anwendungen (PUA) werden jeden Tag identifiziert. Um einen angemessenen Schutz vor neu veröffentlichter Schadsoftware zu bieten, müssen AV-Signaturen regelmäßig aktualisiert werden, um neu veröffentlichte Schadsoftware zu berücksichtigen.
 
@@ -91,7 +93,7 @@ Der folgende Screenshot wurde von einem Windows 10-Geräten übernommen und zeig
 
 **Hinweis:** Die bereitgestellten Nachweise müssten einen Export der Protokolle enthalten, um tägliche Aktualisierungen über einen längeren Zeitraum anzuzeigen. Einige Antivirenprodukte generieren Updateprotokolldateien, sodass diese Dateien bereitgestellt oder die Protokolle aus Ereignisanzeige exportiert werden sollten.
 
-**Steuerelement Nr. 4:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Antivirensoftware so konfiguriert ist, dass eine Überprüfung bei Zugriff oder eine regelmäßige Überprüfung über alle beispielbasierten Systemkomponenten hinweg durchgeführt wird.
+<a id="control-4"></a>[Steuerelement Nr. 4](#control-4): Stellen Sie nachweisbare Beweise dafür bereit, dass Antivirensoftware so konfiguriert ist, dass eine Überprüfung bei Zugriff oder eine regelmäßige Überprüfung über alle stichprobenten Systemkomponenten hinweg durchgeführt wird.
 
 **Hinweis:** Wenn die Überprüfung bei Zugriff nicht aktiviert ist, **müssen** mindestens die tägliche Überprüfung und alerting_ aktiviert _be.
 
@@ -103,7 +105,7 @@ Der folgende Screenshot wurde von einem Windows 10-Geräten übernommen und zeig
 
 ![Screenshot zeigt, dass der Echtzeitschutz für den Host aktiviert ist](../media/UserGuidePhotos/Control-No-4.png)
 
-**Steuerelement Nr. 5:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Antivirensoftware so konfiguriert ist, dass Schadsoftware oder Quarantäne automatisch blockiert wird und alle systemspezifischen Komponenten benachrichtigt werden.
+<a id="control-5"></a>[Kontrolle Nr. 5](#control-5): Stellen Sie nachweisbare Nachweise bereit, dass Antivirensoftware so konfiguriert ist, dass Schadsoftware oder Quarantäne automatisch blockiert und über alle beispielierten Systemkomponenten hinweg benachrichtigt wird.
 
 - Absicht: Die Raffinesse von Schadsoftware entwickelt sich ständig weiter, zusammen mit den unterschiedlichen Graden der Verwüstung, die sie bringen können. Die Absicht dieses Steuerelements besteht darin, entweder die Ausführung von Schadsoftware zu verhindern und sie daher daran zu hindern, ihre potenziell verheerende Nutzlast auszuführen, oder wenn automatisches Blockieren keine Option ist, kann die Begrenzung der Zeit, die Schadsoftware verursacht, verheerend sein, indem sie benachrichtigt und sofort auf die potenzielle Malware-Infektion reagiert.
 
@@ -113,7 +115,7 @@ Der folgende Screenshot wurde von einem Windows 10-Geräten übernommen und zeig
 
 ![screenshot shows the host "CLARANET-SBU-WM" is configured with real-time protection on for Microsoft Defender Antivirus. ](../media/UserGuidePhotos/Control-No-5.png)
 
-**Steuerelement Nr. 6:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Anwendungen vor der Bereitstellung genehmigt wurden.
+<a id="control-6"></a>[Steuerelement Nr. 6](#control-6): Stellen Sie nachweisbare Nachweise bereit, dass Anwendungen vor der Bereitstellung genehmigt wurden.
 
 - Absicht: Mit der Anwendungssteuerung genehmigt die Organisation jede Anwendung/jeden Prozess, die unter dem Betriebssystem ausgeführt werden darf. Mit diesem Steuerelement soll sichergestellt werden, dass ein Genehmigungsprozess zur Autorisierung der Anwendungen/Prozesse eingerichtet ist, die ausgeführt werden können.
 
@@ -123,7 +125,7 @@ Der folgende Screenshot wurde von einem Windows 10-Geräten übernommen und zeig
 
 ![screenshot demonstrate an approval by management that each application permitted to run within the environment follows an approval process.](../media/UserGuidePhotos/Control-No-6.png)
 
-**Steuerelement Nr. 7:** Stellen Sie nachweisbare Nachweise dafür bereit, dass eine vollständige Liste der genehmigten Anwendungen mit geschäftlicher Begründung vorhanden und verwaltet wird.
+<a id="control-7"></a>[Steuerelement Nr. 7](#control-7): Stellen Sie nachweisbare Nachweise dafür bereit, dass eine vollständige Liste genehmigter Anwendungen mit geschäftlicher Begründung vorhanden und verwaltet wird.
 
 - Absicht: Es ist wichtig, dass Organisationen eine Liste aller genehmigten Anwendungen zusammen mit Informationen darüber verwalten, warum die Anwendung/der Prozess genehmigt wurde. Dadurch wird sichergestellt, dass die Konfiguration auf dem neuesten Stand bleibt und anhand eines Basisplans überprüft werden kann, um sicherzustellen, dass nicht autorisierte Anwendungen/Prozesse nicht konfiguriert sind.
 
@@ -135,7 +137,7 @@ Der folgende Screenshot wurde von einem Windows 10-Geräten übernommen und zeig
 
 **Hinweis:** Dieser Screenshot zeigt ein Dokument, die Erwartung ist, dass ISVs das eigentliche Unterstützende Dokument freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 8:** Stellen Sie unterstützende Dokumentationen bereit, in denen beschrieben wird, dass die Anwendungskontrolle software so konfiguriert ist, dass sie bestimmte Anwendungssteuerungsmechanismen erfüllt.
+<a id="control-8"></a>[Steuerelement Nr. 8](#control-8): Bereitstellen von unterstützender Dokumentation, in der detailliert beschrieben wird, dass Die Anwendungskontrolle software so konfiguriert ist, dass sie bestimmte Anwendungssteuerungsmechanismen erfüllt.
 
 - Absicht: Die Konfiguration der Anwendungssteuerungstechnologie sollte zusammen mit einem Prozess der Wartung der Technologie dokumentiert werden, d. h. Anwendungen/Prozesse hinzufügen und löschen. Im Rahmen dieser Dokumentation sollte der verwendete Mechanismustyp für jede Anwendung/jeden Prozess detailliert sein. Dies wird in das nächste Steuerelement einfließen, um sicherzustellen, dass die Technologie wie dokumentiert konfiguriert ist.
 
@@ -147,7 +149,7 @@ Der folgende Screenshot wurde von einem Windows 10-Geräten übernommen und zeig
 
 **Hinweis:** Dieser Screenshot zeigt ein Dokument, die Erwartung ist, dass ISVs das eigentliche Unterstützende Dokument freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 9:** Stellen Sie nachweisbare Nachweise dafür bereit, dass die Anwendungssteuerung wie aus allen beispielierten Systemkomponenten dokumentiert konfiguriert ist.
+<a id="control-9"></a>[Steuerelement Nr. 9](#control-9): Stellen Sie nachweisbare Nachweise dafür bereit, dass das Anwendungssteuerelement wie aus allen beispielierten Systemkomponenten dokumentiert konfiguriert ist.
 
 - Absicht: Dies soll überprüfen, ob das Anwendungssteuerelement im gesamten Beispiel gemäß der Dokumentation konfiguriert ist.
 
@@ -175,7 +177,7 @@ Die schnelle Identifizierung und Behebung von Sicherheitslücken trägt dazu bei
 
 Diese Sicherheitssteuerungsgruppe ist im Bereich für PaaS-Hostingumgebungen (Platform-as-a-Service), da die Anwendungs-/Add-In-Softwarebibliotheken und die Codebasis von Drittanbietern basierend auf der Risikobewertung gepatcht werden müssen.
 
-**Steuerelement Nr. 10:** Bereitstellungsrichtliniendokumentation, die bestimmt, wie neue Sicherheitslücken identifiziert und einer Risikobewertung zugewiesen werden.
+<a id="control-10"></a>[Control #10](#control-10): Bereitstellungsrichtliniendokumentation, die bestimmt, wie neue Sicherheitslücken identifiziert und einer Risikobewertung zugewiesen werden.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, unterstützende Dokumentationen zu haben, um sicherzustellen, dass Sicherheitslücken schnell erkannt werden, um das Zeitfenster zu verringern, das Bedrohungsakteure haben, um diese Sicherheitsrisiken auszunutzen. Es muss ein robuster Mechanismus vorhanden sein, um Sicherheitsrisiken zu erkennen, die alle von den Organisationen verwendeten Systemkomponenten abdecken. Beispielsweise Betriebssysteme (Windows Server, Ubuntu usw.), Anwendungen (Tomcat, MS Exchange, SolarWinds usw.), Codeabhängigkeiten (AngularJS, jQuery usw.). Organisationen müssen nicht nur die rechtzeitige Identifizierung von Sicherheitsrisiken innerhalb des Bestandes sicherstellen, sondern auch alle Sicherheitsrisiken entsprechend bewerten, um sicherzustellen, dass die Behebung innerhalb eines geeigneten Zeitrahmens basierend auf dem Risiko, das die Sicherheitsanfälligkeit darstellt, durchgeführt wird.
 
@@ -189,11 +191,11 @@ Diese Sicherheitssteuerungsgruppe ist im Bereich für PaaS-Hostingumgebungen (Pl
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Dokumentation zu Richtlinien/Verfahren freigeben und nicht einfach nur eine screenshot._
 
-**Steuerelement Nr. 11:** Stellen Sie nachweisen, wie neue Sicherheitslücken identifiziert werden.
+<a id="control-11"></a>[Steuerelement Nr. 11](#control-11): Bereitstellen von Nachweisen, wie neue Sicherheitslücken identifiziert werden.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass der Prozess befolgt wird, und es&#39;robust genug, um neue Sicherheitslücken in der gesamten Umgebung zu identifizieren. Dies kann nicht nur das Betriebssystem sein; Es kann Anwendungen enthalten, die in der Umgebung ausgeführt werden, und codeabhängigkeiten.
 
-- Beispielrichtlinien für Nachweise: Nachweise können durch Anzeigen von Abonnements für Mailinglisten, manuelle Überprüfung von Sicherheitsquellen für neu veröffentlichte Sicherheitsrisiken (mit Zeitstempeln der Aktivitäten, d. h. mit JIRA oder Azure DevOps) ausreichend nachverfolgt werden), Tools, die veraltete Software finden (z. B. Snyk bei der Suche nach veralteten Softwarebibliotheken oder Nessus mit authentifizierten Scans sein, die  veraltete Software.).
+- Beispielrichtlinien für Nachweise: Nachweise können durch Anzeigen von Abonnements für Mailinglisten, manuelle Überprüfung von Sicherheitsquellen für neu veröffentlichte Sicherheitsrisiken bereitgestellt werden (müssten angemessen mit Zeitstempeln der Aktivitäten nachverfolgt werden, z. B. mit JIRA oder Azure DevOps), Tools, die veraltete Software finden (z. B. Snyk bei der Suche nach veralteten Softwarebibliotheken sein, oder könnte Nessus sein, der  authentifizierte Scans, die veraltete Software identifizieren.)
 
 **Hinweis** Wenn Sie Nessus verwenden, müsste dies regelmäßig ausgeführt werden, um Sicherheitsrisiken schnell zu erkennen. Wir empfehlen mindestens wöchentlich.
 
@@ -203,7 +205,7 @@ Diese Sicherheitssteuerungsgruppe ist im Bereich für PaaS-Hostingumgebungen (Pl
 
 ![screenshot also demonstrates that a mailing group is being used to be notified of security vulnerabilities.](../media/UserGuidePhotos/Control-No-11-1.png)
 
-**Steuerelement Nr. 12:** Stellen Sie Nachweise bereit, die belegen, dass allen Sicherheitsrisiken nach der Identifizierung eine Risikorangfolge zugewiesen wird.
+<a id="control-12"></a>[Steuerelement Nr. 12](#control-12): Stellen Sie Nachweise bereit, die belegen, dass allen Sicherheitsrisiken nach der Identifizierung eine Risikorangfolge zugewiesen wurde.
 
 - Absicht: Das Patchen muss auf dem Risiko basieren, je riskanter die Sicherheitsanfälligkeit ist, desto schneller muss es behoben werden. Die Risikobewertung identifizierter Sicherheitsrisiken ist ein integraler Bestandteil dieses Prozesses. Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass ein dokumentierter Prozess zur Risikorangfolge vorliegt, der befolgt wird, um sicherzustellen, dass alle identifizierten Sicherheitsrisiken entsprechend dem Risiko bewertet werden. Organisationen nutzen in der Regel die CVSS-Bewertung (Common Vulnerability Scoring System), die von Anbietern oder Sicherheitsforschern bereitgestellt wird. Wenn sich die Organisation auf CVSS stützt, wird empfohlen, dass ein Neubewertungsmechanismus in den Prozess einbezogen wird, damit die Organisation die Bewertung basierend auf einer internen Risikobewertung ändern kann. Manchmal ist die Sicherheitsanfälligkeit aufgrund der Art und Weise, wie die Anwendung in der Umgebung bereitgestellt wurde, möglicherweise nicht anwendungsweise. Beispielsweise kann eine Java-Sicherheitsanfälligkeit veröffentlicht werden, die sich auf eine bestimmte Bibliothek auswirkt, die nicht von der Organisation verwendet wird.
 
@@ -219,7 +221,7 @@ Die folgenden Steuerelemente gelten für das Patchingelement für die Patchverwa
 
 Diese Sicherheitssteuerungsgruppe ist im Bereich für PaaS-Hostingumgebungen (Platform-as-a-Service), da die Anwendungs-/Add-In-Softwarebibliotheken und die Codebasis von Drittanbietern basierend auf der Risikobewertung gepatcht werden müssen.
 
-**Steuerelement Nr. 13:** Bereitstellung einer Richtliniendokumentation für das Patchen von in-Scope-Systemkomponenten, die einen geeigneten minimalen Patchzeitrahmen für kritische, hohe und mittlere Sicherheitsrisiken umfasst; und Außerbetriebnahme von nicht unterstützten Betriebssystemen und Software.
+<a id="control-13"></a>[Steuerelement Nr. 13](#control-13): Bereitstellung einer Richtliniendokumentation für das Patchen von systemintegrierten Komponenten, die einen geeigneten minimalen Patchzeitrahmen für kritische, hohe und mittlere Sicherheitsrisiken umfasst; und Außerbetriebnahme von nicht unterstützten Betriebssystemen und Software.
 
 - Absicht: Patchverwaltung ist von vielen Sicherheitscomplianceframeworks erforderlich, z. B. PCI-DSS, ISO 27001, NIST (SP) 800-53. Die Bedeutung eines guten Patch-Managements kann nicht übermäßig betont werden, da es Sicherheits- und Funktionalitätsprobleme in Software, Firmware und Sicherheitslücken beheben kann, was dazu beiträgt, die Nutzungsmöglichkeiten zu verringern. Die Absicht dieses Steuerelements besteht darin, das Zeitfenster zu minimieren, in dem ein Bedrohungsakteur Sicherheitsrisiken ausnutzen muss, die in der Bereichsumgebung vorhanden sein können.
 
@@ -231,7 +233,7 @@ Diese Sicherheitssteuerungsgruppe ist im Bereich für PaaS-Hostingumgebungen (Pl
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Dokumentation zu Richtlinien/Verfahren freigeben und nicht einfach nur eine screenshot._
 
-**Steuerelement Nr. 14:** Stellen Sie nachweisbare Beweise dafür bereit, dass alle in die Stichprobe einbezogenen Systemkomponenten gepatcht werden.
+<a id="control-14"></a>[Steuerelement Nr. 14](#control-14): Stellen Sie nachweisbare Nachweise bereit, dass alle in die Stichprobe einbezogenen Systemkomponenten gepatcht werden.
 
 **Hinweis:** Schließen Sie alle Software-/Drittanbieterbibliotheken ein.
 
@@ -245,7 +247,7 @@ Diese Sicherheitssteuerungsgruppe ist im Bereich für PaaS-Hostingumgebungen (Pl
 
 **Hinweis:** Das Patchen aller bereichsbezogenen Systemkomponenten muss nachweisbar sein. Dazu gehören Dinge wie; Betriebssystemupdates, Anwendungs-/Komponentenupdates (i.e__.,_ _Apache Tomcat, OpenSSL usw.), Softwareabhängigkeiten (z. B. JQuery, AngularJS usw.) usw._
 
-**Steuerelement Nr. 15:** Stellen Sie nachweisbare Nachweise dafür bereit, dass nicht unterstützte Betriebssysteme und Softwarekomponenten nicht in der Umgebung verwendet werden.
+<a id="control-15"></a>[Steuerelement Nr. 15](#control-15): Stellen Sie nachweisbare Nachweise bereit, dass nicht unterstützte Betriebssysteme und Softwarekomponenten nicht in der Umgebung verwendet werden.
 
 - Absicht: Software, die nicht von Anbietern verwaltet wird, leidet unter bekannten Sicherheitsrisiken, die nicht behoben sind. Daher darf die Verwendung nicht unterstützter Betriebssysteme und Softwarekomponenten nicht in Produktionsumgebungen verwendet werden.
 
@@ -275,7 +277,7 @@ Der folgende Screenshot zeigt die [Trivy-Ausgabe](https://github.com/aquasecurit
 
 Durch die Einführung regelmäßiger Sicherheitsrisikobewertungen können Organisationen Schwachstellen und Unsicherheiten in ihren Umgebungen erkennen, die einen Einstiegspunkt für einen böswilligen Akteur darstellen können, um die Umgebung zu gefährden. Das Scannen von Sicherheitsrisiken kann dazu beitragen, fehlende Patches oder Fehlkonfigurationen in der Umgebung zu erkennen. Durch die regelmäßige Durchführung dieser Scans kann eine Organisation geeignete Korrekturen bereitstellen, um das Risiko einer Kompromittierung aufgrund von Problemen zu minimieren, die häufig von diesen Überprüfungstools für Sicherheitslücken erfasst werden.
 
-**Steuerelement Nr. 16:** Stellen Sie die vierteljährlichen Berichte zur Überprüfung von Sicherheitsrisiken in Infrastruktur und Webanwendungen bereit. Die Überprüfung muss für den gesamten öffentlichen Fußabdruck (IP-Adressen und URLs) und interne IP-Bereiche durchgeführt werden.
+<a id="control-16"></a>[Control #16](#control-16): Stellen Sie die vierteljährlichen Berichte zur Überprüfung von Sicherheitsrisiken in Infrastruktur und Webanwendung bereit. Die Überprüfung muss für den gesamten öffentlichen Fußabdruck (IP-Adressen und URLs) und interne IP-Bereiche durchgeführt werden.
 
 **Hinweis:** Dies **MUSS** den gesamten Umfang der Umgebung umfassen.
 
@@ -287,7 +289,7 @@ Durch die Einführung regelmäßiger Sicherheitsrisikobewertungen können Organi
 
 - Beispielnachweis: Beispielnachweise wären die Bereitstellung der Überprüfungsberichte aus dem verwendeten Überprüfungstool. Jedes Quartal&#39;Scanberichte sollten zur Überprüfung bereitgestellt werden. Die Überprüfung muss die gesamten Systemkomponenten der Umgebungen umfassen. jedes interne Subnetz und jede öffentliche IP-Adresse/URL, die für die Umgebung verfügbar ist.
 
-**Steuerelement Nr. 17:** Stellen Sie nachweisbare Nachweise bereit, dass die Behebung von Sicherheitsrisiken, die während der Überprüfung von Sicherheitsrisiken erkannt wurden, im Einklang mit Ihrem dokumentierten Patching-Zeitrahmen gepatcht werden.
+<a id="control-17"></a>[Steuerelement Nr. 17](#control-17): Stellen Sie nachweisbare Nachweise bereit, dass die Behebung von Sicherheitsrisiken, die während der Überprüfung von Sicherheitsrisiken erkannt wurden, im Einklang mit Ihrem dokumentierten Patchzeitrahmen gepatcht werden.
 
 - Absicht: Wenn Sicherheitsrisiken und Fehlkonfigurationen nicht schnell erkannt, verwaltet und behoben werden, kann dies das Risiko einer Kompromittierung einer Organisation&#39;erhöhen, die zu potenziellen Datenschutzverletzungen führt. Die richtige Identifizierung und Behebung von Problemen wird als wichtig für eine Organisation&#39;der allgemeinen Sicherheitslage und -umgebung angesehen, die mit den bewährten Methoden verschiedener Sicherheitsframeworks in Einklang steht. Beispiel: ISO 27001 und PCI DSS.
 
@@ -307,7 +309,7 @@ Der folgende Screenshot zeigt, dass die Probleme 2 Tage später im Patchfenster 
 
 Firewalls bieten häufig eine Sicherheitsgrenze zwischen vertrauenswürdigen (internen Netzwerk), nicht vertrauenswürdigen (Internet) und semi-vertrauenswürdigen (DMZ)-Umgebungen. Dies ist in der Regel die erste Verteidigungslinie innerhalb einer defense-in-depth Security-Strategie einer Organisation, die darauf ausgelegt ist, Verkehrsströme für Ein- und Ausgehende Dienste zu kontrollieren und unerwünschten Datenverkehr zu blockieren. Diese Geräte müssen streng kontrolliert werden, um sicherzustellen, dass sie effektiv funktionieren und frei von Fehlkonfigurationen sind, die die Umgebung gefährden könnten.
 
-**Steuerelement Nr. 18:** Stellen Sie Richtliniendokumentation bereit, die Die Firewallverwaltungspraktiken und -verfahren regelt.
+<a id="control-18"></a>[Steuerelement Nr. 18](#control-18): Stellen Sie Richtliniendokumentation bereit, die firewallverwaltungspraktiken und -verfahren regelt.
 
 - Absicht: Firewalls sind eine wichtige erste Verteidigungslinie in einer mehrschichtigen Sicherheitsstrategie (Defense in Depth) und schützen Umgebungen vor weniger vertrauenswürdigen Netzwerkzonen. Firewalls steuern in der Regel Datenverkehrsflüsse basierend auf IP-Adressen und Protokollen/Ports. Funktionsreichere Firewalls können auch zusätzliche &quot;Schutzmaßnahmen auf Anwendungsebene&quot; bereitstellen, indem der Anwendungsdatenverkehr überprüft wird, um sich vor Missbrauch, Sicherheitsrisiken und Bedrohungen basierend auf den anwendungen, auf die zugegriffen wird, zu schützen. Diese Schutzmaßnahmen sind nur so gut wie die Konfiguration der Firewall, daher müssen starke Firewallrichtlinien und Supportverfahren vorhanden sein, um sicherzustellen, dass sie so konfiguriert sind, dass ein angemessener Schutz interner Ressourcen gewährleistet ist. Beispielsweise fungiert eine Firewall mit einer Regel zum Zulassen des GESAMTEN Datenverkehrs von JEDER Quelle zu EINEM BELIEBIGEn Ziel nur als Router.
 
@@ -321,7 +323,7 @@ Firewalls bieten häufig eine Sicherheitsgrenze zwischen vertrauenswürdigen (in
 
 ![Beispiel für die Art des Firewallrichtliniendokuments, das wir benötigen 3](../media/UserGuidePhotos/Control-No-18-2.png)
 
-**Steuerelement Nr. 19:** Stellen Sie nachweisbare Beweise dafür bereit, dass alle standardmäßigen Administratoranmeldeinformationen vor der Installation in Produktionsumgebungen geändert werden.
+<a id="control-19"></a>[Steuerelement Nr. 19](#control-19): Stellen Sie nachweisbare Nachweise bereit, dass alle standardmäßigen Administratoranmeldeinformationen vor der Installation in Produktionsumgebungen geändert werden.
 
 - Absicht: Organisationen müssen die vom Anbieter bereitgestellten standardmäßigen Administratoranmeldeinformationen berücksichtigen, die während der Konfiguration des Geräts oder der Software konfiguriert werden. Standardanmeldeinformationen sind häufig von den Anbietern öffentlich verfügbar und können einem externen Bedrohungsakteur die Möglichkeit bieten, eine Umgebung zu kompromittieren. Beispielsweise wird bei einer einfachen Suche im Internet nach den standardmäßigen iDrac-Anmeldeinformationen (Integrated Dell Remote Access Controller) _root::calvin_ als Standardbenutzernamen und -kennwort hervorgehoben. Dadurch erhält jemand Remotezugriff auf die Remoteserververwaltung. Mit diesem Steuerelement soll sichergestellt werden, dass Umgebungen nicht anfällig für Angriffe durch Standardanmeldeinformationen des Anbieters sind, die während der Geräte-/Anwendungshärtung nicht geändert wurden.
 
@@ -335,7 +337,7 @@ Der folgende Screenshot zeigt, was der Zertifizierungsanalyst anhand eines ungü
 
 ![screenshot shows what the Certification Analyst would see from an invalid username /password from a WatchGuard Firewall.](../media/UserGuidePhotos/Control-No-19.png)
 
-**Steuerelement Nr. 20:** Stellen Sie nachweisbare Beweise dafür bereit, dass Firewalls an der Grenze der Bereichsumgebung installiert und zwischen dem Umkreisnetzwerk (auch als DMZ, demilitarisierte Zone und überwachtes Subnetz bezeichnet) und internen vertrauenswürdigen Netzwerken installiert werden.
+<a id="control-20"></a>[Steuerung 20](#control-20): Stellen Sie nachweisbare Beweise dafür bereit, dass Firewalls an der Grenze der Bereichsumgebung installiert und zwischen dem Umkreisnetzwerk (auch als DMZ, demilitarisierte Zone und überwachtes Subnetz bezeichnet) und internen vertrauenswürdigen Netzwerken installiert werden.
 
 - Absicht: Firewalls bieten die Möglichkeit, den Datenverkehr zwischen verschiedenen Netzwerkzonen unterschiedlicher Sicherheitsstufen zu steuern. Da alle Umgebungen mit dem Internet verbunden sind, müssen Firewalls an der Grenze installiert werden, d. h. zwischen dem Internet und der umgebungsinternen Umgebung. Darüber hinaus müssen Firewalls zwischen den weniger vertrauenswürdigen DMZ-Netzwerken (De-Militarized Zone) und internen vertrauenswürdigen Netzwerken installiert werden. DMZs werden in der Regel für den Datenverkehr aus dem Internet verwendet und sind daher Angriffsziel. Durch die Implementierung eines DMZ und die Verwendung einer Firewall zur Steuerung des Datenverkehrsflusses bedeutet eine Kompromittierung des DMZ&#39;nicht notwendigerweise eine Kompromittierung der internen vertrauenswürdigen Netzwerke und Unternehmens-/Kundendaten. Eine angemessene Protokollierung und Warnung sollte vorhanden sein, damit Organisationen schnell einen Kompromiss identifizieren können, um die Möglichkeit für den Bedrohungsakteur zu minimieren, die internen vertrauenswürdigen Netzwerke weiter zu kompromittieren. Mit diesem Steuerelement soll sichergestellt werden, dass zwischen vertrauenswürdigen und weniger vertrauenswürdigen Netzwerken eine angemessene Kontrolle besteht.
 
@@ -345,7 +347,7 @@ Der folgende Screenshot zeigt, was der Zertifizierungsanalyst anhand eines ungü
 
 ![screenshot of a WatchGuard firewall demonstrating two DMZs, one is for the inbound services (named DMZ), the other is serving the jumpbox (Bastian Host).](../media/UserGuidePhotos/Control-No-20.png)
 
-**Steuerelement Nr. 21:** Stellen Sie nachweisbare Beweise dafür bereit, dass der gesamte öffentliche Zugriff in der demilitarisierten Zone (DMZ) beendet wird.
+<a id="control-21"></a>[Kontrolle 21](#control-21): Nachweis erbringen, dass der gesamte öffentliche Zugang in der demilitarisierten Zone (DMZ) beendet wird.
 
 - Absicht: Öffentlich zugängliche Ressourcen sind für eine Vielzahl von Angriffen offen. Wie bereits oben erwähnt, besteht die Absicht eines DMZ darin, weniger vertrauenswürdige Netzwerke von vertrauenswürdigen internen Netzwerken zu segmentieren, die vertrauliche Daten enthalten können. Ein DMZ gilt als weniger vertrauenswürdig, da ein großes Risiko besteht, dass Hosts, die öffentlich zugänglich sind, von externen Bedrohungsakteuren kompromittiert werden. Der öffentliche Zugriff sollte immer in diesen weniger vertrauenswürdigen Netzwerken beendet werden, die von der Firewall angemessen segmentiert werden, um interne Ressourcen und Daten zu schützen. Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass der gesamte öffentliche Zugriff innerhalb dieser weniger vertrauenswürdigen DMZs beendet wird, als ob Ressourcen in den vertrauenswürdigen internen Netzwerken öffentlich zugänglich wären. Eine Kompromittierung dieser Ressourcen bietet einem Bedrohungsakteur den Zugriff auf das Netzwerk, in dem vertrauliche Daten gehalten werden.
 
@@ -359,17 +361,17 @@ Im screenshot below, there are three incoming rules, each showing the NAT to the
 
 ![Screenshot von drei eingehenden Regeln, die jeweils die NAT für die Subnetze 10.0.3.x und 10.0.4.x anzeigen, bei denen es sich um die DMZ-Subnetze handelt](../media/UserGuidePhotos/Control-No-21.png)
 
-**Steuerelement Nr. 22:** Stellen Sie nachweisbare Beweise dafür bereit, dass der gesamte datenverkehr, der über die Firewall zulässig ist, einen Genehmigungsprozess durchläuft.
+<a id="control-21"></a>[Kontrolle 22](#control-22): Stellen Sie nachweisbare Beweise dafür bereit, dass der gesamte datenverkehr, der durch die Firewall zugelassen wird, einen Genehmigungsprozess durchläuft.
 
 - Absicht: Da Firewalls eine Verteidigungsbarriere zwischen nicht vertrauenswürdigem Datenverkehr und internen Ressourcen und zwischen Netzwerken unterschiedlicher Vertrauensebenen sind, müssen Firewalls sicher konfiguriert werden und sicherstellen, dass nur Datenverkehr aktiviert wird, der für Geschäftsvorgänge erforderlich ist. Durch das Zulassen eines unnötigen Datenverkehrsflusses oder eines zu permissiven Datenverkehrsflusses kann dies zu Schwachstellen innerhalb der Verteidigung an der Grenze dieser verschiedenen Netzwerkzonen führen. Durch die Einrichtung eines robusten Genehmigungsprozesses für alle Firewalländerungen wird das Risiko einer Regel reduziert, die ein erhebliches Risiko für die Umgebung darstellt. Verizon&#39;s [2020 Data Breach Investigation Report](https://enterprise.verizon.com/en-gb/resources/reports/dbir/) hebt hervor, dass &quot;Fehler&#39;s&quot;, die Fehlkonfigurationen enthalten, der einzige Aktionstyp ist, der von Jahr zu Jahr ständig zunimmt.
 
-- Beispielrichtlinien für Nachweise: Nachweise können in Form einer Dokumentation vorliegen, die zeigt, dass eine Firewalländerungsanforderung autorisiert ist. Dies kann Minuten von einer CAB-Besprechung (Change Advisor Board) oder von einem Änderungskontrollsystem sein, das alle Änderungen nachverfolgt.
+- Beispielrichtlinien für Nachweise: Nachweise können in Form einer Dokumentation vorliegen, die zeigt, dass eine Firewalländerungsanforderung autorisiert ist. Dies kann minutenweise von einer CAB-Besprechung (Change Advisor Board) oder von einem Änderungskontrollsystem erfolgen, das alle Änderungen nachverfolgt.
 
 - Beispielnachweis: Der folgende Screenshot zeigt eine Firewallregeländerung, die mithilfe eines papierbasierten Prozesses angefordert und autorisiert wird. Dies könnte beispielsweise durch etwas wie DevOps oder Jira erreicht werden.
 
 ![Screenshot einer Firewallregeländerung, die mithilfe eines papierbasierten Prozesses angefordert und autorisiert wird](../media/UserGuidePhotos/Control-No-22.png)
 
-**Steuerelement Nr. 23:** Stellen Sie nachweisbare Beweise dafür bereit, dass die Firewallregelbasis so konfiguriert ist, dass der Datenverkehr, der nicht explizit definiert ist, abgelegt wird.
+<a id="control-23"></a>[Steuerelement 23](#control-23): Stellen Sie nachweisbare Nachweise dafür bereit, dass die Firewallregelbasis so konfiguriert ist, dass der Datenverkehr, der nicht explizit definiert ist, abgelegt wird.
 
 - Absicht: Die meisten Firewalls verarbeiten die Regeln in einem Top-Down-Ansatz, um zu versuchen, eine übereinstimmende Regel zu finden. Wenn eine Regel übereinstimmt, wird die Aktion dieser Regel angewendet, und die weitere Verarbeitung der Regeln wird beendet. Wenn keine übereinstimmenden Regeln gefunden werden, wird der Datenverkehr standardmäßig verweigert. Die Absicht dieses Steuerelements ist: Wenn die Firewall nicht standardmäßig Datenverkehr abwerfen&#39;, wenn keine übereinstimmende Regel gefunden wird, muss die Regelbasis eine &quot;Regel "Alle&quot; verweigern" am **Ende aller** Firewalllisten enthalten. Dadurch soll sichergestellt werden, dass die Firewall bei der Verarbeitung der Regeln nicht standardmäßig in einen standardzuzulassenden Zustand&#39;, sodass Datenverkehr zugelassen wird, der nicht explizit definiert&#39;.
 
@@ -383,7 +385,7 @@ Der folgende WatchGuard-Hilfecenter-Link: [https://www.watchguard.com/help/docs/
 
 ![Screenshot des Watchguard-Hilfecenterlinks, der die Sprache "Die Firebox verweigert alle Pakete, die nicht ausdrücklich zulässig sind" enthält](../media/UserGuidePhotos/Control-No-23-1.png)
 
-**Steuerelement Nr. 24:** Stellen Sie nachweisbare Beweise dafür bereit, dass die Firewall nur eine starke Kryptografie auf allen Nicht-Konsolen-Verwaltungsschnittstellen unterstützt.
+<a id="control-24"></a>[Steuerung 24](#control-24): Stellen Sie nachweisbare Nachweise bereit, dass die Firewall nur eine starke Kryptografie auf allen Nicht-Konsolen-Verwaltungsschnittstellen unterstützt.
 
 - Absicht: Um Man-in-the-Middle-Angriffe auf administrativen Datenverkehr zu mindern, sollten alle nicht konsolenbasierten Verwaltungsschnittstellen nur eine starke Kryptografie unterstützen. Die Hauptabsicht dieses Steuerelements besteht darin, die Administratoranmeldeinformationen zu schützen, während die Nicht-Konsolenverbindung eingerichtet wird. Darüber hinaus kann dies auch dazu beitragen, vor Lauschangriffen in die Verbindung zu schützen, administrative Funktionen wiederzugeben, um das Gerät neu zu konfigurieren oder als Teil der Aufklärung.
 
@@ -394,7 +396,7 @@ Der folgende WatchGuard-Hilfecenter-Link: [https://www.watchguard.com/help/docs/
 
 **Hinweis**: Die WatchGuard-Firewalls unterstützen auch administrative Funktionen mit SSH (TCP Port 4118) und WatchGuard System Manager (TCP Ports 4105 &amp; 4117). Es müssten auch Nachweise für diese nicht konsolenbasierten Verwaltungsschnittstellen erbracht werden.
 
-**Steuerelement Nr. 25:** Stellen Sie nachweisbare Nachweise bereit, dass Sie mindestens alle 6 Monate Firewallregelüberprüfungen durchführen.
+<a id="control-25"></a>[Steuerelement 25](#control-25): Stellen Sie nachweisbare Nachweise bereit, dass Sie mindestens alle 6 Monate Firewallregelüberprüfungen durchführen.
 
 - Absicht: Im Laufe der Zeit besteht das Risiko, dass sich die Konfiguration in Systemkomponenten mit der In-Scope-Umgebung einschleichen kann. Dies kann häufig zu Unsicherheiten oder Fehlkonfigurationen führen, die das Risiko einer Gefährdung der Umgebung erhöhen können. Konfigurationsschleichen können aus zahlreichen Gründen eingeführt werden, z. B. temporäre Änderungen zur Problembehandlung, temporäre Änderungen für Ad-hoc-Funktionsänderungen, um Schnellkorrekturen für Probleme einzuführen, die manchmal aufgrund des Drucks, eine schnelle Lösung einzuführen, zu stark eingeschränkt sein können. Als Beispiel können Sie eine temporäre Firewallregel &quot;einführen, mit der Alle&quot; ein dringendes Problem überwinden können. Die Absicht dieses Steuerelements besteht in zweiFacher Weise: erstens, um festzustellen, wo es Fehlkonfigurationen gibt, die zu Unsicherheiten führen können, und zweitens, um Firewallregeln zu identifizieren, die nicht mehr benötigt werden und daher entfernt werden können, d. h., wenn ein Dienst eingestellt wurde, die Firewallregel jedoch zurückgelassen wurde.
 
@@ -412,7 +414,7 @@ Der folgende Screenshot zeigt Beweise für eine Firewallüberprüfung, die im Ju
 
 Es ist optional, eine Web Application Firewall (WAF) in der Lösung bereitzustellen. Wenn ein WAF verwendet wird, wird dies als zusätzliches Guthaben für die Bewertungsmatrix innerhalb der &#39;Operational Security&#39; Sicherheitsdomäne gezählt. WAFs können den Webdatenverkehr prüfen, um den Webdatenverkehr zwischen dem Internet und veröffentlichten Webanwendungen zu filtern und zu überwachen, um webanwendungsspezifische Angriffe zu identifizieren. Webanwendungen können unter vielen Angriffen leiden, die spezifisch für Webanwendungen sind, wie SQL Injection (SQLi), Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF/XSRF) usw. und WAFs sind so konzipiert, dass sie vor diesen Arten von schädlichen Nutzlasten schützen, um Webanwendungen vor Angriffen und potenziellen Kompromittierungen zu schützen.
 
-**Steuerelement Nr. 26:** Stellen Sie nachweisbare Beweise dafür bereit, dass die Web Application Firewall (WAF) so konfiguriert ist, dass böswilliger Datenverkehr aktiv überwacht, benachrichtigt und blockiert wird.
+<a id="control-26"></a>[Kontrolle 26](#control-26): Stellen Sie nachweisbare Beweise dafür bereit, dass die Web Application Firewall (WAF) so konfiguriert ist, dass bösartiger Datenverkehr aktiv überwacht, benachrichtigt und blockiert wird.
 
 - Absicht: Dieses Steuerelement ist vorhanden, um zu bestätigen, dass die WAF für alle eingehenden Webverbindungen eingerichtet ist und dass es so konfiguriert ist, dass böswilliger Datenverkehr blockiert oder benachrichtigt wird. Um eine zusätzliche Schutzebene für Webdatenverkehr bereitzustellen, müssen WAFs für alle eingehenden Webverbindungen konfiguriert werden. Andernfalls könnten externe Bedrohungsakteure die WAFs umgehen, die diese zusätzliche Schutzebene bieten. Wenn der WAF&#39;nicht so konfiguriert ist, dass böswilliger Datenverkehr aktiv blockiert wird, muss der WAF mitarbeitern, die schnell auf den potenziellen böswilligen Datenverkehr reagieren können, eine sofortige Warnung bereitstellen können, um die Sicherheit der Umgebung zu gewährleisten und die Angriffe zu stoppen.
 
@@ -437,7 +439,7 @@ Der folgende Screenshot zeigt die ContosoAppGWCoreRules\_\_, die zeigt, dass die
 
 ![screenshot shows the ContosoAppGWCoreRules\_\_ showing that this is for the api.contoso.com service](../media/UserGuidePhotos/Control-No-26-3.png)
 
-**Steuerelement Nr. 27:** Stellen Sie nachweisbare Beweise dafür bereit, dass die WAF SSL-Offloading unterstützt.
+<a id="control-27"></a>[Steuerelement 27](#control-27): Stellen Sie nachweisbare Beweise dafür bereit, dass die WAF SSL-Auslagerung unterstützt.
 
 - Absicht: Die Konfiguration der WAF für die Unterstützung von SSL-Auslagerungen ist wichtig, andernfalls kann die WAF den HTTPS-Datenverkehr nicht überprüfen. Da diese Umgebungen HTTPS-Datenverkehr unterstützen müssen, ist dies eine wichtige Funktion für die WAF, um sicherzustellen, dass schädliche Nutzlasten im HTTPS-Datenverkehr identifiziert und gestoppt werden können.
 
@@ -447,7 +449,7 @@ Der folgende Screenshot zeigt die ContosoAppGWCoreRules\_\_, die zeigt, dass die
 
 ![screenshot shows this configured for the Contoso Production Azure Application Gateway.](../media/UserGuidePhotos/Control-No-27.png)
 
-**Steuerelement Nr. 28:** "Stellen Sie nachweisbare Nachweise bereit, dass die WAF vor einigen oder allen der folgenden Sicherheitsrisikenklassen gemäß dem OWASP Core Rule Set (3.0 oder 3.1) geschützt ist:
+<a id="control-28"></a>[Kontrolle 28](#control-28): "Stellen Sie nachweisbare Nachweise bereit, dass die WAF vor einigen oder allen der folgenden Sicherheitsrisikenklassen gemäß dem OWASP Core Rule Set (3.0 oder 3.1) geschützt ist:
 - Protokoll- und Codierungsprobleme,
 - Headerinjektion, Anforderungsschmuggel und Antwortaufteilung,
 - Datei- und Pfad-Traversalangriffe,
@@ -470,7 +472,7 @@ Der folgende Screenshot zeigt die ContosoAppGWCoreRules\_\_, die zeigt, dass die
 
 Ein etablierter und verstandener Änderungskontrollprozess ist unerlässlich, um sicherzustellen, dass alle Änderungen einen strukturierten Prozess durchlaufen, der wiederholbar ist. Indem sichergestellt wird, dass alle Änderungen einen strukturierten Prozess durchlaufen, können Organisationen sicherstellen, dass Änderungen effektiv verwaltet, überprüft und angemessen getestet werden, bevor sie abgemeldet werden. Dies trägt nicht nur dazu bei, das Risiko von Systemausfällen zu minimieren, sondern auch, das Risiko potenzieller Sicherheitsvorfälle durch unsachgemäße Änderungen zu minimieren.
 
-**Steuerelement Nr. 29:** Stellen Sie Richtliniendokumentation bereit, die Änderungssteuerungsprozesse regelt.
+<a id="control-29"></a>[Steuerelement 29](#control-29): Stellen Sie Richtliniendokumentation bereit, die Änderungskontrollprozesse regelt.
 
 - Absicht: Um eine sichere Umgebung und sichere Anwendung zu erhalten, muss ein robuster Änderungskontrollprozess eingerichtet werden, um sicherzustellen, dass alle Infrastruktur- und Codeänderungen mit starker Aufsicht und definierten Prozessen durchgeführt werden. Dadurch wird sichergestellt, dass Änderungen dokumentiert werden, Sicherheits implikationen berücksichtigt werden, darüber nachgedacht wurde, welche Sicherheitswirkungen die Änderung haben wird usw. Die Absicht besteht darin, sicherzustellen, dass der Änderungskontrollprozess dokumentiert ist, um sicherzustellen, dass ein sicherer und konsistenter Ansatz für alle Änderungen innerhalb der Umgebung und der Anwendungsentwicklungspraktiken angewendet wird.
 
@@ -482,7 +484,7 @@ Ein etablierter und verstandener Änderungskontrollprozess ist unerlässlich, um
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 30:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Entwicklungs- und Testumgebungen die Trennung von Aufgaben von der Produktionsumgebung erzwingen.
+<a id="control-30"></a>[Steuerung 30](#control-30): Stellen Sie nachweisbare Nachweise bereit, dass Entwicklungs- und Testumgebungen die Trennung von Aufgaben von der Produktionsumgebung erzwingen.
 
 - Absicht: Die meisten Organisations-&#39;Entwicklungs-/Testumgebungen sind nicht auf die gleiche Stärke wie die Produktionsumgebungen konfiguriert und daher weniger sicher. Darüber hinaus sollten Tests nicht innerhalb der Produktionsumgebung durchgeführt werden, da dies Sicherheitsprobleme verursachen oder die Dienstbereitstellung für Kunden beeinträchtigen kann. Durch die Aufrechterhaltung separater Umgebungen, die eine Aufgabentrennung erzwingen, können Organisationen sicherstellen, dass Änderungen auf die richtigen Umgebungen angewendet werden, wodurch das Risiko von Fehlern reduziert wird, indem Änderungen an Produktionsumgebungen implementiert werden, wenn sie für die Entwicklungs-/Testumgebung vorgesehen waren.
 
@@ -496,7 +498,7 @@ Dieser nächste Screenshot zeigt ein separates Azure-Abonnement für contoso&#39
 
 ![screenshot shows a separate Azure subscription for Contoso&#39;s &#39;PRODUCTION&#39; environment.](../media/UserGuidePhotos/Control-No-30-1.png)
 
-**Steuerelement Nr. 31:** Stellen Sie nachweisbare Nachweise dafür bereit, dass vertrauliche Produktionsdaten nicht in Entwicklungs- oder Testumgebungen verwendet werden.
+<a id="control-31"></a>[Steuerung 31](#control-31): Stellen Sie nachweisbare Beweise dafür bereit, dass vertrauliche Produktionsdaten nicht in Entwicklungs- oder Testumgebungen verwendet werden.
 
 - Absicht: Wie bereits oben erwähnt, implementieren Organisationen keine Sicherheitsmaßnahmen einer Entwicklungs-/Testumgebung mit derselben Kraft wie die Produktionsumgebung. Daher erhöhen Sie durch die Verwendung vertraulicher Produktionsdaten in diesen Entwicklungs-/Testumgebungen das Risiko einer Kompromittierung und müssen die Verwendung von live/vertraulichen Daten in diesen Entwicklungs-/Testumgebungen vermeiden.
 
@@ -514,7 +516,7 @@ Der nächste Screenshot zeigt dieselbe Abfrage aus der Entwicklungsdatenbank mit
 
 Dies zeigt, dass die Datensätze unterschiedlich sind.
 
-**Steuerelement Nr. 32:** Stellen Sie nachweisbare Nachweise bereit, dass dokumentierte Änderungsanforderungen Auswirkungen der Änderung, Details von Back-Out-Verfahren und der durchzuführenden Tests enthalten.
+<a id="control-32"></a>[Kontrolle 32](#control-32): Nachweise dafür liefern, dass dokumentierte Änderungsanforderungen Auswirkungen der Änderung, Details von Back-out-Verfahren und durchzuführende Tests enthalten.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass die änderung, die angefordert wird, berücksichtigt wurde. Die Auswirkungen der Änderung auf die Sicherheit des Systems/der Umgebung müssen berücksichtigt und klar dokumentiert werden, alle Back-out-Verfahren müssen dokumentiert werden, um bei der Wiederherstellung zu helfen, wenn etwas schief läuft, und schließlich müssen Details zu Tests, die erforderlich sind, um zu überprüfen, ob die Änderung erfolgreich war, ebenfalls berücksichtigt und dokumentiert werden.
 
@@ -539,7 +541,7 @@ Beachten Sie während des gesamten Prozesses, dass die Person, die den Job ausf�
 
 Das Ticket oben zeigt, dass die Änderungen jetzt für die Implementierung in die Produktionsumgebung genehmigt wurden. Das rechte Feld zeigt, dass der Test erfolgreich war und dass die Änderungen nun in Prod Environment implementiert wurden.
 
-**Steuerelement Nr. 33:** Stellen Sie nachweisbare Nachweise bereit, dass Änderungsanforderungen einem Autorisierungs- und Anmeldevorgang unterzogen werden.
+<a id="control-33"></a>[Kontrolle 33](#control-33): Stellen Sie nachweisbare Nachweise bereit, dass Änderungsanforderungen einem Autorisierungs- und Anmeldevorgang unterzogen werden.
 
 - Absicht: Es muss ein Prozess implementiert werden, der die Durchführung von Änderungen ohne ordnungsgemäße Autorisierung und Abmeldung verbietet. Die Änderung muss vor der Implementierung autorisiert werden, und die Änderung muss nach Abschluss abgemeldet werden. Dadurch wird sichergestellt, dass die Änderungsanforderungen ordnungsgemäß überprüft wurden und eine person mit Autorität die Änderung abgemeldet hat.
 
@@ -559,7 +561,7 @@ Im ticket unten können Sie sehen, dass die Änderung nach Abschluss abgemeldet 
 
 Organisationen, die an Softwareentwicklungsaktivitäten beteiligt sind, stehen häufig mit konkurrierenden Prioritäten zwischen Sicherheit und TTM (Time to Market)-Druck konfrontiert. Die Implementierung sicherheitsrelevanter Aktivitäten während des gesamten Softwareentwicklungslebenszyklus (SDLC) kann jedoch nicht nur Geld sparen, sondern auch Zeit sparen. Wenn die Sicherheit im Nachhinein belassen wird, werden Probleme in der Regel nur während der Testphase des (DSLC) identifiziert, was oft zeitaufwändiger und kostspieliger zu beheben sein kann. Der Zweck dieses Sicherheitsabschnitts besteht darin, sicherzustellen, dass sichere Softwareentwicklungspraktiken befolgt werden, um das Risiko zu verringern, dass Codierungsfehler in die entwickelte Software eingeführt werden. Darüber hinaus enthält dieser Abschnitt einige Steuerelemente, die die sichere Bereitstellung von Software unterstützen.
 
-**Steuerelement Nr. 34:** Stellen Sie Richtlinien und Verfahren bereit, die die sichere Softwareentwicklung und -bereitstellung unterstützen, einschließlich sicherer Codierungsleitfaden für gängige Sicherheitsrisikenklassen wie OWASP Top 10 oder SANS Top 25 CWE.
+<a id="control-34"></a>[Kontrolle 34](#control-34): Stellen Sie Richtlinien und Verfahren bereit, die die sichere Softwareentwicklung und -bereitstellung unterstützen, einschließlich sicherer Codierung best practice guidance against common vulnerability classes such as, OWASP Top 10 or SANS Top 25 CWE.
 
 - Absicht: Organisationen müssen alles tun, um sicherzustellen, dass Software sicher entwickelt und frei von Sicherheitsrisiken ist. In best effort to achieve this, a robust secure software development lifecycle (SDLC) and secure coding best practices should be established to promote secure coding techniques and secure development through the whole software development process. Die Absicht besteht darin, die Anzahl und den Schweregrad von Sicherheitsrisiken in der Software zu verringern.
 
@@ -577,7 +579,7 @@ Organisationen, die an Softwareentwicklungsaktivitäten beteiligt sind, stehen h
 
 **Hinweis:** Diese Screenshots zeigen das Dokument zur sicheren Softwareentwicklung, die Erwartung ist, dass ISVs die eigentliche Unterstützende Dokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 35:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Codeänderungen einem Überprüfungs- und Autorisierungsprozess durch einen zweiten Prüfer unterzogen werden.
+<a id="control-35"></a>[Kontrolle 35](#control-35): Stellen Sie nachweisbare Beweise dafür bereit, dass Codeänderungen einem Überprüfungs- und Autorisierungsprozess durch einen zweiten Prüfer unterzogen werden.
 
 - Absicht: Die Absicht mit diesem Steuerelement besteht darin, eine Codeüberprüfung durch einen anderen Entwickler durchzuführen, um alle Codierungsfehler zu identifizieren, die zu einer Sicherheitsanfälligkeit in der Software führen könnten. Die Autorisierung sollte eingerichtet werden, um sicherzustellen, dass Codeüberprüfungen durchgeführt, Tests durchgeführt werden usw. vor der Bereitstellung. Mit dem Autorisierungsschritt kann überprüft werden, ob die richtigen Prozesse befolgt wurden, was dem oben definierten SDLC zugrunde liegt.
 
@@ -599,7 +601,7 @@ Das Ticket muss nun von einem Vorgesetzten genehmigt werden, bevor die Änderung
 
 Bitte beachten Sie, dass während des gesamten Prozesses drei Personen beteiligt sind, der ursprüngliche Entwickler des Codes, der Codeprüfer und ein Manager, der die Genehmigung erteilt und sich abmeldet. Um die Kriterien für dieses Steuerelement zu erfüllen, wäre es eine Erwartung, dass Ihre Tickets diesem Prozess folgen. Mindestens drei Personen, die am Änderungskontrollprozess für Ihre Codeüberprüfungen beteiligt sind.
 
-**Steuerelement Nr. 36:** Stellen Sie nachweisbare Nachweise bereit, dass Entwickler jährlich eine sichere Softwareentwicklungsschulung absolvieren.
+<a id="control-36"></a>[Control 36](#control-36): Stellen Sie nachweisbare Nachweise bereit, dass Entwickler jährlich sichere Softwareentwicklungsschulungen absolvieren.
 
 - Absicht: Die codierenden bewährten Methoden und Techniken sind für alle Programmiersprachen vorhanden, um sicherzustellen, dass Code sicher entwickelt wird. Es gibt externe Schulungskurse, die Entwicklern die verschiedenen Arten von Softwareschwachstellenklassen und die Codierungstechniken vermitteln sollen, die verwendet werden können, um die Einführung dieser Sicherheitsrisiken in die Software zu beenden. Die Absicht dieses Steuerelements ist es, diese Techniken allen Entwicklern zu vermitteln und sicherzustellen, dass diese Techniken nicht vergessen werden, oder neuere Techniken werden durch jährliche Durchführung gelernt.
 
@@ -615,7 +617,7 @@ Unten sehen Sie, dass Schulungen mit geschäftlicher Begründung und Genehmigung
 
 ![Screenshot der erforderlichen Schulungen](../media/UserGuidePhotos/Control-No-36-2.png)
 
-**Steuerelement Nr. 37:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Code-Repositorys mit mehrstufiger Authentifizierung (Multi-Factor Authentication, MFA) gesichert sind.
+<a id="control-37"></a>[Kontrolle 37](#control-37): Nachweis erbringen, dass Code-Repositorys mit mehrstufiger Authentifizierung (MFA) gesichert sind.
 
 - Absicht: Wenn ein Bedrohungsakteur auf eine Software&#39;Codebasis zugreifen und diese ändern kann, könnte er Sicherheitslücken, Hintertüren oder bösartigen Code in die Codebasis und damit in die Anwendung einführen. Es gab mehrere Instanzen davon bereits, mit wahrscheinlich die am meisten bekannt gemacht wird die NotPetya Ransomware Angriff, die angeblich durch ein kompromittiertes Update auf ukrainische Steuersoftware namens M.E.Doc infiziert ist (siehe [Was ist NotPetya](https://www.itpro.co.uk/malware/34381/what-is-notpetya)).
 
@@ -625,7 +627,7 @@ Unten sehen Sie, dass Schulungen mit geschäftlicher Begründung und Genehmigung
 
 ![Screenshot zeigt, dass MFA für alle 8 GitLab-Benutzer aktiviert ist.](../media/UserGuidePhotos/Control-No-37.png)
 
-**Steuerelement Nr. 38:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Zugriffskontrollen zum Sichern von Code-Repositorys vorhanden sind.
+<a id="control-38"></a>[Steuerelement 38](#control-38): Stellen Sie nachweisbare Nachweise dafür bereit, dass Zugriffskontrollen für sichere Code-Repositorys vorhanden sind.
 
 - Absicht: Ausgehend von der vorherigen Steuerung sollten Zugriffssteuerungen implementiert werden, um den Zugriff nur auf einzelne Benutzer zu beschränken, die an bestimmten Projekten arbeiten. Indem Sie den Zugriff einschränken, begrenzen Sie das Risiko, dass nicht autorisierte Änderungen durchgeführt werden, und führen dadurch unsichere Codeänderungen ein. Zum Schutz des Coderepositorys sollte ein Ansatz mit den geringsten Rechten verfolgt werden.
 
@@ -639,7 +641,7 @@ Unten sehen Sie, dass Schulungen mit geschäftlicher Begründung und Genehmigung
 
 Sichere Kontoverwaltungspraktiken sind wichtig, da Benutzerkonten die Grundlage für den Zugriff auf Informationssysteme, Systemumgebungen und Daten bilden. Benutzerkonten müssen ordnungsgemäß gesichert werden, da die Anmeldeinformationen des Benutzers&#39;nicht nur einen Zugang zur Umgebung und zugriff auf vertrauliche Daten bieten können, sondern auch administrative Kontrolle über die gesamte Umgebung oder wichtige Systeme bieten können, wenn die Anmeldeinformationen des Benutzers&#39;über Administratorrechte verfügen.
 
-**Steuerelement Nr. 39:** Stellen Sie Richtliniendokumentation bereit, die Die Kontoverwaltungspraktiken und -verfahren regelt.
+<a id="control-39"></a>[Steuerelement 39](#control-39): Stellen Sie Richtliniendokumentation bereit, die Die Kontoverwaltungspraktiken und -verfahren regelt.
 
 - Absicht: Benutzerkonten werden weiterhin von Bedrohungsakteuren adressiert und sind häufig die Quelle einer Datenkompromittierung. Durch die Konfiguration von zu eingeschränkten Konten erhöhen Organisationen nicht nur den Pool &#39;privilegierten&#39; Konten, die von einem Bedrohungsakteur zur Durchführung einer Datenschutzverletzung genutzt werden können, sondern können auch das Risiko einer erfolgreichen Ausnutzung einer Sicherheitsanfälligkeit erhöhen, die bestimmte Berechtigungen erfordern würde, um erfolgreich zu sein.
 
@@ -655,7 +657,7 @@ Sichere Kontoverwaltungspraktiken sind wichtig, da Benutzerkonten die Grundlage 
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 40:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Standardanmeldeinformationen in den beispielierten Systemkomponenten deaktiviert, entfernt oder geändert werden.
+<a id="control-40"></a>[Steuerelement 40](#control-40): Stellen Sie nachweisbare Nachweise bereit, dass Standardanmeldeinformationen in den beispielierten Systemkomponenten deaktiviert, entfernt oder geändert werden.
 
 - Absicht: Obwohl dies immer beliebter wird, gibt es immer noch Fälle, in denen Bedrohungsakteure standardmäßige und gut dokumentierte Benutzeranmeldeinformationen nutzen können, um Produktionssystemkomponenten zu kompromittieren. Ein beliebtes Beispiel hierfür ist dell iDRAC (Integrated Dell Remote Access Controller). Dieses System kann für die Remoteverwaltung eines Dell-Servers verwendet werden, der von einem Bedrohungsakteur genutzt werden kann, um die Kontrolle über das Betriebssystem von Server&#39;zu erlangen. Die Standardanmeldeinformationen von root::calvin sind dokumentiert und können häufig von Bedrohungsakteuren genutzt werden, um Zugriff auf Systeme zu erhalten, die von Organisationen verwendet werden. Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass diese Standardanmeldeinformationen entweder deaktiviert oder entfernt werden.
 
@@ -677,7 +679,7 @@ Dieser nächste Screenshot zeigt, dass das DefaultAccount für die bereichsbezog
 
 ![screenshot shows that the DefaultAccount is disabled on the in-scope system component "CLARANET-SBU-WM".](../media/UserGuidePhotos/Control-No-40-3.png)
 
-**Steuerelement Nr. 41:** Stellen Sie nachweisbare Nachweise dafür bereit, dass die Kontoerstellung, -änderung und -löschung einen etablierten Genehmigungsprozess durchläuft.
+<a id="control-41"></a>[Kontrolle 41](#control-41): Stellen Sie nachweisbare Nachweise dafür bereit, dass die Erstellung, Änderung und Löschung von Konten einen etablierten Genehmigungsprozess durchläuft.
 
 - Absicht: Die Absicht besteht darin, einen etablierten Prozess zu haben, um sicherzustellen, dass alle Kontoverwaltungsaktivitäten genehmigt werden, um sicherzustellen, dass Kontoberechtigungen die Grundsätze der geringsten Rechte beibehalten und dass Kontoverwaltungsaktivitäten ordnungsgemäß überprüft und nachverfolgt werden können.
 
@@ -693,15 +695,15 @@ Die Kontoerstellung hat den Genehmigungsprozess und den Abmeldevorgang durchlauf
 
 ![Beispiel für geschlossenes Ticket](../media/UserGuidePhotos/Control-No-41-2.png)
 
-**Steuerelement Nr. 42:** Stellen Sie nachweisbare Beweise dafür bereit, dass ein Prozess zum Deaktivieren oder Löschen von Konten vorhanden ist, die nicht innerhalb von 3 Monaten verwendet werden.
+<a id="control-42"></a>[Kontrolle 42](#control-42): Stellen Sie nachweisbare Beweise dafür bereit, dass ein Prozess zum Deaktivieren oder Löschen von Konten vorhanden ist, die nicht innerhalb von 3 Monaten verwendet werden.
 
 - Absicht: Inaktive Konten können manchmal kompromittiert werden, entweder weil sie auf Brute-Force-Angriffe abzielen, die möglicherweise nicht gekennzeichnet werden, da der Benutzer nicht versucht, sich bei den Konten anzumelden, oder durch eine Kennwortdatenbankverletzung, bei der das Kennwort eines Benutzers&#39;wiederverwendet wurde und in einem Benutzernamen-/Kennwortabbild im Internet verfügbar ist. Nicht verwendete Konten sollten deaktiviert/entfernt werden, um die Angriffsfläche zu verringern, die ein Bedrohungsakteur ausführen muss, um Kontokompromittiert-Aktivitäten auszuführen. Diese Konten können darauf zurückzuführen sein, dass ein Leaver-Prozess nicht ordnungsgemäß durchgeführt wird, ein Mitarbeiter langfristig krank wird oder ein Mitarbeiter mutterschafts-/vaterschaftsurlaub geht. Durch die Implementierung eines vierteljährlichen Prozesses zur Identifizierung dieser Konten können Organisationen die Angriffsfläche minimieren.
 
-- Beispielrichtlinien für Nachweise: Nachweise sollten zweifach sein. Erstens ein Screenshot oder Dateiexport mit der &quot;letzten Anmeldung&quot; aller Benutzerkonten innerhalb der Bereichsumgebung. Dies können sowohl lokale Konten als auch Konten innerhalb eines zentralisierten Verzeichnisdiensts sein, z. B. AAD (Azure Active Directory). Dies zeigt, dass keine Konten, die älter als 3 Monate sind, aktiviert sind. Zweitens: Nachweise des vierteljährlichen Überprüfungsprozesses, die belege dafür sein können, dass die Aufgabe innerhalb von ADO (Azure DevOps) oder JIRA-Tickets erledigt wird, oder durch Papierunterlagen, die abgemeldet werden sollten.
+- Beispielrichtlinien für Nachweise: Nachweise sollten zweifach sein. Erstens ein Screenshot oder Dateiexport mit der &quot;letzten Anmeldung&quot; aller Benutzerkonten innerhalb der Bereichsumgebung. Dies können sowohl lokale Konten als auch Konten innerhalb eines zentralisierten Verzeichnisdiensts sein, z. B. AAD (Azure Active Directory). Dies zeigt, dass keine Konten, die älter als 3 Monate sind, aktiviert sind. Zweitens: Nachweise des vierteljährlichen Überprüfungsprozesses, die belege dafür sein können, dass die Aufgabe innerhalb von ADO (Azure DevOps) oder JIRA Tickets erledigt wird, oder durch Papierunterlagen, die abgemeldet werden sollten.
 
-- Beispielnachweis: Dieser erste Screenshot zeigt die Ausgabe des Skripts, das vierteljährlich ausgeführt wird, um das letzte Anmeldeattribut für Benutzer in AAD anzuzeigen.
+- Beispiel: Dieser erste Screenshot zeigt die Ausgabe des Skripts, das vierteljährlich ausgeführt wird, um das letzte Anmeldeattribut für Benutzer in AAD anzuzeigen.
 
-![screenshot shows the output of the script which is executed quarterly to view the last logon attribute for users within AAD.](../media/UserGuidePhotos/Control-No-42.png)
+![Screenshot zeigt die Ausgabe des Skripts, das vierteljährlich ausgeführt wird, um das letzte Anmeldeattribut für Benutzer in AAD anzuzeigen.](../media/UserGuidePhotos/Control-No-42.png)
 
 Wie im obigen Screenshot zu sehen ist, werden zwei Benutzer angezeigt, die sich seit einiger Zeit nicht angemeldet haben. Die folgenden beiden Screenshots zeigen, dass diese beiden Benutzer deaktiviert sind.
 
@@ -709,7 +711,7 @@ Wie im obigen Screenshot zu sehen ist, werden zwei Benutzer angezeigt, die sich 
 
 ![Ein weiteres Beispiel für das Diabled des Benutzers](../media/UserGuidePhotos/Control-No-42-2.png)
 
-**Steuerelement Nr. 43:** Stellen Sie nachweisbare Nachweise dafür bereit, dass eine Richtlinie für sichere Kennwörter oder andere geeignete Maßnahmen zum Schutz von Benutzeranmeldeinformationen vorhanden sind.  Folgendes sollte als Mindestrichtlinie verwendet werden:
+<a id="control-43"></a>[Kontrolle 43](#control-43): Stellen Sie nachweisbare Nachweise dafür bereit, dass eine richtlinie für sichere Kennwörter oder andere geeignete Maßnahmen zum Schutz von Benutzeranmeldeinformationen vorhanden sind.  Folgendes sollte als Mindestrichtlinie verwendet werden:
 - Mindestlänge des Kennworts von 8 Zeichen
 - Schwellenwert für die Kontosperrung von nicht mehr als 10 Versuchen
 - Kennwortverlauf von mindestens 5 Kennwörtern
@@ -733,7 +735,7 @@ Nachfolgend finden Sie ein Beispiel für eine mindeste Passphrasenlänge für di
 
 ![Minimale Passphrasenlänge für die WatchGaurd-Firewall.](../media/UserGuidePhotos/Control-No-43-3.png)
 
-**Steuerelement Nr. 44:** Stellen Sie nachweisbare Nachweise bereit, dass eindeutige Benutzerkonten für alle Benutzer ausgestellt werden.
+<a id="control-44"></a>[Steuerung 44](#control-44): Stellen Sie nachweisbare Nachweise bereit, dass eindeutige Benutzerkonten für alle Benutzer ausgestellt werden.
 
 - Absicht: Die Absicht dieses Steuerelements ist die Rechenschaftspflicht. Durch das Ausgeben von Benutzern mit eigenen eindeutigen Benutzerkonten sind Die Benutzer für ihre Aktionen verantwortlich, da Benutzeraktivitäten einem einzelnen Benutzer nachverfolgt werden können.
 
@@ -755,7 +757,7 @@ Dieser nächste Screenshot zeigt, dass das DefaultAccount für die bereichsbezog
 
 ![screenshot shows that the DefaultAccount is disabled on the in-scope system component "CLARANET-SBU-WM".](../media/UserGuidePhotos/Control-No-44-3.png)
 
-**Steuerelement Nr. 45:** Stellen Sie nachweisbare Beweise dafür bereit, dass die Grundsätze der geringsten Rechte innerhalb der Umgebung befolgt werden.
+<a id="control-45"></a>[Kontrolle 45](#control-45): Nachweis erbringen, dass die Grundsätze der geringsten Rechte innerhalb der Umgebung befolgt werden.
 
 - Absicht: Benutzern sollten nur die Privilegien zur Verfügung gestellt werden, die zur Erfüllung ihrer Aufgaben erforderlich sind. Dies besteht darin, das Risiko zu begrenzen, dass ein Benutzer absichtlich oder unbeabsichtigt auf Daten zugreift, die er nicht&#39;sollte oder eine böswillige Handlung ausführt. Durch dieses Prinzip wird auch die potenzielle Angriffsfläche (d. h. privilegierte Konten) reduziert, die von einem böswilligen Bedrohungsakteur adressiert werden kann.
 
@@ -770,7 +772,7 @@ Der folgende Screenshot zeigt, dass Benutzer basierend auf ihrer Aufgabenfunktio
 
 ![screenshot shows that users are allocated to groups based based upon their job function.](../media/UserGuidePhotos/Control-No-45-1.png)
 
-**Steuerelement Nr. 46:** Stellen Sie nachweisbare Nachweise dafür bereit, dass ein Prozess zum Sichern oder Sichern von Dienstkonten vorhanden ist und dass der Prozess befolgt wird.
+<a id="control-46"></a>[Kontrolle 46](#control-46): Stellen Sie nachweisbare Beweise dafür bereit, dass ein Prozess zum Sichern oder Sichern von Dienstkonten vorhanden ist und der Prozess befolgt wird.
 
 - Absicht: Dienstkonten werden häufig von Bedrohungsakteuren adressiert, da sie häufig mit erhöhten Rechten konfiguriert sind. Diese Konten folgen möglicherweise nicht den Standardkennwortrichtlinien, da das Ablaufen von Dienstkontokennwörtern häufig die Funktionalität beeinträchtigt. Daher können sie mit schwachen Kennwörtern oder Kennwörtern konfiguriert werden, die innerhalb der Organisation wiederverwendet werden. Ein weiteres potenzielles Problem, insbesondere innerhalb einer Windows-Umgebung, kann sein, dass das Betriebssystem den Kennworthash zwischenspeichert. Dies kann entweder ein großes Problem sein: Das Dienstkonto ist innerhalb eines Verzeichnisdiensts konfiguriert, da dieses Konto über mehrere Systeme hinweg mit der konfigurierten Berechtigungsstufe verwendet werden kann oder das Dienstkonto lokal ist, ist die Wahrscheinlichkeit, dass dasselbe Konto/Kennwort auf mehreren Systemen innerhalb der Umgebung verwendet wird. Die oben genannten Probleme können dazu führen, dass ein Bedrohungsakteur Zugriff auf mehr Systeme innerhalb der Umgebung erhält und zu einer weiteren Erhöhung von Privilegien und/oder lateralen Bewegungen führen kann. Daher soll sichergestellt werden, dass Dienstkonten ordnungsgemäß gehärtet und gesichert werden, um sie vor der Übernahme durch einen Bedrohungsakteur zu schützen, oder indem das Risiko begrenzt wird, wenn eines dieser Dienstkonten kompromittiert wird.
 
@@ -794,7 +796,7 @@ Dieser nächste Screenshot zeigt, dass das Dienstkonto &quot;\_Prod SQL Dienstko
 
 ![screenshot shows that the service account "_Prod SQL Service Account" is only allowed to logon as a service.](../media/UserGuidePhotos/Control-No-46-2.png)
 
-**Steuerelement Nr. 47:** Stellen Sie nachweisbare Nachweise dafür bereit, dass MFA für alle Remotezugriffsverbindungen und alle Nicht-Konsolen-Verwaltungsschnittstellen konfiguriert ist.
+<a id="control-47"></a>[Steuerung 47](#control-47): Stellen Sie nachweisbare Nachweise bereit, dass MFA für alle Remotezugriffsverbindungen und alle Nicht-Konsolen-Verwaltungsschnittstellen konfiguriert ist.
 
 Begriffe definiert als:
 - **Remotezugriff** – In der Regel bezieht sich dies auf Technologien, die für den Zugriff auf die unterstützende Umgebung verwendet werden. Beispiel: IPSec-VPN für Remotezugriff, SSL-VPN oder Jumpbox/Bastian-Host.
@@ -823,7 +825,7 @@ Beispielbeweis 2: Die folgenden Screenshots zeigen, dass alle Azure-Benutzer MFA
 
 **Hinweis:** Sie müssen Nachweise für alle Nicht-Konsolenverbindungen bereitstellen, um zu veranschaulichen, dass MFA für sie aktiviert ist. Beispielsweise, wenn Sie RDP oder SSH zu Servern oder anderen Systemkomponenten (d. h. Firewalls) verwenden.
 
-**Steuerelement Nr. 48:** Stellen Sie nachweisbare Beweise dafür bereit, dass eine starke Verschlüsselung für alle Remotezugriffsverbindungen und alle Nicht-Konsolen-Verwaltungsschnittstellen konfiguriert ist, einschließlich des Zugriffs auf Code-Repositorys und Cloudverwaltungsschnittstellen.
+<a id="control-48"></a>[Steuerung 48](#control-48): Stellen Sie nachweisbare Nachweise bereit, dass eine starke Verschlüsselung für alle Remotezugriffsverbindungen und alle nicht konsolenfremden Verwaltungsschnittstellen konfiguriert ist, einschließlich des Zugriffs auf Code-Repositorys und Cloudverwaltungsschnittstellen.
 
 Begriffe definiert als:
 - **Code-Repositorys** – Die Codebasis der App muss vor bösartigen Änderungen geschützt werden, die Schadsoftware in die App einbringen könnten. MFA muss im Coderepository konfiguriert werden.
@@ -841,7 +843,7 @@ Der folgende Nachweis zeigt auch, dass die RDP-Transportsicherheit für die Verw
 
 ![zeigt, dass die RDP-Transportsicherheit für die Verwendung von TLS 1.0 auf "Webserver01" konfiguriert ist. ](../media/UserGuidePhotos/Control-No-48-1.png)
 
-**Steuerelement Nr. 49:** Stellen Sie nachweisbare Nachweise bereit, dass MFA zum Schutz des Verwaltungsportals verwendet wird, das Sie zum Verwalten und Verwalten aller DNS-Einträge (Public Domain Name Service) verwenden.
+<a id="control-49"></a>[Kontrolle 49](#control-49): Stellen Sie nachweisbare Nachweise bereit, dass MFA zum Schutz des Verwaltungsportals verwendet wird, das Sie zum Verwalten und Verwalten aller DNS-Einträge (Public Domain Name Service) verwenden.
 
 - Absicht: Wenn ein Angreifer mit böswilligen Bedrohungen Zugriff auf öffentliche DNS-Einträge erhalten kann, besteht das Risiko, dass er in der Lage ist, von der App verwendete URLs zu ändern, oder wenn die Manifestdatei darauf hinweist, bösartigen Code einzuführen oder den Benutzerdatenverkehr an einen Endpunkt unter der Kontrolle der Akteure zu leiten. Dies kann zu einem Verlust von Benutzerdaten oder zu Schadsoftware-/Ransomware-Infektionen in der gesamten Benutzerbasis der App führen.
 
@@ -863,7 +865,7 @@ Intrusion Detection and Prevention Systems (IDPS) am Gateway kann eine zusätzli
 
 **Dieser Abschnitt dient der zusätzlichen Gutschrift und ist daher optional. Es ist jedoch nicht erforderlich, wenn Sie es abschließen, zeigt Ihre Bewertung ein vollständigeres Bild Ihrer Umgebung und der von Ihnen eingerichteten Steuerelemente und Standards an.**
 
-**Steuerelement Nr. 50:** Stellen Sie nachweisbare Nachweise dafür bereit, dass Intrusion Detection and Prevention Systems (IDPS) am Umfang der umgebungsbezogenen Umgebungen bereitgestellt wird.
+<a id="control-50"></a>[Control 50](#control-50): Stellen Sie nachweisbare Nachweise dafür bereit, dass Intrusion Detection and Prevention Systems (IDPS) am Umkreis der umgebungsbezogenen Umgebungen bereitgestellt wird.
 
 - Absicht: Obwohl einige Quellen Insider-Bedrohungen so beschreiben, dass sie die Bedrohungen durch externe Bedrohungsakteure überschreiten, umfassen Insider-Bedrohungen auch Fahrlässigkeit, wobei menschliche Fehler im Vergleich zum Jahr in Prozent zunehmen. Die Absicht der Installation von IDPS auf dem Umfang der In-Scope-Umgebung(en) besteht darin, dass externe Bedrohungen aufgrund der Art und Techniken, die von diesen Arten von Bedrohungen verwendet werden, häufig über IDPS-Mechanismen erkannt werden können.
 
@@ -877,7 +879,7 @@ Der folgende zusätzliche Screenshot zeigt, dass IDPS für alle Regeln in der Wa
 
 ![screenshot demonstrates that IDPS is enabled on all the rules within the WatchGuard Firewall's config.](../media/UserGuidePhotos/Control-No-50-1.png)
 
-**Steuerelement Nr. 51:** Stellen Sie nachweisbare Nachweise dafür bereit, dass IDPS-Signaturen (innerhalb von 24 Stunden) auf dem neuesten Stand gehalten werden.
+<a id="control-51"></a>[Kontrolle 51](#control-51): Nachweis erbringen, dass IDPS-Signaturen (innerhalb von 24 Stunden) auf dem neuesten Stand gehalten werden.
 
 - Absicht: Es gibt mehrere Betriebsmodi für IDPS, am häufigsten werden Signaturen verwendet, um Angriffsverkehr zu identifizieren. Wenn Angriffe weiterentwickelt und neuere Sicherheitsrisiken erkannt werden, ist es wichtig, dass IDPS-Signaturen auf dem neuesten Stand sind, um angemessenen Schutz zu bieten. Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass IDPS beibehalten wird.
 
@@ -889,7 +891,7 @@ Der folgende zusätzliche Screenshot zeigt, dass IDPS für alle Regeln in der Wa
 
 ![Zeigt, dass die Signaturen in einem Zeitraum von 24 Stunden aktualisiert werden.](../media/UserGuidePhotos/Control-No-51-1.png)
 
-**Steuerelement Nr. 52:** Stellen Sie nachweisbare Nachweise dafür bereit, dass IDPS so konfiguriert ist, dass die TLS-Überprüfung des gesamten eingehenden Webdatenverkehrs unterstützt wird.
+<a id="control-52"></a>[Kontrolle 52](#control-52): Stellen Sie nachweisbare Nachweise bereit, dass IDPS so konfiguriert ist, dass die TLS-Überprüfung des gesamten eingehenden Webdatenverkehrs unterstützt wird.
 
 - Absicht: Da IDPS auf Signaturen basiert, muss es in der Lage sein, alle Datenverkehrsströme zu untersuchen, um den Angriffsverkehr zu identifizieren. DER TLS-Datenverkehr ist verschlüsselt, weshalb IDPS den Datenverkehr nicht ordnungsgemäß überprüfen kann. Dies ist wichtig für HTTPS-Datenverkehr, da es eine Vielzahl von Bedrohungen gibt, die für Webdienste üblich sind. Mit diesem Steuerelement soll sichergestellt werden, dass verschlüsselte Datenverkehrsströme auch auf IDPS überprüft werden können.
 
@@ -911,7 +913,7 @@ Der folgende Screenshot zeigt, dass die Inhaltsüberprüfung aktiviert ist.
 
 ![Der folgende Screenshot zeigt, dass die Inhaltsüberprüfung aktiviert ist](../media/UserGuidePhotos/Control-No-52-3.png)
 
-**Steuerelement Nr. 53:** Stellen Sie nachweisbare Nachweise dafür bereit, dass IDPS so konfiguriert ist, dass alle eingehenden Datenverkehrsströme überwacht werden.
+<a id="control-53"></a>[Steuerelement 53](#control-53): Stellen Sie nachweisbare Nachweise bereit, dass IDPS so konfiguriert ist, dass alle eingehenden Datenverkehrsströme überwacht werden.
 
 - Absicht: Wie bereits erläutert, ist es wichtig, dass alle eingehenden Datenverkehrsströme von IDPS überwacht werden, um jede Form von Angriffsverkehr zu identifizieren.
 
@@ -921,7 +923,7 @@ Der folgende Screenshot zeigt, dass die Inhaltsüberprüfung aktiviert ist.
 
 ![screenshot shows that IDPS is configured on all the WatchGuard Firewall's rules (policies).](../media/UserGuidePhotos/Control-No-53.png)
 
-**Steuerelement Nr. 54:** Stellen Sie nachweisbare Nachweise dafür bereit, dass IDPS so konfiguriert ist, dass alle ausgehenden Datenverkehrsströme überwacht werden.
+<a id="control-54"></a>[Steuerung 54](#control-54): Stellen Sie nachweisbare Nachweise dafür bereit, dass IDPS so konfiguriert ist, dass alle ausgehenden Datenverkehrsströme überwacht werden.
 
 - Absicht: Wie bereits erläutert, ist es wichtig, dass alle ausgehenden Datenverkehrsströme von IDPS überwacht werden, um jede Form von Angriffsverkehr zu identifizieren. Einige IDPS-Systeme können auch potenzielle interne Verletzungen erkennen, indem sie den gesamten ausgehenden Datenverkehr überwachen. Dazu können Sie Datenverkehr identifizieren, der für &#39;Command and Control&#39; Endpunkte bestimmt ist.
 
@@ -977,7 +979,7 @@ Im folgenden Beispiel wurden die Standard-Premiumeinstellungen für die Konfigur
 
 Die Protokollierung von Sicherheitsereignissen ist ein integraler Bestandteil des Sicherheitsprogramms einer Organisation&#39;. Eine angemessene Protokollierung von Sicherheitsereignissen in Verbindung mit abgestimmten Benachrichtigungs- und Überprüfungsprozessen hilft Organisationen, Sicherheitsverletzungen oder versuchte Verstöße zu identifizieren, die von der Organisation verwendet werden können, um Sicherheits- und Verteidigungssicherheitsstrategien zu verbessern. Darüber hinaus ist eine angemessene Protokollierung entscheidend für die Reaktionsfähigkeit einer Organisation auf Vorfälle, die sich in andere Aktivitäten einspeisen kann, z. B. in der Lage zu sein, genau zu identifizieren, welche und welche&#39;Daten kompromittiert wurden, den Zeitraum der Kompromittierung, detaillierte Analyseberichte an Regierungsbehörden usw. zu übermitteln.
 
-**Steuerelement Nr. 55:** Stellen Sie Richtliniendokumentation für bewährte Methoden und Verfahren bereit, die die Protokollierung von Sicherheitsereignissen regeln.
+<a id="control-55"></a>[Steuerelement 55](#control-55): Stellen Sie Richtliniendokumentation für bewährte Methoden und Verfahren bereit, die die Protokollierung von Sicherheitsereignissen regeln.
 
 - Absicht: Die Protokollierung von Sicherheitsereignissen ist eine wichtige Funktion jedes Unternehmens&#39;Sicherheitsprogramm. Richtlinien und Verfahren müssen vorhanden sein, um Klarheit und Konsistenz zu schaffen, um sicherzustellen, dass Organisationen Protokollierungskontrollen gemäß den empfohlenen Methoden des Anbieters und der Branche implementieren. Dies trägt dazu bei, sicherzustellen, dass relevante und detaillierte Protokolle genutzt werden, die nicht nur bei der Identifizierung potenzieller oder tatsächlicher Sicherheitsereignisse nützlich sind, sondern auch einer Vorfallreaktionsaktivität helfen können, das Ausmaß einer Sicherheitsverletzung zu identifizieren.
 
@@ -989,7 +991,7 @@ Die Protokollierung von Sicherheitsereignissen ist ein integraler Bestandteil de
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 56:** Stellen Sie nachweisbare Nachweise bereit, die zeigen, dass die Protokollierung von Sicherheitsereignissen für alle beispielweise Systemkomponenten eingerichtet wurde, um die folgenden Ereignisse zu protokollieren:
+<a id="control-56"></a>[Steuerelement 56](#control-56): Stellen Sie nachweisbare Nachweise bereit, die zeigen, dass die Protokollierung von Sicherheitsereignissen über alle beispielierten Systemkomponenten hinweg eingerichtet ist, um die folgenden Ereignisse zu protokollieren:
 - Benutzerzugriff auf Systemkomponenten und die Anwendung
 - Alle Aktionen, die von einem Benutzer mit hohen Berechtigungen ausgeführt werden
 - Ungültige logische Zugriffsversuche
@@ -1018,7 +1020,7 @@ Dieser letzte Screenshot zeigt, dass die Protokollmeldung in der zentralen Proto
 
 **Hinweis**: Screenshots sind für alle in die Stichprobe einbezogenen Systemkomponenten erforderlich **UND** **MÜSSEN** alle oben beschriebenen Sicherheitsereignisse nachweisen.
 
-**Steuerelement Nr. 57:** Stellen Sie nachweisbare Nachweise bereit, dass protokollierte Sicherheitsereignisse die folgenden Mindestinformationen enthalten:
+<a id="control-57"></a>[Steuerelement 57](#control-57): Stellen Sie nachweisbare Nachweise bereit, dass protokollierte Sicherheitsereignisse die folgenden Mindestinformationen enthalten:
 - Benutzer
 - Ereignistyp
 - Datum und Uhrzeit
@@ -1035,7 +1037,7 @@ Dieser letzte Screenshot zeigt, dass die Protokollmeldung in der zentralen Proto
 
 **Hinweis**: Screenshots sind in allen beispielierten Systemkomponenten erforderlich **UND MÜSSEN** alle sicherheitsrelevanten Ereignisse nachweisen, die im obigen Steuerelement beschrieben sind. Es ist wahrscheinlich, dass die für das oben genannten Steuerelement gesammelten Nachweise auch dieses Steuerelement erfüllen, wobei angemessene Details der Protokollierungsinformationen bereitgestellt wurden.
 
-**Steuerelement Nr. 58:** Stellen Sie nachweisbare Nachweise dafür bereit, dass alle in die Stichprobe einbezogenen Systemkomponenten zeitsynchron mit denselben primären und sekundären Servern synchronisiert werden.
+<a id="control-58"></a>[Steuerelement 58](#control-58): Stellen Sie nachweisbare Nachweise bereit, dass alle in die Stichprobe einbezogenen Systemkomponenten mit denselben primären und sekundären Servern zeitsynchronisiert sind.
 
 - Absicht: Eine wichtige Komponente der Protokollierung ist die Sicherstellung, dass Protokolle auf allen Systemen über Systemuhren verfügen, die alle synchronisiert sind. Dies ist wichtig, wenn eine Untersuchung erforderlich ist, um einen Kompromiss und/oder eine Datenschutzverletzung nachzuverfolgen. Das Nachverfolgen der Ereignisse über verschiedene Systeme kann nahezu unmöglich werden, wenn die Protokolle unterschiedliche Zeitstempel aufweisen, da wichtige Protokolle übersehen werden könnten und es schwierig wird, sie nachzuverfolgen.
 
@@ -1053,7 +1055,7 @@ Dieser letzte Screenshot zeigt die bereichsbezogene Systemkomponente, CLARANET-S
 
 ![screenshot shows the in-scope system component, "CLARANET-SBU-WM" is configured for NTP to point to the primary server which is the WatchGuard Firewall (10.0.1.1).](../media/UserGuidePhotos/Control-No-58-2.png)
 
-**Steuerelement Nr. 59:** Stellen Sie nachweisbare Nachweise bereit, wenn öffentlich zugängliche Systeme verwendet werden, dass Sicherheitsereignisprotokolle an eine zentralisierte Protokollierungslösung gesendet werden, die sich nicht im Umkreisnetzwerk befindet.
+<a id="control-59"></a>[Steuerung 59](#control-59): Stellen Sie nachweisbare Nachweise bereit, wenn öffentlich zugängliche Systeme verwendet werden, dass Sicherheitsereignisprotokolle an eine zentralisierte Protokollierungslösung gesendet werden, die sich nicht im Umkreisnetzwerk befindet.
 
 - Absicht: Mit diesem Steuerelement soll eine logische oder physische Trennung zwischen dem DMZ und dem Protokollierungsendpunkt sichergestellt werden. Da das DMZ öffentlich ist, ist dies externen Bedrohungsakteuren ausgesetzt und daher stärker gefährdet als andere Komponenten innerhalb der Umgebung. Sollte eine DMZ-Komponente kompromittiert werden, muss die Integrität der Protokollierungsdaten beibehalten werden, um nicht nur zu verhindern, dass der Bedrohungsakteur die Protokolle manipuliert, um die Kompromittierung auszublenden, sondern auch, um alle forensischen Untersuchungsarbeiten zu unterstützen, die möglicherweise erforderlich sind. Durch die Protokollierung bei Systemen außerhalb der DMZ sollten Sicherheitskontrollen, die verwendet werden, um den Datenverkehr von der DMZ zu diesen Sicherheitssystemen einzuschränken, dazu beitragen, sie vor böswilligen Aktivitäten und Manipulationsversuchen zu schützen.
 
@@ -1071,7 +1073,7 @@ Die folgende URL für NXLog ([https://nxlog.co/documentation/nxlog-user-guide/mo
 
 ![Screenshot der Offlineprotokollverarbeitung](../media/UserGuidePhotos/Control-No-59-2.png)
 
-**Steuerelement Nr. 60:** Stellen Sie nachweisbare Nachweise bereit, um zu zeigen, dass die zentralisierte Protokollierungslösung vor unbefugter Manipulation von Protokollierungsdaten geschützt ist.
+<a id="control-60"></a>[Kontrolle 60](#control-60): Stellen Sie nachweisbare Nachweise bereit, um zu zeigen, dass die zentralisierte Protokollierungslösung vor unbefugter Manipulation von Protokollierungsdaten geschützt ist.
 
 - Absicht: Obwohl zwischen Protokollierungsgeräten und der zentralisierten Protokollierungslösung häufig eine logische / physische Trennung besteht, besteht weiterhin das Risiko, dass jemand versuchen könnte, die Protokolle zu manipulieren, um ihre Aktivitäten auszublenden. Mit diesem Steuerelement soll sichergestellt werden, dass angemessene Autorisierungsmechanismen vorhanden sind, um die Anzahl der Benutzer zu begrenzen, die administrative Aktionen für die zentralisierte Protokollierungslösung ausführen können.
 
@@ -1081,7 +1083,7 @@ Die folgende URL für NXLog ([https://nxlog.co/documentation/nxlog-user-guide/mo
 
 **Hinweis:** Wenn es sich um ein internes SIEM handelt, müssen Nachweise dafür erbracht werden, dass der Zugriff auf die Protokollierungsdaten auf eine ausgewählte Anzahl von Benutzern basierend auf ihrer Anforderung beschränkt ist und dass die Plattform selbst vor Manipulationen geschützt ist (die meisten Lösungen integrieren dies in die Funktionalität der Protokollierungslösung).
 
-**Steuerelement Nr. 61:** Stellen Sie nachweisbare Beweise dafür bereit, dass mindestens 30 Tage an Protokollierungsdaten für Sicherheitsereignisse sofort verfügbar sind, wobei 90 Tage Sicherheitsereignisprotokolle aufbewahrt werden.
+<a id="control-61"></a>[Kontrolle 61](#control-61): Stellen Sie nachweisbare Beweise dafür bereit, dass mindestens 30 Tage an Protokollierungsdaten für Sicherheitsereignisse sofort verfügbar sind, wobei 90 Tage Sicherheitsereignisprotokolle aufbewahrt werden.
 
 - Absicht: Manchmal gibt es einen Zeitunterschied zwischen einem Kompromittierungs- oder Sicherheitsereignis und einer Organisation, die es identifiziert. Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass die Organisation Zugriff auf historische Ereignisdaten hat, um die Reaktion auf Vorfälle und alle forensischen Untersuchungsarbeiten zu unterstützen, die möglicherweise erforderlich sind.
 
@@ -1107,7 +1109,7 @@ Dieser nächste Screenshot zeigt, dass Protokolle verfügbar sind, indem ein Pro
 
 Das Überprüfen von Sicherheitsprotokollen ist eine wichtige Funktion, um Organisationen bei der Identifizierung von Sicherheitsereignissen zu unterstützen, die auf sicherheitsverstöße oder Aufklärungsaktivitäten hindeuten können, die auf eine bevorstehende Aktion hindeuten können. Dies kann entweder durch einen manuellen Prozess täglich oder durch die Verwendung einer SIEM-Lösung (Security Information and Event Management) erfolgen, die durch die Analyse von Überwachungsprotokollen und die Suche nach Korrelationen und Anomalien hilft, die für eine manuelle Inspektion gekennzeichnet werden können.
 
-**Steuerelement Nr. 62:** Stellen Sie Richtliniendokumentation bereit, die die Protokollüberprüfungspraktiken und -verfahren regelt.
+<a id="control-62"></a>[Steuerelement 62](#control-62): Stellen Sie Richtliniendokumentation bereit, die Protokollüberprüfungspraktiken und -verfahren regelt.
 
 - Absicht: Ein Bericht von IBM mit dem Titel &quot;[Cost of a data breach Report 2020](https://www.ibm.com/security/digital-assets/cost-data-breach-report/#/)&quot; hebt hervor, dass die durchschnittliche Zeit zum Identifizieren und Eindämmen einer Datenschutzverletzung 280 Tage dauern kann, dies ist größer, wenn die Verletzung von einem böswilligen Bedrohungsakteur stammt, der als 315 Tage gemeldet wird. Da die durchschnittlichen Kosten einer Datenschutzverletzung in Millionen von Dollar angegeben werden, ist es wichtig, dass dieser Lebenszyklus von Datenschutzverletzungen reduziert wird, um nicht nur das Expositionsfenster für Daten zu minimieren, sondern auch den Zeitrahmen zu reduzieren, den ein Bedrohungsakteur zum Exfiltrieren von Daten aus der Umgebung hat. Durch die Reduzierung dieses Fensters können Organisationen die Gesamtkosten einer Datenschutzverletzung reduzieren.
 
@@ -1121,11 +1123,11 @@ Das Überprüfen von Sicherheitsprotokollen ist eine wichtige Funktion, um Organ
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 63:** Stellen Sie nachweisbare Beweise dafür bereit, dass Protokolle täglich von einem menschlichen oder automatisierten Tool überprüft werden, um potenzielle Sicherheitsereignisse zu identifizieren.
+<a id="control-63"></a>[Kontrolle 63](#control-63): Stellen Sie nachweisbare Nachweise bereit, dass Protokolle täglich von einem menschlichen oder automatisierten Tool überprüft werden, um potenzielle Sicherheitsereignisse zu identifizieren.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass tägliche Protokollprüfungen durchgeführt werden. Dies ist wichtig, um Anomalien zu identifizieren, die von den Warnungsskripts/Abfragen, die für die Bereitstellung von Sicherheitsereigniswarnungen konfiguriert sind, möglicherweise nicht erfasst werden.
 
-- Beispielrichtlinien für Nachweise: Nachweise würden in der Regel durch Screenshot oder eine Bildschirmfreigabe bereitgestellt, die zeigen, dass Protokollüberprüfungen durchgeführt werden. Dies kann durch Formulare erfolgen, die jeden Tag ausgefüllt werden, oder durch ein JIRA oder DevOps Ticket mit relevanten Kommentaren, um zu zeigen, dass dies täglich durchgeführt wird. Beispielsweise kann ein wöchentliches JIRA-Ticket erstellt &quot;werden Daily Log Review W/C 26th June 2021&quot;, each day someone posts the results of the daily log review. Wenn Anomalien gekennzeichnet werden, kann dies in diesem Ticket dokumentiert werden, um das nächste Steuerelement in einer einzigen JIRA zu veranschaulichen.
+- Beispielrichtlinien für Nachweise: Nachweise würden in der Regel durch Screenshot oder eine Bildschirmfreigabe bereitgestellt, die zeigen, dass Protokollüberprüfungen durchgeführt werden. Dies kann durch jeden Tag ausgefüllte Formulare oder durch eine JIRA oder DevOps Ticket mit relevanten Kommentaren erfolgen, um zu zeigen, dass dies täglich erfolgt. Beispielsweise kann am 26. Juni 2021&quot; eine wöchentliche JIRA Ticket für die tägliche Protokollüberprüfung W/C erstellt &quot;werden, jeden Tag, an dem jemand die Ergebnisse der täglichen Protokollüberprüfung veröffentlicht. Wenn Anomalien gekennzeichnet werden, kann dies in diesem Ticket dokumentiert werden, um das nächste Steuerelement in einem einzigen JIRA zu veranschaulichen.
 
 - Wenn automatisierte Tools verwendet werden, können Screenshotnachweise bereitgestellt werden, um die konfigurierte Automatisierung zu veranschaulichen und zusätzliche Nachweise bereitzustellen, um zu zeigen, dass die Automatisierung ausgeführt wird und jemand die automatisierte Ausgabe überprüft.
 
@@ -1147,11 +1149,11 @@ Dieser nächste Screenshot zeigt, dass ein Ticket automatisch innerhalb des SOC&
 
 ![screenshot shows that a ticket is automatically raised within the SOC's ServiceNow tool, triggering the rule above.](../media/UserGuidePhotos/Control-No-63-3.png)
 
-**Steuerelement Nr. 64:** Stellen Sie nachweisbare Beweise dafür bereit, dass potenzielle Sicherheitsereignisse und Anomalien untersucht und behoben werden.
+<a id="control-64"></a>[Kontrolle 64](#control-64): Stellen Sie nachweisbare Beweise dafür bereit, dass potenzielle Sicherheitsereignisse und Anomalien untersucht und behoben werden.
 
 - Absicht: Die Absicht besteht darin, dass alle Anomalien, die während des täglichen Protokollüberprüfungsprozesses identifiziert werden, untersucht und geeignete Korrekturen oder Maßnahmen durchgeführt werden. Dies umfasst in der Regel einen Triageprozess, um zu ermitteln, ob die Anomalien eine Aktion erfordern, und dann möglicherweise den Prozess zur Reaktion auf Vorfälle aufrufen müssen.
 
-- Beispielrichtlinien für Nachweise: Nachweise sollten mithilfe eines Screenshots bereitgestellt werden, der zeigt, dass Anomalien, die im Rahmen der täglichen Protokollüberprüfung identifiziert wurden, weiterverfolgt werden. Wie bereits oben erwähnt, kann dies durch JIRA-Tickets erfolgen, die eine Anomalie zeigen, die gekennzeichnet wird, und dann die aktivitäten, die danach durchgeführt wurden. Dies kann dazu führen, dass ein bestimmtes JIRA-Ticket ausgelöst wird, um alle ausgeführten Aktivitäten nachzuverfolgen, oder es kann nur im täglichen Protokollprüfticket dokumentiert werden. Wenn eine Aktion zur Reaktion auf Vorfälle erforderlich ist, sollte dies im Rahmen des Vorfallreaktionsprozesses dokumentiert werden, und es sollten Nachweise bereitgestellt werden, um dies zu demonstrieren.
+- Beispielrichtlinien für Nachweise: Nachweise sollten mithilfe eines Screenshots bereitgestellt werden, der zeigt, dass Anomalien, die im Rahmen der täglichen Protokollüberprüfung identifiziert wurden, weiterverfolgt werden. Wie bereits oben erwähnt, kann dies durch JIRA Tickets erfolgen, die eine Anomalie zeigen, die gekennzeichnet wird, und dann die aktivitäten, die danach durchgeführt wurden. Dies kann dazu führen, dass ein bestimmtes JIRA Ticket ausgelöst wird, um alle ausgeführten Aktivitäten nachzuverfolgen, oder es kann nur im täglichen Protokollprüfticket dokumentiert werden. Wenn eine Aktion zur Reaktion auf Vorfälle erforderlich ist, sollte dies im Rahmen des Vorfallreaktionsprozesses dokumentiert werden, und es sollten Nachweise bereitgestellt werden, um dies zu demonstrieren.
 
 - Beispielnachweis: Das folgende Screenshotbeispiel zeigt eine Sicherheitswarnung, die in ServiceNow vom Claranet Cyber Security MDR (Managed Detection and Response) SOC nachverfolgt wird.
 
@@ -1165,7 +1167,7 @@ Dieser nächste Screenshot zeigt die Bestätigung, dass dies von David Ashton @ 
 
 Kritische Sicherheitsereignisse müssen sofort untersucht werden, um die Auswirkungen auf die Daten und die betriebsbereite Umgebung zu minimieren. Mithilfe von Warnungen können Mitarbeiter sofort potenzielle Sicherheitsverletzungen hervorheben, um eine rechtzeitige Reaktion sicherzustellen, damit die Organisation das Sicherheitsereignis so schnell wie möglich eindämmen kann. Indem sichergestellt wird, dass die Warnung effektiv funktioniert, können Organisationen die Auswirkungen einer Sicherheitsverletzung minimieren und so die Wahrscheinlichkeit einer schweren Verletzung verringern, die die Marke der Organisation beschädigen und finanzielle Verluste durch Bußgelder und Reputationsschäden verursachen könnte.
 
-**Steuerelement Nr. 65:** Stellen Sie Richtliniendokumentation bereit, die Benachrichtigungspraktiken und -verfahren für Sicherheitsereignisse regelt.
+<a id="control-65"></a>[Steuerelement 65](#control-65): Stellen Sie Richtliniendokumentation bereit, die Benachrichtigungspraktiken und -verfahren für Sicherheitsereignisse regelt.
 
 - Absicht: Warnungen sollten für wichtige Sicherheitsereignisse verwendet werden, die eine sofortige Antwort von einer Organisation erfordern, da das Potenzial des Ereignisses auf eine Umgebungsverletzung und/oder eine Datenschutzverletzung hindeuten kann. Ein starker Prozess rund um den Warnungsprozess sollte dokumentiert werden, um sicherzustellen, dass dies auf konsistente und wiederholbare Weise erfolgt. Dies wird hoffentlich dazu beitragen, die Zeitachse für den Lebenszyklus&quot; von &quot;Datenschutzverletzungen zu reduzieren.
 
@@ -1177,7 +1179,7 @@ Kritische Sicherheitsereignisse müssen sofort untersucht werden, um die Auswirk
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 66:** Stellen Sie nachweisbare Beweise dafür bereit, dass Warnungen für die sofortige Triage für die folgenden Arten von Sicherheitsereignissen ausgelöst werden:
+<a id="control-66"></a>[Steuerelement 66](#control-66): Stellen Sie nachweisbare Nachweise bereit, dass Warnungen für die sofortige Triage für die folgenden Arten von Sicherheitsereignissen ausgelöst werden:
 - Erstellung oder Änderung eines privilegierten Kontos
 - Viren- oder Schadsoftwareereignisse
 - Manipulation des Ereignisprotokolls
@@ -1185,7 +1187,7 @@ Kritische Sicherheitsereignisse müssen sofort untersucht werden, um die Auswirk
 
 - Absicht: Oben sind eine Liste einiger Arten von Sicherheitsereignissen aufgeführt, die ein Sicherheitsereignis hervorheben könnten, das auf eine Umgebungsverletzung und/oder Datenschutzverletzung hinweisen kann.
 
-- Beispielrichtlinien für Nachweise: Nachweise sollten mithilfe von Screenshots der Warnungskonfiguration **und** nachweisen der empfangenen Warnungen bereitgestellt werden. Die Konfigurations-Screenshots sollten die Logik anzeigen, die die Warnungen auslöst, und die Art und Weise, wie die Warnungen gesendet werden. Benachrichtigungen können per SMS, E-Mail, Teams Kanälen, Slack-Kanälen usw. gesendet werden...
+- Beispielrichtlinien für Nachweise: Nachweise sollten mithilfe von Screenshots der Warnungskonfiguration **und** nachweisen der empfangenen Warnungen bereitgestellt werden. Die Konfigurations-Screenshots sollten die Logik anzeigen, die die Warnungen auslöst, und die Art und Weise, wie die Warnungen gesendet werden. Benachrichtigungen können über SMS, E-Mail, Teams Kanäle, Slack-Kanäle usw. gesendet werden...
 
 - Beispielnachweis: Contoso nutzt ein Drittanbieter-SOC, das von [Claranet Cyber Security](https://www.claranet.co.uk/services/cybersecurity/managed-detection-and-response) bereitgestellt wird. Das folgende Beispiel zeigt, dass Benachrichtigungen innerhalb von AlienVault, die vom SOC verwendet werden, so konfiguriert sind, dass eine Warnung an ein Mitglied des SOC-Teams, Dan Turner bei Claranet Cyber Security, gesendet wird.
 ![Beispiel zeigt, dass Benachrichtigungen in AlienVault, die vom SOC verwendet werden, so konfiguriert sind, dass eine Benachrichtigung an ein Mitglied des SOC-Teams, Dan Turner bei Claranet Cyber Security, gesendet wird.](../media/UserGuidePhotos/Control-No-66.png)
@@ -1193,7 +1195,7 @@ Kritische Sicherheitsereignisse müssen sofort untersucht werden, um die Auswirk
 Dieser nächste Screenshot zeigt eine Benachrichtigung, die von Dan empfangen wird.
 ![screenshot shows an alert being received by Dan.](../media/UserGuidePhotos/Control-No-66-1.png)
 
-**Steuerelement Nr. 67:** Stellen Sie nachweisbare Nachweise bereit, die zeigen, dass Mitarbeiter den ganzen Tag über zur Verfügung stehen, um auf Sicherheitswarnungen zu reagieren.
+<a id="control-67"></a>[Kontrolle 67](#control-67): Stellen Sie nachweisbare Nachweise bereit, die zeigen, dass Mitarbeiter den ganzen Tag über, jeden Tag, verfügbar sind, um auf Sicherheitswarnungen zu reagieren.
 
 - Absicht: Es ist wichtig, dass Sicherheitswarnungen so schnell wie möglich triaged werden, um die Exposition gegenüber der Umgebung und/oder den Daten zu begrenzen. Mitarbeiter müssen immer zur Verfügung stehen, um auf Warnungen zu reagieren und kritische Untersuchungsarbeiten zu leisten, wenn eine Sicherheitsverletzung erkannt wird. Je schneller dieser Prozess beginnt, desto schneller kann der Sicherheitsvorfall eingedämmt werden, um die Daten zu schützen oder die Auswirkungen der Verletzung zu begrenzen.
 
@@ -1207,7 +1209,7 @@ Dieser nächste Screenshot zeigt eine Benachrichtigung, die von Dan empfangen wi
 
 Das Informationssicherheits-Risikomanagement ist eine wichtige Aktivität, die alle Organisationen mindestens jährlich durchführen sollten. Organisationen müssen ihre Bedrohungen und Risiken verstehen, um diese Bedrohungen effektiv zu mindern. Ohne effektives Risikomanagement können Organisationen bewährte Sicherheitsmethoden in Bereichen implementieren, die sie für wichtig halten, und daher Ressourcen, Zeit und Geld in diese Bereiche investieren, wenn andere Bedrohungen viel wahrscheinlicher sind und daher abgemildert werden sollten. Ein effektives Risikomanagement hilft Organisationen dabei, sich auf Risiken zu konzentrieren, die die größte Bedrohung für das Unternehmen darstellen. Dies sollte jährlich durchgeführt werden, da sich die Sicherheitslandschaft ständig ändert und sich daher Bedrohungen und Risiken über die Zeit ändern können. Ein gutes Beispiel dafür ist COVID-19, das eine massive Zunahme von Phishing-Angriffen und die massenhafte (und schnelle) Einführung von Remotearbeit für Hunderte oder Tausende von Mitarbeitern sah.
 
-**Steuerelement Nr. 68:** Stellen Sie nachweisbare Nachweise für die Einrichtung eines formalen Risikomanagementprozesses für die Informationssicherheit bereit.
+<a id="control-68"></a>[Kontrolle 68](#control-68): Stellen Sie nachweisbare Beweise dafür bereit, dass ein formaler Risikomanagementprozess für die Informationssicherheit eingerichtet ist.
 
 - Absicht: Wie bereits erwähnt, ist ein stabiler Risikomanagementprozess für die Informationssicherheit wichtig, um Organisationen dabei zu helfen, Risiken effektiv zu verwalten. Dies hilft Organisationen bei der Planung effektiver Gegenmaßnahmen gegen Bedrohungen für die Umgebung.
 
@@ -1222,7 +1224,7 @@ Das Informationssicherheits-Risikomanagement ist eine wichtige Aktivität, die a
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 69:** Stellen Sie nachweisbare Nachweise dafür bereit, dass mindestens jährlich eine formale Risikobewertung stattfindet.
+<a id="control-69"></a>[Kontrolle 69](#control-69): Stellen Sie nachweisbare Beweise dafür bereit, dass mindestens jährlich eine formale Risikobewertung stattfindet.
 
 - Absicht: Sicherheitsbedrohungen ändern sich ständig basierend auf Änderungen der Umgebung, Änderungen der angebotenen Dienste, externen Einflüssen, der Entwicklung der Sicherheitsbedrohungslandschaft usw. Organisationen müssen diesen Prozess mindestens jährlich durchlaufen. Es wird empfohlen, dass dieser Prozess auch bei erheblichen Änderungen durchgeführt wird, da sich Bedrohungen ändern können.
 
@@ -1237,7 +1239,7 @@ Diese beiden Screenshots zeigen die Besprechungsprotokolle aus zwei Besprechunge
 
 ![screenshot show additional meeting minutes from two risk assessment meeting.](../media/UserGuidePhotos/Control-No-69-2.png)
 
-**Steuerelement Nr. 70:** Stellen Sie nachweisbare Beweise dafür bereit, dass die Risikobewertung der Informationssicherheit Bedrohungen, Sicherheitsrisiken oder das Entsprechende umfasst.
+<a id="control-70"></a>[Kontrolle 70](#control-70): Stellen Sie nachweisbare Nachweise dafür bereit, dass die Risikobewertung der Informationssicherheit Bedrohungen, Sicherheitsrisiken oder das Äquivalent umfasst.
 
 - Absicht: Risikobewertungen zur Informationssicherheit sollten gegen Bedrohungen der Umgebung und der Daten sowie gegen mögliche Sicherheitsrisiken durchgeführt werden, die vorhanden sein können. Dies hilft Organisationen dabei, die Vielzahl von Bedrohungen/Sicherheitsrisiken zu identifizieren, die ein erhebliches Risiko darstellen können.
 
@@ -1249,7 +1251,7 @@ Diese beiden Screenshots zeigen die Besprechungsprotokolle aus zwei Besprechunge
 
 **Hinweis:** Die vollständige Dokumentation zur Risikobewertung sollte anstelle eines Screenshots bereitgestellt werden.
 
-**Steuerelement Nr. 71:** Stellen Sie nachweisbare Beweise dafür bereit, dass die Risikobewertung der Informationssicherheit Auswirkungen, Wahrscheinlichkeitsrisikomatrix oder die entsprechende Risikomatrix umfasst.
+<a id="control-71"></a>[Kontrolle 71](#control-71): Stellen Sie nachweisbare Beweise dafür bereit, dass die Risikobewertung der Informationssicherheit Auswirkungen, Wahrscheinlichkeitsrisikomatrix oder die entsprechende Risikomatrix enthält.
 
 - Absicht: Risikobewertungen zur Informationssicherheit sollten Auswirkungs- und Wahrscheinlichkeitsbewertungen dokumentieren. Diese Matrizen werden in der Regel verwendet, um einen Risikowert zu identifizieren, der von der Organisation verwendet werden kann, um die Risikobehandlung zu priorisieren, um den Risikowert zu verringern.
 
@@ -1261,7 +1263,7 @@ Diese beiden Screenshots zeigen die Besprechungsprotokolle aus zwei Besprechunge
 
 **Hinweis:** Das vollständige Risiko assessment_ _document__ation sollte anstelle eines Screenshots bereitgestellt werden.
 
-**Steuerelement Nr. 72:** Stellen Sie nachweisbare Beweise dafür bereit, dass die Risikobewertung der Informationssicherheit ein Risikoregister und einen Behandlungsplan enthält.
+<a id="control-72"></a>[Kontrolle 72](#control-72): Nachweise dafür liefern, dass die Risikobewertung der Informationssicherheit ein Risikoregister und einen Behandlungsplan enthält.
 
 - Absicht: Organisationen müssen Risiken effektiv verwalten. Dies muss ordnungsgemäß nachverfolgt werden, um entweder eine der vier angewendeten Risikobehandlungen zu erfassen. Risikobehandlungen sind:
 
@@ -1292,7 +1294,7 @@ Ein Bericht von IBM mit dem Titel &quot;["Cost of a data breach Report 2020](htt
 
 Organisationen sollten bewährte Methoden für die Sicherheitscompliance unter Verwendung von Branchenstandardframeworks wie ISO 27001, NIST, SOC 2, PCI DSS usw. einhalten.
 
-**Steuerelement Nr. 73:** Stellen Sie den Sicherheitsvorfallreaktionsplan (Security Incident Response Plan, IRP) bereit.
+<a id="control-73"></a>[Kontrolle 73](#control-73): Bereitstellen des Sicherheitsvorfallreaktionsplans (Security Incident Response Plan, IRP).
 
 - Absicht: Wie bereits erläutert, besteht die Absicht dieses Steuerelements darin, einen formal dokumentierten Plan zur Reaktion auf Vorfälle zu verlangen. Dies wird dazu beitragen, eine Reaktion auf Sicherheitsvorfälle effizienter zu verwalten, wodurch letztendlich die Gefährdung durch Datenverlust in Organisationen begrenzt und die Kosten des Kompromisses reduziert werden können.
 
@@ -1304,7 +1306,7 @@ Organisationen sollten bewährte Methoden für die Sicherheitscompliance unter V
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 74:** Stellen Sie nachweisbare Beweise dafür bereit, dass das Sicherheits-IRP einen dokumentierten Kommunikationsprozess umfasst, um wichtige Interessengruppen wie Zahlungsmarken und Acquirer, Aufsichtsbehörden, Direktoren und Kunden rechtzeitig zu informieren.
+<a id="control-74"></a>[Kontrolle 74](#control-74): Stellen Sie nachweisbare Beweise dafür bereit, dass das Sicherheits-IRP einen dokumentierten Kommunikationsprozess umfasst, um eine zeitnahe Benachrichtigung an wichtige Interessengruppen wie Zahlungsmarken und Acquirer, Aufsichtsbehörden, Aufsichtsbehörden, Direktoren und Kunden sicherzustellen.
 
 - Absicht: Organisationen können auf der Grundlage des Landes/der Länder, in denen sie tätig sind (z. B. der Datenschutz-Grundverordnung; DSGVO) oder basierend auf der angebotenen Funktionalität (z. B. PCI DSS, wenn Zahlungsdaten verarbeitet werden). Wenn eine rechtzeitige Benachrichtigung nicht erfolgt, kann dies schwerwiegende Auswirkungen haben. Um sicherzustellen, dass die Benachrichtigungspflichten erfüllt sind, sollten die Pläne für die Reaktion auf Vorfälle einen Kommunikationsprozess umfassen, einschließlich der Kommunikation mit allen Beteiligten, Medienkommunikationsprozessen und personen, die mit den Medien sprechen können und können.
 
@@ -1314,7 +1316,7 @@ Organisationen sollten bewährte Methoden für die Sicherheitscompliance unter V
 
 ![screenshot shows an extract from the incident response plan showing the communication process](../media/UserGuidePhotos/Control-No-74.png)
 
-**Steuerelement Nr. 75:** Stellen Sie nachweisbare Beweise dafür bereit, dass alle Mitglieder des Vorfallreaktionsteams eine jährliche Schulung oder eine Tischübung abgeschlossen haben.
+<a id="control-75"></a>[Kontrolle 75](#control-75): Stellen Sie nachweisbare Nachweise bereit, dass alle Mitglieder des Vorfallreaktionsteams eine jährliche Schulung oder eine Tischübung abgeschlossen haben.
 
 - Absicht: Je länger es dauert, bis eine Organisation einen Kompromiss eindämmt, desto größer ist das Risiko einer Datenexfiltration, was möglicherweise zu einem größeren Volumen von exfiltrierten Daten und je höher die Gesamtkosten des Kompromisses sind. Es ist wichtig, dass die Teams der Organisation&#39;zur Reaktion auf Vorfälle rechtzeitig auf Sicherheitsvorfälle reagieren können. Durch regelmäßige Schulungen und Die Durchführung von Tabletop-Übungen rüstet dies das Team aus, um Sicherheitsvorfälle schnell und effizient zu behandeln.
 
@@ -1332,7 +1334,7 @@ Organisationen sollten bewährte Methoden für die Sicherheitscompliance unter V
 
 **Hinweis:** Der vollständige Bericht müsste geteilt werden. Diese Übung könnte auch intern durchgeführt werden, da es keine Microsoft 365 Anforderung gibt, dies von einem Drittanbieterunternehmen durchzuführen.
 
-**Steuerelement Nr. 76:** Stellen Sie nachweisbare Nachweise bereit, um zu zeigen, dass die Sicherheits-IRP basierend auf den gewonnenen Erkenntnissen oder organisatorischen Änderungen aktualisiert wurde.
+<a id="control-76"></a>[Kontrolle 76](#control-76): Stellen Sie nachweisbare Nachweise bereit, um zu zeigen, dass die Sicherheits-IRP basierend auf den gewonnenen Erkenntnissen oder organisatorischen Änderungen aktualisiert wurde.
 
 - Absicht: Im Laufe der Zeit sollte sich der Plan zur Reaktion auf Vorfälle (Incident Response Plan, IRP) basierend auf organisatorischen Änderungen oder auf der Grundlage von Erkenntnissen entwickeln, die beim Erlass des IRP gewonnen wurden. Änderungen an der Betriebsumgebung erfordern möglicherweise Änderungen am IRP, da sich die Bedrohungen ändern können, oder behördliche Anforderungen können sich ändern. Darüber hinaus können durch Tabletop-Übungen und tatsächliche Reaktionen auf Sicherheitsvorfälle häufig Bereiche des IRP identifiziert werden, die verbessert werden können. Dies muss in den Plan integriert werden, und die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass dieser Prozess in das IRP einbezogen wird.
 
@@ -1356,7 +1358,7 @@ Diese Sicherheitsdomäne ist enthalten, um sicherzustellen, dass alle von M365 v
 
 Aufgrund der Konnektivitätsanforderungen von M365 entwickelten Apps/Add-Ins erfolgt die Kommunikation über öffentliche Netzwerke, nämlich das Internet. Aus diesem Grund müssen die Daten bei der Durchfuhr entsprechend geschützt werden. Dieser Abschnitt befasst sich mit dem Schutz der Datenkommunikation über das Internet.
 
-**Steuerelement Nr. 1:** Stellen Sie nachweisbare Nachweise bereit, dass die TLS-Konfiguration die Verschlüsselungsanforderungen innerhalb der [TLS-Profilkonfigurationsanforderungen](../docs/certification-submission-guide.md#appendix-a) erfüllt oder übersteigt.
+<a id="control-1b"></a>[Steuerung 1](#control-1b): Stellen Sie nachweisbare Nachweise bereit, dass die TLS-Konfiguration die Verschlüsselungsanforderungen innerhalb der [TLS-Profilkonfigurationsanforderungen](../docs/certification-submission-guide.md#appendix-a) erfüllt oder übersteigt.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass M365-Daten, die von Ihrer Organisation genutzt werden, sicher übertragen werden. Die TLS-Profilkonfiguration definiert TLS-spezifische Anforderungen, um sicherzustellen, dass der Datenverkehr vor Man-in-the-Middle-Angriffen sicher ist.
 
@@ -1398,7 +1400,7 @@ Hexadezimal: 0x00000000 - aus 0xffffffff - ein
 
 **Hinweis**: Diese Screenshots allein können diese Anforderung nicht erfüllen.
 
-**Steuerelement Nr. 2:** Stellen Sie nachweisbare Beweise dafür bereit, dass die TLS-Komprimierung für alle öffentlich zugänglichen Dienste deaktiviert ist, die Webanforderungen verarbeiten.
+<a id="control-2b"></a>[Kontrolle 2](#control-2b): Stellen Sie nachweisbare Nachweise bereit, dass die TLS-Komprimierung für alle öffentlich zugänglichen Dienste deaktiviert ist, die Webanforderungen verarbeiten.
 
 - Absicht: Es gibt eine bestimmte TLS-Sicherheitsanfälligkeit, CRIME ([CVE-2012-4929](https://nvd.nist.gov/vuln/detail/CVE-2012-4929)), die die TLS-Komprimierung betrifft. Aus diesem Grund sollen Branchenempfehlungen diese Funktionalität deaktivieren.
 
@@ -1408,7 +1410,7 @@ Hexadezimal: 0x00000000 - aus 0xffffffff - ein
 
 ![screenshot shows evidence through the Qualys SSL Labs tool](../media/UserGuidePhotos/Security-Domain-Control-No-2.png)
 
-**Steuerelement Nr. 3:** Stellen Sie nachweisbare Nachweise dafür bereit, dass TLS HTTP strict transport security aktiviert und auf allen Websites auf >= 15552000 konfiguriert ist.
+<a id="control-3b"></a>[Kontrolle 3](#control-3b): Stellen Sie nachweisbare Nachweise dafür bereit, dass TLS HTTP strict transport security aktiviert und für >= 15552000 auf allen Websites konfiguriert ist.
 
 - Absicht: HTTP Strict Transport Security (HSTS) ist ein Sicherheitsmechanismus, der Websites vor Man-in-the-Middle-Angriffen schützt, indem TLS-Verbindungen über ein HTTPS-Antwortheaderfeld namens &quot;Strict-Transport-Security&quot; erzwungen werden.
 
@@ -1422,7 +1424,7 @@ Hexadezimal: 0x00000000 - aus 0xffffffff - ein
 
 Wenn von der Microsoft 365 Plattform genutzte Daten von ISVs gespeichert werden, müssen die Daten entsprechend geschützt werden. In diesem Abschnitt werden die Schutzanforderungen von Daten behandelt, die in Datenbanken und Dateispeichern gespeichert sind.
 
-**Steuerelement Nr. 4:** Stellen Sie nachweisbare Beweise dafür bereit, dass ruhenden Daten inline mit den Verschlüsselungsprofilanforderungen verschlüsselt werden, indem Sie Verschlüsselungsalgorithmen wie AES, Blowfish, TDES und Verschlüsselungsschlüsselgrößen von 128-Bit und 256-Bit verwenden.
+<a id="control-4b"></a>[Steuerung 4](#control-4b): Stellen Sie nachweisbare Nachweise dafür bereit, dass ruhenden Daten inline mit den Verschlüsselungsprofilanforderungen verschlüsselt werden, indem Verschlüsselungsalgorithmen wie AES, Blowfish, TDES und Verschlüsselungsschlüsselgrößen von 128-Bit und 256-Bit verwendet werden.
 
 - Absicht: Einige ältere Verschlüsselungsalgorithmen enthalten bekannte kryptografische Schwächen, was die Wahrscheinlichkeit erhöht, dass ein Bedrohungsakteur die Daten ohne Kenntnis des Schlüssels entschlüsseln kann. Aus diesem Grund besteht die Absicht dieses Steuerelements darin, sicherzustellen, dass nur in der Branche akzeptierte Verschlüsselungsalgorithmen verwendet werden, um gespeicherte M365-Daten zu schützen.
 
@@ -1440,7 +1442,7 @@ Wenn von der Microsoft 365 Plattform genutzte Daten von ISVs gespeichert werden,
 
 ![Screenshot zeigt, dass Azure Storage AES-256 für die Verschlüsselung verwendet](../media/UserGuidePhotos/Security-Domain-Control-No-4-3.png)
 
-**Steuerelement Nr. 5:** Stellen Sie nachweisbare Nachweise dafür bereit, dass die Hashfunktion oder Nachrichtenauthentifizierung (HMAC-SHA1) nur verwendet wird, um ruhenden Daten inline mit den Verschlüsselungsprofilanforderungen zu schützen.
+<a id="control-5b"></a>[Steuerelement 5](#control-5b): Stellen Sie nachweisbare Beweise dafür bereit, dass die Hashfunktion oder Nachrichtenauthentifizierung (HMAC-SHA1) nur verwendet wird, um ruhenden Daten inline mit den Verschlüsselungsprofilanforderungen zu schützen.
 
 - Absicht: Wie bei Verschlüsselungsalgorithmen basieren einige Hashfunktionen und Nachrichtenauthentifizierungsalgorithmen auf Algorithmen mit kryptografischen Schwächen. Mit diesem Steuerelement soll sichergestellt werden, dass M365-Daten durch starke Hashfunktionen geschützt werden, wenn Hashing als Datenschutzmechanismus verwendet wird. Wenn dies nicht von der Umgebung und/oder anwendung verwendet wird, müssen Nachweise vorgelegt werden, die dies bestätigen können.
 
@@ -1450,7 +1452,7 @@ Wenn von der Microsoft 365 Plattform genutzte Daten von ISVs gespeichert werden,
 
 ![Screenshot zeigt, dass SHA256 als Teil der Hashfunktion verwendet wird](../media/UserGuidePhotos/Security-Domain-Control-No-5.png)
 
-**Steuerelement Nr. 6:** Stellen Sie eine Bestandsaufnahme aller gespeicherten Daten bereit, einschließlich des Speicherorts und der Verschlüsselung, die zum Schutz der Daten verwendet werden.
+<a id="control-6b"></a>[Kontrolle 6](#control-6b): Stellen Sie eine Bestandsaufnahme aller gespeicherten Daten bereit, einschließlich des Speicherorts und der Verschlüsselung, die zum Schutz der Daten verwendet werden.
 
 - Absicht: Um Daten ordnungsgemäß zu schützen, müssen Organisationen wissen, welche Daten ihre Umgebung / Systeme verbrauchen und wo die Daten gespeichert werden. Sobald dies vollständig verstanden und dokumentiert ist, können Organisationen nicht nur einen angemessenen Datenschutz implementieren, sondern auch konsolidieren, wo sich die Daten befinden, um den Schutz effektiver zu implementieren. Wenn Daten an möglichst wenigen Stellen konsolidiert werden, ist es viel einfacher, eine angemessene RBAC (rollenbasierte Zugriffssteuerung) zu implementieren, um den Zugriff auf so wenige Mitarbeiter wie nötig zu beschränken.
 
@@ -1464,7 +1466,7 @@ Wenn von der Microsoft 365 Plattform genutzte Daten von ISVs gespeichert werden,
 
 Wenn ISVs M365-Daten nutzen und speichern, besteht das Risiko einer Datenkompromittierung, wenn ein Bedrohungsakteur die ISV-Umgebung kompromittiert. Um dieses Risiko zu minimieren, sollten Organisationen nur Daten aufbewahren, die sie für Zustellungsdienste benötigen, und keine Daten, &quot;&quot; die in Zukunft möglicherweise von Nutzen sind. Darüber hinaus sollten Daten nur so lange aufbewahrt werden, wie dies erforderlich ist, um die Dienste bereitzustellen, für die die Daten erfasst wurden. Die Datenaufbewahrung sollte definiert und mit den Benutzern kommuniziert werden. Sobald Daten den definierten Aufbewahrungszeitraum überschreiten, müssen diese sicher gelöscht werden, damit die Daten nicht rekonstruiert oder wiederhergestellt werden können.
 
-**Steuerelement Nr. 7:** Stellen Sie nachweisbare Nachweise dafür bereit, dass ein genehmigter und dokumentierter Datenaufbewahrungszeitraum formell festgelegt ist.
+<a id="control-7b"></a>[Kontrolle 7](#control-7b): Stellen Sie nachweisbare Nachweise dafür bereit, dass ein genehmigter und dokumentierter Zeitraum für die Datenaufbewahrung formell eingerichtet ist.
 
 - Absicht: Eine dokumentierte und befolgte Aufbewahrungsrichtlinie ist nicht nur wichtig, um einige rechtliche Verpflichtungen zu erfüllen, z. B. datenschutzrechtliche Vorschriften wie die Datenschutz-Grundverordnung (EU-DSGVO) und das Datenschutzgesetz (UK DPA 2018), sondern auch um das Risiko eines Unternehmens zu begrenzen. Durch das Verständnis der Datenanforderungen von Organisationen und der Dauer, die Daten benötigt werden, damit das Unternehmen seine Funktionen ausführen kann, können Organisationen sicherstellen, dass Daten ordnungsgemäß verworfen werden, sobald ihre Nützlichkeit abläuft. Durch die Verringerung der Datenmengen verringern Organisationen die Datenmenge, die im Fall einer Datenkompromittierung verfügbar gemacht würde. Dadurch wird die Gesamtwirkung begrenzt.
 
@@ -1480,7 +1482,7 @@ Wenn ISVs M365-Daten nutzen und speichern, besteht das Risiko einer Datenkomprom
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 8:** Stellen Sie nachweisbare Nachweise bereit, dass die aufbewahrten Daten mit dem definierten Aufbewahrungszeitraum übereinstimmen.
+<a id="control-8b"></a>[Steuerelement 8](#control-8b): Stellen Sie nachweisbare Nachweise bereit, dass aufbewahrte Daten mit dem definierten Aufbewahrungszeitraum übereinstimmen.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, einfach zu überprüfen, ob die definierten Datenaufbewahrungszeiträume eingehalten werden. Wie bereits erläutert, haben Organisationen möglicherweise eine gesetzliche Verpflichtung, dies zu erfüllen, aber auch durch die Aufbewahrung von Daten, die erforderlich sind, und solange dies erforderlich ist, hilft, das Risiko für die Organisation zu verringern, wenn eine Datenschutzverletzung auftritt.
 
@@ -1494,7 +1496,7 @@ Wenn ISVs M365-Daten nutzen und speichern, besteht das Risiko einer Datenkomprom
 
 **Hinweis:** Dies ist eine Testdatenbank, daher sind&#39;nicht viele historische Daten enthalten.
 
-**Steuerelement Nr. 9:** Stellen Sie nachweisbare Nachweise bereit, dass Prozesse zum sicheren Löschen von Daten nach dem Aufbewahrungszeitraum vorhanden sind.
+<a id="control-9b"></a>[Kontrolle 9](#control-9b): Stellen Sie nachweisbare Nachweise bereit, dass Prozesse zum sicheren Löschen von Daten nach dem Aufbewahrungszeitraum vorhanden sind.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass der Mechanismus zum Löschen von Daten, der den Aufbewahrungszeitraum überschreitet, dies sicher tut. Gelöschte Daten können manchmal wiederhergestellt werden; Daher muss der Löschvorgang stabil genug sein, um sicherzustellen, dass Daten nicht wiederhergestellt werden können, nachdem sie gelöscht wurden.
 
@@ -1524,7 +1526,7 @@ Das folgende Fenster zeigt, dass das Runbook bearbeitet wurde, um Datensätze zu
 
 Der Datenzugriff muss auf so wenige Personen beschränkt werden, wie dies erforderlich ist, um die Wahrscheinlichkeit zu verringern, dass Daten böswillig oder versehentlich kompromittiert werden. Der Zugriff auf Daten und Verschlüsselungsschlüssel sollte auf Benutzer beschränkt werden, deren geschäftsmäßiger Zugriff berechtigt ist, um ihre Berufliche Rolle zu erfüllen. Dies sollte gut dokumentiert und ein gut etablierter Prozess zum Anfordern des Zugriffs implementiert werden. Der Zugriff auf Daten und Verschlüsselungsschlüssel sollte dem Prinzip der geringsten Rechte entsprechen.
 
-**Steuerelement Nr. 10:** Stellen Sie eine Liste aller Personen bereit, die Zugriff auf Daten oder Verschlüsselungsschlüssel haben, einschließlich der geschäftlichen Begründung.
+<a id="control-10b"></a>[Control 10](#control-10b):P Zuordnen einer Liste aller Personen mit Zugriff auf Daten oder Verschlüsselungsschlüssel, einschließlich der geschäftlichen Begründung.
 
 - Absicht: Organisationen sollten den Zugriff auf Daten und Verschlüsselungsschlüssel auf so wenige Mitarbeiter wie möglich beschränken. Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass mitarbeiterzugriff auf Daten und/oder Verschlüsselungsschlüssel auf Mitarbeiter beschränkt sind, die einen klaren geschäftlichen Bedarf für diesen Zugriff haben.
 
@@ -1533,7 +1535,7 @@ Der Datenzugriff muss auf so wenige Personen beschränkt werden, wie dies erford
 - Beispielnachweis: Das folgende Dokument zeigt die dokumentierte Liste der Benutzer mit Zugriff auf Daten und die geschäftliche Begründung.
 ![Picture](../media/UserGuidePhotos/Security-Domain-Control-No-10.png)
 
-**Steuerelement Nr. 11:** Stellen Sie nachweisbare Nachweise dafür bereit, dass die in die Stichprobe einbezogenen Personen, die Zugriff auf Daten oder Verschlüsselungsschlüssel haben, formell genehmigt wurden, und geben Sie die für ihre Aufgaben erforderlichen Berechtigungen an.
+<a id="control-11b"></a>[Kontrolle 11](#control-11b): Stellen Sie nachweisbare Nachweise dafür bereit, dass die in die Stichprobe einbezogenen Personen, die Zugriff auf Daten oder Verschlüsselungsschlüssel haben, formal genehmigt wurden, und geben Sie die für ihre Aufgaben erforderlichen Berechtigungen an.
 
 - Absicht: Der Prozess zum Gewähren des Zugriffs auf Daten und/oder Verschlüsselungsschlüssel muss eine Genehmigung enthalten, um sicherzustellen, dass ein einzelner&#39;Zugriff für seine Aufgabenfunktion erforderlich ist. Dadurch wird sichergestellt, dass Mitarbeiter ohne echten Grund für den Zugriff keinen unnötigen Zugriff erhalten&#39;.
 
@@ -1570,7 +1572,7 @@ Um die Anforderungen dieses Steuerelements zu erfüllen, müssen Sie alle diese 
 
 Oben sehen Sie, dass der Zugriff genehmigt und wie erledigt abgemeldet wurde.
 
-**Steuerelement Nr. 12:** Stellen Sie nachweisbare Nachweise dafür bereit, dass die in die Stichprobe einbezogenen Personen, die Zugriff auf Daten oder Verschlüsselungsschlüssel haben, nur über die in der Genehmigung enthaltenen Berechtigungen verfügen.
+<a id="control-12b"></a>[Kontrolle 12](#control-12b): Stellen Sie nachweisbare Beweise dafür bereit, dass die stichprobenfähigen Personen, die Zugriff auf Daten oder Verschlüsselungsschlüssel haben, nur über die in der Genehmigung enthaltenen Berechtigungen verfügen.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, zu bestätigen, dass der Zugriff auf Daten und/oder Verschlüsselungsschlüssel gemäß den dokumentierten Bestimmungen konfiguriert ist.
 
@@ -1580,7 +1582,7 @@ Oben sehen Sie, dass der Zugriff genehmigt und wie erledigt abgemeldet wurde.
 
 ![Creenshot zeigt die Berechtigungen an, die dem Benutzer erteilt wurden](../media/UserGuidePhotos/Security-Domain-Control-No-12.png)
 
-**Steuerelement Nr. 13:** Stellen Sie eine Liste aller Drittanbieter bereit, für die Kundendaten freigegeben werden.
+<a id="control-13"></a>[Kontrolle 13](#control-13b): Stellen Sie eine Liste aller Drittanbieter bereit, für die Kundendaten freigegeben werden.
 
 - Absicht: Wenn Dritte für die Speicherung oder Verarbeitung von M365-Daten verwendet werden, können diese Entitäten ein erhebliches Risiko darstellen. Organisationen sollten einen guten Due Diligence- und Managementprozess von Drittanbietern entwickeln, um sicherzustellen, dass diese Drittanbieter Daten sicher speichern/verarbeiten und um sicherzustellen, dass sie alle rechtlichen Verpflichtungen erfüllen, die sie möglicherweise haben, z. B. als Datenverarbeiter gemäß der DSGVO.
 
@@ -1607,7 +1609,7 @@ Oben sehen Sie, dass der Zugriff genehmigt und wie erledigt abgemeldet wurde.
 
 ![Beispiel-E-Mail3](../media/UserGuidePhotos/Security-Domain-Control-No-13-1.png)
 
-**Steuerelement Nr. 14:** Stellen Sie nachweisbare Nachweise dafür bereit, dass für alle Drittanbieter, die Kundendaten nutzen, Freigabevereinbarungen bestehen.
+<a id="control-14b"></a>[Kontrolle 14](#control-14b): Stellen Sie nachweisbare Nachweise dafür bereit, dass für alle Dritten, die Kundendaten nutzen, Freigabevereinbarungen bestehen.
 
 - Absicht: Wenn M365-Daten an Dritte weitergegeben werden, ist es wichtig, dass die Daten angemessen und sicher behandelt werden. Vereinbarungen zur Datenfreigabe müssen getroffen werden, um sicherzustellen, dass Dritte Daten nur nach Bedarf verarbeiten und ihre Sicherheitsverpflichtungen verstehen. Die Sicherheit einer Organisation ist nur so stark wie das schwächste Glied. Die Absicht dieser Kontrolle besteht darin, sicherzustellen, dass Dritte nicht zu einem schwachen Link von Organisationen werden.
 
@@ -1625,7 +1627,7 @@ Oben sehen Sie, dass der Zugriff genehmigt und wie erledigt abgemeldet wurde.
 
 Die meisten Organisationen werden Daten verarbeiten, bei denen es sich möglicherweise um daten eines europäischen Bürgers&#39;(betroffene Personen) handelt. Wenn Daten von **JEDER** betroffenen Person verarbeitet werden, müssen Organisationen die Datenschutz-Grundverordnung (DSGVO) erfüllen. Dies gilt sowohl für Datenverantwortliche (sie erfassen diese Daten direkt) als auch für Datenverarbeiter (Sie verarbeiten diese Daten im Auftrag eines Datenverantwortlichen). Obwohl in diesem Abschnitt nicht&#39;die gesamte Verordnung behandelt wird, werden einige der wichtigsten Elemente der DSGVO behandelt, um sicherzustellen, dass die Organisation die DSGVO ernst nimmt.
 
-**Steuerelement Nr. 15:** Stellen Sie ein dokumentiertes Verfahren zur Anforderung des Zugriffs auf Antragsteller (Sar) bereit, und stellen Sie Nachweise bereit, die belegen, dass betroffene Personen in der Lage sind, SARs zu erheben.
+<a id="control-15b"></a>[Kontrolle 15](#control-15b): Bereitstellen eines dokumentierten Sar-Prozesses (Subject Access Request) und Nachweise dafür, dass betroffene Personen in der Lage sind, SARs auszuwerfen.
 
 - Absicht: Die DSGVO umfasst spezifische Verpflichtungen, die von Organisationen erfüllt werden müssen, die betroffene Personen&#39; Daten verarbeiten. Die Verpflichtung für Organisationen zur Verwaltung von Antragstellerzugriffsanforderungen (SaRs) ist in Artikel 12 enthalten, der gemäß Artikel 12.3 einem Datenverantwortlichen einen Monat nach Erhalt der SAR gewährt, um auf die Anforderung zu reagieren. Eine Verlängerung ist bei Bedarf um weitere zwei Monate zulässig. Selbst wenn Ihre Organisation als Datenverarbeiter fungiert, wird dies dennoch benötigt, um Ihren Kunden (dem Datenverantwortlichen) bei der Erfüllung ihrer SAR-Verpflichtungen zu helfen.
 
@@ -1637,7 +1639,7 @@ Die meisten Organisationen werden Daten verarbeiten, bei denen es sich mögliche
 
 **Hinweis:** Dieser Screenshot zeigt ein Richtlinien-/Prozessdokument. Es wird erwartet, dass ISVs die eigentliche unterstützende Richtlinien-/Verfahrensdokumentation freigeben und nicht einfach nur einen Screenshot bereitstellen.
 
-**Steuerelement Nr. 16:** Stellen Sie nachweisbare Nachweise bereit, dass Sie bei der Reaktion auf eine SAR alle Standorte der Daten der betroffenen Personen identifizieren können.
+<a id="control-16b"></a>[Kontrolle 16](#control-16b): Stellen Sie nachweisbare Nachweise bereit, dass Sie alle Standorte der Daten der betroffenen Personen identifizieren können, wenn Sie auf eine SAR reagieren.
 
 - Absicht: Die Absicht dieses Steuerelements besteht darin, sicherzustellen, dass die Organisation über einen stabilen Mechanismus verfügt, um alle betroffenen Personen&#39; Daten zu identifizieren. Dies kann ein manueller Prozess sein, da der gesamte Datenspeicher gut dokumentiert ist oder andere Tools verwendet werden können, um sicherzustellen, dass sich alle Daten im Rahmen des SARs-Prozesses befinden.
 
@@ -1662,7 +1664,7 @@ Diese Abfrage bestätigt die verwendeten Speicherkonten. Sie können Speicher, B
 Die obige Abbildung zeigt die Daten, die im Blobcontainer für den Client gefunden wurden, die entfernt werden müssen, und unten sehen Sie die Aktion zum Löschen oder vorläufigen Löschen der Informationen im Blob.
 
 
-**Steuerelement Nr. 17:** Geben Sie einen Link zum Datenschutzhinweis an, der alle erforderlichen Elemente wie folgt enthalten sollte:
+<a id="control-17b"></a>[Kontrolle 17](#control-17b): Stellen Sie einen Link zu der Datenschutzerklärung bereit, der alle erforderlichen Elemente wie folgt enthalten sollte:
 
 - Firmendetails (Name, Adresse usw.).
 - Details zu den Arten von personenbezogenen Daten, die verarbeitet werden.
