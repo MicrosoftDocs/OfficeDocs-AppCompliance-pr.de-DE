@@ -1,5 +1,5 @@
 ---
-title: Application Information for Employee Advocacy by DSMN8 by DSMN8
+title: Anwendungsinformationen für Tonkean von Tonkean
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,42 +7,42 @@ ms.date: 05/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Mitarbeiterbefürwortung durch DSMN8, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Tonkean, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2cb51ae66869558666d1dfdc5522299ec1d21886
+ms.openlocfilehash: 9554be0d3c825946ac2395129e41e5e6f4e1925a
 ms.sourcegitcommit: 9fc27c6c7e9683291d85818c07e7be8291c75532
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/18/2022
-ms.locfileid: "65454939"
+ms.locfileid: "65455011"
 ---
-# <a name="employee-advocacy-by-dsmn8"></a>Employee Advocacy durch DSMN8
+# <a name="tonkean"></a>Tonkean
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 17. Mai 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 16. Mai 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c" target="_blank">Anzeigen im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003677" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/b7391d00-e8e4-4dc9-970e-ba3386144114" target="_blank">Anzeigen im Teams Store</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381749" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von DSMN8 an Microsoft bereitgestellt werden:
+Von Tonkean an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Employee Advocacy durch DSMN8 |
-| ID | WA200003677 |
+| App-Name | Tonkean |
+| ID | WA104381749 |
 | unterstützte Office 365 Clients | Microsoft Teams |
-| Name des Partnerunternehmens | DSMN8 |
-| Website des Unternehmens | [https://dsmn8.com](https://dsmn8.com) |
-| Nutzungsbedingungen der App | [https://dsmn8.com/terms-and-conditions](https://dsmn8.com/terms-and-conditions) |
-| Kernfunktionen der App |  DSMN8 ist eine App-basierte Plattform, die Es Mitarbeitern ermöglicht, zu Unternehmens-Influencern zu werden, indem sie vom Unternehmen genehmigte Unternehmensinhalte auf ihren eigenen Social Media-Kanälen teilen.  |
-| Hauptsitz des Unternehmens | Vereinigtes Königreich Großbritannien und Nordirland (die) |
-| App-Infoseite | |
-| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Paas |
+| Name des Partnerunternehmens | Tonkean |
+| Website des Unternehmens | [https://tonkean.com](https://tonkean.com) |
+| Nutzungsbedingungen der App | [https://tonkean.com/terms/](https://tonkean.com/terms/) |
+| Kernfunktionen der App | Tonkean ermöglicht Organisationen und Betriebsteams, komplexe Geschäftsprozesse schnell zu automatisieren. Tonkean stellt die Bausteine zum Ausführen, Überwachen und Verwalten von Geschäftsprozessen bereit, die vollständig ohne Code in unserem Solution Studio erstellt wurden.  |
+| Hauptsitz des Unternehmens | USA Amerikas |
+| App-Infoseite | [https://tonkean.com](https://tonkean.com) |
+| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Hybrid |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -53,20 +53,19 @@ Informationen, die von DSMN8 an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von DSMN8 darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Tonkean darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Position, Vorname, Nachname, E-Mail-Adresse |
-| Unterstützt die App TLS 1.1 oder höher? | Ja |
+| Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | Position, Vorname, Nachname, E-Mail-Adresse |
-| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Vereinigtes Königreich Großbritannien und Nordirland (die) |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Name, E-Mail, Benutzer-ID. Andere Daten können auf Benutzeranforderung/-choise gespeichert werden. |
+| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Weniger als 30 Tage |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Weniger als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
+| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Ja |
+| Verfügen Sie über Vereinbarungen zur Datenfreigabe mit einem Drittanbieterdienst, für den Sie Microsoft-Kundendaten freigeben? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -80,7 +79,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
-| Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | ApplicationControls |
+| Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | TraditionalAntiMalware, ApplicationControls |
 | Haben Sie einen etablierten Prozess zum Einrücken und Zurverfolgen von Sicherheitsrisiken? | Ja |
 | Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Ja |
 | Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Ja |
@@ -110,12 +109,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nein |
-| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Ja |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | Typ 2 |
+| Neuestes SOC2-Zertifizierungsdatum | 2021-11-30 |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
-| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
@@ -135,12 +136,12 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Ja |
-| URL der Datenschutzrichtlinie | https://dsmn8.com/terms-and-conditions |
+| URL der Datenschutzrichtlinie | https://tonkean.com/privacy |
 | Führt die App automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
 | Verarbeitet die App Kundendaten zu einem sekundären Zweck, der nicht in der Datenschutzerklärung beschrieben ist (z. B. Marketing, Analysen)? | Nein |
 | Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? | Nein |
 | Sammelt oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
-| Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? | Ja |
+| Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? | Nicht zutreffend |
 | Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | Ja |
 | Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
 | Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
@@ -155,18 +156,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Nein |
-| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? | https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
-| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
+| Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
-
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | beides | So lesen Sie die Position, den Vornamen, den Nachnamen und E-Mail-Daten während des Anmeldevorgangs, um ein Profil in unserer App zu erstellen | [3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c](../azure/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c.md) |
+>Diese Anwendung verwendet keine Microsoft Graph.
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
