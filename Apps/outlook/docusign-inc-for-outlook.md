@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für Futureworks von Futureworks AS
+title: Anwendungsinformationen für DocuSign für Outlook von DocuSign, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,41 @@ ms.date: 05/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Futureworks, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für DocuSign für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 36737f9b6584c52791794df0a35b71d00cbc85fb
+ms.openlocfilehash: cafb05155f7df5d228c71a3fc379262684f72aa3
 ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/18/2022
-ms.locfileid: "65475949"
+ms.locfileid: "65476292"
 ---
-# <a name="futureworks"></a>Futureworks
+# <a name="docusign-for-outlook"></a>DocuSign für Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 18. Mai 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 13. Mai 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/80a90c8c-6199-454b-b0ff-bd5fba480275" target="_blank">Anzeigen im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003510" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104218067" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Futureworks AS an Microsoft bereitgestellte Informationen:
+Von DocuSign, Inc. an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| App-Name | Futureworks |
-| ID | WA200003510 |
-| unterstützte Office 365 Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Futureworks AS |
-| Website des Unternehmens | [https://app.futureworks.com](https://app.futureworks.com) |
-| Nutzungsbedingungen der App | [https://www.futureworks.com/en/terms-of-service](https://www.futureworks.com/en/terms-of-service) |
-| Kernfunktionen der App | Ziel- und Leistungsmanagementplattform, basierend auf den Zielen und Wichtigen Ergebnissen von OKR. |
-| Hauptsitz des Unternehmens | Norwegen |
-| App-Infoseite | [https://futureworks.no](https://futureworks.no) |
-| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Iaas |
-| Welche Hosting-Cloudanbieter verwendet die App? | Sonstiges |
+| App-Name | DocuSign für Outlook |
+| ID | WA104218067 |
+| unterstützte Office 365 Clients | Outlook 2013 oder höher auf Windows, Outlook 2016 oder höher auf dem Mac, Outlook im Web |
+| Name des Partnerunternehmens | DocuSign, Inc. |
+| Website des Unternehmens | [https://www.docusign.com](https://www.docusign.com) |
+| Nutzungsbedingungen der App | [https://www.docusign.com/company/terms-and-conditions/web](https://www.docusign.com/company/terms-and-conditions/web) |
+| Kernfunktionen der App | Sign or get signatures for email attachments in Outlook |
+| Hauptsitz des Unternehmens | USA Amerikas |
+| App-Infoseite | [https://www.docusign.com/solutions/microsoft/outlook](https://www.docusign.com/solutions/microsoft/outlook) |
+| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | IsvHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,7 +51,7 @@ Von Futureworks AS an Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Futureworks AS darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von DocuSign, Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 | **Information** | **Response** |
 |:----------------|:-------------|
@@ -70,25 +68,25 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Führen Sie jährliche Penetrationstests für die App durch? | Nein |
+| Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
 | Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | ApplicationControls, TraditionalAntiMalware |
 | Haben Sie einen etablierten Prozess zum Einrücken und Zurverfolgen von Sicherheitsrisiken? | Ja |
-| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Nein |
-| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Nein |
+| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Ja |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Ja |
 | Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nein |
-| Führen Sie vierteljährliche Überprüfungen von Sicherheitsrisiken in Ihrer App und deren Unterstützung durch? | Nein |
+| Führen Sie vierteljährliche Überprüfungen von Sicherheitsrisiken in Ihrer App und deren Unterstützung durch? | Ja |
 | Haben Sie eine Firewall an Der Grenze des externen Netzwerks installiert? | Ja |
 | Verfügen Sie über einen etablierten Änderungsverwaltungsprozess, der verwendet wird, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
 | Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion gesendet werden? | Ja |
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikenklassen wie OWASP Top 10? | Ja |
-| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | Anmeldeinformationen, DNSManagement |
 | Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | Nicht zutreffend |
+| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? | Nein |
-| Haben Sie einen formalen Risikomanagementprozess für die Informationssicherheit eingerichtet? | Ja |
+| Haben Sie einen formalen Risikomanagementprozess für die Informationssicherheit eingerichtet? | Nein |
 | Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -99,20 +97,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 | **Information** | **Response** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Ja |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nein |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
-| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
-| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nein |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nein |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
 | Entspricht die App NIST 800-171? | Nein |
 | Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
 
@@ -125,13 +123,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Response** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
-| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Nein |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Ja |
+| URL der Datenschutzrichtlinie | https://www.docusign.com/company/privacy-policy |
 | Führt die App automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
 | Verarbeitet die App Kundendaten zu einem sekundären Zweck, der nicht in der Datenschutzerklärung beschrieben ist (z. B. Marketing, Analysen)? | Nein |
 | Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? | Nein |
 | Sammelt oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
 | Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? | Ja |
-| Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | Nicht zutreffend |
+| Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | Ja |
 | Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
 | Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
 
