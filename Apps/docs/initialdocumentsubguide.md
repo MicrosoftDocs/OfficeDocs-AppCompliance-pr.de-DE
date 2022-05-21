@@ -7,19 +7,19 @@ description: Die anfängliche Dokumentenübermittlung ist Teil der Vorbewertungs
 keywords: app certification teams Microsoft 365 security compliance m365 initial document submission
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 23c3cf7a64025bb7269adb35175e8d87bc64224e
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 8cb7ac4711b7399ae24b76794c251e3cae845e94
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784504"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618583"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification – Leitfaden für die anfängliche Dokumentübermittlung
 
 Die anfängliche Dokumentenübermittlung ist Teil der Vorbewertungsphase der Zertifizierung. Die bereitgestellten Informationen geben Zertifizierungsanalysten den Hintergrund, der erforderlich ist, um zu ermitteln, welche Steuerelemente und Systemkomponenten für Ihre Bewertung in den Anwendungsbereich fallen. Dieses Dokument soll nur als Beispiel dafür dienen, was von ihrer ursprünglichen Dokumentübermittlung erwartet wird. Die von Ihnen bereitgestellte Dokumentation hängt davon ab, wie Ihre Lösung entwickelt, implementiert und verwaltet wird.
 
 ## <a name="what-is-the-hosting-environment-or-service-model-used-to-run-your-app"></a>Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird?
-- Infrastructure as a Service (IaaS) ist ein Clouddienstmodell, bei dem Ihr Clouddienstanbieter Ihre Infrastrukturkomponenten hostet, ISVs jedoch weiterhin für die bereitstellung und verwaltung der Komponenten einzeln verantwortlich sind, z. B. Virtual Machines/Betriebssysteme, Datenspeicher und Netzwerkkomponenten. Beispiele hierfür sind Azure Virtual Machine und Azure Disk Storage.
+- Infrastructure as a Service (IaaS) ist ein Clouddienstmodell, bei dem Ihr Clouddienstanbieter Ihre Infrastrukturkomponenten hostet, ISVs jedoch weiterhin für die bereitstellung und verwaltung der Komponenten einzeln verantwortlich sind, z. B. virtuelle Computer/Betriebssysteme, Datenspeicher und Netzwerkkomponenten. Beispiele hierfür sind Azure Virtual Machine und Azure Disk Storage.
 - Platform as a Service (PaaS) ist ein Clouddienstmodell, bei dem die Infrastrukturkomponenten vom Clouddienstanbieter verwaltet werden. ISVs sind nur für die Bereitstellung ihrer eigenen Anwendungen und Dienste verantwortlich. Beispiele hierfür sind Azure-App Services, Azure Functions und Azure CDN.
 - ISV Hosted in this context means that no cloud service provider is used. Der ISV verwaltet physisch eigene Server, Datenträger und Netzwerke unabhängig voneinander lokal.
 - Hybrid bedeutet in diesem Zusammenhang, dass eines der oben genannten Modelle verwendet wird. Einige ISVs können z. B. eine Mischung aus IaaS-Diensten und PaaS-Diensten verwenden, um ihre App zu unterstützen, oder sie verfügen über einige lokale ISV Hosted-Komponenten und lagern andere an einen Clouddienstanbieter aus. Wenn Sie eins von mehreren Dienstmodellen verwenden, wählen Sie "Hybrid" aus.
@@ -41,10 +41,10 @@ Ein aktueller Inventroy aller Systemkomponenten, die von der unterstützenden In
 
 |Objektname|Objekttyp|Beschreibung|Hersteller|Modell|
 |---|---|---|---|---|
-|D212|Windows Computer|Virtueller Computer|Nicht zutreffend|N/V|
+|D212|Windows Computer|Virtueller Computer|Nicht zutreffend|Nicht zutreffend|
 |LT101|Laptop|Arbeitsstation|Microsoft|Surface 3|
-|C2938|Option|Option|N/V|N/V|
-|LXM2|Linux-Computer|Testcomputer|Nicht zutreffend|N/V|
+|C2938|Option|Option|Nicht zutreffend|Nicht zutreffend|
+|LXM2|Linux-Computer|Testcomputer|Nicht zutreffend|Nicht zutreffend|
 
 
 ## <a name="software-inventory"></a>Softwareinventar
@@ -58,7 +58,7 @@ Eine aktuelle Bestandsaufnahme aller Softwareressourcen, einschließlich aller S
 |Windows Server|Microsoft 2016 |Build 14393|Serverbetriebssystem für die Produktionsumgebung|
 |Linux Ubuntu|Nicht zutreffend|16.04 (Xenial)|Serverbetriebssystem, das innerhalb der DMZ verwendet wird.|
 |Esxi|Vmware|6.5.0 (Build 13004031)|Wird verwendet, um die virtuellen Server zu unterstützen.|
-|Mysql (Windows)|N/V|8.0.2.1|Datenbankserver zum Speichern des Chatverlaufs.|
+|Mysql (Windows)|Nicht zutreffend|8.0.2.1|Datenbankserver zum Speichern des Chatverlaufs.|
 |Tomcat|Apache|7.0.92|Kundenportal.|
 |IIS|Microsoft|10.0|Unterstützt die APIs.|
 
@@ -125,5 +125,7 @@ Flow Diagramme mit den folgenden Details:
 
 ![Datenfluss Diagramm](../media/Dataflowdiagram.png)
 
+## <a name="external-certifications-soc2-pci-dss-iso27001---optional"></a>Externe Zertifizierungen (SOC2, PCI DSS, ISO27001) – OPTIONAL
 
+Wenn Sie bereits eine SOC2-, PCI DSS- oder ISO27001-Zertifizierung erhalten haben und innerhalb der letzten 12 Monate einen Bericht ausgestellt haben, der den vollständigen Umfang der zu zertifizierenden Anwendung sowie die unterstützende Umgebung umfasst, können Sie dies während der ursprünglichen Dokumentenübermittlung übermitteln. Wir werden versuchen, es zu nutzen, um eine Teilmenge von Steuerelementen zu erfüllen und Ihre Bewertung zu beschleunigen. Dies ist jedoch nicht erforderlich, um eine Microsoft 365 Zertifizierung zu erhalten. 
 

@@ -7,16 +7,16 @@ description: ISV-Benutzerhandbuch für Microsoft 365 App Compliance Program SaaS
 keywords: ISV-Benutzerhandbuch für Microsoft 365 App Compliance Program SaaS
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: abb26a45c9dc0d0d91ebd26c06b29644b41b2dfd
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: af6561ffb4670269fc4e219f58d069ce3fa20ce9
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64752864"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618294"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Benutzerhandbuch für Partner für Microsoft 365 App Compliance-Programm – SaaS
 
-|Phase|Position|
+|Phase|Titel|
 |---|---|
 |Phase 1| Herausgebernachweis|
 |Phase 2| Microsoft 365-Zertifizierung|
@@ -24,6 +24,9 @@ ms.locfileid: "64752864"
 ## <a name="1-overview"></a>1. Übersicht 
 
 Dieses Dokument dient als schrittweise Anleitung für unsere Partner, die für Microsoft 365 App Compliance-Programm registriert sind, um Publisher Nachweis und Zertifizierung für ihre SaaS-Apps über das Partner Center-Portal zu erhalten.
+
+>[!IMPORTANT]
+>Dieser Leitfaden gilt nur für SaaS-Apps, die vom Microsoft 365 App Compliance-Team genehmigt und in die Whitelist aufgenommen wurden. Wenn Ihre App nicht in die Whitelist aufgenommen wurde, können Sie im Partner Center nicht fortfahren. Um Ihre SaaS-Whitelist zu erhalten, wenden Sie sich bitte an appcert@microsoft.com.
 
 ## <a name="2-acronyms--definitions"></a>2. Akronymen & Definitionen
 |Akronym | Definition |
