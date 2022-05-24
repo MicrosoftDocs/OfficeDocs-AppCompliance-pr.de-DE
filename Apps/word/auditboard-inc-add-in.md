@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für das AuditBoard-Add-In, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 71829162839f255a9481d7f64333d091ad65b5e1
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 0c69f4cfa2a4d443070ac3eb4f9b9ce1a4869e98
+ms.sourcegitcommit: 92295c3ae2ea6543be22c92e741da0e494ada2b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877602"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65641914"
 ---
 # <a name="auditboard-add-in"></a>AuditBoard-Add-In
 
@@ -34,7 +34,7 @@ Informationen, die von Auditboard, Inc. an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | AuditBoard-Add-In |
 | ID | WA200003350 |
-| unterstützte Office 365 Clients | Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher auf Windows |
+| unterstützte Office 365 Clients | Excel 2016 oder höher auf mac, Excel 2013 oder höher auf Windows, Excel im Web, Word 2016 oder höher auf Mac, Word im Web, Word 2013 oder höher am Windows |
 | Name des Partnerunternehmens | Auditboard, Inc. |
 | Website des Unternehmens | [https://www.auditboard.com](https://www.auditboard.com) |
 | Nutzungsbedingungen der App | [https://appsource.microsoft.com](https://appsource.microsoft.com) |
@@ -136,7 +136,6 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? |  |
-| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) |  |
 | Speichert Ihre App Anmeldeinformationen im Code? |  |

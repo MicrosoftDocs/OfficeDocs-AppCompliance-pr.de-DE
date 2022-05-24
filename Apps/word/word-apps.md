@@ -1,23 +1,23 @@
 ---
-title: Microsoft Word Sicherheit und Compliance von Apps – Alle Apps
+title: Sicherheit und Compliance von Microsoft Word Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/20/2022
+ms.date: 05/21/2022
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Word Apps.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Word-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 28a1f34f21b783fec68f1ffaab516f8abd432a3e
-ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
+ms.openlocfilehash: ae8172aafe219e2d4f2967385fece91599f2bd4d
+ms.sourcegitcommit: 92295c3ae2ea6543be22c92e741da0e494ada2b1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65618986"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65638593"
 ---
-# <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Sicherheit und Compliance von Apps
+# <a name="microsoft-word-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Word Apps
 
-Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Word Apps und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Microsoft Word-Apps und -Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **App** | **Partner** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -31,7 +31,7 @@ Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die
 | [DocuSign für Word](./docusign-inc-for-word.md) | DocuSign, Inc. | **✓** |  |
 | [Excel-zu-Word-Dokumentautomatisierung](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Fabasoft Cloud Office-Add-In](./fabasoft-austria-gmbh-cloud-office-add-in.md) | Fabasoft Austria GmbH | **✓** |  |
-| [Foxit PDF Editor für Microsoft Word, Excel und PowerPoint](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
+| [Foxit PDF-Editor für Microsoft Word, Excel und PowerPoint](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
 | [Impressionsignaturen](./impression-signatures.md) | Impressionsignaturen | **✓** |  |
 | [Jus2vec](./n2vec-tecnologia-jus2vec.md) | N2VEC TECNOLOGIA | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
