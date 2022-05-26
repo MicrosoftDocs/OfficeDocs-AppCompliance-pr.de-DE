@@ -3,24 +3,24 @@ title: Anwendungsinformationen für DocuSign für Outlook von DocuSign, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/18/2022
+ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für DocuSign für Outlook, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cafb05155f7df5d228c71a3fc379262684f72aa3
-ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
+ms.openlocfilehash: d942c5f4cf0bfd9665ed13b9538894c11edd142b
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65476292"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688580"
 ---
 # <a name="docusign-for-outlook"></a>DocuSign für Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 13. Mai 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 24. Mai 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104218067" target="_blank">Anzeigen in AppSource</a>
 
@@ -99,20 +99,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Ja |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
-| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Ja |
+| Neuestes SOC1-Zertifizierungsdatum | 2021-12-10 |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Ja |
+| Welche SOC 2-Zertifizierung haben Sie erreicht? | Typ 2 |
+| Neuestes SOC2-Zertifizierungsdatum | 2021-12-10 |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
-| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
-| Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Ja |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Ja |
+| Entspricht die App der International Organization for Standardization (ISO 27017)? | Ja |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
-| Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
+| Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Ja |
 | Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nein |
 | Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nein |
 | Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
 | Entspricht die App NIST 800-171? | Nein |
-| Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
+| Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

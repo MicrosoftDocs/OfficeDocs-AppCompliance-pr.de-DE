@@ -1,19 +1,20 @@
 ---
 title: Anwendungsinformationen für SalesTim
 ms.author: elmalova
+manager: tonybal
 author: elenamalova
 ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für SalesTim, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Überprüfen Sie alle verfügbaren Sicherheits- und Complianceinformationen für SalesTim, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9fce7871fc306b19170cddb2d1524ef7a82a01f4
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 9bf1f4057ad73ba33a8ae3ba0ff02c74851cdecf
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222436"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688120"
 ---
 # <a name="application-information-for-salestim-by-salestim"></a>Anwendungsinformationen für SalesTim nach SalesTim
 
@@ -34,7 +35,7 @@ Informationen, die von SalesTim an Microsoft bereitgestellt werden:
 | App-Name | SalesTim |
 | ID | salestim.salestim |
 | Name des Partnerunternehmens | SalesTim |
-| URL der Partnerwebsite | [https://salestim.com](https://salestim.com) |
+| URL der Partnerwebsite | [https://nbold.co/](https://nbold.co/) |
 | URL der Datenschutzrichtlinie | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
 | URL der Nutzungsbedingungen | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
 
@@ -52,7 +53,7 @@ Diese Informationen wurden von SalesTim darüber bereitgestellt, wie diese App O
 
 Auflisten aller [Microsoft Graph Berechtigungen](/graph/permissions-reference), die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (Delegiert/Anwendung)** | **Werden Daten erfasst? Begründung für das Sammeln?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (Delegiert/Anwendung)** | **Werden Daten erfasst? Begründung für das Sammeln?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| AppCatalog.ReadWrite.All | Delegiert | NEIN | Zulassen, dass die App ihre eigenen Pakete im Unternehmens-App-Katalog installiert und aktualisiert. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Directory.AccessAsUser.All | Delegiert | Wir&#8217;nur einige Benutzer-IDs speichern, nicht Profildaten. | Ermöglicht es einem Benutzer, andere Benutzer an verschiedenen Stellen in der Anwendung auszuwählen, z. B. genehmigende Personen in einem Workflow auszuwählen. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |

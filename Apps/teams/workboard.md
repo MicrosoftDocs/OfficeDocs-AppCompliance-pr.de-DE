@@ -7,14 +7,14 @@ ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workboard, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Überprüfen Sie alle verfügbaren Sicherheits- und Complianceinformationen für Workboard, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b20a6e58680109d719fca48cf8f2152c9239026a
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: ccf27f1fa0c6db96446fc0fa7afc686fe2a49e20
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222456"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688100"
 ---
 # <a name="application-information-for-workboard"></a>Anwendungsinformationen für Workboard
 
@@ -34,7 +34,7 @@ Informationen, die von Workboard an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Workboard |
 | ID | WA104381599 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Workboard |
 | URL der Partnerwebsite | [https://www.workboard.com](https://www.workboard.com) |
 | URL der Teams Anwendungsinformationsseite | [https://www.workboard.com/microsoft/](https://www.workboard.com/microsoft/) |
@@ -55,9 +55,9 @@ Diese Informationen wurden von Workboard darüber bereitgestellt, wie diese App 
 
 Auflisten aller [Microsoft Graph Berechtigungen](/graph/permissions-reference), die diese App benötigt.
 
->| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten erfasst? Begründung für das Sammeln?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD App-ID** |
+>| **Berechtigung**  | **Berechtigungstyp (delegiert/Anwendung)** | **Werden Daten erfasst? Begründung für das Sammeln?** | **Werden Daten gespeichert? Begründung für die Speicherung?** | **Azure AD-App-ID** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegiert | E-Mail-Adresse und die Benutzer-IDs.  Es wird verwendet, um den Benutzer der Benutzer-ID von WorkBoard zuzuordnen. | WorkBoard speichert nur die Identität des Benutzers in seinen Datenbanken. | [User.Read](/microsoft-365-app-certification/azure/User.Read) |
+>| User.Read | Delegiert | E-Mail-Adresse und die Benutzer-IDs.  Es wird verwendet, um den Benutzer der Benutzer-ID von WorkBoard zuzuordnen. | WorkBoard speichert nur die Identität des Benutzers in seinen Datenbanken. | [User.Read](/graph/permissions-reference#user-permissions) |
 
 
 #### <a name="non-microsoft-services-used"></a>Nicht Microsoft-Dienste verwendet
