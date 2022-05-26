@@ -7,23 +7,23 @@ ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Sheetgo, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Überprüfen Sie alle verfügbaren Sicherheits- und Complianceinformationen für Sheetgo, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9cbad6d4fcd5f6e081187af10c3c8a69de7122ba
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 001ad5dcce2a95885420f8413bfbfe03562eb5b2
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65225309"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65690430"
 ---
-# <a name="sheetgo"></a>Sheetgo
+# <a name="sheetgo-application-information"></a>Sheetgo-Anwendungsinformationen
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Letzte Aktualisierung durch den Entwickler am: 3. November 2020</p>
 
 * <a href="https://teams.microsoft.com/l/app/583de270-58d0-4f94-af06-bf971f82fd94" target="_blank">Anzeigen im Teams Store</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002067" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://appsource.microsoft.com/en-US/product/office/WA200002128?tab=Overview" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
@@ -35,7 +35,7 @@ Von SHEETGO EUROPE SL an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Sheetgo |
 | ID | WA200002067 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SHEETGO EUROPE SL |
 | URL der Partnerwebsite | [https://www.sheetgo.com/](https://www.sheetgo.com/) |
 | URL der Datenschutzrichtlinie | [https://www.sheetgo.com/legal/privacy/](https://www.sheetgo.com/legal/privacy/) |
@@ -64,7 +64,7 @@ Wenn die App Organisationsdaten an Nicht-Microsoft-Dienste überträgt oder frei
 
 >| **Alle nicht Microsoft-Dienste OII wird übertragen an** |  **Welche OII wird übertragen?** | **Begründung für die Übertragung von OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| MongoDB: Aufzeichnen von System- und Nutzerdaten zur Funktion, Google BigQuery: Datensatzsystem protokolliert Nutzung, Google Firestore: Ein System, das den Zustand unserer Microservices aufrechterhält und orchestriert, Stripe: Payment system |  | Diese Anwendungen verwenden keine zusätzlichen Microsoft-APIs. |
+>| MongoDB: Aufzeichnen von System- und Benutzerdaten, um zu funktionieren, Google BigQuery: Record system logs usage, Google Firestore: A system which maintains and orchestrates the state of our microservices, Stripe: Payment system |  | Diese Anwendungen verwenden keine zusätzlichen Microsoft-APIs. |
 
 #### <a name="data-access-via-bots"></a>Datenzugriff über Bots
 
@@ -83,7 +83,7 @@ Werden organisationsidentifizierbare Informationen (OII) oder Endbenutzer-identi
 
 Beschreiben, wie Administratoren der Organisation ihre Informationen in Partnersystemen steuern können? z.B. Löschung, Aufbewahrung, Überwachung, Archivierung, Endbenutzerrichtlinie usw.
 
->MongoDB: Aufzeichnen von System- und Benutzerdaten zur Funktion von Google BigQuery: Record system logs usage Google Firestore: Ein System, das den Zustand unserer Microservices aufrechterhält und orchestriert. Die einzigen wichtigen Daten, die dieser Dienst durchläuft, sind die Benutzeranmeldeinformationen, die mit AES256 Stripe: Payment system verschlüsselt sind.
+>MongoDB: Aufzeichnen von System- und Benutzerdaten zur Funktion von Google BigQuery: Datensatzsystem protokolliert Nutzung Google Firestore: Ein System, das den Zustand unserer Microservices aufrechterhält und orchestriert. Die einzigen wichtigen Daten, die dieser Dienst durchläuft, sind die Benutzeranmeldeinformationen, die mit AES256 Stripe: Payment system verschlüsselt sind.
  
 Alle Daten während der Übertragung verwenden HTTPS für sichere Verbindungen, und alle vertraulichen Daten werden mit AES256 verschlüsselt.
 
