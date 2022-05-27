@@ -1,5 +1,5 @@
 ---
-title: Azure-App ID-Informationen für 5d8eb1a9-2188-4292-86f6-f4964d49e8b3
+title: Azure-App ID-Informationen für 58cac74c-be05-4edf-b6de-294e856ecd7b
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,21 +7,21 @@ ms.date: 05/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für 5d8eb1a9-2188-4292-86f6-f4964d49e8b3.
-ms.openlocfilehash: 7922fb3f9e358f044bc20b218f7e83bb45de8974
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für 58cac74c-be05-4edf-b6de-294e856ecd7b.
+ms.openlocfilehash: 487570653c5ffdc556f3928fd51a5bf5de40dd26
 ms.sourcegitcommit: f1a2e22d28ef56ce3f3811febbbf8c7054797a98
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/26/2022
-ms.locfileid: "65748759"
+ms.locfileid: "65749395"
 ---
-# <a name="azure-app-id-5d8eb1a9-2188-4292-86f6-f4964d49e8b3"></a>Azure-App ID: 5d8eb1a9-2188-4292-86f6-f4964d49e8b3
+# <a name="azure-app-id-58cac74c-be05-4edf-b6de-294e856ecd7b"></a>Azure-App ID: 58cac74c-be05-4edf-b6de-294e856ecd7b
 
 
 ### <a name="apps-associated-with-this-id"></a>Apps, die dieser ID zugeordnet sind:
 | **App-Name** | **Zertifiziert** | **Anzeigen in AppSource** |
 |--------------|---------------|-----------------------|
-| [Quadra Thankz](../forward/WA200003671.md) |  | [https://appsource.microsoft.com/product/office/WA200003671](https://appsource.microsoft.com/product/office/WA200003671) |
+| [TINYpulse](../forward/WA104381729.md) |  | [https://appsource.microsoft.com/product/office/WA104381729](https://appsource.microsoft.com/product/office/WA104381729) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 App-Compliancestatus
 - Publisher Attestaton-Status: Abgeschlossen

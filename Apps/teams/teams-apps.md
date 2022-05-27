@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von Microsoft Teams-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/21/2022
+ms.date: 05/26/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Teams-Apps.
 localization_priority: Priority
-ms.openlocfilehash: 54d8e9c17b8ad0439eff0e99e53cef0599a976b2
-ms.sourcegitcommit: 92295c3ae2ea6543be22c92e741da0e494ada2b1
+ms.openlocfilehash: aa5c94559fbdff49b4d8a07b2941ca8dced19486
+ms.sourcegitcommit: f1a2e22d28ef56ce3f3811febbbf8c7054797a98
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65642784"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65749039"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Teams-Apps
 
@@ -225,6 +225,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Health Hero](./health-hero.md) | Health Hero | **✓** |  |
 | [Heedify](./heedify.md) | Heedify | **✓** |  |
 | [HelloTeam](./helloteam-inc.md) | HelloTeam Inc. | **✓** |  |
+| [Hero von Happyforce](./happyforce-hero-by.md) | Happyforce | **✓** |  |
 | [HeyTaco](./heytaco-llc.md) | HeyTaco, LLC | **✓** |  |
 | [hi Digital Coach](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5 Technologies | **✓** |  |
@@ -269,6 +270,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [KUDO](./kudo-inc.md) | KUDO, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
 | [Kunjani](./faceboard-pty-ltd-kunjani.md) | FACEBOARD (PTY) LTD | **✓** |  |
+| [KURO-Portal](./si-net-kuro-portal.md) | Si-Netz | **✓** |  |
 | [Laduma](./laduma-ltd.md) | Laduma Ltd. | **✓** |  |
 | [LawToolBox](./lawtoolboxcominc-lawtoolbox.md) | LawToolBox.com,Inc. | **✓** |  |
 | [LawVu APAC](./lawvu-apac.md) | LawVu | **✓** |  |
@@ -346,16 +348,18 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Pandos](./pandos-intelligence-inc.md) | Pandos Intelligence Inc | **✓** |  |
 | [Panopto](./panopto.md) | Panopto | **✓** |  |
 | [ParkHere Corporate](./parkhere-gmbh-corporate.md) | ParkHere GmbH | **✓** |  |
+| [Pavestep](./pavestep.md) | Pavestep | **✓** |  |
 | [PayaFy](./nimblesoft-inc-payafy.md) | NimbleSoft Inc. | **✓** |  |
 | [Perdoo](./perdoo-gmbh.md) | Perdoo GmbH | **✓** |  |
 | [Perfect Wiki](./ooo-rd17-perfect-wiki.md) | OOO RD17 | **✓** |  |
 | [Perflo](./perflo.md) | Perflo | **✓** |  |
 | [Foto-Filer](./ichicraft-photo-filer.md) | Ichicraft | **✓** |  |
+| [Pigeonhole Live](./pigeonlab-pte-ltd-pigeonhole-live.md) | PigeonLab Pte Ltd | **✓** |  |
 | [Plandisc](./plandisc.md) | Plandisc | **✓** |  |
 | [Planyway-Kalender für Trello](./rubius-planyway-calendar-for-trello.md) | Rubius | **✓** |  |
 | [PlayQuiz – Aprende &amp; Juega](./teamschamp-playquiz-aprendejuega.md) | TeamsChamp | **✓** |  |
 | [Plumm](./plumm-health-ltd.md) | Plumm Health LTD | **✓** |  |
-| [POPP Cloud VoIP-Connector](./popp-communications-cloud-voip-connector.md) | POPP-Kommunikation | **✓** |  |
+| [POPP Cloud VoIP-Connector](./poppcom-inc-popp-cloud-voip-connector.md) | POPP.Com, Inc. | **✓** |  |
 | [PostBeyond](./postbeyond.md) | PostBeyond | **✓** |  |
 | [Powell Teams](./powell-software-teams.md) | Powell Software | **✓** |  |
 | [Power BI-Zusammenarbeit](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
@@ -411,7 +415,6 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [SkilledHuman](./saltflat-limited-skilledhuman.md) | SaltFlat Limited | **✓** |  |
 | [Skillsoft Percipio](./skillsoft-percipio.md) | Skillsoft | **✓** |  |
 | [Skoach](./cultify-lda-skoach.md) | Cultify, Lda | **✓** |  |
-| [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  |
 | [Smarp](./smarp.md) | Smarp | **✓** |  |
 | [Smart Connect for Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  |
 | [SmartDraw](./smartdraw-software-llc.md) | SmartDraw Software, LLC | **✓** |  |
@@ -432,6 +435,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Startgrid](./startgrid.md) | Startgrid | **✓** |  |
 | [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  |
 | [Stipop-Aufkleber](./stipop-stickers.md) | Stipop | **✓** |  |
+| [Streamline](./finative-streamline.md) | Finative | **✓** |  |
 | [Streem](./streem.md) | Streem | **✓** |  |
 | [Structural](./structural-inc.md) | Structural, Inc. | **✓** |  |
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  |
@@ -481,6 +485,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
 | [timeghost – Zeiterfassung](./timeghostio-timeghost-time-tracking.md) | timeghost.io | **✓** |  |
 | [Timeneye](./dm-digital-srl-timeneye.md) | DM Digital SRL | **✓** |  |
+| [TINYpulse](./tinypulse.md) | TINYpulse | **✓** |  |
 | [Tonkean](./tonkean.md) | Tonkean | **✓** |  |
 | [Totara](./totara-learning.md) | Totara Learning | **✓** |  |
 | [touchSMS](./edgility-touchsms.md) | Edgility | **✓** |  |
