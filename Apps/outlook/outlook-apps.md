@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von Microsoft Outlook Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/25/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook Apps.
 localization_priority: Normal
-ms.openlocfilehash: 7cd0e6f2501b8715757f4d6fbbe214fb42ec18c3
-ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
+ms.openlocfilehash: 9328f65dcdbc22d97a0b71a1e7e4a1c83814140b
+ms.sourcegitcommit: 9cbff2dbc9762426293b9b094a29e3d2bebc760b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65692230"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818373"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Outlook Apps
 
@@ -48,7 +48,6 @@ Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die
 | [Outreach Sales Engagement für Outlook](./outreach-sales-engagement-for-outlook.md) | Reichweite | **✓** |  |
 | [Pexip One für Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Prioritätsmatrix – Umwandeln von E-Mails in Aufgaben](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Quantenarbeitsplatz](./quantum-workplace.md) | Quantenarbeitsplatz | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [Strategie-KI für Outlook](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
 | [XQ Sichere E-Mail](./xq-message-secure-email.md) | XQ-Nachricht | **✓** |  |
