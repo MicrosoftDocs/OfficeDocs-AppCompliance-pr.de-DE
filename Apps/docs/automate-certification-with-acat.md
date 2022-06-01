@@ -8,12 +8,12 @@ ms.service: certification
 ms.topic: how-to
 ms.date: 04/13/2022
 ms.custom: template-how-to
-ms.openlocfilehash: 6a18e64f3b75f6d197c9867830d0a061ce298584
-ms.sourcegitcommit: 0865622c8abffc11115e56d966729e5318d67ab9
+ms.openlocfilehash: b708f68ed5717d08b321f02f3ba09989a77fdf17
+ms.sourcegitcommit: e639149031755df8cd50c03341b6507146cc48b0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65608792"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65793025"
 ---
 # <a name="automate-microsoft-365-certification-with-app-compliance-automation-tool-for-microsoft-365"></a>Automatisieren Microsoft 365 Zertifizierung mit dem App Compliance Automation Tool für Microsoft 365
 
@@ -158,7 +158,7 @@ Beim Erstellen eines Complianceberichts richtet ACAT eine Umgebung mit Ihrem Abo
 - Wechseln Sie auf der linken Seite zum **Zugriffssteuerelement (Access Control, IAM** ). 
 - Wählen Sie **"Meinen Zugriff anzeigen** " aus, um Ihre Berechtigung zu überprüfen.
     - Wenn Ihre Organisation [integrierte Azure-Rollen](/azure/role-based-access-control/built-in-roles) verwendet, sollten Ihre Rollenzuweisungen mindestens eine der folgenden Rollen enthalten:
-        - [Ressourcenrichtlinienmitwirkender](/azure/role-based-access-control/built-in-roles#resource-policy-contributor) und [Sicherheitsadministrator](/azure/role-based-access-control/built-in-roles#security-admin)
+        - [Ressourcenrichtlinienmitwirkender](/azure/role-based-access-control/built-in-roles#resource-policy-contributor) und [Sicherheits-Admin](/azure/role-based-access-control/built-in-roles#security-admin)
         - Andere Rollenzuweisung mit höheren Berechtigungen (z. B. [Besitzer](/azure/role-based-access-control/built-in-roles#owner) usw.)
 
 ### <a name="how-to-report-an-acat-issue-or-warning"></a>Wie melden Sie ein ACAT-Problem oder eine Warnung? 
@@ -169,11 +169,15 @@ Wenn ein Problem in ACAT auftritt und Sie sich an das [private ACAT-Vorschauprog
     - Wechseln Sie zu den **Benachrichtigungen** über [Azure-Portal](https://portal.azure.com/?microsoft_azure_appcomplianceautomation_assettypeoptions=%7B%22AppComplianceAutomation%22:%7B%22options%22:%22%22%7D%7D).
     - Weitere **Ereignisse im Aktivitätsprotokoll auswählen** 
     
-    :::image type="complex" source="../media/ACAT/getstarted-troubleshoot-activitylog.png" alt-text="ACAT-Benachrichtigungen":::
-        Wechseln Sie zum Aktivitätsprotokoll, um ACAT-Benachrichtigungen zu überprüfen.
-    :::image-end:::
     
-    - Ändern Sie den **Zeitbereich** ordnungsgemäß, um Den ACAT-Fehler oder die ACAT-Warnung im Aktivitätsprotokoll herauszufiltern. 
+    
+    - Wechseln zu **Verzeichnisaktivität** 
+    - Ändern Sie den **Zeitbereich** ordnungsgemäß, und legen Sie den **Mandantenressourcenanbieter** als *"Microsoft.AppComplianceAutomation* " fest, um Ihren ACAT-Fehler oder Ihre ACAT-Warnung im Aktivitätsprotokoll herauszufiltern. 
+    
+    :::image type="complex" source="../media/ACAT/getstarted-troubleshoot-log-settings.png" alt-text="Aktivitätsprotokoll":::
+        Suchen Sie ACAT-Protokolle im Aktivitätsprotokoll.
+    :::image-end:::
+
     - Ermitteln Sie Ihren ACAT-Fehler oder Ihre ACAT-Warnung, wählen Sie aus, um die Details abzurufen und die Details als Datei zu speichern.
     
 - Überprüfen Sie, ob Ihr Abonnement von ACAT ordnungsgemäß eingerichtet wurde. 
