@@ -1,21 +1,21 @@
 ---
-title: Azure App ID Information for affadfb6-f17b-428f-97f9-9aae3b6175bc
+title: Azure-App ID-Informationen für affadfb6-f17b-428f-97f9-9aae3b6175bc
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Informationen zu Sicherheit und Compliance für affadfb6-f17b-428f-97f9-9aae3b6175bc.
-ms.openlocfilehash: 02590b72bf34bf05e80d0d46eff302da33e492fe
-ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
+ms.openlocfilehash: 5cb0dd334f87decdbb6168b18f1183a1557dcf7f
+ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/09/2022
-ms.locfileid: "65969365"
+ms.locfileid: "65975589"
 ---
-# <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>Azure App-ID: affadfb6-f17b-428f-97f9-9aae3b6175bc
+# <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>Azure-App ID: affadfb6-f17b-428f-97f9-9aae3b6175bc
 
 
 ### <a name="apps-associated-with-this-id"></a>Apps, die dieser ID zugeordnet sind:
@@ -25,6 +25,6 @@ ms.locfileid: "65969365"
 | [Prioritätsmatrix – Umwandeln von E-Mails in Aufgaben](../forward/WA104381735.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA104381735](https://appsource.microsoft.com/product/office/WA104381735) |
 | [Priority Matrix](../forward/appfluenceinc.m_pm_msft.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/appfluenceinc.m_pm_msft](https://appsource.microsoft.com/product/office/appfluenceinc.m_pm_msft) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 App Compliance-Status
-- Herausgebernachweisstatus: Abgeschlossen
-- Microsoft 365-Zertifizierung: Genehmigt (23.06.2021)
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 App-Compliancestatus
+- Publisher Attestaton-Status: Abgeschlossen
+- Microsoft 365 Zertifizierung: Genehmigt (23.06.2021)

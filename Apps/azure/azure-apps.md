@@ -1,23 +1,23 @@
 ---
-title: Sicherheit und Compliance von Azure-App-IDs – Alle Apps
+title: Azure-App IDs Sicherheit und Compliance – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Azure-App-IDs.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Azure-App IDs.
 localization_priority: Normal
-ms.openlocfilehash: 5d6ccac4a607a1e8f65daf9491ff3c82da7b7ccd
-ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
+ms.openlocfilehash: db27a71ac4bb09e82f536462ba979385fcdd3328
+ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/09/2022
-ms.locfileid: "65967215"
+ms.locfileid: "65975582"
 ---
-# <a name="azure-app-ids-security-and-compliance"></a>Sicherheit und Compliance von Azure App-IDs
+# <a name="azure-app-ids-security-and-compliance"></a>Azure-App IDs Sicherheit und Compliance
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen zu Azure-App-IDs und -Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365 Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Azure-App IDs und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
 | **Azure-App-ID** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:-------------:|
