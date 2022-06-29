@@ -3,24 +3,24 @@ title: Anwendungsinformationen für Showmaster von Cherryware
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/27/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Showmaster, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9cde99fdf18b018fe2b881c4f60837fa88d8ae66
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: f6c6e1d68e4e0ab5a366ccb98f9d05420fcd044c
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881082"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66248718"
 ---
 # <a name="showmaster"></a>Showmaster
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 21. Januar 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 23. Juni 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003706" target="_blank">Anzeigen in AppSource</a>
 
@@ -30,15 +30,15 @@ ms.locfileid: "64881082"
 
 Informationen, die von Kirschwaren an Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Showmaster |
 | ID | WA200003706 |
-| unterstützte Office 365 Clients | PowerPoint 2016 oder höher auf Mac, PowerPoint im Web, PowerPoint 2016 oder höher auf Windows |
+| unterstützte Office 365 Clients | PowerPoint 2016 oder höher unter Mac, PowerPoint im Web, PowerPoint 2016 oder höher unter Windows |
 | Name des Partnerunternehmens | Kirschwaren |
 | Website des Unternehmens | [https://www.cherryware.com](https://www.cherryware.com) |
 | Nutzungsbedingungen der App | [https://showmaster.app/terms/](https://showmaster.app/terms/) |
-| Kernfunktionen der App | Showmaster ist ein PowerPoint-Add-In, das während der Wartezeit einen spannenden Rahmen um Ihren Vortrag schafft und mit Schlagzeilen, Countdown, Musik und mehr pausent. |
+| Kernfunktionen der App | Showmaster ist ein PowerPoint-Add-In, das während der Wartezeit und Pausen mit Schlagzeilen, Countdown, Musik und mehr einen spannenden Rahmen um Ihren Vortrag herum schafft. |
 | Hauptsitz des Unternehmens | Deutschland |
 | App-Infoseite | [https://showmaster.app](https://showmaster.app) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Paas |
@@ -54,7 +54,7 @@ Informationen, die von Kirschwaren an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von Kirschwaren darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
@@ -67,7 +67,7 @@ Diese Informationen wurden von Kirschwaren darüber bereitgestellt, wie diese Ap
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
@@ -97,7 +97,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
@@ -122,7 +122,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Nein |
 
@@ -132,18 +132,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? |  |
-| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet Microsoft Graph nicht.
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

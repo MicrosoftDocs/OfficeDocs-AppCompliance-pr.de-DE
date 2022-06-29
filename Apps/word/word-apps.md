@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von Microsoft Word Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/07/2022
+ms.date: 06/27/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Word-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 6049f63161765ee4b557952e2385a212b97bd431
-ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
+ms.openlocfilehash: 01d38371206814af4b2751386055b6d98085e0e3
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "65943141"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66249528"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Word Apps
 
@@ -25,6 +25,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [AuditBoard-Add-In](./auditboard-inc-add-in.md) | Auditboard, Inc. | **✓** |  |
 | [BriefCatch](./briefcatch-llc.md) | BriefCatch LLC | **✓** |  |
 | [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
+| [Clausebook](./leasepilot-clausebook.md) | LeasePilot | **✓** |  |
 | [CocoFax - Senden von Fax leicht &amp; gesichert](./cocofax-sending-fax-made-easysecure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [CrossCheck](./krevealllc-crosscheck.md) | kRevealLLC | **✓** |  |
 | [Dokumententwurf](./green-meadow-aps-document-drafter.md) | Grüne Wiesen-ApS | **✓** |  |
