@@ -1,5 +1,5 @@
 ---
-title: Anwendungsinformationen für MindManager von Corel
+title: Anwendungsinformationen für JustLogin von JustLogin
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,42 +7,42 @@ ms.date: 06/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für MindManager, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für JustLogin, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b57ba8d0236b2e8bcccfc28139aaa289d23a9dcb
+ms.openlocfilehash: c0d4936c9223951bdf9abc5f25b0e4d8970f1cb7
 ms.sourcegitcommit: 2ae239376c807fa9223fc7e18daa1feed6e826aa
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564521"
+ms.locfileid: "66564605"
 ---
-# <a name="mindmanager"></a>MindManager
+# <a name="justlogin"></a>JustLogin
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 6. Juni 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 28. Juni 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/cebe4a59-b076-47f3-a7bf-79148daf82f7" target="_blank">Im Teams Store anzeigen</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002261" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/cfbb8888-3227-45fc-a4b7-423af170defa" target="_blank">Im Teams Store anzeigen</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004314" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Von Corel an Microsoft bereitgestellte Informationen:
+Von JustLogin an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | MindManager |
-| ID | WA200002261 |
+| App-Name | JustLogin |
+| ID | WA200004314 |
 | unterstützte Office 365 Clients | Microsoft Teams |
-| Name des Partnerunternehmens | Corel |
-| Website des Unternehmens | [https://www.mindmanager.com](https://www.mindmanager.com) |
-| Nutzungsbedingungen der App | [https://www.mindjet.com/go/mmcloudterms](https://www.mindjet.com/go/mmcloudterms) |
-| Kernfunktionen der App | Sie können Karten gemeinsam bearbeiten, Teamdashboards verwalten, Flussdiagramme erstellen und Projekte im Blick behalten. |
-| Hauptsitz des Unternehmens | Kanada |
+| Name des Partnerunternehmens | JustLogin |
+| Website des Unternehmens | [https://justlogin.com](https://justlogin.com) |
+| Nutzungsbedingungen der App | [https://justlogin.com/terms/](https://justlogin.com/terms/) |
+| Kernfunktionen der App | JustLogin - Ihre mitarbeiterfreundliche HR Software. |
+| Hauptsitz des Unternehmens | Singapur |
 | App-Infoseite | |
-| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Paas |
+| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Hybrid |
 | Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -53,7 +53,7 @@ Von Corel an Microsoft bereitgestellte Informationen:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von Corel darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von JustLogin darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -72,17 +72,17 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
-| Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | ApplicationControls |
+| Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | TraditionalAntiMalware |
 | Haben Sie einen etablierten Prozess zum Einrücken und Zurverfolgen von Sicherheitsrisiken? | Ja |
-| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Ja |
-| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Ja |
+| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Nein |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Nein |
 | Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nein |
-| Führen Sie vierteljährliche Überprüfungen von Sicherheitsrisiken in Ihrer App und deren Unterstützung durch? | Ja |
+| Führen Sie vierteljährliche Überprüfungen von Sicherheitsrisiken in Ihrer App und deren Unterstützung durch? | Nein |
 | Haben Sie eine Firewall an Der Grenze des externen Netzwerks installiert? | Ja |
 | Verfügen Sie über einen etablierten Änderungsverwaltungsprozess, der verwendet wird, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
 | Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion gesendet werden? | Ja |
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikenklassen wie OWASP Top 10? | Ja |
-| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
 | Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
@@ -102,22 +102,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
-| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Ja |
-| Welche SOC 2-Zertifizierung haben Sie erreicht? | Typ 2 |
-| Neuestes SOC2-Zertifizierungsdatum | 2020-08-31 |
-| Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Ja |
-| Neuestes SOC3-Zertifizierungsdatum | 2021-10-15 |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
-| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nein |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
+| Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
+| Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
-| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
-| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
-| Entspricht die App NIST 800-171? | Ja |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nein |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nein |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nein |
+| Entspricht die App NIST 800-171? | Nein |
 | Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -130,13 +127,13 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Ja |
-| URL der Datenschutzrichtlinie | https://www.corel.com/en/corel-privacy-policy/ |
+| URL der Datenschutzrichtlinie | https://justlogin.com/privacy/ |
 | Führt die App automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
 | Verarbeitet die App Kundendaten zu einem sekundären Zweck, der nicht in der Datenschutzerklärung beschrieben ist (z. B. Marketing, Analysen)? | Nein |
-| Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? | Nein |
+| Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? | Ja |
 | Sammelt oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
 | Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? | Ja |
-| Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | Ja |
+| Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | Nein |
 | Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Ja |
 | Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
 
@@ -150,10 +147,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Nein |
-| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? | MS Teams JavaScript SDK für die Authentifizierung |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
-| Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
+| Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Ja |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
@@ -161,12 +157,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMessage.Send | Delegiert | Die Anwendung (MindManager) delegiert Berechtigungen an den Benutzer, um Dateivorgänge auszuführen.   | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
->| Chat.Send | Delegiert | Die Anwendung (MindManager) delegiert Berechtigungen an den Benutzer, um Dateivorgänge auszuführen.   | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
->| Files.ReadWrite | Delegiert | Die Anwendung (MindManager) delegiert Berechtigungen an den Benutzer, um Dateivorgänge auszuführen.   | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
->| Sites.ReadWrite.All | Delegiert | Die Anwendung (MindManager) delegiert Berechtigungen an den Benutzer, um Dateivorgänge auszuführen.   | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
->| User.Read | Delegiert | Die Anwendung (MindManager) delegiert Berechtigungen an den Benutzer, um Dateivorgänge auszuführen.   | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
->| offline_access | Delegiert | Die Anwendung (MindManager) delegiert Berechtigungen an den Benutzer, um Dateivorgänge auszuführen.   | [51e2b67d-9854-446a-8da1-cdd89ef0b987](../azure/51e2b67d-9854-446a-8da1-cdd89ef0b987.md) |
+>| email | Delegiert | E-Mail für die Anmeldung bei JustLogin über SSO benötigen | [af5883db-bda9-4d1a-b1ce-022bea20f021](../azure/af5883db-bda9-4d1a-b1ce-022bea20f021.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
