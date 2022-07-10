@@ -1,26 +1,25 @@
 ---
-title: Anwendungsinformationen für IXCloud - Teams Compliance Recording &amp; Intelligence von Numonix LLC
+title: Anwendungsinformationen für IXCloud – Teams Compliance Recording &amp; Intelligence von Numonix LLC
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/11/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für IXCloud – Teams Compliance Recording &amp; Intelligence, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5628c375c4a33d93ed06ada1f31d85c316b4220f
-ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
+certification_type: certified
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für IXCloud – Teams Compliance Recording &amp; Intelligence, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: d174cb155e2e40973392a6648e794a77e3248c2c
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64776275"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66706188"
 ---
 # <a name="ixcloud---teams-compliance-recording-amp-intelligence"></a>IXCloud - Teams Compliance Recording &amp; Intelligence
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 23. Februar 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Letzte Aktualisierung durch den Entwickler am: 12. April 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/numonix.nmx-teams" target="_blank">Anzeigen in AppSource</a>
 
@@ -30,7 +29,7 @@ ms.locfileid: "64776275"
 
 Von Numonix LLC an Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | IXCloud - Teams Compliance Recording &amp; Intelligence |
 | ID | numonix.nmx-teams |
@@ -53,7 +52,7 @@ Von Numonix LLC an Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Numonix LLC darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
@@ -72,7 +71,7 @@ Diese Informationen wurden von Numonix LLC darüber bereitgestellt, wie diese Ap
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
@@ -102,14 +101,14 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | N/V |
-| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/V |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | N/V |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
-| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | N/V |
+| Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nicht zutreffend |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27018)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
@@ -127,7 +126,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Ja |
@@ -139,7 +138,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Wird die Zustimmung eines Elternteils oder Erziehungsberechtigten eingeholt? | Ja |
 | Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? | Ja |
 | Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | Ja |
-| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | N/V |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Nicht zutreffend |
 | Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -148,20 +147,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Ja |
-| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | Anwendung | So identifizieren Sie die Teilnehmer und liefern Aufzeichnungen bei Bedarf und stellen Stummschaltung bereit | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| Calls.AccessMedia.All | Anwendung | So zeichnen Sie auf  | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
@@ -172,20 +170,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >| OnlineMeetings.Read | Anwendung | Lesen von Besprechungsinformationen für Metadaten und OnDemand-Aufzeichnungsregeln | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| User.Read | Anwendung | So rufen Sie Metadaten ab und identifizieren Benutzer | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| Calendars.Read | Anwendung | Ermöglicht der App das Lesen von Ereignissen aller Kalender ohne einen angemeldeten Benutzer. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
->| Calls.AccessMedia.All | Anwendung | Zugreifen auf Mediendatenströme in einem Anruf als App | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
+>| Calls.AccessMedia.All | Anwendung | Auf Medienstreams in einem Anruf als App zugreifen | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.Initiate.All | Anwendung | Ermöglicht der App, ausgehende Anrufe an einen einzelnen Benutzer zu tätigen und Anrufe an Benutzer in Ihrer Organisation&#8217;Verzeichnis zu übertragen. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.InitiateGroupCall.All | Anwendung | Ermöglicht der App, ausgehende Anrufe an mehrere Benutzer zu tätigen und Teilnehmer zur Besprechung hinzuzufügen. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.JoinGroupCall.All | Anwendung | Ermöglicht der App, an Gruppenanrufen und geplanten Besprechungen in Ihrer Organisation teilzunehmen, ohne dass ein Benutzer angemeldet ist. Die App wird mit den Berechtigungen eines Verzeichnisbenutzers zu Besprechungen in Ihrer Organisation verknüpft. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
->| Calls.JoinGroupCallasGuest.All | Anwendung | Teilnehmen an Gruppenanrufen und Besprechungen als Gast | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
->| OnlineMeetings.Read.All | Anwendung | Ermöglicht der App, Onlinebesprechungsdetails in Ihrer Organisation zu lesen, ohne dass ein Benutzer angemeldet ist. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
+>| Calls.JoinGroupCallasGuest.All | Anwendung | Gruppenanrufen und Besprechungen als Gast beitreten | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
+>| OnlineMeetings.Read.All | Anwendung | Ermöglicht der App, Onlinebesprechungsdetails in Ihrer Organisation ohne einen angemeldeten Benutzer zu lesen. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| User.Read.All | Anwendung | Ermöglicht der App, Benutzerprofile ohne angemeldeten Benutzer zu lesen. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calendars.Read | Anwendung | Ermöglicht der App das Lesen von Ereignissen aller Kalender ohne einen angemeldeten Benutzer. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
->| Calls.AccessMedia.All | Anwendung | Zugreifen auf Mediendatenströme in einem Anruf als App | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
+>| Calls.AccessMedia.All | Anwendung | Auf Medienstreams in einem Anruf als App zugreifen | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.Initiate.All | Anwendung | Ermöglicht der App, ausgehende Anrufe an einen einzelnen Benutzer zu tätigen und Anrufe an Benutzer in Ihrer Organisation&#8217;Verzeichnis zu übertragen. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.InitiateGroupCall.All | Anwendung | Ermöglicht der App, ausgehende Anrufe an mehrere Benutzer zu tätigen und Teilnehmer zur Besprechung hinzuzufügen. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.JoinGroupCall.All | Anwendung | Teilnehmen an Gruppenanrufen und geplanten Besprechungen in Ihrer Organisation | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
->| Calls.JoinGroupCallasGuest.All | Anwendung | Teilnehmen an Gruppenanrufen und Besprechungen als Gast | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
->| OnlineMeetings.Read.All | Anwendung | Ermöglicht der App, Onlinebesprechungsdetails in Ihrer Organisation zu lesen, ohne dass ein Benutzer angemeldet ist. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
+>| Calls.JoinGroupCallasGuest.All | Anwendung | Gruppenanrufen und Besprechungen als Gast beitreten | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
+>| OnlineMeetings.Read.All | Anwendung | Ermöglicht der App, Onlinebesprechungsdetails in Ihrer Organisation ohne einen angemeldeten Benutzer zu lesen. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| User.Read.All | Anwendung | Ermöglicht der App, Benutzerprofile ohne angemeldeten Benutzer zu lesen. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
@@ -194,3 +192,39 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Zertifizierungsinformationen
+
+| **Control** | **Microsoft 365-Zertifizierungsergebnis** |
+|:------------|:---------------------------------------|
+| [**ANWENDUNGSSICHERHEIT**](../docs/certification-submission-guide.md#application-security) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vulnerability Assessment Review (DAST/SAST/Penetration Test) | Nicht zutreffend |
+| [**BETRIEBSSICHERHEIT**](../docs/certification-submission-guide.md#operational-security) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patch-Management – Risikorangfolge | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder gleichwertige Technologien) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steuerelement ändern | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/-bereitstellung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Erkennung und Verhinderung von Angriffen (optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollierungsdaten) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | Nicht zutreffend |
+| [**DATENSCHUTZ IM UMGANG MIT DATEN &amp;**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhen von Daten | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenaufbewahrung und -entsorgung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSGVO | – |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

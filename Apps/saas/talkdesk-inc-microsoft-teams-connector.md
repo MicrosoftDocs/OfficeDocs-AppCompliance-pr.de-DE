@@ -3,24 +3,23 @@ title: Anwendungsinformationen für Talkdesk Microsoft Teams Connector von Talkd
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 02/11/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Talkdesk Microsoft Teams Connector, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b3964ffc0d7bf1ea8f8efbf2f0ffac242275f49f
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+certification_type: certified
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für Talkdesk Microsoft Teams Connector, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 6ef9327f17317b4893a5d3f74ef6be15d8527943
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881042"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66704164"
 ---
 # <a name="talkdesk-microsoft-teams-connector"></a>Talkdesk Microsoft Teams Connector
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 9. Februar 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Letzte Aktualisierung durch den Entwickler am: 14. Februar 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/talkdeskinc1579824950513.talkdesk_for_teams" target="_blank">Anzeigen in AppSource</a>
 
@@ -30,14 +29,14 @@ ms.locfileid: "64881042"
 
 Von Talkdesk, Inc. an Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Talkdesk Microsoft Teams Connector |
 | ID | talkdeskinc1579824950513.talkdesk_for_teams |
 | Name des Partnerunternehmens | Talkdesk, Inc. |
 | Website des Unternehmens | [https://www.talkdesk.com](https://www.talkdesk.com) |
 | Nutzungsbedingungen der App | [https://www.talkdesk.com/terms-of-service](https://www.talkdesk.com/terms-of-service) |
-| Kernfunktionen der App | Microsoft Teams Integration in Talkdesk, die verzeichnis- und direktes Routing ermöglicht |
+| Kernfunktionen der App | Microsoft Teams-Integration in Talkdesk, die verzeichnis- und direktes Routing ermöglicht |
 | Hauptsitz des Unternehmens | USA Amerikas |
 | App-Infoseite | |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Hybrid |
@@ -53,7 +52,7 @@ Von Talkdesk, Inc. an Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Talkdesk, Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
 | Welche Daten werden von Ihrer App verarbeitet? | Benutzerprofildaten – Vorname, Nachname, Vollständiger Name, E-Mail-Adresse, Telefonnummer |
@@ -74,7 +73,7 @@ Diese Informationen wurden von Talkdesk, Inc. darüber bereitgestellt, wie diese
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
@@ -104,7 +103,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
@@ -132,7 +131,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Nein |
@@ -151,7 +150,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
@@ -162,9 +161,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| User.Read.All | Delegiert | Erforderlich zum Sammeln der Profildaten von MS Teams-Benutzern | [10d8604b-e6ea-4c59-8414-aca1bf1ffda8](../azure/10d8604b-e6ea-4c59-8414-aca1bf1ffda8.md) |
 >| offline_access | Delegiert | Ermöglicht der App, die Daten auch dann anzuzeigen, wenn der Benutzer, der den Zugriff gewährt hat, nicht angemeldet ist. | [10d8604b-e6ea-4c59-8414-aca1bf1ffda8](../azure/10d8604b-e6ea-4c59-8414-aca1bf1ffda8.md) |
@@ -175,3 +174,39 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Zertifizierungsinformationen
+
+| **Control** | **Microsoft 365-Zertifizierungsergebnis** |
+|:------------|:---------------------------------------|
+| [**ANWENDUNGSSICHERHEIT**](../docs/certification-submission-guide.md#application-security) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vulnerability Assessment Review (DAST/SAST/Penetration Test) | Nicht zutreffend |
+| [**BETRIEBSSICHERHEIT**](../docs/certification-submission-guide.md#operational-security) | **FAIL** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patch-Management – Risikorangfolge | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder gleichwertige Technologien) | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steuerelement ändern | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/-bereitstellung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Erkennung und Verhinderung von Angriffen (optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollierungsdaten) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | Im Bereich |
+| [**DATENSCHUTZ IM UMGANG MIT DATEN &amp;**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **FAIL** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhen von Daten | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenaufbewahrung und -entsorgung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | Im Bereich |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSGVO | Im Bereich |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

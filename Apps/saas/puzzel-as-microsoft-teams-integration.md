@@ -1,26 +1,25 @@
 ---
-title: Anwendungsinformationen für Puzzel Microsoft Teams Integration von Puzzel AS
+title: Anwendungsinformationen für die Integration von Puzzel Microsoft Teams durch Puzzel AS
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/09/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für Puzzel Microsoft Teams Integration, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 45d4499625b9f1ed2c2ae869bdf8e1507e32e6f2
-ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
+certification_type: certified
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Integration von Puzzel Microsoft Teams, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 85f750d9946286c21b06160a4c9745a8454326b0
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2022
-ms.locfileid: "65982595"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66704184"
 ---
-# <a name="puzzel-microsoft-teams-integration"></a>Puzzel Microsoft Teams Integration
+# <a name="puzzel-microsoft-teams-integration"></a>Puzzel Microsoft Teams-Integration
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 9. Juni 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Letzte Aktualisierung durch den Entwickler am: 15. Juni 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/puzzel-5257631.puzzel_teams_integration" target="_blank">Anzeigen in AppSource</a>
 
@@ -32,12 +31,12 @@ Von Puzzel AS an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Puzzel Microsoft Teams Integration |
+| App-Name | Puzzel Microsoft Teams-Integration |
 | ID | puzzel-5257631.puzzel_teams_integration |
 | Name des Partnerunternehmens | Puzzel AS |
 | Website des Unternehmens | [https://www.puzzel.com](https://www.puzzel.com) |
 | Nutzungsbedingungen der App | [https://www.puzzel.com/neighbourhood/trust-centre/privacy-p...](https://www.puzzel.com/neighbourhood/trust-centre/privacy-policy) |
-| Kernfunktionen der App | Die Integration von Puzzel in Microsoft Teams bringt Ihre Agenten näher zusammen und erleichtert die Zusammenarbeit. Agents können Teams Anrufe tätigen, Nachrichten senden, kontakte suchen und übertragen, ohne die Puzzel Agent-Anwendung verlassen zu müssen. Benutzer können sehen, ob andere Agenten online, beschäftigt, abwesend oder in Anrufen sind, sowie den Anwesenheitsstatus aller anderen Kollegen in ihrer Organisation. Agents können Kontakte&#8217; Kalender und Zeitpläne in Teams anzeigen, um Pläne, Besprechungen und Anrufe besser auszurichten. |
+| Kernfunktionen der App | Die Integration von Puzzel in Microsoft Teams bringt Ihre Agenten näher zusammen und erleichtert die Zusammenarbeit. Agents können Teams-Anrufe tätigen, Nachrichten senden, kontakte suchen und übertragen, ohne die Puzzel Agent-Anwendung verlassen zu müssen. Benutzer können sehen, ob andere Agenten online, beschäftigt, abwesend oder in Anrufen sind, sowie den Anwesenheitsstatus aller anderen Kollegen in ihrer Organisation. Agents können Kontakte&#8217; Kalender und Zeitpläne in Teams anzeigen, um Pläne, Besprechungen und Anrufe besser auszurichten. |
 | Hauptsitz des Unternehmens | Norwegen |
 | App-Infoseite | [https://www.puzzel.com/microsoft-teams](https://www.puzzel.com/microsoft-teams) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | IsvHosted |
@@ -158,7 +157,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
->Diese Anwendung verwendet keine Microsoft Graph.
+>Diese Anwendung verwendet Microsoft Graph nicht.
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
@@ -166,3 +165,39 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Zertifizierungsinformationen
+
+| **Control** | **Microsoft 365-Zertifizierungsergebnis** |
+|:------------|:---------------------------------------|
+| [**ANWENDUNGSSICHERHEIT**](../docs/certification-submission-guide.md#application-security) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vulnerability Assessment Review (DAST/SAST/Penetration Test) | Nicht zutreffend |
+| [**BETRIEBSSICHERHEIT**](../docs/certification-submission-guide.md#operational-security) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patch-Management – Risikorangfolge | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder gleichwertige Technologien) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steuerelement ändern | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/-bereitstellung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Erkennung und Verhinderung von Angriffen (optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollierungsdaten) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | Nicht zutreffend |
+| [**DATENSCHUTZ IM UMGANG MIT DATEN &amp;**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhen von Daten | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenaufbewahrung und -entsorgung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSGVO | – |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

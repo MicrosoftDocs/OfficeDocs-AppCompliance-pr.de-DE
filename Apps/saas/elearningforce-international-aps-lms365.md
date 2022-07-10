@@ -1,25 +1,25 @@
 ---
-title: LMS365 –Übersicht
+title: Anwendungsinformationen für LMS365 von ELEARNINGFORCE International Aps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/05/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für LMS365, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5aeb76840bd35071c203866165ea1a4563159cc5
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 3e9f22b83662510d1a20816187547fb799803400
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65228129"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66704504"
 ---
-# <a name="lms365-overview"></a>LMS365 –Übersicht
+# <a name="lms365"></a>LMS365
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Letzte Aktualisierung durch den Entwickler am: 5. April 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 19. Mai 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/elearningforce.lms365_spfx" target="_blank">Anzeigen in AppSource</a>
 
@@ -29,14 +29,14 @@ ms.locfileid: "65228129"
 
 Informationen, die von ELEARNINGFORCE International Aps an Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | LMS365 |
 | ID | elearningforce.lms365_spfx |
 | Name des Partnerunternehmens | ELEARNINGFORCE International Aps |
 | Website des Unternehmens | [https://lms365.com](https://lms365.com) |
 | Nutzungsbedingungen der App | [https://lms365.com/lms365-saas-terms/](https://lms365.com/lms365-saas-terms/) |
-| Kernfunktionen der App | LMS365 ermöglicht Es Ihrer Organisation, Schulungen auf der Microsoft 365 Plattform über SharePoint, Teams und mobile Geräte bereitzustellen und zu verwalten, wodurch Eine vertraute Umgebung für Ihre Mitarbeiter, Partner und Kunden bereitgestellt wird. |
+| Kernfunktionen der App | LMS365 ermöglicht Es Ihrer Organisation, Schulungen auf der Microsoft 365-Plattform über SharePoint, Teams und mobile Geräte bereitzustellen und zu verwalten, wodurch Eine vertraute Umgebung für Ihre Mitarbeiter, Partner und Kunden bereitgestellt wird. |
 | Hauptsitz des Unternehmens | Dänemark |
 | App-Infoseite | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Paas |
@@ -52,7 +52,7 @@ Informationen, die von ELEARNINGFORCE International Aps an Microsoft bereitgeste
 
 Diese Informationen wurden von ELEARNINGFORCE International Aps darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
 | Welche Daten werden von Ihrer App verarbeitet? | Benutzerprofildaten – siehe https://trustcenter.elearningforce.com/hc/en-us/articles/360017659377 |
@@ -73,7 +73,7 @@ Diese Informationen wurden von ELEARNINGFORCE International Aps darüber bereitg
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
@@ -89,7 +89,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikenklassen wie OWASP Top 10? | Ja |
 | Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
 | Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | – |
+| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | Nicht zutreffend |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
 | Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
 | Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
@@ -103,23 +103,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
-| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | – |
-| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | – |
-| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | – |
+| Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
+| Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
+| Entspricht die App den Dienstorganisationssteuerelementen (SOC 1)? | Nicht zutreffend |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SERVICE Organization Controls, SOC 2)? | Nein |
 | Entspricht die App den Steuerelementen der Dienstorganisation (SOC 3)? | Nein |
 | Führen Sie jährliche PCI DSS-Bewertungen für die App und ihre unterstützende Umgebung durch? | Nein |
 | Ist die App International Organization for Standardization (ISO 27001) zertifiziert? | Ja |
-| Entspricht die App der International Organization for Standardization (ISO 27018)? | – |
+| Entspricht die App der International Organization for Standardization (ISO 27018)? | Nicht zutreffend |
 | Entspricht die App der International Organization for Standardization (ISO 27017)? | Nein |
 | Entspricht die App der International Organization for Standardization (ISO 27002)? | Nein |
 | Ist das Federal Risk and Authorization Management Program (FedRAMP) der App konform? | Nein |
-| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | – |
-| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | – |
-| Entspricht die App Sarbanes-Oxley Act (SOX)? | – |
-| Entspricht die App NIST 800-171? | – |
+| Entspricht die App dem Family Educational Rights and Privacy Act (FERPA)? | Nicht zutreffend |
+| Entspricht die App dem Children es Online Privacy Protection Act (COPPA)? | Nicht zutreffend |
+| Entspricht die App Sarbanes-Oxley Act (SOX)? | Nicht zutreffend |
+| Entspricht die App NIST 800-171? | Nicht zutreffend |
 | Wurde die App cloudsicherheitsallianz (CSA Star) zertifiziert? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -128,7 +128,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Ja |
@@ -138,8 +138,8 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? | Nein |
 | Sammelt oder verarbeitet die App Daten von Minderjährigen (d. h. Personen unter 16 Jahren)? | Nein |
 | Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? | Ja |
-| Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | – |
-| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | – |
+| Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | Nicht zutreffend |
+| Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Nicht zutreffend |
 | Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -148,28 +148,27 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Ja |
-| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
 | Auflisten der unterstützten Richtlinientypen | Geräteplattformen, Gerätestatus, Client-Apps |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Ja |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| GroupMember.Read.All | Anwendung | Ermöglicht der App, Mitglieder einer AD-Gruppe zu erweitern, um die Benutzergruppe für eine Schulung zu registrieren. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| Mail.Send | Delegiert | Ermöglicht der App das Senden von Benachrichtigungs-E-Mails. Die Berechtigung wird während der Konfiguration des E-Mail-Kontos für die Benachrichtigung dynamisch angefordert. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| OnlineMeetings.ReadWrite | Delegiert | Ermöglicht der App das Erstellen, Lesen, Aktualisieren und Löschen von Onlinebesprechungsereignissen. Die Berechtigung wird während der Konfiguration des E-Mail-Kontos für die Benachrichtigung dynamisch angefordert. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| RoleManagement.Read.Directory | Anwendung | Die App muss in der Lage sein zu lesen, welche Rollen ein Benutzer hat und ob er ein Office 365 globaler Administrator und/oder SharePoint Administrator ist. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| RoleManagement.Read.Directory | Anwendung | Die App muss in der Lage sein, zu lesen, welche Rollen ein Benutzer hat und ob er ein Office 365 globaler Administrator und/oder SharePoint-Administrator ist. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| User.Invite.All | Delegiert | Optionales Feature: So können Katalogadministratoren Gastbenutzer zu einem Schulungskatalog einladen. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| User.Read | Delegiert | Ermöglicht Benutzern, sich mithilfe der Azure AD des Kunden&#8217;bei der App anzumelden, und ermöglicht der App, das Profil und grundlegende Unternehmensinformationen des angemeldeten Benutzers zu lesen. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| User.Read | Delegiert | Ermöglicht Benutzern, sich mithilfe des Kunden&#8217;Azure AD bei der App anzumelden, und ermöglicht der App, das Profil und grundlegende Unternehmensinformationen des angemeldeten Benutzers zu lesen. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| User.Read.All | Delegiert | Ermöglicht der App, das vollständige Benutzerprofil zu lesen. Es&#8217;erforderlich, um Benutzer&#8217; Manager zu lesen und eine Hierarchie für das Berichts-Manager-Dashboard &amp; zu erstellen. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| User.Read.All | Anwendung | Ermöglicht der App, das vollständige Benutzerprofil zu lesen. Es&#8217;erforderlich, um Benutzer&#8217; Manager zu lesen und eine Hierarchie für das Berichts-Manager-Dashboard &amp; zu erstellen. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| Profil | Delegiert | Damit den Benutzern angezeigt werden kann, welches Konto für die Anmeldung verwendet wurde, benötigt LMS365 diese Berechtigung, um grundlegende Profilinformationen anzuzeigen, einschließlich Anzeigename, Vor- und Nachname, E-Mail-Adresse und Foto. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
@@ -180,3 +179,39 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Zertifizierungsinformationen
+
+| **Control** | **Microsoft 365-Zertifizierungsergebnis** |
+|:------------|:---------------------------------------|
+| [**ANWENDUNGSSICHERHEIT**](../docs/certification-submission-guide.md#application-security) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Penetrationstests | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vulnerability Assessment Review (DAST/SAST/Penetration Test) | Nicht zutreffend |
+| [**BETRIEBSSICHERHEIT**](../docs/certification-submission-guide.md#operational-security) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Virenschutz | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schutz vor Schadsoftware – Anwendungssteuerung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patch-Management – Risikorangfolge | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patchverwaltung – Patching | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sicherheitsrisikoüberprüfung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Firewalls (oder gleichwertige Technologien) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall – Webanwendungsfirewalls (WAFs) (Optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steuerelement ändern | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sichere Softwareentwicklung/-bereitstellung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kontoverwaltung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Erkennung und Verhinderung von Angriffen (optional) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protokollierung von Sicherheitsereignissen | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Überprüfen (Protokollierungsdaten) | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warnungen zu Sicherheitsereignissen | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informationssicherheits-Risikomanagement | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reaktion auf Vorfälle | Nicht zutreffend |
+| [**DATENSCHUTZ IM UMGANG MIT DATEN &amp;**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/V** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daten während der Übertragung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruhen von Daten | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenaufbewahrung und -entsorgung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datenzugriffsverwaltung | Nicht zutreffend |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSGVO | – |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

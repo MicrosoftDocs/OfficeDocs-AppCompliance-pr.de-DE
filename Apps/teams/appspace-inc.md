@@ -3,26 +3,25 @@ title: Anwendungsinformationen für Appspace von Appspace, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/15/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Appspace, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 24caf7d62adac3ed1db9a8b705805cfbfdce6629
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 79f03868c35f9604be796811f9a6bee688c842dd
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877312"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66705827"
 ---
 # <a name="appspace"></a>Appspace
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 8. Juli 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Letzte Aktualisierung durch den Entwickler am: 3. August 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a9a866c4-e5cf-47f2-932c-db14cb89008f" target="_blank">Anzeigen im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/a9a866c4-e5cf-47f2-932c-db14cb89008f" target="_blank">Im Teams Store anzeigen</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001738" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
@@ -31,7 +30,7 @@ ms.locfileid: "64877312"
 
 Von Appspace, Inc. an Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Appspace |
 | ID | WA200001738 |
@@ -55,7 +54,7 @@ Von Appspace, Inc. an Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Appspace, Inc. darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? |  |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? |  |
@@ -68,7 +67,7 @@ Diese Informationen wurden von Appspace, Inc. darüber bereitgestellt, wie diese
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
@@ -96,7 +95,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
@@ -123,7 +122,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? |  |
 
@@ -133,20 +132,19 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Nein |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Nein |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? |  |
-| Welche Authentifizierungsbibliotheken werden verwendet, wenn Ihre App keine der oben genannten Bibliotheken verwendet? |  |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) |  |
 | Speichert Ihre App Anmeldeinformationen im Code? |  |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Team.ReadBasic.All | Delegiert | Rufen Sie die Teams ab, zu denen der Benutzer gehört. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](../azure/a9a866c4-e5cf-47f2-932c-db14cb89008f.md) |
 >| User.ReadBasic.All | Delegiert | Grundlegende Profileigenschaften anderer Benutzer in Ihrer Organisation im Namen des angemeldeten Benutzers lesen. Dazu gehören der Anzeigename, der Vor-und Nachname, die E-Mail-Adresse, Durchwahlen und Foto. Ermöglicht der App auch, das vollständige Profil des angemeldeten Benutzers zu lesen. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](../azure/a9a866c4-e5cf-47f2-932c-db14cb89008f.md) |
