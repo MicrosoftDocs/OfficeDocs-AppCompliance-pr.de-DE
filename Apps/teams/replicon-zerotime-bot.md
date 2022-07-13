@@ -1,49 +1,49 @@
 ---
-title: Anwendungsinformationen für bNear von bNear
+title: Anwendungsinformationen für ZeroTime Bot von Replicon
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/11/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für bNear, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für ZeroTime Bot, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5327788ebc9276076ef63f754f16ed130dac07ff
+ms.openlocfilehash: 35065d4157b4a4870f76344189781e9ba3d6599b
 ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/13/2022
-ms.locfileid: "66762844"
+ms.locfileid: "66765159"
 ---
-# <a name="bnear"></a>bNear
+# <a name="zerotime-bot"></a>ZeroTime Bot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 6. Juli 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 8. Dezember 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/5d655b39-963c-465a-89ab-bdad7ab7af7f" target="_blank">Im Teams Store anzeigen</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200004271" target="_blank">Anzeigen in AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/4db812e1-4d29-44e4-b72e-9654c0c91ce4" target="_blank">Im Teams Store anzeigen</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003717" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Allgemeine Informationen
 
-Informationen, die von bNear an Microsoft bereitgestellt werden:
+Von Replicon an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | bNear |
-| ID | WA200004271 |
+| App-Name | ZeroTime Bot |
+| ID | WA200003717 |
 | unterstützte Office 365 Clients | Microsoft Teams |
-| Name des Partnerunternehmens | bNear |
-| Website des Unternehmens | [https://bnear.io](https://bnear.io) |
-| Nutzungsbedingungen der App | [https://bnear.io/terms](https://bnear.io/terms) |
-| Kernfunktionen der App | bNear ist der virtuelle Raum für Sie und Ihr Team. Bleiben Sie in Verbindung – genau wie im echten Büro! |
-| Hauptsitz des Unternehmens | Deutschland |
-| App-Infoseite | [https://bnear.io](https://bnear.io) |
-| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Paas |
-| Welche Hosting-Cloudanbieter verwendet die App? | Azure |
+| Name des Partnerunternehmens | Replicon |
+| Website des Unternehmens | [https://www.replicon.com](https://www.replicon.com) |
+| Nutzungsbedingungen der App | [https://www.replicon.com/terms-and-conditions/](https://www.replicon.com/terms-and-conditions/) |
+| Kernfunktionen der App | Zero Time Bot ermöglicht Es Benutzern, ihre Replicon-Arbeitszeittabellen direkt aufzufüllen, indem sie mit dem Bot chatten. |
+| Hauptsitz des Unternehmens | Kanada |
+| App-Infoseite | |
+| Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Iaas |
+| Welche Hosting-Cloudanbieter verwendet die App? | Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,20 +53,14 @@ Informationen, die von bNear an Microsoft bereitgestellt werden:
 
 ### <a name="how-the-app-handles-data"></a>So behandelt die App Daten
 
-Diese Informationen wurden von bNear darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
+Diese Informationen wurden von Replicon darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Anzeigename, E-Mail-Adresse, Teamzugehörigkeiten, aktueller Microsoft Teams-Benutzerstatus, Tägliche Kalendertermine (Betreff, Beschreibung, Uhrzeit, Teilnehmer, Anruflink) werden vorübergehend am Tag des Termins gespeichert, bis die Besprechung beendet ist. Derzeit ausgeführte Anrufe (Betreff, Beschreibung, Uhrzeit, aktuelle Teilnehmer, Stummschaltungsstatus, Anruflink) werden während des Anrufs vorübergehend gespeichert, bis der Anruf beendet ist. |
+| Welche Daten werden von Ihrer App verarbeitet? | Benutzerprofildaten, Zeitdaten |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
-| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | Anzeigename, E-Mail-Adresse, Teamzugehörigkeiten, aktueller Microsoft Teams-Benutzerstatus, Tägliche Kalendertermine (Betreff, Beschreibung, Uhrzeit, Teilnehmer, Anruflink) werden vorübergehend am Tag des Termins gespeichert, bis die Besprechung beendet ist. Derzeit ausgeführte Anrufe (Betreff, Beschreibung, Uhrzeit, aktuelle Teilnehmer, Stummschaltungsstatus, Anruflink) werden während des Anrufs vorübergehend gespeichert, bis der Anruf beendet ist. |
-| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Deutschland |
-| Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Nicht beibehalten |
-| Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
-| Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
+| Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Nein |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -82,22 +76,23 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
 | Verwendet Ihre Umgebung herkömmlichen Schutz vor Schadsoftware oder Anwendungssteuerelemente? | ApplicationControls |
 | Haben Sie einen etablierten Prozess zum Einrücken und Zurverfolgen von Sicherheitsrisiken? | Ja |
-| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Nein |
-| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Nein |
+| Verfügen Sie über eine Richtlinie, die Ihre Service Level Agreement (SLA) für die Anwendung von Patches regelt? | Ja |
+| Führen Sie Patchverwaltungsaktivitäten gemäß Ihren Patchingrichtlinien-SLAs durch? | Ja |
 | Verfügt Ihre Umgebung über nicht unterstützte Betriebssysteme oder Software? | Nein |
 | Führen Sie vierteljährliche Überprüfungen von Sicherheitsrisiken in Ihrer App und deren Unterstützung durch? | Ja |
 | Haben Sie eine Firewall an Der Grenze des externen Netzwerks installiert? | Ja |
 | Verfügen Sie über einen etablierten Änderungsverwaltungsprozess, der verwendet wird, um Änderungsanforderungen zu überprüfen und zu genehmigen, bevor sie in der Produktion bereitgestellt werden? | Ja |
 | Überprüft und genehmigt eine zusätzliche Person alle Codeänderungsanforderungen, die vom ursprünglichen Entwickler an die Produktion gesendet werden? | Ja |
 | Berücksichtigen sichere Codierungspraktiken allgemeine Sicherheitsrisikenklassen wie OWASP Top 10? | Ja |
-| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, DNSManagement, Credential |
+| Mehrstufige Authentifizierung (MFA) aktiviert für: | CodeRepositories, Credential, DNSManagement |
 | Haben Sie einen etablierten Prozess für die Bereitstellung, Änderung und Löschung von Mitarbeiterkonten? | Ja |
-| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | Nicht zutreffend |
+| Verfügen Sie über IdPS-Software (Intrusion Detection and Prevention), die am Rand der Netzwerkgrenze bereitgestellt wird, die Ihre App unterstützt? | Ja |
 | Haben Sie die Ereignisprotokollierung für alle Systemkomponenten eingerichtet, die Ihre App unterstützen? | Ja |
-| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Nein |
-| Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? | Nein |
-| Haben Sie einen formalen Risikomanagementprozess für die Informationssicherheit eingerichtet? | Nein |
-| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Nein |
+| Werden alle Protokolle regelmäßig von menschlichen oder automatisierten Tools überprüft, um potenzielle Sicherheitsereignisse zu erkennen? | Ja |
+| Wenn ein Sicherheitsereignis erkannt wird, werden Benachrichtigungen automatisch zur Triage an einen Mitarbeiter gesendet? | Ja |
+| Haben Sie einen formalen Risikomanagementprozess für die Informationssicherheit eingerichtet? | Ja |
+| Haben Sie einen formalen Prozess zur Reaktion auf Sicherheitsvorfälle dokumentiert und eingerichtet? | Ja |
+| Melden Sie Verletzungen von App- oder Dienstdaten innerhalb von 72 Stunden nach Erkennung an Aufsichtsbehörden und personen, die von der Verletzung betroffen sind? | Ja |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -133,8 +128,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
-| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Ja |
-| URL der Datenschutzrichtlinie | https://bnear.io/privacy |
+| Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Nein |
 | Führt die App automatisierte Entscheidungsfindung durch, einschließlich Profilerstellung, die rechtliche Auswirkungen oder ähnliche Auswirkungen haben könnte? | Nein |
 | Verarbeitet die App Kundendaten zu einem sekundären Zweck, der nicht in der Datenschutzerklärung beschrieben ist (z. B. Marketing, Analysen)? | Nein |
 | Verarbeiten Sie spezielle Kategorien vertraulicher Daten (z. B. rassische oder ethnische Herkunft, politische Meinung, religiöse oder philosophische Überzeugungen, genetische oder biometrische Daten, Gesundheitsdaten) oder Kategorien von Daten, die Benachrichtigungsgesetzen unterliegen? | Nein |
@@ -142,7 +136,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Verfügt die App über die Möglichkeit, die personenbezogenen Daten einer Person auf Anfrage zu löschen? | Nicht zutreffend |
 | Verfügt die App über Funktionen, um die Verarbeitung der personenbezogenen Daten einer Person auf Anfrage einzuschränken oder einzuschränken? | Nicht zutreffend |
 | Bietet die App Einzelpersonen die Möglichkeit, ihre personenbezogenen Daten zu korrigieren oder zu aktualisieren? | Nicht zutreffend |
-| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Ja |
+| Werden regelmäßige Datenschutz- und Datenschutzüberprüfungen (z. B. Datenschutz-Folgenabschätzungen oder Datenschutzrisikobewertungen) durchgeführt, um Risiken im Zusammenhang mit der Verarbeitung personenbezogener Daten für die App zu identifizieren? | Nicht zutreffend |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +148,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Ja |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
@@ -164,19 +158,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 >|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Anwendung | Erstellen Sie eine Besprechungsübersicht, und interagieren Sie mit Besprechungen. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Calls.InitiateGroupCall.All | Anwendung | Starten eines Anrufs von der Anwendung. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Calls.JoinGroupCall.All | Anwendung | Teilnehmen an einem Anruf aus der Anwendung. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Group.ReadWrite.All | Delegiert | Alle Teams für Benutzer auflisten, Gruppen erstellen. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| GroupMember.Read.All | Anwendung | Alle Teammitglieder auflisten. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| GroupMember.ReadWrite.All | Delegiert | Alle Teammitglieder, ihre Teamräume auflisten und neue Gruppen erstellen. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| OnlineMeetings.Read.All | Anwendung | Rufen Sie Details für aktuelle Besprechungen ab, die in der App angezeigt werden sollen. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Presence.ReadWrite.All | Anwendung | Zeigen Sie Anwesenheitsinformationen für alle Benutzer in den Teams an, und legen Sie neue Anwesenheitsinformationen basierend auf der Benutzerinteraktion fest. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| TeamMember.Read.All | Anwendung | Alle Mitglieder eines Teams in ihren Teamräumen anzeigen. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| TeamMember.ReadWrite.All | Delegiert | Hinzufügen oder Entfernen von Mitgliedern aus Teamräumen. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| Teams.Create | Delegiert | Erstellen Sie neue Teams für neue Teamräume. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| TeamsActivity.Send | Anwendung | Benachrichtigen Sie Benutzer über App-Interaktionen von Teammitgliedern. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
->| User.Read.All | Anwendung | Erhalten Sie Liveupdates für Benutzer. | [5d655b39-963c-465a-89ab-bdad7ab7af7f](../azure/5d655b39-963c-465a-89ab-bdad7ab7af7f.md) |
+>| User.Read.All | Anwendung | Abrufen der E-Mail des Benutzers und Zuordnen der E-Mail an den Benutzer im System von Replicon zum Pushen von Chatnachrichten an die Anwendung von Replicon | [4db812e1-4d29-44e4-b72e-9654c0c91ce4](../azure/4db812e1-4d29-44e4-b72e-9654c0c91ce4.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
