@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von Microsoft Outlook Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/06/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook-Apps.
 localization_priority: Normal
-ms.openlocfilehash: e068b2d07c5fb1e006f593e5d4423d78e1c5dd71
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: bbd1db0a9e77da480e6a99ed6dfb0712b3d80182
+ms.sourcegitcommit: 41d719a4473ff77d0955bbdb198e9ca084b02dc2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66654820"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66826091"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Outlook Apps
 
@@ -30,7 +30,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [DocuSign für Outlook](./docusign-inc-for-outlook.md) | DocuSign, Inc. | **✓** |  |
 | [Dynamo](./dynamo-software.md) | Dynamo Software | **✓** |  |
 | [Egnyte für Outlook](./egnyte-inc-for-outlook.md) | Egnyte, Inc. | **✓** |  |
-| [E-Mail-Reaktor](./flow-simulation-ltd-email-reactor.md) | Flow Simulation Ltd. | **✓** |  |
+| [Email Reaktor](./flow-simulation-ltd-email-reactor.md) | Flow Simulation Ltd. | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Impression Signaturen für Outlook](./impression-signatures-for-outlook.md) | Impressionsignaturen | **✓** |  |
 | [iPlanner Office 365 Planner-Add-In für Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -51,4 +51,4 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Quantenarbeitsplatz](./quantum-workplace.md) | Quantenarbeitsplatz | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [Strategy-AI für Outlook](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
-| [XQ Sichere E-Mail](./xq-message-secure-email.md) | XQ-Nachricht | **✓** |  |
+| [XQ Secure Email](./xq-message-secure-email.md) | XQ-Nachricht | **✓** |  |
