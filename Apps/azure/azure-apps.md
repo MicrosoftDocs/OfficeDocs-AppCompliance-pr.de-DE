@@ -1,25 +1,25 @@
 ---
-title: Azure-App IDs Sicherheit und Compliance – Alle Apps
+title: Aplicação Azure AD IDs Sicherheit und Compliance – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/20/2022
+ms.date: 07/21/2022
 ms.topic: article
 ms.service: attestation
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Azure-App IDs.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Aplicação Azure AD IDs.
 localization_priority: Normal
-ms.openlocfilehash: 9f0d43cc22d0577616468fc4ab7daebc8b35add1
-ms.sourcegitcommit: 8f06a03c298fca9d066cc977fcbd2717c310caa4
+ms.openlocfilehash: a78bc327c466e808af9f8158989775498b4cd5e7
+ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/21/2022
-ms.locfileid: "66916802"
+ms.locfileid: "66922090"
 ---
-# <a name="azure-app-ids-security-and-compliance"></a>Azure-App IDs Sicherheit und Compliance
+# <a name="azure-app-ids-security-and-compliance"></a>Aplicação Azure AD IDs Sicherheit und Compliance
 
-Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Azure-App IDs und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
+Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die Organisationen benötigen, um Entscheidungen über Aplicação Azure AD IDs und Add-Ins, die sie verwenden, zu beschleunigen und zu informieren. Diese Informationen über Sicherheit, Datenverarbeitung und Compliance sollen Organisationen dabei helfen, Risiken bei der Verwendung dieser Apps zu bewerten und zu verwalten.
 
-| **Azure-App-ID** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
+| **Aplicação Azure AD-ID** | **Vom Herausgeber nachgewiesen** | **Zertifiziert** |
 |:--------|:------------|:-------------:|
 | [003a8a54-9d27-41cd-9c28-aec5875a3497](./003a8a54-9d27-41cd-9c28-aec5875a3497.md) | **✓** |  |
 | [00485db5-81b3-4299-833a-8d6c366d0ac0](./00485db5-81b3-4299-833a-8d6c366d0ac0.md) | **✓** |  |
@@ -147,7 +147,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [4bea8f81-966b-45fe-8c33-4c8843fda977](./4bea8f81-966b-45fe-8c33-4c8843fda977.md) | **✓** |  |
 | [4c708a72-75bd-4da5-9764-bf0b14e15098](./4c708a72-75bd-4da5-9764-bf0b14e15098.md) | **✓** |  |
 | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](./4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) | **✓** |  |
-| [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](./4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) | **✓** |  |
+| [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](./4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [4db812e1-4d29-44e4-b72e-9654c0c91ce4](./4db812e1-4d29-44e4-b72e-9654c0c91ce4.md) | **✓** |  |
 | [4dce2abf-3f8e-4281-9f7a-d602fc391886](./4dce2abf-3f8e-4281-9f7a-d602fc391886.md) | **✓** |  |
 | [4e820d60-9e62-403c-accd-857b987cc13c](./4e820d60-9e62-403c-accd-857b987cc13c.md) | **✓** |  |

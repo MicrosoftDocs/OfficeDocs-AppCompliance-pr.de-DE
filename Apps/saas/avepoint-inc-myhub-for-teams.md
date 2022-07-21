@@ -3,18 +3,18 @@ title: Anwendungsinformationen für MyHub für Teams von AvePoint Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/22/2022
+ms.date: 07/20/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für MyHub für Teams, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 539fb0347185133f1d81d169c14922bb44f5aea3
-ms.sourcegitcommit: 8f06a03c298fca9d066cc977fcbd2717c310caa4
+ms.openlocfilehash: 2612c1f6580365e9a00e333843c5058d7bb00c01
+ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/21/2022
-ms.locfileid: "66916787"
+ms.locfileid: "66923470"
 ---
 # <a name="myhub-for-teams"></a>MyHub für Teams
 
@@ -37,7 +37,7 @@ Informationen, die von AvePoint Inc. an Microsoft bereitgestellt werden:
 | Website des Unternehmens | [https://www.avepoint.com](https://www.avepoint.com) |
 | Nutzungsbedingungen der App | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 | Kernfunktionen der App | Lernen Sie MyHub kennen, eine zentrale Anlaufstelle für die Anforderung neuer Office 365 Arbeitsbereiche, die vorhandene Arbeitsbereiche &amp; verwalten. MyHub bietet benutzerfreundliche Bereitstellungs-, Rezertifizierungs- und Lebenszyklusdienste, &amp; ohne Ihr IT-Team zu belasten. Benutzer können skalieren, sichere Arbeitsbereiche &amp; automatisieren&amp;, werden benachrichtigt, wenn Sie Maßnahmen ergreifen müssen, wodurch es einfacher ist, ihre Aufgabenliste abzuschließen. MyHub&#65533;nachhaltiges sicheres &amp; Framework wird von AvePoint&#65533;Cloud Governance unterstützt. |
-| Hauptsitz des Unternehmens | USA Amerikas |
+| Hauptsitz des Unternehmens | Estados Unidos Amerikas |
 | App-Infoseite | [https://www.avepoint.com/products/cloud/myhub](https://www.avepoint.com/products/cloud/myhub) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? |  |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
