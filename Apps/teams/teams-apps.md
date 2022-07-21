@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Teams-Apps.
 localization_priority: Priority
-ms.openlocfilehash: a6c2abb166dcca5b93055ed8147afca2fbbd776c
-ms.sourcegitcommit: d8794fef6be4d3a9a42bf2904f29a70de76069fc
+ms.openlocfilehash: f86b5b37fd1c146c7517c7a4861f474a5093df1d
+ms.sourcegitcommit: b072ed662849382b6df1bebf43454e12e5ed544d
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/20/2022
-ms.locfileid: "66900555"
+ms.locfileid: "66912870"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Teams-Apps
 
@@ -27,6 +27,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [Abi](./beroe-abi.md) | Beroe | **✓** |  |
 | [abwesend](./braincore-solutions-absentify.md) | BrainCore Solutions | **✓** |  |
+| [Leistungsträger](./achievers.md) | Leistungsträger | **✓** |  |
 | [ACV](./tangible-it-mexico-acv.md) | Greifbares IT-Mexiko | **✓** |  |
 | [Adobe Acrobat](./adobe-acrobat.md) | Adobe | **✓** |  |
 | [Adobe Acrobat-Zeichen](./adobe-acrobat-sign.md) | Adobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
