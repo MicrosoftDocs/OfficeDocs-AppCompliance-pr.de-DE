@@ -3,26 +3,26 @@ title: Anwendungsinformationen für Confluence Cloud von Atlassian
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/13/2022
+ms.date: 07/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Confluence Cloud, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2b1fce0ac0210113dc5dee3ca08b5e52636ea1c3
-ms.sourcegitcommit: b6dd040770330d4499a0e19998f909be31b67c34
+ms.openlocfilehash: 9571b81a027e7b10f1b7621f4f5623720101460e
+ms.sourcegitcommit: d35f3194155f00ecca787b2bc9bea5c69a534b0a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66076226"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66949568"
 ---
 # <a name="confluence-cloud"></a>Confluence Cloud
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Letzte Aktualisierung durch den Entwickler am: 13. Juni 2022</p>
+<p>Letzte Aktualisierung durch den Entwickler am: 21. Juli 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/30bb610c-6321-40fe-a047-056e7d0dac96" target="_blank">Anzeigen im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/30bb610c-6321-40fe-a047-056e7d0dac96" target="_blank">Im Teams Store anzeigen</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003113" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
@@ -35,7 +35,7 @@ Von Atlassian an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Confluence Cloud |
 | ID | WA200003113 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Atlassian |
 | Website des Unternehmens | [https://www.atlassian.com](https://www.atlassian.com) |
 | Nutzungsbedingungen der App | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
@@ -62,7 +62,7 @@ Diese Informationen wurden von Atlassian darüber bereitgestellt, wie diese App 
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Mandanten-ID und Benutzer-ID |
-| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
+| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Estados Unidos Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
 | Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Nicht beibehalten |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
@@ -154,9 +154,9 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | Delegiert | – Wir lesen die Liste der Chatmitglieder in einer Besprechung, damit wir die Liste der Eingeladenen zur Besprechung kennen. – Wir lesen die Benutzer&#8217; Namen und E-Mail-Adressen, die wir bedingt in unserer Besprechungs-App anzeigen. Zeigen Sie beispielsweise den Namen des aktuellen Benutzers an, der Besprechungsnotizen abnimmt. – Unsere App liest das Kalenderereignis des Benutzers&#8217;, bei dem unsere App zu einer Besprechung hinzugefügt wurde, sodass wir grundlegende Informationen zur Besprechung haben, z. B. den Besprechungstitel.     | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |
 >| Chat.ReadBasic | Delegiert | – Wir lesen die Liste der Chatmitglieder in einer Besprechung, damit wir die Liste der Eingeladenen zur Besprechung kennen. – Wir lesen die Benutzer&#8217; Namen und E-Mail-Adressen, die wir bedingt in unserer Besprechungs-App anzeigen. Zeigen Sie beispielsweise den Namen des aktuellen Benutzers an, der Besprechungsnotizen abnimmt. – Unsere App liest das Kalenderereignis des Benutzers&#8217;, bei dem unsere App zu einer Besprechung hinzugefügt wurde, sodass wir grundlegende Informationen zur Besprechung haben, z. B. den Besprechungstitel. | [4aa38041-66a2-41a4-ac97-55bc828a9803](../azure/4aa38041-66a2-41a4-ac97-55bc828a9803.md) |

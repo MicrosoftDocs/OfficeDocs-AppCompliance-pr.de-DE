@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von SaaS-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/20/2022
+ms.date: 07/21/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle SaaS-Apps.
 localization_priority: Normal
-ms.openlocfilehash: 6251c7747300ce7e8e852e5ef1413aa81e4a6ffa
-ms.sourcegitcommit: 8f06a03c298fca9d066cc977fcbd2717c310caa4
+ms.openlocfilehash: 4068da99fbf2a389479345f645ba4e2cfbc680b1
+ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/21/2022
-ms.locfileid: "66916800"
+ms.locfileid: "66929470"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Sicherheit und Compliance von SaaS-Apps
 
@@ -38,7 +38,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Dubber Unified Call Recording For Microsoft Teams](./dubber-corp-unified-call-recording-for-microsoft-teams.md) | Dubber Corp | **✓** |  |
 | [E-Mail-Raffinessen](./emailgistics-corp.md) | Emailgistics Corp. | **✓** |  |
 | [EmailNotes für Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | Stände (Südpazifik) PTE Limited | **✓** |  |
-| [Genesys Cloud CX Teams Integration](./genesys-cloud-services-inc-cx-teams-integration.md) | Genesys Cloud Services, Inc | **✓** |  |
+| [Genesys Cloud CX Teams Integration](./genesys-cloud-services-inc-cx-teams-integration.md) | Genesys Serviços de Nuvem, Inc | **✓** |  |
 | [Ice Contact Center](./computertalk-ice-contact-center.md) | ComputerTalk | **✓** |  |
 | [iGlobe CRM-Office 365 für Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Bildauswahl](./officeatwork-image-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
