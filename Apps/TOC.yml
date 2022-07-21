@@ -76,6 +76,8 @@ items:
   - name: Microsoft Outlook Apps
     href: outlook/outlook-apps.md
     items:
+      - name: Leistungsträger für Outlook
+        href: outlook/achievers-for-outlook.md
       - name: Adobe Acrobat Sign für Microsoft Outlook
         href: outlook/adobe-inc-acrobat-sign-for-microsoft-outlook.md
       - name: Appspace für Outlook
@@ -238,6 +240,8 @@ items:
         href: teams/beroe-abi.md
       - name: abwesend
         href: teams/braincore-solutions-absentify.md
+      - name: Leistungsträger
+        href: teams/achievers.md
       - name: ACV
         href: teams/tangible-it-mexico-acv.md
       - name: Adobe Acrobat
