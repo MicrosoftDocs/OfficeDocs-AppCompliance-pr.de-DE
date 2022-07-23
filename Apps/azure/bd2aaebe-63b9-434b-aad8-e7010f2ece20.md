@@ -1,21 +1,21 @@
 ---
-title: Aplicação Azure AD ID-Informationen für bd2aaebe-63b9-434b-aad8-e7010f2ece20
+title: Azure-App ID-Informationen für bd2aaebe-63b9-434b-aad8-e7010f2ece20
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/21/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Informationen zu Sicherheit und Compliance für bd2aaebe-63b9-434b-aad8-e7010f2ece20.
-ms.openlocfilehash: 3d07b16d66effd8cce96358e25cff1affcb192c1
-ms.sourcegitcommit: 0a27f7395a0969da2cebc8345a88aa69e841eff6
+ms.openlocfilehash: 7a907ac70ef9e5aedd395ca0254d7e05a0198820
+ms.sourcegitcommit: 9c114837630164e4c4965abc220743e2b08a1df5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66921880"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66975839"
 ---
-# <a name="azure-app-id-bd2aaebe-63b9-434b-aad8-e7010f2ece20"></a>Aplicação Azure AD ID: bd2aaebe-63b9-434b-aad8-e7010f2ece20
+# <a name="azure-app-id-bd2aaebe-63b9-434b-aad8-e7010f2ece20"></a>Azure-App ID: bd2aaebe-63b9-434b-aad8-e7010f2ece20
 
 
 ### <a name="apps-associated-with-this-id"></a>Apps, die dieser ID zugeordnet sind:
