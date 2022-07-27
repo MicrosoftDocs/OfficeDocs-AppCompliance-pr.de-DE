@@ -3,18 +3,18 @@ title: Anwendungsinformationen für Workday Peakon Employee Voice by Workday
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/26/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Workday Peakon Employee Voice, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84045192772b78ff882548b3ef071c1d694c1101
-ms.sourcegitcommit: b0c1d8160b4e9a27f23a9d723f7e76d38ab12d9e
+ms.openlocfilehash: 1ba5f99e88ca7c523e8f52e9459afaadb816af0a
+ms.sourcegitcommit: 6771e51564baf354398b12cdf2f9eede6a8ce994
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125315"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67048505"
 ---
 # <a name="workday-peakon-employee-voice"></a>Workday Peakon Employee Voice
 
@@ -22,7 +22,7 @@ ms.locfileid: "65125315"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Letzte Aktualisierung durch den Entwickler am: 20. Juli 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/1c37bec0-d522-4cba-9643-ddc79d841729" target="_blank">Anzeigen im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/1c37bec0-d522-4cba-9643-ddc79d841729" target="_blank">Im Teams Store anzeigen</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003453" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
@@ -31,7 +31,7 @@ ms.locfileid: "65125315"
 
 Von Workday an Microsoft bereitgestellte Informationen:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | Workday Peakon Employee Voice |
 | ID | WA200003453 |
@@ -39,7 +39,7 @@ Von Workday an Microsoft bereitgestellte Informationen:
 | Name des Partnerunternehmens | Workday |
 | Website des Unternehmens | [https://www.workday.com/en-us/homepage.html](https://www.workday.com/en-us/homepage.html) |
 | Nutzungsbedingungen der App | [https://nw.myworkday.com/workdaypeakonemployeevoiceforteams...](https://nw.myworkday.com/workdaypeakonemployeevoiceforteams/post-license/) |
-| Kernfunktionen der App | Erhalten Sie Benachrichtigungen zu neuen Umfragen Senden Sie Umfrageantworten direkt über Microsoft Teams Werden Sie an Umfragen erinnert, die Sie noch nicht abgeschlossen haben. |
+| Kernfunktionen der App | Erhalten Sie Benachrichtigungen zu neuen Umfragen Senden Sie Umfrageantworten direkt über Microsoft Teams Lassen Sie sich an Umfragen erinnern, die Sie noch nicht abgeschlossen haben. |
 | Hauptsitz des Unternehmens | USA Amerikas |
 | App-Infoseite | [https://nw.myworkday.com/workdaypeakonemployeevoiceforteams](https://nw.myworkday.com/workdaypeakonemployeevoiceforteams) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Hybrid |
@@ -55,16 +55,16 @@ Von Workday an Microsoft bereitgestellte Informationen:
 
 Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | E-Mail- und Azure Active Director-ID – Die Peakon für MS Teams-App verarbeitet daten nicht direkt.  |
+| Welche Daten werden von Ihrer App verarbeitet? | Email und Azure Active Director-ID – Die Peakon für MS Teams-App verarbeitet daten nicht direkt.  |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Unternehmens-ID, Anwendungsprotokolle |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 
@@ -76,7 +76,7 @@ Diese Informationen wurden von Workday darüber bereitgestellt, wie diese App Or
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Ja |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Ja |
@@ -106,7 +106,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nein |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nein |
@@ -133,7 +133,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Ja |
 | Verfügt die App über einen externen Datenschutzhinweis, der beschreibt, wie Kundendaten gesammelt, verwendet, freigegeben und gespeichert werden? | Ja |
@@ -153,20 +153,20 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
-| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | N/V |
+| Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Nicht zutreffend |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
-| Auflisten der unterstützten Richtlinientypen | MFA (mehrstufige Authentifizierung) |
+| Auflisten der unterstützten Richtlinientypen | MFA |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| TeamsAppInstallation.ReadWriteForUser.All | Anwendung | Installieren der App und Suchen des Benutzers in der Azure-Datenbank   | [075a01db-a69f-4975-a713-aa85d004f3b5](../azure/075a01db-a69f-4975-a713-aa85d004f3b5.md) |
 

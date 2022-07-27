@@ -3,20 +3,20 @@ title: Anwendungsinformationen für Semplisio E-Commerce Manager von HQuadro
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/22/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Semplisio E-Commerce Manager, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0aa0282c79baec2c8dfebaeef26efa0f69c55636
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: a28ac8464627e779e138a35b37b1d54401e13660
+ms.sourcegitcommit: 6771e51564baf354398b12cdf2f9eede6a8ce994
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66247908"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67048300"
 ---
-# <a name="semplisio-e-commerce-manager"></a>Semplisio e-commerce Manager
+# <a name="semplisio-e-commerce-manager"></a>Semplisio-E-Commerce-Manager
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ Von HQuadro an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Semplisio e-commerce Manager |
+| App-Name | Semplisio-E-Commerce-Manager |
 | ID | WA200004286 |
 | unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | HQuadro |
@@ -64,7 +64,7 @@ Diese Informationen wurden von HQuadro darüber bereitgestellt, wie diese App Or
 | Welche Daten werden in Ihren Datenbanken gespeichert? | id Team, id channel |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Niederlande (die), Finnland |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 

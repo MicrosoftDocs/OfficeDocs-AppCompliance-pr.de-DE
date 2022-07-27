@@ -3,18 +3,18 @@ title: Anwendungsinformationen für Smy von Supermonday
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/29/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Smy, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ff423241fd4440e04cfd4019d1a060fe04d4f3fe
-ms.sourcegitcommit: 2ae239376c807fa9223fc7e18daa1feed6e826aa
+ms.openlocfilehash: dfdd62c25620605989082a0583c48363126e15f1
+ms.sourcegitcommit: 6771e51564baf354398b12cdf2f9eede6a8ce994
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564588"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67048515"
 ---
 # <a name="smy"></a>Smy
 
@@ -64,7 +64,7 @@ Diese Informationen wurden von Supermonday darüber bereitgestellt, wie diese Ap
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Microsoft-Benutzer, Microsoft-Gruppe |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Frankreich |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 
