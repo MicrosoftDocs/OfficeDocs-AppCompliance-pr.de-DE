@@ -3,18 +3,18 @@ title: Anwendungsinformationen für SalesTim nach SalesTim
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für SalesTim, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dedccb17f83675fa128af424c5769a5ee395d984
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: d7faa5b8162e99eb7d463acf441c0d59a0a53cd3
+ms.sourcegitcommit: b0ba698028b1a5124488394b51a34755aa74137e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66250010"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67036094"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -37,11 +37,11 @@ Informationen, die von SalesTim an Microsoft bereitgestellt werden:
 | ID | WA200001393 |
 | unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | SalesTim |
-| Website des Unternehmens | [https://www.salestim.com](https://www.salestim.com) |
-| Nutzungsbedingungen der App | [https://www.salestim.com/legal/tos](https://www.salestim.com/legal/tos) |
+| Website des Unternehmens | [https://nbold.co/](https://nbold.co/) |
+| Nutzungsbedingungen der App | [https://nbold.co/legal/tos/](https://nbold.co/legal/tos/) |
 | Kernfunktionen der App | SalesTim hilft jeder Organisation, ihre Zusammenarbeitsprozesse durch codefreie Microsoft Teams-Vorlagenerstellung und Governanceautomatisierung im großen Maßstab zu verbessern. |
 | Hauptsitz des Unternehmens | Frankreich |
-| App-Infoseite | [https://www.salestim.com](https://www.salestim.com) |
+| App-Infoseite | [https://nbold.co/microsoft-teams-for-project-management/](https://nbold.co/microsoft-teams-for-project-management/) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
 

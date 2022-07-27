@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von Microsoft Teams-Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/22/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Teams-Apps.
 localization_priority: Priority
-ms.openlocfilehash: 2a2d18b45d2c1a25fd5cd948b352648434883a24
-ms.sourcegitcommit: 9c114837630164e4c4965abc220743e2b08a1df5
+ms.openlocfilehash: 83eaf925ecd8a36bfea3761d2e53429090ee5c35
+ms.sourcegitcommit: 6d3b549e1bef908d74a643e57b7315aaa27261ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66979844"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67032459"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Teams-Apps
 
@@ -73,6 +73,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Beagle](./decision-point-beagle.md) | Entscheidungspunkt | **✓** |  |
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Beep](./medxnote-beep.md) | Medxnote | **✓** |  |
+| [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  |
 | [Beere](./berryworksai-berry.md) | Berryworks.ai | **✓** |  |
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
 | [BGA Notify](./honeywell-bga-notify.md) | Honeywell | **✓** |  |
@@ -120,6 +121,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [CoffeePals](./coffeepals-technologies-inc.md) | CoffeePals Technologies Inc. | **✓** |  |
 | [Collaboard](./ibv-solutions-collaboard.md) | IBV Solutions | **✓** |  |
 | [Sammlungs-Pot](./gifted-to-you-limited-collection-pot.md) | Verschenkt an Sie – begrenzt | **✓** |  |
+| [Umgangssprachlich](./colloquial-solutions.md) | Umgangssprachliche Lösungen | **✓** |  |
 | [Unternehmensnavigator](./konica-minolta-it-solutions-company-navigator.md) | Konica Minolta IT Solutions | **✓** |  |
 | [ComplianceCow](./continube-inc-compliancecow.md) | ContiNube Inc | **✓** |  |
 | [Conferences i/o](./conferences-io.md) | Conferences i/o | **✓** |  |
@@ -573,6 +575,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Einheitliche Kontakte](./glueckkanja-gab-ag-unified-contacts.md) | glueckkanja-gab AG | **✓** |  |
 | [UserVoice](./uservoice.md) | UserVoice | **✓** |  |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  |
+| [Versebook](./versebook.md) | &#24191;&#19996;&#26102;&#35867;&#26234;&#33021;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Verto 365](./tmi-systems-verto-365.md) | TMI-Systeme | **✓** |  |
 | [Vibe](./vibe-inc.md) | Vibe Inc | **✓** |  |
 | [vimheslo](./european-code-factory-sro-vimheslo.md) | European Code Factory s.r.o. | **✓** |  |
