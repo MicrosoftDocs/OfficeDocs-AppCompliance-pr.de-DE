@@ -3,20 +3,20 @@ title: Anwendungsinformationen für Fingerspitzenentscheidungsmatrix per Fingers
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/07/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Fingertip Decision Matrix, die Datenverarbeitungsrichtlinien, die Kataloginformationen des Microsoft Cloud App Security-App-Katalogs sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Fingertip Decision Matrix, ihre Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 390378f757af6d9fd9afbfd647210827c6f9f3db
-ms.sourcegitcommit: dbf716786f7a3c0b84fa4563e47510e4bd3a2fd0
+ms.openlocfilehash: 046322d981ac9221f7f142b0e9fba1867a836d01
+ms.sourcegitcommit: 6771e51564baf354398b12cdf2f9eede6a8ce994
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "65943203"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67046313"
 ---
-# <a name="fingertip-decision-matrix"></a>Fingerspitzen-Entscheidungsmatrix
+# <a name="fingertip-decision-matrix"></a>Entscheidungsmatrix mit Fingerspitzen
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,9 +33,9 @@ Von Fingertip an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Fingerspitzen-Entscheidungsmatrix |
+| App-Name | Entscheidungsmatrix mit Fingerspitzen |
 | ID | WA200004070 |
-| Unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Fingerspitze |
 | Website des Unternehmens | [https://www.fingertip.org](https://www.fingertip.org) |
 | Nutzungsbedingungen der App | [https://www.fingertip.org/terms-of-use/](https://www.fingertip.org/terms-of-use/) |
@@ -64,7 +64,7 @@ Diese Informationen wurden von Fingertip darüber bereitgestellt, wie diese App 
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofilinformationen, Mandanten-ID |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Finnland |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Nein |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 
@@ -74,7 +74,7 @@ Diese Informationen wurden von Fingertip darüber bereitgestellt, wie diese App 
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -144,10 +144,10 @@ Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microso
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle in der Checkliste für die Integration von Microsoft Identity Platform aufgeführten bewährten Methoden überprüft und eingehalten? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Ja |
-| Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung, sodass nur in Intune registrierte Geräte auf bestimmte Dienste zugreifen können, wodurch Benutzerstandorte und IP-Bereiche eingeschränkt werden |
+| Auflisten der unterstützten Richtlinientypen | Mehrstufige Authentifizierung, die es nur Intune registrierten Geräten ermöglicht, auf bestimmte Dienste zuzugreifen, wodurch Benutzerspeicherorte und IP-Bereiche eingeschränkt werden |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Ja |
@@ -161,7 +161,7 @@ Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microso
 >| email | Delegiert | Grundlegende Profilinformationen für die Benutzererstellung | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
 >| offline_access | Delegiert | For if the user disconnects | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
 >| openid | Delegiert | Anmelden | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
->| profile | Delegiert | Grundlegende Profilinformationen für die Benutzererstellung | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
+>| Profil | Delegiert | Grundlegende Profilinformationen für die Benutzererstellung | [5a6a4d82-42ce-42c4-88f0-df529fe54dcc](../azure/5a6a4d82-42ce-42c4-88f0-df529fe54dcc.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

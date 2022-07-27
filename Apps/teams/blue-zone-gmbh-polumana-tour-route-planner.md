@@ -3,18 +3,18 @@ title: Bewerbungsinformationen für polumana Tour Route Planner von blue-zone Gm
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/30/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für polumana Tour Route Planner, seine Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0f434704fe58c7e92584341386850294807d3460
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: b7dda9931bc874b620c10e38e3b6b7c3c51c782a
+ms.sourcegitcommit: 6771e51564baf354398b12cdf2f9eede6a8ce994
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66656112"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67041813"
 ---
 # <a name="polumana-tour-route-planner"></a>polumana Tour Route Planner
 
@@ -58,13 +58,13 @@ Diese Informationen wurden von blue-zone GmbH darüber bereitgestellt, wie diese
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Kontakte, E-Mail-Adresse |
+| Welche Daten werden von Ihrer App verarbeitet? | Kontakte, Email Adresse |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | E-Mail, Adressen von Kontakten |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Email, Adressen von Kontakten |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Niederlande (die) |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Nein |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Nein |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Ja |
 | Verfügen Sie über Vereinbarungen zur Datenfreigabe mit einem Drittanbieterdienst, für den Sie Microsoft-Kundendaten freigeben? | Nein |
@@ -158,7 +158,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.ReadWrite | Anwendung | Nach der Routenoptimierung müssen wir neue Termine erstellen und vorhandene löschen. | [d361752a-c257-474d-bb79-324fbe4898b5](../azure/d361752a-c257-474d-bb79-324fbe4898b5.md) |
 >| Contacts.Read | Anwendung | Wir müssen die Kontakte lesen, um die Termine zu erstellen. | [d361752a-c257-474d-bb79-324fbe4898b5](../azure/d361752a-c257-474d-bb79-324fbe4898b5.md) |
->| User.Read | Anwendung | Wir müssen die E-Mail des Benutzers abrufen, um die Einstellungen beizubehalten. | [d361752a-c257-474d-bb79-324fbe4898b5](../azure/d361752a-c257-474d-bb79-324fbe4898b5.md) |
+>| User.Read | Anwendung | Wir müssen die Email des Benutzers abrufen, um Einstellungen beizubehalten. | [d361752a-c257-474d-bb79-324fbe4898b5](../azure/d361752a-c257-474d-bb79-324fbe4898b5.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 
