@@ -3,18 +3,18 @@ title: Bewerbungsinformationen für Kuban Desks von &#19978;&#28023;&#37239;&#20
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Kuban Desks, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fea7553360feb8cab303cb52d427dc11ea16b3ca
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 9d24ecb0cd772eeafb095e47b2a87de65cb8611d
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66250202"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053211"
 ---
 # <a name="kuban-desks"></a>Kuban Desks
 
@@ -58,13 +58,13 @@ Diese Informationen wurden von &#19978;&#28023;&#37239;&#20134;&#31185;&#25216;&
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | Verwenden sie "Benutzerprofil lesen" (Graph/me), um E-Mails und Benutzernamen abzurufen und in unserer Datenbank zu speichern. |
+| Welche Daten werden von Ihrer App verarbeitet? | Verwenden Sie "Benutzerprofil lesen" (Graph/me), um Email und Benutzernamen abzurufen und in unserer Datenbank zu speichern. |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | Verwenden sie "Benutzerprofil lesen" (Graph/me), um E-Mails und Benutzernamen abzurufen und in unserer Datenbank zu speichern. |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Verwenden Sie "Benutzerprofil lesen" (Graph/me), um Email und Benutzernamen abzurufen und in unserer Datenbank zu speichern. |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Singapur |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 

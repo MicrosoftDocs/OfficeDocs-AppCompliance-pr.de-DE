@@ -3,18 +3,18 @@ title: Anwendungsinformationen für Groopit von Groopit
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/21/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Groopit, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ee56f303fec6d0700be873fb644e95a8dcde94a8
-ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
+ms.openlocfilehash: c9f036aebdff141067c4f35fe3965ced716da167
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66547173"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053250"
 ---
 # <a name="groopit"></a>Groopit
 
@@ -35,7 +35,7 @@ Von Groopit an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | Groopit |
 | ID | WA200003818 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Groopit |
 | Website des Unternehmens | [https://groopit.co](https://groopit.co) |
 | Nutzungsbedingungen der App | [https://groopit.co/terms-of-service/](https://groopit.co/terms-of-service/) |
@@ -64,7 +64,7 @@ Diese Informationen wurden von Groopit darüber bereitgestellt, wie diese App Or
 | Welche Daten werden in Ihren Datenbanken gespeichert? | User Id |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 

@@ -3,18 +3,18 @@ title: Anwendungsinformationen für Leistungserzieler für Viva Connections von 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/06/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Leistungsersteller für Viva Connections, ihre Datenverarbeitungsrichtlinien, Microsoft Cloud App Security App-Kataloginformationen sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f89f2957e4c990d2a4368efb12a6df683c2a80ee
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: 6a8ff36b47fd79e4fd0827b7035d1219fe099156
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66656142"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053083"
 ---
 # <a name="achievers-for-viva-connections"></a>Leistungsträger für Viva Connections
 
@@ -61,7 +61,7 @@ Diese Informationen wurden von den Leistungserzielern darüber bereitgestellt, w
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Mandanten-ID, Benutzer-ID |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Kanada |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Ja |
 | Verfügen Sie über Vereinbarungen zur Datenfreigabe mit einem Drittanbieterdienst, für den Sie Microsoft-Kundendaten freigeben? | Ja |

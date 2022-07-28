@@ -3,18 +3,18 @@ title: Anwendungsinformationen für AttendanceBot von Anaek
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/07/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für AttendanceBot, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ae38fae7ea7f5f93c8f070c9d0079f7feea5cce1
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+ms.openlocfilehash: 15b2e1e76b3e0df07a96e50a24eb0e2e8a377edd
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66705837"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053301"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -64,7 +64,7 @@ Diese Informationen wurden von Anaek darüber bereitgestellt, wie diese App Orga
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Zugriffstoken, Mandantendaten (Mandanten-ID, Name, Teamdetails), Benutzerdaten (Name, E-Mail) |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 

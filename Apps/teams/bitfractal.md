@@ -3,18 +3,18 @@ title: Anwendungsinformationen für BitFractal von BitFractal
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/03/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für BitFractal, seine Datenverarbeitungsrichtlinien, die Informationen zum Microsoft Cloud App Security-App-Katalog und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für BitFractal, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0489ee8ffe2f0e2a670b42f297b9127f2481e1c3
-ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
+ms.openlocfilehash: cf88ecbc220c8131d36dc14db4f9b6085016e7af
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65938728"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053212"
 ---
 # <a name="bitfractal"></a>BitFractal
 
@@ -35,12 +35,12 @@ Von BitFractal an Microsoft bereitgestellte Informationen:
 |:----------------|:-------------|
 | App-Name | BitFractal |
 | ID | WA200004172 |
-| Unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | BitFractal |
 | Website des Unternehmens | [https://www.bitfractal.com](https://www.bitfractal.com) |
 | Nutzungsbedingungen der App | [https://www.bitfractal.com/termsofuse](https://www.bitfractal.com/termsofuse) |
 | Kernfunktionen der App | BitFractal bringt KI auf einfache und effiziente Weise zu Geschäftsbenutzern, um tägliche Prozesse zu automatisieren, indem AI Cognitive Services von Azure mit der benutzerfreundlichen Benutzeroberfläche von Teams verbunden wird. Anschließend wird ihr eine Produktivitäts- und Zusammenarbeitsebene hinzugefügt, indem Teams-Funktionen wie Bots, Registerkarten, Nachrichtenerweiterungen und vieles mehr genutzt werden. |
-| Hauptsitz des Unternehmens | Vereinigte Staaten von Amerika |
+| Hauptsitz des Unternehmens | USA Amerikas |
 | App-Infoseite | [https://www.bitfractal.com](https://www.bitfractal.com) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | Paas |
 | Welche Hosting-Cloudanbieter verwendet die App? | Azure |
@@ -62,9 +62,9 @@ Diese Informationen wurden von BitFractal darüber bereitgestellt, wie diese App
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofildaten (DisplayName, Email, ObjectId, TenantId) |
-| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Vereinigte Staaten von Amerika |
+| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 
@@ -74,7 +74,7 @@ Diese Informationen wurden von BitFractal darüber bereitgestellt, wie diese App
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -143,7 +143,7 @@ Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microso
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle in der Checkliste für die Integration von Microsoft Identity Platform aufgeführten bewährten Methoden überprüft und eingehalten? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |

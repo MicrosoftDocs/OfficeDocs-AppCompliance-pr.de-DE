@@ -3,20 +3,20 @@ title: Anwendungsinformationen für maßgeschneiderte Gespräche von Pogo Studio
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/05/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für maßgeschneiderte Gespräche, die Datenverarbeitungsrichtlinien, die Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a01ac28ae80eae71eee577a8d1d468c3f11f4b2e
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: 5a1e44cf35df8ede13b5073b0fa8dd13ff9ba724
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66656195"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053302"
 ---
-# <a name="tailored-talks"></a>Maßgeschneiderte Gespräche
+# <a name="tailored-talks"></a>Tailored Talks
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ Von Pogo Studio an Microsoft bereitgestellte Informationen:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Maßgeschneiderte Gespräche |
+| App-Name | Tailored Talks |
 | ID | WA200004309 |
 | unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | Pogo Studio |
@@ -64,7 +64,7 @@ Diese Informationen wurden von Pogo Studio darüber bereitgestellt, wie diese Ap
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Mandant, E-Mail |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Vereinigtes Königreich Großbritannien und Nordirland (die) |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Nein |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Ja |
 | Verfügen Sie über Vereinbarungen zur Datenfreigabe mit einem Drittanbieterdienst, für den Sie Microsoft-Kundendaten freigeben? | Ja |

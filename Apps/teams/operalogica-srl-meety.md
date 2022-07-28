@@ -3,18 +3,18 @@ title: Anwendungsinformationen für Meety von operaLogica srl
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/20/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für Meety, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 20ac8b775cbc912c635b304e14fd16dad0192dc1
-ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
+ms.openlocfilehash: 6321c3def79836f043433f0f945d22a4cff5c0dd
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66549564"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053246"
 ---
 # <a name="meety"></a>Meety
 
@@ -35,7 +35,7 @@ Informationen, die von operaLogica srl an Microsoft bereitgestellt werden:
 |:----------------|:-------------|
 | App-Name | Meety |
 | ID | WA200004258 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | operaLogica srl |
 | Website des Unternehmens | [https://meety.business](https://meety.business) |
 | Nutzungsbedingungen der App | [https://meety.business/termsofuse](https://meety.business/termsofuse) |
@@ -58,13 +58,13 @@ Diese Informationen wurden von operaLogica srl darüber bereitgestellt, wie dies
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
-| Welche Daten werden von Ihrer App verarbeitet? | E-Mail, Name, Nachname, Besprechung eingefügt |
+| Welche Daten werden von Ihrer App verarbeitet? | Email, Name, Nachname, Besprechung eingefügt |
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
-| Welche Daten werden in Ihren Datenbanken gespeichert? | E-Mail, Name, Nachname, Besprechung eingefügt |
+| Welche Daten werden in Ihren Datenbanken gespeichert? | Email, Name, Nachname, Besprechung eingefügt |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Irland |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Ja |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 

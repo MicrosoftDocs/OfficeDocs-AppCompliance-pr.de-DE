@@ -3,18 +3,18 @@ title: Anwendungsinformationen für TELUS Business Connect von RingCentral, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für TELUS Business Connect, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 923825beedc6cc9247622726de120d39c702ccec
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: a87262db541cc887d2afb9415d3e5ce79bfcdf56
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66245352"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053245"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 
@@ -63,7 +63,7 @@ Diese Informationen wurden von RingCentral, Inc. darüber bereitgestellt, wie di
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofildaten |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Nein |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 

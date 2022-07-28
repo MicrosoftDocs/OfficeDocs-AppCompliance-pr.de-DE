@@ -3,18 +3,18 @@ title: Anwendungsinformationen für DisasterTech DICE von DisasterTech
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/31/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für DisasterTech DICE, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0ed797cb886577f74601c0cd6effa546b9587efc
-ms.sourcegitcommit: 29a4475d630d2f1d0755a6322eb994646322aca1
+ms.openlocfilehash: a905f01e10c28843b1e823c561abade8bce06501
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65811251"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053227"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -22,7 +22,7 @@ ms.locfileid: "65811251"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Letzte Aktualisierung durch den Entwickler am: 31. Mai 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/7df3e67b-ed62-48e9-a950-c95bd7ebce80" target="_blank">Anzeigen im Teams Store</a>
+* <a href="https://teams.microsoft.com/l/app/7df3e67b-ed62-48e9-a950-c95bd7ebce80" target="_blank">Im Teams Store anzeigen</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001909" target="_blank">Anzeigen in AppSource</a>
 
 ::: zone pivot="general"
@@ -31,11 +31,11 @@ ms.locfileid: "65811251"
 
 Informationen, die von DisasterTech an Microsoft bereitgestellt werden:
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | App-Name | DisasterTech DICE |
 | ID | WA200001909 |
-| unterstützte Office 365 Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | DisasterTech |
 | Website des Unternehmens | [https://www.disastertech.com](https://www.disastertech.com) |
 | Nutzungsbedingungen der App | [https://dice.disastertech.com/tos.html](https://dice.disastertech.com/tos.html) |
@@ -55,7 +55,7 @@ Informationen, die von DisasterTech an Microsoft bereitgestellt werden:
 
 Diese Informationen wurden von DisasterTech darüber bereitgestellt, wie diese App Organisationsdaten sammelt und speichert und welche Kontrolle Ihre Organisation über die von der App gesammelten Daten hat.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Ja |
 | Welche Daten werden von Ihrer App verarbeitet? | Benutzerprofil |
@@ -64,7 +64,7 @@ Diese Informationen wurden von DisasterTech darüber bereitgestellt, wie diese A
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofil |
 | Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Nein |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Nein |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 
@@ -76,7 +76,7 @@ Diese Informationen wurden von DisasterTech darüber bereitgestellt, wie diese A
 
 Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Führen Sie jährliche Penetrationstests für die App durch? | Nein |
 | Verfügt die App über einen dokumentierten Notfallwiederherstellungsplan, einschließlich einer Sicherungs- und Wiederherstellungsstrategie? | Nein |
@@ -104,7 +104,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="compliance"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Entspricht die App dem Health Insurance Portability and Accounting Act (HIPAA)? | Nicht zutreffend |
 | Entspricht die App der Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Nicht zutreffend |
@@ -129,7 +129,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="privsection"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Haben Sie DSGVO oder andere Datenschutz- oder Datenschutzanforderungen oder -pflichten (z. B. CCPA)? | Nein |
 
@@ -139,7 +139,7 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 
 ::: zone pivot="zerotrust"
 
-| **Information** | **Response** |
+| **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
 | Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Nein |
@@ -149,15 +149,15 @@ Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/e
 | Speichert Ihre App Anmeldeinformationen im Code? | Nein |
 | Apps und Add-Ins für Microsoft 365 verwenden möglicherweise zusätzliche Microsoft-APIs außerhalb von Microsoft Graph. Verwendet Ihre App oder Ihr Add-In zusätzliche Microsoft-APIs? | Nein |
 
-#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mithilfe von Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Datenzugriff mit Microsoft Graph
 
->|   **Graph Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
+>|   **Graph-Berechtigung**  | **Berechtigungstyp** |          **Justification**          | **Azure AD-App-ID** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegiert | Microsoft Teams einmaliges Anmelden | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
->| email | Delegiert | Microsoft Teams einmaliges Anmelden | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
->| offline_access | Delegiert | Microsoft Teams einmaliges Anmelden | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
->| openid | Delegiert | Microsoft Teams einmaliges Anmelden | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
->| Profil | Delegiert | Microsoft Teams einmaliges Anmelden | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
+>| User.Read | Delegiert | Einmaliges Anmelden bei Microsoft Teams | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
+>| email | Delegiert | Einmaliges Anmelden bei Microsoft Teams | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
+>| offline_access | Delegiert | Einmaliges Anmelden bei Microsoft Teams | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
+>| openid | Delegiert | Einmaliges Anmelden bei Microsoft Teams | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
+>| Profil | Delegiert | Einmaliges Anmelden bei Microsoft Teams | [7df3e67b-ed62-48e9-a950-c95bd7ebce80](../azure/7df3e67b-ed62-48e9-a950-c95bd7ebce80.md) |
 
 >Diese Anwendung verfügt nicht über zusätzliche APIs.
 

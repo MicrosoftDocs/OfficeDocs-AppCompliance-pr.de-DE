@@ -3,20 +3,20 @@ title: Anwendungsinformationen für die klassifizierte Auflistung von BinaryRoot
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/01/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Alle verfügbaren Sicherheits- und Complianceinformationen für die Klassifizierte Auflistung, die Datenverarbeitungsrichtlinien, die Kataloginformationen des Microsoft Cloud App Security-App sowie Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
+description: Alle verfügbaren Sicherheits- und Complianceinformationen für den Klassifizierten Eintrag, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e64f6953c0157e09c3a2896926ca63a15988b63c
-ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
+ms.openlocfilehash: 0813d8c063e64c6ccc37a1d1d4aad659be54ee75
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65938720"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053112"
 ---
-# <a name="classified-listing"></a>Klassifizierter Eintrag
+# <a name="classified-listing"></a>Klassifizierte Auflistung
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,9 +33,9 @@ Informationen, die von BinaryRoots an Microsoft bereitgestellt werden:
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
-| App-Name | Klassifizierter Eintrag |
+| App-Name | Klassifizierte Auflistung |
 | ID | WA200004155 |
-| Unterstützte Office 365-Clients | Microsoft Teams |
+| unterstützte Office 365 Clients | Microsoft Teams |
 | Name des Partnerunternehmens | BinaryRoots |
 | Website des Unternehmens | [https://binaryroots.com](https://binaryroots.com) |
 | Nutzungsbedingungen der App | [https://binaryroots.com/classifiedapp-terms-and-conditions](https://binaryroots.com/classifiedapp-terms-and-conditions) |
@@ -60,9 +60,9 @@ Diese Informationen wurden von BinaryRoots darüber bereitgestellt, wie diese Ap
 | Verarbeitet die App oder die zugrunde liegende Infrastruktur Daten, die sich auf einen Microsoft-Kunden oder sein Gerät beziehen? | Nein |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Nur die IDs – Mandanten-ID, Administratorbenutzer-IDs, Website-URL und Website-ID, Listen-/Bibliotheks-ID |
-| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Vereinigte Staaten von Amerika |
+| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Nein |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 
@@ -72,7 +72,7 @@ Diese Informationen wurden von BinaryRoots darüber bereitgestellt, wie diese Ap
 
 ::: zone pivot="security"
 
-Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) werden unten angezeigt.
+Informationen aus dem [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) Katalog werden unten angezeigt.
 
 | **Information** | **Antwort** |
 |:----------------|:-------------|
@@ -151,7 +151,7 @@ Informationen aus dem [Microsoft Cloud App Security-Katalog](https://www.microso
 | **Information** | **Antwort** |
 |:----------------|:-------------|
 | Ist Ihre Anwendung in Microsoft Identity Platform (Azure AD) für einmaliges Anmelden, API-Zugriff usw. integriert? | Ja |
-| Haben Sie alle in der Checkliste für die Integration von Microsoft Identity Platform aufgeführten bewährten Methoden überprüft und eingehalten? | Ja |
+| Haben Sie alle anwendbaren bewährten Methoden überprüft und eingehalten, die in der Checkliste für die Microsoft Identity Platform Integration aufgeführt sind? | Ja |
 | Verwendet Ihre App die neueste Version von MSAL (Microsoft Authentication Library) oder Microsoft Identity Web für die Authentifizierung? | Ja |
 | Unterstützt Ihre App Richtlinien für bedingten Zugriff? | Nein |
 | Unterstützt Ihre App die kontinuierliche Zugriffsauswertung (Continuous Access Evaluation, CAE) | Nein |

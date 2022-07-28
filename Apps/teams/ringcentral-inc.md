@@ -3,18 +3,18 @@ title: Anwendungsinformationen für RingCentral von RingCentral, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/21/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für RingCentral, seine Datenverarbeitungsrichtlinien, seine Microsoft Cloud App Security App-Kataloginformationen und Sicherheits-/Complianceinformationen in der CSA STAR-Registrierung.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9c9c2febfd6153c8ba5184d806d2bb67d611881a
-ms.sourcegitcommit: ce10fa06370903c7c2ee18b55b219dc735ac6b58
+ms.openlocfilehash: 2b82a908252784ca02b3210adb99678d78ef72aa
+ms.sourcegitcommit: 3e68e819f21cd95aeb2abc018cd86af2a9dd0b1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66960870"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67053111"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -40,7 +40,7 @@ Informationen, die von RingCentral, Inc. an Microsoft bereitgestellt werden:
 | Website des Unternehmens | [https://www.ringcentral.com](https://www.ringcentral.com) |
 | Nutzungsbedingungen der App | [https://www.ringcentral.com/legal/last-update-October-15-20...](https://www.ringcentral.com/legal/last-update-October-15-2019/eulatos.html) |
 | Kernfunktionen der App | Starten und Teilnehmen an RingCentral-Video- oder -Audioanrufen mit Schnellen Bot-Befehlen und Messaging-Funktionen. |
-| Hauptsitz des Unternehmens | Estados Unidos Amerikas |
+| Hauptsitz des Unternehmens | USA Amerikas |
 | App-Infoseite | [https://www.ringcentral.com/apps/ringcentral-for-microsoft-...](https://www.ringcentral.com/apps/ringcentral-for-microsoft-teams) |
 | Was ist die Hostingumgebung oder das Dienstmodell, die zum Ausführen Ihrer App verwendet wird? | IsvHosted |
 
@@ -61,9 +61,9 @@ Diese Informationen wurden von RingCentral, Inc. darüber bereitgestellt, wie di
 | Unterstützt die App TLS 1.1 oder höher? | Ja |
 | Speichert die App oder die zugrunde liegende Infrastruktur Microsoft-Kundendaten? | Ja |
 | Welche Daten werden in Ihren Datenbanken gespeichert? | Benutzerprofildaten |
-| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | Estados Unidos Amerikas |
+| Wenn zugrunde liegende Infrastrukturprozesse oder Microsoft-Kundendaten gespeichert werden, wo werden diese Daten geografisch gespeichert? | USA Amerikas |
 | Haben Sie einen etablierten Datenbesorgungs- und Entsorgungsprozess? | Nein |
-| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? |  |
+| Wie lange werden Die Daten nach der Kontoentsendung aufbewahrt? | Mehr als 90 Tage |
 | Haben Sie einen etablierten Datenzugriffsverwaltungsprozess? | Ja |
 | Übertragen Sie Kundendaten oder Kundeninhalte an Dritte oder Unterauftragsverarbeiter? | Nein |
 
