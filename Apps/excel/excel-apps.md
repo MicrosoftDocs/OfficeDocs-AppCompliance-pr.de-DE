@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von Microsoft Excel Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/06/2022
+ms.date: 08/01/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Excel-Apps.
 localization_priority: Normal
-ms.openlocfilehash: f0215b6a743233772d197445824d543f2deb754b
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: 2894cd737ff9d7f2b0c7e84047b026dd92ff9497
+ms.sourcegitcommit: 15212d15b25eed0a9837a7010d6334ef7d4fc4db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66655757"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67153018"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Excel Apps
 
@@ -28,7 +28,7 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Forbury](./forbury-property.md) | Forbury-Eigenschaft | **✓** |  |
 | [Foxit PDF-Editor für Microsoft Word, Excel und PowerPoint](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
 | [Impressionsignaturen](./impression-signatures.md) | Impressionsignaturen | **✓** |  |
-| [Indicadores Economicos Chile](./birdie-indicadores-economicos-chile.md) | Birdie | **✓** |  |
+| [Indicadores Economicos Chile](./birdie-indicadores-economicos-chile.md) | Vögelchen | **✓** |  |
 | [Jira Cloud für Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
 | [MeaningCloud Textanalyse für Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint für Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
