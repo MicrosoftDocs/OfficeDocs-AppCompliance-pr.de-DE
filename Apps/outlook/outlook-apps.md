@@ -3,17 +3,17 @@ title: Sicherheit und Compliance von Microsoft Outlook Apps – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/27/2022
+ms.date: 08/02/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Microsoft Outlook-Apps.
 localization_priority: Normal
-ms.openlocfilehash: b6b1815e317146c15ecb81c64316776a9e791d1a
-ms.sourcegitcommit: 6771e51564baf354398b12cdf2f9eede6a8ce994
+ms.openlocfilehash: 55aabaff61103f841ac0cfc8ec574a57ebbc67fe
+ms.sourcegitcommit: df1ca6e491e75450a6f83745e3463c0289ae2a1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "67040974"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67170173"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Sicherheit und Compliance von Microsoft Outlook Apps
 
@@ -25,7 +25,6 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [Adobe Acrobat Sign für Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Appspace für Outlook](./appspace-inc-for-outlook.md) | Appspace, Inc | **✓** |  |
 | [Meine E-Mail heraufstufen](./boost-my-mail.md) | Meine E-Mail heraufstufen | **✓** |  |
-| [CI-Signatur](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo für Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Pendeln](./commuty.md) | Pendeln | **✓** |  |
 | [DocuSign für Outlook](./docusign-inc-for-outlook.md) | DocuSign, Inc. | **✓** |  |

@@ -3,17 +3,17 @@ title: Azure-App-ID-Informationen für cbc1f86a-32a7-4efb-8c6c-cde1964aa9a2
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 08/01/2022
+ms.date: 08/02/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für cbc1f86a-32a7-4efb-8c6c-cde1964aa9a2.
-ms.openlocfilehash: b82ac9d40c8238ff64c12161a440430193bce01f
-ms.sourcegitcommit: 15212d15b25eed0a9837a7010d6334ef7d4fc4db
+ms.openlocfilehash: 7a5b8b8102748b4a96be622fffdac78dd7c45811
+ms.sourcegitcommit: df1ca6e491e75450a6f83745e3463c0289ae2a1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/02/2022
-ms.locfileid: "67154558"
+ms.locfileid: "67169433"
 ---
 # <a name="azure-app-id-cbc1f86a-32a7-4efb-8c6c-cde1964aa9a2"></a>Azure-App-ID: cbc1f86a-32a7-4efb-8c6c-cde1964aa9a2
 
