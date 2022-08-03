@@ -84,8 +84,6 @@ items:
         href: outlook/appspace-inc-for-outlook.md
       - name: Meine E-Mail heraufstufen
         href: outlook/boost-my-mail.md
-      - name: CI-Signature
-        href: outlook/ci-solution-gmbh-signature.md
       - name: CodeTwo für Outlook
         href: outlook/codetwo-for-outlook.md
       - name: Pendeln
@@ -396,8 +394,6 @@ items:
         href: teams/chrono-innovation-chronoscope-time-tracking.md
       - name: Chronus
         href: teams/chronus.md
-      - name: CI-Out-of-Office Lite
-        href: teams/ci-solution-gmbh-out-of-office-lite.md
       - name: Klassifizierte Auflistung
         href: teams/binaryroots-classified-listing.md
       - name: Clerk SMS
@@ -442,8 +438,6 @@ items:
         href: teams/atlassian-confluence-cloud.md
       - name: Zusammenführungskonnektor von MVF
         href: teams/move-work-forward-confluence-connector-by-mwf.md
-      - name: Verbinden+
-        href: teams/reward-gateway-connectplus.md
       - name: Contact Center
         href: teams/landis-technologies-llc-contact-center.md
       - name: Contact Center-| ROGER365.io
@@ -1148,8 +1142,6 @@ items:
         href: teams/sineco-sine.md
       - name: Skedda
         href: teams/skedda-pty-ltd.md
-      - name: SkilledHuman
-        href: teams/saltflat-limited-skilledhuman.md
       - name: Skillsoft Percipio
         href: teams/skillsoft-percipio.md
       - name: Skoach
@@ -1260,8 +1252,6 @@ items:
         href: teams/teamble.md
       - name: TeamConnect for Sitecore
         href: teams/subramanian-ramanathan-teamconnect-for-sitecore.md
-      - name: TeaMe-Integritätsprüfungsbot
-        href: teams/teame-health-check-bot.md
       - name: Teameo Class Space
         href: teams/ls2-innovation-teameo-class-space.md
       - name: Teamflect
@@ -1959,8 +1949,6 @@ items:
         href: azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3.md
       - name: 5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9
         href: azure/5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9.md
-      - name: 5e4dadf5-9f90-449b-9e39-934fd10b7c23
-        href: azure/5e4dadf5-9f90-449b-9e39-934fd10b7c23.md
       - name: 5e5d72e0-2df7-4ca7-be58-81dc28d3bdad
         href: azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md
       - name: 5edad654-f2d5-41d8-bfc0-92c2735252e1
@@ -2479,8 +2467,6 @@ items:
         href: azure/fbc29d83-1fe3-48ad-b0a4-2785adf25984.md
       - name: fbec26ad-da44-4a5d-8e6d-30df5435c84e
         href: azure/fbec26ad-da44-4a5d-8e6d-30df5435c84e.md
-      - name: fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da
-        href: azure/fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da.md
       - name: fc8f7563-e8ea-4b6d-9622-82775a21a35a
         href: azure/fc8f7563-e8ea-4b6d-9622-82775a21a35a.md
       - name: fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc
