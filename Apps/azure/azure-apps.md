@@ -3,17 +3,17 @@ title: Azure-App IDs Sicherheit und Compliance – Alle Apps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 08/01/2022
+ms.date: 08/02/2022
 ms.topic: article
 ms.service: attestation
 description: Alle verfügbaren Sicherheits- und Complianceinformationen für alle Azure-App IDs.
 localization_priority: Normal
-ms.openlocfilehash: 00ac33fb18eaf19414e9e252de5896b02604d793
-ms.sourcegitcommit: 15212d15b25eed0a9837a7010d6334ef7d4fc4db
+ms.openlocfilehash: 55df490825be7cc826095363ebf6af05b61d74de
+ms.sourcegitcommit: df1ca6e491e75450a6f83745e3463c0289ae2a1a
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/02/2022
-ms.locfileid: "67151838"
+ms.locfileid: "67166213"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Azure-App IDs Sicherheit und Compliance
 
@@ -188,7 +188,6 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [5d655b39-963c-465a-89ab-bdad7ab7af7f](./5d655b39-963c-465a-89ab-bdad7ab7af7f.md) | **✓** |  |
 | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](./5d8eb1a9-2188-4292-86f6-f4964d49e8b3.md) | **✓** |  |
 | [5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9](./5dcf4bd7-eccd-4f6d-b5f0-a4e04aab4ff9.md) | **✓** |  |
-| [5e4dadf5-9f90-449b-9e39-934fd10b7c23](./5e4dadf5-9f90-449b-9e39-934fd10b7c23.md) | **✓** |  |
 | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](./5e5d72e0-2df7-4ca7-be58-81dc28d3bdad.md) | **✓** |  |
 | [5edad654-f2d5-41d8-bfc0-92c2735252e1](./5edad654-f2d5-41d8-bfc0-92c2735252e1.md) | **✓** |  |
 | [5f1f4eb7-479e-42f3-b86f-4c1f53e1c222](./5f1f4eb7-479e-42f3-b86f-4c1f53e1c222.md) | **✓** |  |
@@ -448,7 +447,6 @@ Microsoft arbeitet mit unseren Microsoft 365-Entwicklerpartnern zusammen, um die
 | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](./fb6ddd39-35f2-4110-a45d-d2e73b946cae.md) | **✓** |  |
 | [fbc29d83-1fe3-48ad-b0a4-2785adf25984](./fbc29d83-1fe3-48ad-b0a4-2785adf25984.md) | **✓** |  |
 | [fbec26ad-da44-4a5d-8e6d-30df5435c84e](./fbec26ad-da44-4a5d-8e6d-30df5435c84e.md) | **✓** |  |
-| [fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da](./fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da.md) | **✓** |  |
 | [fc8f7563-e8ea-4b6d-9622-82775a21a35a](./fc8f7563-e8ea-4b6d-9622-82775a21a35a.md) | **✓** |  |
 | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](./fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc.md) | **✓** |  |
 | [ff50870f-b19b-489c-9766-4bcee4e843eb](./ff50870f-b19b-489c-9766-4bcee4e843eb.md) | **✓** |  |
